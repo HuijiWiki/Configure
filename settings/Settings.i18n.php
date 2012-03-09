@@ -18718,6 +18718,7 @@ $messages['roa-tara'] = array(
  * @author Grigol
  * @author Haffman
  * @author Innv
+ * @author KPu3uC B Poccuu
  * @author Kaganer
  * @author Kv75
  * @author Lockal
@@ -18764,7 +18765,9 @@ $messages['ru'] = array(
 	'configure-setting-wgThumbUpright' => 'Корректирующий множитель ширины для upright-миниатюр',
 	'configure-setting-wgShowEXIF' => 'Показать EXIF-данные на страницах описания файлов',
 	'configure-setting-wgThumbLimits' => 'Допустимые размеры миниатюр',
+	'configure-setting-wgExcludeFromThumbnailPurge' => 'Расширения файлов эскизов, которые должны быть исключены из обычных операций обновления',
 	'configure-setting-wgUseImageResize' => 'Включить динамическое изменение размера изображений на стороне сервера',
+	'configure-setting-wgEnableAutoRotation' => 'Поворачивать изображения согласно данным EXIF',
 	'configure-setting-wgTrustedMediaFormats' => 'Медиа-типы и MIME-типы, считающиеся «безопасными»',
 	'configure-setting-wgImgAuthDetails' => 'Отображать посредством img_auth.php детальные сведения о причине отказа в доступе',
 	'configure-setting-wgImgAuthPublicTest' => 'Проверять изображения на общедоступность и отображать ошибку посредством img_auth.php, если это так',
@@ -18862,11 +18865,13 @@ $messages['ru'] = array(
 	'configure-setting-wgStrictFileExtensions' => 'Запретить любые неразрешённые расширения файлов',
 	'configure-setting-wgUploadSizeWarning' => 'Оповещать о пороге размера загрузки',
 	'configure-setting-wgMaxUploadSize' => 'Максимально допустимый размер загружаемых файлов',
+	'configure-setting-wgUploadStashMaxAge' => 'Максимальный возраст временных (незаконченных) загруженных файлов, в секундах',
 	'configure-setting-wgHTTPTimeout' => 'Таймаут для запросов HTTP',
 	'configure-setting-wgHTTPProxy' => 'Использовать HTTP-прокси',
 	'configure-setting-wgAsyncHTTPTimeout' => 'Тайм-аут для асинхронных HTTP-запросов',
 	'configure-setting-wgVersion' => 'Версия MediaWiki',
 	'configure-setting-wgAllowSpecialInclusion' => 'Разрешить включения служебных страниц',
+	'configure-setting-wgExportAllowAll' => 'Разрешить выгрузку всей вики в одном файле через [[Special:Export]]',
 	'configure-setting-wgExportAllowHistory' => 'Разрешить экспорт с включением полной истории',
 	'configure-setting-wgExportAllowListContributors' => 'Позволяет экспортировать список участников',
 	'configure-setting-wgExportFromNamespaces' => 'Разрешить настройку «экспортировать все страницы в пространстве имён» на [[Special:Export]]',
@@ -19281,6 +19286,7 @@ $messages['ru'] = array(
 	'configure-setting-wgUploadStashScalerBaseUrl' => 'Путь к миниатюрам изображений при использовании удалённого масштабирования по запросу',
 	'configure-setting-wgAllowCategorizedRecentChanges' => 'Разрешить фильтровать свежие правки по категории или одной из под(подподпод{{int:ellipsis}})категорий',
 	'configure-setting-wgPutIPinRC' => 'Записывать IP-адреса в таблице «recentchanges»',
+	'configure-setting-wgAutopromoteOnceLogInRC' => 'Записывать автоматический перевод в группы в свежих правках',
 	'configure-setting-wgRCChangedSizeThreshold' => 'Подсвечивать в свежих правках числа разницы символов меньшие, чем',
 	'configure-setting-wgRCFilterByAge' => 'Фильтровать $wgRCLinkDays для избежания показа значений, больших чем $wgRCMaxAge',
 	'configure-setting-wgRCLinkLimits' => 'Порог изменений в свежих правках',
