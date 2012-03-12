@@ -1528,6 +1528,7 @@ $messages['bg'] = array(
 
 /** Banjar (Bahasa Banjar)
  * @author Alamnirvana
+ * @author Bennylin
  * @author Ezagren
  * @author J Subhi
  */
@@ -1536,6 +1537,7 @@ $messages['bjn'] = array(
 	'configure-desc-val' => 'Nilai',
 	'configure-edit-core' => 'MediaWiki',
 	'configure-section-pages' => 'Tutungkaran',
+	'configure-section-recentchanges' => 'Paubahan tahanyar',
 );
 
 /** Bengali (বাংলা)
