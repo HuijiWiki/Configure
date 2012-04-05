@@ -1065,7 +1065,7 @@ Por favor créalu o cámbialu pa usar esta estensión.',
 	'configure-section-feed' => 'Canal',
 	'configure-section-job' => 'Xeres',
 	'configure-section-search' => 'Guetar',
-	'configure-section-copyright' => 'Copyright',
+	'configure-section-copyright' => "Drechos d'autor",
 	'configure-section-htcp' => 'Multidifusión HTCP',
 	'configure-section-misc' => 'Entemezu',
 	'configure-section-filter' => 'Peñeramientu',
@@ -6808,11 +6808,12 @@ $messages['ku-latn'] = array(
 /** Cornish (Kernowek)
  * @author Kernoweger
  * @author Kw-Moon
+ * @author Nrowe
  */
 $messages['kw'] = array(
-	'configure-section-pages' => 'Folennow',
-	'configure-section-upload' => 'Ughcarga',
-	'configure-section-search' => 'Whilas',
+	'configure-section-pages' => 'Folednow',
+	'configure-section-upload' => 'Ughkarga',
+	'configure-section-search' => 'Hwilas',
 	'configure-throttle-action-edit' => 'Chanjya',
 );
 
@@ -7010,6 +7011,7 @@ Leet e w.e.g un oder ännert en esou datt dës Erweiderung funktionéiert.",
 
 /** Lezghian (Лезги)
  * @author Migraghvi
+ * @author Namik
  */
 $messages['lez'] = array(
 	'configure' => 'Вики низамарун',
@@ -7073,7 +7075,7 @@ $messages['lez'] = array(
 	'configure-section-stats' => 'Сайтдин статистика',
 	'configure-section-skin' => 'КЪайдадиз ттун',
 	'configure-section-vector' => '"Вектор" тIвар алай къайдадиз ттун тема',
-	'configure-section-category' => 'Категорияр',
+	'configure-section-category' => 'Тlаб',
 	'configure-section-cache' => 'Кэш',
 	'configure-section-pcache' => 'Парсердин кэш',
 	'configure-section-messagecache' => 'Ччарарин кэш',
