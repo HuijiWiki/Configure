@@ -167,7 +167,7 @@ class FindSettings extends Maintenance {
 					'wgExtensionFunctions',        // Extensions only
 					'wgExtensionMessagesFiles',    // Extensions only
 					'wgFeedClasses',               // Needs PHP code
-					'wgFilterCallback',            // Needs PHP code
+					'wgFilterCallback',            // Deprecated + Needs PHP code
 					'wgHooks',                     // Extensions only
 					'wgInputEncoding',             // Deprecated
 					'wgJobClasses',                // Extensions only
