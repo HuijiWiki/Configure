@@ -9737,11 +9737,12 @@ Para usar esta extensão crie-o ou altere-o, por favor.',
  * @author Crazymadlover
  * @author Giro720
  * @author Hamilton Abreu
+ * @author Jaideraf
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(
 	'configure' => 'Configurar o wiki',
-	'configure-desc' => 'Permite que usuários autorizados [[Special:Configure|configurem]] a wiki a partir de uma interface web',
+	'configure-desc' => 'Permite que usuários autorizados [[Special:Configure|configurem]] o wiki a partir de uma interface web',
 	'configure-desc-group' => 'Grupo',
 	'configure-desc-key' => 'Chave',
 	'configure-desc-ns' => 'Espaço nominal',
@@ -9855,7 +9856,7 @@ Para usar esta extensão crie-o ou altere-o, por favor.',
 	'configure-section-thumbnail' => 'Miniaturização de imagens',
 	'configure-section-output' => 'Saída',
 	'configure-select-wiki' => 'Seleção de wiki',
-	'configure-select-wiki-desc' => 'Selecione a wiki que você quer configurar.',
+	'configure-select-wiki-desc' => 'Selecione o wiki que você deseja configurar.',
 	'configure-select-wiki-view-desc' => 'Selecione um wiki do qual deseja ver as versões de configuração.',
 	'configure-select-wiki-view-all' => 'Todas as wikis',
 	'configure-select-wiki-view-specific' => 'Wiki específico:',
