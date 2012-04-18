@@ -6124,6 +6124,7 @@ Assegnare a PHP il diritto di scrittura su di essa per utilizzare questa estensi
  * @author Fievarsty
  * @author Fryed-peach
  * @author Ohgi
+ * @author Shirayuki
  * @author 青子守歌
  */
 $messages['ja'] = array(
@@ -6203,7 +6204,7 @@ $messages['ja'] = array(
 	'configure-section-resourceloader' => 'リソース読み込み機能',
 	'configure-section-namespaces' => '名前空間',
 	'configure-section-stats' => 'サイトの統計',
-	'configure-section-skin' => '外装',
+	'configure-section-skin' => 'スキン',
 	'configure-section-vector' => 'ベクター・スキン',
 	'configure-section-category' => 'カテゴリ',
 	'configure-section-cache' => 'キャッシュ',
