@@ -6129,7 +6129,7 @@ Assegnare a PHP il diritto di scrittura su di essa per utilizzare questa estensi
  */
 $messages['ja'] = array(
 	'configure' => 'ウィキの構成を設定する',
-	'configure-desc' => '権限のある利用者に、ウェブベースインターフェースを使用したウィキの[[Special:Configure|構成変更]]を許可する',
+	'configure-desc' => '権限のある利用者に、ウェブベースインターフェイスを使用したウィキの[[Special:Configure|構成変更]]を許可する',
 	'configure-desc-group' => 'グループ',
 	'configure-desc-key' => 'キー',
 	'configure-desc-ns' => '名前空間',
@@ -6204,7 +6204,7 @@ $messages['ja'] = array(
 	'configure-section-resourceloader' => 'リソース読み込み機能',
 	'configure-section-namespaces' => '名前空間',
 	'configure-section-stats' => 'サイトの統計',
-	'configure-section-skin' => 'スキン',
+	'configure-section-skin' => '外装',
 	'configure-section-vector' => 'ベクター・スキン',
 	'configure-section-category' => 'カテゴリ',
 	'configure-section-cache' => 'キャッシュ',
