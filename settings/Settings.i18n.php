@@ -11684,6 +11684,7 @@ $messages['it'] = array(
  * @author Naohiro19
  * @author Ohgi
  * @author Schu
+ * @author Shirayuki
  * @author Whym
  * @author 青子守歌
  */
@@ -11890,7 +11891,7 @@ $messages['ja'] = array(
 	'configure-setting-wgDebugLogPrefix' => 'デバッグログの行のプレフィクス',
 	'configure-setting-wgDebugRedirects' => '実際に対象URLへリダイレクトする代わりにリダイレクト位置を表示する',
 	'configure-setting-wgDebugPrintHttpHeaders' => 'デバッグ情報内に全てのリクエストのHTTPヘッダを印刷する',
-	'configure-setting-wgDebugTimestamps' => 'デバッグメッセージの冒頭に対応するタイムスタンプを入れる',
+	'configure-setting-wgDebugTimestamps' => 'デバッグメッセージの前に相対的な時刻印を付加',
 	'configure-setting-wgDevelopmentWarnings' => 'ある種の潜在的なエラー条件や廃止予定の関数に対して PHP の例外を投げる',
 	'configure-setting-wgShowExceptionDetails' => '例外の完全なスタックトレースを表示する',
 	'configure-setting-wgShowDBErrorBacktrace' => 'データベースエラーについて完全なスタックトレースを出力する',
