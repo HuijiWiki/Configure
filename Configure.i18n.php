@@ -513,6 +513,7 @@ $messages['an'] = array(
 
 /** Arabic (العربية)
  * @author Alnokta
+ * @author DRIHEM
  * @author Majid Al-Dharrab
  * @author Meno25
  * @author OsamaK
@@ -598,6 +599,7 @@ $messages['ar'] = array(
 	'configure-section-site' => 'تخصيص الموقع',
 	'configure-section-ajax' => 'أجاكس',
 	'configure-section-css-js' => 'CSS وجافاسكريبت',
+	'configure-section-resourceloader' => 'محمل الموارد',
 	'configure-section-namespaces' => 'نطاقات',
 	'configure-section-stats' => 'إحصاءات الموقع',
 	'configure-section-skin' => 'واجهات',
