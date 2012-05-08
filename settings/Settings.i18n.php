@@ -5604,6 +5604,13 @@ $messages['de'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Port für den UDP-Profiler',
 );
 
+/** Zazaki (Zazaki)
+ * @author Mirzali
+ */
+$messages['diq'] = array(
+	'configure-setting-wgExtraLanguageNames-value' => 'Name',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
