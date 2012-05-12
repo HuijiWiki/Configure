@@ -11733,7 +11733,7 @@ $messages['ig'] = array(
 	'configure-setting-wgDebugLogGroups-value' => 'Usòrò',
 );
 
-/** Ingush (ГІалгІай Ğalğaj)
+/** Ingush (ГӀалгӀай)
  * @author Amire80
  * @author Sapral Mikail
  */
@@ -13668,7 +13668,7 @@ $messages['mk'] = array(
 	'configure-setting-wgQueryCacheLimit' => "Број на редови за кеширање во in 'querycache' табелата",
 	'configure-setting-wgRevisionCacheExpiry' => 'Истекување на кеширањето на текстот од ревизија во memcached (или 0 за да се оневозможи)',
 	'configure-setting-wgThumbnailEpoch' => 'Епоха на чистење минијатури',
-	'configure-setting-wgTranscludeCacheExpiry' => 'Истекување на кешот за интервики-превметнувања',
+	'configure-setting-wgTranscludeCacheExpiry' => 'Истекување на кешот за меѓувики-превметнувања',
 	'configure-setting-wgUseFileCache' => 'Користи го податочниот кеш',
 	'configure-setting-wgUseGzip' => 'Користи GZIP кодирање',
 	'configure-setting-wgAllowDisplayTitle' => 'Дозволи употреба на <nowiki>{{DISPLAYTITLE}}</nowiki>',
@@ -13696,7 +13696,7 @@ $messages['mk'] = array(
 	'configure-setting-wgDisableLangConversion' => 'Оневозможи претворање на јазични варијанти',
 	'configure-setting-wgDisableTitleConversion' => 'Оневозможи претворање на јазични варијанти за имиња на страници',
 	'configure-setting-wgForceUIMsgAsContentMsg' => 'Пораки од корисничкиот посредник кои ќе се третираат како содржински пораки',
-	'configure-setting-wgInterwikiMagic' => 'Прикажувај интервики врски во специјален список',
+	'configure-setting-wgInterwikiMagic' => 'Прикажувај меѓувики-врски во специјален список',
 	'configure-setting-wgLanguageCode' => 'Јазичен код на мрежното место',
 	'configure-setting-wgLegacyEncoding' => 'Поранешно кодирање на мрежното место што треба да биде претворено',
 	'configure-setting-wgLoginLanguageSelector' => 'Прикажувај избор на јазик на обрасците за најва и регистрација',
@@ -13721,7 +13721,7 @@ $messages['mk'] = array(
 	'configure-setting-wgCanonicalLanguageLinks' => 'Овозможи канонски јазични врски кај метаподатоците',
 	'configure-setting-wgExtraRandompageSQL' => 'Филтер за [[Special:Random]] (во условот WHERE)',
 	'configure-setting-wgExtraSubtitle' => 'Поднаслов (се појавува под секоја наслов на страница)',
-	'configure-setting-wgHideInterlanguageLinks' => 'Скриј интервики-врски од страничната лента',
+	'configure-setting-wgHideInterlanguageLinks' => 'Скриј меѓувики-врски од страничната лента',
 	'configure-setting-wgLegalTitleChars' => 'Знаци дозволени во наслови на страници (класа на знаци од регуларен израз)',
 	'configure-setting-wgMaxArticleSize' => 'Максимална големина на страницата (кБ)',
 	'configure-setting-wgMaxRedirects' => 'Максимален број на пренасочувања кои ќе уследат при решавање на пренасочувања',
@@ -13763,7 +13763,7 @@ $messages['mk'] = array(
 	'configure-setting-wgExportMaxHistory' => 'Максимален број на ревизии за [[Special:Export]]',
 	'configure-setting-wgExportMaxLinkDepth' => 'Максимална вредност на параметарот „pagelink-depth“ во [[Special:Export]]',
 	'configure-setting-wgFilterLogTypes' => 'Дозволени видови бришења за дневник',
-	'configure-setting-wgImportTargetNamespace' => 'Целен именски простор за интервики увози',
+	'configure-setting-wgImportTargetNamespace' => 'Целен именски простор за меѓувики-увози',
 	'configure-setting-wgLogRestrictions' => 'Ограничување на пристапот до дневниците',
 	'configure-setting-wgLogRestrictions-key' => 'Вид на дневник',
 	'configure-setting-wgLogRestrictions-value' => 'Право потребно за читање',
@@ -13994,7 +13994,7 @@ $messages['mk'] = array(
 	'configure-setting-wgDisableAnonTalk' => 'Оневозможи страници за разговор за анонимни (ненајавени) корисници',
 	'configure-setting-wgHiddenPrefs' => 'Оневозможени кориснички нагодувања',
 	'configure-setting-wgInvalidUsernameCharacters' => 'Недозволени знаци при создавање на сметка',
-	'configure-setting-wgUserrightsInterwikiDelimiter' => 'Знак кој се користи како разделител при испробување на интервики-корисничките права',
+	'configure-setting-wgUserrightsInterwikiDelimiter' => 'Знак кој се користи како одделувач при испробување на корисничките права на меѓувики',
 	'configure-setting-wgMaxNameChars' => 'Максимален број на бајти во корисничкото име',
 	'configure-setting-wgMaxSigChars' => 'Максимална должина на прилагодениот потпис',
 	'configure-setting-wgMinimalPasswordLength' => 'Минимална должина на потписот',
@@ -14020,14 +14020,14 @@ $messages['mk'] = array(
 	'configure-setting-wgUseCombinedLoginLink' => 'Користи заедничка врска за најава и создавање на сметка',
 	'configure-setting-wgUseTrackbacks' => 'Користи обратни врски',
 	'configure-setting-wgUseTagFilter' => 'Дозволи филтрирање на уредувања со ознаки во скорешните промени, историјата и тн.',
-	'configure-setting-wgDisableHardRedirects' => 'Оневозможи пренасочувања кон специјални страници и интервики страници',
-	'configure-setting-wgEnableScaryTranscluding' => 'Овозможи превметнувања на интервики',
-	'configure-setting-wgImportSources' => 'Список на интервики префикси за меѓувики (transwiki)',
-	'configure-setting-wgInterwikiCache' => 'Овозможи интервики кеш',
-	'configure-setting-wgInterwikiExpiry' => 'Истекување на интервики кешот',
-	'configure-setting-wgInterwikiFallbackSite' => 'Резервно мрежно место за интервики',
+	'configure-setting-wgDisableHardRedirects' => 'Оневозможи пренасочувања кон специјални страници и меѓувики-страници',
+	'configure-setting-wgEnableScaryTranscluding' => 'Овозможи превметнувања на меѓувики',
+	'configure-setting-wgImportSources' => 'Список на меѓувики-префикси за прекувики (transwiki)',
+	'configure-setting-wgInterwikiCache' => 'Овозможи меѓувики-кеш',
+	'configure-setting-wgInterwikiExpiry' => 'Истекување на меѓувики-кешот',
+	'configure-setting-wgInterwikiFallbackSite' => 'Резервно мрежно место за меѓувики',
 	'configure-setting-wgInterwikiScopes' => 'Делокруг на интервиките',
-	'configure-setting-wgLocalInterwiki' => 'Локален интервики префикс',
+	'configure-setting-wgLocalInterwiki' => 'Локален меѓувики-префикс',
 	'configure-setting-wgRedirectSources' => 'Регуларен израз за ограничување на URL-адреси што ќе се прикаже како врски „пренасочено од“',
 	'configure-setting-wgBlockOpenProxies' => 'Автоматско испробување на отворените застапници при уредување',
 	'configure-setting-wgEnableDnsBlacklist' => 'Користи DNS-црни списоци за проверка на отворени застапници',
@@ -14213,7 +14213,7 @@ $messages['mk'] = array(
 	'configure-setting-wgShowUpdatedMarker' => 'Покажувај одбележување „Подновено (од мојата последна посета)“ во скорешните промени, листат ана набљудувања и истории на страници',
 	'configure-setting-wgUseRCPatrol' => 'Користи патролирање на скорешни промени за проверка за вандализам',
 	'configure-setting-wgRC2UDPAddress' => 'Адреса на UDP известувањето за скорешни промени',
-	'configure-setting-wgRC2UDPInterwikiPrefix' => 'Додај интервики префикс во UDP известувањата за скорешни промени',
+	'configure-setting-wgRC2UDPInterwikiPrefix' => 'Додај меѓувики-префикс во UDP известувањата за скорешни промени',
 	'configure-setting-wgRC2UDPOmitBots' => 'Изоставај уредувања од роботи во UDP известувањата за скорешни промени',
 	'configure-setting-wgRC2UDPPort' => 'Порта за UDP известувања за скорешни промени',
 	'configure-setting-wgRC2UDPPrefix' => 'Префикс за редовите испратени на UDP за скорешни промени',
@@ -20341,7 +20341,7 @@ $messages['sr-ec'] = array(
 	'configure-setting-wgImageLimits' => 'Ограничења величина слика за описе страница',
 	'configure-setting-wgMaxAnimatedGifArea' => 'Максимална површина у пикселима за анимиране GIF-ове',
 	'configure-setting-wgMaxImageArea' => 'Максимална површина у пикселима за слике',
-	'configure-setting-wgMediaHandlers' => 'Плагинови за управљање над типовима медија-фајлова',
+	'configure-setting-wgMediaHandlers' => 'Прикључци за управљање врстама медијских датотека',
 	'configure-setting-wgMediaHandlers-key' => 'MIME тип',
 	'configure-setting-wgMediaHandlers-value' => 'Класа управљања',
 	'configure-setting-wgThumbnailScriptPath' => 'Путања до thumb.php за прављење умањених прегледа током прегледа уместо током парсирања стране',
@@ -21558,7 +21558,7 @@ $messages['tg-cyrl'] = array(
 	'configure-setting-wgSecretKey' => 'Калиди махфӣ',
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -22497,7 +22497,7 @@ $messages['uk'] = array(
 	'configure-setting-wgXhtmlNamespaces-key' => 'Простір назв',
 );
 
-/** Veps (Vepsän kel')
+/** Veps (Vepsän kel’)
  * @author Triple-ADHD-AS
  * @author Игорь Бродский
  */

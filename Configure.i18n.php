@@ -358,7 +358,7 @@ $messages['niu'] = array(
 	'configure-section-search' => 'Kumi',
 );
 
-/** Abkhazian (Аҧсуа)
+/** Abkhazian (Аҧсшәа)
  * @author Temuri rajavi
  */
 $messages['ab'] = array(
@@ -5895,7 +5895,7 @@ $messages['ilo'] = array(
 	'configure-section-search' => 'Biroken',
 );
 
-/** Ingush (ГІалгІай Ğalğaj)
+/** Ingush (ГӀалгӀай)
  * @author Amire80
  * @author Sapral Mikail
  */
@@ -9095,12 +9095,18 @@ $messages['pdc'] = array(
 );
 
 /** Pälzisch (Pälzisch)
+ * @author Manuae
  * @author Xqt
  */
 $messages['pfl'] = array(
 	'configure-js-remove' => 'Lesche',
+	'configure-section-images' => 'Dadaije',
 	'configure-throttle-action-edit' => 'Bearwaide',
 	'configure-throttle-action-move' => 'Verschiewe',
+	'configure-condition-operator-or' => 'Oda',
+	'configure-condition-operator-and' => 'Un',
+	'configure-condition-operator-xor' => 'Endweda Oda',
+	'configure-condition-operator-not' => 'Ned',
 );
 
 /** Polish (Polski)
@@ -10103,6 +10109,7 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (Русский)
+ * @author Ahonc
  * @author Ferrer
  * @author Flrn
  * @author Grigol
@@ -10246,7 +10253,7 @@ $messages['ru'] = array(
 	'configure-viewconfig-line' => '$1 $2 от $3 $5: $4',
 	'extensions' => 'Настройка расширений',
 	'right-configure' => 'Настройка вики',
-	'right-configure-all' => 'Настройка всех всех параметров',
+	'right-configure-all' => 'Настройка всех параметров',
 	'right-configure-interwiki' => 'Настройка параметров внешней вики',
 	'right-extensions' => 'Настройка расширений',
 	'right-extensions-all' => 'расширенная настройка расширений',
@@ -12117,7 +12124,7 @@ $messages['ug-arab'] = array(
 	'configure-section-externalauth' => 'سىرتقى دەلىللەش',
 );
 
-/** Uyghur (Latin script) (Uyghurche‎)
+/** Uyghur (Latin script) (Uyghurche)
  * @author Jose77
  */
 $messages['ug-latn'] = array(
@@ -12252,14 +12259,14 @@ $messages['uk'] = array(
 	'configure-viewconfig-line' => '$1 $2 від $3 $5: $4',
 	'extensions' => 'Налаштування розширень',
 	'right-configure' => 'Налаштування вікі',
-	'right-configure-all' => 'Налаштування усіх параметрів Вікі',
-	'right-configure-interwiki' => 'Налаштування зовнішніх параметрів Вікі',
+	'right-configure-all' => 'Налаштування усіх параметрів вікі',
+	'right-configure-interwiki' => 'Налаштування параметрів зовнішньої вікі',
 	'right-extensions' => 'Налаштування розширень',
-	'right-extensions-all' => 'Розширені налаштування розширень',
-	'right-extensions-interwiki' => 'Налаштування розширень зовнішніх Вікі',
+	'right-extensions-all' => 'Розширене налаштування розширень',
+	'right-extensions-interwiki' => 'Налаштування розширень зовнішньої вікі',
 	'right-viewconfig' => 'Перегляд конфігурації вікі',
-	'right-viewconfig-all' => 'Переглянути всі конфігурації Вікі',
-	'right-viewconfig-interwiki' => 'Переглянути конфігурації зовнішньої Вікі',
+	'right-viewconfig-all' => 'Перегляд усіх налаштувань вікі',
+	'right-viewconfig-interwiki' => 'Перегляд налаштувань зовнішньої вікі',
 	'viewconfig' => 'Перегляд конфігурації вікі',
 	'configure-throttle-action-edit' => 'Змінити',
 	'configure-throttle-action-move' => 'Перейменування',
@@ -12322,7 +12329,7 @@ $messages['vec'] = array(
 	'right-configure-all' => 'Configura tute le inpostassion de la wiki',
 );
 
-/** Veps (Vepsän kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
