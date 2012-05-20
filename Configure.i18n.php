@@ -8423,7 +8423,7 @@ Maak die map aan, of verander de instelling voordat u deze extensie kunt gebruik
 	'configure-image-url-explanation' => 'Voer de URL voor een afbeelding in, of de naam van een afbeelding in deze wiki (zonder de naamruimte).
 Er wordt een voorvertoning weergegeven als u het veld verlaat.',
 	'configure-section-robots' => 'Webcrawlers',
-	'configure-section-features' => 'Additionele functionaliteit',
+	'configure-section-features' => 'Extra functionaliteit',
 	'configure-section-general' => 'Algemene instellingen',
 	'configure-section-pages' => "Pagina's",
 	'configure-section-paths' => 'Paden',
