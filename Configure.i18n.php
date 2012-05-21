@@ -7015,6 +7015,7 @@ Leet e w.e.g un oder ännert en esou datt dës Erweiderung funktionéiert.",
 /** Lezghian (Лезги)
  * @author Migraghvi
  * @author Namik
+ * @author Soul Train
  */
 $messages['lez'] = array(
 	'configure' => 'Вики низамарун',
@@ -7078,7 +7079,7 @@ $messages['lez'] = array(
 	'configure-section-stats' => 'Сайтдин статистика',
 	'configure-section-skin' => 'КЪайдадиз ттун',
 	'configure-section-vector' => '"Вектор" тIвар алай къайдадиз ттун тема',
-	'configure-section-category' => 'Тlаб',
+	'configure-section-category' => 'Категорияр',
 	'configure-section-cache' => 'Кэш',
 	'configure-section-pcache' => 'Парсердин кэш',
 	'configure-section-messagecache' => 'Ччарарин кэш',

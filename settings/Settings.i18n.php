@@ -19332,6 +19332,7 @@ $messages['ru'] = array(
 	'configure-setting-wgUpgradeKey' => 'Ключ для запуска обновлений по config/index.php',
 	'configure-setting-wgCompressRevisions' => 'Сжимать старые версии страниц, если возможно',
 	'configure-setting-wgDisableOutputCompression' => 'Отключить сжатие вывода',
+	'configure-setting-wgSend404Code' => 'Отвечать HTTP-кодом 404 на запрос несуществующих страниц.',
 	'configure-setting-wgExternalDiffEngine' => 'Внешний движок разниц версий',
 	'configure-setting-wgMaxShellFileSize' => 'Максимальный размер файла, создаваемого shell-процессом в Linux, в Кб',
 	'configure-setting-wgMaxShellMemory' => 'Максимальный размер виртуальной памяти, доступной shell-процессу в Linux, в Кб',
