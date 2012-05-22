@@ -2848,9 +2848,11 @@ Bitte erstellen Sie sie und führen Sie configure.sql darin aus oder korrigieren
 );
 
 /** Zazaki (Zazaki)
+ * @author Erdemaslancan
  * @author Mirzali
  */
 $messages['diq'] = array(
+	'configure-desc-val' => 'Deger',
 	'configure-throttle-action-edit' => 'Bıvurne',
 	'configure-throttle-action-rollback' => 'Peyser bia',
 );
@@ -4301,7 +4303,7 @@ $messages['gl'] = array(
 	'configure-ext-ext-dependency-err' => "'''Erro:''' A extensión $1 require a extensión $2 para ser activada.",
 	'configure-ext-doc' => 'Ver a documentación en liña',
 	'configure-ext-schemachange' => "'''Atención:''' Esta extensión require unha [http://www.mediawiki.org/wiki/Manual:Update.php actualización da base de datos] para traballar correctamente!",
-	'configure-ext-settings' => 'Parámetros',
+	'configure-ext-settings' => 'Configuracións',
 	'configure-ext-settings-dep-errors' => 'Esta extensión non pode ser activada porque {{PLURAL:$1|a seguinte característica posúe|as seguintes características posúen}} un valor inaceptable:',
 	'configure-ext-settings-dep-error' => '$1: valor requirido: $2, valor actual: $3',
 	'configure-ext-use-extension' => 'Usar esta extensión',
