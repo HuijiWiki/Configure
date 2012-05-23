@@ -134,7 +134,7 @@ $specialPageAliases['gl'] = array(
 $specialPageAliases['gsw'] = array(
 	'Configure' => array( 'Konfiguriere' ),
 	'Extensions' => array( 'Erwyterige' ),
-	'ViewConfig' => array( 'Konfiguration bschaue' ),
+	'ViewConfig' => array( 'Konfiguration_bschaue' ),
 );
 
 /** Hebrew (עברית) */
@@ -216,6 +216,11 @@ $specialPageAliases['ksh'] = array(
 	'Configure' => array( 'Wiki_Enstellunge', 'Wiki_enställe' ),
 	'Extensions' => array( 'Wiki_Zosätz' ),
 	'ViewConfig' => array( 'Enstellunge_Zeije', 'Eshtällonge_Zeije', 'EnstellungeZeije', 'EshtällongeZeije' ),
+);
+
+/** Cornish (Kernowek) */
+$specialPageAliases['kw'] = array(
+	'Extensions' => array( 'Ystynansow' ),
 );
 
 /** Ladino (Ladino) */
