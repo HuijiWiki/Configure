@@ -6079,7 +6079,7 @@ Assegnare a PHP il diritto di scrittura su di essa per utilizzare questa estensi
 	'configure-throttle-action-move' => 'Sposta',
 	'configure-throttle-action-rollback' => 'Rollback',
 	'configure-throttle-action-mailpassword' => 'Invio password reminder',
-	'configure-throttle-action-emailuser' => 'Invia mail',
+	'configure-throttle-action-emailuser' => 'Invia email',
 	'configure-throttle-group-anon' => 'Tutti gli utenti anonimi',
 	'configure-throttle-group-user' => 'Per account utente',
 	'configure-throttle-group-newbie' => 'Per nuovo account utente',
