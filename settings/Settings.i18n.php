@@ -12502,8 +12502,10 @@ $messages['kn'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
+	'configure-setting-desc' => 'MediaWiki 구성 설정에 대한 설명',
 	'configure-setting-wgSitename' => '사이트 이름',
 	'configure-setting-wgArticleRobotPolicies-value' => '로봇 정책',
 	'configure-setting-wgExtraLanguageNames-key' => '언어 부호',
@@ -13307,6 +13309,7 @@ $messages['lb'] = array(
 	'configure-setting-wgCategoryMagicGallery' => 'Eng Minitaturgallerie op Kategoriesäite weisen',
 	'configure-setting-wgCategoryPagingLimit' => 'Maximal Zuel vun Objeten, déi op enger Kategorie-Säit gewise ginn',
 	'configure-setting-wgUseCategoryBrowser' => 'Navigatioun vun de Kategorien aschalten',
+	'configure-setting-wgCategoryCollation' => "Kollatioun déi benotzt gëtt fir d'Membere vu Kategorien ze zortéieren",
 	'configure-setting-wgCopyrightIcon' => 'HTML fir de Copyright-Icon',
 	'configure-setting-wgEnableCreativeCommonsRdf' => 'Creative-Commons-Lizenzinformatiounen abannen',
 	'configure-setting-wgEnableDublinCoreRdf' => 'RDF-Metadate benotzen',
@@ -13330,6 +13333,7 @@ $messages['lb'] = array(
 	'configure-setting-wgMaxSigChars' => 'maxima Längt vun der personaliséierter Ënnerschrëft',
 	'configure-setting-wgMinimalPasswordLength' => 'Mindest Längt vun de Passwieder',
 	'configure-setting-wgNewUserLog' => 'e Logbuch vun den neie Benotzer ënnerhalen',
+	'configure-setting-wgPasswordResetRoutes' => 'Erlaabte Weeër fir vergiesse Benotzernimm oder Passwierder nees erëmzefannen',
 	'configure-setting-wgReservedUsernames' => "Bentzernimm déi fir d'Software reservéiert sinn",
 	'configure-setting-wgShowIPinHeader' => "D'IP-Adress an der Benotzerläischt weisen",
 	'configure-setting-wgCompressRevisions' => 'Al Versioune wa méigellch kompriméieren',
@@ -13382,6 +13386,7 @@ $messages['lb'] = array(
 	'configure-setting-wgServerName' => 'Numm vum Serveur ouni Protokoll (Beispill: lb.wikipedia.org)',
 	'configure-setting-wgTmpDirectory' => 'URL vum temporaire Repertoire',
 	'configure-setting-wgUsePathInfo' => "'Schéin' URLe benotzen",
+	'configure-setting-wgUploadPath' => "URL vum Repertoire fir d'Eroplueden",
 	'configure-setting-wgPutIPinRC' => "IP-Adressen an der 'recentchanges'- Tabell späicheren",
 	'configure-setting-wgRCLinkLimits' => 'Maximal Zuel vun den Ännerungen déi bäi de leschten Ännerunge gewise ginn',
 	'configure-setting-wgRCLinkDays' => 'Limit vun den Deeg déi bäi de rezenten Ännerungen ugewise ginn',
