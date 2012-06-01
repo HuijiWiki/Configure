@@ -6901,7 +6901,7 @@ $messages['lb'] = array(
 	'configure-customised' => "''Dëse Parameter gouf individualiséiert''",
 	'configure-arrayinput-oneperline' => "''(e pro Linn)''",
 	'configure-summary' => "Dës Spezialsäit erlaabt et Iech fir dës Wiki ze configuréieren, kuckt [http://www.mediawiki.org/wiki/Manual:Configuration_settings Configuratioun's Astellungen] fir méi Informatiounen.",
-	'configure-btn-save' => 'Confuguratioun späicheren',
+	'configure-btn-save' => 'Astellunge späicheren',
 	'configure-db-error' => "D'Datebank an där, no Ären Informatiounen d'Konfiguratioun ($1) dra soll sinn, gëtt et net.
 Leet se w.e.g. un a féiert configure.sql doran aus oder verbessert hiren Numm.",
 	'configure-db-table-error' => "D'Datebank déi dir uginn hutt huet net déi gebrauchten Tabellen. Benotzt w.e.g. configure.sql an dëser Datebank.",
