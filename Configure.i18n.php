@@ -5926,7 +5926,7 @@ $messages['is'] = array(
 	'configure-throttle-action-emailuser' => 'Senda tölvupóst',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author BrokenArrow
  * @author Darth Kule
