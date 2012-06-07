@@ -6133,14 +6133,14 @@ Assegnare a PHP il diritto di scrittura su di essa per utilizzare questa estensi
  */
 $messages['ja'] = array(
 	'configure' => 'ウィキの設定を構成',
-	'configure-desc' => '権限のある利用者に、ウェブベース インターフェイスを使用したウィキの[[Special:Configure|構成変更]]を許可する',
+	'configure-desc' => '権限を持つ利用者が、ウェブベースインターフェイスを使用してウィキの[[Special:Configure|構成変更]]をできるようにする',
 	'configure-desc-group' => 'グループ',
 	'configure-desc-key' => 'キー',
 	'configure-desc-ns' => '名前空間',
 	'configure-desc-val' => '値',
 	'configure-edit-core' => 'MediaWiki',
 	'configure-edit-ext' => '拡張機能',
-	'configure-viewconfig-default-diff' => 'デフォルト設定からの変更',
+	'configure-viewconfig-default-diff' => '既定の設定からの変更',
 	'configure-ext-ext-dependencies' => "'''警告:''' この拡張機能は、次の{{PLURAL:$2|拡張機能}}を有効にする必要があります: $1",
 	'configure-ext-ext-dependency-err' => "'''エラー:''' $1 拡張機能は、$2 拡張機能を有効にする必要があります。",
 	'configure-ext-doc' => 'オンラインマニュアルを参照',
@@ -6250,13 +6250,13 @@ $messages['ja'] = array(
 	'configure-select-wiki-desc' => '設定したいウィキを選んでください。',
 	'configure-select-wiki-view-desc' => '構成を見たいウィキを選んでください。',
 	'configure-select-wiki-view-all' => 'すべてのウィキ',
-	'configure-select-wiki-view-specific' => '特定のウィキ:',
+	'configure-select-wiki-view-specific' => '特定のウィキ：',
 	'configure-select-wiki-submit' => '選択',
 	'configure-setting-not-available' => '今のMediaWikiのバージョンでは、この設定は利用できません。',
 	'configure-transwiki-not-in-range' => '要求されたウィキ「$1」は許可された{{PLURAL:$3|値}}「$2」に含まれていません。',
 	'configure-view' => '閲覧',
 	'configure-view-all-versions' => 'バージョンの完全な一覧',
-	'configure-view-default' => 'デフォルト設定',
+	'configure-view-default' => '既定の設定',
 	'configure-view-not-allowed' => 'あなたはこの設定を閲覧することは許可されてません',
 	'configure-viewconfig-line' => '$1 $2、$3による $5: $4',
 	'extensions' => '拡張機能の設定',
@@ -6286,7 +6286,7 @@ $messages['ja'] = array(
 	'configure-throttle-group' => 'タイプ',
 	'configure-throttle-limit' => '制限',
 	'configure-throttle-none' => '制限なし',
-	'configure-condition-operator' => '演算子:',
+	'configure-condition-operator' => '演算子：',
 	'configure-condition-operator-or' => '論理和',
 	'configure-condition-operator-and' => '論理積',
 	'configure-condition-operator-xor' => '排他的論理和',
@@ -12186,10 +12186,11 @@ $messages['ug-latn'] = array(
 	'configure-section-email' => 'Élxet',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author AS
  * @author Ahonc
  * @author NickK
+ * @author Olvin
  * @author Prima klasy4na
  * @author Sodmy
  * @author Тест
@@ -12244,7 +12245,7 @@ $messages['uk'] = array(
 	'configure-old-not-available' => 'Запитана вами стара версія налаштувань від $1 недоступна',
 	'configure-old-changes' => 'зміни',
 	'configure-old-summary' => 'Версія за $1 користувача $2 ($4): $3',
-	'configure-saved' => 'Налаштування були збережені',
+	'configure-saved' => 'Налаштування було збережено',
 	'configure-backlink' => 'Повернутися до форми',
 	'configure-section-features' => 'Особливості',
 	'configure-section-general' => 'Основні налаштування',
