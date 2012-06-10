@@ -5487,7 +5487,7 @@ $messages['hy'] = array(
 	'configure-section-search' => 'Որոնել',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -5513,7 +5513,7 @@ $messages['ia'] = array(
 	'configure-customised' => "''Iste configuration ha essite personalisate''",
 	'configure-arrayinput-oneperline' => "''(un per linea)''",
 	'configure-summary' => 'Iste pagina special permitte configurar iste wiki. Vide [http://www.mediawiki.org/wiki/Manual:Configuration_settings Parametros de configuration] pro ulterior informationes.',
-	'configure-btn-save' => 'Confirmar configuationes',
+	'configure-btn-save' => 'Confirmar configurationes',
 	'configure-db-error' => 'Le base de datos que tu ha specificate pro tener le configuration ($1) non existe.
 Per favor crea lo e applica configure.sql, o corrige su nomine.',
 	'configure-db-table-error' => 'Le base de datos que tu ha specificate non ha le tabellas requisite. Per favor applica configure.sql in iste base de datos.',
@@ -6200,7 +6200,7 @@ $messages['ja'] = array(
 	'configure-section-email' => 'メール',
 	'configure-section-enotif' => 'メール通知',
 	'configure-section-localization' => 'ローカライズ(地域化)',
-	'configure-section-timezone' => '時間帯',
+	'configure-section-timezone' => 'タイムゾーン',
 	'configure-section-debug' => 'デバッグ',
 	'configure-section-profiling' => 'プロファイリング',
 	'configure-section-site' => 'サイトのカスタマイズ',
@@ -6221,7 +6221,7 @@ $messages['ja'] = array(
 	'configure-section-rates' => '速度制限',
 	'configure-section-proxy' => 'プロキシ',
 	'configure-section-squid' => 'Squid',
-	'configure-section-cookie' => 'クッキー',
+	'configure-section-cookie' => 'Cookie',
 	'configure-section-performance' => 'パフォーマンス',
 	'configure-section-test' => 'テスト',
 	'configure-section-upload' => 'アップロード',
@@ -6308,7 +6308,7 @@ $messages['ja'] = array(
 	'configure-condition-description-5' => '利用者のIPアドレスが $1',
 	'configure-condition-description-6' => '利用者のIPアドレスがレンジ $1 に含まれる',
 	'configure-condition-description-7' => '最初の編集の後から$1{{PLURAL:$1|秒}}の最小経過期間',
-	'configure-boolop-description-and' => '全条件が真でなくてはならない',
+	'configure-boolop-description-and' => 'すべての条件が真でなくてはならない',
 	'configure-boolop-description-or' => '少なくとも1つの条件が真でなくてはならない',
 	'configure-boolop-description-xor' => 'ちょうど1つの条件が真でなくてはならない',
 	'configure-boolop-description-not' => 'どの条件も真であってはならない',
