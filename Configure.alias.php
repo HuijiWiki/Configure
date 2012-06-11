@@ -40,21 +40,21 @@ $specialPageAliases['bcc'] = array(
 	'ViewConfig' => array( 'چارگ تنظیم' ),
 );
 
-/** Breton (Brezhoneg) */
+/** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'Configure' => array( 'Kefluniañ' ),
 	'Extensions' => array( 'Astennoù' ),
 	'ViewConfig' => array( 'GweletKefluniañ' ),
 );
 
-/** Bosnian (Bosanski) */
+/** Bosnian (bosanski) */
 $specialPageAliases['bs'] = array(
 	'Configure' => array( 'Konfiguriraj' ),
 	'Extensions' => array( 'Ekstenzije' ),
 	'ViewConfig' => array( 'PogledajPostavke' ),
 );
 
-/** Czech (Česky) */
+/** Czech (česky) */
 $specialPageAliases['cs'] = array(
 	'Configure' => array( 'Konfigurace' ),
 	'Extensions' => array( 'Rozšíření', 'Doplňky' ),
@@ -66,6 +66,13 @@ $specialPageAliases['de'] = array(
 	'Configure' => array( 'Konfigurieren' ),
 	'Extensions' => array( 'Erweiterungen' ),
 	'ViewConfig' => array( 'Konfiguration_betrachten' ),
+);
+
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'Configure' => array( 'Vırazeyin' ),
+	'Extensions' => array( 'Derganeyin' ),
+	'ViewConfig' => array( 'VırazeyinBıvin' ),
 );
 
 /** Lower Sorbian (Dolnoserbski) */
@@ -89,7 +96,7 @@ $specialPageAliases['eo'] = array(
 	'ViewConfig' => array( 'Montri_agordojn' ),
 );
 
-/** Spanish (Español) */
+/** Spanish (español) */
 $specialPageAliases['es'] = array(
 	'Configure' => array( 'Configurar' ),
 	'Extensions' => array( 'Extensiones' ),
@@ -103,20 +110,20 @@ $specialPageAliases['fa'] = array(
 	'ViewConfig' => array( 'مشاهده_تنظیمات' ),
 );
 
-/** Finnish (Suomi) */
+/** Finnish (suomi) */
 $specialPageAliases['fi'] = array(
 	'Configure' => array( 'Wikin_asetukset' ),
 	'Extensions' => array( 'Laajennukset' ),
 	'ViewConfig' => array( 'Näytä_asetukset' ),
 );
 
-/** French (Français) */
+/** French (français) */
 $specialPageAliases['fr'] = array(
 	'Configure' => array( 'Configurer' ),
 	'ViewConfig' => array( 'Voir_la_configuration', 'VoirConfiguration' ),
 );
 
-/** Franco-Provençal (Arpetan) */
+/** Franco-Provençal (arpetan) */
 $specialPageAliases['frp'] = array(
 	'Configure' => array( 'Configurar' ),
 	'Extensions' => array( 'Èxtensions' ),
@@ -144,7 +151,7 @@ $specialPageAliases['he'] = array(
 	'ViewConfig' => array( 'הצגת_הגדרות' ),
 );
 
-/** Croatian (Hrvatski) */
+/** Croatian (hrvatski) */
 $specialPageAliases['hr'] = array(
 	'Configure' => array( 'Konfiguracija' ),
 	'Extensions' => array( 'Ekstenzije' ),
@@ -165,14 +172,14 @@ $specialPageAliases['ht'] = array(
 	'ViewConfig' => array( 'WèKonfig' ),
 );
 
-/** Hungarian (Magyar) */
+/** Hungarian (magyar) */
 $specialPageAliases['hu'] = array(
 	'Configure' => array( 'Beállítások' ),
 	'Extensions' => array( 'Kiterjesztések' ),
 	'ViewConfig' => array( 'Beállítások_megtekintése' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'Configure' => array( 'Configurar' ),
 	'Extensions' => array( 'Extensiones' ),
@@ -186,7 +193,7 @@ $specialPageAliases['id'] = array(
 	'ViewConfig' => array( 'Lihat_konfigurasi', 'LihatKonfigurasi' ),
 );
 
-/** Italian (Italiano) */
+/** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'Configure' => array( 'Configura', 'Configurazione' ),
 	'Extensions' => array( 'Estensioni' ),
@@ -208,7 +215,9 @@ $specialPageAliases['km'] = array(
 
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
-	'ViewConfig' => array( '설정보기' ),
+	'Configure' => array( '구성' ),
+	'Extensions' => array( '확장기능' ),
+	'ViewConfig' => array( '구성보기' ),
 );
 
 /** Colognian (Ripoarisch) */
@@ -218,7 +227,7 @@ $specialPageAliases['ksh'] = array(
 	'ViewConfig' => array( 'Enstellunge_Zeije', 'Eshtällonge_Zeije', 'EnstellungeZeije', 'EshtällongeZeije' ),
 );
 
-/** Cornish (Kernowek) */
+/** Cornish (kernowek) */
 $specialPageAliases['kw'] = array(
 	'Extensions' => array( 'Ystynansow' ),
 );
@@ -237,7 +246,7 @@ $specialPageAliases['lb'] = array(
 	'ViewConfig' => array( 'Astellunge_weisen' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'Configure' => array( 'Постави' ),
 	'Extensions' => array( 'Додатоци' ),
@@ -263,7 +272,7 @@ $specialPageAliases['mt'] = array(
 	'ViewConfig' => array( 'UriKonfig' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'Configure' => array( 'Konfigurer' ),
 	'Extensions' => array( 'Utvidelser' ),
@@ -284,39 +293,39 @@ $specialPageAliases['nl'] = array(
 	'ViewConfig' => array( 'InstellingenBekijken' ),
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬) */
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬) */
 $specialPageAliases['nn'] = array(
 	'Extensions' => array( 'Utvidingar' ),
 );
 
-/** Occitan (Occitan) */
+/** Occitan (occitan) */
 $specialPageAliases['oc'] = array(
 	'Configure' => array( 'Configurar' ),
 	'ViewConfig' => array( 'Veire_la_configuracion', 'VeireConfiguracion' ),
 );
 
-/** Polish (Polski) */
+/** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'Configure' => array( 'Konfiguracja' ),
 	'Extensions' => array( 'Rozszerzenia' ),
 	'ViewConfig' => array( 'Pokaż_konfigurację' ),
 );
 
-/** Portuguese (Português) */
+/** Portuguese (português) */
 $specialPageAliases['pt'] = array(
 	'Configure' => array( 'Configurar' ),
 	'Extensions' => array( 'Extensões' ),
 	'ViewConfig' => array( 'Ver_configurações' ),
 );
 
-/** Brazilian Portuguese (Português do Brasil) */
+/** Brazilian Portuguese (português do Brasil) */
 $specialPageAliases['pt-br'] = array(
 	'Configure' => array( 'Configurar' ),
 	'Extensions' => array( 'Extensões' ),
 	'ViewConfig' => array( 'Ver_configurações', 'Ver_configuração' ),
 );
 
-/** Romanian (Română) */
+/** Romanian (română) */
 $specialPageAliases['ro'] = array(
 	'Configure' => array( 'Configurare' ),
 	'Extensions' => array( 'Extensii' ),
@@ -330,20 +339,20 @@ $specialPageAliases['sa'] = array(
 	'ViewConfig' => array( 'संकूटसङ्केतपश्यति' ),
 );
 
-/** Slovak (Slovenčina) */
+/** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'Configure' => array( 'Konfigurovať' ),
 	'Extensions' => array( 'Rozšírenia' ),
 	'ViewConfig' => array( 'ZobraziťKonfiguráciu' ),
 );
 
-/** Albanian (Shqip) */
+/** Albanian (shqip) */
 $specialPageAliases['sq'] = array(
 	'Configure' => array( 'Konfiguro' ),
 	'Extensions' => array( 'Zgjerime' ),
 );
 
-/** Swedish (Svenska) */
+/** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'Configure' => array( 'Konfigurera' ),
 	'Extensions' => array( 'Programtillägg' ),
@@ -371,7 +380,7 @@ $specialPageAliases['tr'] = array(
 	'ViewConfig' => array( 'YapılandırmaGör', 'KonfigürasyonGör' ),
 );
 
-/** Vèneto (Vèneto) */
+/** vèneto (vèneto) */
 $specialPageAliases['vec'] = array(
 	'Configure' => array( 'Configura' ),
 	'Extensions' => array( 'Estensioni' ),
@@ -384,14 +393,14 @@ $specialPageAliases['vi'] = array(
 	'Extensions' => array( 'Phần_mở_rộng' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $specialPageAliases['zh-hans'] = array(
 	'Configure' => array( '配置' ),
 	'Extensions' => array( '扩展组件' ),
 	'ViewConfig' => array( '查看配置' ),
 );
 
-/** Traditional Chinese (‪中文(繁體)‬) */
+/** Traditional Chinese (‪中文（繁體）‬) */
 $specialPageAliases['zh-hant'] = array(
 	'Configure' => array( '設定' ),
 	'Extensions' => array( '擴展' ),
