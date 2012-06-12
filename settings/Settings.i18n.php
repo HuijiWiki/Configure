@@ -11741,7 +11741,8 @@ $messages['inh'] = array(
 	'configure-setting-wgExtraLanguageNames-value' => 'ЦӀи',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
+ * @author Beta16
  * @author Darth Kule
  * @author Gianfranco
  * @author Stefano-c
@@ -11777,6 +11778,7 @@ $messages['it'] = array(
 	'configure-setting-wgShowEXIF' => 'Mostra dati EXIF nelle pagine di descrizione di file',
 	'configure-setting-wgThumbLimits' => 'Dimensioni ammesse per i thumbnail immagine',
 	'configure-setting-wgUseImageResize' => 'Abilita ridimensionamento dinamico immagine lato server',
+	'configure-setting-wgEnableAutoRotation' => 'Ruota le immagini in base alla loro orientazione EXIF',
 	'configure-setting-wgTrustedMediaFormats' => "Tipi di file multimediali e tipi MIME che sono considerati 'sicuri'",
 	'configure-setting-wgImgAuthDetails' => "Mostra i dettagli dell'errore di accesso a img_auth.php",
 	'configure-setting-wgImgAuthPublicTest' => 'Controlla se le immagini sono pubblicamente accessibili e visualizza un errore in img_auth.php se è questo il caso',
@@ -11805,9 +11807,17 @@ $messages['it'] = array(
 	'configure-setting-wgExtraLanguageNames-key' => 'Codice lingua',
 	'configure-setting-wgExtraLanguageNames-value' => 'Nome',
 	'configure-setting-wgSiteNotice' => 'Messaggio del sito',
+	'configure-setting-wgSortSpecialPages' => 'Ordina pagine speciali in [[Special:SpecialPages]]',
+	'configure-setting-wgSpecialPageGroups' => 'Gruppi di pagine speciali',
 	'configure-setting-wgSpecialPageGroups-key' => 'Gruppo',
 	'configure-setting-wgAutopromote-value' => 'Condizioni',
+	'configure-setting-wgEnableAPI' => 'Abilita le API',
+	'configure-setting-wgEnableWriteAPI' => 'Abilita la scrittura tramite API',
 	'configure-setting-wgDebugLogGroups-value' => 'File',
+	'configure-setting-wgAllowPrefChange-key' => 'Preferenze utente',
+	'configure-setting-wgExternalAuthType' => 'Tipo di autenticazione esterna da utilizzare',
+	'configure-setting-wgExternalAuthConf' => "Configurazione per l'autenticazione esterna",
+	'configure-setting-wgDefaultUserOptions' => 'Preferenze utente predefinite',
 	'configure-setting-wgXMLMimeTypes-key' => 'Tipo MIME',
 	'configure-setting-wgXhtmlNamespaces-key' => 'Namespace',
 );
@@ -16704,7 +16714,7 @@ $messages['pfl'] = array(
 	'configure-setting-wgBlockDisablesLogin' => 'Gschberde Benutza kennen sich ned oamelde',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Anoon6
  * @author BeginaFelicysym
  * @author Derbeth
@@ -16753,6 +16763,7 @@ $messages['pl'] = array(
 	'configure-setting-wgShowEXIF' => 'Pokaż dane EXIF na stronie opisu pliku',
 	'configure-setting-wgThumbLimits' => 'Dozwolone rozmiary miniaturek grafik',
 	'configure-setting-wgUseImageResize' => 'Włącz dynamiczne przeskalowywanie grafik po stronie serwera',
+	'configure-setting-wgEnableAutoRotation' => 'Obracanie obrazów zgodnie z ich orientacją EXIF',
 	'configure-setting-wgTrustedMediaFormats' => 'Typy multimediów i MIME, które będą uznawane za „bezpieczne”',
 	'configure-setting-wgImgAuthDetails' => 'Wyświetlaj szczegóły jeśli nie powiódł się dostęp w img_auth.php',
 	'configure-setting-wgImgAuthPublicTest' => 'Sprawdź czy zdjęcia są dostępne publicznie i jeśli tak jest wyświetlaj błąd na img_auth.php',
@@ -16761,8 +16772,11 @@ $messages['pl'] = array(
 	'configure-setting-wgDBAhandler' => 'Która obsługa dostępu do bazy danych ma zostać użyta',
 	'configure-setting-wgCacheEpoch' => 'Termin unieważnienia treści pamięci podręcznej',
 	'configure-setting-wgCachePages' => 'Dopuść po stronie klienta użycie pamięci tymczasowej dla stron',
+	'configure-setting-wgCachePrefix' => 'Niestandardowa wartość dla prefiksu pamięci podręcznej',
 	'configure-setting-wgClockSkewFudge' => 'Czas, który zostanie dodany do sygnatur czasowych pamięci podręcznej tak, aby uwzględnić przesunięcia zegara',
+	'configure-setting-wgInvalidateCacheOnLocalSettingsChange' => 'Unieważnia różne pamięci podręczne, gdy zmienia się LocalSettings.php',
 	'configure-setting-wgFileCacheDirectory' => 'Katalog plików tymczasowych',
+	'configure-setting-wgFileCacheDepth' => 'Głębokość hierarchii podkatalogów tworzonych w <code>$wgFileCacheDirectory</code>',
 	'configure-setting-wgForcedRawSMaxage' => 'Domyślny maksymalny wiek dla dostępu do surowych plików CSS i JS',
 	'configure-setting-wgQueryCacheLimit' => 'Liczba wierszy w pamięci podręcznej w tabeli „querycache”',
 	'configure-setting-wgRevisionCacheExpiry' => 'Czas buforowania wersji tekstu w memcached (lub 0 aby wyłączyć)',
@@ -16806,6 +16820,7 @@ $messages['pl'] = array(
 	'configure-setting-wgArticleRobotPolicies-key' => 'Tytuł strony',
 	'configure-setting-wgArticleRobotPolicies-value' => 'Polityka dostępu dla robotów',
 	'configure-setting-wgBreakFrames' => 'Zablokuj możliwość wstawienia witryny w ramkę',
+	'configure-setting-wgEditPageFrameOptions' => 'Zezwól na osadzanie formularza edycji w ramce',
 	'configure-setting-wgCapitalLinks' => 'Pierwszy znak we wszystkich tytułach stron pisać wielką literą',
 	'configure-setting-wgCapitalLinkOverrides' => 'Konfiguracja dla $wgCapitalLinks ze względu na przestrzenie nazw',
 	'configure-setting-wgDefaultLanguageVariant' => 'Domyślny wariant językowy',
@@ -16815,6 +16830,8 @@ $messages['pl'] = array(
 	'configure-setting-wgExtraLanguageNames-key' => 'Kod języka',
 	'configure-setting-wgExtraLanguageNames-value' => 'Nazwa',
 	'configure-setting-wgDisabledVariants' => 'Wyłącz warianty dla wariantowej konwersji językowej',
+	'configure-setting-wgBetterDirectionality' => 'Eksperymentalna lepsza obsługa kierunkowości',
+	'configure-setting-wgCanonicalLanguageLinks' => 'Włącz łącza języka kanonicznego w metadanych',
 	'configure-setting-wgExtraRandompageSQL' => 'Filtr dla [[Special:Random]] (w klauzuli WHERE)',
 	'configure-setting-wgExtraSubtitle' => 'Podtytuł (pojawia się pod tytułem każdej strony)',
 	'configure-setting-wgHideInterlanguageLinks' => 'Ukryj w pasku bocznym linki do innych wersji językowych',
@@ -16835,6 +16852,7 @@ $messages['pl'] = array(
 	'configure-setting-wgAllowCopyUploads' => 'Pozwól na przesyłanie poprzez podanie adresu URL',
 	'configure-setting-wgAllowAsyncCopyUploads' => 'Pozwalaj na asynchroniczne przesyłanie kopii',
 	'configure-setting-wgCheckFileExtensions' => 'Sprawdzaj rozszerzenia plików',
+	'configure-setting-wgCopyUploadsDomains' => 'Lista domen, z których mogą pochodzić przesłane kopie',
 	'configure-setting-wgEnableUploads' => 'Włącz przesyłanie plików',
 	'configure-setting-wgUploadMaintenance' => 'Tymczasowo wyłącz usuwanie i przywracanie plików',
 	'configure-setting-wgFileBlacklist' => 'Zabronione rozszerzenia plików',
@@ -16845,11 +16863,13 @@ $messages['pl'] = array(
 	'configure-setting-wgStrictFileExtensions' => 'Uniemożliw korzystanie ze wszystkich niepreferowanych rozszerzeń plików',
 	'configure-setting-wgUploadSizeWarning' => 'Próg ostrzegania dla wielkości przesyłanych plików',
 	'configure-setting-wgMaxUploadSize' => 'Maksymalna dopuszczalna wielkość przesyłanych do serwera danych',
+	'configure-setting-wgUploadStashMaxAge' => 'Maksymalny wiek przesłanych (niekompletnych) plików tymczasowych, w sekundach',
 	'configure-setting-wgHTTPTimeout' => 'Maksymalny czas żądania HTTP',
 	'configure-setting-wgHTTPProxy' => 'Proxy HTTP do wykorzystania',
 	'configure-setting-wgAsyncHTTPTimeout' => 'Maksymalny czas asynchronicznego żądania HTTP',
 	'configure-setting-wgVersion' => 'Wersja MediaWiki',
 	'configure-setting-wgAllowSpecialInclusion' => 'Pozwól na zaciąganie treści stron specjalnych',
+	'configure-setting-wgExportAllowAll' => 'Umożliwia eksportowanie całej wiki do pojedynczego pliku z [[Special:Export]]',
 	'configure-setting-wgExportAllowHistory' => 'Zezwól na eksport włącznie z pełną historią',
 	'configure-setting-wgExportAllowListContributors' => 'Zezwól na eksport listy autorów',
 	'configure-setting-wgExportFromNamespaces' => 'Zezwól na opcję „eksportuj wszystkie strony z przestrzeni nazw” na [[Special:Export]]',
@@ -16861,6 +16881,7 @@ $messages['pl'] = array(
 	'configure-setting-wgLogRestrictions-key' => 'Typ rejestru',
 	'configure-setting-wgLogRestrictions-value' => 'Uprawnienie wymagane do odczytu',
 	'configure-setting-wgMaxRedirectLinksRetrieved' => 'Maksymalna liczba wyświetlanych linków do strony przekierowującej na [[Special:Whatlinkshere/RedirectDestination]]',
+	'configure-setting-wgQueryPageDefaultLimit' => 'Domyślna liczba wpisów wyświetlanych na specjalnych stronach wykonujących kwerendy, takich jak [[Special:Whatlinkshere]]',
 	'configure-setting-wgRedirectOnLogin' => 'Przekierowuj użytkowników na tę stronę podczas logowania',
 	'configure-setting-wgSecureLogin' => 'Uwierzytelniaj użytkowników poprzez https, gdy łączą się poprzez http',
 	'configure-setting-wgSortSpecialPages' => 'Sortuj strony specjalne na [[Special:SpecialPages]]',
@@ -16870,6 +16891,7 @@ $messages['pl'] = array(
 	'configure-setting-wgUseNPPatrol' => 'Korzystaj z patrolowania stron do ochrony przed wandalizmami',
 	'configure-setting-wgAutopromote' => 'Warunki automatycznego awansowania użytkownika do określonych grup',
 	'configure-setting-wgAutopromote-value' => 'Warunki',
+	'configure-setting-wgAutopromoteOnce' => 'Warunki automatycznej promocji użytkownika do określonych grup, która jest wykonywana tylko raz',
 	'configure-setting-wgAccountCreationThrottle' => 'Liczba kont, które można utworzyć z jednego adresu IP',
 	'configure-setting-wgAllowPageInfo' => 'Pozwól na korzystanie z akcji wyświetlającej informacje o stronie „action=info”',
 	'configure-setting-wgBlockCIDRLimit' => 'Maksymalny zakres CIDR przy blokowaniu zakresu adresów IP',
@@ -16900,10 +16922,13 @@ $messages['pl'] = array(
 	'configure-setting-wgAdditionalMailParams' => 'Dodatkowe parametry poczty elektronicznej zostaną przekazane jako ostatni argument wywołania funkcji PHP „mail()”.',
 	'configure-setting-wgSMTP' => 'serwer SMTP',
 	'configure-setting-wgUserEmailUseReplyTo' => 'Użyj „Replay-To” zamiast „From”',
+	'configure-setting-wgUserEmailConfirmationTokenExpiry' => 'Czas w sekundach do momentu wygaśnięcia kodu potwierdzającego wysłanego pocztą e-mail',
 	'configure-setting-wgAPIRequestLog' => 'Plik rejestru dla wywołań API',
+	'configure-setting-wgDebugComments' => 'Zawiera fragmenty danych wyjściowych dziennika w komentarzu HTML strony',
 	'configure-setting-wgDebugDumpSql' => 'Drukowanie zapytań SQL na wyjście debugowania',
 	'configure-setting-wgDebugLogFile' => 'Plik rejestru debugowania',
 	'configure-setting-wgDebugLogGroups' => 'Grupy plików specyficznego rejestrowania',
+	'configure-setting-wgDebugLogGroups-key' => 'Grupa logowania',
 	'configure-setting-wgDebugLogGroups-value' => 'Plik',
 	'configure-setting-wgDebugLogPrefix' => 'Prefiks dla wierszy dziennika debugowania',
 	'configure-setting-wgDebugTimestamps' => 'Poprzedź komunikaty debugowe względnym znacznikiem czasu',
@@ -16963,6 +16988,7 @@ $messages['pl'] = array(
 	'configure-setting-wgNamespaceAliases' => 'Przekierowania przestrzeni nazw',
 	'configure-setting-wgNamespaceAliases-key' => 'Nazwa aliasu',
 	'configure-setting-wgNamespaceProtection' => 'Zabezpieczenia przestrzeni nazw',
+	'configure-setting-wgNamespaceRobotPolicies-value' => 'Polityka indeksowania automatycznego',
 	'configure-setting-wgNamespacesWithSubpages' => 'Przestrzenie nazw z podstronami',
 	'configure-setting-wgSitemapNamespaces' => 'Przestrzenie nazw do umieszczenia na mapie witryny',
 	'configure-setting-wgUseCategoryBrowser' => 'Włącz przeglądarkę kategorii',
