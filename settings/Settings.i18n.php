@@ -2587,7 +2587,7 @@ $messages['arz'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'منفذ لملف UDP',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -2785,7 +2785,7 @@ $messages['ast'] = array(
 	'configure-setting-wgSQLMode' => 'Mou SQL',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  * @author Vago
  */
@@ -3450,7 +3450,7 @@ $messages['be-tarask'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Порт для прафайлера UDP',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -3918,7 +3918,7 @@ $messages['bn'] = array(
 	'configure-setting-wgRCLinkDays' => 'সাম্প্রতিক পরিবর্তনসমূহের জন্য দিনের সীমা',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fohanno
  * @author Fulup
  * @author Gwendal
@@ -4516,7 +4516,7 @@ $messages['br'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Porzh evit ar profiler UDP',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -4604,7 +4604,7 @@ $messages['bs'] = array(
 	'configure-setting-wgAlwaysUseTidy' => 'Uvijek koristi Tidy',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Loupeter
  * @author Paucabot
  * @author Solde
@@ -4637,7 +4637,7 @@ $messages['ce'] = array(
 	'configure-setting-wgActionPaths-value' => 'URL куцкепа',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Danny B.
  * @author Jkjk
  * @author Mormegil
@@ -4924,7 +4924,7 @@ $messages['cs'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Port pro UDP profiler',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Peter Alberti
  */
 $messages['da'] = array(
@@ -5849,7 +5849,7 @@ $messages['eo'] = array(
 	'configure-setting-wgUploadPath' => 'URL de la alŝuta dosierujo',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Crazymadlover
  * @author Dferg
@@ -6491,7 +6491,7 @@ $messages['es'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Puerto para perfilador UDP',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  * @author Pikne
  * @author Silvar
@@ -6511,7 +6511,7 @@ $messages['et'] = array(
 	'configure-setting-wgNamespaceProtection' => 'Nimeruumi kaitse',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  * @author Kobazulo
  * @author Theklan
@@ -6585,7 +6585,7 @@ $messages['fa'] = array(
 	'configure-setting-wgLivePreview' => 'فعال کردن پیش نمایش زنده',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Centerlink
  * @author Cimon Avaro
  * @author Crt
@@ -6863,7 +6863,7 @@ $messages['fi'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Portti UDP-profiloijalle',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author Gomoko
  * @author Grondin
@@ -7507,7 +7507,7 @@ $messages['fr'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Port pour le profileur UDP',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -9616,7 +9616,7 @@ $messages['he'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'פתחה לכלי מִתאר ל־UDP',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Anton008
  * @author Dalibor Bosits
  * @author Ex13
@@ -10000,7 +10000,7 @@ $messages['hsb'] = array(
 	'configure-setting-wgUsersNotifiedOnAllChanges' => 'Wužiwarske mjena, kotrež zdźělensku e-mejl za kóždu změnu dóstanu, kotraž so we wikiju stawa',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Glanthor Reviol
  */
@@ -10490,7 +10490,7 @@ $messages['hu'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'UDP profiler portja',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -13572,7 +13572,7 @@ $messages['li'] = array(
 	'configure-setting-wgXMLMimeTypes-key' => 'MIME-type',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  */
 $messages['lt'] = array(
@@ -13594,7 +13594,7 @@ $messages['lt'] = array(
 	'configure-setting-wgSessionName' => 'Seanso pavadinimas',
 );
 
-/** Latgalian (Latgaļu)
+/** Latgalian (latgaļu)
  * @author Dark Eagle
  */
 $messages['ltg'] = array(
@@ -13603,7 +13603,7 @@ $messages['ltg'] = array(
 	'configure-setting-wgXhtmlNamespaces-key' => 'Vuordu pluots',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Papuass
  */
 $messages['lv'] = array(
@@ -13621,7 +13621,7 @@ $messages['mhr'] = array(
 	'configure-setting-wgXhtmlNamespaces-key' => 'Лӱм-влакын кумдыкышт',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  * @author Brest
  */
@@ -14392,7 +14392,7 @@ $messages['ml'] = array(
 	'configure-setting-wgBlockDisablesLogin' => 'തടയപ്പെട്ട ഉപയോക്താക്കളെ ലോഗിൻ ചെയ്യുന്നതിൽ നിന്നും വിലക്കുക',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
@@ -15663,7 +15663,7 @@ $messages['nl'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Poort voor UDP-profiler',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Gunnernett
  * @author Harald Khan
  * @author Nghtwlkr
@@ -16167,7 +16167,7 @@ $messages['nn'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Port for UDP-profilar',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -17671,7 +17671,7 @@ $messages['ps'] = array(
 	'configure-setting-wgXhtmlNamespaces-key' => 'نوم-تشيال',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author 555
  * @author Crazymadlover
  * @author Giro720
@@ -18273,7 +18273,7 @@ $messages['pt'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Porta para o perfilador UDP',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author 555
  * @author Giro720
  * @author Hamilton Abreu
@@ -18859,7 +18859,7 @@ $messages['pt-br'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Porta para o perfilador UDP',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author KlaudiuMihaila
  * @author Minisarm
  * @author Stelistcristi
@@ -18950,7 +18950,7 @@ $messages['ro'] = array(
 	'configure-setting-wgSysopEmailBans' => 'Permite administratorilor de a interzice utilizatorii de la accesarea [[Special:EmailUser]]',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -18964,7 +18964,7 @@ $messages['roa-tara'] = array(
 	'configure-setting-wgAutopromote-value' => 'Condiziune',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Ferrer
  * @author Grigol
  * @author Haffman
@@ -19588,7 +19588,7 @@ $messages['rue'] = array(
 	'configure-setting-wgExtraLanguageNames-value' => 'Назва',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Aushulz
  */
 $messages['scn'] = array(
@@ -19597,7 +19597,7 @@ $messages['scn'] = array(
 	'configure-setting-wgExtraLanguageNames-value' => 'Nomu',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -20114,7 +20114,7 @@ $messages['sk'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Port UDP profilovacieho nástroja',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -20342,7 +20342,7 @@ $messages['sl'] = array(
 	'configure-setting-wgAjaxSearch' => 'Omogoči uporabo Ajax za samodejne predloge za iskanje',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Charmed94
  * @author Rancher
  * @author Жељко Тодоровић
@@ -20617,7 +20617,7 @@ $messages['sr-ec'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Порт за UDP профајлер',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  * @author Rancher
  */
@@ -20890,7 +20890,7 @@ $messages['sr-el'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Port za UDP profajler',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Boivie
  * @author Fluff
  * @author Fredrik
@@ -21576,21 +21576,21 @@ $messages['te'] = array(
 	'configure-setting-wgUsersNotifiedOnAllChanges' => 'వికీలో జరిగే ప్రతీ మార్పు గురించి ఈమెయిలు వెళ్ళే వాడుకరిపేర్లు',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
 	'configure-setting-wgExtraLanguageNames-value' => 'Naran',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
 	'configure-setting-wgSecretKey' => 'Калиди махфӣ',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -22473,7 +22473,7 @@ $messages['tr'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'UDP profili için port',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Ahonc
  * @author Alex Khimich
  * @author Тест
@@ -22709,7 +22709,7 @@ $messages['yi'] = array(
 	'configure-setting-wgXhtmlNamespaces-key' => 'נאָמענטייל',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author A911504820
  * @author Dimension
  * @author Gzdavidwong
@@ -23112,7 +23112,7 @@ $messages['zh-hans'] = array(
 	'configure-setting-wgSysopEmailBans' => '允许管理员禁止用户使用[[Special:EmailUser]]',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Gzdavidwong
  * @author Mark85296341
  * @author Oapbtommy

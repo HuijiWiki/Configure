@@ -957,7 +957,7 @@ $messages['as'] = array(
 	'configure-section-search' => 'সন্ধান কৰক',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -1147,7 +1147,7 @@ Por favor créalu o cámbialu pa usar esta estensión.',
 	'configure-farmer-extensions-list' => "[[Special:Extensions|Llista d'estensiones disponibles pa esta wiki]].",
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  * @author Vago
  */
@@ -1200,7 +1200,7 @@ $messages['ba'] = array(
 	'configure-desc-key' => 'Асҡыс',
 );
 
-/** Belarusian (Беларуская)
+/** Belarusian (беларуская)
  * @author Тест
  */
 $messages['be'] = array(
@@ -1404,7 +1404,7 @@ $messages['be-tarask'] = array(
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Сьпіс пашырэньняў даступных для {{GRAMMAR:родны|{{SITENAME}}}}]].',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -1711,7 +1711,7 @@ $messages['bn'] = array(
 	'configure-farmer-extensions-list' => '[[Special:Extensions|এই উইকির জন্য প্রযোজ্য এক্সটেনশনসমূহের তালিকা]]।',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fohanno
  * @author Fulup
  * @author Gwendal
@@ -1904,7 +1904,7 @@ Krouit anezhañ pe kemmit-eñ evit gallout implijout an astenn-mañ.",
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Roll an astennoù dieub evit ar wiki-se]].',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  * @author Demicx
  */
@@ -2095,7 +2095,7 @@ Molimo napravite ga ili promijenite da biste mogli koristiti ovo proširenje.',
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Spisak proširenja dostupnih za ovu wiki]].',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author El libre
  * @author Paucabot
  * @author SMP
@@ -2205,7 +2205,7 @@ $messages['ch'] = array(
 	'configure-section-specialpages' => 'Manespesiat na påhina',
 );
 
-/** Sorani (کوردی) */
+/** Sorani Kurdish (کوردی) */
 $messages['ckb'] = array(
 	'configure-form-reason' => 'هۆکار:',
 	'configure-js-remove' => 'سڕینەوە',
@@ -2213,7 +2213,7 @@ $messages['ckb'] = array(
 	'configure-throttle-action-move' => 'گواستنەوە',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Danny B.
  * @author Jkjk
  * @author Kuvaly
@@ -2430,7 +2430,7 @@ $messages['cy'] = array(
 	'configure-viewconfig-default-diff' => "Gwahaniaethau o gymharu â'r gosodiadau rhagosodedig",
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author BabelFrode
  * @author Byrial
  * @author Hylle
@@ -3047,7 +3047,7 @@ Pšosym napóraj jen abo změń jen, aby wužywał rozšyrjenje.',
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Rozšyrjenja nalicyś, kótarež stoje za toś ten wiki k dispoziciji]].',
 );
 
-/** Ewe (Eʋegbe) */
+/** Ewe (eʋegbe) */
 $messages['ee'] = array(
 	'configure-js-remove' => 'Tutui',
 	'configure-section-search' => 'Dii',
@@ -3337,7 +3337,7 @@ $messages['eo'] = array(
 	'configure-farmer-extensions' => '[[Special:Extensions|Konfiguri kromprogramojn por ĉi tiu vikio]].',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Academo
  * @author Armando-Martin
  * @author Crazymadlover
@@ -3535,7 +3535,7 @@ Por favor, créelo o cámbielo para usar esta extensión.',
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Listar extensiones disponibles para este wiki]].',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  * @author Pikne
  */
@@ -3562,7 +3562,7 @@ $messages['et'] = array(
 	'configure-condition-description-3' => 'E-posti aadress kinnitatud',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  * @author Kobazulo
  * @author Theklan
@@ -3700,7 +3700,7 @@ $messages['fa'] = array(
 	'configure-throttle-action-rollback' => 'واگردانی',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Nike
  * @author Olli
@@ -3894,7 +3894,7 @@ Luo se tai muuta asetusta käyttääksesi tätä laajennusta.',
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Listaa tälle wikille saatavilla olevat laajennukset]].',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author Grondin
  * @author IAlex
@@ -4094,7 +4094,7 @@ Veuillez le créer ou en changer pour que cette extension fonctionne.',
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Liste des extensions disponibles pour ce wiki]].',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -4274,12 +4274,12 @@ $messages['ga'] = array(
 	'configure-section-recentchanges' => 'Athruithe is déanaí',
 );
 
-/** Simplified Gan script (‪赣语(简体)‬) */
+/** Simplified Gan script (‪赣语（简体）‬) */
 $messages['gan-hans'] = array(
 	'configure-section-search' => '寻吖',
 );
 
-/** Traditional Gan script (‪贛語(繁體)‬)
+/** Traditional Gan script (‪贛語（繁體）‬)
  * @author Symane
  */
 $messages['gan-hant'] = array(
@@ -4990,7 +4990,7 @@ $messages['hil'] = array(
 	'configure-section-specialpages' => 'Pinasahi nga mga panid',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Dalibor Bosits
  * @author Ex13
  * @author Herr Mlinka
@@ -5292,7 +5292,7 @@ Prošu wutwor abo změń jón, zo by tute rozšěrjenje wužiwał.',
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Rozšěrjenja nalistować, kotrež za tutón wiki k dispoziciji steja]].',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Glanthor Reviol
  * @author Terik
@@ -5916,7 +5916,7 @@ $messages['io'] = array(
 	'configure-throttle-action-rollback' => 'Retrorular',
 );
 
-/** Icelandic (Íslenska)
+/** Icelandic (íslenska)
  * @author S.Örvarr.S
  * @author Spacebirdy
  */
@@ -6379,7 +6379,7 @@ $messages['kk-cyrl'] = array(
 	'configure-section-search' => 'Іздеу',
 );
 
-/** Kalaallisut (Kalaallisut)
+/** Kalaallisut (kalaallisut)
  * @author Qaqqalik
  */
 $messages['kl'] = array(
@@ -6862,7 +6862,7 @@ $messages['ku-latn'] = array(
 	'configure-condition-operator-and' => 'Û',
 );
 
-/** Cornish (Kernowek)
+/** Cornish (kernowek)
  * @author Kernoweger
  * @author Kw-Moon
  * @author Nrowe
@@ -7420,14 +7420,14 @@ Maak die map aan, of veranger 't um dees oetbreijing te gebroeke.",
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Veur deze wiki besjikbare oetbreijinge betrachte]].',
 );
 
-/** Lumbaart (Lumbaart)
+/** lumbaart (lumbaart)
  * @author Dakrismeno
  */
 $messages['lmo'] = array(
 	'configure-select-wiki-submit' => 'Scernìss',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Tomasdd
  */
@@ -7505,7 +7505,7 @@ $messages['lt'] = array(
 	'configure-condition-description-5' => 'Naudotojo IP adresas yra $1',
 );
 
-/** Latgalian (Latgaļu)
+/** Latgalian (latgaļu)
  * @author Dark Eagle
  */
 $messages['ltg'] = array(
@@ -7514,7 +7514,7 @@ $messages['ltg'] = array(
 	'configure-section-namespaces' => 'Vuordu pluoti',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author GreenZeb
  * @author Papuass
  */
@@ -7625,7 +7625,7 @@ $messages['mhr'] = array(
 	'configure-section-specialpages' => 'Лӱмын ыштыме лаштык-влак',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  * @author Brest
  */
@@ -7960,7 +7960,7 @@ $messages['ml'] = array(
 	'configure-condition-description-3' => 'ഇമെയിൽ സ്ഥിരീകരിച്ചിട്ടുണ്ട്',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
@@ -8605,7 +8605,7 @@ Er wordt een voorvertoning weergegeven als u het veld verlaat.',
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Voor deze wiki beschikbare uitbreidingen weergegeven]].',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Gunnernett
  * @author Harald Khan
  * @author Nghtwlkr
@@ -8794,7 +8794,7 @@ Opprett ho eller endra ho for å nytta denne utvidinga.',
 	'configure-farmer-extensions-list' => '[[Special:Extensions|List opp tilgjengelege utvidingar for denne wikien]].',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Boulaur
  * @author Cedric31
  */
@@ -9164,7 +9164,7 @@ $messages['pfl'] = array(
 	'configure-condition-operator-not' => 'Ned',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Derbeth
  * @author Leinad
  * @author Maikking
@@ -9600,7 +9600,7 @@ $messages['ps'] = array(
 	'configure-condition-name-5' => 'د کارن IP پته',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author 555
  * @author Crazymadlover
  * @author Giro720
@@ -9796,7 +9796,7 @@ Para usar esta extensão crie-o ou altere-o, por favor.',
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Listar extensões disponíveis para esta wiki]].',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author 555
  * @author Crazymadlover
  * @author Giro720
@@ -9998,7 +9998,7 @@ $messages['rif'] = array(
 	'configure-section-specialpages' => 'Tudmawin Special',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Danutz
  * @author Firilacroco
  * @author KlaudiuMihaila
@@ -10133,7 +10133,7 @@ $messages['ro'] = array(
 	'configure-farmer-extensions' => '[[Special:Extensions|Configurează extensiile pentru acest wiki]].',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -10163,7 +10163,7 @@ $messages['roa-tara'] = array(
 	'configure-condition-operator-not' => 'Not',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Ahonc
  * @author Ferrer
  * @author Flrn
@@ -10404,7 +10404,7 @@ $messages['rue'] = array(
 	'configure-condition-name-2' => 'Мінімалный вік:',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Aushulz
  * @author Melos
  */
@@ -10439,7 +10439,7 @@ $messages['scn'] = array(
 	'configure-throttle-action-edit' => 'Cancia',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  * @author Teslaton
  */
@@ -10630,7 +10630,7 @@ Aby ste mohli používať toto rozšírenie, vytvorte ho alebo ho zmeňte.',
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Zoznam rozšírení dostupných pre túto wiki]].',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -10828,7 +10828,7 @@ $messages['so'] = array(
 	'configure-section-search' => 'Raadi',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Nikola Smolenski
  * @author Rancher
  * @author Sasa Stefanovic
@@ -11006,7 +11006,7 @@ $messages['sr-ec'] = array(
 	'configure-boolop-description-not' => 'Ни један од услова не сме бити истинит',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  * @author Rancher
  * @author Жељко Тодоровић
@@ -11309,7 +11309,7 @@ $messages['su'] = array(
 	'configure-view' => 'Tempo',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Ainali
  * @author Boivie
  * @author Fluff
@@ -11684,7 +11684,7 @@ $messages['te'] = array(
 	'configure-farmer-extensions-list' => '[[Special:Extensions|ఈ వికీలో అందుబాటులో ఉన్న పొడిగింతల జాబితా]].',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -12088,7 +12088,7 @@ Lütfen bu eklentiyi kullanmak için PHP ile dizini yazılabilir hale getirin.',
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Bu viki için kullanılabilir olan eklentileri listele]].',
 );
 
-/** Tatar (Cyrillic script) (Татарча)
+/** Tatar (Cyrillic script) (татарча)
  * @author Ильнар
  */
 $messages['tt-cyrl'] = array(
@@ -12376,7 +12376,7 @@ $messages['ur'] = array(
 	'configure-form-reason' => 'وجہ:',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -12724,7 +12724,7 @@ $messages['yi'] = array(
 	'configure-condition-description-3' => 'ע-פּאָסט באַשטעטיקט',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  * @author Liangent
  * @author PhiLiP
@@ -12919,7 +12919,7 @@ $messages['zh-hans'] = array(
 	'configure-farmer-extensions-list' => '[[Special:Extensions|列出这个wiki上可用的扩展]]。',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Alexsh
  * @author Anakmalaysia
  * @author Frankou
