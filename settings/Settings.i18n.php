@@ -11745,11 +11745,13 @@ $messages['inh'] = array(
  * @author Beta16
  * @author Darth Kule
  * @author Gianfranco
+ * @author GreenFox
  * @author Stefano-c
  */
 $messages['it'] = array(
 	'configure-setting-wgSitename' => 'Nome sito',
 	'configure-setting-wgActionPaths-key' => 'Azione',
+	'configure-setting-wgDBAvgStatusPoll' => 'Tempo medio tra due richieste di SHOW STATUS in condizioni di sovraccarico',
 	'configure-setting-wgDBerrorLog' => 'File in cui salvare il log degli errori del database',
 	'configure-setting-wgDBname' => 'Nome del database da usare',
 	'configure-setting-wgDBpassword' => 'Password di $wgDBuser',
@@ -11802,8 +11804,11 @@ $messages['it'] = array(
 	'configure-setting-wgAllowImageTag' => "Consenti l'uso dei tag <nowiki><img></nowiki> nel wikitext.",
 	'configure-setting-wgExpensiveParserFunctionLimit' => 'Numero massimo di chiamate di esecuzione a funzioni parser dispendiose di risorse',
 	'configure-setting-wgExternalLinkTarget' => "Attributo ''target'' predefinito per i link esterni",
+	'configure-setting-wgRegisterInternalExternals' => 'Registrare i link esterni che indirizzano verso lo stesso server',
 	'configure-setting-wgLanguageCode' => 'Codice lingua del sito',
+	'configure-setting-wgUseDynamicDates' => 'Riformattare le date linkate',
 	'configure-setting-wgArticleRobotPolicies-key' => 'Titolo della pagina',
+	'configure-setting-wgCapitalLinks' => 'La prima lettera del titolo di una qualsiasi pagina è in maiuscolo',
 	'configure-setting-wgExtraLanguageNames-key' => 'Codice lingua',
 	'configure-setting-wgExtraLanguageNames-value' => 'Nome',
 	'configure-setting-wgSiteNotice' => 'Messaggio del sito',
@@ -12257,7 +12262,7 @@ $messages['ja'] = array(
 	'configure-setting-wgSlaveLagCritical' => 'スレーブの「危機的」な遅延の閾値',
 	'configure-setting-wgSlaveLagWarning' => 'スレーブの遅延に関して警告を表示する閾値',
 	'configure-setting-wgAntivirus' => 'ウイルススキャナーの内部名',
-	'configure-setting-wgAntivirusRequired' => 'ウイルススキャンが成功しなければファイルを受け入れない',
+	'configure-setting-wgAntivirusRequired' => 'ウイルススキャンに成功したもののみ受け入れる',
 	'configure-setting-wgAntivirusSetup' => 'ウイルススキャナの設定',
 	'configure-setting-wgAllowTitlesInSVG' => 'SVG ファイル内のタイトルを許可する',
 	'configure-setting-wgSVGConverter' => 'SVG コンバーター',
