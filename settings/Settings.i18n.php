@@ -5861,6 +5861,7 @@ $messages['eo'] = array(
  * @author Od1n
  * @author Pertile
  * @author Tempestas
+ * @author Vivaelcelta
  */
 $messages['es'] = array(
 	'configure-setting-wgSitename' => 'Nombre de sitio',
@@ -6060,7 +6061,7 @@ $messages['es'] = array(
 	'configure-setting-wgAdditionalMailParams' => 'Parámetros adicionales de correo electrónico, se pasarán como último argumento para la llamada a la función PHP mail()',
 	'configure-setting-wgSMTP' => 'servidor SMTP',
 	'configure-setting-wgUserEmailUseReplyTo' => 'Usar Responder a en lugar de De',
-	'configure-setting-wgUserEmailConfirmationTokenExpiry' => 'Tiempo en segundos hasta que un código de confirmación enviado por e-mail expire',
+	'configure-setting-wgUserEmailConfirmationTokenExpiry' => 'Tiempo en segundos hasta que un código de confirmación enviado por correo electrónico expire',
 	'configure-setting-wgAPIRequestLog' => 'Archivo de registro para las solicitudes de API',
 	'configure-setting-wgDebugComments' => 'Incluir porciones de la salida del registro en el comentario de la página HTML',
 	'configure-setting-wgDebugDumpSql' => 'Volcado de las consultas SQL para depurar la salida',
