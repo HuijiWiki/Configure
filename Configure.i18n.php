@@ -6855,7 +6855,7 @@ et Appachtemang. Do kresß en Vör-Aansich jezeich, wann De uß dämm Feld jeih�
  */
 $messages['ku-latn'] = array(
 	'configure-desc-group' => 'Grûp',
-	'configure-section-pages' => 'Rûpelan',
+	'configure-section-pages' => 'Rûpel',
 	'configure-section-groups' => 'Grûpan',
 	'configure-section-images' => 'Dosyeyan',
 	'configure-throttle-group' => 'Cure',
