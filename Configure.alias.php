@@ -31,7 +31,7 @@ $specialPageAliases['arz'] = array(
 
 /** Assamese (অসমীয়া) */
 $specialPageAliases['as'] = array(
-	'Configure' => array( 'সংৰূপ_দে' ),
+	'Configure' => array( 'সংৰূপ' ),
 );
 
 /** Southern Balochi (بلوچی مکرانی) */
@@ -75,7 +75,7 @@ $specialPageAliases['diq'] = array(
 	'ViewConfig' => array( 'VırazeyinBıvin' ),
 );
 
-/** Lower Sorbian (Dolnoserbski) */
+/** Lower Sorbian (dolnoserbski) */
 $specialPageAliases['dsb'] = array(
 	'Configure' => array( 'Konfigurěrowaś' ),
 	'Extensions' => array( 'Rozšyrjenja' ),
@@ -130,7 +130,7 @@ $specialPageAliases['frp'] = array(
 	'ViewConfig' => array( 'Vêre_la_configuracion', 'VêreLaConfiguracion' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'Configure' => array( 'Configurar' ),
 	'Extensions' => array( 'Extensións' ),
@@ -158,7 +158,7 @@ $specialPageAliases['hr'] = array(
 	'ViewConfig' => array( 'Vidi_konfiguraciju' ),
 );
 
-/** Upper Sorbian (Hornjoserbsce) */
+/** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'Configure' => array( 'Konfigurować' ),
 	'Extensions' => array( 'Rozšěrjenja' ),
