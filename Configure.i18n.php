@@ -498,7 +498,7 @@ $messages['am'] = array(
 	'configure-section-search' => 'ፍለጋ',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -1210,7 +1210,7 @@ $messages['be'] = array(
 	'configure-throttle-group' => 'Тып',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author Cesco
  * @author EugeneZelenko
  * @author Jim-by
@@ -2407,7 +2407,7 @@ Abyste mohli používat toto rozšíření, vytvořte ho nebo změňte konfigura
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Vypsat rozšíření dostupná pro tuto wiki]].',
 );
 
-/** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
@@ -2857,7 +2857,7 @@ $messages['diq'] = array(
 	'configure-throttle-action-rollback' => 'Peyser bia',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -4286,7 +4286,7 @@ $messages['gan-hant'] = array(
 	'configure-section-search' => '尋吖',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -5103,7 +5103,7 @@ Molimo stvorite ju ili promijenite za korištenje ekstenzije.',
 	'viewconfig' => 'Vidi konfiguraciju wikija',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -6674,7 +6674,7 @@ $messages['ksh'] = array(
 	'configure-ext-doc' => 'Belor de Dokkementazjuhn onlain',
 	'configure-ext-schemachange' => "Opjepaß:''' Dat Zohsatzprojramm hee bruch en [http://www.mediawiki.org/wiki/Manual:Update.php Aanpassung en de Datebank],
 öm öhndlesch ze fungkßjeneere!",
-	'configure-ext-settings' => 'Enshtällonge',
+	'configure-ext-settings' => 'Enschtällonge',
 	'configure-ext-settings-dep-errors' => 'Dat Zosatzpjrojramm kann nit aanjeschalldt wäde, weil {{PLURAL:$1|dä Wäät för hee di Enshtellung nit en Oodenung is|de Wääte för hee di Enshtellunge nit en Oodenung sin}}:',
 	'configure-ext-settings-dep-error' => 'För $1 weed $2 jebruch, un et es $3 aanjejovve.',
 	'configure-ext-use-extension' => 'Donn dat Zosatzprojramm bruche',
@@ -9845,7 +9845,7 @@ Para usar esta extensão torne possível a sua escrita pelo PHP, por favor.',
 	'configure-js-biglist-shown' => 'Detalhes da configuração podem ser ocultados',
 	'configure-js-biglist-hidden' => 'Detalhes da configuração ocultados',
 	'configure-js-biglist-show' => '[mostrar detalhes]',
-	'configure-js-biglist-hide' => '[esconder detalhes]',
+	'configure-js-biglist-hide' => '[ocultar detalhes]',
 	'configure-js-summary-none' => 'Sem configurações',
 	'configure-js-search-legend' => 'Configuração da pesquisa',
 	'configure-js-search-prompt' => 'Consulta:',
@@ -10364,7 +10364,7 @@ $messages['ru'] = array(
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Список расширений, доступных для этой вики]].',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(

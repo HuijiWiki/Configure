@@ -1448,7 +1448,7 @@ $messages['aln'] = array(
 	'configure-setting-wgTidyBin' => 'rrugë Tidy binar',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -2815,7 +2815,7 @@ $messages['bar'] = array(
 	'configure-setting-wgExtraLanguageNames-key' => 'Språch-Code',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -5611,7 +5611,7 @@ $messages['diq'] = array(
 	'configure-setting-wgExtraLanguageNames-value' => 'Name',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -7761,7 +7761,7 @@ $messages['frp'] = array(
 	'configure-setting-wgUsePathInfo' => 'Utilisar des URL « brâves »',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Gallaecio
  * @author Kobazulo
  * @author Toliño
@@ -9665,7 +9665,7 @@ $messages['hr'] = array(
 	'configure-setting-wgLocaltimezone' => 'Lokalna vremenska zona',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -18408,7 +18408,7 @@ $messages['pt-br'] = array(
 	'configure-setting-wgCanonicalLanguageLinks' => 'Possibilitar links de línguas canônicos nos metadados',
 	'configure-setting-wgExtraRandompageSQL' => 'Filtro para [[Special:Random]] (numa cláusula WHERE)',
 	'configure-setting-wgExtraSubtitle' => 'Subtítulo (aparece abaixo do título de todas as páginas)',
-	'configure-setting-wgHideInterlanguageLinks' => 'Esconder links interlínguas da barra lateral',
+	'configure-setting-wgHideInterlanguageLinks' => 'Ocultar links interlínguas da barra lateral',
 	'configure-setting-wgLegalTitleChars' => 'Caracteres permitidos nos títulos de página (classe de caracteres regex)',
 	'configure-setting-wgMaxArticleSize' => 'Tamanho máximo de página (kB)',
 	'configure-setting-wgMaxRedirects' => 'Número máximo de redirecionamentos a seguir ao resolver redirecionamentos',
@@ -19605,7 +19605,7 @@ $messages['ru'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Порт для профайлера UDP',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
