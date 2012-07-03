@@ -6854,9 +6854,9 @@ et Appachtemang. Do kresß en Vör-Aansich jezeich, wann De uß dämm Feld jeih�
  * @author George Animal
  */
 $messages['ku-latn'] = array(
-	'configure-desc-group' => 'Grûp',
+	'configure-desc-group' => 'Kom',
 	'configure-section-pages' => 'Rûpel',
-	'configure-section-groups' => 'Grûpan',
+	'configure-section-groups' => 'Kom',
 	'configure-section-images' => 'Dosyeyan',
 	'configure-throttle-group' => 'Cure',
 	'configure-condition-operator-and' => 'Û',
