@@ -2853,6 +2853,7 @@ Bitte erstellen Sie sie und führen Sie configure.sql darin aus oder korrigieren
  */
 $messages['diq'] = array(
 	'configure-desc-val' => 'Deger',
+	'configure-section-category' => 'Kategoriy',
 	'configure-throttle-action-edit' => 'Bıvurne',
 	'configure-throttle-action-rollback' => 'Peyser bia',
 );
