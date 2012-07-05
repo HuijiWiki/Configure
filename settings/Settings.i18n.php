@@ -9024,6 +9024,7 @@ $messages['ha'] = array(
  * @author Amire80
  * @author Rotemliss
  * @author YaronSh
+ * @author ערן
  */
 $messages['he'] = array(
 	'configure-setting-wgSitename' => 'שם האתר',
@@ -9063,6 +9064,7 @@ $messages['he'] = array(
 	'configure-setting-wgShowEXIF' => 'הצגת נתוני ה־EXIF בדפי התיאור של הקובץ',
 	'configure-setting-wgThumbLimits' => 'גדלי התמונות הממוזערות המותרים',
 	'configure-setting-wgUseImageResize' => 'להפעיל שינוי גודל תמונה בשרת',
+	'configure-setting-wgEnableAutoRotation' => 'סיבוב תמונות בהתאם לכיוון EXIF שלהם',
 	'configure-setting-wgTrustedMediaFormats' => "סוגי מדיה וסוגי MIME הנחשבים ל'בטוחים'.",
 	'configure-setting-wgImgAuthDetails' => 'להציג פרטים על סיבת כישלון הגישה ב־img_auth.php',
 	'configure-setting-wgImgAuthPublicTest' => 'לבדוק האם תמונות נגישות לכלל ולהציג שגיאה ב־img_auth.php אם זה אכן כך',
@@ -9165,6 +9167,7 @@ $messages['he'] = array(
 	'configure-setting-wgAsyncHTTPTimeout' => 'זמן קצוב לבקשות HTTP לא מסונכרנות',
 	'configure-setting-wgVersion' => 'גרסת מדיה־ויקי',
 	'configure-setting-wgAllowSpecialInclusion' => 'לאפשר הכללה של דפים מיוחדים',
+	'configure-setting-wgExportAllowAll' => 'אפשר ייצוא של האתר כולו לתוך קובץ אחד מ[[מיוחד:ייצוא]]',
 	'configure-setting-wgExportAllowHistory' => 'לאפשר למידע מיוצא לכלול היסטוריה מלאה',
 	'configure-setting-wgExportAllowListContributors' => 'לאפשר לייצא רשימת תורמים',
 	'configure-setting-wgExportFromNamespaces' => 'להפעיל את האפשרות "ייצוא כל הדפים במרחב השם" ב־[[Special:Export]]',
@@ -9410,6 +9413,7 @@ $messages['he'] = array(
 	'configure-setting-wgShellLocale' => 'שפה עבור <code>LC_CTYPE</code>',
 	'configure-setting-wgUpdateRowsPerQuery' => 'מספר השורות לעדכון בכל שאילתה',
 	'configure-setting-wgUseAutomaticEditSummaries' => 'שימוש בתקצירי עריכה אוטומטיים',
+	'configure-setting-wgUseCombinedLoginLink' => 'השתמש בקישור משולב עבור כניסה ויצירת חשבון',
 	'configure-setting-wgUseTrackbacks' => 'להשתמש בקישורים חוזרים (trackbacks)',
 	'configure-setting-wgUseTagFilter' => 'לאפשר סינון עריכות עם תגים בשינויים אחרונים, גרסאות קודמות וכו׳',
 	'configure-setting-wgDisableHardRedirects' => 'ביטול הפניות לדפים מיוחדים ולדפי בינוויקי',
@@ -9455,6 +9459,7 @@ $messages['he'] = array(
 	'configure-setting-wgSVGConverters-key' => 'שם הממיר',
 	'configure-setting-wgSVGConverters-value' => 'פקודת ההמרה',
 	'configure-setting-wgSVGMaxSize' => 'הגודל המרבי לשינוי גודל ה־SVG',
+	'configure-setting-wgSVGMetadataCutoff' => 'האורך המרבי לקריאת מטה-דטא מ-SVG',
 	'configure-setting-wgImageMagickConvertCommand' => 'פקודת ה־ImageMagick',
 	'configure-setting-wgImageMagickTempDir' => 'התיקייה הזמנית של ImageMagick',
 	'configure-setting-wgSharpenParameter' => 'פרמטר החדות ל־ImageMagick',
@@ -9496,6 +9501,7 @@ $messages['he'] = array(
 	'configure-setting-wgAllowJavaUploads' => 'לאפשר העלאת ארכיונים של Java',
 	'configure-setting-wgXMLMimeTypes' => 'טיפוסי MIME XML מזוהים',
 	'configure-setting-wgXMLMimeTypes-key' => 'סוג MIME',
+	'configure-setting-wgCleanupPresentationalAttributes' => 'הוספה ב-CSS של תכונות תצוגה של HTML',
 	'configure-setting-wgEnableTooltipsAndAccesskeys' => 'לאפשר מקשי גישה ורמזים צצים',
 	'configure-setting-wgHtml5' => 'פלט במסמך מסוג HTML5',
 	'configure-setting-wgHtml5Version' => 'ערך מאפיין version בתג <code><nowiki><html></nowiki></code>',
@@ -9516,9 +9522,13 @@ $messages['he'] = array(
 	'configure-setting-wgUseSiteJs' => 'שימוש בדף ה־JavaScript של האתר',
 	'configure-setting-wgHandheldStyle' => 'סגנון עבור media="handheld"',
 	'configure-setting-wgHandheldForIPhone' => "להחיל את סוגי המדיה 'screen' ו־'handheld' על אייפון",
+	'configure-setting-wgIncludeLegacyJavaScript' => 'כלול ספריית JavaScript ישנה ואת התלויות שלה',
+	'configure-setting-wgLegacyJavaScriptGlobals' => 'הגדר משתני קונפיגורציה כמשתנים גלובליים ב-JavaScript',
 	'configure-setting-wgResourceLoaderDebug' => 'מצב ניפוי שגיאות לבקשות ResourceLoader',
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'להטביע מודולים פרטיים בפלט HTML',
 	'configure-setting-wgResourceLoaderMaxage' => 'זמן מרבי בשניות להטמנת משאבים על ידי טוען המשאבים',
+	'configure-setting-wgResourceLoaderMinifierMaxLineLength' => 'אורך שורה המרבי ב-JavaScript ממוזער',
+	'configure-setting-wgResourceLoaderMinifierStatementsOnOwnLine' => 'הפרדת שורות בין פקודות ב-JavaScript ממוזער',
 	'configure-setting-wgResourceLoaderUseESI' => 'להפעיל הטבעה של משאבים מסוימים באמצעות Edge Side Includes',
 	'configure-setting-wgUseAjax' => 'הפעלת AJAX',
 	'configure-setting-wgAjaxExportList' => 'פונקציות AJAX הניתנות להפעלה',
