@@ -369,8 +369,8 @@ $specialPageAliases['sw'] = array(
 /** Tagalog (Tagalog) */
 $specialPageAliases['tl'] = array(
 	'Configure' => array( 'Isaayos' ),
-	'Extensions' => array( 'Mga karugtong' ),
-	'ViewConfig' => array( 'Tingnan ang pagkakaayos' ),
+	'Extensions' => array( 'Mga_karugtong' ),
+	'ViewConfig' => array( 'Tingnan_ang_pagkakaayos' ),
 );
 
 /** Turkish (Türkçe) */
