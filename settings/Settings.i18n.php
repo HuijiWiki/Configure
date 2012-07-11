@@ -4630,7 +4630,7 @@ $messages['ca'] = array(
 	'configure-setting-wgUseSquid' => 'Habilita Squid',
 );
 
-/** Chechen (Нохчийн)
+/** Chechen (нохчийн)
  * @author Sasan700
  */
 $messages['ce'] = array(
@@ -13658,7 +13658,7 @@ $messages['lv'] = array(
 	'configure-setting-wgRightsIcon' => 'Autortiesību ikona',
 );
 
-/** Eastern Mari (Олык Марий)
+/** Eastern Mari (олык марий)
  * @author Сай
  */
 $messages['mhr'] = array(
@@ -14453,7 +14453,7 @@ $messages['ms'] = array(
 	'configure-setting-wgDebugLogGroups-value' => 'Fail',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -14475,7 +14475,7 @@ $messages['nah'] = array(
 	'configure-setting-wgDebugLogGroups-value' => 'Èwalli',
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Event
  * @author Laaknor
  * @author Nghtwlkr
@@ -22573,7 +22573,7 @@ $messages['uk'] = array(
 	'configure-setting-wgXhtmlNamespaces-key' => 'Простір назв',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Triple-ADHD-AS
  * @author Игорь Бродский
  */

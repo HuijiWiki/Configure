@@ -1192,7 +1192,7 @@ $messages['az'] = array(
 	'configure-condition-name-5' => 'İstifadəçilərin IP ünvanları',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Roustammr
  */
 $messages['ba'] = array(
@@ -2188,7 +2188,7 @@ $messages['ca'] = array(
 	'configure-throttle-action-edit' => 'Modifica',
 );
 
-/** Chechen (Нохчийн)
+/** Chechen (нохчийн)
  * @author Sasan700
  */
 $messages['ce'] = array(
@@ -6374,7 +6374,7 @@ $messages['kaa'] = array(
 	'configure-section-users' => 'Paydalanıwshılar',
 );
 
-/** Kazakh (Cyrillic script) (‪Қазақша (кирил)‬)
+/** Kazakh (Cyrillic script) (‪қазақша (кирил)‬)
  * @author GaiJin
  */
 $messages['kk-cyrl'] = array(
@@ -7068,7 +7068,7 @@ Leet e w.e.g un oder ännert en esou datt dës Erweiderung funktionéiert.",
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Lëscht vun den Erweiderungen déi fir dës Wiki disponibel sinn]].',
 );
 
-/** Lezghian (Лезги)
+/** Lezghian (лезги)
  * @author Migraghvi
  * @author Namik
  * @author Soul Train
@@ -7618,7 +7618,7 @@ $messages['mg'] = array(
 	'configure-throttle-action-move' => 'Fanoloana anarana',
 );
 
-/** Eastern Mari (Олык Марий)
+/** Eastern Mari (олык марий)
  * @author Сай
  */
 $messages['mhr'] = array(
@@ -8095,7 +8095,7 @@ $messages['mt'] = array(
 	'configure-section-email' => 'E-mail',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -8160,7 +8160,7 @@ $messages['nah'] = array(
 	'configure-condition-operator-or' => 'Nozo',
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Audun
  * @author Laaknor
  * @author Nghtwlkr
@@ -12102,7 +12102,7 @@ $messages['tt-cyrl'] = array(
 	'configure-section-features' => 'Мөмкинчелекләр',
 );
 
-/** Udmurt (Удмурт)
+/** Udmurt (удмурт)
  * @author Kaganer
  */
 $messages['udm'] = array(
@@ -12387,7 +12387,7 @@ $messages['vec'] = array(
 	'right-configure-all' => 'Configura tute le inpostassion de la wiki',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
