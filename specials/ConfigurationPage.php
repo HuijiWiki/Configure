@@ -495,11 +495,11 @@ abstract class ConfigurationPage extends SpecialPage {
 				case 'assoc':
 					$i = 0;
 					$arr = array();
-					while ( isset( $_REQUEST['wp' . $name . '-key-' . $i] ) &&
-						isset( $_REQUEST['wp' . $name . '-val-' . $i] ) )
+					while ( $request->getCheck( 'wp' . $name . '-key-' . $i ) &&
+						$request->getCheck( 'wp' . $name . '-val-' . $i ) )
 					{
-						$key = $_REQUEST['wp' . $name . '-key-' . $i];
-						$val = $_REQUEST['wp' . $name . '-val-' . $i];
+						$key = $request->getVal( 'wp' . $name . '-key-' . $i );
+						$val = $request->getVal( 'wp' . $name . '-val-' . $i );
 						if ( $key !== '' || $val !== '' )
 							$arr[$key] = $val;
 						$i++;
@@ -559,7 +559,7 @@ abstract class ConfigurationPage extends SpecialPage {
 				case 'group-bool':
 				case 'group-array':
 					$all = array();
-					if ( isset( $_REQUEST['wp' . $name . '-vals'] ) ) {
+					if ( $request->getCheck( 'wp' . $name . '-vals' ) ) {
 						$iter = explode( "\n", trim( $request->getText( 'wp' . $name . '-vals' ) ) );
 						foreach ( $iter as &$group ) {
 							// Our own Sanitizer::unescapeId() :)
@@ -623,7 +623,7 @@ abstract class ConfigurationPage extends SpecialPage {
 						APCOND_INGROUPS => 'array', APCOND_ISIP => 'text', APCOND_IPINRANGE => 'text',
 						APCOND_AGE_FROM_EDIT => 'int' );
 
-					if ( isset( $_REQUEST['wp' . $name . '-vals'] ) ) {
+					if ( $request->getCheck( 'wp' . $name . '-vals' ) ) {
 						$groups = explode( "\n", trim( $request->getText( 'wp' . $name . '-vals' ) ) );
 						foreach ( $groups as &$group ) {
 							// Our own Sanitizer::unescapeId() :)
