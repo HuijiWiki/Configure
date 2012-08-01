@@ -2854,7 +2854,10 @@ Bitte erstellen Sie sie und führen Sie configure.sql darin aus oder korrigieren
  */
 $messages['diq'] = array(
 	'configure-desc-val' => 'Deger',
+	'configure-viewconfig-default-diff' => 'Sazan dê hesıbyayan ra vurnayışi',
 	'configure-section-category' => 'Kategoriy',
+	'configure-section-access' => 'Cırestış',
+	'configure-view-default' => 'Sazê hesıbyayey',
 	'configure-throttle-action-edit' => 'Bıvurne',
 	'configure-throttle-action-rollback' => 'Peyser bia',
 );
@@ -6743,14 +6746,14 @@ et Appachtemang. Do kresß en Vör-Aansich jezeich, wann De uß dämm Feld jeih�
 	'configure-section-stats' => 'Shtatistike för de Webßait',
 	'configure-section-skin' => 'Ovverflääsche un Ußsinn',
 	'configure-section-vector' => 'Et Ußsinn „Vektor“',
-	'configure-section-category' => 'Saachjruppe',
+	'configure-section-category' => 'Saachjroppe',
 	'configure-section-cache' => 'Zwescheshpeisher',
 	'configure-section-pcache' => 'Dem Paarser singe Zwescheshpeisher',
 	'configure-section-messagecache' => 'Zwescheshpeisher för dem Wiki sing Nohreschte',
 	'configure-section-interwiki' => 'Engerwikki',
 	'configure-section-access' => 'Zojreff',
 	'configure-section-groups' => 'Jruppe',
-	'configure-section-block' => 'Sperre',
+	'configure-section-block' => 'Schpärre',
 	'configure-section-rates' => 'Bejrenzunge för Raate',
 	'configure-section-proxy' => 'Zweschespheisher',
 	'configure-section-cookie' => '<i lang="en">Cookies</i>',
