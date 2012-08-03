@@ -4971,6 +4971,7 @@ $messages['da'] = array(
  * @author Imre
  * @author Kghbln
  * @author MF-Warburg
+ * @author Metalhead64
  * @author Purodha
  * @author Umherirrender
  */
@@ -5495,7 +5496,7 @@ $messages['de'] = array(
 	'configure-setting-wgIncludeLegacyJavaScript' => 'Die alte JavaScript-Bibliothek und abhängige Bibliotheken einbeziehen',
 	'configure-setting-wgLegacyJavaScriptGlobals' => 'Konfigurationsvariablen zu Fensterobjekten in JavaScript zuweisen',
 	'configure-setting-wgResourceBasePath' => 'Standardwert für den URL-Basispfad des ResourceLoaders (sofern leer, wird die Einstellung zu <code>$wgScriptPath</code> verwendet werden)',
-	'configure-setting-wgResourceLoaderDebug' => 'Fehlerbeseitigung für RecourceLoader-Aufrufe',
+	'configure-setting-wgResourceLoaderDebug' => 'Fehlerbeseitigungsmodus für RecourceLoader-Aufrufe aktivieren',
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'Einbetten privater Module in die HTML-Ausgabe',
 	'configure-setting-wgResourceLoaderMaxage' => 'Maximaler Zeitraum in Sekunden während dem die Ressourcen zwischengespeichert werden sollen, die vom ResouceLoader bereitgestellt werden',
 	'configure-setting-wgResourceLoaderMaxQueryLength' => 'Maximale Länge für Angaben zu Abfragen durch den RecourceLoader (-1 zum deaktivieren)',
@@ -5605,11 +5606,26 @@ $messages['de'] = array(
 );
 
 /** Zazaki (Zazaki)
+ * @author Erdemaslancan
  * @author Mirzali
  */
 $messages['diq'] = array(
 	'configure-setting-wgSitename' => 'Nameyê sita',
+	'configure-setting-wgActionPaths-key' => 'Kerden',
+	'configure-setting-wgActionPaths-value' => 'Şablonê GRE',
+	'configure-setting-wgMediaHandlers-key' => 'Babetê NIME',
+	'configure-setting-wgLanguageCode' => 'Zıwan kodê sita',
+	'configure-setting-wgArticleRobotPolicies-key' => 'Sernamey pela',
+	'configure-setting-wgArticleRobotPolicies-value' => 'Politikay Botan',
+	'configure-setting-wgDefaultLanguageVariant' => 'Hesıbyayê vurnerê zıwani',
+	'configure-setting-wgDefaultRobotPolicy' => 'Hesıbyaye politikaya botan',
+	'configure-setting-wgExtraLanguageNames-key' => 'Kodê zıwani',
 	'configure-setting-wgExtraLanguageNames-value' => 'Name',
+	'configure-setting-wgDefaultSkin' => 'Hesbêne asayışê nami',
+	'configure-setting-wgNamespacesToBeSearchedDefault' => 'Hesıbyayê cı geyrayışê cayê naman',
+	'configure-setting-wgDefaultUserOptions' => 'Hesıbyayê tercihê karberi',
+	'configure-setting-wgExternalDiffEngine' => 'Ferq motoriyo teberdan',
+	'configure-setting-wgXhtmlDefaultNamespace' => 'Hesıbyayê cayê name dê XHTML',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -6384,7 +6400,7 @@ $messages['es'] = array(
 	'configure-setting-wgIncludeLegacyJavaScript' => 'Incluir la antigua biblioteca de JavaScript y sus dependencias',
 	'configure-setting-wgLegacyJavaScriptGlobals' => 'Asignar variables de configuración en el espacio global de JavaScript',
 	'configure-setting-wgResourceBasePath' => 'Valor por defecto del "camino de base remota" para los módulos del cargador de recursos (<code>$wgScriptPath</code> será utilizado si está vacío)',
-	'configure-setting-wgResourceLoaderDebug' => 'Depuración de solicitudes del cargador de recursos',
+	'configure-setting-wgResourceLoaderDebug' => 'Activar el modo de depuración para solicitudes de ResourceLoader',
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'Incrustar módulos privados en línea con la salida HTML',
 	'configure-setting-wgResourceLoaderMaxage' => 'Tiempo máximo en segundos para los recursos de memoria caché servidos por el cargador de recursos',
 	'configure-setting-wgResourceLoaderMaxQueryLength' => 'Longitud máxima de la cadena de consulta para llamadas al cargador de recursos (-1 para deshabilitar)',
@@ -7400,7 +7416,7 @@ $messages['fr'] = array(
 	'configure-setting-wgIncludeLegacyJavaScript' => "Inclure l'ancienne bibliothèque JavaScript et ses dépendances",
 	'configure-setting-wgLegacyJavaScriptGlobals' => "Mettre les variables de configuration dans l'espace global de JavaScript",
 	'configure-setting-wgResourceBasePath' => 'Valeur par défaut du « chemin de base distant » pour les modules du chargeur de ressources (<code>$wgScriptPath</code> sera utilisé si vide)',
-	'configure-setting-wgResourceLoaderDebug' => 'Débogage pour les requêtes au chargeur de ressources',
+	'configure-setting-wgResourceLoaderDebug' => 'Activer le mode débogage pour les requêtes à ResourceLoader',
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'Intégrer des modules privés en ligne avec la sortie HTML',
 	'configure-setting-wgResourceLoaderMaxage' => 'Délai maximal en secondes pour cacher les ressources servies par le chargeur de ressources',
 	'configure-setting-wgResourceLoaderMaxQueryLength' => 'Longueur maximale de la chaîne de requête pour les appels au chargeur de ressources (-1 pour désactiver)',
@@ -8288,7 +8304,7 @@ $messages['gl'] = array(
 	'configure-setting-wgIncludeLegacyJavaScript' => 'Incluír as bibliotecas vellas de JavaScript e as súas dependencias',
 	'configure-setting-wgLegacyJavaScriptGlobals' => 'Asignar variables de configuración en JavaScript ao espazo global',
 	'configure-setting-wgResourceBasePath' => 'Valor por defecto da "ruta de base remota" para os módulos do xestor de recursos (en caso de estar baleiro emprégase <code>$wgScriptPath</code>)',
-	'configure-setting-wgResourceLoaderDebug' => 'Depuración para as solicitudes do xestor de recursos',
+	'configure-setting-wgResourceLoaderDebug' => 'Activar o modo de depuración para as solicitudes do xestor de recursos',
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'Incorporar módulos privados con saída en HTML',
 	'configure-setting-wgResourceLoaderMaxage' => 'Tempo máximo, en segundos, durante o que gardar na caché os recursos servidos polo xestor de recursos',
 	'configure-setting-wgResourceLoaderMaxQueryLength' => 'Lonxitude máxima da cadea de solicitudes para as chamadas ao xestor de recursos (-1 para desactivalo)',
@@ -11025,7 +11041,7 @@ $messages['ia'] = array(
 	'configure-setting-wgIncludeLegacyJavaScript' => 'Includer le ancian bibliotheca JavaScript e su dependentias',
 	'configure-setting-wgLegacyJavaScriptGlobals' => 'Assignar variabiles de configuration al spatio global in JavaScript',
 	'configure-setting-wgResourceBasePath' => 'Valor predefinite pro le "cammino de base remote" pro le modulos del cargator de ressources (<code>$wgScriptPath</code> essera utilisate si iste valor resta vacue)',
-	'configure-setting-wgResourceLoaderDebug' => 'Deteger errores in requestas ResourceLoader',
+	'configure-setting-wgResourceLoaderDebug' => 'Activar modo de deteger errores pro requestas ResourceLoader',
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'Incorporar modulos private in le output HTML',
 	'configure-setting-wgResourceLoaderMaxage' => 'Periodo maxime in secundas pro immagazinar in cache le ressources servite per le cargator de ressources',
 	'configure-setting-wgResourceLoaderMaxQueryLength' => 'Longitude maxime de catenas de consulta pro appellos al cargator de ressources (-1 pro disactivar)',
@@ -12655,7 +12671,7 @@ $messages['ksh'] = array(
 	'configure-setting-wgExemptFromUserRobotsControl' => 'Appachtemangs, woh <nowiki>__INDEX__</nowiki> un <nowiki>__NOINDEX__</nowiki> nit zohjelohße sin',
 	'configure-setting-wgExtraLanguageNames' => 'Eije Name för Shprooche',
 	'configure-setting-wgExtraLanguageNames-key' => 'Shprooche_Kood',
-	'configure-setting-wgExtraLanguageNames-value' => 'Name',
+	'configure-setting-wgExtraLanguageNames-value' => 'Naame',
 	'configure-setting-wgDisabledVariants' => 'Ußjeschaldt Varejante beim Ömwandele zwesche der Shprooche ier Varejante',
 	'configure-setting-wgBetterDirectionality' => 'Bäßer Ongerschtözong för de ongerscheidlejje Reschtonge beim Schriive — zom Ußprobeere',
 	'configure-setting-wgCanonicalLanguageLinks' => 'De shtandadattmääßeje Lengks op Sigge en ander Shprooche en de Metadaate vun de Sigge zohlohße',
@@ -13241,7 +13257,7 @@ $messages['lb'] = array(
 	'configure-setting-wgQueryPageDefaultLimit' => 'Standard Zuel vun den Elementer déi op Spezialsäiten, déi op Ufro baséieren wéi z. Bsp. [[Special:Whatlinkshere|Linken op dës Säit]]',
 	'configure-setting-wgRedirectOnLogin' => 'Benotzer beim Aloggen op dës Säit viruleeden',
 	'configure-setting-wgSecureLogin' => "Benotzerauthentifikatioun HTTPS benotze loossen wann d'Ufro vun HTTP kënnt",
-	'configure-setting-wgSortSpecialPages' => 'Spezialsäiten op [[Special:SpecialPages]] sortéieren',
+	'configure-setting-wgSortSpecialPages' => 'Spezialsäiten op [[Special:SpecialPages]] zortéieren',
 	'configure-setting-wgSpecialPageGroups' => 'Gruppe vu Spezialsäiten',
 	'configure-setting-wgSpecialPageGroups-key' => 'Grupp',
 	'configure-setting-wgSpecialVersionShowHooks' => 'Den Inhalt vun  $wgHooks op [[Special:Version]] weisen',
@@ -14191,7 +14207,7 @@ $messages['mk'] = array(
 	'configure-setting-wgIncludeLegacyJavaScript' => 'Вклучи ја старата библиотека на JavaScript и сите нејзини зависни елементи',
 	'configure-setting-wgLegacyJavaScriptGlobals' => 'Додели променливи за поставки во глобалниот простор во JavaScript',
 	'configure-setting-wgResourceBasePath' => 'Стандардна вредност „патека на далечинската база“ на модулите за вчитување на ресурси (ако го оставите празно, ќе се користи <code>$wgScriptPath</code>)',
-	'configure-setting-wgResourceLoaderDebug' => 'Отстранување грешки за барања од ResourceLoader',
+	'configure-setting-wgResourceLoaderDebug' => 'Овозможи отстранување грешки за барања од ResourceLoader',
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'Вметнувај приватни модули во заедно со HTML-изводот',
 	'configure-setting-wgResourceLoaderMaxage' => 'Максималнен рок во секунди за кеширање на ресурсите што ги дава вчитувачот на ресурси',
 	'configure-setting-wgResourceLoaderMaxQueryLength' => 'Максимална должина на низата при повикувањето на вчитувачот на реусурси (-1 за да го оневозможите)',
@@ -22180,7 +22196,7 @@ $messages['tl'] = array(
 	'configure-setting-wgIncludeLegacyJavaScript' => 'Isama ang lumang aklatan ng JavaScript at mga kinakandili nito',
 	'configure-setting-wgLegacyJavaScriptGlobals' => 'Magtalaga ng mga nagbabagu-bagong kaayusan sa pangglobong puwang na nasa loob ng JavaScript',
 	'configure-setting-wgResourceBasePath' => 'Likas na nakatakdang halaga ng "malayong landas ng himpilan" para sa mga modulo na pangkarga ng pinagkunan (gagamitin ang <code>$wgScriptPath</code> kapag iniwang walang laman)',
-	'configure-setting-wgResourceLoaderDebug' => 'Tanggalan ng sira para sa mga hiling ng ResourceLoader',
+	'configure-setting-wgResourceLoaderDebug' => 'Paganahin ang gawi na nagtatanggal ng surot para sa mga paghiling ng ResourceLoader',
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'Ibaon ang pribadong mga modyul na nakaayon sa inilalabas ng HTML',
 	'configure-setting-wgResourceLoaderMaxage' => 'Pinakamataas na oras na nasa mga segundo upang maitago ang mga napagkukunan na inihain ng tagapagkarga ng nakukuha',
 	'configure-setting-wgResourceLoaderMaxQueryLength' => 'Pinaka mataas na bagting ng pagsisiyasat para sa mga pagtawag ng pangkarga ng pinagkunan (-1 upang huwag paganahin)',
