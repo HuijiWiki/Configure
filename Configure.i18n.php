@@ -2853,8 +2853,9 @@ Bitte erstellen Sie sie und führen Sie configure.sql darin aus oder korrigieren
  * @author Mirzali
  */
 $messages['diq'] = array(
-	'configure-desc-val' => 'Deger',
+	'configure-desc-val' => 'Erc',
 	'configure-viewconfig-default-diff' => 'Sazan dê hesıbyayan ra vurnayışi',
+	'configure-section-features' => 'Weçinaye',
 	'configure-section-category' => 'Kategoriy',
 	'configure-section-access' => 'Cırestış',
 	'configure-section-feed' => 'Warikerdış',
