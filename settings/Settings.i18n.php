@@ -5621,10 +5621,17 @@ $messages['diq'] = array(
 	'configure-setting-wgDefaultRobotPolicy' => 'Hesıbyaye politikaya botan',
 	'configure-setting-wgExtraLanguageNames-key' => 'Kodê zıwani',
 	'configure-setting-wgExtraLanguageNames-value' => 'Name',
+	'configure-setting-wgDebugLogGroups-value' => 'Dosya',
 	'configure-setting-wgDefaultSkin' => 'Hesbêne asayışê nami',
+	'configure-setting-wgValidSkinNames-value' => 'Nami bımocne',
+	'configure-setting-wgExtraNamespaces-key' => 'Kimlıga nameycay: $1',
+	'configure-setting-wgExtraNamespaces-value' => 'Nameyê heruna naman',
 	'configure-setting-wgNamespacesToBeSearchedDefault' => 'Hesıbyayê cı geyrayışê cayê naman',
 	'configure-setting-wgDefaultUserOptions' => 'Hesıbyayê tercihê karberi',
 	'configure-setting-wgExternalDiffEngine' => 'Ferq motoriyo teberdan',
+	'configure-setting-wgSVGConverter' => 'SVG çerxkerdoği',
+	'configure-setting-wgSVGConverters' => 'SVG çerxkerdoği',
+	'configure-setting-wgSVGConverters-key' => 'Namey çerxkerdoği',
 	'configure-setting-wgXhtmlDefaultNamespace' => 'Hesıbyayê cayê name dê XHTML',
 );
 
