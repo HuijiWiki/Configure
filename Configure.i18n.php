@@ -3695,6 +3695,7 @@ $messages['fa'] = array(
 	'configure-ext-use' => 'استفاده',
 	'configure-form-reason' => 'دلیل:',
 	'configure-btn-save' => 'ذخیرهٔ تنظیمات',
+	'configure-edit-old' => "'''هشدار''': شما در حال ویرایش یک نسخهٔ <strong>قدیمی</strong> از پیکربندی هستید (به تاریخ $1).",
 	'configure-error' => 'پیکربندی نمی‌تواند ذخیره شود',
 	'configure-js-add' => 'افزودن ورودی جدید',
 	'configure-js-remove' => 'حذف',
@@ -3706,7 +3707,10 @@ $messages['fa'] = array(
 	'configure-old-changes' => 'تغییرات',
 	'configure-section-general' => 'تنظیمات عمومی',
 	'configure-section-pages' => 'صفحه‌ها',
+	'configure-section-email' => 'پست الکترونیکی',
 	'configure-section-timezone' => 'منطقهٔ زمانی',
+	'configure-section-category' => 'رده‌ها',
+	'configure-section-groups' => 'گروه‌ها',
 	'configure-section-performance' => 'کارایی',
 	'configure-section-upload' => 'بارگذاری',
 	'configure-section-images' => 'پرونده‌ها',
@@ -3720,6 +3724,10 @@ $messages['fa'] = array(
 	'configure-throttle-action-edit' => 'ویرایش',
 	'configure-throttle-action-move' => 'انتقال',
 	'configure-throttle-action-rollback' => 'واگردانی',
+	'configure-throttle-action-emailuser' => 'ارسال پست',
+	'configure-throttle-group' => 'نوع',
+	'configure-condition-name-5' => 'نشانی آی‌پی کاربر',
+	'configure-condition-name-6' => 'نشانی آی‌پی کاربر به صورت بازهٔ CIDR',
 );
 
 /** Finnish (suomi)
@@ -6381,10 +6389,55 @@ $messages['jv'] = array(
 );
 
 /** Georgian (ქართული)
+ * @author David1010
  * @author Malafaya
  */
 $messages['ka'] = array(
+	'configure-desc-group' => 'ჯგუფი',
+	'configure-desc-key' => 'გასაღები',
+	'configure-desc-ns' => 'სახელთა სივრცე',
+	'configure-desc-val' => 'მნიშვნელობა',
+	'configure-edit-core' => 'მედიავიკი',
+	'configure-edit-ext' => 'გაფართოებები',
+	'configure-ext-settings' => 'კონფიგურაცია',
+	'configure-ext-use' => 'გამოყენება',
+	'configure-form-reason' => 'მიზეზი:',
+	'configure-btn-save' => 'პარამეტრების შენახვა',
+	'configure-js-remove' => 'წაშლა',
+	'configure-js-biglist-show' => '[დეტალების ჩვენება]',
+	'configure-js-biglist-hide' => '[დეტალების დამალვა]',
+	'configure-js-search-prompt' => 'მოთხოვნა:',
+	'configure-old' => 'ძველი ვერსიები',
+	'configure-old-changes' => 'ცვლილებები',
+	'configure-old-summary' => '$1 - $2 $4 $3-დან',
+	'configure-section-pages' => 'გვერდები',
+	'configure-section-db' => 'მონაცემთა ბაზა',
+	'configure-section-email' => 'ელ. ფოსტა',
+	'configure-section-localization' => 'ლოკალიზაცია',
 	'configure-section-timezone' => 'სასაათო სარტყელი',
+	'configure-section-category' => 'კატეგორიები',
+	'configure-section-groups' => 'ჯგუფები',
+	'configure-section-block' => 'ბლოკირებები',
+	'configure-section-upload' => 'ატვირთვა',
+	'configure-section-images' => 'ფაილები',
+	'configure-section-antivirus' => 'ანტივირუსი',
+	'configure-section-users' => 'მომხმარებლები',
+	'configure-section-feed' => 'არხი',
+	'configure-section-search' => 'ძიება',
+	'configure-select-wiki-view-all' => 'ყველა ვიკი',
+	'configure-select-wiki-submit' => 'არჩევა',
+	'configure-view' => 'ხილვა',
+	'configure-view-all-versions' => 'ვერსიების სრული სია',
+	'configure-viewconfig-line' => '$1 $2 - $3 $5-დან: $4',
+	'configure-throttle-action-edit' => 'რედაქტირება',
+	'configure-throttle-action-move' => 'გადატანა',
+	'configure-throttle-group' => 'ტიპი',
+	'configure-throttle-limit' => 'ლიმიტი',
+	'configure-throttle-none' => 'ულიმიტო',
+	'configure-condition-operator' => 'ოპერატორი:',
+	'configure-condition-operator-or' => 'ან',
+	'configure-condition-operator-and' => 'და',
+	'configure-condition-operator-not' => 'არა',
 );
 
 /** Kara-Kalpak (Qaraqalpaqsha)
@@ -10482,6 +10535,48 @@ $messages['scn'] = array(
 	'configure-throttle-action-edit' => 'Cancia',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'configure-desc-group' => 'කාණ්ඩය',
+	'configure-desc-key' => 'යතුර',
+	'configure-desc-ns' => 'නාමඅවකාශය',
+	'configure-desc-val' => 'අගය',
+	'configure-edit-core' => 'මාධ්‍යවිකී',
+	'configure-edit-ext' => 'විස්තීර්ණ',
+	'configure-ext-settings' => 'සැකසුම්',
+	'configure-ext-use' => 'භාවිත කරන්න',
+	'configure-form-reason' => 'හේතුව:',
+	'configure-btn-save' => 'සැකසුම් සුරකින්න',
+	'configure-js-remove' => 'මකන්න',
+	'configure-js-search-legend' => 'ගවේෂණ සැකසුම්',
+	'configure-old' => 'පැරණි අනුවාද',
+	'configure-old-changes' => 'වෙනස්කම්',
+	'configure-section-features' => 'විශේෂාංගමය',
+	'configure-section-general' => 'ප්‍රධාන සැකසුම්',
+	'configure-section-pages' => 'පිටු',
+	'configure-section-paths' => 'පථ',
+	'configure-section-email' => 'විද්‍යුත් තැපෑල',
+	'configure-section-timezone' => 'වේලා කලාපය',
+	'configure-section-groups' => 'කාණ්ඩ',
+	'configure-section-images' => 'ගොනු',
+	'configure-section-users' => 'පරිශීලකයෝ',
+	'configure-section-feed' => 'පෝෂකය',
+	'configure-section-search' => 'සොයන්න',
+	'configure-section-copyright' => 'හිමිකම',
+	'configure-select-wiki-submit' => 'තෝරන්න',
+	'configure-view' => 'දසුන',
+	'configure-view-default' => 'සාමාන්‍ය සැකසුම්',
+	'configure-throttle-action-edit' => 'සංස්කරණය',
+	'configure-throttle-action-move' => 'ගෙනයන්න',
+	'configure-throttle-group' => 'වර්ගය',
+	'configure-throttle-limit' => 'සීමාව',
+	'configure-condition-operator-or' => 'හෝ',
+	'configure-condition-operator-and' => 'සහ',
+	'configure-condition-name' => 'කොන්දේසිය',
+);
+
 /** Slovak (slovenčina)
  * @author Helix84
  * @author Teslaton
@@ -11630,7 +11725,7 @@ $messages['te'] = array(
 	'configure-ext-settings' => 'అమరికలు',
 	'configure-form-reason' => 'కారణం:',
 	'configure-arrayinput-oneperline' => "''(లైనుకి ఒకటి)''",
-	'configure-btn-save' => 'అమరికలు భద్రపరచు',
+	'configure-btn-save' => 'అమరికలను భద్రపరచు',
 	'configure-js-group-exists' => 'పొరపాటు: ఆ గుంపు ఇప్పటికే ఉంది.',
 	'configure-js-prompt-group' => 'కొత్త గుంపు యొక్క పేరు ఇవ్వండి:',
 	'configure-js-remove' => 'తొలగించు',
