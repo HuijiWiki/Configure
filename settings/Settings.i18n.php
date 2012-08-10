@@ -6530,10 +6530,12 @@ $messages['et'] = array(
 	'configure-setting-wgSharedPrefix' => 'Jagatud andmebaasi eesliide',
 	'configure-setting-wgSharedTables' => 'Jagatavad tabelid',
 	'configure-setting-wgAllowImageMoving' => 'Aktiveeri failide ümbernimetamine',
+	'configure-setting-wgArticleRobotPolicies-key' => 'Lehekülje pealkiri',
 	'configure-setting-wgExtraLanguageNames-key' => 'Keelekood',
 	'configure-setting-wgExtraLanguageNames-value' => 'Nimi',
 	'configure-setting-wgLogRestrictions-key' => 'Logitüüp',
 	'configure-setting-wgSpecialPageGroups-key' => 'Rühm',
+	'configure-setting-wgAutopromote-value' => 'Tingimused',
 	'configure-setting-wgDebugLogGroups-value' => 'Fail',
 	'configure-setting-wgSessionName' => 'Seansi nimi',
 	'configure-setting-wgNamespaceProtection' => 'Nimeruumi kaitse',
@@ -11795,6 +11797,7 @@ $messages['inh'] = array(
 /** Italian (italiano)
  * @author Beta16
  * @author Darth Kule
+ * @author F. Cosoleto
  * @author Gianfranco
  * @author GreenFox
  * @author Stefano-c
@@ -11905,8 +11908,13 @@ $messages['it'] = array(
 	'configure-setting-wgEnableWriteAPI' => 'Abilita la scrittura tramite API',
 	'configure-setting-wgPasswordSalt' => 'Sale della password',
 	'configure-setting-wgRestrictionTypes' => 'Azioni che possono essere limitate',
+	'configure-setting-wgEnableUserEmail' => 'Abilita invio email fra utenti',
 	'configure-setting-wgSMTP' => 'Server SMTP',
+	'configure-setting-wgUserEmailConfirmationTokenExpiry' => 'Il tempo di scadenza in secondi di un codice di conferma inviato via email',
 	'configure-setting-wgDebugLogGroups-value' => 'File',
+	'configure-setting-wgDebugToolbar' => 'Mostra la barra degli strumenti di debug',
+	'configure-setting-wgInternalServer' => 'Nome del server interno come visto da Squid, se differente',
+	'configure-setting-wgDisableInternalSearch' => 'Disabilita la funzionalità di ricerca interna',
 	'configure-setting-wgAllowPrefChange-key' => 'Preferenze utente',
 	'configure-setting-wgExternalAuthType' => 'Tipo di autenticazione esterna da utilizzare',
 	'configure-setting-wgExternalAuthConf' => "Configurazione per l'autenticazione esterna",
@@ -12527,11 +12535,36 @@ $messages['ja'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'configure-setting-wgMediaHandlers-key' => 'MIME ტიპი',
+	'configure-setting-wgArticleRobotPolicies-key' => 'გვერდის სათაური',
+	'configure-setting-wgArticleRobotPolicies-value' => 'რობოტების წესები',
+	'configure-setting-wgExtraLanguageNames-key' => 'ენის კოდი',
+	'configure-setting-wgExtraLanguageNames-value' => 'სახელი',
+	'configure-setting-wgMaxArticleSize' => 'გვერდის მაქსიმალური ზომა (კბ)',
+	'configure-setting-wgSpecialPageGroups-key' => 'ჯგუფი',
 	'configure-setting-wgDebugLogGroups-value' => 'ფაილი',
+	'configure-setting-wgExtraNamespaces-key' => 'სახელთა სივრცის ID',
+	'configure-setting-wgExtraNamespaces-value' => 'სახელთა სივრცის სახელი',
+	'configure-setting-wgEnableDublinCoreRdf' => 'RDF-ის მეტამონაცემების გამოყენება',
+	'configure-setting-wgLicenseTerms' => 'მეტამონაცემების პირობები',
+	'configure-setting-wgMaxCredits' => 'ნაჩვენები ავტორების მაქსიმალური რაოდენობა',
+	'configure-setting-wgRightsIcon' => 'საავტორო უფლებების ხატულა',
+	'configure-setting-wgAllowPrefChange-key' => 'მომხმარებლის კონფიგურაცია',
+	'configure-setting-wgProxyList' => 'დაბლოკილი IP მისამართები',
+	'configure-setting-wgProxyWhitelist' => 'პროქსის თეთრი სია',
+	'configure-setting-wgSecretKey' => 'საიდუმლო გასაღები',
 	'configure-setting-wgSVGConverter' => 'SVG კონვერტორი',
 	'configure-setting-wgSVGConverters' => 'SVG კონვერტორები',
 	'configure-setting-wgXMLMimeTypes-key' => 'MIME ტიპი',
+	'configure-setting-wgMimeType' => 'ვიკი-გვერდების MIME ტიპი',
 	'configure-setting-wgXhtmlNamespaces-key' => 'სახელთა სივრცე',
+	'configure-setting-wgLocaltimezone' => 'ადგილობრივი სასაათო სარტყელი',
+	'configure-setting-wgLocalTZoffset' => 'სასაათო სარტყლის გადაწევა',
+	'configure-setting-wgUseAjax' => 'AJAX-ის ჩართვა',
+	'configure-setting-wgLivePreview' => 'ცოცხალი გადახედვის ჩართვა',
+	'configure-setting-wgMimeDetectorCommand' => 'MIME-ის ამომცნობი პროგრამა',
+	'configure-setting-wgLogo' => 'ვებ-გვერდის ლოგოს URL',
+	'configure-setting-wgLoadScript' => 'ფაილ load.php-ის URL',
 );
 
 /** Khmer (ភាសាខ្មែរ)
@@ -19701,6 +19734,7 @@ $messages['ru'] = array(
 $messages['rue'] = array(
 	'configure-setting-wgExtraLanguageNames-key' => 'Код языка',
 	'configure-setting-wgExtraLanguageNames-value' => 'Назва',
+	'configure-setting-wgDebugLogGroups-value' => 'Файл',
 );
 
 /** Sicilian (sicilianu)

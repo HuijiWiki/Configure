@@ -3570,6 +3570,7 @@ $messages['et'] = array(
 	'configure-old' => 'Vanad versioonid',
 	'configure-section-email' => 'E-post',
 	'configure-section-enotif' => 'E-postiteavitus',
+	'configure-section-namespaces' => 'Nimeruumid',
 	'configure-section-cookie' => 'Küpsised',
 	'configure-section-images' => 'Failid',
 	'configure-section-antivirus' => 'Viirustõrje',
