@@ -48,7 +48,7 @@ Please make it writable by PHP to use this extension.',
 	'configure-js-remove'                 => 'Delete',
 	'configure-js-remove-row'             => 'Delete this entry',
 	'configure-js-get-image-url' 	      => 'Convert file name to URL',
-	'configure-js-image-error'            => 'An error occured while fetching the URL. Please check that the file exists.',
+	'configure-js-image-error'            => 'An error occurred while fetching the URL. Please check that the file exists.',
 	'configure-js-biglist-shown'	      => 'Setting details can be hidden',
 	'configure-js-biglist-hidden'         => 'Setting details hidden',
 	'configure-js-biglist-show'           => '[show details]',
@@ -161,19 +161,19 @@ Please create it or change it to use this extension.',
 	'right-viewconfig-all'                => 'View all wiki configuration',
 	'right-viewconfig-interwiki'          => 'View foreign wiki configuration',
 	'viewconfig'                          => 'View wiki configuration',
-	
+
 	'configure-throttle-action-edit'      => 'Edit',
 	'configure-throttle-action-move'      => 'Move',
 	'configure-throttle-action-rollback'  => 'Rollback',
 	'configure-throttle-action-mailpassword' => 'Send password reminder',
 	'configure-throttle-action-emailuser' => 'Send mail',
-	
+
 	'configure-throttle-group-anon'       => 'All anonymous users',
 	'configure-throttle-group-user'       => 'Per user account',
 	'configure-throttle-group-newbie'     => 'Per new user account',
 	'configure-throttle-group-ip'         => 'Per IP address',
 	'configure-throttle-group-subnet'     => 'Per Class C subnet',
-	
+
 	'configure-throttle-count'            => 'Allowed actions:',
 	'configure-throttle-period'           => 'Reset period (seconds):',
 	'configure-throttle-summary'          => '$1 actions in $2 seconds.',
@@ -196,7 +196,7 @@ Please create it or change it to use this extension.',
 	'configure-condition-name-6'          => 'User\'s IP address in CIDR range',
 	'configure-condition-name-7'          => 'Minimal age from first edit',
 	'configure-autopromote-noconds'       => 'No prerequisites',
-	
+
 	'configure-condition-description-1'   => 'Minimum edit count of $1',
 	'configure-condition-description-2'   => 'Minimum account age of $1 {{PLURAL:$1|second|seconds}}',
 	'configure-condition-description-3'   => 'E-mail confirmed',
@@ -204,7 +204,7 @@ Please create it or change it to use this extension.',
 	'configure-condition-description-5'   => 'User\'s IP address is $1',
 	'configure-condition-description-6'   => 'User\'s IP address in $1 range',
 	'configure-condition-description-7'   => 'Minimum account age of $1 {{PLURAL:$1|second|seconds}} after the first edit',
-	
+
 	'configure-boolop-description-and'    => 'All conditions must be true',
 	'configure-boolop-description-or'     => 'At least one condition must be true',
 	'configure-boolop-description-xor'    => 'Exactly one condition must be true',
