@@ -1565,7 +1565,7 @@ $messages['ar'] = array(
 	'configure-setting-wgExemptFromUserRobotsControl' => 'النطاقات التي لا تسمح باستخدام <nowiki>__INDEX__</nowiki> و <nowiki>__NOINDEX__</nowiki>',
 	'configure-setting-wgExtraLanguageNames' => 'فرض اسم اللغة',
 	'configure-setting-wgExtraLanguageNames-key' => 'كود اللغة',
-	'configure-setting-wgExtraLanguageNames-value' => 'اسم',
+	'configure-setting-wgExtraLanguageNames-value' => 'الاسم',
 	'configure-setting-wgDisabledVariants' => 'اللهجات المعطلة لتحويل لهجات اللغات',
 	'configure-setting-wgExtraRandompageSQL' => 'فلترة ل[[Special:Random]] (في جملة WHERE)',
 	'configure-setting-wgExtraSubtitle' => 'عنوان فرعي (يظهر تحت عنوان الصفحة)',
@@ -14557,6 +14557,19 @@ $messages['ms'] = array(
 	'configure-setting-wgDebugLogGroups-value' => 'Fail',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'configure-setting-wgArticleRobotPolicies-key' => 'Titltu tal-paġna',
+	'configure-setting-wgArticleRobotPolicies-value' => 'Politika tar-robots',
+	'configure-setting-wgCapitalLinks' => "L-ewwel ittra tat-titlu f'kull paġna hija kapitali",
+	'configure-setting-wgExtraLanguageNames-key' => 'Kodiċi tal-lingwa',
+	'configure-setting-wgExtraLanguageNames-value' => 'Isem',
+	'configure-setting-wgMaxArticleSize' => 'Daqs massimu tal-paġna (kB)',
+	'configure-setting-wgNoFollowLinks' => 'Żid rel="nofollow" lill-ħoloq',
+);
+
 /** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
@@ -17817,6 +17830,7 @@ $messages['ps'] = array(
 	'configure-setting-wgSpecialPageGroups-key' => 'ډله',
 	'configure-setting-wgDebugLogGroups-value' => 'دوتنه',
 	'configure-setting-wgXhtmlNamespaces-key' => 'نوم-تشيال',
+	'configure-setting-wgUseAjax' => 'AJAX چارنول',
 );
 
 /** Portuguese (português)
@@ -19751,10 +19765,18 @@ $messages['scn'] = array(
  */
 $messages['si'] = array(
 	'configure-setting-wgSitename' => 'අඩවි නාමය',
+	'configure-setting-wgActionPaths-key' => 'කාර්යය',
+	'configure-setting-wgActionPaths-value' => 'URL සැකිල්ල',
+	'configure-setting-wgMediaHandlers-key' => 'MIME වර්ගය',
 	'configure-setting-wgExtraLanguageNames-key' => 'භාෂා කේතය',
 	'configure-setting-wgExtraLanguageNames-value' => 'නම',
+	'configure-setting-wgSiteNotice' => 'අඩවි නිවේදනය',
+	'configure-setting-wgEnableUploads' => 'උඩුගත කිරීම් සක්‍රිය කරන්න',
+	'configure-setting-wgVersion' => 'මාධ්‍යවිකි අනුවාදය',
+	'configure-setting-wgSpecialPageGroups-key' => 'කාණ්ඩය',
 	'configure-setting-wgAutopromote-value' => 'කොන්දේසි',
 	'configure-setting-wgDebugLogGroups-value' => 'ගොනුව',
+	'configure-setting-wgXhtmlNamespaces-key' => 'නාමඅවකාශය',
 );
 
 /** Slovak (slovenčina)
@@ -21695,7 +21717,7 @@ $messages['te'] = array(
 	'configure-setting-wgSpecialPageGroups-key' => 'సమూహం',
 	'configure-setting-wgAutopromote-value' => 'షరతులు',
 	'configure-setting-wgDisabledActions' => 'పేజీపై నిషేధించబడిన కార్యాలు',
-	'configure-setting-wgDebugLogGroups-value' => 'ఫైలు',
+	'configure-setting-wgDebugLogGroups-value' => 'దస్త్రం',
 	'configure-setting-wgUseSquid' => 'స్క్విడ్ ను చేతనం చేయి',
 	'configure-setting-wgGroupPermissions' => 'గుంపు హక్కుల అప్పగింత',
 	'configure-setting-wgGroupPermissions-value' => 'ఆపాదించబడిన హక్కులు',
