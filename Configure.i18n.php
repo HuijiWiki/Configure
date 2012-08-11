@@ -3080,12 +3080,13 @@ $messages['ee'] = array(
 /** Greek (Ελληνικά)
  * @author Consta
  * @author Crazymadlover
+ * @author Geraki
  * @author Glavkos
  * @author Omnipaedista
  * @author ZaDiak
  */
 $messages['el'] = array(
-	'configure' => 'Διαμόρφωση του βίκι',
+	'configure' => 'Διαμόρφωση του wiki',
 	'configure-desc-group' => 'Ομάδα',
 	'configure-desc-key' => 'Κλειδί',
 	'configure-desc-ns' => 'Περιοχή ονομάτων',
@@ -4965,6 +4966,7 @@ $messages['he'] = array(
 /** Hindi (हिन्दी)
  * @author Ansumang
  * @author Kaustubh
+ * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
 	'configure' => 'विकि संस्थापन करें',
@@ -4984,7 +4986,7 @@ $messages['hi'] = array(
 	'configure-section-site' => 'साइट कस्टमाइज़ेशन',
 	'configure-section-namespaces' => 'नामस्थान',
 	'configure-section-skin' => 'त्वचा',
-	'configure-section-category' => 'श्रेणीयाँ',
+	'configure-section-category' => 'श्रेणियाँ',
 	'configure-section-cache' => 'कैशे',
 	'configure-section-pcache' => 'पार्सर कैशे',
 	'configure-section-messagecache' => 'संदेश कैशे',
@@ -9126,7 +9128,7 @@ $messages['or'] = array(
 	'configure-section-search' => 'ଖୋଜିବା',
 	'configure-view' => 'ଦେଖା',
 	'configure-view-all-versions' => 'ସଙ୍କଳନଗୁଡ଼ିକର ପୁରା ତାଲିକା',
-	'configure-throttle-action-edit' => 'ସମ୍ପାଦନ',
+	'configure-throttle-action-edit' => 'ସମ୍ପାଦନା',
 	'configure-throttle-action-rollback' => 'ପୁରାପୁରି ପଛକୁ ଫେରିଯିବେ',
 	'configure-throttle-count' => 'ଅନୁମୋଦିତ କାମଗୁଡିକ :',
 	'configure-throttle-period' => 'ପୁନଃସ୍ଥାପିତ ସମୟ (ସେକେଣ୍ଡରେ) :',
