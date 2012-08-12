@@ -11913,6 +11913,7 @@ $messages['it'] = array(
 	'configure-setting-wgUserEmailConfirmationTokenExpiry' => 'Il tempo di scadenza in secondi di un codice di conferma inviato via email',
 	'configure-setting-wgDebugLogGroups-value' => 'File',
 	'configure-setting-wgDebugToolbar' => 'Mostra la barra degli strumenti di debug',
+	'configure-setting-wgDBtestpassword' => 'Password per $wgDBtestuser',
 	'configure-setting-wgInternalServer' => 'Nome del server interno come visto da Squid, se differente',
 	'configure-setting-wgDisableInternalSearch' => 'Disabilita la funzionalità di ricerca interna',
 	'configure-setting-wgAllowPrefChange-key' => 'Preferenze utente',
@@ -14561,6 +14562,7 @@ $messages['ms'] = array(
  * @author Chrisportelli
  */
 $messages['mt'] = array(
+	'configure-setting-wgSharedTables' => "Tabelli x'taqsam",
 	'configure-setting-wgArticleRobotPolicies-key' => 'Titltu tal-paġna',
 	'configure-setting-wgArticleRobotPolicies-value' => 'Politika tar-robots',
 	'configure-setting-wgCapitalLinks' => "L-ewwel ittra tat-titlu f'kull paġna hija kapitali",
@@ -14568,6 +14570,7 @@ $messages['mt'] = array(
 	'configure-setting-wgExtraLanguageNames-value' => 'Isem',
 	'configure-setting-wgMaxArticleSize' => 'Daqs massimu tal-paġna (kB)',
 	'configure-setting-wgNoFollowLinks' => 'Żid rel="nofollow" lill-ħoloq',
+	'configure-setting-wgDebugLogGroups-value' => 'Fajl',
 );
 
 /** Erzya (эрзянь)
@@ -19768,15 +19771,42 @@ $messages['si'] = array(
 	'configure-setting-wgActionPaths-key' => 'කාර්යය',
 	'configure-setting-wgActionPaths-value' => 'URL සැකිල්ල',
 	'configure-setting-wgMediaHandlers-key' => 'MIME වර්ගය',
+	'configure-setting-wgLanguageCode' => 'අඩවි භාෂා කේතය',
+	'configure-setting-wgArticleRobotPolicies-key' => 'පිටුවේ මාතෘකාව',
 	'configure-setting-wgExtraLanguageNames-key' => 'භාෂා කේතය',
 	'configure-setting-wgExtraLanguageNames-value' => 'නම',
+	'configure-setting-wgMaxArticleSize' => 'උපරිම පිටු ප්‍රමාණය (kB)',
 	'configure-setting-wgSiteNotice' => 'අඩවි නිවේදනය',
+	'configure-setting-wgCheckFileExtensions' => 'ගොනු විස්තීර්ණ පිරික්සන්න',
 	'configure-setting-wgEnableUploads' => 'උඩුගත කිරීම් සක්‍රිය කරන්න',
+	'configure-setting-wgLocalFileRepo' => 'ප්‍රාදේශීය ගොනු කෝෂ්ඨාගාරය',
 	'configure-setting-wgVersion' => 'මාධ්‍යවිකි අනුවාදය',
+	'configure-setting-wgLogRestrictions-key' => 'ලඝු වර්ගය',
+	'configure-setting-wgSpecialPageGroups' => 'විශේෂ පිටු කාණ්ඩ',
 	'configure-setting-wgSpecialPageGroups-key' => 'කාණ්ඩය',
 	'configure-setting-wgAutopromote-value' => 'කොන්දේසි',
+	'configure-setting-wgEnableAPI' => 'API සක්‍රිය කරන්න',
+	'configure-setting-wgSMTP' => 'SMTP සර්වරය',
+	'configure-setting-wgDebugLogGroups-key' => 'පිවිසුම් කාණ්ඩය',
 	'configure-setting-wgDebugLogGroups-value' => 'ගොනුව',
+	'configure-setting-wgSessionName' => 'සැසියේ නම',
+	'configure-setting-wgDisableInternalSearch' => 'අභ්‍යන්තර සෙවුම අක්‍රිය කරන්න',
+	'configure-setting-wgSQLMode' => 'SQL ආකාරය',
+	'configure-setting-wgValidSkinNames-key' => 'අභ්‍යන්තර නාමය',
+	'configure-setting-wgValidSkinNames-value' => 'ප්‍රදර්ශන නාමය',
+	'configure-setting-wgRightsIcon' => 'කතුහිමිකම් අයිකනය',
+	'configure-setting-wgAllowRealName' => 'සැබෑ නම් වලට ඉඩදෙන්න',
+	'configure-setting-wgAllowPrefChange-key' => 'පරිශීලක අභිරුචිය',
+	'configure-setting-wgSecretKey' => 'ආරක්‍ෂිත යතුර',
+	'configure-setting-wgSVGConverter' => 'SVG පරිවර්තකය',
+	'configure-setting-wgSVGConverterPath' => 'SVG පරිවර්තක පථය',
+	'configure-setting-wgSVGConverters' => 'SVG පරිවර්තක',
+	'configure-setting-wgSVGConverters-key' => 'පරිවර්තක නාමය',
+	'configure-setting-wgXMLMimeTypes-key' => 'MIME වර්ගය',
 	'configure-setting-wgXhtmlNamespaces-key' => 'නාමඅවකාශය',
+	'configure-setting-wgLocaltimezone' => 'ප්‍රාදේශීය වේලා කලාපය',
+	'configure-setting-wgUseAjax' => 'AJAX සක්‍රිය කරන්න',
+	'configure-setting-wgDirectoryMode' => 'නව නාමාවලි ආකාර',
 );
 
 /** Slovak (slovenčina)
@@ -21651,13 +21681,28 @@ $messages['sw'] = array(
 );
 
 /** Tamil (தமிழ்)
+ * @author Karthi.dr
  * @author TRYPPN
  */
 $messages['ta'] = array(
 	'configure-setting-wgSitename' => 'தளத்தின் பெயர்',
 	'configure-setting-wgActionPaths-key' => 'செயல்',
+	'configure-setting-wgAllowImageMoving' => 'கோப்புப் பெயர்மாற்றத்தைச் செயல்படுத்து',
+	'configure-setting-wgIgnoreImageErrors' => 'படங்களுக்கான பிழைச் செய்திகளைக் காட்டாதே',
+	'configure-setting-wgIllegalFileChars' => 'கோப்புப் பெயர்களில் தவறான எழுத்துகள்',
+	'configure-setting-wgUseFileCache' => 'கோப்பு இடைமாற்றைப் பயன்படுத்து',
+	'configure-setting-wgInterwikiMagic' => 'விக்கியிடை இணைப்புகளைச் சிறப்புப் பட்டியல் ஒன்றில் காட்டு',
+	'configure-setting-wgTranslateNumerals' => 'எண்களை எழுத்துப்பெயர்ப்பு செய்',
 	'configure-setting-wgArticleRobotPolicies-key' => 'பக்கத்தின் தலைப்பு',
+	'configure-setting-wgArticleRobotPolicies-value' => 'தானியங்கி கொள்கை',
+	'configure-setting-wgExtraLanguageNames-key' => 'மொழிக் குறியீடு',
 	'configure-setting-wgExtraLanguageNames-value' => 'பெயர்',
+	'configure-setting-wgMaxArticleSize' => 'அதிகபட்ச பக்க அளவு (kB)',
+	'configure-setting-wgSiteNotice' => 'தள அறிவிப்பு',
+	'configure-setting-wgVersion' => 'மீடியாவிக்கி பதிப்பு',
+	'configure-setting-wgSpecialPageGroups-key' => 'குழு',
+	'configure-setting-wgWhitelistRead' => 'அடையாளம் காட்டாத பயனரும் பார்க்கக் கூடிய பக்கங்கள்',
+	'configure-setting-wgEmergencyContact' => 'தள நிருவாகியின் மின்னஞ்சல் முகவரி',
 	'configure-setting-wgDebugLogGroups-value' => 'கோப்பு',
 );
 
