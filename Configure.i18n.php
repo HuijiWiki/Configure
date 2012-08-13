@@ -534,7 +534,7 @@ $messages['ar'] = array(
 	'configure-ext-ext-dependency-err' => "'''خطأ:''' الامتداد $1 يتطلب الامتداد $2 لكي يتم تفعيله.",
 	'configure-ext-doc' => 'انظر الوثائق على الإنترنت',
 	'configure-ext-schemachange' => "'''تحذير:''' هذا الامتداد يتطلب [http://www.mediawiki.org/wiki/Manual:Update.php تحديثًا لقاعدة البيانات] ليعمل بطرقة صحيحة!",
-	'configure-ext-settings' => 'إعدادات',
+	'configure-ext-settings' => 'الإعدادات',
 	'configure-ext-settings-dep-errors' => 'هذا الامتداد التالي لا يمكن تفعيله لأن {{PLURAL:$1|الإعداد التالي|الإعدادات التالية}} لها قيمة غير مقبولة:',
 	'configure-ext-settings-dep-error' => '$1: القيمة المطلوبة: $2، القيمة الحالية: $3',
 	'configure-ext-use-extension' => 'استخدم هذا الامتداد',
@@ -619,7 +619,7 @@ $messages['ar'] = array(
 	'configure-section-cookie' => 'كوكيز',
 	'configure-section-performance' => 'الأداء',
 	'configure-section-test' => 'اختبارات',
-	'configure-section-upload' => 'الرفع',
+	'configure-section-upload' => 'رفع',
 	'configure-section-sharedupload' => 'الرفع المشترك',
 	'configure-section-mime' => 'أنواع MIME',
 	'configure-section-images' => 'الصور',
@@ -3563,6 +3563,10 @@ Por favor, créelo o cámbielo para usar esta extensión.',
  * @author Pikne
  */
 $messages['et'] = array(
+	'configure-desc-group' => 'Rühm',
+	'configure-desc-key' => 'Võti',
+	'configure-desc-ns' => 'Nimeruum',
+	'configure-desc-val' => 'Väärtus',
 	'configure-form-reason' => 'Põhjus:',
 	'configure-js-remove' => 'Kustuta',
 	'configure-js-remove-row' => 'Kustuta see sissekanne',
@@ -3571,10 +3575,12 @@ $messages['et'] = array(
 	'configure-old' => 'Vanad versioonid',
 	'configure-section-email' => 'E-post',
 	'configure-section-enotif' => 'E-postiteavitus',
+	'configure-section-timezone' => 'Ajavöönd',
 	'configure-section-namespaces' => 'Nimeruumid',
 	'configure-section-cookie' => 'Küpsised',
 	'configure-section-images' => 'Failid',
 	'configure-section-antivirus' => 'Viirustõrje',
+	'configure-section-users' => 'Kasutajad',
 	'configure-throttle-action-edit' => 'Redigeeri',
 	'configure-throttle-action-emailuser' => 'Saada e-kiri',
 	'configure-throttle-group' => 'Tüüp',
@@ -3582,6 +3588,7 @@ $messages['et'] = array(
 	'configure-condition-operator-and' => 'Ja',
 	'configure-condition-operator-not' => 'Mitte',
 	'configure-condition-name-3' => 'E-posti aadress kinnitatud',
+	'configure-condition-name-4' => 'Rühmades',
 	'configure-condition-name-5' => 'Kasutaja IP-aadress',
 	'configure-condition-description-3' => 'E-posti aadress kinnitatud',
 );
@@ -4965,6 +4972,7 @@ $messages['he'] = array(
 
 /** Hindi (हिन्दी)
  * @author Ansumang
+ * @author Karthi.dr
  * @author Kaustubh
  * @author Siddhartha Ghai
  */
@@ -5013,6 +5021,7 @@ $messages['hi'] = array(
 	'configure-section-misc' => 'मिसलेनिअस',
 	'right-configure' => 'विकि कॉन्फिगर करें',
 	'right-configure-all' => 'सभी विकियोंकी सैटिंग बदलें',
+	'configure-throttle-action-edit' => 'सम्पादन',
 );
 
 /** Hiligaynon (Ilonggo)
@@ -10609,14 +10618,17 @@ $messages['si'] = array(
 	'configure-edit-ext' => 'විස්තීර්ණ',
 	'configure-ext-doc' => 'මාර්ගගත ප්‍රලේඛනය බලන්න',
 	'configure-ext-settings' => 'සැකසුම්',
+	'configure-ext-use-extension' => 'මෙම විස්තිර්ණය භාවිතා කරන්න',
 	'configure-ext-use' => 'භාවිත කරන්න',
 	'configure-form-reason' => 'හේතුව:',
 	'configure-arrayinput-oneperline' => "''(රේඛාවකට එකයි)''",
 	'configure-btn-save' => 'සැකසුම් සුරකින්න',
 	'configure-error' => 'වින්‍යාසගත කෙරුම සුරැකිය නොහැක',
 	'configure-js-add' => 'නව ඇතුළත් කිරීමක් එක් කරන්න',
+	'configure-js-group-exists' => 'දෝෂය: කාණ්ඩය දැනටමත් පවතියි.',
 	'configure-js-remove' => 'මකන්න',
 	'configure-js-remove-row' => 'මෙම ඇතුළත් කිරීම මකන්න',
+	'configure-js-biglist-hidden' => 'සැකසුම් විස්තර සඟවා ඇත',
 	'configure-js-biglist-show' => '[විස්තර පෙන්වන්න]',
 	'configure-js-biglist-hide' => '[විස්තර සඟවන්න]',
 	'configure-js-summary-none' => 'සැකසුම් නැත',
@@ -10629,12 +10641,17 @@ $messages['si'] = array(
 	'configure-section-pages' => 'පිටු',
 	'configure-section-paths' => 'පථ',
 	'configure-section-db' => 'දත්ත සංචිතය',
+	'configure-section-mysql' => 'MySQL විශේෂිත',
+	'configure-section-sqlite' => 'SQLite විශේෂිත',
 	'configure-section-email' => 'විද්‍යුත් තැපෑල',
 	'configure-section-enotif' => 'විද්‍යුත්-තැපැල් නිවේදනය',
 	'configure-section-localization' => 'ප්‍රාදේශියකරණය',
 	'configure-section-timezone' => 'වේලා කලාපය',
+	'configure-section-site' => 'අඩවි රුචිකරණය',
 	'configure-section-namespaces' => 'නාමඅවකාශයන්',
+	'configure-section-skin' => 'ඡවිය',
 	'configure-section-category' => 'ප්‍රවර්ගයන්',
+	'configure-section-cache' => 'ක්‍රෂ්‍ය',
 	'configure-section-access' => 'ප්‍රවේශය',
 	'configure-section-groups' => 'කාණ්ඩ',
 	'configure-section-block' => 'වාරණ',
@@ -10650,6 +10667,7 @@ $messages['si'] = array(
 	'configure-section-specialpages' => 'විශේෂ පිටු',
 	'configure-section-recentchanges' => '‍නව වෙනස්වීම්',
 	'configure-section-users' => 'පරිශීලකයෝ',
+	'configure-section-externalauth' => 'බාහිර සත්‍යාපනය',
 	'configure-section-feed' => 'පෝෂකය',
 	'configure-section-job' => 'කාර්යයන්',
 	'configure-section-search' => 'සොයන්න',
@@ -10664,8 +10682,14 @@ $messages['si'] = array(
 	'configure-select-wiki-view-specific' => 'විශේෂිත විකිය:',
 	'configure-select-wiki-submit' => 'තෝරන්න',
 	'configure-view' => 'දසුන',
+	'configure-view-all-versions' => 'අනුවාදවල සම්පූර්ණ ලැයිස්තුව',
 	'configure-view-default' => 'සාමාන්‍ය සැකසුම්',
+	'extensions' => 'විස්තීර්ණ වින්‍යාසගත කරන්න',
 	'right-configure' => 'විකිය වින්‍යාසගත කරන්න',
+	'right-extensions' => 'විස්තීර්ණ වින්‍යාසගත කරන්න',
+	'right-viewconfig' => 'විකි වින්‍යාසගතකෙරුම නරඹන්න',
+	'right-viewconfig-all' => 'සියලුම විකි වින්‍යාසගතකෙරුම නරඹන්න',
+	'viewconfig' => 'විකි වින්‍යාසගතකෙරුම නරඹන්න',
 	'configure-throttle-action-edit' => 'සංස්කරණය',
 	'configure-throttle-action-move' => 'ගෙනයන්න',
 	'configure-throttle-action-emailuser' => 'තැපෑල යවන්න',
@@ -10680,6 +10704,7 @@ $messages['si'] = array(
 	'configure-condition-name' => 'කොන්දේසිය',
 	'configure-condition-requirement' => 'අවශ්‍යතාවය',
 	'configure-condition-name-2' => 'අවම වයස',
+	'configure-condition-name-3' => 'විද්‍යුත් තැපෑල තහවුරු කරන ලදී',
 	'configure-condition-description-3' => 'විද්‍යුත් තැපෑල තහවුරු කරන ලදී',
 );
 
