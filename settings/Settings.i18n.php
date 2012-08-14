@@ -21696,10 +21696,14 @@ $messages['sw'] = array(
 /** Tamil (தமிழ்)
  * @author Karthi.dr
  * @author TRYPPN
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
 	'configure-setting-wgSitename' => 'தளத்தின் பெயர்',
 	'configure-setting-wgActionPaths-key' => 'செயல்',
+	'configure-setting-wgActionPaths-value' => 'உரலிப் படிம அச்சு',
+	'configure-setting-wgDBname' => 'பயன்படுத்த வேண்டிய தரவுத் தளத்தின் பெயர்',
+	'configure-setting-wgDBtype' => 'பயன்படுத்த வேண்டிய தரவுத் தளத்தின் வகை',
 	'configure-setting-wgAllowImageMoving' => 'கோப்புப் பெயர்மாற்றத்தைச் செயல்படுத்து',
 	'configure-setting-wgIgnoreImageErrors' => 'படங்களுக்கான பிழைச் செய்திகளைக் காட்டாதே',
 	'configure-setting-wgIllegalFileChars' => 'கோப்புப் பெயர்களில் தவறான எழுத்துகள்',
@@ -21713,10 +21717,43 @@ $messages['ta'] = array(
 	'configure-setting-wgMaxArticleSize' => 'அதிகபட்ச பக்க அளவு (kB)',
 	'configure-setting-wgSiteNotice' => 'தள அறிவிப்பு',
 	'configure-setting-wgVersion' => 'மீடியாவிக்கி பதிப்பு',
+	'configure-setting-wgLogRestrictions-key' => 'பதிவு வகை',
 	'configure-setting-wgSpecialPageGroups-key' => 'குழு',
 	'configure-setting-wgWhitelistRead' => 'அடையாளம் காட்டாத பயனரும் பார்க்கக் கூடிய பக்கங்கள்',
 	'configure-setting-wgEmergencyContact' => 'தள நிருவாகியின் மின்னஞ்சல் முகவரி',
+	'configure-setting-wgEnableEmail' => 'மின்னஞ்சல் வசதிகளைச் செயற்படுத்தவும்',
+	'configure-setting-wgEnableUserEmail' => 'பயனர்-பயனர் மின்னஞ்சலைச் செயற்படுத்தவும்',
+	'configure-setting-wgSMTP' => 'எளிய அஞ்சல் மாற்ற நடப்பொழுங்கு வழங்கி',
 	'configure-setting-wgDebugLogGroups-value' => 'கோப்பு',
+	'configure-setting-wgDebugToolbar' => 'வழு நீக்கும் கருவிப் பட்டையைக் காட்டவும்',
+	'configure-setting-wgSessionName' => 'அமர்வின் பெயர்',
+	'configure-setting-wgFeedLimit' => 'ஊட்ட முடிவுகளின் உச்ச எண்ணிக்கை',
+	'configure-setting-wgDefaultSkin' => 'இயல்புநிலைத் தோலின் பெயர்',
+	'configure-setting-wgValidSkinNames-key' => 'உள்ளகப் பெயர்',
+	'configure-setting-wgExtraNamespaces-key' => 'பெயர்வெளி இலக்கம்',
+	'configure-setting-wgExtraNamespaces-value' => 'பெயர்வெளியின் பெயர்',
+	'configure-setting-wgMetaNamespace' => 'திட்டப் பெயர்வெளியின் பெயர்',
+	'configure-setting-wgNamespaceAliases' => 'பெயர்வெளி வழிமாற்றுகள்',
+	'configure-setting-wgNamespaceAliases-key' => 'மாற்றுப்பெயரின் பெயர்',
+	'configure-setting-wgNamespaceProtection' => 'பெயர்வெளிக் காப்பு',
+	'configure-setting-wgUseCategoryBrowser' => 'பகுப்புலாவியைச் செயற்படுத்தவும்',
+	'configure-setting-wgRightsIcon' => 'பதிப்புரிமைப் படவுரு',
+	'configure-setting-wgAllowPrefChange-key' => 'பயனர் விருப்பத்தேர்வு',
+	'configure-setting-wgDefaultUserOptions' => 'இயல்புநிலைப் பயனர் விருப்பத்தேர்வுகள்',
+	'configure-setting-wgMinimalPasswordLength' => 'குறைந்தபட்சக் கடவுச் சொல் நீளம்',
+	'configure-setting-wgLivePasswordStrengthChecks' => 'கடவுச் சொல் வலிமைக்கான யாவாக்கிறிட்டை அடிப்படையாகக் கொண்ட பரிந்துரைகள்',
+	'configure-setting-wgShowIPinHeader' => 'பயனர் பட்டையில் இணைய நெறிமுறை முகவரியைக் காட்டவும்',
+	'configure-setting-wgDBprefix' => 'வரிசைப் பட்டியல் முன்னொட்டு',
+	'configure-setting-wgDBservers' => 'தரவுத் தள வழங்கிகள்',
+	'configure-setting-wgXhtmlNamespaces-key' => 'பெயர்வெளி',
+	'configure-setting-wgUseSiteJs' => 'தளத்தின் யாவாக்கிறிட்டுப் பக்கத்தைப் பயன்படுத்தவும்',
+	'configure-setting-wgLogo' => 'தள அடையாளச் சின்னத்தின் உரலி',
+	'configure-setting-wgLoadScript' => 'load.phpஇன் உரலி',
+	'configure-setting-wgScript' => 'index.phpஇன் உரலி',
+	'configure-setting-wgScriptPath' => 'அடிப்படை உரலிப் பாதை',
+	'configure-setting-wgServer' => 'வழங்கியின் அடிப்படை உரலி',
+	'configure-setting-wgRCLinkLimits' => 'அண்மைய மாற்றங்களில் மாற்றங்களின் வரையறை',
+	'configure-setting-wgRCLinkDays' => 'அண்மைய மாற்றங்களில் நாட்களின் வரையறை',
 );
 
 /** Tulu (ತುಳು)
