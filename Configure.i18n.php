@@ -4308,9 +4308,18 @@ $messages['fy'] = array(
 
 /** Irish (Gaeilge)
  * @author Alison
+ * @author පසිඳු කාවින්ද
  */
 $messages['ga'] = array(
+	'configure-section-pages' => 'Leathanaigh',
+	'configure-section-email' => 'Ríomhphost',
+	'configure-section-category' => 'Catagóirí',
 	'configure-section-recentchanges' => 'Athruithe is déanaí',
+	'configure-section-users' => 'Úsáideoirí',
+	'configure-section-search' => 'Cuardaigh',
+	'configure-view' => 'Amharc',
+	'configure-throttle-action-edit' => 'Cuir in eagar',
+	'configure-throttle-group' => 'Cineál',
 );
 
 /** Simplified Gan script (‪赣语（简体）‬) */
