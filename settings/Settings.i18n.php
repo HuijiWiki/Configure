@@ -6545,9 +6545,11 @@ $messages['et'] = array(
  * @author An13sa
  * @author Kobazulo
  * @author Theklan
+ * @author පසිඳු කාවින්ද
  */
 $messages['eu'] = array(
 	'configure-setting-wgSitename' => 'Gunearen izena',
+	'configure-setting-wgActionPaths-key' => 'Ekintza',
 	'configure-setting-wgActionPaths-value' => 'URL txantiloia',
 	'configure-setting-wgDBpassword' => '$wgDBuser (datu-basearen erabiltzailearen) pasahitza',
 	'configure-setting-wgDBtype' => 'Erabiliko den datu-base mota',
@@ -6590,6 +6592,7 @@ $messages['eu'] = array(
 	'configure-setting-wgSVGConverters' => 'SVG bihurgailuak',
 	'configure-setting-wgUseImageMagick' => 'ImageMagick erabili',
 	'configure-setting-wgAlwaysUseTidy' => '"Tidy" (Txukundu) aukera beti erabili',
+	'configure-setting-wgXhtmlNamespaces-key' => 'Izen-tartea',
 	'configure-setting-wgLocaltimezone' => 'Tokiko ordu-eremua',
 	'configure-setting-wgUseAjax' => 'AJAX gaitu',
 	'configure-setting-wgEnotifUseRealName' => 'E-postaren "nork:" eremuan benetako izena erabili lankide izenaren ordez',
@@ -7607,6 +7610,7 @@ $messages['frp'] = array(
 	'configure-setting-wgExtraLanguageNames' => 'Ôtros noms de lengoues',
 	'configure-setting-wgExtraLanguageNames-key' => 'Code lengoua',
 	'configure-setting-wgExtraLanguageNames-value' => 'Nom',
+	'configure-setting-wgMaxArticleSize' => 'Talye maximon de les pâges (en kB)',
 	'configure-setting-wgNoFollowLinks' => 'Apondre rel="nofollow" ux lims',
 	'configure-setting-wgSiteNotice' => 'Avis du seto',
 	'configure-setting-wgSiteSupportPage' => 'Pâge que contint des enformacions por les donacions',
@@ -11921,7 +11925,10 @@ $messages['it'] = array(
 	'configure-setting-wgEnableWriteAPI' => 'Abilita la scrittura tramite API',
 	'configure-setting-wgPasswordAttemptThrottle' => "Limitatore dei tentativi d'immissione della password",
 	'configure-setting-wgPasswordSalt' => 'Sale della password',
+	'configure-setting-wgReadOnlyFile' => 'File con motivazione del blocco del database',
 	'configure-setting-wgRestrictionTypes' => 'Azioni che possono essere limitate',
+	'configure-setting-wgSpamRegex' => 'Espressioni regolari per filtrare lo spam',
+	'configure-setting-wgSummarySpamRegex' => 'Espressioni regolari per filtrare lo spam sugli oggetti della modifica',
 	'configure-setting-wgWhitelistRead' => 'Pagine che gli utenti anonimi possono vedere',
 	'configure-setting-wgEmergencyContact' => "Indirizzo email dell'amministratore del sito",
 	'configure-setting-wgEnableEmail' => 'Abilita funzionalità email',
@@ -14653,7 +14660,7 @@ $messages['ms'] = array(
  */
 $messages['mt'] = array(
 	'configure-setting-wgSharedTables' => "Tabelli x'taqsam",
-	'configure-setting-wgArticleRobotPolicies-key' => 'Titltu tal-paġna',
+	'configure-setting-wgArticleRobotPolicies-key' => 'Titlu tal-paġna',
 	'configure-setting-wgArticleRobotPolicies-value' => 'Politika tar-robots',
 	'configure-setting-wgCapitalLinks' => "L-ewwel ittra tat-titlu f'kull paġna hija kapitali",
 	'configure-setting-wgExtraLanguageNames-key' => 'Kodiċi tal-lingwa',
@@ -22937,6 +22944,7 @@ $messages['vep'] = array(
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  * @author Vinhtantran
+ * @author පසිඳු කාවින්ද
  */
 $messages['vi'] = array(
 	'configure-setting-wgSitename' => 'Tên website',
@@ -22996,6 +23004,8 @@ $messages['vi'] = array(
 	'configure-setting-wgExtraLanguageNames-value' => 'Tên',
 	'configure-setting-wgMaxArticleSize' => 'Kích thước trang tối đa (kB)',
 	'configure-setting-wgNoFollowLinks' => 'Đặt rel="nofollow" vào các liên kết',
+	'configure-setting-wgSpecialPageGroups-key' => 'Nhóm',
+	'configure-setting-wgDebugLogGroups-value' => 'Tập tin',
 );
 
 /** Volapük (Volapük)

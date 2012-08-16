@@ -3597,6 +3597,7 @@ $messages['et'] = array(
  * @author An13sa
  * @author Kobazulo
  * @author Theklan
+ * @author පසිඳු කාවින්ද
  */
 $messages['eu'] = array(
 	'configure' => 'Wikia konfiguratu',
@@ -3608,6 +3609,7 @@ $messages['eu'] = array(
 	'configure-ext-doc' => 'Lineako dokumentazioa ikusi',
 	'configure-ext-settings' => 'Hobespenak',
 	'configure-ext-use-extension' => 'Luzapen hau erabili',
+	'configure-ext-use' => 'Erabili',
 	'configure-form-reason' => 'Arrazoia:',
 	'configure-arrayinput-oneperline' => "''(bat lerro bakoitzeko)''",
 	'configure-btn-save' => 'Konfigurazioa gorde',
@@ -3740,6 +3742,7 @@ $messages['fa'] = array(
 );
 
 /** Finnish (suomi)
+ * @author Beluga
  * @author Crt
  * @author Nike
  * @author Olli
@@ -3840,6 +3843,7 @@ Luo se tai muuta asetusta käyttääksesi tätä laajennusta.',
 	'configure-section-proxy' => 'Välityspalvelimet',
 	'configure-section-cookie' => 'Evästeet',
 	'configure-section-performance' => 'Suorituskyky',
+	'configure-section-test' => 'Testit',
 	'configure-section-upload' => 'Tallennus',
 	'configure-section-sharedupload' => 'Jaettu mediavarasto',
 	'configure-section-mime' => 'MIME-tyypit',
@@ -4278,11 +4282,15 @@ $messages['frp'] = array(
 	'configure-condition-operator-not' => 'Nan',
 	'configure-condition-name' => 'Condicion',
 	'configure-condition-requirement' => 'Ègzigence',
+	'configure-condition-name-1' => 'Nombro de changements minimon',
+	'configure-condition-name-2' => 'Âjo minimon',
 	'configure-condition-name-3' => 'Adrèce èlèctronica confirmâ',
 	'configure-condition-name-4' => 'Dens les tropes',
 	'configure-condition-name-5' => 'Adrèce IP a l’usanciér',
 	'configure-condition-name-6' => 'L’adrèce IP a l’usanciér est dens la plage CIDR',
+	'configure-condition-name-7' => 'Âjo minimon dês lo premiér changement',
 	'configure-autopromote-noconds' => 'Gins de condicion a remplir',
+	'configure-condition-description-1' => 'Nombro de changements minimon de $1',
 	'configure-condition-description-3' => 'Adrèce èlèctronica confirmâ',
 	'configure-condition-description-4' => 'Dens totes les tropes : $1',
 	'configure-condition-description-5' => 'L’adrèce IP a l’usanciér est $1',
@@ -13052,9 +13060,12 @@ $messages['wuu'] = array(
 
 /** Yiddish (ייִדיש)
  * @author פוילישער
+ * @author පසිඳු කාවින්ද
  */
 $messages['yi'] = array(
 	'configure-desc-group' => 'גרופע',
+	'configure-desc-val' => 'ווערט',
+	'configure-ext-use' => 'ניצן',
 	'configure-form-reason' => 'אורזאַך:',
 	'configure-js-remove' => 'אויסמעקן',
 	'configure-old-changes' => 'ענדערונגען',
@@ -13076,6 +13087,7 @@ $messages['yi'] = array(
 	'configure-throttle-action-rollback' => 'צוריקדרייען',
 	'configure-throttle-action-emailuser' => 'שיקן ע־פאסט',
 	'configure-throttle-group' => 'טיפ',
+	'configure-throttle-limit' => 'לימיט',
 	'configure-condition-operator-and' => 'און',
 	'configure-condition-name-5' => 'באַניצערס IP אַדרעס',
 	'configure-condition-description-3' => 'ע-פּאָסט באַשטעטיקט',
