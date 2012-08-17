@@ -11954,7 +11954,9 @@ $messages['it'] = array(
 	'configure-setting-wgSessionName' => 'Nome della sessione',
 	'configure-setting-wgInternalServer' => 'Nome del server interno come visto da Squid, se differente',
 	'configure-setting-wgSquidMaxage' => 'Timeout per la cache Squid',
+	'configure-setting-wgUseESI' => 'Impostazione richiesta quando si usa Squid3 con il supporto ESI',
 	'configure-setting-wgUseSquid' => 'Abilita Squid',
+	'configure-setting-wgUseXVO' => "Invia l'header X-Vary-Options per un caching migliore (richiede una versione di Squid con patch)",
 	'configure-setting-wgDisableInternalSearch' => 'Disabilita la funzionalità di ricerca interna',
 	'configure-setting-wgSQLMode' => 'Modalità SQL',
 	'configure-setting-wgAdvancedSearchHighlighting' => "Abilita l'evidenziazione nei risultati di ricerca",
@@ -14659,7 +14661,29 @@ $messages['ms'] = array(
  * @author Chrisportelli
  */
 $messages['mt'] = array(
+	'configure-setting-wgSitename' => 'Isem tas-sit',
+	'configure-setting-wgActionPaths-key' => 'Azzjoni',
+	'configure-setting-wgActionPaths-value' => 'Mudell tal-URL',
+	'configure-setting-wgDBerrorLog' => "Fajl fejn iżżomm reġistru ta' kull żball tad-databażi",
+	'configure-setting-wgDBname' => 'Isem tad-databażi li se tuża',
+	'configure-setting-wgDBpassword' => 'Password għal $wgDBuser',
+	'configure-setting-wgDBadminpassword' => 'Password għal $wgDBadminuser',
+	'configure-setting-wgDBport' => 'Port għas-server tad-databażi',
+	'configure-setting-wgDBserver' => 'Isem tal-ospitu jew indirizz IP tas-server tad-databażi',
+	'configure-setting-wgDBtype' => "Tip ta' databażi li se tuża",
+	'configure-setting-wgDBuser' => 'Isem tal-utent sabiex tidħol fid-databażi bih',
+	'configure-setting-wgDBadminuser' => 'Isem tal-utent tal-amministratur tad-databażi',
+	'configure-setting-wgLocalDatabases' => 'Databażi oħra li jistgħu jiġu amministrati minn dan is-server',
+	'configure-setting-wgSearchType' => "Tip ta' tfittxija fid-databażi x'tuża. Issettjaha għal isem ta' klassi sabiex tieħu post il-mutur ta' tfittxija personalizzata",
+	'configure-setting-wgSharedDB' => 'Isem tad-databażi maqsuma',
+	'configure-setting-wgSharedPrefix' => 'Prefiss tad-databażi maqsuma',
 	'configure-setting-wgSharedTables' => "Tabelli x'taqsam",
+	'configure-setting-wgAllowImageMoving' => 'Ippermetti t-tibdil tal-isem tal-fajl',
+	'configure-setting-wgGenerateThumbnailOnParse' => 'Iġġenera minjaturi meta jissejħu paġni li jinkluduhom',
+	'configure-setting-wgShowArchiveThumbnails' => "Uri minjaturi għal stampi qodma fil-paġna ta' deskrizzjoni tal-istampa",
+	'configure-setting-wgIgnoreImageErrors' => "Turix messaġġi ta' żbalji għall-istampi",
+	'configure-setting-wgIllegalFileChars' => 'Karattri illegali fl-ismijiet tal-fajls',
+	'configure-setting-wgImageLimits' => "Limiti ta' daqs tal-istampi għall-paġni ta' deskrizzjoni",
 	'configure-setting-wgArticleRobotPolicies-key' => 'Titlu tal-paġna',
 	'configure-setting-wgArticleRobotPolicies-value' => 'Politika tar-robots',
 	'configure-setting-wgCapitalLinks' => "L-ewwel ittra tat-titlu f'kull paġna hija kapitali",
@@ -22928,6 +22952,18 @@ $messages['uk'] = array(
 	'configure-setting-wgRateLimitLog' => 'Журнал обмежень швидкості',
 	'configure-setting-wgRateLimits' => 'Обмеження швидкості',
 	'configure-setting-wgXhtmlNamespaces-key' => 'Простір назв',
+);
+
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'configure-setting-wgSitename' => 'ویب سائٹ کے نام',
+	'configure-setting-wgActionPaths-key' => 'کارروائی',
+	'configure-setting-wgExtraLanguageNames-key' => 'زبان کے کوڈ',
+	'configure-setting-wgSpecialPageGroups' => 'خصوصی صفحہ گروپس',
+	'configure-setting-wgSpecialPageGroups-key' => 'گروپ',
+	'configure-setting-wgDebugLogGroups-value' => 'فائل',
 );
 
 /** Veps (vepsän kel’)
