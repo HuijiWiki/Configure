@@ -365,6 +365,13 @@ $messages['ab'] = array(
 	'configure-section-search' => 'Аҧшаара',
 );
 
+/** Achinese (Acèh)
+ * @author Si Gam Acèh
+ */
+$messages['ace'] = array(
+	'configure-section-search' => 'Mita',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
