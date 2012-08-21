@@ -12659,7 +12659,7 @@ $messages['ja'] = array(
 	'configure-setting-wgUseSiteJs' => 'サイトの JavaScript ページを使用する',
 	'configure-setting-wgHandheldStyle' => 'media="handheld" 用のスタイルシート',
 	'configure-setting-wgHandheldForIPhone' => 'iPhone に "screen" および "handheld" メディアタイプを適用する',
-	'configure-setting-wgResourceLoaderDebug' => 'リソース読み込み機能の要求をデバッグ',
+	'configure-setting-wgResourceLoaderDebug' => 'リソース読み込み機能のデバッグモードを有効にする',
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'HTML出力内部で読み込む専用モジュールを組み込み',
 	'configure-setting-wgResourceLoaderMaxage' => 'リソース読み込み機能によって提供されるリソースのキャッシュの最大時間（秒）',
 	'configure-setting-wgResourceLoaderUseESI' => '「Edge Side Includes」を利用しての特定のリソースの埋込みを有効化',
