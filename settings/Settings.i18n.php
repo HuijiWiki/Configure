@@ -5635,6 +5635,7 @@ $messages['diq'] = array(
 	'configure-setting-wgSVGConverter' => 'SVG çerxkerdoği',
 	'configure-setting-wgSVGConverters' => 'SVG çerxkerdoği',
 	'configure-setting-wgSVGConverters-key' => 'Namey çerxkerdoği',
+	'configure-setting-wgXMLMimeTypes-key' => 'Babetê NIME',
 	'configure-setting-wgXhtmlDefaultNamespace' => 'Hesıbyayê cayê name dê XHTML',
 );
 
