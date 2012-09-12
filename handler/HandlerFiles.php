@@ -91,6 +91,8 @@ class ConfigureHandlerFiles implements ConfigureHandler {
 	 * @param $settings array of settings
 	 * @param $user User doing the modification
 	 * @param $wiki String: wiki name or true for all
+	 * @param $ts bool
+	 * @param $reason string
 	 * @return bool true on success
 	 */
 	public function saveNewSettings( $settings, User $user, $wiki, $ts = false, $reason = '' ) {
@@ -116,6 +118,7 @@ class ConfigureHandlerFiles implements ConfigureHandler {
 
 	/**
 	 * List all archived files that are like conf-{$ts}.php
+	 * @param $options array
 	 * @return array of timestamps
 	 */
 	public function getArchiveVersions( $options = array() ) {

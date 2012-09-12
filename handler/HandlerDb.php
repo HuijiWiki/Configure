@@ -82,6 +82,7 @@ class ConfigureHandlerDb implements ConfigureHandler {
 
 	/**
 	 * Cache the data to the filesystem.
+	 * @param $data
 	 * @return int bytes
 	 */
 	protected function cacheToFS( $data ) {
@@ -258,7 +259,8 @@ class ConfigureHandlerDb implements ConfigureHandler {
 
 	/**
 	 * List all archived versions, with detailled information
-	 * FIXME: serious O(n) overhead
+	 * @todo FIXME: serious O(n) overhead
+	 * @param $options array
 	 * @return array of timestamps
 	 */
 	public function getArchiveVersions( $options = array() ) {

@@ -15,6 +15,7 @@ abstract class ConfigurationDiff extends ContextSource {
 	/**
 	 * Constructor
 	 *
+	 * @param $context ContextSource
 	 * @param $diff String: old version
 	 * @param $version String: new versions
 	 * @param $wikis Array: array of wiki names
@@ -47,7 +48,7 @@ abstract class ConfigurationDiff extends ContextSource {
 	/**
 	 * Get the array type of $setting
 	 *
-	 * @param $setting setting name
+	 * @param $setting string setting name
 	 * @return string
 	 */
 	protected abstract function getArrayType( $setting );
@@ -185,11 +186,11 @@ abstract class ConfigurationDiff extends ContextSource {
 	/**
 	 * Process a diff for one setting
 	 *
-	 * @param $name String: setting name
-	 * @patam $old Mixed: old value
-	 * @param $new Mixed: new value
-	 * @param $type String: setting type
-	 * @return String: XHTML
+	 * @param $name string: setting name
+	 * @param $old mixed: old value
+	 * @param $new mixed: new value
+	 * @param $type string: setting type
+	 * @return string: XHTML
 	 */
 	function processDiffSetting( $name, $old, $new, $type ) {
 		$msg = $this->msg( 'configure-setting-' . $name );

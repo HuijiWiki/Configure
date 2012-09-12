@@ -177,7 +177,8 @@ class WebExtension {
 	/**
 	 * Prettify boolean settings to be correctly displayed
 	 *
-	 * @return String
+	 * @param $val
+	 * @return string
 	 */
 	public static function prettifyForDisplay( $val ) {
 		if ( is_bool( $val ) ) {
@@ -190,7 +191,7 @@ class WebExtension {
 	/**
 	 * Generate html to configure this extension
 	 *
-	 * @param $context
+	 * @param $context ContextSource
 	 * @return String: XHTML
 	 */
 	public function getHtml( $context ) {
@@ -266,7 +267,8 @@ class WebExtension {
 	/**
 	 * Check for settings dependencies
 	 *
-	 * @return Boolean: Success
+	 * @throws MWException
+	 * @return bool Success
 	 */
 	public function checkSettingsDependencies() {
 		if ( !$this->mObj instanceof ConfigurationPage )

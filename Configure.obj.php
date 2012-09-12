@@ -16,7 +16,8 @@ class WebConfiguration extends SiteConfiguration {
 	/**
 	 * Construct a new object.
 	 *
-	 * @param string $path path to the directory that contains the configuration
+	 * @param string $wiki
+	 * @internal param string $path path to the directory that contains the configuration
 	 *                     files
 	 */
 	public function __construct( $wiki = 'default' ) {
@@ -292,7 +293,7 @@ class WebConfiguration extends SiteConfiguration {
 	 * Save a new configuration
 	 * @param $settings array of settings
 	 * @param $user User doing the modification
-	 * @param $wiki String: wiki name or false to use the current one
+	 * @param $wiki bool|String: wiki name or false to use the current one
 	 * @param $reason String
 	 * @return bool true on success
 	 */

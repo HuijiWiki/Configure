@@ -144,7 +144,6 @@ class SpecialViewConfig extends ConfigurationPage {
 		$time = $lang->time( $ts );
 
 		## Make user link...
-		$userLink = '';
 		if (!$arr['user_wiki'] && !$arr['user_name'] ) {
 			$userLink = ''; # Nothing...
 			$username = '';
@@ -178,7 +177,6 @@ class SpecialViewConfig extends ConfigurationPage {
 		if( $view )
 			$actions[] = $view;
 
-		$editDone = false;
 		if ( $allowedConfig ) {
 			if ( $hasSelf )
 				$editCore = $editMsg . Linker::linkKnown( $configTitle, $this->msg( 'configure-edit-core' )->escaped(), array(), array( 'version' => $ts ) );
@@ -287,7 +285,7 @@ class SpecialViewConfig extends ConfigurationPage {
 	/**
 	 * Build the content of the form
 	 *
-	 * @return xhtml
+	 * @return string xhtml
 	 */
 	protected function buildAllSettings() {
 		$opt = array(

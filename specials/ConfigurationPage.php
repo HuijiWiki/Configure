@@ -168,6 +168,7 @@ abstract class ConfigurationPage extends SpecialPage {
 
 	/**
 	 * Return true if the current user is allowed to configure $setting.
+	 * @param $setting
 	 * @return bool
 	 */
 	public function userCanEdit( $setting ) {
@@ -187,6 +188,7 @@ abstract class ConfigurationPage extends SpecialPage {
 
 	/**
 	 * Return true if the current user is allowed to see $setting.
+	 * @param $setting
 	 * @return bool
 	 */
 	public function userCanRead( $setting ) {
@@ -234,7 +236,7 @@ abstract class ConfigurationPage extends SpecialPage {
 	/**
 	 * Get the type of a setting
 	 *
-	 * @patam $setting setting name
+	 * @param $setting string setting name
 	 * @return string
 	 */
 	protected function getSettingType( $setting ) {
@@ -244,7 +246,7 @@ abstract class ConfigurationPage extends SpecialPage {
 	/**
 	 * Get the array type of a setting
 	 *
-	 * @patam $setting setting name
+	 * @param $setting string setting name
 	 * @return string
 	 */
 	protected function getArrayType( $setting ) {
@@ -254,7 +256,7 @@ abstract class ConfigurationPage extends SpecialPage {
 	/**
 	 * Is $setting available in this MediaWiki version?
 	 *
-	 * @param $setting setting name
+	 * @param $setting string setting name
 	 * @return bool
 	 */
 	protected function isSettingAvailable( $setting ) {
@@ -296,7 +298,7 @@ abstract class ConfigurationPage extends SpecialPage {
 	/**
 	 * Build the content of the form
 	 *
-	 * @return xhtml
+	 * @return string xhtml
 	 */
 	protected abstract function buildAllSettings();
 
@@ -344,8 +346,9 @@ abstract class ConfigurationPage extends SpecialPage {
 					}
 				}
 
-				if ( !$this->showOldVersionMessage( $version ) )
+				if ( !$this->showOldVersionMessage( $version ) ) {
 					return false;
+				}
 			} else {
 				$this->getOutput()->wrapWikiMsg( '<div class="errorbox">$1</div>',
 					array( 'configure-old-not-available', $version ) );
@@ -389,7 +392,6 @@ abstract class ConfigurationPage extends SpecialPage {
 			}
 
 			## Make user link...
-			$userLink = '';
 			if( !$data['userwiki'] || !$data['username'] ) {
 				$userLink = '';
 				$username = '';
@@ -419,7 +421,7 @@ abstract class ConfigurationPage extends SpecialPage {
 		## Take out the first ten...
 		$links = array_slice( $links, 0, 10 );
 
-		$text = Html::element( 'legend', null, $this->msg( 'configure-old' )->text() );
+		$text = Html::element( 'legend', array(), $this->msg( 'configure-old' )->text() );
 		if ( !count( $links ) ) {
 			$text .= $this->msg( 'configure-no-old' )->parseAsBlock();
 		} else {
@@ -429,10 +431,10 @@ abstract class ConfigurationPage extends SpecialPage {
 			$text .= "</li>\n</ul>\n";
 		}
 		$link = SpecialPage::getTitleFor( 'ViewConfig' );
-		$text .= Html::rawElement( 'p', null, Linker::linkKnown( $link, $this->msg( 'configure-view-all-versions' )->escaped() ) );
-		$text .= Html::rawElement( 'p', null, Linker::linkKnown( $link, $this->msg( 'configure-view-default' )->escaped(), array(), array( 'version' => 'default' ) ) );
+		$text .= Html::rawElement( 'p', array(), Linker::linkKnown( $link, $this->msg( 'configure-view-all-versions' )->escaped() ) );
+		$text .= Html::rawElement( 'p', array(), Linker::linkKnown( $link, $this->msg( 'configure-view-default' )->escaped(), array(), array( 'version' => 'default' ) ) );
 
-		return Html::rawElement( 'fieldset', null, $text );
+		return Html::rawElement( 'fieldset', array(), $text );
 	}
 
 	/**
@@ -442,7 +444,7 @@ abstract class ConfigurationPage extends SpecialPage {
 		global $wgConfigureWikis, $wgScript;
 		if ( $wgConfigureWikis === false || !$this->isUserAllowedInterwiki() )
 			return '';
-		$form = Html::element( 'legend', null, $this->msg( 'configure-select-wiki' )->text() );
+		$form = Html::element( 'legend', array(), $this->msg( 'configure-select-wiki' )->text() );
 		$form .= $this->msg( 'configure-select-wiki-desc' )->parseAsBlock();
 		$form .= Html::openElement( 'form', array( 'method' => 'get', 'action' => $wgScript ) );
 		$form .= Html::hidden( 'title', $this->getTitle()->getPrefixedDBkey() );
@@ -457,12 +459,13 @@ abstract class ConfigurationPage extends SpecialPage {
 		}
 		$form .= Html::input( null, $this->msg( 'configure-select-wiki-submit' )->text(), 'submit' );
 		$form .= Html::closeElement( 'form' );
-		return Html::rawElement( 'fieldset', null, $form );
+		return Html::rawElement( 'fieldset', array(), $form );
 	}
 
 	/**
 	 * Import settings from posted datas
 	 *
+	 * @throws MWException
 	 * @return array
 	 */
 	protected function importFromRequest() {
@@ -514,7 +517,7 @@ abstract class ConfigurationPage extends SpecialPage {
 						$arr = array();
 						foreach ( explode( "\n", $text ) as $line ) {
 							$items = array_map( 'intval', array_map( 'trim', explode( ',', $line ) ) );
-							if ( count( $items == 2 ) )
+							if ( count( $items ) == 2 )
 								$arr[] = $items;
 						}
 					}
@@ -558,7 +561,6 @@ abstract class ConfigurationPage extends SpecialPage {
 					break;
 				case 'group-bool':
 				case 'group-array':
-					$all = array();
 					if ( $request->getCheck( 'wp' . $name . '-vals' ) ) {
 						$iter = explode( "\n", trim( $request->getText( 'wp' . $name . '-vals' ) ) );
 						foreach ( $iter as &$group ) {
@@ -732,6 +734,7 @@ abstract class ConfigurationPage extends SpecialPage {
 	 *
 	 * @param $name String: setting name
 	 * @param $val Mixed: setting value
+	 * @param $type
 	 * @return Mixed
 	 */
 	protected function cleanupSetting( $name, $val, $type ) {
@@ -855,7 +858,7 @@ abstract class ConfigurationPage extends SpecialPage {
 				Html::input( 'wpPreview', $this->msg( 'showdiff' )->text(), 'submit' ) . "\n" .
 				Html::closeElement( 'div' ) . "\n" .
 				Html::closeElement( 'div' ) . "\n" .
-				Html::hidden( 'wpEditToken', $this->getUser()->editToken() ) . "\n" .
+				Html::hidden( 'wpEditToken', $this->getUser()->getEditToken() ) . "\n" .
 				( $this->mWiki ? Html::hidden( 'wpWiki', $this->mWiki ) . "\n" : '' )
 			: ''
 			) .
@@ -869,7 +872,7 @@ abstract class ConfigurationPage extends SpecialPage {
 	protected function buildSearchForm() {
 		$input = $this->msg( 'configure-js-search-prompt' )->parse() . $this->msg( 'word-separator' )->escaped() .
 			Html::element( 'input', array( 'id' => 'configure-search-input', 'size' => 45 ), null );
-		$form = Html::element( 'legend', null, $this->msg( 'configure-js-search-legend' )->text() ) . Html::rawElement( 'p', null, $input ) . "\n" .
+		$form = Html::element( 'legend', array(), $this->msg( 'configure-js-search-legend' )->text() ) . Html::rawElement( 'p', array(), $input ) . "\n" .
 			Html::openElement( 'ul', array( 'id' => 'configure-search-results' ) ) . Html::closeElement( 'ul' );
 		$form = Html::rawElement( 'fieldset', array( 'style' => 'display: none;', 'id' => 'configure-search-form' ), $form );
 		return $form;
@@ -939,7 +942,7 @@ abstract class ConfigurationPage extends SpecialPage {
 			return $this->buildArrayInput( $conf, $default, $allowed );
 		}
 		if ( $type == 'lang' ) {
-			$languages = Language::getLanguageNames( true );
+			$languages = Language::fetchLanguageNames( null, 'mw' );
 
 			if ( $allowed ) {
 				if ( !array_key_exists( $default, $languages ) ) {
@@ -980,6 +983,8 @@ abstract class ConfigurationPage extends SpecialPage {
 			}
 			return $ret;
 		}
+
+		return '';
 	}
 
 	/**
@@ -989,6 +994,7 @@ abstract class ConfigurationPage extends SpecialPage {
 	 * @param $conf String: setting name
 	 * @param $default Mixed: current value (but should be array :)
 	 * @param $allowed Boolean
+	 * @return string|null
 	 */
 	protected function buildArrayInput( $conf, $default, $allowed ) {
 		$type = $this->getArrayType( $conf );
@@ -1100,7 +1106,7 @@ abstract class ConfigurationPage extends SpecialPage {
 
 			$rows = Html::rawElement( 'tr', array(), Html::rawElement( 'th', array(), $keydesc ) . " " . Html::rawElement( 'th', array(), $valdesc ) )."\n";
 
-			# TODO put this stuff in one place.
+			# @todo Put this stuff in one place.
 			$validActions = array( 'edit', 'move', 'mailpassword', 'emailuser', 'rollback' );
 			$validGroups = array( 'anon', 'user', 'newbie', 'ip', 'subnet' );
 
@@ -1146,7 +1152,7 @@ abstract class ConfigurationPage extends SpecialPage {
 				$rows .= Html::rawElement( 'tr', array(), $key.$value )."\n";
 			}
 
-			return Html::rawElement( 'table', array( 'class' => implode( ' ', $classes ) ), Html::rawElement( 'tbody', null, $rows ) );
+			return Html::rawElement( 'table', array( 'class' => implode( ' ', $classes ) ), Html::rawElement( 'tbody', array(), $rows ) );
 		}
 		if ( $type == 'simple-dual' ) {
 			$var = array();
@@ -1264,7 +1270,6 @@ abstract class ConfigurationPage extends SpecialPage {
 			return $text;
 		}
 		if ( $type == 'group-bool' || $type == 'group-array' ) {
-			$all = array();
 			if ( $type == 'group-bool' ) {
 				$all = User::getAllRights();
 				$iter = $default;
@@ -1307,8 +1312,8 @@ abstract class ConfigurationPage extends SpecialPage {
 			$text .= Html::closeElement( 'table' );
 			return $text;
 		}
-		if ( $type == 'promotion-conds' ) {
 
+		if ( $type == 'promotion-conds' ) {
 			$groupdesc = $this->msg( 'configure-desc-group' )->escaped();
 			$valdescmsg = $this->msg( "configure-setting-$conf-value" );
 			if ( $valdescmsg->exists() ) {
@@ -1404,6 +1409,7 @@ abstract class ConfigurationPage extends SpecialPage {
 				if ( isset( $condsVal[$condName] ) && $condsVal[$condName] )
 					$opts['checked'] = 'checked';
 				$row .= Html::input( $encId.'-cond-'.$condName, '1', 'checkbox', $opts );
+				break;
 			case 'text':
 			case 'int':
 				$row .= Html::input( $encId.'-cond-'.$condName, isset( $condsVal[$condName] ) ? $condsVal[$condName] : ( $condType == 'int' ? 0 : '' ), 'text',
@@ -1482,7 +1488,7 @@ abstract class ConfigurationPage extends SpecialPage {
 		$showLink = isset( $params['link'] ) ? $params['link'] : true;
 
 		## First TD
-		$rawVal = Html::element( 'tt', null, "\$$conf" );
+		$rawVal = Html::element( 'code', array(), "\$$conf" );
 		if ( $showLink ) {
 			$url = 'http://www.mediawiki.org/wiki/Manual:$' . $conf;
 			$link = Html::rawElement( 'a', array( 'href' => $url, 'class' => 'configure-doc' ), $rawVal );
@@ -1498,7 +1504,7 @@ abstract class ConfigurationPage extends SpecialPage {
 		}
 
 		if ( $params['customised'] ) {
-			$msgVal = Html::rawElement( 'p', null, $msgVal ) . $this->msg( 'configure-customised' )->parseAsBlock();
+			$msgVal = Html::rawElement( 'p', array(), $msgVal ) . $this->msg( 'configure-customised' )->parseAsBlock();
 		}
 
 		$attribs = array();
@@ -1518,8 +1524,8 @@ abstract class ConfigurationPage extends SpecialPage {
 	 * Really build the content of the form
 	 *
 	 * @param $settings array
-	 * @param $params array
-	 * @return xhtml
+	 * @param $param array
+	 * @return string xhtml
 	 */
 	protected function buildSettings( $settings, $param = array() ) {
 		global $wgConf;
@@ -1529,7 +1535,6 @@ abstract class ConfigurationPage extends SpecialPage {
 		$perms = array();
 		$notEditableSet = $this->getUneditableSettings();
 		foreach ( $settings as $title => $groups ) {
-			$res = true;
 			if ( !isset( $param['restrict'] ) ) {
 				$res = true;
 			} elseif ( is_array( $param['restrict'] ) ) {
@@ -1604,8 +1609,8 @@ abstract class ConfigurationPage extends SpecialPage {
 				}
 
 				if ( $thisSection ) {
-					$thisSection = Html::rawElement( 'legend', null, $this->msg( "configure-section-$title" )->parse() ) . $thisSection;
-					$ret .= Html::rawElement( 'fieldset', null, $thisSection );
+					$thisSection = Html::rawElement( 'legend', array(), $this->msg( "configure-section-$title" )->parse() ) . $thisSection;
+					$ret .= Html::rawElement( 'fieldset', array(), $thisSection );
 				}
 			}
 

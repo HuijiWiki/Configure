@@ -259,6 +259,7 @@ class ApiConfigure extends ApiBase {
 						$result->setIndexedTagName( $arr['values'], 'value' );
 						$settingRet['values'][] = $arr;
 					}
+					break;
 				case 'rate-limits':
 					$settingRet['values'] = array();
 					$result->setIndexedTagName( $settingRet['values'], 'action' );
@@ -315,8 +316,9 @@ class ApiConfigure extends ApiBase {
 						} while( false );
 						$settingRet['values'][] = $retConds;
 					}
-				break;
+					break;
 				}
+				break;
 			default:
 				if ( is_array( $type ) ) {
 					$allowed = array();
@@ -427,7 +429,7 @@ class ApiConfigure extends ApiBase {
 			);
 		}
 	}
-	
+
 	public function getPossibleErrors() {
 		return array_merge( parent::getPossibleErrors(), array(
 			array( 'code' => 'noconf', 'info' => 'You need to call efConfigureSetup() to use this module'  ),

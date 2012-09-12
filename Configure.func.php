@@ -117,7 +117,7 @@ function efConfigureFarmerManageExtensions( $farmer ) {
  * defined by the Admin Links extension
  */
 function efConfigureAddToAdminLinks( &$adminLinksTree ) {
-	$generalSection = $adminLinksTree->getSection( wfMsg( 'adminlinks_general' ) );
+	$generalSection = $adminLinksTree->getSection( wfMessage( 'adminlinks_general' )->text() );
 	$configureRow = new ALRow( 'configure' );
 	$configureRow->addItem( ALItem::newFromSpecialPage( 'Configure' ) );
 	$configureRow->addItem( ALItem::newFromSpecialPage( 'Extensions' ) );

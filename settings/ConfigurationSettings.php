@@ -365,6 +365,7 @@ class ConfigurationSettings {
 	/**
 	 * Return true if the setting is available in this version of MediaWiki
 	 *
+	 * @param $setting
 	 * @return bool
 	 */
 	public function isSettingAvailable( $setting ) {
@@ -400,6 +401,7 @@ class ConfigurationSettings {
 	 * Get the array type of a setting
 	 *
 	 * @param $setting String: setting name
+	 * @return null|string Array type or null.
 	 */
 	public function getArrayType( $setting ) {
 		$arr = $this->getArrayDefs();

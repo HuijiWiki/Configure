@@ -32,8 +32,8 @@ class FindSettings extends Maintenance {
 
 	/**
 	 * Nicely output the array
-	 * @param $msg A message to show before the value
-	 * @param $arr An array
+	 * @param $msg string A message to show before the value
+	 * @param $arr array
 	 * @param $sort Boolean : wheter to sort the array (Default: true)
 	 */
 	function printArray( $msg, $arr, $sort = true ) {

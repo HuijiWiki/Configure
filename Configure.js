@@ -4,6 +4,7 @@
  * flexibility
  */
 jQuery( document ).ready( function ( $ ) {
+	"use strict";
 	// Tabs and TOC
 	// ------------
 
@@ -50,7 +51,7 @@ jQuery( document ).ready( function ( $ ) {
 				$( this ).attr( 'id', 'config-table-' + i + '-' + j );
 			} );
 
-			var heads = $( this ).parent().find( 'h2' )
+			var heads = $( this ).parent().find( 'h2' );
 			if ( heads.length > 1 ) {
 				var sub = $( '<ul></ul>' ).hide();
 
@@ -93,7 +94,7 @@ jQuery( document ).ready( function ( $ ) {
 						return false;
 					} )
 					.click( function( e ) {
-						if ( sub.css( 'display' ) == 'none' ) {
+						if ( sub.css( 'display' ) === 'none' ) {
 							sub.show();
 							$(this).text( '[-]' );
 						} else {
@@ -118,7 +119,7 @@ jQuery( document ).ready( function ( $ ) {
 				return false;
 			} )
 			.click( function( e ) {
-				if ( $( '#configtoc' ).css( 'display' ) == 'none' ) {
+				if ( $( '#configtoc' ).css( 'display' ) === 'none' ) {
 					$( '#configtoc' ).show();
 					$( this ).children( 'img' ).remove();
 					$( this ).append( $( '<img />' )
@@ -146,14 +147,14 @@ jQuery( document ).ready( function ( $ ) {
 	window.fixAssocTable = function( table ){
 		var startName = 'wp' + table.attr( 'id' );
 		table.chidren( 'tr' ).each( function( i ) {
-			if ( i == 0 ) {
+			if ( i === 0 ) {
 				return;
 			}
 			var inputs = $( this ).chidren( 'input' );
 			inputs[0].attr( 'name', startName + '-key-' + (i - 1) );
 			inputs[1].attr( 'name', startName + '-val-' + (i - 1) );
 		} );
-	}
+	};
 
 	$( '#configure table.assoc' ).each( function() {
 		var table = $( this );
@@ -162,7 +163,7 @@ jQuery( document ).ready( function ( $ ) {
 			return;
 		}
 		table.children( 'tr' ).each( function( i ) {
-			if ( i == 0 ) {
+			if ( i === 0 ) {
 				$( this ).append( $( '<th></th>' ).text( mediaWiki.msg( 'configure-js-remove-row' ) ) );
 			} else {
 				$( this ).append(
@@ -257,7 +258,7 @@ jQuery( document ).ready( function ( $ ) {
 		var table = $( this );
 		// Button "remove this row"
 		table.children( 'tr' ).each( function( i ) {
-			if ( i == 0 ) {
+			if ( i === 0 ) {
 				$( this ).append( $( '<th></th>' ).text( mediaWiki.msg( 'configure-js-remove' ) ) );
 			} else {
 				$( this ).append(
@@ -282,8 +283,9 @@ jQuery( document ).ready( function ( $ ) {
 				.attr( 'value', mediaWiki.msg( 'configure-js-add' ) )
 				.click( function() {
 					var groupname = prompt( mediaWiki.msg( 'configure-js-prompt-group' ) );
-					if( groupname == null )
+					if( groupname === null ) {
 						return;
+					}
 
 					var data = {
 						'action': 'configure',
@@ -332,7 +334,9 @@ jQuery( document ).ready( function ( $ ) {
 			var table = $( this );
 			var cont = '';
 			table.children( 'tr.configure-maintable-row' ).each( function() {
-				if( cont != '' ) cont += "\n";
+				if( cont !== '' ) {
+					cont += "\n";
+				}
 				cont += $( this ).attr( 'id' );
 			} );
 			table.parent().append(
@@ -374,7 +378,7 @@ jQuery( document ).ready( function ( $ ) {
 
 			if ( div.hasClass( 'configure-rate-limits-action' ) ) {
 				div.find( 'tr' ).each( function( i ) {
-					if ( i == 0 ) {
+					if ( i === 0 ) {
 						return;
 					}
 					var typeDesc = $( this ).find( 'td:first' ).text();
@@ -393,7 +397,7 @@ jQuery( document ).ready( function ( $ ) {
 				} );
 			} else {
 				div.find( 'label' ).each( function( i ) {
-					if ( i == 0 ) {
+					if ( i === 0 ) {
 						return;
 					}
 					var arrayfield = $( '#' + $( this ).attr( 'for' ) );
@@ -423,7 +427,7 @@ jQuery( document ).ready( function ( $ ) {
 		} else {
 			return 'Useless type';
 		}
-	}
+	};
 
 	$( '.configure-biglist' ).each( function( l ) {
 		var list = $( this );
@@ -436,7 +440,7 @@ jQuery( document ).ready( function ( $ ) {
 			.attr( 'href', 'javascript:' )
 			.text( mediaWiki.msg( 'configure-js-biglist-show' ) )
 			.click( function() {
-				if ( list.css( 'display' ) == 'none' ) {
+				if ( list.css( 'display' ) === 'none' ) {
 					toogle.text( mediaWiki.msg( 'configure-js-biglist-hide' ) );
 					header.text( mediaWiki.msg( 'configure-js-biglist-shown' ) );
 					list.show();
@@ -489,17 +493,17 @@ jQuery( document ).ready( function ( $ ) {
 				// For each setting...
 				for( var i=0; i<subsection.childNodes.length;++i ) {
 					var row = subsection.childNodes[i];
-					if( typeof row.ELEMENT_NODE == "undefined" ){
+					if( typeof row.ELEMENT_NODE === "undefined" ){
 						var wantedType = 1; // ELEMENT_NODE
 					} else {
 						var wantedType = row.ELEMENT_NODE;
 					}
-					if ( row.nodeType != wantedType || ( row.tagName != 'tr' && row.tagName != 'TR' ) ) {
+					if ( row.nodeType !== wantedType || ( row.tagName !== 'tr' && row.tagName !== 'TR' ) ) {
 						continue;
 					}
 
 					var desc_cell = getElementsByClassName( row, 'td', 'configure-left-column' )[0];
-					if( typeof desc_cell == "undefined" ){
+					if( typeof desc_cell === "undefined" ){
 						continue;
 					}
 
@@ -523,11 +527,11 @@ jQuery( document ).ready( function ( $ ) {
 
 		$( '#configure-search-results' ).children( 'li' ).remove();
 
-		if ( query == '' ) {
+		if ( query === '' ) {
 			return;
 		}
 
-		var isMatch = function( element ) { return element.description.indexOf( query ) !== -1; }
+		var isMatch = function( element ) { return element.description.indexOf( query ) !== -1; };
 		for( var i=0; i<allSettings.length; ++i ) {
 			var data = allSettings[i];
 			if ( isMatch( data ) ) {

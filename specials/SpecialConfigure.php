@@ -48,7 +48,8 @@ class SpecialConfigure extends ConfigurationPage {
 
 	/**
 	 * Helper function for the diff engine
-	 * @param $setting setting name
+	 * @param $setting string setting name
+	 * @return bool
 	 */
 	public function isSettingEditable( $setting ) {
 		return ( $this->isSettingAvailable( $setting )
@@ -74,7 +75,7 @@ class SpecialConfigure extends ConfigurationPage {
 	/**
 	 * Build the content of the form
 	 *
-	 * @return xhtml
+	 * @return string xhtml
 	 */
 	protected function buildAllSettings() {
 		return $this->buildSettings( $this->getSettings() );

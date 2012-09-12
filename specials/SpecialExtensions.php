@@ -59,6 +59,7 @@ class SpecialExtensions extends ConfigurationPage {
 	/**
 	 * Check dependencies against other extensions, and print errors if any
 	 *
+	 * @throws MWException
 	 * @return Boolean: success
 	 */
 	protected function checkExtensionsDependencies() {
@@ -118,7 +119,7 @@ class SpecialExtensions extends ConfigurationPage {
 	/**
 	 * Build the content of the form
 	 *
-	 * @return xhtml
+	 * @return string xhtml
 	 */
 	protected function buildAllSettings() {
 		$ret = '';

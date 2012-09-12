@@ -38,7 +38,7 @@ $messages['en'] = array(
 	'configure-db-error'                  => 'The database you specified to hold the configuration ($1) does not exist.
 Please create it and apply configure.sql or correct its name.',
 	'configure-db-table-error'            => 'The database you specified does not have the required tables. Please apply configure.sql in that database.',
-	'configure-directory-not-writable'    => 'The directory used to store the settings, <tt>$1</tt>, is not writable.
+	'configure-directory-not-writable'    => 'The directory used to store the settings, <code>$1</code>, is not writable.
 Please make it writable by PHP to use this extension.',
 	'configure-edit-old'                  => "'''Warning''': you are editing an <strong>old</strong> version of the configuration (as at $1).",
 	'configure-error'                     => 'The configuration could not be saved',
@@ -57,7 +57,7 @@ Please make it writable by PHP to use this extension.',
 	'configure-js-search-legend'	      => 'Search settings',
 	'configure-js-search-prompt' => 'Query:',
 	'configure-no-diff'                   => 'There are no changes between selected versions.',
-	'configure-no-directory'              => 'The directory used to store the settings, <tt>$1</tt>, does not exist.
+	'configure-no-directory'              => 'The directory used to store the settings, <code>$1</code>, does not exist.
 Please create it or change it to use this extension.',
 	'configure-no-old'                    => 'No old version of the configuration available.',
 	'configure-no-setup'                  => 'You have to call <code>efConfigureSetup()</code> explicitly in your LocalSettings.php file to use this extension.',
