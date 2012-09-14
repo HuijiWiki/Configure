@@ -6497,6 +6497,7 @@ $messages['ka'] = array(
 	'configure-ext-settings' => 'კონფიგურაცია',
 	'configure-ext-use' => 'გამოყენება',
 	'configure-form-reason' => 'მიზეზი:',
+	'configure-arrayinput-oneperline' => "''(ერთი თითოეულ ხაზზე)''",
 	'configure-btn-save' => 'პარამეტრების შენახვა',
 	'configure-js-remove' => 'წაშლა',
 	'configure-js-biglist-show' => '[დეტალების ჩვენება]',
@@ -6533,6 +6534,7 @@ $messages['ka'] = array(
 	'configure-condition-operator-or' => 'ან',
 	'configure-condition-operator-and' => 'და',
 	'configure-condition-operator-not' => 'არა',
+	'configure-condition-description-5' => 'მომხმარებლის IP მისამართია $1',
 );
 
 /** Kara-Kalpak (Qaraqalpaqsha)

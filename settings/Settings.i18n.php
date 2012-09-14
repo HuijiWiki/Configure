@@ -12776,12 +12776,14 @@ $messages['ja'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'configure-setting-wgActionPaths-key' => 'მოქმედება',
 	'configure-setting-wgMediaHandlers-key' => 'MIME ტიპი',
 	'configure-setting-wgArticleRobotPolicies-key' => 'გვერდის სათაური',
 	'configure-setting-wgArticleRobotPolicies-value' => 'რობოტების წესები',
 	'configure-setting-wgExtraLanguageNames-key' => 'ენის კოდი',
 	'configure-setting-wgExtraLanguageNames-value' => 'სახელი',
 	'configure-setting-wgMaxArticleSize' => 'გვერდის მაქსიმალური ზომა (კბ)',
+	'configure-setting-wgSiteNotice' => 'საიტის შეტყობინება',
 	'configure-setting-wgSpecialPageGroups-key' => 'ჯგუფი',
 	'configure-setting-wgDebugLogGroups-value' => 'ფაილი',
 	'configure-setting-wgExtraNamespaces-key' => 'სახელთა სივრცის ID',
