@@ -447,7 +447,7 @@ $messages['aln'] = array(
 	'configure-btn-save' => 'Cilësimet Ruaj',
 	'configure-db-error' => 'Baza e të dhënave të caktuar për të mbajtur të konfigurimit ($1) nuk ekziston. Ju lutemi të krijuar atë dhe të aplikojnë configure.sql apo korrigjuar emrin e saj.',
 	'configure-db-table-error' => 'Baza e të dhënave që i specifikuar nuk kanë të tabelave të kërkuara. Ju lutemi të aplikoni configure.sql në këtë bazë të dhënash.',
-	'configure-directory-not-writable' => 'Lista e përdorur për të ruajtur parametrat, <tt>$1,</tt> nuk mund të shkruhet. Ju lutem bëjnë të shkruhet nga PHP për të përdorur këtë zgjatje.',
+	'configure-directory-not-writable' => 'Lista e përdorur për të ruajtur parametrat, <code>$1,</code> nuk mund të shkruhet. Ju lutem bëjnë të shkruhet nga PHP për të përdorur këtë zgjatje.',
 	'configure-edit-old' => "'''Kujdes''': Po redaktoni një version të <strong>vjetër</strong> të konfigurimit (si në $1).",
 	'configure-error' => 'Konfigurimi nuk mund të ruhet',
 	'configure-js-add' => 'Shto një hyrje e re',
@@ -465,7 +465,7 @@ $messages['aln'] = array(
 	'configure-js-search-legend' => 'Search settings',
 	'configure-js-search-prompt' => 'Query:',
 	'configure-no-diff' => 'Nuk ka ndryshime midis versioneve të zgjedhura.',
-	'configure-no-directory' => 'Lista e përdorur për të ruajtur parametrat, <tt>$1,</tt> nuk ekziston. Ju lutem krijoni atë apo të ndryshojë atë për të përdorur këtë zgjatje.',
+	'configure-no-directory' => 'Lista e përdorur për të ruajtur parametrat, <code>$1,</code> nuk ekziston. Ju lutem krijoni atë apo të ndryshojë atë për të përdorur këtë zgjatje.',
 	'configure-no-old' => 'Nuk ka version të vjetër të konfigurimit në dispozicion.',
 	'configure-no-setup' => 'Ju keni për të thirrur <code>efConfigureSetup()</code> në mënyrë eksplicite në dosjen tuaj LocalSettings.php për të përdorur këtë zgjatje.',
 	'configure-no-transwiki' => 'Ju nuk jeni i lejuar për të ndryshuar rregullimet e wikis tjera',
@@ -554,7 +554,7 @@ $messages['ar'] = array(
 	'configure-db-error' => 'قاعدة البيانات الت يحددتها لحمل الضبط ($1) غير موجودة.
 من فضلك أنشئها وشغل configure.sql أو صحح اسمها.',
 	'configure-db-table-error' => 'قاعدة البيانات التي حددتها لا تمتلك الجداول المطلوبة. من فضلك شغل configure.sql في قاعدة البيانات تلك.',
-	'configure-directory-not-writable' => 'المجلد المستخدم لتخزين الإعدادات، <tt>$1</tt>، لا يمكن الكتابة فيه.
+	'configure-directory-not-writable' => 'المجلد المستخدم لتخزين الإعدادات، <code>$1</code>، لا يمكن الكتابة فيه.
 من فضلك اجعل من الممكن الكتابة فيه بواسطة PHP لاستخدام هذا الامتداد.',
 	'configure-edit-old' => "'''تحذير''': أنت تعدل نسخة <strong>قديمة</strong> من الضبط (من $1).",
 	'configure-error' => 'الإعدادات لم يمكن حفظها',
@@ -573,7 +573,7 @@ $messages['ar'] = array(
 	'configure-js-search-legend' => 'إعدادات البحث',
 	'configure-js-search-prompt' => ':استفسار',
 	'configure-no-diff' => 'لا توجد تغييرات بين النسخ المختارة.',
-	'configure-no-directory' => 'المجلد المستخدم لتخزين الإعدادات، <tt>$1</tt>، غير موجود.
+	'configure-no-directory' => 'المجلد المستخدم لتخزين الإعدادات، <code>$1</code>، غير موجود.
 من فضلك قم بإنشائه أو غيره لاستخدام هذا الامتداد.',
 	'configure-no-old' => 'لا توجد نسخة قديمة متوفرة من الإعدادات.',
 	'configure-no-setup' => 'عليك أن تستدعي <code>efConfigureSetup()</code> بشكل صريح في ملف LocalSettings.php الخاص بك لاستخدام هذا الامتداد.',
@@ -794,7 +794,7 @@ $messages['arz'] = array(
 	'configure-db-error' => 'قاعدة البيانت اللى انت حددتها عشان تاخد الاعداد ($1) مش موجوده.
 لو سمحت تنشأها و طبق configure.sql او تصحح اسمها.',
 	'configure-db-table-error' => 'قاعدة البيانات اللى انت حددتها مافيهاش الجداول المطلويه. لو سمحت طبق configure.sql  على قاعدة البيانت دى.',
-	'configure-directory-not-writable' => 'المجلد المستخدم لتخزين الإعدادات، <tt>$1</tt>، لا يمكن الكتابة فيه.
+	'configure-directory-not-writable' => 'المجلد المستخدم لتخزين الإعدادات، <code>$1</code>، لا يمكن الكتابة فيه.
 من فضلك اجعل من الممكن الكتابة فيه بواسطة PHP لاستخدام هذا الامتداد.',
 	'configure-edit-old' => 'تحذير: أنت بتعدل نسخة <strong>قديمة</strong> من الإعدادات (من $1).',
 	'configure-error' => 'الإعدادات لم يمكن حفظها',
@@ -813,7 +813,7 @@ $messages['arz'] = array(
 	'configure-js-search-legend' => 'إعدادات البحث',
 	'configure-js-search-prompt' => ':استفسار',
 	'configure-no-diff' => 'لا توجد تغييرات بين النسخ المختارة.',
-	'configure-no-directory' => 'المجلد المستخدم لتخزين الإعدادات، <tt>$1</tt>، غير موجود.
+	'configure-no-directory' => 'المجلد المستخدم لتخزين الإعدادات، <code>$1</code>، غير موجود.
 من فضلك قم بإنشائه أو غيره لاستخدام هذا الامتداد.',
 	'configure-no-old' => 'لا توجد نسخة قديمة متوفرة من الإعدادات.',
 	'configure-no-setup' => 'عليك أن تستدعى <code>efConfigureSetup()</code> بشكل صريح فى ملف LocalSettings.php الخاص بك لاستخدام هذا الامتداد.',
@@ -994,7 +994,7 @@ $messages['ast'] = array(
 	'configure-db-error' => "La base de datos que conseñasti pa contener la configuración ($1) nun esiste.
 Por favor, creala y aplica configure.sql o corrixi'l so nome.",
 	'configure-db-table-error' => 'La base de datos que conseñasti nun tien les tables requeríes. Por favor aplica configure.sql nesa base de datos.',
-	'configure-directory-not-writable' => 'El direutoriu usáu pa guardar la configuración, <tt>$1</tt>, ta protexíu escontra escritura.
+	'configure-directory-not-writable' => 'El direutoriu usáu pa guardar la configuración, <code>$1</code>, ta protexíu escontra escritura.
 Por favor fai que PHP pueda escribir nél pa usar esta estensión.',
 	'configure-edit-old' => "'''Avisu''': tas editando una versión <strong>vieya</strong> de la configuración (a día de $1).",
 	'configure-error' => 'La configuración nun se pudo guardar',
@@ -1013,7 +1013,7 @@ Por favor fai que PHP pueda escribir nél pa usar esta estensión.',
 	'configure-js-search-legend' => 'Configuración de la gueta',
 	'configure-js-search-prompt' => 'Consulta:',
 	'configure-no-diff' => 'Nun hai cambios ente les versiones esbillaes.',
-	'configure-no-directory' => 'El direutoriu usáu pa guardar la configuración, <tt>$1</tt>, nun esiste.
+	'configure-no-directory' => 'El direutoriu usáu pa guardar la configuración, <code>$1</code>, nun esiste.
 Por favor créalu o cámbialu pa usar esta estensión.',
 	'configure-no-old' => 'Nun ta disponible denguna versión antigua de la configuración.',
 	'configure-no-setup' => 'Tienes de llamar a <code>efConfigureSetup()</code> de mou esplícitu nel ficheru LocalSettings.php pa usar esta estensión.',
@@ -1251,7 +1251,7 @@ $messages['be-tarask'] = array(
 	'configure-db-error' => 'База зьвестак, якую Вы вызначылі для захаваньня наладаў ($1), не існуе.
 Калі ласка, стварыце яе і выканайце configure.sql альбо зьмяніце яе назву.',
 	'configure-db-table-error' => 'База зьвестак, якую Вы вызначылі, ня мае неабходных табліцаў. Калі ласка, выканайце configure.sql для гэтай базы зьвестак.',
-	'configure-directory-not-writable' => 'Дырэкторыя, якая выкарыстоўваецца для захаваньня наладаў, <tt>$1</tt>, недаступная для запісу.
+	'configure-directory-not-writable' => 'Дырэкторыя, якая выкарыстоўваецца для захаваньня наладаў, <code>$1</code>, недаступная для запісу.
 Калі ласка, зрабіце яе даступнай для запісу для PHP, каб выкарыстоўваць гэтае пашырэньне.',
 	'configure-edit-old' => "'''Папярэджаньне''': Вы рэдагуеце <strong>старую</strong> вэрсію наладаў (ад $1).",
 	'configure-error' => 'Налада ня можа быць захаваная',
@@ -1270,7 +1270,7 @@ $messages['be-tarask'] = array(
 	'configure-js-search-legend' => 'Пошук наладаў',
 	'configure-js-search-prompt' => 'Запыт:',
 	'configure-no-diff' => 'Няма зьменаў паміж выбранымі вэрсіямі.',
-	'configure-no-directory' => 'Дырэкторыя <tt>$1</tt>, якая выкарыстоўваецца для захаваньня наладаў, не існуе.
+	'configure-no-directory' => 'Дырэкторыя <code>$1</code>, якая выкарыстоўваецца для захаваньня наладаў, не існуе.
 Калі ласка, стварыце альбо зьмяніце яе, каб карыстацца гэтым пашырэньнем.',
 	'configure-no-old' => 'Няма даступнай старай вэрсіі канфігурацыі.',
 	'configure-no-setup' => 'Вам неабходна яўна выклікаць <code>efConfigureSetup()</code> у Вашым файле LocalSettings.php, каб выкарыстоўваць гэтае пашырэньне.',
@@ -1431,7 +1431,7 @@ $messages['bg'] = array(
 	'configure-summary' => 'Тази специална страница позволява на потребителите да конфигурират уикито; за повече информация, вижте [http://www.mediawiki.org/wiki/Manual:Configuration_settings настройките за конфигуриране].',
 	'configure-btn-save' => 'Съхраняване на настройките',
 	'configure-db-table-error' => 'Посочената база от данни не съдържа необходимите таблици. Необходимо е на тази база от данни да се приложи configure.sql.',
-	'configure-directory-not-writable' => 'Директорията <tt>$1</tt>, използвана за съхранение на настройките, няма права за запис.
+	'configure-directory-not-writable' => 'Директорията <code>$1</code>, използвана за съхранение на настройките, няма права за запис.
 За използване на това разширение е необходимо да промените правата й.',
 	'configure-edit-old' => "'''Предупреждение''': редактирате <strong>стара</strong> версия на настройките (към $1).",
 	'configure-error' => 'Настройките не могат да бъдат съхранени',
@@ -1446,7 +1446,7 @@ $messages['bg'] = array(
 	'configure-js-search-legend' => 'Настройки на търсене',
 	'configure-js-search-prompt' => 'Заявка:',
 	'configure-no-diff' => 'Няма промени в избраните версии.',
-	'configure-no-directory' => 'Използваната за съхранение на настройките директория, <tt>$1</tt>, не съществува.
+	'configure-no-directory' => 'Използваната за съхранение на настройките директория, <code>$1</code>, не съществува.
 Необходимо е тя да бъде създадена или да бъде променена, за да може да се използва разширението.',
 	'configure-no-old' => 'Няма налична стара версия на настройките.',
 	'configure-no-setup' => 'За използване на това разширение е необходимо специално извикване на <code>efConfigureSetup()</code> в LocalSettings.php',
@@ -1751,7 +1751,7 @@ $messages['br'] = array(
 	'configure-db-error' => "An diaz roadennoù spisaet ganeoc'h evit enderc'hel an arventennadur ($1) n'eus ket anezhañ.
 Krouit anezhañ hag arloit configure.sql pe reizhit e anv.",
 	'configure-db-table-error' => "An diaz roadennoù spisaet ganeoc'h n'eus ket ennañ an taolennoù rekis. Arloit configure.sql en diaz roadennoù-se.",
-	'configure-directory-not-writable' => "N'haller ket skrivañ er c'havlec'h implijet da enrollañ an arventennoù, <tt>$1</tt>.
+	'configure-directory-not-writable' => "N'haller ket skrivañ er c'havlec'h implijet da enrollañ an arventennoù, <code>$1</code>.
 Gwiriit ez eo skrivadus dre PHP evit gallout implijout an astenn-mañ.",
 	'configure-edit-old' => "'''Diwallit''': emaoc'h o kemmañ ur stumm <strong>kozh</strong> eus ar c'hefluniadur (deizet eus an  $1).",
 	'configure-error' => "N'eus ket bet gallet enrollañ ar c'hefluniadur",
@@ -1770,7 +1770,7 @@ Gwiriit ez eo skrivadus dre PHP evit gallout implijout an astenn-mañ.",
 	'configure-js-search-legend' => 'Klask arventennoù',
 	'configure-js-search-prompt' => 'Reked :',
 	'configure-no-diff' => "N'eus kemm ebet etre an daou stumm diuzet.",
-	'configure-no-directory' => "N'eus ket eus ar c'havlec'h implijet da enrollañ an arventennoù, <tt>$1</tt>.
+	'configure-no-directory' => "N'eus ket eus ar c'havlec'h implijet da enrollañ an arventennoù, <code>$1</code>.
 Krouit anezhañ pe kemmit-eñ evit gallout implijout an astenn-mañ.",
 	'configure-no-old' => "N'eus stumm kozh ebet eus ar c'hefluniadur.",
 	'configure-no-setup' => "Ret eo deoc'h gervel an arc'hwel <code>efConfigureSetup()</code> a-ratozh en ho restr LocalSettings.php evit gallout implijout an astenn-mañ.",
@@ -1942,7 +1942,7 @@ $messages['bs'] = array(
 	'configure-db-error' => 'Baza podataka koju ste naveli za držanje konfiguracije ($1) ne postoji.
 Molimo napravite je i primijenite configure.sql ili popravite njeno ime.',
 	'configure-db-table-error' => 'Baza podataka koju ste naveli nema neophodne tabele. Molimo primijenite configure.sql na tu bazu podataka.',
-	'configure-directory-not-writable' => 'Direktorijum koji se koristi za spremanje postavki, <tt>$1</tt>, nije odobren za pisanje.
+	'configure-directory-not-writable' => 'Direktorijum koji se koristi za spremanje postavki, <code>$1</code>, nije odobren za pisanje.
 Molimo odobrite ga za pisanje putem PHP da biste mogli koristiti ovo proširenje.',
 	'configure-edit-old' => "'''Upozorenje''': uređujete <strong>stariju</strong> verziju konfiguracije (kao $1).",
 	'configure-error' => 'Postavke nisu mogle biti sačuvane',
@@ -1961,7 +1961,7 @@ Molimo odobrite ga za pisanje putem PHP da biste mogli koristiti ovo proširenje
 	'configure-js-search-legend' => 'Traži postavke',
 	'configure-js-search-prompt' => 'Upit:',
 	'configure-no-diff' => 'Nema izmjena između odabranih verzija.',
-	'configure-no-directory' => 'Direktorijum koji se koristi za spremanje postavki, <tt>$1</tt>, ne postoji.
+	'configure-no-directory' => 'Direktorijum koji se koristi za spremanje postavki, <code>$1</code>, ne postoji.
 Molimo napravite ga ili promijenite da biste mogli koristiti ovo proširenje.',
 	'configure-no-old' => 'Nije dostupna stara verzija postavki.',
 	'configure-no-setup' => 'Treba da direktno pozovete <code>efConfigureSetup()</code> u vašoj LocalSettings.php datoteci da biste koristili ovo proširenje.',
@@ -2254,7 +2254,7 @@ $messages['cs'] = array(
 	'configure-db-error' => 'Databáze, již jste zadali pro uložení konfigurace ($1), neexistuje.
 Prosím, vytvořte ji a použijte configure.sql na opravení jejího názvu.',
 	'configure-db-table-error' => 'Databáze, jíž jste specifikovali, nemá požadované tabulky. Prosím, použijte na tuto databázi configure.sql.',
-	'configure-directory-not-writable' => 'Do adresáře <tt>$1</tt>, který se používá pro ukládání nastavení, není možné zapisovat.
+	'configure-directory-not-writable' => 'Do adresáře <code>$1</code>, který se používá pro ukládání nastavení, není možné zapisovat.
 Prosím, umožněte do něho zápis, aby jste mohli používat toto rozšíření.',
 	'configure-edit-old' => "'''Upozornění''': upravujete <strong>starou</strong> verzi konfigurace (z $1).",
 	'configure-error' => 'Nebylo možné uložit nastavení.',
@@ -2273,10 +2273,10 @@ Prosím, umožněte do něho zápis, aby jste mohli používat toto rozšířen�
 	'configure-js-search-legend' => 'Nastavení vyhledávání',
 	'configure-js-search-prompt' => 'Dotaz:',
 	'configure-no-diff' => 'Mezi zvolenými verzemi nejsou žádné rozdíly.',
-	'configure-no-directory' => 'Adresář pro uložení nastavení (<tt>$1</tt>) neexistuje.
+	'configure-no-directory' => 'Adresář pro uložení nastavení (<code>$1</code>) neexistuje.
 Abyste mohli používat toto rozšíření, vytvořte ho nebo změňte konfiguraci.',
 	'configure-no-old' => 'Není dostupná žádná stará verze konfigurace.',
-	'configure-no-setup' => 'Abyste mohli používat toto rozšíření, musíte ve svém <tt>LocalSettings.php</tt> explicitně zavolat <code>efConfigureSetup()</code>.',
+	'configure-no-setup' => 'Abyste mohli používat toto rozšíření, musíte ve svém <code>LocalSettings.php</code> explicitně zavolat <code>efConfigureSetup()</code>.',
 	'configure-no-transwiki' => 'Nemáte oprávnění měnit nastavení na jiných wiki',
 	'configure-old' => 'Staré verze',
 	'configure-old-versions' => 'Seznam starých verzí konfigurace:',
@@ -2472,7 +2472,7 @@ $messages['da'] = array(
 	'configure-db-error' => 'Databasen du valgte til at gemme konfigurationen ($1) i findes ikke.
 Du bedes oprette den og og køre configure.sql eller rette navnet.',
 	'configure-db-table-error' => 'Databasen du valgte har ikke de krævede tabeller. Kør configure.sql i den database.',
-	'configure-directory-not-writable' => 'Mappen som bruges til at gemme indstillingerne, <tt>$1</tt>, kan der ikke skrives til. Gør den skrivbar i PHP for at bruge den indstilling.',
+	'configure-directory-not-writable' => 'Mappen som bruges til at gemme indstillingerne, <code>$1</code>, kan der ikke skrives til. Gør den skrivbar i PHP for at bruge den indstilling.',
 	'configure-edit-old' => "'''Advarsel''': du redigerer en <strong>ældre</strong> version af konfigurationen. (fra d. $1).",
 	'configure-error' => 'Konfigurationen kunne ikke gemmes',
 	'configure-js-add' => 'Tilføj en ny post',
@@ -2490,7 +2490,7 @@ Du bedes oprette den og og køre configure.sql eller rette navnet.',
 	'configure-js-search-legend' => 'Søgeindstillinger',
 	'configure-js-search-prompt' => 'Forespørgsel:',
 	'configure-no-diff' => 'Der er ikke ændringer mellem de valgte versioner.',
-	'configure-no-directory' => 'Mappen som anvendes til at gemme indstillingerne, <tt>$1</tt>, eksisterer ikke. Opret den eller omdøb den for at bruge denne udvidelse.',
+	'configure-no-directory' => 'Mappen som anvendes til at gemme indstillingerne, <code>$1</code>, eksisterer ikke. Opret den eller omdøb den for at bruge denne udvidelse.',
 	'configure-no-old' => 'Ingen ældre version af konfigurationen er tilgængelig.',
 	'configure-no-setup' => 'Du skal udtrykkeligt kalde <code>efConfigureSetup()</code> i LocalSettings.php for at bruge denne udvidelse.',
 	'configure-no-transwiki' => 'Du har ikke tilladelse til at ændre indstillinger i andre wikier',
@@ -2673,7 +2673,8 @@ $messages['de'] = array(
 	'configure-db-error' => 'Die Datenbank, die nach deinen Angaben die Konfiguration ($1) enthalten soll, existiert nicht.
 Bitte erstelle sie und führe configure.sql darin aus oder korrigiere ihren Namen.',
 	'configure-db-table-error' => 'Die Datenbank, die du angegeben hast, enthält nicht die benötigten Tabellen. Bitte führe configure.sql in dieser Datenbank aus.',
-	'configure-directory-not-writable' => 'Das Verzeichnis, in dem die Konfigurationen gespeichert werden, <tt>$1</tt>, ist nicht beschreibbar. Bitte mache es für PHP beschreibbar, damit diese Erweiterung genutzt werden kann.',
+	'configure-directory-not-writable' => 'Das Verzeichnis, in dem die Konfigurationen gespeichert werden, <code>$1</code>, ist nicht beschreibbar.
+Bitte mache es für PHP beschreibbar, damit du diese Erweiterung nutzen kannst.',
 	'configure-edit-old' => "'''Achtung:''' Du bearbeitest eine <strong>alte</strong> Version der Konfiguration (vom $2, $3 Uhr).",
 	'configure-error' => 'Die Konfiguration konnte nicht gespeichert werden',
 	'configure-js-add' => 'Neuen Eintrag hinzufügen',
@@ -2691,7 +2692,8 @@ Bitte erstelle sie und führe configure.sql darin aus oder korrigiere ihren Name
 	'configure-js-search-legend' => 'Einstellungen suchen',
 	'configure-js-search-prompt' => 'Anfrage:',
 	'configure-no-diff' => 'Es gibt keinen Unterschied zwischen den ausgewählten Versionen.',
-	'configure-no-directory' => 'Das Verzeichnis zum Speichern der Einstellungen, <tt>$1</tt>, ist nicht vorhanden. Bitte erstelle oder ändere es, um diese Erweiterung nutzen zu können.',
+	'configure-no-directory' => 'Das Verzeichnis zum Speichern der Einstellungen, <code>$1</code>, ist nicht vorhanden.
+Bitte erstelle oder ändere es, damit du diese Erweiterung nutzen kannst.',
 	'configure-no-old' => 'Es ist keine alte Konfigurationsversion vorhanden.',
 	'configure-no-setup' => '<code>efConfigureSetup()</code> muss explizit in deiner LocalSettings.php aufgerufen werden, um diese Erweiterung nutzen zu können.',
 	'configure-no-transwiki' => 'Du hast nicht die erforderliche Berechtigung, um Einstellungen in anderen Wikis ändern zu können.',
@@ -2842,10 +2844,12 @@ $messages['de-formal'] = array(
 	'configure-db-error' => 'Die Datenbank, die nach Ihren Angaben die Konfiguration ($1) enthalten soll, existiert nicht.
 Bitte erstellen Sie sie und führen Sie configure.sql darin aus oder korrigieren sie ihren Namen.',
 	'configure-db-table-error' => 'Die Datenbank, die Sie angegeben haben, enthält nicht die benötigten Tabellen. Bitte führen Sie configure.sql in dieser Datenbank aus.',
-	'configure-directory-not-writable' => 'Das Verzeichnis, in dem die Konfigurationen gespeichert werden, <tt>$1</tt>, ist nicht beschreibbar. Bitte machen Sie es für PHP beschreibbar, damit diese Erweiterung genutzt werden kann.',
+	'configure-directory-not-writable' => 'Das Verzeichnis, in dem die Konfigurationen gespeichert werden, <code>$1</code>, ist nicht beschreibbar.
+Bitte machen Sie es für PHP beschreibbar, damit Sie diese Erweiterung nutzen können.',
 	'configure-edit-old' => "'''Achtung:''' Sie bearbeiten eine <strong>alte</strong> Version der Konfiguration (vom $2, $3 Uhr).",
 	'configure-js-image-error' => 'Beim Abruf der URL ist ein Fehler aufgetreten. Bitte stellen Sie sicher, dass die Datei existiert.',
-	'configure-no-directory' => 'Das Verzeichnis zum Speichern der Einstellungen, <tt>$1</tt>, ist nicht vorhanden. Bitte erstellen oder ändern Sie es, um diese Erweiterung nutzen zu können.',
+	'configure-no-directory' => 'Das Verzeichnis zum Speichern der Einstellungen, <code>$1</code>, ist nicht vorhanden.
+Bitte erstellen oder ändern Sie es, damit Sie diese Erweiterung nutzen können.',
 	'configure-no-setup' => '<code>efConfigureSetup()</code> muss explizit in Ihrer LocalSettings.php aufgerufen werden, um diese Erweiterung nutzen zu können.',
 	'configure-no-transwiki' => 'Sie haben nicht die erforderliche Berechtigung, um Einstellungen in anderen Wikis ändern zu können.',
 	'configure-old-not-available' => 'Die alte Version der Einstellungen, die Sie angefragt haben, $1, ist nicht vorhanden',
@@ -2975,7 +2979,7 @@ $messages['dsb'] = array(
 	'configure-db-error' => 'Datowa banka, kótaruž sy pódał, aby wopśimjeła konfiguraciju ($1), njeeksistěrujo.
 Pšosym napóraj ju a wuwjeź configure.sql abo skorigěruj jeje mě.',
 	'configure-db-table-error' => 'Datowa banka, kótaruž sy pódał, njama trěbne tabele. Pšosym wuwjeź configure.sql w tej datowej bance.',
-	'configure-directory-not-writable' => 'Zapis, kótaryž se wužywa, aby składował nastajenja, <tt>$1</tt>, njedajo se pópisaś.
+	'configure-directory-not-writable' => 'Zapis, kótaryž se wužywa, aby składował nastajenja, <code>$1</code>, njedajo se pópisaś.
 Pšosym cyń jen pópisujobny za PHP, aby wužywał toś to rozšyrjenje.',
 	'configure-edit-old' => "'''Warnowanje''': wobźěłujoš <strong>staru</strong> wersiju konfiguracije (wót $1).",
 	'configure-error' => 'Njejo móžno było konfiguraciju składowaś',
@@ -2994,7 +2998,7 @@ Pšosym cyń jen pópisujobny za PHP, aby wužywał toś to rozšyrjenje.',
 	'configure-js-search-legend' => 'Nastajenja pytaś',
 	'configure-js-search-prompt' => 'Napšašowanje:',
 	'configure-no-diff' => 'Njejsu rozdźěle mjazy wubranymi wersijami.',
-	'configure-no-directory' => 'Zapis za składowanje nastajenjow, <tt>$1</tt>, njeeksistěrujo.
+	'configure-no-directory' => 'Zapis za składowanje nastajenjow, <code>$1</code>, njeeksistěrujo.
 Pšosym napóraj jen abo změń jen, aby wužywał rozšyrjenje.',
 	'configure-no-old' => 'Njestoj žedna stara wersija konfiguracije k dispoziciji.',
 	'configure-no-setup' => 'Musyš <code>efConfigureSetup()</code> eksplicitnje w swójej dataji LocalSettings.php zawołaś, aby wužywał toś to rozšyrjenje.',
@@ -3464,7 +3468,7 @@ $messages['es'] = array(
 	'configure-db-error' => 'La base de datos que ha especificado para mantener la configuración ($1) no existe.
 Por favor, cree y aplique configure.sql o corrija su nombre.',
 	'configure-db-table-error' => 'La base de datos que has especificado no tiene las tablas requeridas. Por favor aplica configure.sql en esa base de datos.',
-	'configure-directory-not-writable' => 'El directorio usado para guardar las configuraciones <tt>$1</tt>, está protegido contra escritura.
+	'configure-directory-not-writable' => 'El directorio usado para guardar las configuraciones <code>$1</code>, está protegido contra escritura.
 Por favor cambie los permisos para que PHP pueda escribir si quiere usar esta extensión.',
 	'configure-edit-old' => "'''Advertencia''': estás editando una versión <strong>antigua</strong> de la configuración (del $1).",
 	'configure-error' => 'La configuración no pudo ser guardada',
@@ -3483,7 +3487,7 @@ Por favor cambie los permisos para que PHP pueda escribir si quiere usar esta ex
 	'configure-js-search-legend' => 'Buscar configuraciones',
 	'configure-js-search-prompt' => 'Pregunta:',
 	'configure-no-diff' => 'No hay cambios entre las versiones seleccionadas.',
-	'configure-no-directory' => 'El directorio usado para guardar las configuraciones, <tt>$1</tt>, no existe.
+	'configure-no-directory' => 'El directorio usado para guardar las configuraciones, <code>$1</code>, no existe.
 Por favor, créelo o cámbielo para usar esta extensión.',
 	'configure-no-old' => 'No hay una versión anterior de la configuración disponible.',
 	'configure-no-setup' => 'Debes llamar a <code>efConfigureSetup()</code> explícitamente en el archivo LocalSettings.php para usar esta extensión.',
@@ -3844,7 +3848,7 @@ $messages['fi'] = array(
 	'configure-db-error' => 'Antamaasi tietokantaa asetusten ($1) säilyttämiselle ei ole.
 Luo se ja toteuta configure.sql tai korjaa sen nimi.',
 	'configure-db-table-error' => 'Antamassasi tietokannassa ei ole tarvittavia tauluja. Toteuta configure.sql tietokannassa.',
-	'configure-directory-not-writable' => 'Asetusten tallennushakemistoon <tt>$1</tt> kirjoittaminen ei onnistu.
+	'configure-directory-not-writable' => 'Asetusten tallennushakemistoon <code>$1</code> kirjoittaminen ei onnistu.
 Laajennoksen käyttäminen edellyttää, että PHP:lla on kirjoitusoikeudet hakemistoon.',
 	'configure-edit-old' => "'''Varoitus''': olet muokkaamassa <strong>vanhaa</strong> versiota asetuksista (versio $1).",
 	'configure-error' => 'Asetuksia ei voitu tallentaa',
@@ -3863,7 +3867,7 @@ Laajennoksen käyttäminen edellyttää, että PHP:lla on kirjoitusoikeudet hake
 	'configure-js-search-legend' => 'Hakuasetukset',
 	'configure-js-search-prompt' => 'Kysely',
 	'configure-no-diff' => 'Versioiden välillä ei ole muutosta.',
-	'configure-no-directory' => 'Asetusten tallentamiseen käytettyä hakemistoa <tt>$1</tt> ei ole olemassa.
+	'configure-no-directory' => 'Asetusten tallentamiseen käytettyä hakemistoa <code>$1</code> ei ole olemassa.
 Luo se tai muuta asetusta käyttääksesi tätä laajennusta.',
 	'configure-no-old' => 'Vanhoja kokoonpanoasetuksia ei ole saatavilla.',
 	'configure-no-setup' => 'Sinun tulee kutsua <code>efConfigureSetup()</code>-funktiota LocalSettings.php:ssäsi käyttääksesi tätä laajennusta.',
@@ -4041,7 +4045,7 @@ $messages['fr'] = array(
 	'configure-db-error' => 'La base de données que vous avez spécifiée pour contenir la configuration ($1) n’existe pas.
 Veuillez la créer et y appliquer configure.sql, ou bien corrigez son nom.',
 	'configure-db-table-error' => 'La base de données que vous avez spécifiée ne contient pas les tables requises. Veuillez appliquer configure.sql à cette base de données.',
-	'configure-directory-not-writable' => 'Le dossier utilisé pour sauvegarder la configuration, <tt>$1</tt>, ne peut pas être modifié.
+	'configure-directory-not-writable' => 'Le dossier utilisé pour sauvegarder la configuration, <code>$1</code>, ne peut pas être modifié.
 Veuillez le rendre modifiable par PHP pour que cette extension fonctionne.',
 	'configure-edit-old' => "'''Attention''' : vous êtes en train de modifier une <strong>ancienne</strong> version de la configuration (en date du $1).",
 	'configure-error' => 'La configuration n’a pu être sauvegardée',
@@ -4060,7 +4064,7 @@ Veuillez le rendre modifiable par PHP pour que cette extension fonctionne.',
 	'configure-js-search-legend' => 'Recherche de paramètres',
 	'configure-js-search-prompt' => 'Requête :',
 	'configure-no-diff' => "Il n'y a aucune modification entre les deux versions sélectionnées.",
-	'configure-no-directory' => 'Le répertoire utilisé pour sauvegarder la configuration, <tt>$1</tt>, n’existe pas.
+	'configure-no-directory' => 'Le répertoire utilisé pour sauvegarder la configuration, <code>$1</code>, n’existe pas.
 Veuillez le créer ou en changer pour que cette extension fonctionne.',
 	'configure-no-old' => 'Aucune ancienne version de la configuration n’est disponible.',
 	'configure-no-setup' => 'Vous devez explicitement appeler la fonction <code>efConfigureSetup()</code> dans votre fichier LocalSettings.php pour utiliser cette extension.',
@@ -4438,7 +4442,7 @@ $messages['gl'] = array(
 	'configure-db-error' => 'A base de datos que especificou para conter a configuración ($1) non existe.
 Por favor, créea e aplique configure.sql ou corrixa o seu nome.',
 	'configure-db-table-error' => 'A base de datos que especificou non ten as táboas requiridas. Por favor, aplique configure.sql na devandita base de datos.',
-	'configure-directory-not-writable' => 'No directorio usado para almacenar os parámetros, <tt>$1</tt>, non se pode escribir.
+	'configure-directory-not-writable' => 'No directorio usado para almacenar os parámetros, <code>$1</code>, non se pode escribir.
 Por favor, faga que se poida escribir nel mediante PHP para usar esta extensión.',
 	'configure-edit-old' => "'''Aviso:''' Está editando unha versión <strong>vella</strong> da configuración (a día de $1).",
 	'configure-error' => 'A configuración non pode ser gardada',
@@ -4457,7 +4461,7 @@ Por favor, faga que se poida escribir nel mediante PHP para usar esta extensión
 	'configure-js-search-legend' => 'Características da procura',
 	'configure-js-search-prompt' => 'Consulta:',
 	'configure-no-diff' => 'Non se produciron cambios entre as versións seleccionadas.',
-	'configure-no-directory' => 'O directorio usado para almacenar as configuracións, <tt>$1</tt>, non existe.
+	'configure-no-directory' => 'O directorio usado para almacenar as configuracións, <code>$1</code>, non existe.
 Por favor, créeo ou tróqueo para usar esta extensión.',
 	'configure-no-old' => 'Non hai dispoñible ningunha versión vella da configuración.',
 	'configure-no-setup' => 'Ten que chamar explicitamente <code>efConfigureSetup()</code> no seu ficheiro LocalSettings.php para usar esta extensión.',
@@ -4659,7 +4663,7 @@ $messages['gsw'] = array(
 	'configure-db-error' => 'D Datebank, wu s noch Dyynen Aagabe d Konfiguration ($1) soll din haa, git s nit.
 Bitte leg si aa fier configure.sql drin uus oder korrigier ihre Name.',
 	'configure-db-table-error' => 'In dr Datebank, wu Du aagee hesch, het s d Tabälle, wu s bruucht, nit din. Bitte fier configure.sql in däre Datebank uus.',
-	'configure-directory-not-writable' => 'S Verzeichnis, wu d Konfiguratione din gspycheret wäre,  <tt>$1</tt>, ist nit bschyybbar. Bitte mach s fir PHP bschryybbar, ass die Erwyterig cha bruucht wäre.',
+	'configure-directory-not-writable' => 'S Verzeichnis, wu d Konfiguratione din gspycheret wäre,  <code>$1</code>, ist nit bschyybbar. Bitte mach s fir PHP bschryybbar, ass die Erwyterig cha bruucht wäre.',
 	'configure-edit-old' => "'''Obacht:''' Du bearbeitsch e <strong>alte</strong> Version vu dr Konfiguration (vum $1).",
 	'configure-error' => 'D Konfiguration het nit chenne gspycheret wäre',
 	'configure-js-add' => 'Neje Yytrag zuefiege',
@@ -4677,7 +4681,7 @@ Bitte leg si aa fier configure.sql drin uus oder korrigier ihre Name.',
 	'configure-js-search-legend' => 'Yystellige sueche',
 	'configure-js-search-prompt' => 'Aafrog:',
 	'configure-no-diff' => 'S git kei Unterschid zwische dr uusgwehlte Versione.',
-	'configure-no-directory' => 'S Verzeichnis zum Spychere vu dr Yystellige, <tt>$1</tt>, git s nit. Bitte leg s aa oder oder änder s, zum die Erwyterig bruuche z chenne',
+	'configure-no-directory' => 'S Verzeichnis zum Spychere vu dr Yystellige, <code>$1</code>, git s nit. Bitte leg s aa oder oder änder s, zum die Erwyterig bruuche z chenne',
 	'configure-no-old' => 'S git kei alti Konfigurationsversion.',
 	'configure-no-setup' => '<code>efConfigureSetup()</code> muess explizit in Dyynere LocalSettings.php ufgruefe wäre, zum die Erwyterig bruuche z chenne.',
 	'configure-no-transwiki' => 'Du hesch kei Berächtigung, Yystelligen in andere Wiki z ändere',
@@ -4884,7 +4888,7 @@ $messages['he'] = array(
 	'configure-db-error' => 'בסיס הנתונים שציינתם לאיחסון ההגדרות ($1) אינו קיים.
 אנא צרו את בסיס הנתונים והריצו את configure.sql או שתתקנו את שמו.',
 	'configure-db-table-error' => 'לבסיס הנתונים שציינתם חסרות טבלאות נחוצות. אנא הפעילו את configure.sql על בסיס הנתונים הזה.',
-	'configure-directory-not-writable' => 'הספרייה משמשת לאיחסון ההגדרות, <tt>$1</tt>, אינה ניתנת לכתיבה.
+	'configure-directory-not-writable' => 'הספרייה משמשת לאיחסון ההגדרות, <code>$1</code>, אינה ניתנת לכתיבה.
 אנא הפכו אותה לניתנת לכתיבה על ידי PHP כדי להשתמש בהרחבה זו.',
 	'configure-edit-old' => "'''אזהרה''': אתם עורכים גרסה <strong>ישנה</strong> של ההגדרות (כפי שהיו ב־$1).",
 	'configure-error' => 'לא ניתן לשמור את ההגדרות',
@@ -4903,7 +4907,7 @@ $messages['he'] = array(
 	'configure-js-search-legend' => 'הגדרות חיפוש',
 	'configure-js-search-prompt' => 'שאילתה:',
 	'configure-no-diff' => 'אין הבדל בין הגרסאות שנבחרו.',
-	'configure-no-directory' => 'התיקייה המשמשת לאיחסון ההגדרות, <tt>$1</tt>, אינה קיימת.
+	'configure-no-directory' => 'התיקייה המשמשת לאיחסון ההגדרות, <code>$1</code>, אינה קיימת.
 אנא צרו אותה או שנו אותה כדי להשתמש בהרחבה זו.',
 	'configure-no-old' => 'לא קיימת גרסה ישנה של ההגדרות.',
 	'configure-no-setup' => 'יש לקרוא ל־<code>efConfigureSetup()</code> במפורש בקובץ LocalSettings.php כדי להשתמש בהרחבה זו.',
@@ -5140,7 +5144,7 @@ $messages['hr'] = array(
 	'configure-db-error' => 'Baza podataka koju ste postavili za čuvanje konfiguracije ($1) ne postoji.
 Molimo stvorite ju i dodajte configure.sql ili popravite ime.',
 	'configure-db-table-error' => 'Baza podataka koju ste odredili nema potrebne tablice. Molimo uključite configure.sql u bazu podataka.',
-	'configure-directory-not-writable' => 'Mapa korištena za spremanje postavki, <tt>$1</tt>, nije omogućena za pisanje.
+	'configure-directory-not-writable' => 'Mapa korištena za spremanje postavki, <code>$1</code>, nije omogućena za pisanje.
 Molimo postavite ju za pisanje za PHP kako biste koristili ekstenziju.',
 	'configure-edit-old' => "'''Upozorenje''': uređujete <strong>staru</strong> inačicu konfiguracije (kao kod $1).",
 	'configure-error' => 'Konfiguracija nije mogla biti spremljena',
@@ -5154,7 +5158,7 @@ Molimo postavite ju za pisanje za PHP kako biste koristili ekstenziju.',
 	'configure-js-biglist-show' => '[prikaži pojedinosti]',
 	'configure-js-biglist-hide' => '[sakrij pojedinosti]',
 	'configure-no-diff' => 'Nema promjena između odabranih inačica.',
-	'configure-no-directory' => 'Mapa korištena za spremanje postavki, <tt<$1</tt>, ne postoji.
+	'configure-no-directory' => 'Mapa korištena za spremanje postavki, <tt<$1</code>, ne postoji.
 Molimo stvorite ju ili promijenite za korištenje ekstenzije.',
 	'configure-no-old' => 'Nema dostupnih starijih inačica konfiguracije.',
 	'configure-no-setup' => 'Morate eksplicitno pozvati <code>efConfigureSetup()</code> u svojoj LocalSettings.php datoteci za korištenje ekstenzije.',
@@ -5258,7 +5262,7 @@ $messages['hsb'] = array(
 	'configure-db-error' => 'Datowa banka, kotruž sy podał, zo by konfiguraciju ($1) wobsahowała, njeeksistuje.
 Prošu wutwor ju a wuwjedź configure.sql abo skoriguj jeje mjeno.',
 	'configure-db-table-error' => 'Datowa banka, kotruž sy podał, nima trěbne tabele. Prošu wuwjedź configure.sql w tej datowej bance.',
-	'configure-directory-not-writable' => 'Zapis, kotryž so wužiwa, zo bychu so nastajenja składowali, <tt>$1</tt>, njeje popisujomny. Prošu čiń jón za PHP popisujomny, zo by tute rozšěrjenje wužiwał.',
+	'configure-directory-not-writable' => 'Zapis, kotryž so wužiwa, zo bychu so nastajenja składowali, <code>$1</code>, njeje popisujomny. Prošu čiń jón za PHP popisujomny, zo by tute rozšěrjenje wužiwał.',
 	'configure-edit-old' => "'''Warnowanje''': wobdźěłuješ <strong>staru</strong> wersiju konfiguracije (wot $1).",
 	'configure-error' => 'Njeje móžno było konfiguraciju składować',
 	'configure-js-add' => 'Nowy zapisk přidać',
@@ -5276,7 +5280,7 @@ Prošu wutwor ju a wuwjedź configure.sql abo skoriguj jeje mjeno.',
 	'configure-js-search-legend' => 'Nastajenja pytać',
 	'configure-js-search-prompt' => 'Naprašowanje:',
 	'configure-no-diff' => 'Změny mjez wubranymaj wersijomaj njejsu.',
-	'configure-no-directory' => 'Zapis, kotryž so wužiwa, zo bychu so nastajenja składowali, <tt>$1</tt>, njeeksistuje.
+	'configure-no-directory' => 'Zapis, kotryž so wužiwa, zo bychu so nastajenja składowali, <code>$1</code>, njeeksistuje.
 Prošu wutwor abo změń jón, zo by tute rozšěrjenje wužiwał.',
 	'configure-no-old' => 'Stara wersija konfiguracije k dispoziciji njesteji.',
 	'configure-no-setup' => 'Dyrbiš <code>efConfigureSetup()</code> eksplicitnje w dataji LocalSettings.php zawołać, zo by tute rozšěrjenje wužiwał.',
@@ -5449,7 +5453,7 @@ $messages['hu'] = array(
 	'configure-db-error' => 'A beállítások tárolására megadott adatbázis ($1) nem létezik.
 Kérlek, készítsd el, és futtasd le a configure.sql-t, vagy javítsd ki a nevét!',
 	'configure-db-table-error' => 'Az általad megadott adatbázis nem rendelkezik a szükséges táblákkal. Kérlek, futtasd le a configure.sql-t ezen az adatbázison.',
-	'configure-directory-not-writable' => 'A beállítások tárolására használt könyvtár (<tt>$1</tt>) nem írható.
+	'configure-directory-not-writable' => 'A beállítások tárolására használt könyvtár (<code>$1</code>) nem írható.
 Kérlek tedd írhatóvá a PHP számára, hogy használhasd ezt a kiterjesztést.',
 	'configure-edit-old' => "'''Figyelem''': a beállítások egy <strong>régebbi</strong> változatát szerkeszted ($1-korit)",
 	'configure-error' => 'A beállításokat nem sikerült elmenteni',
@@ -5468,7 +5472,7 @@ Kérlek tedd írhatóvá a PHP számára, hogy használhasd ezt a kiterjesztést
 	'configure-js-search-legend' => 'Keresési beállítások',
 	'configure-js-search-prompt' => 'Lekérdezés:',
 	'configure-no-diff' => 'Nincs eltérés a kiválasztott változatok között.',
-	'configure-no-directory' => 'A beállítások tárolására használt könyvtár (<tt>$1</tt>) nem létezik.
+	'configure-no-directory' => 'A beállítások tárolására használt könyvtár (<code>$1</code>) nem létezik.
 Készítsd el, vagy változtasd meg a kiterjesztés használatához.',
 	'configure-no-old' => 'A beállításoknak nincsenek régebbi változatai.',
 	'configure-no-setup' => 'Explicit módon meg kell hívnod a <code>efConfigureSetup()</code> függvényt a LocalSettings.php-ben a kiterjesztés használatához.',
@@ -5642,7 +5646,7 @@ $messages['ia'] = array(
 	'configure-db-error' => 'Le base de datos que tu ha specificate pro tener le configuration ($1) non existe.
 Per favor crea lo e applica configure.sql, o corrige su nomine.',
 	'configure-db-table-error' => 'Le base de datos que tu ha specificate non ha le tabellas requisite. Per favor applica configure.sql in iste base de datos.',
-	'configure-directory-not-writable' => 'Le directorio usate pro immagazinar le configurationes, <tt>$1</tt>, non es modificabile.
+	'configure-directory-not-writable' => 'Le directorio usate pro immagazinar le configurationes, <code>$1</code>, non es modificabile.
 Per favor permitte que PHP scribe in illo pro poter usar iste extension.',
 	'configure-edit-old' => "'''Attention:''' tu modifica ora un <strong>ancian</strong> version del configuration (in data del $1).",
 	'configure-error' => 'Le configuration non poteva esser immagazinate',
@@ -5661,7 +5665,7 @@ Per favor permitte que PHP scribe in illo pro poter usar iste extension.',
 	'configure-js-search-legend' => 'Cercar in configurationes',
 	'configure-js-search-prompt' => 'Consulta:',
 	'configure-no-diff' => 'Il non ha cambios inter le versiones seligite.',
-	'configure-no-directory' => 'Le directorio usate pro immagazinar le configurationes, <tt>$1</tt>, non existe.
+	'configure-no-directory' => 'Le directorio usate pro immagazinar le configurationes, <code>$1</code>, non existe.
 Per favor crea lo o cambia lo pro poter usar iste extension.',
 	'configure-no-old' => 'Nulle version ancian del configuration disponibile.',
 	'configure-no-setup' => 'Tu debe appellar <code>efConfigureSetup()</code> explicitemente in tu file LocalSettings.php pro poter usar iste extension.',
@@ -5839,7 +5843,7 @@ $messages['id'] = array(
 	'configure-db-error' => 'Basis data ($1) yang Anda sebut menyimpan konfigurasi tidak ditemukan.
 Silakan buat dan terapkan configure.sql atau perbaiki namanya.',
 	'configure-db-table-error' => 'Basis data yang Anda sebut tidak memiliki tabel yang dibutuhkan. Silakan terapkan configure.sql terhadap basis data itu.',
-	'configure-directory-not-writable' => 'Direktori yang digunakan untuk menyimpan pengaturan, <tt>$1</tt>, tidak dapat ditulis.
+	'configure-directory-not-writable' => 'Direktori yang digunakan untuk menyimpan pengaturan, <code>$1</code>, tidak dapat ditulis.
 Silakan buat menjadi dapat ditulis oleh PHP untuk menggunakan ekstensi ini.',
 	'configure-edit-old' => "'''Perhatian''': Anda menyunting versi <strong>lama</strong> dari konfigurasi (bertanggal $1).",
 	'configure-error' => 'Pengaturan tidak dapat disimpan',
@@ -5860,7 +5864,7 @@ Silakan buat menjadi dapat ditulis oleh PHP untuk menggunakan ekstensi ini.',
 
 Kueri:',
 	'configure-no-diff' => 'Tidak ada perubahan antara versi yang dipilih',
-	'configure-no-directory' => 'Direktori yang digunakan untuk menyimpan pengaturan, <tt>$1</tt>, tidak ada.
+	'configure-no-directory' => 'Direktori yang digunakan untuk menyimpan pengaturan, <code>$1</code>, tidak ada.
 Silakan membuat atau mengubahnya untuk menggunakan ekstensi ini.',
 	'configure-no-old' => 'Versi lama konfigurasi tersedia',
 	'configure-no-setup' => 'Anda harus memanggil <code>efConfigureSetup()</code> secara eksplisit di berkasi LocalSettings.php untuk menggunakan ekstensi ini.',
@@ -6086,7 +6090,7 @@ $messages['it'] = array(
 	'configure-db-error' => 'Il database indicato per mantenere la configurazione ($1) non esiste.
 È necessario crearlo e applicarvi configure.sql o correggerne il nome.',
 	'configure-db-table-error' => 'Il database indicato non contiene le tabelle richieste. È necessario applicare configure.sql su quel database.',
-	'configure-directory-not-writable' => 'Impossibile scrivere nella directory usata per memorizzare le impostazioni, <tt>$1</tt>.
+	'configure-directory-not-writable' => 'Impossibile scrivere nella directory usata per memorizzare le impostazioni, <code>$1</code>.
 Assegnare a PHP il diritto di scrittura su di essa per utilizzare questa estensione.',
 	'configure-edit-old' => "'''Attenzione''': si sta modificando una versione <strong>vecchia</strong> della configurazione (del $1).",
 	'configure-error' => 'Impossibile salvare la configurazione',
@@ -6105,7 +6109,7 @@ Assegnare a PHP il diritto di scrittura su di essa per utilizzare questa estensi
 	'configure-js-search-legend' => 'Ricerca nelle impostazioni',
 	'configure-js-search-prompt' => 'Stringa di ricerca:',
 	'configure-no-diff' => 'Non ci sono cambiamenti fra le versioni selezionate.',
-	'configure-no-directory' => 'La directory usata per memorizzare le impostazioni, <tt>$1</tt>, non esiste.
+	'configure-no-directory' => 'La directory usata per memorizzare le impostazioni, <code>$1</code>, non esiste.
 È necessario crearla o modificarla per utilizzare questa estensione.',
 	'configure-no-old' => 'Nessuna vecchia versione della configurazione disponibile.',
 	'configure-no-setup' => 'Per usare questa estensione è necessario richiamare esplicitamente <code>efConfigureSetup()</code> nel file LocalSettings.php.',
@@ -6282,7 +6286,8 @@ $messages['ja'] = array(
 	'configure-btn-save' => '設定を保存',
 	'configure-db-error' => 'あなたが構成 ($1) を格納するよう指定したデータベースは存在しません。作成して configure.sql を適用するか、名前を正してください。',
 	'configure-db-table-error' => 'あなたが指定したデータベースには必要なテーブルがありません。そのデータベースに configure.sql を適用してください。',
-	'configure-directory-not-writable' => '設定の格納に使われているディレクトリ <tt>$1</tt> は書き込みが不可能です。この拡張機能を使うには PHP から書き込み可能にしてください。',
+	'configure-directory-not-writable' => '設定の格納に使用するディレクトリ <code>$1</code> に書き込めません。
+この拡張機能を使用するには、ディレクトリに PHP が書き込めるように設定してください。',
 	'configure-edit-old' => "'''警告''': あなたは構成設定の<strong>古い</strong>版 ($1時点) を編集しています。",
 	'configure-error' => '設定を保存できませんでした',
 	'configure-js-add' => '新しいエントリーを追加',
@@ -6300,7 +6305,8 @@ $messages['ja'] = array(
 	'configure-js-search-legend' => '検索設定',
 	'configure-js-search-prompt' => 'クエリ:',
 	'configure-no-diff' => '選択した版の間には差異がありません。',
-	'configure-no-directory' => '設定の格納に使われているディレクトリ <tt>$1</tt> は存在しません。この拡張機能を使うにはディレクトリを作成するか変更してください。',
+	'configure-no-directory' => '設定の格納に使用するディレクトリ <code>$1</code> は存在しません。
+この拡張機能を使用するには、ディレクトリを作成または変更してください。',
 	'configure-no-old' => '構成設定の利用可能な古い版はありません。',
 	'configure-no-setup' => 'この拡張機能を使うには、あなたは LocalSettings.php ファイルで <code>efConfigureSetup()</code> を明示的に呼び出す必要があります。',
 	'configure-no-transwiki' => 'あなたは他ウィキの設定を変更することは許可されてません',
@@ -6759,6 +6765,7 @@ $messages['ko'] = array(
 	'configure-saved' => '설정이 저장되었습니다',
 	'configure-backlink' => '양식으로 돌아가기',
 	'configure-image-url-explanation' => '(이름공간 없이) 이 위키의 그림의 이름이나 그림 URL을 입력하세요. 필드를 떠날 때 미리 보기가 표시됩니다.',
+	'configure-section-robots' => '웹 크롤러',
 	'configure-section-features' => '기능',
 	'configure-section-general' => '일반 설정',
 	'configure-section-pages' => '페이지',
@@ -6804,23 +6811,50 @@ $messages['ko'] = array(
 	'configure-section-recentchanges' => '최근 바뀜',
 	'configure-section-users' => '사용자',
 	'configure-section-externalauth' => '바깥 인증',
+	'configure-section-feed' => '피드',
+	'configure-section-job' => '일',
 	'configure-section-search' => '찾기',
 	'configure-section-copyright' => '저작권',
+	'configure-section-htcp' => 'HTCP 멀티 캐스트',
 	'configure-section-misc' => '기타',
 	'configure-section-filter' => '필터링',
 	'configure-section-mw-extensions' => '미디어위키 확장 기능',
+	'configure-section-external-tools' => '바깥 도구',
+	'configure-section-filesystem' => '파일 시스템과 셸 상호 작용',
+	'configure-section-thumbnail' => '그림 섬네일',
+	'configure-section-output' => '출력',
+	'configure-select-wiki' => '위키 선택',
+	'configure-select-wiki-desc' => '설정할 위키를 선택하세요.',
+	'configure-select-wiki-view-desc' => '구성 버전을 보려는 위키을 선택하세요.',
 	'configure-select-wiki-view-all' => '모든 위키',
 	'configure-select-wiki-view-specific' => '특정 위키:',
 	'configure-select-wiki-submit' => '선택',
 	'configure-view' => '보기',
+	'configure-view-all-versions' => '버전의 전체 목록',
 	'configure-view-default' => '기본 설정',
-	'right-configure-interwiki' => '다른 위키의 설정을 바꾸기',
+	'configure-view-not-allowed' => '이 설정을 보는 것을 허용하지 않습니다.',
+	'extensions' => '확장 기능 설정하기',
+	'right-configure' => '위키 설정하기',
+	'right-configure-all' => '모든 위키 설정 바꾸기',
+	'right-configure-interwiki' => '다른 위키의 설정 바꾸기',
+	'right-extensions' => '확장 기능 설정하기',
+	'right-extensions-all' => '확장 기능 고급 설정',
+	'right-extensions-interwiki' => '다른 위키 확장 기능 설정하기',
+	'right-viewconfig' => '위키 설정 보기',
+	'right-viewconfig-all' => '모든 위키 설정 보기',
+	'right-viewconfig-interwiki' => '다른 위키 설정 보기',
 	'viewconfig' => '위키 설정 보기',
 	'configure-throttle-action-edit' => '편집',
 	'configure-throttle-action-move' => '이동',
 	'configure-throttle-action-rollback' => '되돌리기',
 	'configure-throttle-action-mailpassword' => '비밀번호 알림 보내기',
 	'configure-throttle-action-emailuser' => '메일 보내기',
+	'configure-throttle-group-anon' => '모든 익명 사용자',
+	'configure-throttle-group-user' => '사용자 계정 당',
+	'configure-throttle-group-newbie' => '새 사용자 계정 당',
+	'configure-throttle-group-ip' => 'IP 주소 당',
+	'configure-throttle-group-subnet' => '클래스 C 서브넷 당',
+	'configure-throttle-count' => '허용한 행동:',
 	'configure-throttle-group' => '종류',
 	'configure-throttle-limit' => '제한',
 	'configure-throttle-none' => '제한 없음',
@@ -6828,8 +6862,15 @@ $messages['ko'] = array(
 	'configure-condition-operator-or' => '또는',
 	'configure-condition-operator-and' => '그리고',
 	'configure-condition-name-3' => '이메일 확인함',
+	'configure-condition-name-4' => '그룹',
 	'configure-condition-name-5' => '사용자 IP 주소',
 	'configure-condition-description-3' => '이메일 확인함',
+	'configure-condition-description-4' => '$1 그룹 모두',
+	'configure-condition-description-5' => '사용자의 IP 주소는 $1입니다.',
+	'configure-condition-description-6' => '사용자의 IP 주소 범위는 $1',
+	'configure-farmer-settings' => '[[Special:Configure|이 위키를 설정합니다]].',
+	'configure-farmer-extensions' => '[[Special:Extensions|이 위키에 대한 확장 기능을 설정합니다]].',
+	'configure-farmer-extensions-list' => '[[Special:Extensions|이 위키에 사용할 확장 기능을 나타냅니다]].',
 );
 
 /** Krio (Krio)
@@ -7098,7 +7139,7 @@ $messages['lb'] = array(
 	'configure-db-error' => "D'Datebank an där, no Ären Informatiounen d'Konfiguratioun ($1) dra soll sinn, gëtt et net.
 Leet se w.e.g. un a féiert configure.sql doran aus oder verbessert hiren Numm.",
 	'configure-db-table-error' => "D'Datebank déi dir uginn hutt huet net déi gebrauchten Tabellen. Benotzt w.e.g. configure.sql an dëser Datebank.",
-	'configure-directory-not-writable' => "An de Repertoire dee benotzt gëtt fir d'Configuratioun ze späicheren, <tt>$1</tt>, kann näischt geschriwwe ginn.
+	'configure-directory-not-writable' => "An de Repertoire dee benotzt gëtt fir d'Configuratioun ze späicheren, <code>$1</code>, kann näischt geschriwwe ginn.
 Ännert dat w.e.g. esou datt e mat PHP dra schreiwe kann fir dës Erweiderung ze benotzen.",
 	'configure-edit-old' => "'''Passt op''': Dir ännert eng <strong>al</strong> Versioun vun der Configuratioun (sou wéi den $1).",
 	'configure-error' => "D'Configuration konnt net gespäichert ginn",
@@ -7117,7 +7158,7 @@ Leet se w.e.g. un a féiert configure.sql doran aus oder verbessert hiren Numm."
 	'configure-js-search-legend' => 'Astellunge vun der Sich',
 	'configure-js-search-prompt' => 'Ufro:',
 	'configure-no-diff' => 'Et gëtt keen Ënnerscheed tëschent denen ausgewielte Versiounen.',
-	'configure-no-directory' => "De Repertoire dee benotzt gëtt fir d'Configuratioun ze späicheren, <tt>$1</tt>, gëtt et net.
+	'configure-no-directory' => "De Repertoire dee benotzt gëtt fir d'Configuratioun ze späicheren, <code>$1</code>, gëtt et net.
 
 Leet e w.e.g un oder ännert en esou datt dës Erweiderung funktionéiert.",
 	'configure-no-old' => 'Et gëtt keng al Versioun vun der Configuratioun.',
@@ -7453,7 +7494,7 @@ $messages['li'] = array(
 	'configure-db-error' => 'De aangegeve database veur de insjtèllinge ($1) besjteit neet.
 Maak deze aan en voer configure.sql oet, of pas de naam aan.',
 	'configure-db-table-error' => 'De aangegeve database haet neet de vereiste tabelle. Voer configure.sql in dae database oet.',
-	'configure-directory-not-writable' => 'In de map woerin de insjèllinge waere opgesjlage, <tt>$1</tt>, kin neet gesjreve waere.
+	'configure-directory-not-writable' => 'In de map woerin de insjèllinge waere opgesjlage, <code>$1</code>, kin neet gesjreve waere.
 Zörg deveur dat PHP in de map kin sjrieve om dees oetbreijing te kinne gebroeke.',
 	'configure-edit-old' => "'''Waarsjoewing''': doe bis 'n <strong>aw</strong> versie van de instèllinge aon 't bewirke (de versie per $1).",
 	'configure-error' => 'De insjtèllinge kóste neet weure opgesjlage',
@@ -7472,7 +7513,7 @@ Zörg deveur dat PHP in de map kin sjrieve om dees oetbreijing te kinne gebroeke
 	'configure-js-search-legend' => 'Zeukinsjtèllinge',
 	'configure-js-search-prompt' => 'Zeukopdrach:',
 	'configure-no-diff' => 'Dao is gei versjil tösje de aangegeve versies.',
-	'configure-no-directory' => "De map woerin de insjtèllinge mote waere opgesjlage, <tt>$1</tt>, besjteit neet.
+	'configure-no-directory' => "De map woerin de insjtèllinge mote waere opgesjlage, <code>$1</code>, besjteit neet.
 Maak die map aan, of veranger 't um dees oetbreijing te gebroeke.",
 	'configure-no-old' => "D'r zeen gein auw versies van de insjtèllinge.",
 	'configure-no-setup' => "Um dees oetbreijing te gebroeke, moos te <code>efConfigureSetup()</code> expliciet aanrope in 't besjtand LocalSettings.php.",
@@ -7849,7 +7890,7 @@ $messages['mk'] = array(
 	'configure-db-error' => 'Наведената база на податоци за чување на конфигурацијата ($1) не постои,
 Прво создадетеја а потоа извршете го configure.sql или корегирајте го нејзиното име.',
 	'configure-db-table-error' => 'Наведената база на податоци не ги содржи потребните табели. Извршете ја configure.sql за таа база на податоци.',
-	'configure-directory-not-writable' => 'Не е дозволено да се запишува во именикот во кој се чуваат нагодувањата, <tt>$1</tt>.
+	'configure-directory-not-writable' => 'Не е дозволено да се запишува во именикот во кој се чуваат нагодувањата, <code>$1</code>.
 Прво овозможете запишување во именикот, за да може PHP да го користи овој додаток.',
 	'configure-edit-old' => "'''Предупредување''': вие уредувате <strong>стара</strong> верзија на конфигурацијата (од $1).",
 	'configure-error' => 'Конфигурацијата не може да биде зачувана',
@@ -7868,7 +7909,7 @@ $messages['mk'] = array(
 	'configure-js-search-legend' => 'Барај нагодувања',
 	'configure-js-search-prompt' => 'Барање:',
 	'configure-no-diff' => 'Нема измени помеѓу одбраните верзии.',
-	'configure-no-directory' => 'Не постои именикот кадешто треба да се зачуваат нагодувањата, <tt>$1</tt>.
+	'configure-no-directory' => 'Не постои именикот кадешто треба да се зачуваат нагодувањата, <code>$1</code>.
 Создајте го или изменете го за да може да се користи овој додаток.',
 	'configure-no-old' => 'Нема стара ревизија на конфигурацијата.',
 	'configure-no-setup' => 'Потребно е експлицитно да го повикате <code>efConfigureSetup()</code> во вашата LocalSettings.php податотека за да може да се користи овој додаток.',
@@ -8182,7 +8223,7 @@ $messages['mr'] = array(
 	'configure-edit-ext' => 'विस्तारके',
 	'configure-summary' => 'हे विशेष पृष्ठ तुम्हाला हा विकि कॉन्फिगर करायची संधी देते, अधिक माहितीसाठी [http://www.mediawiki.org/wiki/Manual:Configuration_settings कॉन्फिगरेशन सेटिंग] पहा.',
 	'configure-btn-save' => 'सेटिंग्स जतन करा',
-	'configure-directory-not-writable' => 'सेटिंग साठविण्यात येणार्‍या <tt>$1</tt> धारिके मध्ये लिहू शकत नाही.
+	'configure-directory-not-writable' => 'सेटिंग साठविण्यात येणार्‍या <code>$1</code> धारिके मध्ये लिहू शकत नाही.
 हे एक्स्टेंशन वापर्ण्यासाठी कृपया तिला लिखाण योग्य करा.',
 	'configure-edit-old' => 'इशारा: तुम्ही कॉन्फिगरेशनची एक <strong>जुनी</strong> आवृत्ती संपादित आहात.',
 	'configure-error' => 'कॉन्फिगरेशन जतन करू शकलेलो नाही',
@@ -8191,7 +8232,7 @@ $messages['mr'] = array(
 	'configure-js-prompt-group' => 'नवीन गटाचे नाव द्या:',
 	'configure-js-remove' => 'वगळा',
 	'configure-js-remove-row' => 'ही नोंद वगळा',
-	'configure-no-directory' => 'सेटिंग जतन करणारी डिरेक्टरी <tt>$1</tt>, अस्तित्वात नाही.
+	'configure-no-directory' => 'सेटिंग जतन करणारी डिरेक्टरी <code>$1</code>, अस्तित्वात नाही.
 कृपया ती तयार करा अथवा बदला.',
 	'configure-no-old' => 'या कॉन्फिगरेशनची जुनी आवृत्ती उपलब्ध नाही',
 	'configure-no-setup' => 'हा विस्तारकक्ष वापरण्यासाठी तुम्हाला <code>efConfigureSetup()</code> हे कार्य कॉल करावे लागेल',
@@ -8310,7 +8351,7 @@ $messages['mt'] = array(
 	'configure-db-error' => 'Id-databażi li speċifikajt sabiex iżżomm il-konfigurazzjoni ($1) ma teżistix.
 Jekk jogħġbok oħloqha u applika configure.sql jew ikkoreġi isimha.',
 	'configure-db-table-error' => "Id-databażi li speċifikajt m'għandiex it-tabelli rikjesti. Huwa neċessarju li tapplika configure.sql f'dik id-databażi.",
-	'configure-directory-not-writable' => 'Id-direttorju wżat sabiex iżomm l-impostazzjonijiet, <tt>$1</tt>, ma jistax jinkiteb fuqu.
+	'configure-directory-not-writable' => 'Id-direttorju wżat sabiex iżomm l-impostazzjonijiet, <code>$1</code>, ma jistax jinkiteb fuqu.
 Agħti d-dritt tal-kitba lill-PHP sabiex tuża din l-estensjoni.',
 	'configure-edit-old' => "'''Twissija''': qiegħed timmodifika verżjoni <strong>qadima</strong> tal-konfigurazzjoni (tal-$1).",
 	'configure-error' => 'Il-konfigurazzjoni ma setgħetx tiġi salvata',
@@ -8329,7 +8370,7 @@ Agħti d-dritt tal-kitba lill-PHP sabiex tuża din l-estensjoni.',
 	'configure-js-search-legend' => 'Tfittxija fl-impostazzjonijiet',
 	'configure-js-search-prompt' => 'Tfittxija:',
 	'configure-no-diff' => "M'hemm l-ebda bidla bejn il-verżjonijiet magħżula.",
-	'configure-no-directory' => 'Id-direttorju wżat sabiex iżomm l-impostazzjonijiet, <tt>$1</tt>, ma jeżistix.
+	'configure-no-directory' => 'Id-direttorju wżat sabiex iżomm l-impostazzjonijiet, <code>$1</code>, ma jeżistix.
 Huwa neċessarju li toħloq jew tbiddlu sabiex tuża din l-etensjoni.',
 	'configure-no-old' => 'L-ebda verżjoni qadima tal-konfigurazzjoni mhi disponibbli.',
 	'configure-no-setup' => "Trid issejjaħ b'mod espliċitu <code>efConfigureSetup()</code> fil-fajl LocalSettings.php tiegħek sabiex tuża din l-estensjoni.",
@@ -8561,7 +8602,7 @@ $messages['nb'] = array(
 	'configure-db-error' => 'Databasen du spesifiserte for å lagre konfigurasjonen ($1) eksisterer ikke.
 Vennligst lag den, og kjør configure.sql, eller rett navnet dens.',
 	'configure-db-table-error' => 'Databasen du spesifiserte har ikke de riktige tabellene. Vennligst kjør configure.sql i den databasen.',
-	'configure-directory-not-writable' => 'Plasseringen som brukes til å lagre innstillingene, <tt>$1</tt>, er ikke skrivbar. Vennligst gjør den skrivbar med PHP for å bruke denne utvidelsen.',
+	'configure-directory-not-writable' => 'Plasseringen som brukes til å lagre innstillingene, <code>$1</code>, er ikke skrivbar. Vennligst gjør den skrivbar med PHP for å bruke denne utvidelsen.',
 	'configure-edit-old' => 'Advarsel: Du redigerer en <strong>gammel</strong> versjon av konfigurasjonen (fra den $1).',
 	'configure-error' => 'Konfigurasjonen kunne ikke lagres',
 	'configure-js-add' => 'Legg til et nytt element',
@@ -8579,7 +8620,7 @@ Vennligst lag den, og kjør configure.sql, eller rett navnet dens.',
 	'configure-js-search-legend' => 'Søkeinnstillinger',
 	'configure-js-search-prompt' => 'Spørring:',
 	'configure-no-diff' => 'Det er ingen forskjeller mellom de valgte versjonene.',
-	'configure-no-directory' => 'Mappen som brukes til lagring av innstillingene, <tt>$1</tt>, finnes ikke.
+	'configure-no-directory' => 'Mappen som brukes til lagring av innstillingene, <code>$1</code>, finnes ikke.
 Opprett den eller endre den for å bruke denne utvidelsen.',
 	'configure-no-old' => 'Ingen gammel versjon av konfigurasjonen er tilgjengelig.',
 	'configure-no-setup' => 'Du må kalle opp <code>efConfigureSetup()</code> i LocalSettings.php for å bruke denne utvidelsen.',
@@ -8814,7 +8855,7 @@ $messages['nl'] = array(
 Maak deze aan en voer configure.sql uit, of corrigeer de naam.',
 	'configure-db-table-error' => 'De aangegeven database heeft de vereiste tabellen niet.
 Voer configure.sql in de database.',
-	'configure-directory-not-writable' => 'In de map waarin de instellingen worden opgeslagen, <tt>$1</tt>, kan niet geschreven worden.
+	'configure-directory-not-writable' => 'In de map waarin de instellingen worden opgeslagen, <code>$1</code>, kan niet geschreven worden.
 Zorg er voor dat PHP in de map kan schrijven om deze extensie te gebruiken.',
 	'configure-edit-old' => "'''Waarschuwing''': u bent een <strong>oude</strong> versie van de instellingen aan het bewerken (de versie per $1).",
 	'configure-error' => 'De instellingen konden niet worden opgeslagen',
@@ -8834,7 +8875,7 @@ Controleer of het bestand bestaat.',
 	'configure-js-search-legend' => 'Zoekinstellingen',
 	'configure-js-search-prompt' => 'Zoekopdracht:',
 	'configure-no-diff' => 'Er is geen verschil tussen de aangegeven versies.',
-	'configure-no-directory' => 'De map waarin de instellingen moeten worden opgeslagen (<tt>$1</tt>) bestaat niet.
+	'configure-no-directory' => 'De map waarin de instellingen moeten worden opgeslagen (<code>$1</code>) bestaat niet.
 Maak die map aan, of verander de instelling voordat u deze extensie kunt gebruiken.',
 	'configure-no-old' => 'Er zijn geen oude versies van de instellingen.',
 	'configure-no-setup' => 'Om deze extensie te gebruiken, moet u <code>efConfigureSetup()</code> expliciet aanroepen in het bestand LocalSettings.php.',
@@ -9009,7 +9050,7 @@ $messages['nn'] = array(
 	'configure-db-error' => 'Databasen du oppgav at skulle halda innstillinga ($1) finst ikkje.
 Opprett han og set i verk configure.sql eller retta namnet.',
 	'configure-db-table-error' => 'Databasen du oppgav har ikkje dei kravde tabellane. Set i verk configure.sql i han.',
-	'configure-directory-not-writable' => 'Plasseringa som vert nytta til å lagra innstillingane, <tt>$1</tt>, kan ikkje verta skriven på. Gjer det mogleg å skriva på ho gjennom PHP for å nytta denne utvidinga.',
+	'configure-directory-not-writable' => 'Plasseringa som vert nytta til å lagra innstillingane, <code>$1</code>, kan ikkje verta skriven på. Gjer det mogleg å skriva på ho gjennom PHP for å nytta denne utvidinga.',
 	'configure-edit-old' => "'''Åtvaring''': du endrar ein <strong>gamal</strong> versjon av konfigurasjonen (frå den $1).",
 	'configure-error' => 'Innstillinga kunne ikkje verta lagra',
 	'configure-js-add' => 'Legg til eit nytt element',
@@ -9027,7 +9068,7 @@ Opprett han og set i verk configure.sql eller retta namnet.',
 	'configure-js-search-legend' => 'Søkjeinnstillingar',
 	'configure-js-search-prompt' => 'Spørjing:',
 	'configure-no-diff' => 'Det finst ingen endringar mellom dei valde versjonane.',
-	'configure-no-directory' => 'Mappa som vert nytta til lagring av innstillingane, <tt>$1</tt>, finst ikkje.
+	'configure-no-directory' => 'Mappa som vert nytta til lagring av innstillingane, <code>$1</code>, finst ikkje.
 Opprett ho eller endra ho for å nytta denne utvidinga.',
 	'configure-no-old' => 'Ingen gamal versjon av konfigurasjonen er tilgjengeleg.',
 	'configure-no-setup' => 'Du må kalla opp <code>efConfigureSetup()</code> i LocalSettings.php for å nytta denne utvidinga.',
@@ -9196,7 +9237,7 @@ $messages['oc'] = array(
 	'configure-db-error' => "La banca de donadas qu'avètz especificada per conténer la configuracion ($1) existís pas.
 Creatz-la e aplicatz-i configure.sql o corregissètz son nom.",
 	'configure-db-table-error' => "La banca de donadas qu'avètz especificada conten pas las taulas requeridas, aplicatz-i configure.sql.",
-	'configure-directory-not-writable' => "Lo dorsièr utilizat per salvar la configuracion, <tt>$1</tt>, pòt pas èsser modificat.
+	'configure-directory-not-writable' => "Lo dorsièr utilizat per salvar la configuracion, <code>$1</code>, pòt pas èsser modificat.
 Rendètz-lo modificable per PHP per qu'aquesta extension foncione.",
 	'configure-edit-old' => "'''Atencion''' : sètz a modificar una version <strong>anciana</strong> de la configuracion (en data del $1).",
 	'configure-error' => 'La configuracion a pas pogut èsser salvada',
@@ -9215,7 +9256,7 @@ Rendètz-lo modificable per PHP per qu'aquesta extension foncione.",
 	'configure-js-search-legend' => 'Recèrca de paramètres',
 	'configure-js-search-prompt' => 'Requèsta :',
 	'configure-no-diff' => 'I a pas de modificacions entre las doas versions seleccionadas.',
-	'configure-no-directory' => "Lo dorsièr utilizat per salvagadar la configuracion, <tt>$1</tt>, existís pas, mercés de lo crear o de lo cambiar per qu'aquesta extension foncione.",
+	'configure-no-directory' => "Lo dorsièr utilizat per salvagadar la configuracion, <code>$1</code>, existís pas, mercés de lo crear o de lo cambiar per qu'aquesta extension foncione.",
 	'configure-no-old' => 'I a pas de version anciana de la configuracion.',
 	'configure-no-setup' => 'Vos cal explicitament apelar la foncion <code>efConfigureSetup()</code> dins vòstre fichièr LocalSettings.php per utilizar aquesta extension.',
 	'configure-no-transwiki' => "Sètz pas autorizat(ada) a cambiar los reglatges d'autres wikis",
@@ -9570,7 +9611,7 @@ $messages['pl'] = array(
 	'configure-db-error' => 'Określona przez Ciebie baza danych do przechowywania konfiguracji ($1) nie istnieje.
 Proszę ją utworzyć i zastosować configure.sql lub poprawić jej nazwę.',
 	'configure-db-table-error' => 'Określona przez Ciebie baza danych nie posiada wymaganych tabel. Proszę zastosować configure.sql w tej bazie danych.',
-	'configure-directory-not-writable' => 'Brak uprawnień do zapisu w katalogu przechowywania ustawień <tt>$1</tt>.
+	'configure-directory-not-writable' => 'Brak uprawnień do zapisu w katalogu przechowywania ustawień <code>$1</code>.
 Ustaw uprawnienia do zapisu dla PHP, jeśli chcesz korzystać z tego rozszerzenia.',
 	'configure-edit-old' => 'Uwaga: zmieniasz teraz <strong>starą</strong> wersję konfiguracji (z $1).',
 	'configure-error' => 'Konfiguracja nie może zostać zapisana',
@@ -9589,7 +9630,7 @@ Ustaw uprawnienia do zapisu dla PHP, jeśli chcesz korzystać z tego rozszerzeni
 	'configure-js-search-legend' => 'Szukaj ustawień',
 	'configure-js-search-prompt' => 'Zapytanie',
 	'configure-no-diff' => 'Pomiędzy wybranymi wersjami nie nastąpiły żadne zmiany.',
-	'configure-no-directory' => 'Katalog <tt>$1</tt> wykorzystywany do przetrzymywania konfiguracji nie istnieje.
+	'configure-no-directory' => 'Katalog <code>$1</code> wykorzystywany do przetrzymywania konfiguracji nie istnieje.
 Utwórz katalog lub wybierz inny, jeśli chcesz korzystać z tego rozszerzenia.',
 	'configure-no-old' => 'Brak dostępnych starych wersji konfiguracji.',
 	'configure-no-setup' => 'Wstaw jawne wywołanie funkcji <code>efConfigureSetup()</code> w pliku LocalSettings.php by korzystać z tego rozszerzenia.',
@@ -9761,7 +9802,7 @@ $messages['pms'] = array(
 	'configure-db-error' => "La base ëd dàit ch'a l'ha specificà për ten-e la configurassion ($1) a esist pa.
 Për piasì, ch'a la crea e ch'a àplica configure.sql opura ch'a corega sò nòm.",
 	'configure-db-table-error' => "La base ëd dàit ch'a l'ha specificà a l'ha pa le tàule dont a-i é damanca. Për piasì, ch'a àplica configure.sql ant la base ëd dàit.",
-	'configure-directory-not-writable' => "Ël dossié dovrà për memorisé le regolassion, <tt>$1</tt>, as peul pa scrivse.
+	'configure-directory-not-writable' => "Ël dossié dovrà për memorisé le regolassion, <code>$1</code>, as peul pa scrivse.
 Për piasì ch'a lo renda scrivìbil da PHP për dovré st'estension-sì.",
 	'configure-edit-old' => "'''Atension''': a l'é an camin ch'a modìfica na version <strong>veja</strong> dla configurassion (dël $1).",
 	'configure-error' => 'La configurassion a peul pa esse salvà',
@@ -9780,7 +9821,7 @@ Për piasì ch'a lo renda scrivìbil da PHP për dovré st'estension-sì.",
 	'configure-js-search-legend' => 'Arserca regolassion',
 	'configure-js-search-prompt' => 'Arcesta:',
 	'configure-no-diff' => 'A-i é gnun cangiament tra le version selessionà.',
-	'configure-no-directory' => "Ël dossié dovrà për memorisé le regolassion, <tt>$1</tt>, a esist pa.
+	'configure-no-directory' => "Ël dossié dovrà për memorisé le regolassion, <code>$1</code>, a esist pa.
 Për piasì, ch'a lo crea o ch'a lo cambia për dovré st'estension-sì.",
 	'configure-no-old' => 'Gnun-e version veje dla configurassion disponìbij.',
 	'configure-no-setup' => "A deuv ciamé <code>efConfigureSetup()</code> esplicitament an sò archivi LocalSettings.php për dovré st'estension-sì.",
@@ -10015,7 +10056,7 @@ $messages['pt'] = array(
 	'configure-db-error' => 'A base de dados que especificou para armazenar a configuração ($1) não existe.
 Por favor, crie-a e aplique configure.sql, ou corrija o nome.',
 	'configure-db-table-error' => 'A base de dados seleccionada não possui as tabelas necessárias. Aplique o configure.sql na base de dados',
-	'configure-directory-not-writable' => 'O directório usado para armazenar a configuração, <tt>$1</tt>, não permite escrita.
+	'configure-directory-not-writable' => 'O directório usado para armazenar a configuração, <code>$1</code>, não permite escrita.
 Para usar esta extensão torne possível a sua escrita pelo PHP, por favor.',
 	'configure-edit-old' => "'''Atenção''': está a editar uma versão <strong>antiga</strong> da configuração (tal como se encontrava em $1).",
 	'configure-error' => 'Não foi possível gravar a configuração',
@@ -10034,7 +10075,7 @@ Para usar esta extensão torne possível a sua escrita pelo PHP, por favor.',
 	'configure-js-search-legend' => 'Pesquisar configurações',
 	'configure-js-search-prompt' => 'Pesquisa:',
 	'configure-no-diff' => 'Não há alterações entre as versões seleccionadas.',
-	'configure-no-directory' => 'O directório usado para guardar a parametrização, <tt>$1</tt>, não existe.
+	'configure-no-directory' => 'O directório usado para guardar a parametrização, <code>$1</code>, não existe.
 Para usar esta extensão crie-o ou altere-o, por favor.',
 	'configure-no-old' => 'Não está disponível nenhuma versão anterior da configuração.',
 	'configure-no-setup' => 'Tem de chamar <code>efConfigureSetup()</code> explicitamente no seu ficheiro LocalSettings.php para usar esta extensão.',
@@ -10210,7 +10251,7 @@ $messages['pt-br'] = array(
 	'configure-db-error' => 'A base de dados que especificou para armazenar a configuração ($1) não existe.
 Por favor, crie-a e aplique configure.sql, ou corrija o nome.',
 	'configure-db-table-error' => 'A base de dados selecionada não possui as tabelas requeridas. Aplique o configure.sql em tal base de dados',
-	'configure-directory-not-writable' => 'O diretório usado para armazenar a configuração, <tt>$1</tt>, não permite escrita.
+	'configure-directory-not-writable' => 'O diretório usado para armazenar a configuração, <code>$1</code>, não permite escrita.
 Para usar esta extensão torne possível a sua escrita pelo PHP, por favor.',
 	'configure-edit-old' => "'''Atenção''': você está editando uma versão <strong>antiga</strong> da configuração (tal como em $1).",
 	'configure-error' => 'Não foi possível salvar a configuração',
@@ -10229,7 +10270,7 @@ Para usar esta extensão torne possível a sua escrita pelo PHP, por favor.',
 	'configure-js-search-legend' => 'Configuração da pesquisa',
 	'configure-js-search-prompt' => 'Consulta:',
 	'configure-no-diff' => 'Não há alterações entre as versões selecionadas.',
-	'configure-no-directory' => 'O diretório usado para armazenar as configurações, <tt>$1</tt>, não existe.
+	'configure-no-directory' => 'O diretório usado para armazenar as configurações, <code>$1</code>, não existe.
 Para usar esta extensão crie-o ou altere-o, por favor.',
 	'configure-no-old' => 'Não há versões de configurações anteriores disponíveis.',
 	'configure-no-setup' => 'Você tem que chamar <code>efConfigureSetup()</code> explicitamente no seu arquivo LocalSettings.php para usar esta extensão.',
@@ -10583,7 +10624,7 @@ $messages['ru'] = array(
 	'configure-db-error' => 'Не существует указанной вами базы данных ($1) для хранения настроек.
 Пожалуйста, создайте её и примените configure.sql или измените её имя.',
 	'configure-db-table-error' => 'Указанная вами база данных не содержит требуемых таблиц. Пожалуйста, примените configure.sql к этой базе данных.',
-	'configure-directory-not-writable' => 'Директория <tt>$1</tt>, используемая для хранения настроек, не доступна для записи.
+	'configure-directory-not-writable' => 'Директория <code>$1</code>, используемая для хранения настроек, не доступна для записи.
 Пожалуйста, сделайте её доступной для записи для PHP, чтобы использовать это расширение.',
 	'configure-edit-old' => "'''Предупреждение'''. Вы редактируете <strong>старую</strong> версию настройки (от $1).",
 	'configure-error' => 'Настройка не может быть сохранена',
@@ -10602,7 +10643,7 @@ $messages['ru'] = array(
 	'configure-js-search-legend' => 'Поиск настроек',
 	'configure-js-search-prompt' => 'Запрос:',
 	'configure-no-diff' => 'Нет изменений между выбранными версиями.',
-	'configure-no-directory' => 'Директория <tt>$1</tt>, используемая для хранения настроек, не существует.
+	'configure-no-directory' => 'Директория <code>$1</code>, используемая для хранения настроек, не существует.
 Пожалуйста, создайте её или используйте другую директорию.',
 	'configure-no-old' => 'Нет старых версий настроек.',
 	'configure-no-setup' => 'Вы должны явно вызывать <code>efConfigureSetup()</code> в вашем файле LocalSettings.php, чтобы использовать это расширение.',
@@ -10954,7 +10995,7 @@ $messages['sk'] = array(
 Prosím, vytvorte ju a na opravenie jej názvu použite configure.sql.',
 	'configure-db-table-error' => 'Databáza, ktorú ste zadali neobsahuje požadované tabuľky.
 Prosím, použite na túto databázu configure.sql.',
-	'configure-directory-not-writable' => 'Do tohto adresára, ktorý sa používa na ukladanie nastavení, <tt>$1</tt>, nie je možné zapisovať. Prosím, umožnite PHP zápis doňho, aby ste mohli používať toto rozšírenie.',
+	'configure-directory-not-writable' => 'Do tohto adresára, ktorý sa používa na ukladanie nastavení, <code>$1</code>, nie je možné zapisovať. Prosím, umožnite PHP zápis doňho, aby ste mohli používať toto rozšírenie.',
 	'configure-edit-old' => "'''Upozornenie''': upravujete <strong>starú</strong> verziu konfigurácie (z $1).",
 	'configure-error' => 'Konfiguráciu nebolo možné uložiť',
 	'configure-js-add' => 'Pridať novú položku',
@@ -10972,7 +11013,7 @@ Prosím, použite na túto databázu configure.sql.',
 	'configure-js-search-legend' => 'Nastavenia vyhľadávania',
 	'configure-js-search-prompt' => 'Požiadavka:',
 	'configure-no-diff' => 'Medzi zvolenými revíziami nenastali zmeny.',
-	'configure-no-directory' => 'Adresár na uloženie nastavení, <tt>$1</tt>, neexistuje.
+	'configure-no-directory' => 'Adresár na uloženie nastavení, <code>$1</code>, neexistuje.
 Aby ste mohli používať toto rozšírenie, vytvorte ho alebo ho zmeňte.',
 	'configure-no-old' => 'Nie je dostupná žiadna stará verzia konfigurácie.',
 	'configure-no-setup' => 'Musíte explicitne zavolať <code>efConfigureSetup()</code> vo svojom súbore LocalSettings.php, aby ste mohli používať toto rozšírenie.',
@@ -11143,7 +11184,7 @@ $messages['sl'] = array(
 	'configure-db-error' => 'Navedena zbirka podatkov, ki naj bi vsebovala konfiguracijo ($1), ne obstaja.
 Prosimo, ustvarite jo in uporabite configure.sql ali popravite njeno ime.',
 	'configure-db-table-error' => 'Določena zbirka podatkov nima zahtevanih tabel. Prosimo, uporabite configure.sql v tej zbirki podatkov.',
-	'configure-directory-not-writable' => 'Mapa za shranjevanje nastavitev, <tt>$1</tt>, ne obstaja.
+	'configure-directory-not-writable' => 'Mapa za shranjevanje nastavitev, <code>$1</code>, ne obstaja.
 Prosimo, da jo za uporabo te razširitve nastavite zapisljivo za PHP.',
 	'configure-edit-old' => "'''Opozorilo''': urejate <strong>staro</strong> različico konfiguracije (z dne $1).",
 	'configure-error' => 'Konfiguracije ni bilo mogoče shraniti',
@@ -11162,7 +11203,7 @@ Prosimo, da jo za uporabo te razširitve nastavite zapisljivo za PHP.',
 	'configure-js-search-legend' => 'Nastavitve iskanja',
 	'configure-js-search-prompt' => 'Poizvedba:',
 	'configure-no-diff' => 'Med izbranimi različicami ni sprememb.',
-	'configure-no-directory' => 'Mapa za shranjevanje nastavitev, <tt>$1</tt>, ne obstaja.
+	'configure-no-directory' => 'Mapa za shranjevanje nastavitev, <code>$1</code>, ne obstaja.
 Prosimo, da jo za uporabo te razširitve ustvarite ali spremenite.',
 	'configure-no-old' => 'Na voljo ni nobena stara različica nastavitev.',
 	'configure-no-setup' => 'Za uporabo te razširitve morate v vaši datoteki LocalSettings.php izrecno poklicati <code>efConfigureSetup()</code>.',
@@ -11357,7 +11398,7 @@ $messages['sr-ec'] = array(
 	'configure-js-search-legend' => 'Претрага подешавања',
 	'configure-js-search-prompt' => 'Захтев:',
 	'configure-no-diff' => 'Нема промена између изабраних верзија.',
-	'configure-no-directory' => 'Директоријум, који се користи за снимање подешавања, <tt>$1</tt>, не постоји.
+	'configure-no-directory' => 'Директоријум, који се користи за снимање подешавања, <code>$1</code>, не постоји.
 Молимо Вас да га направите или га промените како бисте користили ову екстензију.',
 	'configure-no-old' => 'Нема старе верзије подешавања.',
 	'configure-no-setup' => 'Да бисте користили ову екстензију, морате директно да позовете <code>efConfigureSetup()</code> у Вашем LocalSettings.php.',
@@ -11533,7 +11574,7 @@ $messages['sr-el'] = array(
 	'configure-js-search-legend' => 'Pretraga podešavanja',
 	'configure-js-search-prompt' => 'Zahtev:',
 	'configure-no-diff' => 'Nema promena između izabranih verzija.',
-	'configure-no-directory' => 'Direktorijum, koji se koristi za snimanje podešavanja, <tt>$1</tt>, ne postoji.
+	'configure-no-directory' => 'Direktorijum, koji se koristi za snimanje podešavanja, <code>$1</code>, ne postoji.
 Molimo Vas da ga napravite ili ga promenite kako biste koristili ovu ekstenziju.',
 	'configure-no-old' => 'Nema stare verzije podešavanja.',
 	'configure-no-setup' => 'Da biste koristili ovu ekstenziju, morate direktno da pozovete <code>efConfigureSetup()</code> u Vašem LocalSettings.php.',
@@ -11685,7 +11726,7 @@ $messages['stq'] = array(
 	'configure-summary' => 'Disse Spezialsiede moaket die ju Konfiguration fon disse Wiki muugelk, kiekje ap
 [http://www.mediawiki.org/wiki/Manual:Configuration_settings Konfigurationsoptione] foar moor Information.',
 	'configure-btn-save' => 'Ienstaalengen spiekerje',
-	'configure-directory-not-writable' => 'Dät Ferteeknis, wieroun do Konfiguratione spiekerd wäide, <tt>$1</tt>, is nit beskrieuwboar. Moak dät foar PHP beskrieuwboar, deermäd disse Ärwiederenge bruukt wäide kon.',
+	'configure-directory-not-writable' => 'Dät Ferteeknis, wieroun do Konfiguratione spiekerd wäide, <code>$1</code>, is nit beskrieuwboar. Moak dät foar PHP beskrieuwboar, deermäd disse Ärwiederenge bruukt wäide kon.',
 	'configure-edit-old' => 'Woarskauenge: Du beoarbaidest ne <strong>oolde</strong> Version fon ju Konfiguration.',
 	'configure-error' => 'Ju Konfiguration kuud nit spiekerd wäide',
 	'configure-js-add' => 'Näien Iendraach bietouföigje',
@@ -11694,7 +11735,7 @@ $messages['stq'] = array(
 	'configure-js-remove' => 'Läskje',
 	'configure-js-remove-row' => 'Diessen Iendraach läskje',
 	'configure-no-diff' => 'Dät rakt neen Unnerskeed twiske do uutwäälde Versione.',
-	'configure-no-directory' => 'Dät Ferteeknis toun Spiekerjen fon do Ienstaalengen, <tt>$1</tt>, is nit deer. Moak of annerje dät, uum disse Ärwiederenge bruuke tou konnen.',
+	'configure-no-directory' => 'Dät Ferteeknis toun Spiekerjen fon do Ienstaalengen, <code>$1</code>, is nit deer. Moak of annerje dät, uum disse Ärwiederenge bruuke tou konnen.',
 	'configure-no-old' => 'Dät rakt neen oolde Konfigurationsversion.',
 	'configure-no-setup' => '<code>efConfigureSetup()</code> mout explizit in dien LocalSettings.php apruupen wäide, uum disse Ärwiederenge bruuke tou konnen.',
 	'configure-no-transwiki' => 'Du hääst neen Begjuchtigenge, Ienstaalengen in uur Wikis tou annerjen',
@@ -11833,7 +11874,7 @@ $messages['sv'] = array(
 Vänligen skapa den och applicera configure.sql eller korrigera dess namn.',
 	'configure-db-table-error' => 'Databasen du specificerat har inte de tabeller som behövs.
 Vänligen applicera configure.sql i den databasen.',
-	'configure-directory-not-writable' => 'Registret används till att lagra inställningarna, <tt>$1</tt>, är inte skrivbar.
+	'configure-directory-not-writable' => 'Registret används till att lagra inställningarna, <code>$1</code>, är inte skrivbar.
 Var god gör den skrivbar av PHP för att använda det här tillägget.',
 	'configure-edit-old' => "'''Varning''': du redigerar en <strong>gammal</strong> version av konfigurationen (från den $1).",
 	'configure-error' => 'Konfigureringen kunde inte sparas',
@@ -11852,7 +11893,7 @@ Var god gör den skrivbar av PHP för att använda det här tillägget.',
 	'configure-js-search-legend' => 'Sök inställningar',
 	'configure-js-search-prompt' => 'Fråga:',
 	'configure-no-diff' => 'Det finns inga ändringar mellan de valda versionerna.',
-	'configure-no-directory' => 'Katalogen där inställningar lagras, <tt>$1</tt>, finns inte.
+	'configure-no-directory' => 'Katalogen där inställningar lagras, <code>$1</code>, finns inte.
 För att använda det här programtillägget måste du skapa den eller byta den.',
 	'configure-no-old' => 'Ingen gammal version av konfigurationen finns tillgänglig.',
 	'configure-no-setup' => 'Du måste anropa funktionen <code>efConfigureSetup()</code> i LocalSettings.php för att kunna använda det här programtillägget.',
@@ -12296,7 +12337,7 @@ $messages['tl'] = array(
 	'configure-db-error' => 'Hindi umiiral ang kalipunan ng datong tinukoy mo upang humawak sa pagkakaayos ($1).
 Pakilikha ito at gamitin ang configure.sql o itama ang pangalan nito.',
 	'configure-db-table-error' => 'Wala ng kinakailangang mga tabla ang kalipunan ng datong tinukoy mo. Pakigamit ang configure.sql sa loob ng kalipunan ng datong iyan.',
-	'configure-directory-not-writable' => 'Ang direktoryong ginagamit upang maitago ang mga pagtatakda, <tt>$1</tt>, ay hindi masusulatan.
+	'configure-directory-not-writable' => 'Ang direktoryong ginagamit upang maitago ang mga pagtatakda, <code>$1</code>, ay hindi masusulatan.
 Pakigawang masusulatan ito ng PHP upang magamit ang ganitong karugtong.',
 	'configure-edit-old' => "'''Babala''': binabago mo ang isang <strong>lumang</strong> bersyon ng pagkakaayos (mula noong $1).",
 	'configure-error' => 'Hindi masagip ang pagkakaayos',
@@ -12315,7 +12356,7 @@ Pakigawang masusulatan ito ng PHP upang magamit ang ganitong karugtong.',
 	'configure-js-search-legend' => 'Hanapin ang mga katakdaan',
 	'configure-js-search-prompt' => 'Katanungan:',
 	'configure-no-diff' => 'Walang mga pagbabago sa pagitan ng napiling mga bersyon.',
-	'configure-no-directory' => 'Ang direktoryong ginagamit upang maitago ang mga pagtatakda, <tt>$1</tt>, ay hindi umiiral.
+	'configure-no-directory' => 'Ang direktoryong ginagamit upang maitago ang mga pagtatakda, <code>$1</code>, ay hindi umiiral.
 Pakilikha ito o baguhin ito upang magamit ang ganitong karugtong.',
 	'configure-no-old' => 'Walang makuhang lumang bersyon ng pagkakaayos.',
 	'configure-no-setup' => 'Dapat mong tuwirang tawagin ang <code>efConfigureSetup()</code> na nasa loob ng iyong talaksang LocalSettings.php upang magamit ang karugtong na ito.',
@@ -12501,7 +12542,7 @@ $messages['tr'] = array(
 	'configure-db-error' => "Konfigürasyonu ($1) saklamak için belirttiğiniz veritabanı mevcut değil.
 Lütfen oluşturun ve configure.sql'yi uygulayın ya da adını düzeltin.",
 	'configure-db-table-error' => "Belirttiğiniz veritabanı istenen tablolara sahip değil. Lütfen veritabanına configure.sql'yi uygulayın.",
-	'configure-directory-not-writable' => 'Ayarları saklamak için kullanılan <tt>$1</tt> dizini yazılabilir değil.
+	'configure-directory-not-writable' => 'Ayarları saklamak için kullanılan <code>$1</code> dizini yazılabilir değil.
 Lütfen bu eklentiyi kullanmak için PHP ile dizini yazılabilir hale getirin.',
 	'configure-edit-old' => "'''Uyarı''': konfigürasyonun <strong>eski</strong> bir sürümünü düzenliyorsunuz ($1)",
 	'configure-error' => 'Konfigürasyon kaydedilemedi',
@@ -12792,7 +12833,7 @@ $messages['uk'] = array(
 	'configure-js-search-legend' => 'Шукати налаштування',
 	'configure-js-search-prompt' => 'Запит:',
 	'configure-no-diff' => 'Нема змін між обраними версіями.',
-	'configure-no-directory' => "Директорія для запам'ятовування налаштувань <tt>$1</tt> не існує.
+	'configure-no-directory' => "Директорія для запам'ятовування налаштувань <code>$1</code> не існує.
 Будь ласка, створіть або змініть її, щоб використати це розширення.",
 	'configure-no-old' => 'Немає доступної старої версії конфігурації.',
 	'configure-no-setup' => 'Ви повинні явно викликати <code>efConfigureSetup()</code> у вашому LocalSettings.php файлі, щоб використати це розширення.',
@@ -12977,6 +13018,13 @@ $messages['ur'] = array(
 	'configure-condition-name' => 'شرط',
 );
 
+/** Uzbek (oʻzbekcha)
+ * @author CoderSI
+ */
+$messages['uz'] = array(
+	'configure-section-search' => 'Qidiruv',
+);
+
 /** vèneto (vèneto)
  * @author Candalua
  */
@@ -13045,7 +13093,7 @@ $messages['vi'] = array(
 	'configure-arrayinput-oneperline' => "''(mỗi dòng một khoản)''",
 	'configure-summary' => 'Trang đặc biệt này cho phép bạn cấu hình wiki, mời xem [http://www.mediawiki.org/wiki/Manual:Configuration_settings Các thiết lập cấu hình] để có thêm thông tin.',
 	'configure-btn-save' => 'Lưu thiết lập',
-	'configure-directory-not-writable' => 'Thư mục được dùng để lưu trữ thiết lập, <tt>$1</tt>, không cho phép ghi.
+	'configure-directory-not-writable' => 'Thư mục được dùng để lưu trữ thiết lập, <code>$1</code>, không cho phép ghi.
 Xin hãy chỉnh nó để cho phép PHP ghi vào mới dùng phần mở rộng này được.',
 	'configure-edit-old' => "'''Cảnh báo:''' Bạn đang sửa đổi một phiên bản cấu hình <strong>cũ</strong> (từ $1).",
 	'configure-error' => 'Không thể lưu cấu hình',
@@ -13057,7 +13105,7 @@ Xin hãy chỉnh nó để cho phép PHP ghi vào mới dùng phần mở rộng
 	'configure-js-biglist-show' => '[hiện chi tiết]',
 	'configure-js-biglist-hide' => '[ẩn chi tiết]',
 	'configure-no-diff' => 'Các phiên bản được chọn không khác với nhau.',
-	'configure-no-directory' => 'Thư mục dùng để lưu cấu hình, <tt>$1</tt>, không tồn tại.
+	'configure-no-directory' => 'Thư mục dùng để lưu cấu hình, <code>$1</code>, không tồn tại.
 Xin hãy khởi tạo hoặc thay đổi nó để dùng được phần mở rộng này.',
 	'configure-no-old' => 'Không có phiên bản cấu hình cũ nào.',
 	'configure-no-setup' => 'Bạn phải gọi tường minh <code>efConfigureSetup()</code> trong tập tin LocalSettings.php của bạn để dùng được phần mở rộng này.',
@@ -13178,7 +13226,7 @@ $messages['vo'] = array(
 	'configure-btn-save' => 'Dakipön parametemi',
 	'configure-db-error' => 'Nünodem fa ol pevälöl ad dagetön parametemi ($1) no dabinon.
 Jafolös oni e gebolös eli configure.sql u gudükumolös nemi onik.',
-	'configure-directory-not-writable' => 'Ragiviär pro dakip parametema, <tt>$1</tt>, no binon votükovik.
+	'configure-directory-not-writable' => 'Ragiviär pro dakip parametema, <code>$1</code>, no binon votükovik.
 Votükovükolös oni me el PHP ad gebön veitükumami at.',
 	'configure-edit-old' => "'''Nuned''': votükol anu fomam <strong>büik</strong> parametema (tü $1).",
 	'configure-error' => 'Parametem no pedakipon',
@@ -13195,7 +13243,7 @@ Votükovükolös oni me el PHP ad gebön veitükumami at.',
 	'configure-js-search-legend' => 'Sukaparamets',
 	'configure-js-search-prompt' => 'Seivid:',
 	'configure-no-diff' => 'No dabinons votükams vü fomams pevälöl.',
-	'configure-no-directory' => 'Ragiviär pro dakip parametema, <tt>$1</tt>, no dabinon.
+	'configure-no-directory' => 'Ragiviär pro dakip parametema, <code>$1</code>, no dabinon.
 Jafolös oni u votükolös oni ad gebön veitükumami at.',
 	'configure-no-old' => 'Fomam büik nonik parametema gebidon.',
 	'configure-no-transwiki' => 'No dalol votükön parametis in vüks votik',
@@ -13364,7 +13412,7 @@ $messages['zh-hans'] = array(
 	'configure-db-error' => '你指定的用于保存配置的数据库（$1）不存在。
 请创建它并应用configure.sql或者更正它的名字。',
 	'configure-db-table-error' => '你指定的数据库没有需要的表。请在其中应用configure.sql。',
-	'configure-directory-not-writable' => '用于存储设置的目录，<tt>$1</tt>，不可写。
+	'configure-directory-not-writable' => '用于存储设置的目录，<code>$1</code>，不可写。
 请让它可以由PHP写入以使用这个扩展。',
 	'configure-edit-old' => "'''警告'''：你正在编辑配置的一个<strong>旧的</strong>版本（于$1的）。",
 	'configure-error' => '配置不能被保存',
@@ -13383,7 +13431,7 @@ $messages['zh-hans'] = array(
 	'configure-js-search-legend' => '搜索设置',
 	'configure-js-search-prompt' => '查询：',
 	'configure-no-diff' => '在选定的版本间没有改变。',
-	'configure-no-directory' => '被用于存储设置的目录，<tt>$1</tt>，不存在。
+	'configure-no-directory' => '被用于存储设置的目录，<code>$1</code>，不存在。
 请创建或改变它以使用这个扩展。',
 	'configure-no-old' => '没有更旧版本的配置可用。',
 	'configure-no-setup' => '你需要在你的LocalSettings.php文件中显式调用<code>efConfigureSetup()</code>以使用这个扩展。',
@@ -13558,7 +13606,7 @@ $messages['zh-hant'] = array(
 	'configure-db-error' => '你指定的用於儲存配置的資料庫（$1）不存在。
 請建立它並應用 configure.sql 或者更正它的名字。',
 	'configure-db-table-error' => '你指定的資料庫沒有需要的表。請在其中應用 configure.sql。',
-	'configure-directory-not-writable' => '用於儲存設定的目錄，<tt>$1</tt>，不可寫。
+	'configure-directory-not-writable' => '用於儲存設定的目錄，<code>$1</code>，不可寫。
 請讓它可以由 PHP 寫入以使用這個擴充套件。',
 	'configure-edit-old' => "'''警告'''：你正在編輯配置的一個<strong>舊的</strong>版本（於$1的）。",
 	'configure-error' => '配置不能被儲存',
@@ -13577,7 +13625,7 @@ $messages['zh-hant'] = array(
 	'configure-js-search-legend' => '搜尋設定',
 	'configure-js-search-prompt' => '查詢：',
 	'configure-no-diff' => '在選定的版本間沒有改變。',
-	'configure-no-directory' => '被用於儲存設定的目錄，<tt>$1</tt>，不存在。
+	'configure-no-directory' => '被用於儲存設定的目錄，<code>$1</code>，不存在。
 請建立或改變它以使用這個擴充套件。',
 	'configure-no-old' => '沒有更舊版本的配置可用。',
 	'configure-no-setup' => '你需要在你的 LocalSettings.php 檔案中顯式調用<code> efConfigureSetup() </code>以使用這個擴充套件。',
