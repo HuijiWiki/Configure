@@ -1217,7 +1217,7 @@ $messages['be'] = array(
 	'configure-throttle-group' => 'Тып',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Cesco
  * @author EugeneZelenko
  * @author Jim-by
@@ -2833,7 +2833,7 @@ Bitte erstelle oder ändere es, damit du diese Erweiterung nutzen kannst.',
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Liste der für dieses Wiki verfügbaren Erweiterungen]].',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author ChrisiPK
  * @author Imre
  * @author Kghbln
@@ -8570,7 +8570,7 @@ $messages['nah'] = array(
 	'configure-condition-operator-or' => 'Nozo',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Audun
  * @author Laaknor
  * @author Nghtwlkr
@@ -9017,7 +9017,7 @@ Er wordt een voorvertoning weergegeven als u het veld verlaat.',
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Voor deze wiki beschikbare uitbreidingen weergegeven]].',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Gunnernett
  * @author Harald Khan
  * @author Nghtwlkr
@@ -11352,7 +11352,7 @@ $messages['so'] = array(
 	'configure-section-search' => 'Raadi',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Nikola Smolenski
  * @author Rancher
  * @author Sasa Stefanovic
@@ -11530,7 +11530,7 @@ $messages['sr-ec'] = array(
 	'configure-boolop-description-not' => 'Ни један од услова не сме бити истинит',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  * @author Rancher
  * @author Жељко Тодоровић
@@ -13377,7 +13377,7 @@ $messages['yi'] = array(
 	'configure-condition-description-3' => 'ע-פּאָסט באַשטעטיקט',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Liangent
  * @author PhiLiP
@@ -13572,7 +13572,7 @@ $messages['zh-hans'] = array(
 	'configure-farmer-extensions-list' => '[[Special:Extensions|列出这个wiki上可用的扩展]]。',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Alexsh
  * @author Anakmalaysia
  * @author Frankou

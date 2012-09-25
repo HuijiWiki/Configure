@@ -272,7 +272,7 @@ $specialPageAliases['mt'] = array(
 	'ViewConfig' => array( 'UriKonfig' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'Configure' => array( 'Konfigurer' ),
 	'Extensions' => array( 'Utvidelser' ),
@@ -293,7 +293,7 @@ $specialPageAliases['nl'] = array(
 	'ViewConfig' => array( 'InstellingenBekijken' ),
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬) */
+/** Norwegian Nynorsk (norsk (nynorsk)‎) */
 $specialPageAliases['nn'] = array(
 	'Extensions' => array( 'Utvidingar' ),
 );
@@ -393,14 +393,14 @@ $specialPageAliases['vi'] = array(
 	'Extensions' => array( 'Phần_mở_rộng' ),
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'Configure' => array( '配置' ),
 	'Extensions' => array( '扩展组件' ),
 	'ViewConfig' => array( '查看配置' ),
 );
 
-/** Traditional Chinese (‪中文（繁體）‬) */
+/** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
 	'Configure' => array( '設定' ),
 	'Extensions' => array( '擴展' ),
