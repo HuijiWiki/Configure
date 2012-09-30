@@ -2441,6 +2441,7 @@ $messages['cy'] = array(
 /** Danish (dansk)
  * @author BabelFrode
  * @author Byrial
+ * @author Christian List
  * @author Hylle
  * @author Nghtwlkr
  * @author Peter Alberti
@@ -2472,7 +2473,7 @@ $messages['da'] = array(
 	'configure-db-error' => 'Databasen du valgte til at gemme konfigurationen ($1) i findes ikke.
 Du bedes oprette den og og køre configure.sql eller rette navnet.',
 	'configure-db-table-error' => 'Databasen du valgte har ikke de krævede tabeller. Kør configure.sql i den database.',
-	'configure-directory-not-writable' => 'Mappen som bruges til at gemme indstillingerne, <code>$1</code>, kan der ikke skrives til. Gør den skrivbar i PHP for at bruge den indstilling.',
+	'configure-directory-not-writable' => 'Mappen som bruges til at gemme indstillingerne, <code>$1</code>, kan der ikke skrives til. Gør den skrivbar i PHP for at bruge denne udvidelse.',
 	'configure-edit-old' => "'''Advarsel''': du redigerer en <strong>ældre</strong> version af konfigurationen. (fra d. $1).",
 	'configure-error' => 'Konfigurationen kunne ikke gemmes',
 	'configure-js-add' => 'Tilføj en ny post',
