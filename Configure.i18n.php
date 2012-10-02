@@ -4401,12 +4401,12 @@ $messages['ga'] = array(
 	'configure-throttle-group' => 'Cineál',
 );
 
-/** Simplified Gan script (‪赣语（简体）‬) */
+/** Simplified Gan script (赣语（简体）‎) */
 $messages['gan-hans'] = array(
 	'configure-section-search' => '寻吖',
 );
 
-/** Traditional Gan script (‪贛語（繁體）‬)
+/** Traditional Gan script (贛語（繁體）‎)
  * @author Symane
  */
 $messages['gan-hant'] = array(
@@ -4831,7 +4831,7 @@ $messages['gv'] = array(
 	'configure-form-reason' => 'Fa:',
 );
 
-/** Hausa (هَوُسَ) */
+/** Hausa (Hausa) */
 $messages['ha'] = array(
 	'configure-form-reason' => 'Dalili:',
 	'configure-js-remove' => 'Soke',
@@ -6551,7 +6551,7 @@ $messages['kaa'] = array(
 	'configure-section-users' => 'Paydalanıwshılar',
 );
 
-/** Kazakh (Cyrillic script) (‪қазақша (кирил)‬)
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎)
  * @author GaiJin
  */
 $messages['kk-cyrl'] = array(
@@ -7085,7 +7085,7 @@ et Appachtemang. Do kresß en Vör-Aansich jezeich, wann De uß dämm Feld jeih�
 	'configure-farmer-extensions-list' => 'De [[Special:Extensions|Projramm-Zohsäz för dat Wiki hee opleßte]]',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(

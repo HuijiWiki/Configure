@@ -2815,7 +2815,7 @@ $messages['bar'] = array(
 	'configure-setting-wgExtraLanguageNames-key' => 'Språch-Code',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -9075,7 +9075,7 @@ n',
 	'configure-setting-wgUDPProfilerPort' => 'Port fir dr UDP-Profiler',
 );
 
-/** Hausa (هَوُسَ) */
+/** Hausa (Hausa) */
 $messages['ha'] = array(
 	'configure-setting-wgXhtmlNamespaces-key' => 'Sararin suna',
 );
@@ -13454,7 +13454,7 @@ $messages['ksh'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'De „Pooz“ (<code lang="en">port</code>) för dat Projramm, öm övver <i lang="en">UDP</i> de Projramme ier Leißdung ze beshtemme (<code lang="en">UDP-profiler</code>)',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -14861,7 +14861,7 @@ $messages['nah'] = array(
 	'configure-setting-wgDebugLogGroups-value' => 'Èwalli',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Event
  * @author Laaknor
  * @author Nghtwlkr
@@ -16093,7 +16093,7 @@ $messages['nl'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Poort voor UDP-profiler',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Gunnernett
  * @author Harald Khan
  * @author Nghtwlkr
@@ -20885,7 +20885,7 @@ $messages['sl'] = array(
 	'configure-setting-wgAjaxSearch' => 'Omogoči uporabo Ajax za samodejne predloge za iskanje',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Charmed94
  * @author Rancher
  * @author Жељко Тодоровић
@@ -21160,7 +21160,7 @@ $messages['sr-ec'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Порт за UDP профајлер',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  * @author Rancher
  */
@@ -23357,7 +23357,7 @@ $messages['yi'] = array(
 	'configure-setting-wgXhtmlNamespaces-key' => 'נאָמענטייל',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author A911504820
  * @author Dimension
  * @author Gzdavidwong
