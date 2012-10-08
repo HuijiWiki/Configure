@@ -11157,6 +11157,7 @@ Aby ste mohli používať toto rozšírenie, vytvorte ho alebo ho zmeňte.',
 
 /** Slovenian (slovenščina)
  * @author Dbc334
+ * @author Eleassar
  */
 $messages['sl'] = array(
 	'configure' => 'Konfiguriraj wiki',
@@ -11206,12 +11207,12 @@ Prosimo, da jo za uporabo te razširitve nastavite zapisljivo za PHP.',
 	'configure-no-diff' => 'Med izbranimi različicami ni sprememb.',
 	'configure-no-directory' => 'Mapa za shranjevanje nastavitev, <code>$1</code>, ne obstaja.
 Prosimo, da jo za uporabo te razširitve ustvarite ali spremenite.',
-	'configure-no-old' => 'Na voljo ni nobena stara različica nastavitev.',
+	'configure-no-old' => 'Na razpolago ni nobena stara različica nastavitev.',
 	'configure-no-setup' => 'Za uporabo te razširitve morate v vaši datoteki LocalSettings.php izrecno poklicati <code>efConfigureSetup()</code>.',
 	'configure-no-transwiki' => 'Nimate dovoljenja za spremembo nastavitev v drugih wikijih',
 	'configure-old' => 'Stare različice',
 	'configure-old-versions' => 'Seznam starih različic nastavitev:',
-	'configure-old-not-available' => 'Zahtevana stara različica nastavitev $1 ni na voljo',
+	'configure-old-not-available' => 'Zahtevana stara različica nastavitev $1 ni na razpolago.',
 	'configure-old-changes' => 'spremembe',
 	'configure-old-summary' => '$1 od $2 $4 $3',
 	'configure-saved' => 'Konfiguracija je bila shranjena',
@@ -11280,7 +11281,7 @@ Prosimo, da jo za uporabo te razširitve ustvarite ali spremenite.',
 	'configure-select-wiki-view-all' => 'Vsi wikiji',
 	'configure-select-wiki-view-specific' => 'Določen wiki:',
 	'configure-select-wiki-submit' => 'Izberi',
-	'configure-setting-not-available' => 'Ta nastavitev ni na voljo v tej različici MediaWiki',
+	'configure-setting-not-available' => 'V tej različici programja MediaWiki ta nastavitev ni na razpolago',
 	'configure-transwiki-not-in-range' => 'Zahtevan wiki, $1, ni v {{PLURAL:$3|dovoljeni vrednosti|dovoljenih vrednostih}}: $2.',
 	'configure-view' => 'Pogled',
 	'configure-view-all-versions' => 'Celotni seznam različic',
@@ -11342,7 +11343,7 @@ Prosimo, da jo za uporabo te razširitve ustvarite ali spremenite.',
 	'configure-boolop-description-not' => 'Noben pogoj ne sme biti resničen',
 	'configure-farmer-settings' => '[[Special:Configure|Konfiguriraj ta wiki]].',
 	'configure-farmer-extensions' => '[[Special:Extensions|Konfiguriraj razširitve tega wikija]].',
-	'configure-farmer-extensions-list' => '[[Special:Extensions|Seznam razširitev, ki so na voljo za ta wiki]].',
+	'configure-farmer-extensions-list' => '[[Special:Extensions|Seznam razširitev, ki so na razpolago za ta wiki]].',
 );
 
 /** Somali (Soomaaliga)
