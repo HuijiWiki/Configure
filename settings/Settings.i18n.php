@@ -2587,6 +2587,16 @@ $messages['arz'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'منفذ لملف UDP',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
+ */
+$messages['as'] = array(
+	'configure-setting-wgSitename' => 'ছাইটৰ নাম',
+	'configure-setting-wgActionPaths-key' => 'কাৰ্য',
+	'configure-setting-wgMediaHandlers-key' => 'MIME প্ৰকাৰ:',
+	'configure-setting-wgArticleRobotPolicies-key' => 'পৃষ্ঠাৰ শিৰোনামা',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
