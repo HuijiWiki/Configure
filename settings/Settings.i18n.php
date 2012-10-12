@@ -2021,7 +2021,7 @@ $messages['ar'] = array(
  */
 $messages['arc'] = array(
 	'configure-setting-wgMediaHandlers-key' => 'MIME ܐܕܫܐ',
-	'configure-setting-wgArticleRobotPolicies-key' => 'ܟܘܢܝܐ ܕܕܦܐ',
+	'configure-setting-wgArticleRobotPolicies-key' => 'ܟܘܢܝܐ ܕܦܐܬܐ',
 	'configure-setting-wgExtraLanguageNames-value' => 'ܫܡܐ',
 	'configure-setting-wgSpecialPageGroups-key' => 'ܟܢܘܫܬܐ',
 	'configure-setting-wgDebugLogGroups-value' => 'ܠܦܦܐ',
