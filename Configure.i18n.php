@@ -6287,7 +6287,7 @@ $messages['ja'] = array(
 	'configure-btn-save' => '設定を保存',
 	'configure-db-error' => 'あなたが構成 ($1) を格納するよう指定したデータベースは存在しません。作成して configure.sql を適用するか、名前を正してください。',
 	'configure-db-table-error' => 'あなたが指定したデータベースには必要なテーブルがありません。そのデータベースに configure.sql を適用してください。',
-	'configure-directory-not-writable' => '設定の格納に使用するディレクトリ <tt>$1</tt> に書き込めません。
+	'configure-directory-not-writable' => '設定の格納に使用するディレクトリ <code>$1</code> に書き込めません。
 この拡張機能を使用するには、ディレクトリに PHP が書き込めるように設定してください。',
 	'configure-edit-old' => "'''警告''': あなたは構成設定の<strong>古い</strong>版 ($1時点) を編集しています。",
 	'configure-error' => '設定を保存できませんでした',
@@ -6306,7 +6306,7 @@ $messages['ja'] = array(
 	'configure-js-search-legend' => '検索設定',
 	'configure-js-search-prompt' => 'クエリ:',
 	'configure-no-diff' => '選択した版の間には差異がありません。',
-	'configure-no-directory' => '設定の格納に使用するディレクトリ <tt>$1</tt> は存在しません。
+	'configure-no-directory' => '設定の格納に使用するディレクトリ <code>$1</code> は存在しません。
 この拡張機能を使用するには、ディレクトリを作成または変更してください。',
 	'configure-no-old' => '構成設定の利用可能な古い版はありません。',
 	'configure-no-setup' => 'この拡張機能を使うには、あなたは LocalSettings.php ファイルで <code>efConfigureSetup()</code> を明示的に呼び出す必要があります。',
