@@ -18177,6 +18177,7 @@ $messages['ps'] = array(
 	'configure-setting-wgExtraLanguageNames-value' => 'نوم',
 	'configure-setting-wgSpecialPageGroups-key' => 'ډله',
 	'configure-setting-wgDebugLogGroups-value' => 'دوتنه',
+	'configure-setting-wgValidSkinNames-value' => 'ښکارېدونکی نوم',
 	'configure-setting-wgXhtmlNamespaces-key' => 'نوم-تشيال',
 	'configure-setting-wgUseAjax' => 'AJAX چارنول',
 );
