@@ -341,23 +341,6 @@ In addition, you may want to append "<code>&uselang=</code>" with your language 
 * $2 (optional, for use with PLURAL) contains the count of groups in $1, for <nowiki>{{PLURAL:}}</nowiki> if you need it',
 );
 
-/** Faeag Rotuma (Faeag Rotuma)
- * @author Jose77
- */
-$messages['rtm'] = array(
-	'configure-section-category' => 'Katekori',
-);
-
-/** Niuean (ko e vagahau Niuē)
- * @author Jose77
- */
-$messages['niu'] = array(
-	'configure-js-remove' => 'Tamate',
-	'configure-section-email' => 'Meli hila',
-	'configure-section-specialpages' => 'Tau Lau Mahuiga',
-	'configure-section-search' => 'Kumi',
-);
-
 /** Abkhazian (Аҧсшәа)
  * @author Temuri rajavi
  */
@@ -782,7 +765,7 @@ $messages['arz'] = array(
 	'configure-edit-ext' => 'امتدادات',
 	'configure-viewconfig-default-diff' => 'التغييرات من الاعدادات الافتراضيه',
 	'configure-ext-doc' => 'انظر الوثائق على الإنترنت',
-	'configure-ext-schemachange' => "'''تحذير:''' هذا الامتداد يتطلب تحديثا لقاعدة البيانات ليعمل بطرقة صحيحة!",
+	'configure-ext-schemachange' => "'''تحذير:''' هذا الامتداد يتطلب تحديثا لقاعدة البيانات ليعمل بطرقة صحيحة!", # Fuzzy
 	'configure-ext-settings' => 'إعدادات',
 	'configure-ext-use-extension' => 'استخدم هذا الامتداد',
 	'configure-ext-use' => 'استخدام',
@@ -2212,7 +2195,8 @@ $messages['ch'] = array(
 	'configure-section-specialpages' => 'Manespesiat na påhina',
 );
 
-/** Sorani Kurdish (کوردی) */
+/** Sorani Kurdish (کوردی)
+ */
 $messages['ckb'] = array(
 	'configure-form-reason' => 'هۆکار:',
 	'configure-js-remove' => 'سڕینەوە',
@@ -3140,7 +3124,8 @@ Pšosym napóraj jen abo změń jen, aby wužywał rozšyrjenje.',
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Rozšyrjenja nalicyś, kótarež stoje za toś ten wiki k dispoziciji]].',
 );
 
-/** Ewe (eʋegbe) */
+/** Ewe (eʋegbe)
+ */
 $messages['ee'] = array(
 	'configure-js-remove' => 'Tutui',
 	'configure-section-search' => 'Dii',
@@ -4379,7 +4364,7 @@ $messages['frp'] = array(
  * @author Snakesteuben
  */
 $messages['fy'] = array(
-	'configure-desc-ns' => 'Nammeromten',
+	'configure-desc-ns' => 'Nammeromten', # Fuzzy
 	'configure-js-remove' => 'Wiskje',
 	'configure-section-namespaces' => 'Nammeromten',
 	'configure-section-search' => 'Sykje',
@@ -4401,7 +4386,8 @@ $messages['ga'] = array(
 	'configure-throttle-group' => 'Cineál',
 );
 
-/** Simplified Gan script (赣语（简体）‎) */
+/** Simplified Gan script (赣语（简体）‎)
+ */
 $messages['gan-hans'] = array(
 	'configure-section-search' => '寻吖',
 );
@@ -4831,7 +4817,8 @@ $messages['gv'] = array(
 	'configure-form-reason' => 'Fa:',
 );
 
-/** Hausa (Hausa) */
+/** Hausa (Hausa)
+ */
 $messages['ha'] = array(
 	'configure-form-reason' => 'Dalili:',
 	'configure-js-remove' => 'Soke',
@@ -5612,7 +5599,8 @@ Készítsd el, vagy változtasd meg a kiterjesztés használatához.',
 	'configure-farmer-extensions-list' => '[[Special:Extensions|A wiki kiterjesztéseinek listája]].',
 );
 
-/** Armenian (Հայերեն) */
+/** Armenian (Հայերեն)
+ */
 $messages['hy'] = array(
 	'configure-section-search' => 'Որոնել',
 );
@@ -6051,7 +6039,7 @@ $messages['io'] = array(
  * @author Spacebirdy
  */
 $messages['is'] = array(
-	'configure-desc-ns' => 'Nafnrými',
+	'configure-desc-ns' => 'Nafnrými', # Fuzzy
 	'configure-section-namespaces' => 'Nafnrými',
 	'configure-throttle-action-emailuser' => 'Senda tölvupóst',
 );
@@ -7679,7 +7667,7 @@ $messages['lmo'] = array(
  */
 $messages['lt'] = array(
 	'configure' => 'Konfigūruoti wiki',
-	'configure-desc-group' => 'Grupės',
+	'configure-desc-group' => 'Grupės', # Fuzzy
 	'configure-desc-key' => 'Raktas',
 	'configure-desc-ns' => 'Vardų sritis',
 	'configure-desc-val' => 'Vertė',
@@ -8227,7 +8215,7 @@ $messages['mn'] = array(
 $messages['mr'] = array(
 	'configure' => 'विकि कॉन्फिगर करा',
 	'configure-desc' => 'वेब वर आधारित इंटरफेस वापरून नोंदणी केलेल्या सदस्यांना विकि कॉन्फिगर करण्याची परवानगी द्या',
-	'configure-desc-group' => 'गट',
+	'configure-desc-group' => 'गट', # Fuzzy
 	'configure-desc-key' => 'चावी',
 	'configure-desc-ns' => 'नामविश्व',
 	'configure-desc-val' => 'किंमत',
@@ -8237,7 +8225,7 @@ $messages['mr'] = array(
 	'configure-btn-save' => 'सेटिंग्स जतन करा',
 	'configure-directory-not-writable' => 'सेटिंग साठविण्यात येणार्‍या <code>$1</code> धारिके मध्ये लिहू शकत नाही.
 हे एक्स्टेंशन वापर्ण्यासाठी कृपया तिला लिखाण योग्य करा.',
-	'configure-edit-old' => 'इशारा: तुम्ही कॉन्फिगरेशनची एक <strong>जुनी</strong> आवृत्ती संपादित आहात.',
+	'configure-edit-old' => 'इशारा: तुम्ही कॉन्फिगरेशनची एक <strong>जुनी</strong> आवृत्ती संपादित आहात.', # Fuzzy
 	'configure-error' => 'कॉन्फिगरेशन जतन करू शकलेलो नाही',
 	'configure-js-add' => 'नवीन नोंद वाढवा',
 	'configure-js-group-exists' => 'त्रुटी: गट अगोदरच अस्तित्वात आहे',
@@ -8246,7 +8234,7 @@ $messages['mr'] = array(
 	'configure-js-remove-row' => 'ही नोंद वगळा',
 	'configure-no-directory' => 'सेटिंग जतन करणारी डिरेक्टरी <code>$1</code>, अस्तित्वात नाही.
 कृपया ती तयार करा अथवा बदला.',
-	'configure-no-old' => 'या कॉन्फिगरेशनची जुनी आवृत्ती उपलब्ध नाही',
+	'configure-no-old' => 'या कॉन्फिगरेशनची जुनी आवृत्ती उपलब्ध नाही', # Fuzzy
 	'configure-no-setup' => 'हा विस्तारकक्ष वापरण्यासाठी तुम्हाला <code>efConfigureSetup()</code> हे कार्य कॉल करावे लागेल',
 	'configure-no-transwiki' => 'तुम्हांला इतर विकिंचे सेटिंग बदलण्याची परवानगी नाही',
 	'configure-old-versions' => 'कॉन्फिगरेशनच्या जुन्या आवृत्त्यांची यादी:',
@@ -8834,6 +8822,16 @@ $messages['ne'] = array(
 	'configure-condition-operator-xor' => 'पहिलो वा दोश्रो तर दुवै होइन',
 );
 
+/** Niuean (ko e vagahau Niuē)
+ * @author Jose77
+ */
+$messages['niu'] = array(
+	'configure-js-remove' => 'Tamate',
+	'configure-section-email' => 'Meli hila',
+	'configure-section-specialpages' => 'Tau Lau Mahuiga',
+	'configure-section-search' => 'Kumi',
+);
+
 /** Dutch (Nederlands)
  * @author GerardM
  * @author Siebrand
@@ -9149,7 +9147,7 @@ Opprett ho eller endra ho for å nytta denne utvidinga.',
 	'configure-section-output' => 'Utdata',
 	'configure-select-wiki' => 'Wikival',
 	'configure-select-wiki-desc' => 'Vel wikien du vil stilla inn.',
-	'configure-select-wiki-view-desc' => 'Vel ein wiki som du vil sjå versjonane til.',
+	'configure-select-wiki-view-desc' => 'Vel ein wiki som du vil sjå versjonane til.', # Fuzzy
 	'configure-select-wiki-view-all' => 'Alle wikiar',
 	'configure-select-wiki-view-specific' => 'Einskildwiki:',
 	'configure-select-wiki-submit' => 'Vel',
@@ -10033,13 +10031,13 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
- * @author 555
  * @author Crazymadlover
  * @author Giro720
  * @author Hamilton Abreu
  * @author Lijealso
  * @author Malafaya
  * @author Waldir
+ * @author 555
  */
 $messages['pt'] = array(
 	'configure' => 'Configurar a wiki',
@@ -10229,12 +10227,12 @@ Para usar esta extensão crie-o ou altere-o, por favor.',
 );
 
 /** Brazilian Portuguese (português do Brasil)
- * @author 555
  * @author Crazymadlover
  * @author Giro720
  * @author Hamilton Abreu
  * @author Jaideraf
  * @author Luckas Blade
+ * @author 555
  */
 $messages['pt-br'] = array(
 	'configure' => 'Configurar o wiki',
@@ -10594,6 +10592,13 @@ $messages['roa-tara'] = array(
 	'configure-condition-operator-and' => 'And',
 	'configure-condition-operator-xor' => 'Xor',
 	'configure-condition-operator-not' => 'Not',
+);
+
+/** Faeag Rotuma (Faeag Rotuma)
+ * @author Jose77
+ */
+$messages['rtm'] = array(
+	'configure-section-category' => 'Katekori',
 );
 
 /** Russian (русский)
@@ -11732,7 +11737,7 @@ $messages['stq'] = array(
 	'configure-edit-core' => 'MediaWiki',
 	'configure-edit-ext' => 'Ärwiederengen',
 	'configure-ext-doc' => 'Sjuch Online-Dokumentation',
-	'configure-ext-schemachange' => "'''Woarskauenge: disse Ärwiederenge benöödigt n Doatenboankupdate uum korrekt tou funktionierjen!",
+	'configure-ext-schemachange' => "'''Woarskauenge: disse Ärwiederenge benöödigt n Doatenboankupdate uum korrekt tou funktionierjen!", # Fuzzy
 	'configure-ext-settings' => 'Ienstaalengen',
 	'configure-ext-use-extension' => 'Disse Ärwiederenge ferweende',
 	'configure-ext-use' => 'Benutsje',
@@ -11740,7 +11745,7 @@ $messages['stq'] = array(
 [http://www.mediawiki.org/wiki/Manual:Configuration_settings Konfigurationsoptione] foar moor Information.',
 	'configure-btn-save' => 'Ienstaalengen spiekerje',
 	'configure-directory-not-writable' => 'Dät Ferteeknis, wieroun do Konfiguratione spiekerd wäide, <code>$1</code>, is nit beskrieuwboar. Moak dät foar PHP beskrieuwboar, deermäd disse Ärwiederenge bruukt wäide kon.',
-	'configure-edit-old' => 'Woarskauenge: Du beoarbaidest ne <strong>oolde</strong> Version fon ju Konfiguration.',
+	'configure-edit-old' => 'Woarskauenge: Du beoarbaidest ne <strong>oolde</strong> Version fon ju Konfiguration.', # Fuzzy
 	'configure-error' => 'Ju Konfiguration kuud nit spiekerd wäide',
 	'configure-js-add' => 'Näien Iendraach bietouföigje',
 	'configure-js-group-exists' => 'Failer: ju Gruppe is al deer.',
@@ -11830,7 +11835,7 @@ $messages['stq'] = array(
  * @author Irwangatot
  */
 $messages['su'] = array(
-	'configure-desc-ns' => 'Ngaranspasi',
+	'configure-desc-ns' => 'Ngaranspasi', # Fuzzy
 	'configure-js-remove' => 'Hapus',
 	'configure-section-namespaces' => 'Ngaranspasi',
 	'configure-section-skin' => 'Kulit',
@@ -11843,7 +11848,7 @@ $messages['su'] = array(
 	'configure-section-images' => 'Gambar',
 	'configure-section-users' => 'Pamaké',
 	'configure-section-search' => 'Sungsi',
-	'configure-view' => 'Tempo',
+	'configure-view' => 'Tempo', # Fuzzy
 );
 
 /** Swedish (svenska)
@@ -12541,7 +12546,7 @@ $messages['tr'] = array(
 	'configure-ext-ext-dependencies' => "'''Uyarı:''' bu eklentiyi etkinleştirmek için şu {{PLURAL:$2|eklenti|eklentiler}} gereklidir: $1.",
 	'configure-ext-ext-dependency-err' => "'''Uyarı:''' $1 eklentisini etkinleştirmek için $2 eklentisi gereklidir.",
 	'configure-ext-doc' => 'Çevrimiçi belgelere bakın',
-	'configure-ext-schemachange' => "'''Uyarı''': bu eklentinin doğru çalışabilmesi için bir veritabanı güncellemesi gerekiyor!",
+	'configure-ext-schemachange' => "'''Uyarı''': bu eklentinin doğru çalışabilmesi için bir veritabanı güncellemesi gerekiyor!", # Fuzzy
 	'configure-ext-settings' => 'Ayarlar',
 	'configure-ext-settings-dep-errors' => 'Bu eklenti etkinleştirilemiyor, zira aşağıdaki {{PLURAL:$1|ayar|ayarlar}} kabul edilebilir bir değere sahip değil:',
 	'configure-ext-settings-dep-error' => '$1: istenen değer: $2, mevcut değer: $3',
@@ -13235,7 +13240,7 @@ $messages['vo'] = array(
 	'configure-form-reason' => 'Kod:',
 	'configure-customised' => "''Paramet at pelönedükon''",
 	'configure-arrayinput-oneperline' => "'''(bal a lien)'''",
-	'configure-summary' => 'Pad patik at dälon ole ad votükön parametemi vüka at. Logolös [[http://www.mediawiki.org/wiki/Manual:Configuration_settings Parametem]] ad reidön nünis pluik.',
+	'configure-summary' => 'Pad patik at dälon ole ad votükön parametemi vüka at. Logolös [[http://www.mediawiki.org/wiki/Manual:Configuration_settings Parametem]] ad reidön nünis pluik.', # Fuzzy
 	'configure-btn-save' => 'Dakipön parametemi',
 	'configure-db-error' => 'Nünodem fa ol pevälöl ad dagetön parametemi ($1) no dabinon.
 Jafolös oni e gebolös eli configure.sql u gudükumolös nemi onik.',
@@ -13295,11 +13300,11 @@ Jafolös oni u votükolös oni ad gebön veitükumami at.',
 	'configure-section-external-tools' => 'Stums plödik',
 	'configure-select-wiki' => 'Vükiväl',
 	'configure-select-wiki-desc' => 'Välolös vüki, kele vilol givön parametis.',
-	'configure-select-wiki-view-desc' => 'Välolös vüki, kela fomamis vilol logön.',
+	'configure-select-wiki-view-desc' => 'Välolös vüki, kela fomamis vilol logön.', # Fuzzy
 	'configure-select-wiki-view-all' => 'Vüks valik',
 	'configure-select-wiki-submit' => 'Välön',
 	'configure-setting-not-available' => 'Paramet at no gebidon in fomam at ela MediaWiki',
-	'configure-transwiki-not-in-range' => 'Vük pebegöl: $1 no dalon labön parametavöladis ($2).',
+	'configure-transwiki-not-in-range' => 'Vük pebegöl: $1 no dalon labön parametavöladis ($2).', # Fuzzy
 	'configure-view' => 'Logön',
 	'configure-view-all-versions' => 'Fomamalised lölöfik',
 	'configure-view-default' => 'Parametem kösömik',
@@ -13350,7 +13355,8 @@ Jafolös oni u votükolös oni ad gebön veitükumami at.',
 	'configure-boolop-description-not' => 'Stips nonik mutons veratön',
 );
 
-/** Wu (吴语) */
+/** Wu (吴语)
+ */
 $messages['wuu'] = array(
 	'configure-form-reason' => '理由：',
 );
@@ -13778,4 +13784,3 @@ $messages['zh-hant'] = array(
 	'configure-farmer-extensions' => '[[Special:Extensions|配置這個wiki的擴充套件]]。',
 	'configure-farmer-extensions-list' => '[[Special:Extensions|列出這個wiki上可用的擴充套件]]。',
 );
-

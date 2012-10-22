@@ -3513,7 +3513,7 @@ $messages['bg'] = array(
 	'configure-setting-wgReservedUsernames' => 'Имена на сметки, запазени за софтуера',
 	'configure-setting-wgShowIPinHeader' => 'Показване на IP адреса в потребителската лента',
 	'configure-setting-wgLocalInterwiki' => 'Локална междууики представка',
-	'configure-setting-wgEnableDnsBlacklist' => 'Използване на [http://dnsbl.sorbs.net http.dnsbl.sorbs.net] за проверка за отворени проксита',
+	'configure-setting-wgEnableDnsBlacklist' => 'Използване на [http://dnsbl.sorbs.net http.dnsbl.sorbs.net] за проверка за отворени проксита', # Fuzzy
 	'configure-setting-wgProxyList' => 'Блокирани IP адреси',
 	'configure-setting-wgProxyScriptPath' => 'Скрипт, използвам за сканиране за проксита',
 	'configure-setting-wgSecretKey' => 'Таен ключ',
@@ -4425,7 +4425,7 @@ $messages['br'] = array(
 	'configure-setting-wgUseSiteJs' => "Implijout pajenn JavaScript al lec'hienn",
 	'configure-setting-wgHandheldStyle' => 'Stil evit ar media="handheld"',
 	'configure-setting-wgHandheldForIPhone' => "Arloañ ar seurtoù media 'screen' ha 'handheld' d'an iPhone",
-	'configure-setting-wgResourceLoaderDebug' => "Dizreinadur ar rekedoù d'ar c'harger barregezhioù",
+	'configure-setting-wgResourceLoaderDebug' => "Dizreinadur ar rekedoù d'ar c'harger barregezhioù", # Fuzzy
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'Enframmañ modulennoù prevez enlinenn gant an ezvont HTML',
 	'configure-setting-wgResourceLoaderMaxage' => "Amzer vrasañ, en eilennoù, evit krubuilhañ ar barregezhioù servijet gant ar c'harger barregezhioù",
 	'configure-setting-wgResourceLoaderUseESI' => 'Gweredekaat an enframmañ barregezhioù zo en ur ober gant an enframmadennoù "Edge Side"',
@@ -4689,7 +4689,7 @@ $messages['cs'] = array(
 	'configure-setting-wgAmericanDates' => 'Vyžadovat v angličtine „May 12“ namísto „12 May“',
 	'configure-setting-wgInterwikiMagic' => 'Zobrazovat interwiki odkazy ve speciálním seznamu',
 	'configure-setting-wgLanguageCode' => 'Kód jazyka stránek',
-	'configure-setting-wgTranslateNumerals' => 'Překládat čísla',
+	'configure-setting-wgTranslateNumerals' => 'Překládat čísla', # Fuzzy
 	'configure-setting-wgUseDatabaseMessages' => 'Povolit používání jmenného prostoru MediaWiki k editaci hlášení',
 	'configure-setting-wgUseDynamicDates' => 'Přeformátovávat datumy v odkazech',
 	'configure-setting-wgArticleRobotPolicies-key' => 'Titulek stránky',
@@ -4769,15 +4769,15 @@ $messages['cs'] = array(
 	'configure-setting-wgFeedDiffCutoff' => 'Velikost oříznutí diffu v kanále',
 	'configure-setting-wgFeedLimit' => 'Maximální počet výsledků v kanále',
 	'configure-setting-wgAdvancedSearchHighlighting' => 'Zapnout zvýrazňování ve výsledcích vyhledávání',
-	'configure-setting-wgEnableMWSuggest' => 'Povolit našeptávač',
-	'configure-setting-wgEnableOpenSearchSuggest' => 'Zapnout OpenSearch našeptávač',
+	'configure-setting-wgEnableMWSuggest' => 'Povolit našeptávač', # Fuzzy
+	'configure-setting-wgEnableOpenSearchSuggest' => 'Zapnout OpenSearch našeptávač', # Fuzzy
 	'configure-setting-wgGoToEdit' => 'Tlačítko „Přejít na“ jde přímo na stránku úprav, když cílová stránka neexistuje',
 	'configure-setting-wgMWSuggestTemplate' => 'Šablona interního MediaWiki našeptávače',
 	'configure-setting-wgOpenSearchTemplate' => 'Šablona našeptávače OpenSearch',
 	'configure-setting-wgSearchForwardUrl' => 'Přeposlat výsledky vyhledávání',
 	'configure-setting-wgSearchEverythingOnlyLoggedIn' => 'Nastavení „searcheverything“ bude fungovat jen přihlášeným uživatelům',
 	'configure-setting-wgSearchHighlightBoundaries' => 'Regulární výraz pro nalezení hranic slova',
-	'configure-setting-wgSearchSuggestCacheExpiry' => 'Čas vypršení pro odpovědi našeptávače vyhledávání',
+	'configure-setting-wgSearchSuggestCacheExpiry' => 'Čas vypršení pro odpovědi našeptávače vyhledávání', # Fuzzy
 	'configure-setting-wgDisableCounters' => 'Vypnout počítadlo zobrazení stránek',
 	'configure-setting-wgHitcounterUpdateFreq' => 'Frekvence aktualizace počítadla zobrazení stránek',
 	'configure-setting-wgWantedPagesThreshold' => 'Minimální počet odkazů potřebný k zobrazení stránky na [[Special:WantedPages]]',
@@ -4805,7 +4805,7 @@ $messages['cs'] = array(
 	'configure-setting-wgCategoryPagingLimit' => 'Maximální počet položek na stránku v kategoriích',
 	'configure-setting-wgUseCategoryBrowser' => 'Povolit prohlížeč kategorií',
 	'configure-setting-wgCopyrightIcon' => 'HTML ikony copyrightu',
-	'configure-setting-wgEnableCreativeCommonsRdf' => 'Zahrnout licenční informace Creative Commons',
+	'configure-setting-wgEnableCreativeCommonsRdf' => 'Zahrnout licenční informace Creative Commons', # Fuzzy
 	'configure-setting-wgEnableDublinCoreRdf' => 'Používat RDF metadata',
 	'configure-setting-wgMaxCredits' => 'Maximální počet uváděných autorů',
 	'configure-setting-wgRightsIcon' => 'Ikona copyrightu',
@@ -4866,7 +4866,7 @@ $messages['cs'] = array(
 	'configure-setting-wgImageMagickConvertCommand' => 'Příkaz pro ImageMagick',
 	'configure-setting-wgImageMagickTempDir' => 'Dočasný adresář pro ImageMagick',
 	'configure-setting-wgSharpenParameter' => 'Ostřící parametr pro ImageMagick',
-	'configure-setting-wgSharpenReductionThreshold' => 'Hodnota redukce v lineárních rozměrech, pod kterou se aktivuje zaosřování',
+	'configure-setting-wgSharpenReductionThreshold' => 'Hodnota redukce v lineárních rozměrech, pod kterou se aktivuje zaosřování', # Fuzzy
 	'configure-setting-wgUseImageMagick' => 'Používat ImageMagick',
 	'configure-setting-wgDjvuDump' => 'Cesta ke spusitelnému souboru djvudump',
 	'configure-setting-wgDjvuPostProcessor' => 'Cesta k DjVu post procesoru',
@@ -4887,7 +4887,7 @@ $messages['cs'] = array(
 	'configure-setting-wgXhtmlDefaultNamespace' => 'Výchozí jmenný prostor XHTML',
 	'configure-setting-wgXhtmlNamespaces' => 'Jiné jmenné prostory XHTML',
 	'configure-setting-wgXhtmlNamespaces-key' => 'Jmenný prostor',
-	'configure-setting-wgAllowRdfaAttributes' => 'Umožnit RDFa atributy ve wikitextu',
+	'configure-setting-wgAllowRdfaAttributes' => 'Umožnit RDFa atributy ve wikitextu', # Fuzzy
 	'configure-setting-wgLocaltimezone' => 'Lokální časové pásmo',
 	'configure-setting-wgLocalTZoffset' => 'Posun časového pásma',
 	'configure-setting-wgAllowUserCss' => 'Povolit stránky s uživatelskými kaskádovými styly (CSS)',
@@ -8984,7 +8984,7 @@ n',
 	'configure-setting-wgUseSiteJs' => 'JavaScript vu dr Site bruuche',
 	'configure-setting-wgHandheldStyle' => 'Style fir media="handheld"',
 	'configure-setting-wgHandheldForIPhone' => '„screen“- un „handheld“-Medietypen uf iPhone aawände',
-	'configure-setting-wgResourceLoaderDebug' => 'Fählerkorrektur fir RecourceLoader-Ufruef',
+	'configure-setting-wgResourceLoaderDebug' => 'Fählerkorrektur fir RecourceLoader-Ufruef', # Fuzzy
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'Yybette vu private Modul in d HTML-Uusgab',
 	'configure-setting-wgResourceLoaderMaxage' => 'Maximale Zytruum in Sekunde, wu d Ressource zwischegspycheret solle wäre, wu vum ResouceLoader bereitgstellt wäre',
 	'configure-setting-wgResourceLoaderUseESI' => 'Yybette vu bstimmte Ressource megli mache, wu „Edge Side Includes“ verwände',
@@ -9085,7 +9085,8 @@ n',
 	'configure-setting-wgUDPProfilerPort' => 'Port fir dr UDP-Profiler',
 );
 
-/** Hausa (Hausa) */
+/** Hausa (Hausa)
+ */
 $messages['ha'] = array(
 	'configure-setting-wgXhtmlNamespaces-key' => 'Sararin suna',
 );
@@ -9237,7 +9238,7 @@ $messages['he'] = array(
 	'configure-setting-wgAsyncHTTPTimeout' => 'זמן קצוב לבקשות HTTP לא מסונכרנות',
 	'configure-setting-wgVersion' => 'גרסת מדיה־ויקי',
 	'configure-setting-wgAllowSpecialInclusion' => 'לאפשר הכללה של דפים מיוחדים',
-	'configure-setting-wgExportAllowAll' => 'אפשר ייצוא של האתר כולו לתוך קובץ אחד מ[[מיוחד:ייצוא]]',
+	'configure-setting-wgExportAllowAll' => 'אפשר ייצוא של האתר כולו לתוך קובץ אחד מ[[מיוחד:ייצוא]]', # Fuzzy
 	'configure-setting-wgExportAllowHistory' => 'לאפשר למידע מיוצא לכלול היסטוריה מלאה',
 	'configure-setting-wgExportAllowListContributors' => 'לאפשר לייצא רשימת תורמים',
 	'configure-setting-wgExportFromNamespaces' => 'להפעיל את האפשרות "ייצוא כל הדפים במרחב השם" ב־[[Special:Export]]',
@@ -9594,7 +9595,7 @@ $messages['he'] = array(
 	'configure-setting-wgHandheldForIPhone' => "להחיל את סוגי המדיה 'screen' ו־'handheld' על אייפון",
 	'configure-setting-wgIncludeLegacyJavaScript' => 'כלול ספריית JavaScript ישנה ואת התלויות שלה',
 	'configure-setting-wgLegacyJavaScriptGlobals' => 'הגדר משתני קונפיגורציה כמשתנים גלובליים ב-JavaScript',
-	'configure-setting-wgResourceLoaderDebug' => 'מצב ניפוי שגיאות לבקשות ResourceLoader',
+	'configure-setting-wgResourceLoaderDebug' => 'מצב ניפוי שגיאות לבקשות ResourceLoader', # Fuzzy
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'להטביע מודולים פרטיים בפלט HTML',
 	'configure-setting-wgResourceLoaderMaxage' => 'זמן מרבי בשניות להטמנת משאבים על ידי טוען המשאבים',
 	'configure-setting-wgResourceLoaderMinifierMaxLineLength' => 'אורך שורה המרבי ב-JavaScript ממוזער',
@@ -11702,7 +11703,7 @@ $messages['id'] = array(
 	'configure-setting-wgUseSiteJs' => 'Gunakan halaman JavaScript situs',
 	'configure-setting-wgHandheldStyle' => 'Gaya untuk media="handheld"',
 	'configure-setting-wgHandheldForIPhone' => "Terapkan tipe media 'screen' dan 'handheld' untuk iPhone",
-	'configure-setting-wgResourceLoaderDebug' => 'Debug untuk permintaan ResourceLoader',
+	'configure-setting-wgResourceLoaderDebug' => 'Debug untuk permintaan ResourceLoader', # Fuzzy
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'Sertakan modul pribadi bersama dengan keluaran HTML',
 	'configure-setting-wgResourceLoaderMaxage' => 'Waktu maksimum dalam detik untuk sumber singgahan yang dilayani oleh pemuat sumber',
 	'configure-setting-wgResourceLoaderUseESI' => 'Aktifkan penyertaan sumber daya tertentu dengan menggunakan Edge Side Includes',
@@ -15402,7 +15403,7 @@ $messages['nb'] = array(
 	'configure-setting-wgUseSiteJs' => 'Bruk nettsidens JavaScript-side',
 	'configure-setting-wgHandheldStyle' => 'Stil for media="handheld"',
 	'configure-setting-wgHandheldForIPhone' => "Legg til 'screen'- og 'handheld'-mediatyper for iPhone",
-	'configure-setting-wgResourceLoaderDebug' => 'Feilsøking av ResourceLoader-forespørsler',
+	'configure-setting-wgResourceLoaderDebug' => 'Feilsøking av ResourceLoader-forespørsler', # Fuzzy
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'Bygg inn pravate moduler på linje med HTML-utdata',
 	'configure-setting-wgResourceLoaderMaxage' => 'Maksimal tid i sekunder for å cache ressurser håndtert av ressurslasteren',
 	'configure-setting-wgResourceLoaderUseESI' => 'Tillatt innebygging av visse ressurser med bruk av Edge Side Includes',
@@ -16212,7 +16213,7 @@ $messages['nn'] = array(
 	'configure-setting-wgPreprocessorCacheThreshold' => 'Terskel for førprosessormellomlager',
 	'configure-setting-wgRestrictDisplayTitle' => 'Krev bruk av <nowiki>{{DISPLAYTITLE}}</nowiki> for å normalisera til same kanoniske sidetittel',
 	'configure-setting-wgAmericanDates' => 'Krev «May 12» i staden for «12 May» på engelsk',
-	'configure-setting-wgDisableLangConversion' => 'Deaktiver språkkonvertering',
+	'configure-setting-wgDisableLangConversion' => 'Deaktiver språkkonvertering', # Fuzzy
 	'configure-setting-wgDisableTitleConversion' => 'Deaktiver språkvariantkonverting for sidetitlar',
 	'configure-setting-wgForceUIMsgAsContentMsg' => 'Brukargrensesnittmeldingar som skal verta rekna som innhaldsmeldingar',
 	'configure-setting-wgInterwikiMagic' => 'Vis interwikilenkjer i ei spesiallista',
@@ -16300,7 +16301,7 @@ $messages['nn'] = array(
 	'configure-setting-wgReadOnlyFile' => 'Fil med grunngjeving for låst database',
 	'configure-setting-wgRestrictionTypes' => 'Handlingar som kan verta avgrensa',
 	'configure-setting-wgSpamRegex' => 'Regulære uttrykk for spamfilter',
-	'configure-setting-wgSummarySpamRegex' => 'Same som $wgSpamRegex, unnateke endringssamandrag',
+	'configure-setting-wgSummarySpamRegex' => 'Same som $wgSpamRegex, unnateke endringssamandrag', # Fuzzy
 	'configure-setting-wgWhitelistRead' => 'Sider som anonyme brukarar kan sjå',
 	'configure-setting-wgEmailAuthentication' => 'Krev stadfesting av e-postadressa for e-postfunksjonar',
 	'configure-setting-wgEmergencyContact' => 'E-postadressa til sideadministratoren',
@@ -16382,7 +16383,7 @@ $messages['nn'] = array(
 	'configure-setting-wgFeedLimit' => 'Største tal feed-resultat',
 	'configure-setting-wgOverrideSiteFeed' => 'Tilpass feed instillingane',
 	'configure-setting-wgAdvancedSearchHighlighting' => 'Aktivér utheving av søkeresultat',
-	'configure-setting-wgEnableMWSuggest' => 'Aktiver framlegg ved søking',
+	'configure-setting-wgEnableMWSuggest' => 'Aktiver framlegg ved søking', # Fuzzy
 	'configure-setting-wgGoToEdit' => 'Gå-til-knappen leier rett til redigeringsmodus om sida ikkje eksisterar',
 	'configure-setting-wgMWSuggestTemplate' => 'Mal for intern framleggsmotor frå MediaWiki',
 	'configure-setting-wgOpenSearchTemplate' => 'Mal for OpenSearch-framlegg',
@@ -16474,14 +16475,14 @@ $messages['nn'] = array(
 	'configure-setting-wgLocalInterwiki' => 'Lokal interwikiforstaving',
 	'configure-setting-wgRedirectSources' => "Uttrykk for å avgrensa URLar som vil verta synt som 'omdirigert frå'-lenker",
 	'configure-setting-wgBlockOpenProxies' => 'Testar automatisk for opne mellomtenarar ved endringar',
-	'configure-setting-wgEnableDnsBlacklist' => 'Nytt [http://dnsbl.sorbs.net http.dnsbl.sorbs.net] for å sjå etter opne mellomtenarar',
+	'configure-setting-wgEnableDnsBlacklist' => 'Nytt [http://dnsbl.sorbs.net http.dnsbl.sorbs.net] for å sjå etter opne mellomtenarar', # Fuzzy
 	'configure-setting-wgProxyList' => 'Blokkerte IP-adresser',
 	'configure-setting-wgProxyMemcExpiry' => 'Mellomlageret for mellomtenarar går ut',
 	'configure-setting-wgProxyPorts' => 'Portar me vil skanne etter ein proxy',
 	'configure-setting-wgProxyScriptPath' => 'Skript nytta for å søkja etter mellomtenarar',
 	'configure-setting-wgProxyWhitelist' => 'Proxy-kvitelista',
 	'configure-setting-wgSecretKey' => 'Hemmeleg nøkkel',
-	'configure-setting-wgDnsBlacklistUrls' => 'Adressa til Sorbs-svartelista',
+	'configure-setting-wgDnsBlacklistUrls' => 'Adressa til Sorbs-svartelista', # Fuzzy
 	'configure-setting-wgUsePrivateIPs' => 'Om private IP-adresser vidaresendt av ein proxyserver skal aksepterast for å fastsetja IP-adressa til ein brukar',
 	'configure-setting-wgSQLiteDataDir' => 'SQLite-datamappe',
 	'configure-setting-wgDBmwschema' => 'Postgres skjema',
@@ -16527,7 +16528,7 @@ $messages['nn'] = array(
 	'configure-setting-wgParserCacheType' => 'Tolkmellomlagertype',
 	'configure-setting-wgEnableParserCache' => 'Aktiver tolkmellomlager',
 	'configure-setting-wgEnableSidebarCache' => 'Mellomlagra lenkjer i sidemenyen',
-	'configure-setting-wgRenderHashAppend' => 'Ekstra hash-salt for teikning',
+	'configure-setting-wgRenderHashAppend' => 'Ekstra hash-salt for teikning', # Fuzzy
 	'configure-setting-wgSidebarCacheExpiry' => 'Opphøyrstid for mellomlageret av sidemenyen',
 	'configure-setting-wgUseETag' => 'Send ETag-innleiingar',
 	'configure-setting-wgAlwaysUseTidy' => 'Alltid nytt Tidy',
@@ -16580,7 +16581,7 @@ $messages['nn'] = array(
 	'configure-setting-wgSharedUploadPath' => 'Full filsti på nett-tenaren der delte opplastingar kan finnast',
 	'configure-setting-wgUseSharedUploads' => 'Nytt delte opplastingar',
 	'configure-setting-wgAppleTouchIcon' => 'Apple Touch-bokmerkeikon',
-	'configure-setting-wgArticlePath' => 'Artikkelstig',
+	'configure-setting-wgArticlePath' => 'Artikkelstig', # Fuzzy
 	'configure-setting-wgDirectoryMode' => 'Nye katalogmodusar',
 	'configure-setting-wgDiff' => 'Sti til GNU diff-verktøyet',
 	'configure-setting-wgDiff3' => 'Sti til verktøyet GNU diff3',
@@ -16887,7 +16888,7 @@ $messages['oc'] = array(
 	'configure-setting-wgFeedLimit' => 'Nombre maximum de paginas dins los fluxes',
 	'configure-setting-wgOverrideSiteFeed' => 'Ligams personalizats cap als fluxes',
 	'configure-setting-wgAdvancedSearchHighlighting' => 'Activar la mesa en evidéncia dins las recèrcas',
-	'configure-setting-wgEnableMWSuggest' => 'Activar las suggestions de recèrca',
+	'configure-setting-wgEnableMWSuggest' => 'Activar las suggestions de recèrca', # Fuzzy
 	'configure-setting-wgGoToEdit' => 'Lo boton « anar » torna dirigir cap a la pagina de modificacion se la pagina existís pas',
 	'configure-setting-wgMWSuggestTemplate' => 'Modèl pel motor de suggestions intèrne de MediaWiki',
 	'configure-setting-wgOpenSearchTemplate' => 'Modèl per las suggestions OpenSearch',
@@ -16981,14 +16982,14 @@ $messages['oc'] = array(
 	'configure-setting-wgLocalInterwiki' => 'Prefix del ligam interwiki local',
 	'configure-setting-wgRedirectSources' => 'Expression racionala per restrénher las URL a èsser afichadas coma « redirigit dempuèi »',
 	'configure-setting-wgBlockOpenProxies' => "Tèst automatic del servidor mandatari al moment d'una modificacion",
-	'configure-setting-wgEnableDnsBlacklist' => "Utilizar [http://dnsbl.sorbs.net http.dnsbl.sorbs.net] per verificar se l'adreça IP es considerada coma servidor mandatari dobèrt",
+	'configure-setting-wgEnableDnsBlacklist' => "Utilizar [http://dnsbl.sorbs.net http.dnsbl.sorbs.net] per verificar se l'adreça IP es considerada coma servidor mandatari dobèrt", # Fuzzy
 	'configure-setting-wgProxyList' => "Lista d'adreças IP fòrabandidas",
 	'configure-setting-wgProxyMemcExpiry' => "Temps d'expiracion per l'amagatal de servidors mandataris",
 	'configure-setting-wgProxyPorts' => 'Pòrts de numerizar per la recèrca de servidors mandataris',
 	'configure-setting-wgProxyScriptPath' => 'Escript utilizat per la recèrca de servidors mandataris',
 	'configure-setting-wgProxyWhitelist' => 'Lista blanca de servidors mandataris',
 	'configure-setting-wgSecretKey' => 'Clau secrèta',
-	'configure-setting-wgDnsBlacklistUrls' => 'URL de la lista negra Sorbs',
+	'configure-setting-wgDnsBlacklistUrls' => 'URL de la lista negra Sorbs', # Fuzzy
 	'configure-setting-wgUsePrivateIPs' => "Acceptar las adreças IP privadas transmesas per un servidor mandatari per determinar l'adreça IP de l'utilizaire",
 	'configure-setting-wgSQLiteDataDir' => 'Dorsièr de las donadas SQLite',
 	'configure-setting-wgDBmwschema' => 'Esquèma Postgres',
@@ -18063,7 +18064,7 @@ $messages['pms'] = array(
 	'configure-setting-wgUseSiteJs' => 'Dovré la pàgina JavaScript dël sit',
 	'configure-setting-wgHandheldStyle' => 'Stil për media="handheld"',
 	'configure-setting-wgHandheldForIPhone' => "Apliché le sòrt ëd mojen 'screen' e 'handled' a l'iPhone",
-	'configure-setting-wgResourceLoaderDebug' => "Eliminassion dij bigat për j'arceste a ResourceLoader",
+	'configure-setting-wgResourceLoaderDebug' => "Eliminassion dij bigat për j'arceste a ResourceLoader", # Fuzzy
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => "Anserì dij mòdoj privà an linia con l'arzultà HTML",
 	'configure-setting-wgResourceLoaderMaxage' => "Temp màssim an second për memorisé j'arsorse servìe dal carior d'arsorse",
 	'configure-setting-wgResourceLoaderUseESI' => "Abilité l'anseriment ëd serte arsorse dovrand Edge Side Includes",
@@ -18183,13 +18184,13 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
- * @author 555
  * @author Crazymadlover
  * @author Giro720
  * @author Hamilton Abreu
  * @author Lijealso
  * @author Malafaya
  * @author Waldir
+ * @author 555
  */
 $messages['pt'] = array(
 	'configure-setting-desc' => 'Descrições para parâmetros da configuração do MediaWiki',
@@ -18683,7 +18684,7 @@ $messages['pt'] = array(
 	'configure-setting-wgUseSiteJs' => 'Usar a página JavaScript do site',
 	'configure-setting-wgHandheldStyle' => 'Estilo para media="handheld"',
 	'configure-setting-wgHandheldForIPhone' => "Aplicar os tipos multimédia 'screen' e 'handheld' ao iPhone",
-	'configure-setting-wgResourceLoaderDebug' => 'Debug para pedidos ResourceLoader',
+	'configure-setting-wgResourceLoaderDebug' => 'Debug para pedidos ResourceLoader', # Fuzzy
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'Incorporar módulos privados em linha com saída HTML',
 	'configure-setting-wgResourceLoaderMaxage' => 'Período máximo, em segundos, para manter em cache os recursos servidos pelo resource loader',
 	'configure-setting-wgResourceLoaderUseESI' => 'Possibilitar a incorporação de certos recursos usando Edge Side Includes',
@@ -18785,10 +18786,10 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
- * @author 555
  * @author Giro720
  * @author Hamilton Abreu
  * @author Luckas Blade
+ * @author 555
  */
 $messages['pt-br'] = array(
 	'configure-setting-wgSitename' => 'Nome do site',
@@ -19271,7 +19272,7 @@ $messages['pt-br'] = array(
 	'configure-setting-wgUseSiteJs' => 'Usar a página JavaScript do site',
 	'configure-setting-wgHandheldStyle' => 'Estilo para media="handheld"',
 	'configure-setting-wgHandheldForIPhone' => "Aplicar os tipos multimídia 'screen' e 'handheld' ao iPhone",
-	'configure-setting-wgResourceLoaderDebug' => 'Debug para pedidos do Carregador de Recursos',
+	'configure-setting-wgResourceLoaderDebug' => 'Debug para pedidos do Carregador de Recursos', # Fuzzy
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'Incorporar módulos privados em linha com saída HTML',
 	'configure-setting-wgResourceLoaderMaxage' => 'Período máximo, em segundos, para manter em cache os recursos servidos pelo carregador de recursos',
 	'configure-setting-wgResourceLoaderUseESI' => 'Possibilitar a incorporação de certos recursos usando Edge Side Includes',
@@ -19648,7 +19649,7 @@ $messages['ru'] = array(
 	'configure-setting-wgLogRestrictions-key' => 'Вид журнала',
 	'configure-setting-wgLogRestrictions-value' => 'Право, требуемое для чтения',
 	'configure-setting-wgMaxRedirectLinksRetrieved' => 'Максимальное число ссылок на перенаправления, перечисленных на [[Special:Whatlinkshere/RedirectDestination]]',
-	'configure-setting-wgQueryPageDefaultLimit' => 'Количество записей, которое будет показано на спецстраницах-списках вроде [[{{#Special:Whatlinkshere}}]] по умолчанию',
+	'configure-setting-wgQueryPageDefaultLimit' => 'Количество записей, которое будет показано на спецстраницах-списках вроде [[{{#Special:Whatlinkshere}}]] по умолчанию', # Fuzzy
 	'configure-setting-wgRedirectOnLogin' => 'Перенаправлять участников на эту страницу после входа в систему',
 	'configure-setting-wgSecureLogin' => 'Пусть пользователи аутентифицируются через HTTPS, если приходят с HTTP',
 	'configure-setting-wgSortSpecialPages' => 'Упорядочивание служебных страниц на [[Special:SpecialPages]]',
@@ -19719,7 +19720,7 @@ $messages['ru'] = array(
 	'configure-setting-wgSeleniumConfigFile' => 'Файл настройки selenium',
 	'configure-setting-wgDBtestuser' => 'Пользователь базы данных, которые имеет разрешение только на создание и удаление проверочной базы данных',
 	'configure-setting-wgDBtestpassword' => 'Пароль для $wgDBtestuser',
-	'configure-setting-wgEnableJavaScriptTest' => 'Позволить запуск наборов JavaScript-тестов через страницу [[{{#Special:JavaScriptTest}}]]',
+	'configure-setting-wgEnableJavaScriptTest' => 'Позволить запуск наборов JavaScript-тестов через страницу [[{{#Special:JavaScriptTest}}]]', # Fuzzy
 	'configure-setting-wgJavaScriptTestConfig' => 'Настройка для тестирования JavaScript',
 	'configure-setting-wgAPICacheHelpTimeout' => 'Время ожидания для кеша текстов справки по API',
 	'configure-setting-wgAPIMaxDBRows' => 'Максимальное число строк для поиска в API-запросах к базе данных',
@@ -20437,7 +20438,7 @@ $messages['sk'] = array(
 	'configure-setting-wgFeedLimit' => 'Maximálny počet výsledkov v kanáli',
 	'configure-setting-wgOverrideSiteFeed' => 'Nahradiť nastavenia kanála',
 	'configure-setting-wgAdvancedSearchHighlighting' => 'Zapnúť zvýrazňovanie vo výsledkoch vyhľadávania',
-	'configure-setting-wgEnableMWSuggest' => 'Zapnúť návrhy pri vyhľadávaní',
+	'configure-setting-wgEnableMWSuggest' => 'Zapnúť návrhy pri vyhľadávaní', # Fuzzy
 	'configure-setting-wgGoToEdit' => 'Tlačidlo „Ísť na“ pošle priamo na stránku úprav ak stránka neexistuje',
 	'configure-setting-wgMWSuggestTemplate' => 'Šablóna vnútorného našepkávača vyhľadávaní MediaWiki',
 	'configure-setting-wgOpenSearchTemplate' => 'Šablóna našepkávača OpenSearch',
@@ -20531,14 +20532,14 @@ $messages['sk'] = array(
 	'configure-setting-wgLocalInterwiki' => 'Lokálna predpona interwiki',
 	'configure-setting-wgRedirectSources' => 'Regulárny výraz obmedzujúci URL, ktoré sa zobrazia ako odkazy „Presmerované z“',
 	'configure-setting-wgBlockOpenProxies' => 'Automatický test na otvorené proxy pri úpravách',
-	'configure-setting-wgEnableDnsBlacklist' => 'Na kontrolu otvorených proxy použite [http://dnsbl.sorbs.net http.dnsbl.sorbs.net]',
+	'configure-setting-wgEnableDnsBlacklist' => 'Na kontrolu otvorených proxy použite [http://dnsbl.sorbs.net http.dnsbl.sorbs.net]', # Fuzzy
 	'configure-setting-wgProxyList' => 'Zakázané IP adresy',
 	'configure-setting-wgProxyMemcExpiry' => 'Vypršanie platnosti vyrovnávacej pamäte proxy',
 	'configure-setting-wgProxyPorts' => 'Porty, na ktorých kontrolovať proxy',
 	'configure-setting-wgProxyScriptPath' => 'Skript, ktorý sa používa na kontrolu proxy',
 	'configure-setting-wgProxyWhitelist' => 'Biela listina proxy',
 	'configure-setting-wgSecretKey' => 'Heslo',
-	'configure-setting-wgDnsBlacklistUrls' => 'URL čiernej listiny Sorbs',
+	'configure-setting-wgDnsBlacklistUrls' => 'URL čiernej listiny Sorbs', # Fuzzy
 	'configure-setting-wgUsePrivateIPs' => 'Či sa majú IP adresy, ktoré poskytne proxy server, môžu použiť na zistenie IP adresy používateľa',
 	'configure-setting-wgSQLiteDataDir' => 'Adresár údajov SQLite',
 	'configure-setting-wgDBmwschema' => 'Schéma Postgres',
@@ -23351,7 +23352,7 @@ $messages['vo'] = array(
 	'configure-setting-wgRemoveGroups-value' => 'Grups moükovik',
 	'configure-setting-wgGroupsAddToSelf-value' => 'Grups okes läükoviks',
 	'configure-setting-wgGroupsRemoveFromSelf-value' => 'Grups de oks moükoviks',
-	'configure-setting-wgEnableMWSuggest' => 'Mögükön sukamobami',
+	'configure-setting-wgEnableMWSuggest' => 'Mögükön sukamobami', # Fuzzy
 	'configure-setting-wgDisableCounters' => 'Negebidükön numianis padilogamas',
 	'configure-setting-wgValidSkinNames-value' => 'Jonön nemi',
 	'configure-setting-wgContentNamespaces' => 'Nemaspads, kels palelogons as labü ninäd jenöfik, u pads',
@@ -23379,7 +23380,7 @@ $messages['vo'] = array(
 	'configure-setting-wgSharedUploadDBname' => 'Nünodem löpükamas kobädik',
 	'configure-setting-wgSharedUploadDBprefix' => 'Nünodemafoyümot pro löpükams kobädik',
 	'configure-setting-wgUseSharedUploads' => 'Gebön löpükamis kobädik',
-	'configure-setting-wgArticlePath' => 'Yegedaluveg',
+	'configure-setting-wgArticlePath' => 'Yegedaluveg', # Fuzzy
 );
 
 /** Yiddish (ייִדיש)
@@ -23780,7 +23781,7 @@ $messages['zh-hans'] = array(
 	'configure-setting-wgUseSiteCss' => '使用网站的层叠样式表（CSS）',
 	'configure-setting-wgUseSiteJs' => '使用网站的JavaScript页面',
 	'configure-setting-wgIncludeLegacyJavaScript' => '包含旧的JavaScript库和其依赖项',
-	'configure-setting-wgResourceLoaderDebug' => '调试ResourceLoader请求',
+	'configure-setting-wgResourceLoaderDebug' => '调试ResourceLoader请求', # Fuzzy
 	'configure-setting-wgUseAjax' => '启用AJAX',
 	'configure-setting-wgAjaxExportList' => '可呼叫的AJAX功能',
 	'configure-setting-wgLivePreview' => '启用即时预览',
@@ -24202,4 +24203,3 @@ $messages['zh-hant'] = array(
 	'configure-setting-wgBlockAllowsUTEdit' => '准許被封禁的用戶編輯其個人對話頁面',
 	'configure-setting-wgSysopEmailBans' => '准許管理員禁制使用者存取[[Special:EmailUser]]',
 );
-
