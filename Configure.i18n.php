@@ -3752,6 +3752,7 @@ $messages['eu'] = array(
  * @author Huji
  * @author Mjbmr
  * @author ZxxZxxZ
+ * @author پاناروما
  */
 $messages['fa'] = array(
 	'configure-desc-group' => 'گروه',
@@ -3784,6 +3785,9 @@ $messages['fa'] = array(
 	'configure-section-specialpages' => 'صفحه‌های ویژه',
 	'configure-section-recentchanges' => 'تغییرات اخیر',
 	'configure-section-users' => 'کاربران',
+	'configure-select-wiki-view-all' => 'تمام ویکی‌ها',
+	'configure-select-wiki-submit' => 'انتخاب',
+	'configure-view' => 'مشاهده',
 	'configure-view-default' => 'تنظیمات پیش‌فرض',
 	'right-viewconfig' => 'نمایش پیکربندی ویکی',
 	'right-viewconfig-all' => 'نمایش تمام پیکربندی‌های ویکی',
@@ -3793,6 +3797,8 @@ $messages['fa'] = array(
 	'configure-throttle-action-rollback' => 'واگردانی',
 	'configure-throttle-action-emailuser' => 'ارسال پست',
 	'configure-throttle-group' => 'نوع',
+	'configure-condition-operator-or' => 'یا',
+	'configure-condition-operator-and' => 'و',
 	'configure-condition-name-5' => 'نشانی آی‌پی کاربر',
 	'configure-condition-name-6' => 'نشانی آی‌پی کاربر به صورت بازهٔ CIDR',
 );
