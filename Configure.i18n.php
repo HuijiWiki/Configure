@@ -2850,7 +2850,7 @@ Bitte erstellen oder ändern Sie es, damit Sie diese Erweiterung nutzen können.
  */
 $messages['diq'] = array(
 	'configure' => 'Wiki vıraşten de',
-	'configure-desc-group' => 'Grub',
+	'configure-desc-group' => 'Grube',
 	'configure-desc-key' => 'Kesa',
 	'configure-desc-ns' => 'Cayênameyî',
 	'configure-desc-val' => 'Erc',
