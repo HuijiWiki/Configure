@@ -5623,8 +5623,8 @@ $messages['de'] = array(
  * @author Mirzali
  */
 $messages['diq'] = array(
-	'configure-setting-wgSitename' => 'Nameyê sita',
-	'configure-setting-wgActionPaths-key' => 'Kerden',
+	'configure-setting-wgSitename' => 'Nameyê site',
+	'configure-setting-wgActionPaths-key' => 'Kerdış',
 	'configure-setting-wgActionPaths-value' => 'Şablonê GRE',
 	'configure-setting-wgSharedTables' => 'Tobloyê ke heserê bê',
 	'configure-setting-wgMediaHandlers-key' => 'Babetê NIME',
@@ -5636,6 +5636,7 @@ $messages['diq'] = array(
 	'configure-setting-wgExtraLanguageNames-key' => 'Koda zıwani',
 	'configure-setting-wgExtraLanguageNames-value' => 'Name',
 	'configure-setting-wgSiteNotice' => 'Neticey Sita',
+	'configure-setting-wgSpecialPageGroups-key' => 'Grube',
 	'configure-setting-wgDebugLogGroups-value' => 'Dosya',
 	'configure-setting-wgSQLMode' => 'SQL mode',
 	'configure-setting-wgDefaultSkin' => 'Hesbêne asayışê nami',
