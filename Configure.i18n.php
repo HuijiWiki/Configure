@@ -2850,7 +2850,7 @@ Bitte erstellen oder ändern Sie es, damit Sie diese Erweiterung nutzen können.
  */
 $messages['diq'] = array(
 	'configure' => 'Wikiy awan kerê',
-	'configure-desc' => 'Karberanê selahhiyetdaran rê destur bıdê ke yew verqayta torrebıngehın sera wikiy [[Special:Configure|awan kerê]]',
+	'configure-desc' => 'Karberanê selahhiyetdaran rê destur bıdê ke yew verqayto torrebıngehın sera wikiy [[Special:Configure|awan kerê]]',
 	'configure-desc-group' => 'Grube',
 	'configure-desc-key' => 'Kılit',
 	'configure-desc-ns' => 'Cayê namey',
@@ -2919,7 +2919,7 @@ $messages['diq'] = array(
 	'configure-throttle-group' => 'Babet',
 	'configure-throttle-limit' => 'Limit',
 	'configure-condition-operator' => 'Operator',
-	'configure-condition-operator-or' => 'Ya na',
+	'configure-condition-operator-or' => 'Ya Zi',
 	'configure-condition-operator-and' => 'U',
 	'configure-condition-operator-xor' => 'Xor',
 	'configure-condition-name' => 'Şerti',
