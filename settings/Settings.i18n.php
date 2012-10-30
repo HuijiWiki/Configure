@@ -12031,6 +12031,11 @@ $messages['it'] = array(
 	'configure-setting-wgSpecialPageCacheUpdates' => 'Ulteriori funzioni da eseguire con updateSpecialPages.php.',
 	'configure-setting-wgSpecialPages' => 'Pagine speciali personalizzate',
 	'configure-setting-wgGroupPermissions-value' => 'Diritti assegnati',
+	'configure-setting-wgRevokePermissions-value' => 'Diritti revocati',
+	'configure-setting-wgAddGroups' => 'Gruppi aggiungibili',
+	'configure-setting-wgAddGroups-value' => 'Gruppi aggiungibili',
+	'configure-setting-wgRemoveGroups' => 'Gruppi rimovibili',
+	'configure-setting-wgRemoveGroups-value' => 'Gruppi rimovibili',
 	'configure-setting-wgAdvancedSearchHighlighting' => "Abilita l'evidenziazione nei risultati di ricerca",
 	'configure-setting-wgEnableMWSuggest' => 'Abilita i suggerimenti mentre si digita nella casella di ricerca',
 	'configure-setting-wgEnableOpenSearchSuggest' => 'Abilita le richieste di suggerimenti OpenSearch',
@@ -12088,6 +12093,7 @@ $messages['it'] = array(
 	'configure-setting-wgProxyMemcExpiry' => 'Tempo di validità della cache del proxy',
 	'configure-setting-wgProxyPorts' => 'Porte in cui cercare un proxy',
 	'configure-setting-wgProxyScriptPath' => 'Script usato per eseguire la ricerca dei proxy pubblici',
+	'configure-setting-wgSecretKey' => 'Chiave segreta',
 	'configure-setting-wgDnsBlacklistUrls' => 'Elenco di URL di blacklist DNS da usare',
 	'configure-setting-wgSQLiteDataDir' => 'Directory data di SQLite',
 	'configure-setting-wgDBmwschema' => 'Schema di Postgres',
@@ -12166,7 +12172,11 @@ $messages['it'] = array(
 	'configure-setting-wgTmpDirectory' => 'URL della directory temporanea',
 	'configure-setting-wgUploadDirectory' => 'Percorso nel file system della directory di upload',
 	'configure-setting-wgUploadPath' => 'URL per la directory di upload',
+	'configure-setting-wgRCLinkLimits' => 'Limite di modifiche nella pagina delle ultime modifiche',
 	'configure-setting-wgRCLinkDays' => 'Elenco dei giorni limite nella pagina delle ultime modifiche',
+	'configure-setting-wgRCShowChangedSize' => 'Mostra il numero di caratteri modificati nella pagina delle ultime modifiche',
+	'configure-setting-wgBlockAllowsUTEdit' => 'Consenti a un utente bloccato di modificare la propria pagina di discussione',
+	'configure-setting-wgBlockDisablesLogin' => "Impedisci agli utenti bloccati di effettuare l'accesso",
 );
 
 /** Japanese (日本語)
