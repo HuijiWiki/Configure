@@ -5633,7 +5633,7 @@ $messages['diq'] = array(
 	'configure-setting-wgArticleRobotPolicies-value' => 'Politikay Botan',
 	'configure-setting-wgDefaultLanguageVariant' => 'Hesıbyayê vurnerê zıwani',
 	'configure-setting-wgDefaultRobotPolicy' => 'Hesıbyaye politikaya botan',
-	'configure-setting-wgExtraLanguageNames-key' => 'Koda zıwani',
+	'configure-setting-wgExtraLanguageNames-key' => 'Kodê zıwani',
 	'configure-setting-wgExtraLanguageNames-value' => 'Name',
 	'configure-setting-wgSiteNotice' => 'Neticey Sita',
 	'configure-setting-wgSpecialPageGroups-key' => 'Grube',
@@ -12039,6 +12039,9 @@ $messages['it'] = array(
 	'configure-setting-wgAdvancedSearchHighlighting' => "Abilita l'evidenziazione nei risultati di ricerca",
 	'configure-setting-wgEnableMWSuggest' => 'Abilita i suggerimenti mentre si digita nella casella di ricerca',
 	'configure-setting-wgEnableOpenSearchSuggest' => 'Abilita le richieste di suggerimenti OpenSearch',
+	'configure-setting-wgDisableCounters' => 'Disabilita il contatore delle visite alle pagine',
+	'configure-setting-wgHitcounterUpdateFreq' => 'Frequenza di aggiornamento del contatore delle pagine',
+	'configure-setting-wgArticleCountMethod' => 'Metodo per determinare se una pagina nel namenspace dei contenuti può essere considerata come una voce valida',
 	'configure-setting-wgDefaultSkin' => 'Nome predefinito della skin',
 	'configure-setting-wgSkipSkin' => 'Nome skin non permesso',
 	'configure-setting-wgSkipSkins' => 'Nomi skin non permessi',
@@ -23169,19 +23172,30 @@ $messages['tr'] = array(
 /** Ukrainian (українська)
  * @author Ahonc
  * @author Alex Khimich
+ * @author Base
  * @author Тест
  */
 $messages['uk'] = array(
 	'configure-setting-wgSitename' => 'Назва сайту',
+	'configure-setting-wgActionPaths' => 'URL за діями',
 	'configure-setting-wgActionPaths-key' => 'Дія',
 	'configure-setting-wgActionPaths-value' => 'Шаблон URL',
+	'configure-setting-wgAllDBsAreLocalhost' => "Мовчки перенаправляти всі з'єднання бази даних на локальний вузол (localhost)",
+	'configure-setting-wgDBAvgStatusPoll' => 'Середній час між запитами SHOW STATUS в умовах перевантаження',
 	'configure-setting-wgDBerrorLog' => 'Файл журналу помилок бази даних в',
 	'configure-setting-wgDBname' => 'Назва використовуваної бази даних',
 	'configure-setting-wgDBpassword' => 'Пароль для $wgDBuser',
+	'configure-setting-wgDBadminpassword' => 'Пароль для $wgDBadminuser',
 	'configure-setting-wgDBport' => 'Порт для сервера баз даних',
 	'configure-setting-wgDBserver' => 'Назва хоста або IP-адреса сервера баз даних',
 	'configure-setting-wgDBtype' => 'Тип використовуваної бази даних',
+	'configure-setting-wgDBuser' => 'Лоґін для входу до бази даних',
+	'configure-setting-wgDBadminuser' => 'Лоґін адміністратора бази даних',
 	'configure-setting-wgLocalDatabases' => 'Інші бази даних, які можуть адмініструватися з цього сервера',
+	'configure-setting-wgSearchType' => 'Тип бази даних пошуку, що використовується. Встановіть назву класу для обходу пошукового рушія за замовчуванням',
+	'configure-setting-wgSharedDB' => "Ім'я спільної бази даних",
+	'configure-setting-wgSharedPrefix' => 'Префікс спільної бази даних',
+	'configure-setting-wgSharedTables' => 'Таблиці для спільного доступу',
 	'configure-setting-wgAllowImageMoving' => 'Дозволити перейменування файлів',
 	'configure-setting-wgIllegalFileChars' => 'Неприпустимі символи в назвах файлів',
 	'configure-setting-wgMainCacheType' => 'Тип основної системи кешування',
