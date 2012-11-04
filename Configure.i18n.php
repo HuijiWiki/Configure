@@ -6831,6 +6831,7 @@ $messages['ko'] = array(
 	'configure-view-all-versions' => '버전의 전체 목록',
 	'configure-view-default' => '기본 설정',
 	'configure-view-not-allowed' => '이 설정을 보는 것을 허용하지 않습니다.',
+	'configure-viewconfig-line' => '$1 $2 $3 사용자 $5: $4',
 	'extensions' => '확장 기능 설정하기',
 	'right-configure' => '위키 설정하기',
 	'right-configure-all' => '모든 위키 설정 바꾸기',
@@ -6853,6 +6854,7 @@ $messages['ko'] = array(
 	'configure-throttle-group-ip' => 'IP 주소 당',
 	'configure-throttle-group-subnet' => '클래스 C 서브넷 당',
 	'configure-throttle-count' => '허용한 행동:',
+	'configure-throttle-period' => '기간 재설정 (초):',
 	'configure-throttle-group' => '종류',
 	'configure-throttle-limit' => '제한',
 	'configure-throttle-none' => '제한 없음',
@@ -10621,6 +10623,7 @@ $messages['rtm'] = array(
  * @author Lockal
  * @author MaxSem
  * @author Putnik
+ * @author Volkov
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -10708,7 +10711,7 @@ $messages['ru'] = array(
 	'configure-section-category' => 'Категории',
 	'configure-section-cache' => 'Кеш',
 	'configure-section-pcache' => 'Кеш парсера',
-	'configure-section-messagecache' => 'Кеш сообщений',
+	'configure-section-messagecache' => 'Кэш сообщений',
 	'configure-section-interwiki' => 'Интервики',
 	'configure-section-access' => 'Доступ',
 	'configure-section-groups' => 'Группы',

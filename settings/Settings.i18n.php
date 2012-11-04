@@ -5633,7 +5633,7 @@ $messages['diq'] = array(
 	'configure-setting-wgArticleRobotPolicies-value' => 'Politikay Botan',
 	'configure-setting-wgDefaultLanguageVariant' => 'Hesıbyayê vurnerê zıwani',
 	'configure-setting-wgDefaultRobotPolicy' => 'Hesıbyaye politikaya botan',
-	'configure-setting-wgExtraLanguageNames-key' => 'Kodê zıwani',
+	'configure-setting-wgExtraLanguageNames-key' => 'Qodê zıwani',
 	'configure-setting-wgExtraLanguageNames-value' => 'Name',
 	'configure-setting-wgSiteNotice' => 'Neticey Sita',
 	'configure-setting-wgSpecialPageGroups-key' => 'Grube',
@@ -19505,6 +19505,7 @@ $messages['roa-tara'] = array(
  * @author MaxSem
  * @author Putnik
  * @author Rubin
+ * @author Volkov
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -19757,7 +19758,7 @@ $messages['ru'] = array(
 	'configure-setting-wgMiserMode' => 'Отключить некоторые ресурсозатратные возможности',
 	'configure-setting-wgShowHostnames' => 'Показывать имена хостов через комментарии API и HTML',
 	'configure-setting-wgUseDumbLinkUpdate' => 'Выполнять <code>DELETE</code> / <code>INSERT</code> для обновления ссылок, вместо приращения',
-	'configure-setting-wgCacheVaryCookies' => 'Список куки (cookies), изменяющих кеш',
+	'configure-setting-wgCacheVaryCookies' => 'Список куки (cookies), изменяющих кэш',
 	'configure-setting-wgCookieDomain' => 'Точный домен для coockie входа в систему',
 	'configure-setting-wgCookieExpiration' => 'Время действия HTTP-cookie',
 	'configure-setting-wgCookieHttpOnly' => 'Установить cookie аутентификации на httpOnly',
@@ -19920,7 +19921,7 @@ $messages['ru'] = array(
 	'configure-setting-wgDisableHardRedirects' => 'Отключить перенаправления на служебные страниц и интервики-страницы',
 	'configure-setting-wgEnableScaryTranscluding' => 'Разрешить включение интервики',
 	'configure-setting-wgImportSources' => 'Список приставок интервики для межвики',
-	'configure-setting-wgInterwikiCache' => 'Включить кеш интервики',
+	'configure-setting-wgInterwikiCache' => 'Включить кэш интервики',
 	'configure-setting-wgInterwikiExpiry' => 'Истечение кеша интервики',
 	'configure-setting-wgInterwikiFallbackSite' => 'Запасной сайт интервики',
 	'configure-setting-wgInterwikiScopes' => 'Зона действия интервики',
@@ -19986,7 +19987,7 @@ $messages['ru'] = array(
 	'configure-setting-wgMsgCacheExpiry' => 'Истечение сообщений кеша',
 	'configure-setting-wgMaxMsgCacheEntrySize' => 'Максимальный размер записи в сообщении кеша, в байтах',
 	'configure-setting-wgParserCacheType' => 'Тип кеша парсера',
-	'configure-setting-wgEnableParserCache' => 'Включить кеш парсера',
+	'configure-setting-wgEnableParserCache' => 'Включить кэш парсера',
 	'configure-setting-wgEnableSidebarCache' => 'Кешировать ссылки боковой панели',
 	'configure-setting-wgRenderHashAppend' => 'Дополнительной шум хеша для кеша парсера и ключей кеша уведомления сайта',
 	'configure-setting-wgSidebarCacheExpiry' => 'Время действия кеша боковой панели',
