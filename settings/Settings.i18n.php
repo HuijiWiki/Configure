@@ -9096,6 +9096,7 @@ $messages['ha'] = array(
  * @author Amire80
  * @author Rotemliss
  * @author YaronSh
+ * @author חיים
  * @author ערן
  */
 $messages['he'] = array(
@@ -9239,7 +9240,7 @@ $messages['he'] = array(
 	'configure-setting-wgAsyncHTTPTimeout' => 'זמן קצוב לבקשות HTTP לא מסונכרנות',
 	'configure-setting-wgVersion' => 'גרסת מדיה־ויקי',
 	'configure-setting-wgAllowSpecialInclusion' => 'לאפשר הכללה של דפים מיוחדים',
-	'configure-setting-wgExportAllowAll' => 'אפשר ייצוא של האתר כולו לתוך קובץ אחד מ[[מיוחד:ייצוא]]', # Fuzzy
+	'configure-setting-wgExportAllowAll' => 'אפשר ייצוא של האתר כולו לתוך קובץ אחד ב[[Special:Export|מיוחד:ייצוא]]',
 	'configure-setting-wgExportAllowHistory' => 'לאפשר למידע מיוצא לכלול היסטוריה מלאה',
 	'configure-setting-wgExportAllowListContributors' => 'לאפשר לייצא רשימת תורמים',
 	'configure-setting-wgExportFromNamespaces' => 'להפעיל את האפשרות "ייצוא כל הדפים במרחב השם" ב־[[Special:Export]]',
@@ -13599,7 +13600,7 @@ $messages['lb'] = array(
 	'configure-setting-wgMaxAnimatedGifArea' => "Maximale Beräich a Pixele fir animéiert GIF'en",
 	'configure-setting-wgMaxImageArea' => 'Maximal Gréisst a Pixel fir Biller',
 	'configure-setting-wgShowEXIF' => 'EXIF-Donnéeën op der Beschreiwungssäit vum Fichier weisen',
-	'configure-setting-wgThumbLimits' => 'Erlaabte Gréisste vun de Miniaturen',
+	'configure-setting-wgThumbLimits' => 'Erlaabt Gréisste vun de Miniaturen',
 	'configure-setting-wgImgAuthPublicTest' => "Nokucken ob d'biller ëffentlech zougänglech sinn an e Feeler op img_auth.php weise wann dëst de Fall ass",
 	'configure-setting-wgMainCacheType' => 'Typ vum Haapttëschespäicher (main cache system)',
 	'configure-setting-wgCachePages' => 'Tëschespäichere vu Säiten op der Clientssäit erlaben',
@@ -13654,7 +13655,7 @@ $messages['lb'] = array(
 	'configure-setting-wgSiteSupportPage' => 'Säit mat Informatiounen iwwert Donatiounen',
 	'configure-setting-wgStyleVersion' => 'Versioun vun de MediaWiki CSS/JS Fichieren',
 	'configure-setting-wgUniversalEditButton' => 'Den universalen Ännerungs-Knäpchen aschalten',
-	'configure-setting-wgUrlProtocols' => 'Erlaabte Protokoller vun externe Linker',
+	'configure-setting-wgUrlProtocols' => 'Erlaabt Protokoller vun externe Linken',
 	'configure-setting-wgUseExternalEditor' => 'De Gebrauch vun engem externen Editeur erlaben',
 	'configure-setting-wgAjaxLicensePreview' => "AJAX benotze fir d'Lizenz, vun de Fichiere déi eropgeluede ginn, virum Eroplueden ze weisen",
 	'configure-setting-wgAllowCopyUploads' => 'Eroplueden vun URLen zouloossen',
