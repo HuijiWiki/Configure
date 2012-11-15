@@ -1182,6 +1182,13 @@ $messages['az'] = array(
 	'configure-condition-name-5' => 'İstifadəçilərin IP ünvanları',
 );
 
+/** تورکجه (تورکجه)
+ * @author Erdemaslancan
+ */
+$messages['azb'] = array(
+	'configure-section-namespaces' => 'آدلار فضاسی:',
+);
+
 /** Bashkir (башҡортса)
  * @author Roustammr
  */
@@ -2882,7 +2889,7 @@ $messages['diq'] = array(
 	'configure-section-email' => 'E-posta',
 	'configure-section-localization' => 'Lokalizasyon',
 	'configure-section-timezone' => 'Warey saete',
-	'configure-section-namespaces' => 'Cayê namey',
+	'configure-section-namespaces' => 'Cayê namam',
 	'configure-section-skin' => 'Temey',
 	'configure-section-category' => 'Kategoriy',
 	'configure-section-cache' => 'Ver hefıze',
