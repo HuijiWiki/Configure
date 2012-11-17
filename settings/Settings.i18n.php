@@ -5895,6 +5895,7 @@ $messages['eo'] = array(
 /** Spanish (español)
  * @author Armando-Martin
  * @author Crazymadlover
+ * @author Dalton2
  * @author Dferg
  * @author Imre
  * @author Kobazulo
@@ -6150,7 +6151,7 @@ $messages['es'] = array(
 	'configure-setting-wgFixMalayalamUnicode' => 'Limpiar secuencias de Unicode arcaicas en texto malabar',
 	'configure-setting-wgFixDoubleRedirects' => 'Arreglar dobles redirecciones luego de trasladar páginas',
 	'configure-setting-wgInvalidRedirectTargets' => 'Arreglo de páginas inváldas como destinos de redirecciones',
-	'configure-setting-wgMaximumMovedPages' => 'Máximo número de páginas que se pueden mover de una vez al mover las subpáginas dentro de una página',
+	'configure-setting-wgMaximumMovedPages' => 'Máximo número de páginas que pueden trasladarse a la vez al trasladar las subpáginas dentro de una página',
 	'configure-setting-wgMemoryLimit' => 'La mínima cantidad de memoria que MediaWiki "necesita"',
 	'configure-setting-wgMiserMode' => 'Desactivar algunas funcionalidades costosas en términos de rendimiento',
 	'configure-setting-wgShowHostnames' => 'Exponer los nombres de los anfitriones a través de API y comentarios HTML',
@@ -12995,6 +12996,9 @@ $messages['ko'] = array(
 	'configure-setting-wgUseFileCache' => '파일 캐시 사용',
 	'configure-setting-wgUseGzip' => 'GZIP 인코딩 사용',
 	'configure-setting-wgAllowDisplayTitle' => '<nowiki>{{DISPLAYTITLE}}</nowiki> 사용 허용',
+	'configure-setting-wgAllowImageTag' => '위키텍스트에 사용하는 <nowiki><img></nowiki> 태그 허용',
+	'configure-setting-wgGalleryOptions' => '<nowiki><gallery></nowiki> 태그에 대한 기본 변수',
+	'configure-setting-wgLinkHolderBatchSize' => 'LinkHolderArray에 대한 일괄 크기',
 	'configure-setting-wgParserConf' => '파서 설정',
 	'configure-setting-wgAmericanDates' => "영어로 'May 12' 대신 '12 May' 사용",
 	'configure-setting-wgInterwikiMagic' => '특수 목록에 인터위키 링크 보기',
@@ -13004,8 +13008,11 @@ $messages['ko'] = array(
 	'configure-setting-wgArticleRobotPolicies-value' => '로봇 정책',
 	'configure-setting-wgDefaultLanguageVariant' => '기본 언어 변종',
 	'configure-setting-wgDefaultRobotPolicy' => '기본 로봇 정책',
+	'configure-setting-wgExtraLanguageNames' => '언어 이름 우선',
 	'configure-setting-wgExtraLanguageNames-key' => '언어 부호',
 	'configure-setting-wgExtraLanguageNames-value' => '이름',
+	'configure-setting-wgExtraSubtitle' => '부제목 (모든 문서 제목 아래에 나타납니다)',
+	'configure-setting-wgHideInterlanguageLinks' => '사이드바에서 인터언어 링크 숨기기',
 	'configure-setting-wgMaxArticleSize' => '최대 문서 크기 (KB)',
 	'configure-setting-wgNoFollowLinks' => 'rel="nofollow" 링크 추가',
 	'configure-setting-wgSiteNotice' => '사이트 알림',
@@ -13026,6 +13033,8 @@ $messages['ko'] = array(
 	'configure-setting-wgHTTPProxy' => '사용하는 HTTP 프록시',
 	'configure-setting-wgAsyncHTTPTimeout' => '비동기 HTTP 요청에 대한 시간 초과',
 	'configure-setting-wgVersion' => '미디어위키 버전',
+	'configure-setting-wgFilterLogTypes' => '허용하는 기록 삭제 유형',
+	'configure-setting-wgImportTargetNamespace' => '인터위키 가져오기에 대한 대상 이름공간',
 	'configure-setting-wgLogRestrictions' => '기록 접근 제한',
 	'configure-setting-wgLogRestrictions-key' => '기록 유형',
 	'configure-setting-wgSortSpecialPages' => '[[Special:SpecialPages]]에서 특수 문서 정렬',
@@ -13033,6 +13042,7 @@ $messages['ko'] = array(
 	'configure-setting-wgSpecialPageGroups-key' => '그룹',
 	'configure-setting-wgSpecialVersionShowHooks' => '[[Special:Version]]에서 $wgHooks의 항목 보기',
 	'configure-setting-wgAutopromote-value' => '조건',
+	'configure-setting-wgDisabledActions' => '비활성화한 문서 행동',
 	'configure-setting-wgEnableAPI' => 'API를 활성화',
 	'configure-setting-wgEnableWriteAPI' => '쓰기 API 활성화',
 	'configure-setting-wgEnableEmail' => '이메일 기능 활성화',
