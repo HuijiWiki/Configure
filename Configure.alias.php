@@ -339,6 +339,13 @@ $specialPageAliases['sa'] = array(
 	'ViewConfig' => array( 'संकूटसङ्केतपश्यति' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'Configure' => array( 'Configura', 'Configurazione' ),
+	'Extensions' => array( 'Estensioni' ),
+	'ViewConfig' => array( 'VediConfigurazione' ),
+);
+
 /** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'Configure' => array( 'Konfigurovať' ),
@@ -378,6 +385,12 @@ $specialPageAliases['tr'] = array(
 	'Configure' => array( 'Yapılandır', 'Konfigüre', 'KonfigüreEt' ),
 	'Extensions' => array( 'Uzantılar', 'Eklentiler' ),
 	'ViewConfig' => array( 'YapılandırmaGör', 'KonfigürasyonGör' ),
+);
+
+/** Urdu (اردو) */
+$specialPageAliases['ur'] = array(
+	'Configure' => array( 'توضیع' ),
+	'Extensions' => array( 'توسیعات' ),
 );
 
 /** vèneto (vèneto) */
