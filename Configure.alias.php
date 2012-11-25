@@ -54,6 +54,11 @@ $specialPageAliases['bs'] = array(
 	'ViewConfig' => array( 'PogledajPostavke' ),
 );
 
+/** буряад (буряад) */
+$specialPageAliases['bxr'] = array(
+	'Configure' => array( 'Тааруулха' ),
+);
+
 /** Czech (česky) */
 $specialPageAliases['cs'] = array(
 	'Configure' => array( 'Konfigurace' ),

@@ -730,6 +730,7 @@ $messages['arc'] = array(
 	'configure-section-pages' => 'ܦܐܬܬ̈ܐ',
 	'configure-section-paths' => 'ܫܒܝܠ̈ܐ',
 	'configure-section-email' => 'ܒܝܠܕܪܐ ܐܠܩܛܪܘܢܝܐ',
+	'configure-section-stats' => 'ܚܒܝܫܘܬ ܡܢܝܢܐ ܕܝܬܒܐ',
 	'configure-section-skin' => 'ܓܠܕ̈ܐ',
 	'configure-section-category' => 'ܣܕܪ̈ܐ',
 	'configure-section-upload' => 'ܐܣܩ',
