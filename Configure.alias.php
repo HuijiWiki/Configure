@@ -284,7 +284,7 @@ $specialPageAliases['nb'] = array(
 	'ViewConfig' => array( 'Vis_konfigurasjon' ),
 );
 
-/** Nedersaksisch (Nedersaksisch) */
+/** Nedersaksies (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'Configure' => array( 'Instellingen' ),
 	'Extensions' => array( 'Uutbreidingen' ),
