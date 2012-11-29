@@ -2595,6 +2595,8 @@ $messages['as'] = array(
 	'configure-setting-wgActionPaths-key' => 'কাৰ্য',
 	'configure-setting-wgMediaHandlers-key' => 'MIME প্ৰকাৰ:',
 	'configure-setting-wgArticleRobotPolicies-key' => 'পৃষ্ঠাৰ শিৰোনামা',
+	'configure-setting-wgExtraLanguageNames-key' => 'ভাষা সংকেত',
+	'configure-setting-wgExtraLanguageNames-value' => 'নাম',
 );
 
 /** Asturian (asturianu)
@@ -6656,6 +6658,7 @@ $messages['fa'] = array(
  * @author Centerlink
  * @author Cimon Avaro
  * @author Crt
+ * @author Nedergard
  * @author Nike
  * @author Olli
  * @author Silvonen
@@ -6811,6 +6814,7 @@ $messages['fi'] = array(
 	'configure-setting-wgAutoConfirmCount' => 'Automaattisesti hyväksytyn käyttäjän muokkausmäärän kynnysarvo',
 	'configure-setting-wgAllowRealName' => 'Salli oikeat nimet',
 	'configure-setting-wgAllowUserSkin' => 'Salli käyttäjien vaihtaa ulkoasuaan',
+	'configure-setting-wgAllowPrefChange-key' => 'Käyttäjän asetukset',
 	'configure-setting-wgExternalAuthType' => 'Käytettävä ulkoisen tunnistuksen tyyppi',
 	'configure-setting-wgDefaultUserOptions' => 'Käyttäjien oletusasetukset',
 	'configure-setting-wgDisableAnonTalk' => 'Estä keskustelusivut anonyymeiltä (kirjautumattomilta) käyttäjiltä',
@@ -14627,7 +14631,7 @@ $messages['mk'] = array(
 	'configure-setting-wgHTCPMulticastTTL' => 'TTL за HTCP повеќеемисиско чистење',
 	'configure-setting-wgHTCPPort' => 'Порта за повеќеемисиско HTCP чистење',
 	'configure-setting-wgCopyrightIcon' => 'HTML за иконата за авторски права',
-	'configure-setting-wgEnableCreativeCommonsRdf' => 'Вклучувај информации за Creative Commons лиценци',
+	'configure-setting-wgEnableCreativeCommonsRdf' => 'Вклучувај информации за лиценците на Криејтив комонс',
 	'configure-setting-wgEnableDublinCoreRdf' => 'Користи RDF метаподатоци',
 	'configure-setting-wgLicenseTerms' => 'Услови за метаподатоците',
 	'configure-setting-wgMaxCredits' => 'Максимален број на автори за приказ',
