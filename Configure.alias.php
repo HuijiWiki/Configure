@@ -234,6 +234,7 @@ $specialPageAliases['ksh'] = array(
 
 /** Cornish (kernowek) */
 $specialPageAliases['kw'] = array(
+	'Configure' => array( 'Menystra' ),
 	'Extensions' => array( 'Ystynansow' ),
 );
 
