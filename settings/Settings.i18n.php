@@ -6568,6 +6568,7 @@ $messages['et'] = array(
  * @author An13sa
  * @author Kobazulo
  * @author Theklan
+ * @author Xabier Armendaritz
  * @author පසිඳු කාවින්ද
  */
 $messages['eu'] = array(
@@ -6598,7 +6599,7 @@ $messages['eu'] = array(
 	'configure-setting-wgEnableWriteAPI' => 'API idazteko gaitu',
 	'configure-setting-wgSMTP' => 'SMTP (Posta Transferentziako Protokolo Sinplea) zerbitzaria',
 	'configure-setting-wgDebugLogGroups-value' => 'Fitxategia',
-	'configure-setting-wgDisableQueryPageUpdate' => 'Orrialde bereziak ezgaiturik',
+	'configure-setting-wgDisableQueryPageUpdate' => 'Orri bereziak ezgaiturik',
 	'configure-setting-wgFixDoubleRedirects' => 'Birzuzenketa bikoitzak konpontzen ditu orrialdea mugitu ondoren',
 	'configure-setting-wgCookieExpiration' => 'HTTP cookiearen epemuga',
 	'configure-setting-wgCookieSecure' => 'Cookie seguruak',
@@ -23404,13 +23405,19 @@ $messages['uk'] = array(
 	'configure-setting-wgMediaHandlers' => 'Плаґіни для обробки медіа-файлів',
 	'configure-setting-wgMediaHandlers-key' => 'Тип MIME',
 	'configure-setting-wgMediaHandlers-value' => 'Клас обробника',
+	'configure-setting-wgThumbnailScriptPath' => 'Шлях до thumb.php для генерування мініатюр на льоту, замість при проході парсера',
+	'configure-setting-wgThumbUpright' => 'Поправочний коефіціент ширини для upright-мініатюр',
 	'configure-setting-wgShowEXIF' => 'Показати EXIF-дані на сторінках опису файлів',
+	'configure-setting-wgThumbLimits' => 'Дозвонені розміри мініатюр зображень',
+	'configure-setting-wgExcludeFromThumbnailPurge' => 'Розширення файлів ескізів, які повинні бути виключені з звичайних операцій оновлення',
 	'configure-setting-wgUseImageResize' => 'Увімкнути динамічну зміну розміру зображень з боку сервера',
 	'configure-setting-wgEnableAutoRotation' => 'Повертати зображення відповідно до їх EXIF орієнтації',
 	'configure-setting-wgTrustedMediaFormats' => 'Медіа-типи і MIME-типи, що вважаються «безпечними»',
+	'configure-setting-wgImgAuthDetails' => 'Показувати подробиці помилки доступу у img_auth.php',
 	'configure-setting-wgImgAuthPublicTest' => 'Перевіряти, чи зображення є загальнодоступними, і відображати помилку через img_auth.php, якщо це так',
 	'configure-setting-wgTiffThumbnailType' => 'Розширення файлів і МІМЕ-тип, що використовується для перетворення зображень TIFF',
 	'configure-setting-wgMainCacheType' => 'Тип основної системи кешування',
+	'configure-setting-wgDBAhandler' => 'DBA-обробник для використання',
 	'configure-setting-wgCachePages' => 'Дозволити кешування сторінок на стороні клієнта',
 	'configure-setting-wgInvalidateCacheOnLocalSettingsChange' => 'Очищувати різні кеші при змінах у LocalSettings.php',
 	'configure-setting-wgFileCacheDirectory' => 'Папка файлу кешу',
