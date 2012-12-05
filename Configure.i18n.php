@@ -12848,6 +12848,7 @@ $messages['ug-latn'] = array(
 /** Ukrainian (українська)
  * @author AS
  * @author Ahonc
+ * @author Base
  * @author NickK
  * @author Olvin
  * @author Prima klasy4na
@@ -12959,6 +12960,7 @@ $messages['uk'] = array(
 	'configure-section-filter' => 'Фільтрація',
 	'configure-section-mw-extensions' => 'MediaWiki розширення',
 	'configure-section-external-tools' => 'Зовнішні інструменти',
+	'configure-section-thumbnail' => 'Створення мініатюр зображень',
 	'configure-section-output' => 'Вихід',
 	'configure-select-wiki' => 'Вибір вікі',
 	'configure-select-wiki-desc' => 'Оберіть вікі, яку ви хочете настроїти.',
@@ -12967,6 +12969,7 @@ $messages['uk'] = array(
 	'configure-select-wiki-view-specific' => 'Конкретна Вікі:',
 	'configure-select-wiki-submit' => 'Вибрати',
 	'configure-setting-not-available' => 'Цей параметр недоступний в цій версії MediaWiki',
+	'configure-transwiki-not-in-range' => 'Запитувана вікі, $1, не дозволяє {{PLURAL:$3|значення}}: $2.',
 	'configure-view' => 'Перегляд',
 	'configure-view-all-versions' => 'Повний список версій',
 	'configure-view-default' => 'Установки за умовчанням',
