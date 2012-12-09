@@ -11842,6 +11842,7 @@ $messages['inh'] = array(
  * @author Gianfranco
  * @author GreenFox
  * @author Stefano-c
+ * @author Viscontino
  */
 $messages['it'] = array(
 	'configure-setting-wgSitename' => 'Nome sito',
@@ -12055,6 +12056,7 @@ $messages['it'] = array(
 	'configure-setting-wgUseXVO' => "Invia l'header X-Vary-Options per un caching migliore (richiede una versione di Squid con patch)",
 	'configure-setting-wgAllowSlowParserFunctions' => 'Consentire funzioni lente del parser',
 	'configure-setting-wgDisableInternalSearch' => 'Disabilita la funzionalità di ricerca interna',
+	'configure-setting-wgExtensionAssetsPath' => "URL della cartella dell'estensione",
 	'configure-setting-wgExternalStores' => 'Configurazione archiviazione esterna',
 	'configure-setting-wgSQLMode' => 'Modalità SQL',
 	'configure-setting-wgSpecialPageCacheUpdates' => 'Ulteriori funzioni da eseguire con updateSpecialPages.php.',
