@@ -226,13 +226,13 @@ Please create it or change it to use this extension.',
  * @author Meno25
  * @author Purodha
  * @author Raymond
+ * @author Shirayuki
  * @author Siebrand
  * @author Umherirrender
  */
 $messages['qqq'] = array(
 	'configure' => 'Name of special page displayed in [[Special:SpecialPages]].',
-	'configure-desc' => 'Extension description displayed on [[Special:Version]].
-
+	'configure-desc' => '{{desc|name=Configure|url=http://www.mediawiki.org/wiki/Extension:Configure}}
 {{Identical|Authorised user}}',
 	'configure-desc-group' => '{{Identical|Group}}',
 	'configure-desc-key' => '{{Identical|Key}}',
@@ -8343,12 +8343,19 @@ $messages['mr'] = array(
  * @author Anakmalaysia
  */
 $messages['ms'] = array(
+	'configure-desc-group' => 'Kumpulan',
 	'configure-desc-key' => 'Kunci',
+	'configure-desc-ns' => 'Ruang nama',
 	'configure-desc-val' => 'Nilai',
 	'configure-edit-core' => 'MediaWiki',
+	'configure-edit-ext' => 'Sambungan',
+	'configure-viewconfig-default-diff' => 'Perubahan dari tetapan azali',
 	'configure-ext-settings' => 'Tetapan',
 	'configure-form-reason' => 'Sebab:',
 	'configure-js-remove' => 'Hapuskan',
+	'configure-js-biglist-show' => '[paparkan butiran]',
+	'configure-js-biglist-hide' => '[sorokkan butiran]',
+	'configure-js-search-prompt' => 'Pertanyaan:',
 	'configure-section-email' => 'E-mel',
 	'configure-section-timezone' => 'Zon waktu',
 	'configure-section-category' => 'Kategori',
