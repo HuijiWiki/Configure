@@ -2819,6 +2819,13 @@ $messages['az'] = array(
 	'configure-setting-wgExtraNamespaces-value' => 'Adlar fəzasının adı',
 );
 
+/** South Azerbaijani (تورکجه)
+ * @author Ebrahimi-amir
+ */
+$messages['azb'] = array(
+	'configure-setting-wgExtraLanguageNames-key' => 'دیلین کودو',
+);
+
 /** Bavarian (Boarisch)
  * @author Man77
  */
@@ -23430,6 +23437,7 @@ $messages['uk'] = array(
 	'configure-setting-wgFileCacheDepth' => 'Глибина ієрархії підпапок, що створюються у <code>$wgFileCacheDirectory</code>',
 	'configure-setting-wgForcedRawSMaxage' => 'Максимальний час за замовчуванням для доступу до неопрацьованого CSS/JS',
 	'configure-setting-wgQueryCacheLimit' => "Кількість рядків для кешування у таблиці 'querycache'",
+	'configure-setting-wgThumbnailEpoch' => 'епоха очистки мініатюр',
 	'configure-setting-wgUseFileCache' => 'Використовувати файловий кеш',
 	'configure-setting-wgUseGzip' => 'Використовувати кодування GZIP',
 	'configure-setting-wgGrammarForms' => 'Граматичні форми для функції парсера GRAMMAR',
@@ -23488,12 +23496,63 @@ $messages['uk'] = array(
 	'configure-setting-wgDebugLogGroups-value' => 'Файл',
 	'configure-setting-wgRateLimitLog' => 'Журнал обмежень швидкості',
 	'configure-setting-wgRateLimits' => 'Обмеження швидкості',
+	'configure-setting-wgActiveUserDays' => 'Час, пысля якого користувач вважається неактивним',
+	'configure-setting-wgDisableCounters' => 'Вимкнути лічильники перегляду сторінок',
+	'configure-setting-wgHitcounterUpdateFreq' => 'Частота оновлення лічильників сторінок',
 	'configure-setting-wgValidSkinNames-key' => "Внутрішнє ім'я",
 	'configure-setting-wgValidSkinNames-value' => "Видиме ім'я",
+	'configure-setting-wgExtraNamespaces' => 'Перевизначені простори назв',
+	'configure-setting-wgExtraNamespaces-key' => 'ID простору назв',
+	'configure-setting-wgExtraNamespaces-value' => 'Назва простору назв',
+	'configure-setting-wgExtraGenderNamespaces' => 'Перевизначені простори назв із різницею за статтю',
+	'configure-setting-wgMetaNamespace' => 'Назва простору назв проекту',
+	'configure-setting-wgMetaNamespaceTalk' => 'Назва простору назв обговорення проекту',
+	'configure-setting-wgNamespaceAliases' => 'Перенаправлення просторів назв',
+	'configure-setting-wgNamespaceAliases-key' => 'Назва псевдоніму',
+	'configure-setting-wgNamespaceAliases-value' => 'ID цільового простору назв',
+	'configure-setting-wgNamespaceProtection' => 'Захист простору назв',
+	'configure-setting-wgAllowRealName' => 'Дозволити справжні імена',
+	'configure-setting-wgAllowUserSkin' => 'Дозволити користувачам змінювати своє оформлення',
+	'configure-setting-wgAllowUserCssPrefs' => 'Дозволити користувачам використовувати свій CSS',
+	'configure-setting-wgDBClusterTimeout' => 'Таймаут бази даних',
+	'configure-setting-wgDBservers' => 'Сервери баз даних',
+	'configure-setting-wgDefaultExternalStore' => 'Зовнішнє сховище нових версій за замовчуванням',
+	'configure-setting-wgExternalServers' => 'Зовнішні сервери MySQL',
+	'configure-setting-wgAllowTitlesInSVG' => 'Дозволити заголовки у SVG-файлах',
+	'configure-setting-wgSVGConverter' => 'Конвертер SVG',
+	'configure-setting-wgSVGConverterPath' => 'Шлях до конвертеру SVG',
+	'configure-setting-wgSVGConverters' => 'Конвертери SVG',
+	'configure-setting-wgSVGConverters-key' => 'Назва конвертеру',
+	'configure-setting-wgSVGConverters-value' => 'Команда конвертації',
+	'configure-setting-wgSVGMaxSize' => 'Максимальний розмір масштабу SVG',
+	'configure-setting-wgSVGMetadataCutoff' => 'Максимальна довжина метаданих, яку може бути зчитано із SVG',
 	'configure-setting-wgAllowJavaUploads' => 'Дозволити завантаження Java-архівів',
 	'configure-setting-wgXhtmlDefaultNamespace' => 'Простір назв XHTML за замовчуванням',
 	'configure-setting-wgXhtmlNamespaces' => 'Інші простори назв XHTML',
 	'configure-setting-wgXhtmlNamespaces-key' => 'Простір назв',
+	'configure-setting-wgDiff' => 'Шлях до утиліти GNU diff',
+	'configure-setting-wgDiff3' => 'Шлях до утиліти GNU diff3',
+	'configure-setting-wgFavicon' => 'URL іконки сайту',
+	'configure-setting-wgFooterIcons' => 'Іконки, що відображаються внизу сторінки',
+	'configure-setting-wgLogo' => 'URL лого сайту',
+	'configure-setting-wgLoadScript' => 'URL load.php',
+	'configure-setting-wgRedirectScript' => 'URL redirect.php, необхідно для зворотньої сумісності',
+	'configure-setting-wgPhpCli' => 'Виконувана назва клієнту командного рядка PHP (php/php5)',
+	'configure-setting-wgExiv2Command' => 'Шлях до виконуваного файлу exiv2',
+	'configure-setting-wgScript' => 'URL index.php',
+	'configure-setting-wgScriptExtension' => 'Розширення, що додається до назв скриптів за замовчуванням',
+	'configure-setting-wgScriptPath' => 'Базовий URL-шлях',
+	'configure-setting-wgServer' => 'Базовий URL серверу',
+	'configure-setting-wgServerName' => 'Назва серверу без протоколу',
+	'configure-setting-wgStyleDirectory' => 'Шлях у файловій системі до директорії оформлень',
+	'configure-setting-wgStylePath' => 'URL директорії оформлень',
+	'configure-setting-wgLocalStylePath' => 'Те ж, що й $wgStylePath, але не повинна вказувати на зовнішній домен',
+	'configure-setting-wgStyleSheetPath' => 'URL директорії, що містить таблиці стилів',
+	'configure-setting-wgTmpDirectory' => 'URL тимчасової директорії',
+	'configure-setting-wgUploadBaseUrl' => 'Базовий URL для завантажених файлів, якщо загальна директорія завантаження не використовується',
+	'configure-setting-wgUsePathInfo' => 'Використовувати «привабливі» URL-адреси',
+	'configure-setting-wgUploadDirectory' => 'Шлях у файловій системі до директорії завантажень',
+	'configure-setting-wgUploadNavigationUrl' => 'URL для завантаження навігаційного посилання',
 );
 
 /** Urdu (اردو)
