@@ -650,6 +650,7 @@ $messages['en'] = array(
  * @author Nike
  * @author Purodha
  * @author SPQRobin
+ * @author Shirayuki
  * @author Siebrand
  * @author Umherirrender
  * @author Waldir
@@ -666,10 +667,12 @@ $messages['qqq'] = array(
 	'configure-setting-wgDBerrorLog' => '{{config-wg|DBerrorLog}}',
 	'configure-setting-wgDBname' => '{{config-wg|DBname}}',
 	'configure-setting-wgDBpassword' => '{{config-wg|DBpassword}}',
+	'configure-setting-wgDBadminpassword' => '{{config-wg|DBadminpassword}}',
 	'configure-setting-wgDBport' => '{{config-wg|DBport}}',
 	'configure-setting-wgDBserver' => '{{config-wg|DBserver}}',
 	'configure-setting-wgDBtype' => '{{config-wg|DBtype}}',
 	'configure-setting-wgDBuser' => '{{config-wg|DBuser}}',
+	'configure-setting-wgDBadminuser' => '{{config-wg|DBadminuser}}',
 	'configure-setting-wgLocalDatabases' => '{{config-wg|LocalDatabases}}',
 	'configure-setting-wgSearchType' => '{{config-wg|SearchType}}',
 	'configure-setting-wgSharedDB' => '{{config-wg|SharedDB}}',
@@ -702,7 +705,9 @@ $messages['qqq'] = array(
 	'configure-setting-wgCachePages' => '{{config-wg|CachePages}}',
 	'configure-setting-wgCachePrefix' => '{{config-wg|CachePrefix}}',
 	'configure-setting-wgClockSkewFudge' => '{{config-wg|ClockSkewFudge}}',
+	'configure-setting-wgInvalidateCacheOnLocalSettingsChange' => '{{config-wg|InvalidateCacheOnLocalSettingsChange}}',
 	'configure-setting-wgFileCacheDirectory' => '{{config-wg|FileCacheDirectory}}',
+	'configure-setting-wgFileCacheDepth' => '{{config-wg|FileCacheDepth}}',
 	'configure-setting-wgForcedRawSMaxage' => '{{config-wg|ForcedRawSMaxage}}',
 	'configure-setting-wgQueryCacheLimit' => '{{config-wg|QueryCacheLimit}}',
 	'configure-setting-wgRevisionCacheExpiry' => '{{config-wg|RevisionCacheExpiry}}',
@@ -731,7 +736,8 @@ $messages['qqq'] = array(
 	'configure-setting-wgPreprocessorCacheThreshold' => '{{config-wg|PreprocessorCacheThreshold}}',
 	'configure-setting-wgRegisterInternalExternals' => '{{config-wg|RegisterInternalExternals}}',
 	'configure-setting-wgRestrictDisplayTitle' => '{{config-wg|RestrictDisplayTitle}}',
-	'configure-setting-wgAmericanDates' => 'Do not translate "May 12" and "12 May"',
+	'configure-setting-wgAmericanDates' => '{{config-wg|AmericanDates}}
+{{doc-important|Do not translate "May 12" and "12 May"}}',
 	'configure-setting-wgDisableLangConversion' => '{{config-wg|DisableLangConversion}}',
 	'configure-setting-wgDisableTitleConversion' => '{{config-wg|DisableTitleConversion}}',
 	'configure-setting-wgForceUIMsgAsContentMsg' => '{{config-wg|ForceUIMsgAsContentMsg}}',
@@ -744,6 +750,7 @@ $messages['qqq'] = array(
 	'configure-setting-wgUseDynamicDates' => '{{config-wg|UseDynamicDates}}',
 	'configure-setting-wgArticleRobotPolicies' => '{{config-wg|ArticleRobotPolicies}}',
 	'configure-setting-wgBreakFrames' => '{{config-wg|BreakFrames}}',
+	'configure-setting-wgEditPageFrameOptions' => '{{config-wg|EditPageFrameOptions}}',
 	'configure-setting-wgCapitalLinks' => '{{config-wg|CapitalLinks}}',
 	'configure-setting-wgCapitalLinkOverrides' => '{{config-wg|CapitalLinkOverrides}}',
 	'configure-setting-wgDefaultLanguageVariant' => '{{config-wg|DefaultLanguageVariant}}',
@@ -752,18 +759,18 @@ $messages['qqq'] = array(
 	'configure-setting-wgExtraLanguageNames' => '{{config-wg|ExtraLanguageNames}}',
 	'configure-setting-wgExtraLanguageNames-value' => '{{Identical|Name}}',
 	'configure-setting-wgDisabledVariants' => '{{config-wg|DisabledVariants}}',
+	'configure-setting-wgBetterDirectionality' => '{{config-wg|BetterDirectionality}}',
+	'configure-setting-wgCanonicalLanguageLinks' => '{{config-wg|CanonicalLanguageLinks}}',
 	'configure-setting-wgExtraRandompageSQL' => '{{config-wg|ExtraRandompageSQL}}',
 	'configure-setting-wgExtraSubtitle' => '{{config-wg|ExtraSubtitle}}',
 	'configure-setting-wgHideInterlanguageLinks' => '{{config-wg|HideInterlanguageLinks}}',
 	'configure-setting-wgLegalTitleChars' => '{{config-wg|LegalTitleChars}}',
 	'configure-setting-wgMaxArticleSize' => '{{config-wg|MaxArticleSize}}',
 	'configure-setting-wgMaxRedirects' => '{{config-wg|wgMaxRedirects}}',
-	'configure-setting-wgNoFollowLinks' => '{{config-wg|NoFollowLinks}}
-
-Do not translate rel="nofollow".',
-	'configure-setting-wgNoFollowDomainExceptions' => '{{config-wg|NoFollowDomainExceptions}}
-
-Do not translate rel="nofollow".',
+	'configure-setting-wgNoFollowLinks' => "{{config-wg|NoFollowLinks}}
+{{doc-important|Do not translate ''<nowiki>rel=\"nofollow\"</nowiki>''.}}",
+	'configure-setting-wgNoFollowDomainExceptions' => "{{config-wg|NoFollowDomainExceptions}}
+{{doc-important|Do not translate ''<nowiki>rel=\"nofollow\"</nowiki>''.}}",
 	'configure-setting-wgPageShowWatchingUsers' => '{{config-wg|PageShowWatchingUsers}}',
 	'configure-setting-wgRestrictionLevels' => '{{config-wg|RestrictionLevels}}',
 	'configure-setting-wgSiteNotice' => '{{config-wg|SiteNotice}}',
@@ -811,6 +818,7 @@ It refers to message {{msg-mw|export-addnstext}} which is an input field label.'
 	'configure-setting-wgMaxRedirectLinksRetrieved' => '{{config-wg|MaxRedirectLinksRetrieved}}',
 	'configure-setting-wgQueryPageDefaultLimit' => '{{config-wg|QueryPageDefaultLimit}}',
 	'configure-setting-wgRedirectOnLogin' => '{{config-wg|RedirectOnLogin}}',
+	'configure-setting-wgSecureLogin' => '{{config-wg|SecureLogin}}',
 	'configure-setting-wgSortSpecialPages' => '{{config-wg|SortSpecialPages}}',
 	'configure-setting-wgSpecialPageGroups' => '{{config-wg|SpecialPageGroups}}',
 	'configure-setting-wgSpecialPageGroups-key' => '{{Identical|Group}}',
@@ -843,12 +851,13 @@ It refers to message {{msg-mw|export-addnstext}} which is an input field label.'
 	'configure-setting-wgEnableUserEmail' => '{{config-wg|EnableUserEmail}}',
 	'configure-setting-wgNoReplyAddress' => '{{config-wg|NoReplyAddress}}',
 	'configure-setting-wgPasswordSender' => '{{config-wg|PasswordSender}}',
+	'configure-setting-wgPasswordSenderName' => '{{config-wg|PasswordSenderName}}',
 	'configure-setting-wgPasswordReminderResendTime' => '{{config-wg|PasswordReminderResendTime}}',
+	'configure-setting-wgAdditionalMailParams' => '{{config-wg|AdditionalMailParams}}',
 	'configure-setting-wgSMTP' => '{{config-wg|SMTP}}',
 	'configure-setting-wgUserEmailUseReplyTo' => '{{config-wg|UserEmailUseReplyTo}}
-
-Do not translate <code>Reply-To:</code>,
-do not translate <code>From:</code>, they are e-mail headers.',
+{{doc-important|Do not translate <code>Reply-To:</code> nor <code>From:</code>, they are e-mail headers.}}',
+	'configure-setting-wgUserEmailConfirmationTokenExpiry' => '{{config-wg|UserEmailConfirmationTokenExpiry}}',
 	'configure-setting-wgAPIRequestLog' => '{{config-wg|APIRequestLog}}',
 	'configure-setting-wgDebugComments' => '{{config-wg|DebugComments}}',
 	'configure-setting-wgDebugDumpSql' => '{{config-wg|DebugDumpSql}}',
@@ -863,6 +872,7 @@ do not translate <code>From:</code>, they are e-mail headers.',
 	'configure-setting-wgDebugToolbar' => '{{config-wg|DebugToolbar}}',
 	'configure-setting-wgDevelopmentWarnings' => '{{config-wg|DevelopmentWarnings}}',
 	'configure-setting-wgDeprecationReleaseLimit' => '{{config-wg|DeprecationReleaseLimit}}
+
 "Release" refers to MediaWiki software releases, e.g. 1.19',
 	'configure-setting-wgShowExceptionDetails' => '{{config-wg|ShowExceptionDetails}}',
 	'configure-setting-wgShowDBErrorBacktrace' => '{{config-wg|ShowDBErrorBacktrace}}',
@@ -874,7 +884,14 @@ do not translate <code>From:</code>, they are e-mail headers.',
 	'configure-setting-wgJobClasses' => '{{config-wg|JobClasses}}',
 	'configure-setting-wgUpdateRowsPerJob' => '{{config-wg|UpdateRowsPerJob}}',
 	'configure-setting-wgPoolCounterConf' => '{{config-wg|PoolCounterConf}}',
-	'configure-setting-wgEnableSelenium' => 'Selenium is a suite of tools to automate web app testing across many platforms. http://seleniumhq.org/',
+	'configure-setting-wgEnableSelenium' => '{{config-wg|EnableSelenium}}
+
+Selenium is a suite of tools to automate web app testing across many platforms. http://seleniumhq.org/',
+	'configure-setting-wgSeleniumConfigFile' => '{{config-wg|SeleniumConfigFile}}
+
+Selenium is a suite of tools to automate web app testing across many platforms. http://seleniumhq.org/',
+	'configure-setting-wgDBtestuser' => '{{config-wg|DBtestuser}}',
+	'configure-setting-wgDBtestpassword' => '{{config-wg|DBtestpassword}}',
 	'configure-setting-wgEnableJavaScriptTest' => '{{config-wg|EnableJavaScriptTest}}',
 	'configure-setting-wgJavaScriptTestConfig' => '{{config-wg|JavaScriptTestConfig}}',
 	'configure-setting-wgAPICacheHelpTimeout' => '{{config-wg|APICacheHelpTimeout}}',
@@ -886,6 +903,7 @@ do not translate <code>From:</code>, they are e-mail headers.',
 	'configure-setting-wgDisableSearchUpdate' => '{{config-wg|DisableSearchUpdate}}',
 	'configure-setting-wgDisableTextSearch' => '{{config-wg|DisableTextSearch}}',
 	'configure-setting-wgEdititis' => '{{config-wg|Edititis}}',
+	'configure-setting-wgAllUnicodeFixes' => '{{config-wg|AllUnicodeFixes}}',
 	'configure-setting-wgFixArabicUnicode' => '{{config-wg|FixArabicUnicode}}',
 	'configure-setting-wgFixMalayalamUnicode' => '{{config-wg|FixMalayalamUnicode}}',
 	'configure-setting-wgFixDoubleRedirects' => '{{config-wg|FixDoubleRedirects}}',
@@ -915,8 +933,7 @@ do not translate <code>From:</code>, they are e-mail headers.',
 	'configure-setting-wgUseSquid' => '{{config-wg|UseSquid}}',
 	'configure-setting-wgUseXVO' => '{{config-wg|UseXVO}}',
 	'configure-setting-wgVaryOnXFP' => '{{config-wg|VaryOnXFP}}
-
-Do not translate "X-Forwarded-Proto", "Vary" and "X-Vary-Options".',
+{{doc-important|Do not translate "X-Forwarded-Proto", "Vary" and "X-Vary-Options".}}',
 	'configure-setting-wgAllowSlowParserFunctions' => '{{config-wg|AllowSlowParserFunctions}}',
 	'configure-setting-wgDisableInternalSearch' => '{{config-wg|DisableInternalSearch}}',
 	'configure-setting-wgExtensionAssetsPath' => '{{config-wg|ExtensionAssetsPath}}',
@@ -939,14 +956,17 @@ Do not translate "X-Forwarded-Proto", "Vary" and "X-Vary-Options".',
 	'configure-setting-wgFeed' => '{{config-wg|Feed}}',
 	'configure-setting-wgAdvertisedFeedTypes' => '{{config-wg|AdvertisedFeedTypes}}',
 	'configure-setting-wgFeedCacheTimeout' => '{{config-wg|FeedCacheTimeout}}',
-	'configure-setting-wgFeedDiffCutoff' => 'The maximum size of diffs when output in a feed',
+	'configure-setting-wgFeedDiffCutoff' => '{{config-wg|FeedDiffCutoff}}
+
+The maximum size of diffs when output in a feed',
 	'configure-setting-wgFeedLimit' => '{{config-wg|FeedLimit}}',
 	'configure-setting-wgOverrideSiteFeed' => '{{config-wg|OverrideSiteFeed}}',
 	'configure-setting-wgAdvancedSearchHighlighting' => '{{config-wg|AdvancedSearchHighlighting}}',
 	'configure-setting-wgEnableMWSuggest' => '{{config-wg|EnableMWSuggest}}',
 	'configure-setting-wgEnableOpenSearchSuggest' => '{{config-wg|EnableOpenSearchSuggest}}',
 	'configure-setting-wgEnableSearchContributorsByIP' => '{{config-wg|EnableSearchContributorsByIP}}',
-	'configure-setting-wgGoToEdit' => '{{Identical|Go}}',
+	'configure-setting-wgGoToEdit' => '{{config-wg|GoToEdit}}
+{{Identical|Go}}',
 	'configure-setting-wgMWSuggestTemplate' => '{{config-wg|MWSuggestTemplate}}',
 	'configure-setting-wgOpenSearchTemplate' => '{{config-wg|OpenSearchTemplate}}',
 	'configure-setting-wgSearchForwardUrl' => '{{config-wg|SearchForwardUrl}}',
@@ -961,8 +981,7 @@ Do not translate "X-Forwarded-Proto", "Vary" and "X-Vary-Options".',
 	'configure-setting-wgHitcounterUpdateFreq' => '{{config-wg|HitcounterUpdateFreq}}',
 	'configure-setting-wgArticleCountMethod' => '{{config-wg|ArticleCountMethod}}',
 	'configure-setting-wgUseCommaCount' => '{{config-wg|UseCommaCount}}
-
-Do not translate "(true)" and "(false)"',
+{{doc-important|Do not translate "(true)" nor "(false)".}}',
 	'configure-setting-wgWantedPagesThreshold' => '{{config-wg|WantedPagesThreshold}}',
 	'configure-setting-wgDefaultSkin' => '{{config-wg|DefaultSkin}}',
 	'configure-setting-wgSkipSkin' => '{{config-wg|SkipSkin}}',
@@ -984,7 +1003,9 @@ This setting is an array of new namespaces, but can also be used to change the n
 	'configure-setting-wgNamespacesToBeSearchedDefault' => '{{config-wg|NamespacesToBeSearchedDefault}}',
 	'configure-setting-wgNamespacesToBeSearchedHelp' => '{{config-wg|NamespacesToBeSearchedHelp}}',
 	'configure-setting-wgNamespacesWithSubpages' => '{{config-wg|NamespacesWithSubpages}}',
-	'configure-setting-wgNoFollowNsExceptions' => "Overridden = disregarded. Don't translate nofollow.",
+	'configure-setting-wgNoFollowNsExceptions' => "{{config-wg|NoFollowNsExceptions}}
+{{doc-important|Don't translate nofollow.}}
+Overridden = disregarded.",
 	'configure-setting-wgNonincludableNamespaces' => '{{config-wg|NonincludableNamespaces}}',
 	'configure-setting-wgPreviewOnOpenNamespaces' => '{{config-wg|PreviewOnOpenNamespaces}}',
 	'configure-setting-wgSitemapNamespaces' => '{{config-wg|SitemapNamespaces}}',
@@ -992,12 +1013,14 @@ This setting is an array of new namespaces, but can also be used to change the n
 	'configure-setting-wgCategoryMagicGallery' => '{{config-wg|CategoryMagicGallery}}',
 	'configure-setting-wgCategoryPagingLimit' => '{{config-wg|CategoryPagingLimit}}',
 	'configure-setting-wgUseCategoryBrowser' => '{{config-wg|UseCategoryBrowser}}',
+	'configure-setting-wgCategoryCollation' => '{{config-wg|CategoryCollation}}',
 	'configure-setting-wgHTCPMulticastAddress' => '{{config-wg|HTCPMulticastAddress}}',
 	'configure-setting-wgHTCPMulticastTTL' => '{{config-wg|HTCPMulticastTTL}}',
 	'configure-setting-wgHTCPPort' => '{{config-wg|HTCPPort}}',
 	'configure-setting-wgCopyrightIcon' => '{{config-wg|CopyrightIcon}}',
 	'configure-setting-wgEnableCreativeCommonsRdf' => '{{config-wg|EnableCreativeCommonsRdf}}',
 	'configure-setting-wgEnableDublinCoreRdf' => '{{config-wg|EnableDublinCoreRdf}}',
+	'configure-setting-wgLicenseTerms' => '{{config-wg|LicenseTerms}}',
 	'configure-setting-wgMaxCredits' => '{{config-wg|MaxCredits}}',
 	'configure-setting-wgRightsIcon' => '{{config-wg|RightsIcon}}',
 	'configure-setting-wgRightsPage' => '{{config-wg|RightsPage}}',
@@ -1013,6 +1036,7 @@ This setting is an array of new namespaces, but can also be used to change the n
 	'configure-setting-wgAutocreatePolicy' => '{{config-wg|AutocreatePolicy}}',
 	'configure-setting-wgAllowPrefChange' => '{{config-wg|AllowPrefChange}}',
 	'configure-setting-wgExternalAuthType' => '{{config-wg|ExternalAuthType}}',
+	'configure-setting-wgExternalAuthConf' => '{{config-wg|ExternalAuthConf}}',
 	'configure-setting-wgDefaultUserOptions' => '{{config-wg|DefaultUserOptions}}',
 	'configure-setting-wgDisableAnonTalk' => '{{config-wg|DisableAnonTalk}}',
 	'configure-setting-wgHiddenPrefs' => '{{config-wg|HiddenPrefs}}',
@@ -1021,6 +1045,7 @@ This setting is an array of new namespaces, but can also be used to change the n
 	'configure-setting-wgMaxNameChars' => '{{config-wg|MaxNameChars}}',
 	'configure-setting-wgMaxSigChars' => '{{config-wg|MaxSigChars}}',
 	'configure-setting-wgMinimalPasswordLength' => '{{config-wg|MinimalPasswordLength}}',
+	'configure-setting-wgLivePasswordStrengthChecks' => '{{config-wg|LivePasswordStrengthChecks}}',
 	'configure-setting-wgNewUserLog' => '{{config-wg|NewUserLog}}',
 	'configure-setting-wgPasswordResetRoutes' => '{{config-wg|PasswordResetRoutes}}',
 	'configure-setting-wgReservedUsernames' => '{{config-wg|ReservedUsernames}}',
@@ -1028,6 +1053,7 @@ This setting is an array of new namespaces, but can also be used to change the n
 	'configure-setting-wgBrowserBlackList' => '{{config-wg|BrowserBlackList}}',
 	'configure-setting-wgAntiLockFlags' => '{{config-wg|AntiLockFlags}}',
 	'configure-setting-wgCommandLineDarkBg' => '{{config-wg|CommandLineDarkBg}}',
+	'configure-setting-wgUpgradeKey' => '{{config-wg|UpgradeKey}}',
 	'configure-setting-wgCompressRevisions' => '{{config-wg|CompressRevisions}}',
 	'configure-setting-wgDisableOutputCompression' => '{{config-wg|DisableOutputCompression}}',
 	'configure-setting-wgSend404Code' => '{{config-wg|Send404Code}}',
@@ -1049,7 +1075,9 @@ This setting is an array of new namespaces, but can also be used to change the n
 	'configure-setting-wgInterwikiFallbackSite' => '{{config-wg|InterwikiFallbackSite}}',
 	'configure-setting-wgInterwikiScopes' => '{{config-wg|InterwikiScopes}}',
 	'configure-setting-wgLocalInterwiki' => '{{config-wg|LocalInterwiki}}',
-	'configure-setting-wgRedirectSources' => 'Be consistent with {{msg-mw|Redirectedfrom}} message.',
+	'configure-setting-wgRedirectSources' => '{{config-wg|RedirectSources}}
+
+Be consistent with {{msg-mw|Redirectedfrom}} message.',
 	'configure-setting-wgBlockOpenProxies' => '{{config-wg|BlockOpenProxies}}',
 	'configure-setting-wgEnableDnsBlacklist' => '{{config-wg|EnableDnsBlacklist}}',
 	'configure-setting-wgProxyList' => '{{config-wg|ProxyList}}',
@@ -1085,8 +1113,7 @@ This setting is an array of new namespaces, but can also be used to change the n
 	'configure-setting-wgSVGMetadataCutoff' => '{{config-wg|SVGMetadataCutoff}}',
 	'configure-setting-wgImageMagickConvertCommand' => '{{config-wg|ImageMagickConvertCommand}}',
 	'configure-setting-wgImageMagickIdentifyCommand' => '{{config-wg|ImageMagickIdentifyCommand}}
-
-Do not translate "identify"',
+{{doc-important|Do not translate "identify".}}',
 	'configure-setting-wgImageMagickTempDir' => '{{config-wg|ImageMagickTempDir}}',
 	'configure-setting-wgSharpenParameter' => '{{config-wg|SharpenParameter}}',
 	'configure-setting-wgSharpenReductionThreshold' => '{{config-wg|SharpenReductionThreshold}}',
@@ -1106,6 +1133,7 @@ Do not translate "identify"',
 	'configure-setting-wgLocalisationCacheConf' => '{{config-wg|LocalisationCacheConf}}',
 	'configure-setting-wgUseLocalMessageCache' => '{{config-wg|UseLocalMessageCache}}',
 	'configure-setting-wgLocalMessageCacheSerialized' => '{{config-wg|LocalMessageCacheSerialized}}',
+	'configure-setting-wgAdaptiveMessageCache' => '{{config-wg|AdaptiveMessageCache}}',
 	'configure-setting-wgMsgCacheExpiry' => '{{config-wg|MsgCacheExpiry}}',
 	'configure-setting-wgMaxMsgCacheEntrySize' => '{{config-wg|MaxMsgCacheEntrySize}}',
 	'configure-setting-wgParserCacheType' => '{{config-wg|ParserCacheType}}',
@@ -1148,15 +1176,10 @@ This is about XHTML namespace, unrelated to MediaWikis namespace.',
 	'configure-setting-wgAllowUserJs' => '{{config-wg|AllowUserJs}}',
 	'configure-setting-wgUseSiteCss' => '{{config-wg|UseSiteCss}}',
 	'configure-setting-wgUseSiteJs' => '{{config-wg|UseSiteJs}}',
-	'configure-setting-wgHandheldStyle' => '{{config-wg|HandheldStyle}}
-<div class="doc-important">
-<span class="doc-important-image" style="margin-left:3px;margin-right:3px;">[[Image:Bulbgraph.png|18px|Note]]
-<span class="doc-important-text" style="color:#c00;font-weight:bold;">Do not translate \'\'media="handheld"\'\'.</span>
-<span class="doc-important-other" style="color:darkred;"></span>
-</div>',
-	'configure-setting-wgHandheldForIPhone' => "{{config-wg|HandheldForIPhone}}
-
-Do not translate 'screen' nor 'handheld'",
+	'configure-setting-wgHandheldStyle' => "{{config-wg|HandheldStyle}}
+{{doc-important|Do not translate ''<nowiki>media=\"handheld\"</nowiki>''.}}",
+	'configure-setting-wgHandheldForIPhone' => '{{config-wg|HandheldForIPhone}}
+{{doc-important|Do not translate "screen" nor "handheld".}}',
 	'configure-setting-wgIncludeLegacyJavaScript' => '{{config-wg|IncludeLegacyJavaScript}}',
 	'configure-setting-wgLegacyJavaScriptGlobals' => '{{config-wg|LegacyJavaScriptGlobals}}',
 	'configure-setting-wgResourceBasePath' => '{{config-wg|ResourceBasePath}}',
@@ -1205,7 +1228,8 @@ In this context live means ajax-preview without re-loading the page. It does not
 	'configure-setting-wgDirectoryMode' => '{{config-wg|DirectoryMode}}',
 	'configure-setting-wgDiff' => '{{config-wg|Diff}}',
 	'configure-setting-wgDiff3' => '{{config-wg|Diff3}}',
-	'configure-setting-wgFavicon' => "Do not translate 'favicon'",
+	'configure-setting-wgFavicon' => '{{config-wg|Favicon}}
+{{doc-important|Do not translate "favicon"}}',
 	'configure-setting-wgFooterIcons' => '{{config-wg|FooterIcons}}',
 	'configure-setting-wgLogo' => '{{config-wg|Logo}}',
 	'configure-setting-wgLoadScript' => '{{config-wg|LoadScript}}',
@@ -1263,11 +1287,9 @@ In this context live means ajax-preview without re-loading the page. It does not
 	'configure-setting-wgEnotifWatchlist' => '{{config-wg|EnotifWatchlist}}',
 	'configure-setting-wgUsersNotifiedOnAllChanges' => '{{config-wg|UsersNotifiedOnAllChanges}}',
 	'configure-setting-wgDebugFunctionEntry' => '{{config-wg|DebugFunctionEntry}}
-
-Do not translate "<code>wfProfileIn/wfProfileOut</code>"',
+{{doc-important|Do not translate "<code>wfProfileIn/wfProfileOut</code>".}}',
 	'configure-setting-wgDebugProfiling' => '{{config-wg|DebugProfiling}}
-
-Do not translate "<code>wfProfileIn/wfProfileOut</code>"',
+{{doc-important|Do not translate "<code>wfProfileIn/wfProfileOut</code>".}}',
 	'configure-setting-wgProfileCallTree' => '{{config-wg|ProfileCallTree}}',
 	'configure-setting-wgProfileLimit' => '{{config-wg|ProfileLimit}}',
 	'configure-setting-wgProfileOnly' => '{{config-wg|ProfileOnly}}',
@@ -12256,7 +12278,7 @@ $messages['ja'] = array(
 	'configure-setting-wgActionPaths-key' => '操作',
 	'configure-setting-wgActionPaths-value' => 'URLの雛形',
 	'configure-setting-wgAllDBsAreLocalhost' => 'すべてのデータベースコネクションをローカルホストに向けて無言で書き換える',
-	'configure-setting-wgDBAvgStatusPoll' => '過負荷環境での SHOW STATUS クエリー間の平均時間',
+	'configure-setting-wgDBAvgStatusPoll' => '過負荷環境での SHOW STATUS クエリ間の平均時間',
 	'configure-setting-wgDBerrorLog' => 'データベースエラーを記録するファイル',
 	'configure-setting-wgDBname' => '使用するデータベースの名前',
 	'configure-setting-wgDBpassword' => '$wgDBuser のパスワード',
@@ -12299,7 +12321,7 @@ $messages['ja'] = array(
 	'configure-setting-wgClockSkewFudge' => 'クロックスキュー調整のためにキャッシュのタイムスタンプに加える時間をごまかす',
 	'configure-setting-wgInvalidateCacheOnLocalSettingsChange' => 'LocalSettings.php変更時に、多数のキャッシュを無効化',
 	'configure-setting-wgFileCacheDirectory' => 'ファイルキャッシュのディレクトリ',
-	'configure-setting-wgFileCacheDepth' => 'サブディレクトリの階層は、<code>$wgFileCacheDirectory</code>以下で作成できます',
+	'configure-setting-wgFileCacheDepth' => '<code>$wgFileCacheDirectory</code> に作成できるサブディレクトリの階層の深さ',
 	'configure-setting-wgForcedRawSMaxage' => 'CSS/JS の生のアクセスに対する既定の最大寿命',
 	'configure-setting-wgQueryCacheLimit' => 'querycache テーブルにキャッシュする行の数',
 	'configure-setting-wgRevisionCacheExpiry' => '特定版の memcached によるキャッシュの期限 (0なら無効化)',
@@ -12443,7 +12465,7 @@ $messages['ja'] = array(
 	'configure-setting-wgUserEmailConfirmationTokenExpiry' => 'メールで送信された確認コードが切れるまでの秒数',
 	'configure-setting-wgAPIRequestLog' => 'API 要求のログファイル',
 	'configure-setting-wgDebugComments' => 'ログ出力の一部をページのHTMLコメントに含める',
-	'configure-setting-wgDebugDumpSql' => 'SQLクエリーをデバッグ出力にダンプする',
+	'configure-setting-wgDebugDumpSql' => 'SQL クエリをデバッグ出力にダンプする',
 	'configure-setting-wgDebugLogFile' => 'デバッグログファイル',
 	'configure-setting-wgDebugLogGroups' => '特定のロググループ用ログファイル',
 	'configure-setting-wgDebugLogGroups-key' => 'ロググループ',
@@ -12470,7 +12492,7 @@ $messages['ja'] = array(
 	'configure-setting-wgDBtestpassword' => '$wgDBtestuserのパスワード',
 	'configure-setting-wgJavaScriptTestConfig' => 'JavaScript のテストの設定',
 	'configure-setting-wgAPICacheHelpTimeout' => 'API ヘルプ文キャッシュの有効期限',
-	'configure-setting-wgAPIMaxDBRows' => 'APIのデータベースクエリーで走査される行の最大数',
+	'configure-setting-wgAPIMaxDBRows' => 'API のデータベースクエリで走査される行の最大数',
 	'configure-setting-wgAPIMaxResultSize' => 'APIによる出力結果の最大サイズ (バイト)',
 	'configure-setting-wgAPIMaxUncachedDiffs' => 'APIによる一回の要求で取得できる、未キャッシュの差分の最大数',
 	'configure-setting-wgDisableQueryPages' => '$wgMiserMode が真の場合に、一部ではなくすべての問い合わせページを無効化する',
@@ -12638,7 +12660,7 @@ $messages['ja'] = array(
 	'configure-setting-wgMaxShellMemory' => 'Linux 上でシェルプロセスが利用可能な仮想記憶の最大容量 (KB)',
 	'configure-setting-wgMaxShellTime' => 'Linux 上でのシェルプロセスの最大CPU時間 (秒)',
 	'configure-setting-wgShellLocale' => '<code>LC_CTYPE</code> 用のロケール',
-	'configure-setting-wgUpdateRowsPerQuery' => 'クエリーのたびに更新する行の数',
+	'configure-setting-wgUpdateRowsPerQuery' => 'クエリのたびに更新する行の数',
 	'configure-setting-wgUseAutomaticEditSummaries' => '自動的な編集要約の生成を行う',
 	'configure-setting-wgUseTrackbacks' => 'トラックバックを使用',
 	'configure-setting-wgUseTagFilter' => '{{int:recentchanges}}や履歴画面などで、編集をタグによって絞り込むことができるようにする',
