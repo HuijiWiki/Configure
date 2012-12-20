@@ -12879,8 +12879,11 @@ $messages['ja'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'configure-setting-wgSitename' => 'ვებ-გვერდის სახელი',
 	'configure-setting-wgActionPaths-key' => 'მოქმედება',
+	'configure-setting-wgActionPaths-value' => 'თარგის URL',
 	'configure-setting-wgMediaHandlers-key' => 'MIME ტიპი',
+	'configure-setting-wgLanguageCode' => 'ვებ-გვერდის ენის კოდი',
 	'configure-setting-wgArticleRobotPolicies-key' => 'გვერდის სათაური',
 	'configure-setting-wgArticleRobotPolicies-value' => 'რობოტების წესები',
 	'configure-setting-wgExtraLanguageNames-key' => 'ენის კოდი',
@@ -12903,6 +12906,8 @@ $messages['ka'] = array(
 	'configure-setting-wgSVGConverters' => 'SVG კონვერტორები',
 	'configure-setting-wgXMLMimeTypes-key' => 'MIME ტიპი',
 	'configure-setting-wgMimeType' => 'ვიკი-გვერდების MIME ტიპი',
+	'configure-setting-wgXhtmlDefaultNamespace' => 'XHTML-ის საწყისი სახელთა სივრცეები',
+	'configure-setting-wgXhtmlNamespaces' => 'XHTML-ის სხვა სახელთა სივრცეები',
 	'configure-setting-wgXhtmlNamespaces-key' => 'სახელთა სივრცე',
 	'configure-setting-wgLocaltimezone' => 'ადგილობრივი სასაათო სარტყელი',
 	'configure-setting-wgLocalTZoffset' => 'სასაათო სარტყლის გადაწევა',
@@ -19515,7 +19520,7 @@ $messages['pt-br'] = array(
 	'configure-setting-wgUseSiteJs' => 'Usar a página JavaScript do site',
 	'configure-setting-wgHandheldStyle' => 'Estilo para media="handheld"',
 	'configure-setting-wgHandheldForIPhone' => "Aplicar os tipos multimídia 'screen' e 'handheld' ao iPhone",
-	'configure-setting-wgResourceLoaderDebug' => 'Debug para pedidos do Carregador de Recursos', # Fuzzy
+	'configure-setting-wgResourceLoaderDebug' => 'Ativar depuração de requisições do ResourceLoader',
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'Incorporar módulos privados em linha com saída HTML',
 	'configure-setting-wgResourceLoaderMaxage' => 'Período máximo, em segundos, para manter em cache os recursos servidos pelo carregador de recursos',
 	'configure-setting-wgResourceLoaderUseESI' => 'Possibilitar a incorporação de certos recursos usando Edge Side Includes',
