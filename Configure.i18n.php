@@ -1193,6 +1193,7 @@ $messages['azb'] = array(
 /** Bashkir (башҡортса)
  * @author Haqmar
  * @author Roustammr
+ * @author Sagan
  */
 $messages['ba'] = array(
 	'configure-desc-group' => 'Төркөм',
@@ -1223,7 +1224,7 @@ $messages['ba'] = array(
 	'configure-section-cache' => 'Кэш',
 	'configure-section-pcache' => 'Парсер кэшы',
 	'configure-section-messagecache' => 'Хәбәрҙәр кэшы',
-	'configure-section-access' => 'Ирешеү',
+	'configure-section-access' => 'Инеү мөмкинлеге',
 	'configure-section-groups' => 'Төркөмдәр',
 	'configure-section-block' => 'Блоклауҙар',
 	'configure-section-rates' => 'Тиҙлек сикләүҙәре',
@@ -1463,6 +1464,7 @@ $messages['be-tarask'] = array(
 
 /** Bulgarian (български)
  * @author DCLXVI
+ * @author පසිඳු කාවින්ද
  */
 $messages['bg'] = array(
 	'configure' => 'Конфигуриране на уикито',
@@ -1504,6 +1506,7 @@ $messages['bg'] = array(
 	'configure-old' => 'Стари версии',
 	'configure-old-versions' => 'Списък със стари версии на конфигурацията:',
 	'configure-old-not-available' => 'Поисканата стара версия на настройките, $1, не беше намерена',
+	'configure-old-changes' => 'промени',
 	'configure-saved' => 'Настройките бяха съхранени',
 	'configure-backlink' => 'Връщане към формуляра',
 	'configure-section-general' => 'Основни настройки',
@@ -1528,6 +1531,7 @@ $messages['bg'] = array(
 	'configure-section-block' => 'Блокирания',
 	'configure-section-proxy' => 'Проксита',
 	'configure-section-cookie' => 'Бисквитки',
+	'configure-section-performance' => 'Производителност',
 	'configure-section-upload' => 'Качване',
 	'configure-section-sharedupload' => 'Споделено качване',
 	'configure-section-mime' => 'MIME типове',
@@ -6171,11 +6175,24 @@ $messages['io'] = array(
 /** Icelandic (íslenska)
  * @author S.Örvarr.S
  * @author Spacebirdy
+ * @author පසිඳු කාවින්ද
  */
 $messages['is'] = array(
+	'configure-desc-group' => 'Hópur',
 	'configure-desc-ns' => 'Nafnrými', # Fuzzy
+	'configure-desc-val' => 'Gildi',
+	'configure-ext-settings' => 'Stillingar',
+	'configure-form-reason' => 'Ástæða:',
+	'configure-js-remove' => 'Eyða',
+	'configure-section-email' => 'Netfang',
 	'configure-section-namespaces' => 'Nafnrými',
+	'configure-section-search' => 'Leita',
+	'configure-select-wiki-submit' => 'Velja',
+	'configure-view' => 'Skoða',
+	'configure-throttle-action-edit' => 'Breyta',
+	'configure-throttle-action-move' => 'Færa',
 	'configure-throttle-action-emailuser' => 'Senda tölvupóst',
+	'configure-throttle-group' => 'Tegund',
 );
 
 /** Italian (italiano)
@@ -7903,28 +7920,40 @@ $messages['lt'] = array(
 	'configure-old-summary' => '$1 pagal $2 $4 $3',
 	'configure-saved' => 'Konfigūracija išsaugota',
 	'configure-backlink' => 'Grįžti į formą',
+	'configure-section-general' => 'Bendrieji parametrai',
 	'configure-section-pages' => 'Puslapiai',
 	'configure-section-db' => 'Duomenų bazė',
 	'configure-section-email' => 'El. paštas',
+	'configure-section-enotif' => 'El. pašto pranešimas',
 	'configure-section-timezone' => 'Laiko zona',
 	'configure-section-css-js' => 'CSS ir JavaScript',
 	'configure-section-stats' => 'Puslapio statistika',
+	'configure-section-skin' => 'Išvaizda',
 	'configure-section-category' => 'Kategorijos',
 	'configure-section-interwiki' => 'InterViki',
+	'configure-section-access' => 'Prieiga',
 	'configure-section-groups' => 'Grupės',
+	'configure-section-cookie' => 'Slapukai',
+	'configure-section-test' => 'Testai',
 	'configure-section-upload' => 'Įkelti',
 	'configure-section-images' => 'Vaizdai',
 	'configure-section-users' => 'Naudotojai',
+	'configure-section-job' => 'Darbai',
 	'configure-section-search' => 'Ieškoti',
 	'configure-section-copyright' => 'Autorinės teisės',
 	'configure-section-htcp' => 'HTCP protokolo perdavimas',
 	'configure-section-misc' => 'Įvairūs nustatymai',
+	'configure-section-output' => 'Išvestis',
+	'configure-select-wiki' => 'Viki pasirinkimas',
+	'configure-select-wiki-desc' => 'Pažymėkite norimą konfigūruoti viki.',
 	'configure-select-wiki-view-all' => 'Visos wiki',
 	'configure-select-wiki-submit' => 'Pasirinkti',
 	'configure-view' => 'Žiūrėti',
 	'configure-view-all-versions' => 'Visas sąrašas versijų',
 	'configure-throttle-action-edit' => 'Redaguoti',
 	'configure-throttle-action-move' => 'Perkelti',
+	'configure-throttle-action-rollback' => 'Atmesti',
+	'configure-throttle-action-mailpassword' => 'Siųsti slaptažodžio priminimą',
 	'configure-throttle-action-emailuser' => 'Siųsti laišką',
 	'configure-throttle-group-anon' => 'Visi anoniminiai vartotojai',
 	'configure-throttle-count' => 'Leidžiami veiksmai:',
@@ -7937,6 +7966,7 @@ $messages['lt'] = array(
 	'configure-condition-operator-or' => 'Arba',
 	'configure-condition-operator-and' => 'Ir',
 	'configure-condition-operator-not' => 'Ne',
+	'configure-condition-name' => 'Sąlygos',
 	'configure-condition-requirement' => 'Reikalavimai',
 	'configure-condition-name-2' => 'Minimalus amžius',
 	'configure-condition-name-3' => 'El. paštas patvirtintas',
@@ -8770,7 +8800,7 @@ Huwa neċessarju li toħloq jew tbiddlu sabiex tuża din l-etensjoni.',
 	'configure-section-email' => 'E-mail',
 	'configure-section-enotif' => 'Noitifika permezz tal-posta elettronika',
 	'configure-section-localization' => 'Lokalizzazzjoni',
-	'configure-section-timezone' => 'Żon tal-ħin',
+	'configure-section-timezone' => 'Żona tal-ħin',
 	'configure-section-debug' => 'Iddibaggjar',
 	'configure-section-site' => 'Personalizzazzjoni tas-sit',
 	'configure-section-css-js' => 'CSS u JavaScript',
@@ -11262,6 +11292,7 @@ $messages['scn'] = array(
 );
 
 /** Sinhala (සිංහල)
+ * @author Singhalawap
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
@@ -11313,7 +11344,7 @@ $messages['si'] = array(
 	'configure-section-access' => 'ප්‍රවේශය',
 	'configure-section-groups' => 'කාණ්ඩ',
 	'configure-section-block' => 'වාරණ',
-	'configure-section-rates' => 'අනුපාත සීමාවන්',
+	'configure-section-rates' => 'රේට් සීමා',
 	'configure-section-proxy' => 'පෙරකලාසි',
 	'configure-section-cookie' => 'කුකීස්',
 	'configure-section-performance' => 'ක්‍රියාකාරිත්වය',
@@ -11368,7 +11399,7 @@ $messages['si'] = array(
 	'configure-condition-requirement' => 'අවශ්‍යතාවය',
 	'configure-condition-name-2' => 'අවම වයස',
 	'configure-condition-name-3' => 'විද්‍යුත් තැපෑල තහවුරු කරන ලදී',
-	'configure-condition-name-4' => 'සමූහයන් හී',
+	'configure-condition-name-4' => 'සමූහයන්හි',
 	'configure-condition-description-3' => 'විද්‍යුත් තැපෑල තහවුරු කරන ලදී',
 );
 
@@ -12455,6 +12486,7 @@ $messages['sw'] = array(
 
 /** Tamil (தமிழ்)
  * @author Karthi.dr
+ * @author Shanmugamp7
  * @author TRYPPN
  * @author மதனாஹரன்
  */
@@ -12495,25 +12527,37 @@ $messages['ta'] = array(
 	'configure-section-enotif' => 'மின்னஞ்சல் அறிவிப்புகள்',
 	'configure-section-timezone' => 'நேர வலயம்',
 	'configure-section-debug' => 'வழு நீக்கல்',
+	'configure-section-css-js' => 'சிஎஸ்எஸ் மற்றும் ஜாவஸ்கிரிப்ட்',
 	'configure-section-namespaces' => 'பெயர்வெளிகள்',
 	'configure-section-stats' => 'தளப் புள்ளிவிவரம்',
 	'configure-section-skin' => 'தோல்கள்',
+	'configure-section-vector' => 'வெக்டார் தோல்',
 	'configure-section-category' => 'பகுப்புக்கள்',
 	'configure-section-cache' => 'இடைமாற்று',
+	'configure-section-access' => 'அணுகல்',
 	'configure-section-groups' => 'குழுக்கள்',
+	'configure-section-block' => 'தடைகள்',
+	'configure-section-rates' => 'விகித வரம்புகள்',
 	'configure-section-cookie' => 'குக்கிகள்',
+	'configure-section-performance' => 'செயல்திறன்',
 	'configure-section-test' => 'சோதனைகள்',
 	'configure-section-upload' => 'பதிவேற்று',
+	'configure-section-sharedupload' => 'பகிரப்பட்ட பதிவேற்றம்',
+	'configure-section-mime' => 'MIME வகைகள்',
 	'configure-section-images' => 'கோப்புக்கள்',
 	'configure-section-antivirus' => 'நச்சுநிரல் தடுப்பி',
 	'configure-section-specialpages' => 'சிறப்புப் பக்கங்கள்',
 	'configure-section-recentchanges' => 'அண்மைய மாற்றங்கள்',
 	'configure-section-users' => 'பயனர்கள்',
 	'configure-section-feed' => 'ஓடை',
+	'configure-section-job' => 'வேலைகள்',
 	'configure-section-search' => 'தேடுக',
 	'configure-section-copyright' => 'பதிப்புரிமை',
+	'configure-section-misc' => 'மற்றவைகள்',
 	'configure-section-mw-extensions' => 'மீடியாவிக்கி நீட்சிகள்',
+	'configure-section-external-tools' => 'வெளி கருவிகள்',
 	'configure-section-output' => 'வெளியீடு',
+	'configure-select-wiki' => 'விக்கி தேர்வு',
 	'configure-select-wiki-view-all' => 'எல்லா விக்கிகள்',
 	'configure-select-wiki-view-specific' => 'குறிப்பிட்ட விக்கி:',
 	'configure-select-wiki-submit' => 'தேர்வு செய்',
@@ -12531,17 +12575,28 @@ $messages['ta'] = array(
 	'viewconfig' => 'விக்கி அமைப்புவடிவாக்கத்தைப் பார்',
 	'configure-throttle-action-edit' => 'தொகு',
 	'configure-throttle-action-move' => 'நகர்த்தவும்',
+	'configure-throttle-action-rollback' => 'முன்நிலையாக்கு',
 	'configure-throttle-action-mailpassword' => 'கடவுச்சொல் நினைவூட்டியை அனுப்பு',
 	'configure-throttle-action-emailuser' => 'அஞ்சலை அனுப்பவும்',
 	'configure-throttle-group-anon' => 'அனைத்து அடையாளம் காட்டாத பயனர்கள்',
+	'configure-throttle-group-user' => 'பயனர் கணக்கின் படி',
+	'configure-throttle-group-newbie' => 'புதிய பயனர் கணக்கின் படி',
+	'configure-throttle-group-ip' => 'ஐபி முகவரிப் படி',
+	'configure-throttle-count' => 'அனுமதிக்கப்பட்ட செயல்கள்:',
+	'configure-throttle-period' => 'மீட்மைத்தல் காலம் (வினாடிகள்) :',
 	'configure-throttle-summary' => '$2 நொடிகளில் $1 செயல்கள்.',
 	'configure-throttle-group' => 'வகை',
 	'configure-throttle-limit' => 'வரம்பு',
 	'configure-throttle-none' => 'வரம்பு இல்லை',
+	'configure-condition-operator' => 'செயலி:',
 	'configure-condition-operator-or' => 'அல்லது',
 	'configure-condition-operator-and' => 'மற்றும்',
 	'configure-condition-operator-xor' => 'விலக்கும் அல்லது',
 	'configure-condition-operator-not' => 'அல்லாதது',
+	'configure-condition-name' => 'நிபந்தனை',
+	'configure-condition-requirement' => 'தேவை',
+	'configure-condition-name-1' => 'மிகக்குறைந்த தொகுப்பு எண்ணிக்கை',
+	'configure-condition-name-2' => 'குறைந்தபட்ச வயது:',
 	'configure-condition-name-3' => 'மின்னஞ்சல் உறுதி செய்யப்பட்டது',
 	'configure-condition-name-4' => 'குழுக்களில்',
 	'configure-condition-name-5' => 'பயனரின் ஐ.பி. முகவரி',

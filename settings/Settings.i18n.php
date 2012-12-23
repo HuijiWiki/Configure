@@ -5010,6 +5010,7 @@ $messages['da'] = array(
 	'configure-setting-wgDBport' => 'Port for databaseserveren',
 	'configure-setting-wgDBtype' => 'Databasetypen, der skal anvendes',
 	'configure-setting-wgDBadminuser' => 'Brugernavn for databaseadministratoren',
+	'configure-setting-wgAllowImageMoving' => 'Aktiver omdøbning af filer',
 	'configure-setting-wgShowEXIF' => 'Vis EXIF-data på filbeskrivelsessider',
 	'configure-setting-wgUseFileCache' => 'Brug filcachen',
 	'configure-setting-wgUseGzip' => 'Anvend GZIP-kodning',
@@ -5025,6 +5026,7 @@ $messages['da'] = array(
 	'configure-setting-wgFileBlacklist' => 'Forbudte filendelser',
 	'configure-setting-wgFileExtensions' => 'Foretrukne filendelser',
 	'configure-setting-wgVersion' => 'MediaWiki-version',
+	'configure-setting-wgEnableAPI' => 'Aktiver API',
 	'configure-setting-wgSMTP' => 'SMTP-server',
 	'configure-setting-wgDebugLogGroups-value' => 'Fil',
 	'configure-setting-wgDBtestpassword' => 'Adgangskode for $wgDBtestuser',
@@ -5033,16 +5035,24 @@ $messages['da'] = array(
 	'configure-setting-wgSessionName' => 'Sessionsnavn',
 	'configure-setting-wgUseSquid' => 'Anvend Squid',
 	'configure-setting-wgSQLMode' => 'SQL-tilstand',
+	'configure-setting-wgValidSkinNames-key' => 'Internt navn',
 	'configure-setting-wgNamespacesWithSubpages' => 'Navnerum med undersider',
 	'configure-setting-wgRightsIcon' => 'Ophavsretsikon',
 	'configure-setting-wgAllowRealName' => 'Tillad virkelige navne',
 	'configure-setting-wgMaxNameChars' => 'Maksimalt antal bytes i brugernavn',
 	'configure-setting-wgMinimalPasswordLength' => 'Minimumslængde på adgangskode',
+	'configure-setting-wgAntivirusSetup' => 'Opsætning af virusscanner',
 	'configure-setting-wgAllowTitlesInSVG' => 'Tillad titler i SVG-filer',
 	'configure-setting-wgImageMagickConvertCommand' => 'ImageMagick-kommando',
 	'configure-setting-wgUseImageMagick' => 'Brug ImageMagick',
 	'configure-setting-wgXhtmlNamespaces-key' => 'Navnerum',
 	'configure-setting-wgLocaltimezone' => 'Lokal tidszone',
+	'configure-setting-wgUseAjax' => 'Aktiver AJAX',
+	'configure-setting-wgLivePreview' => 'Aktiver live-visning',
+	'configure-setting-wgSharedUploadDBname' => 'Database for delte overførsler',
+	'configure-setting-wgLogo' => 'URL-adressen på webstedslogoet',
+	'configure-setting-wgLoadScript' => 'URL-adressen på load.php',
+	'configure-setting-wgScript' => 'URL-adressen på index.php',
 );
 
 /** German (Deutsch)
@@ -6762,6 +6772,7 @@ $messages['fa'] = array(
  * @author Olli
  * @author Silvonen
  * @author Str4nd
+ * @author Stryn
  * @author Vililikku
  */
 $messages['fi'] = array(
@@ -6902,6 +6913,7 @@ $messages['fi'] = array(
 	'configure-setting-wgNamespaceProtection' => 'Nimiavaruussuojaus',
 	'configure-setting-wgNamespaceRobotPolicies' => 'Nimiavaruuskohtaiset hakurobottikäytännöt',
 	'configure-setting-wgNamespaceRobotPolicies-value' => 'Hakurobottikäytännöt',
+	'configure-setting-wgCategoryMagicGallery' => 'Näytä pienoiskuvagalleria luokkasivuilla',
 	'configure-setting-wgUseCategoryBrowser' => 'Salli luokkaselain',
 	'configure-setting-wgCopyrightIcon' => 'Tekijänoikeuskuvakkeen HTML',
 	'configure-setting-wgEnableDublinCoreRdf' => 'Käytä RDF-metatietoja',
@@ -11933,6 +11945,15 @@ $messages['inh'] = array(
 	'configure-setting-wgExtraLanguageNames-value' => 'ЦӀи',
 );
 
+/** Icelandic (íslenska)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['is'] = array(
+	'configure-setting-wgExtraLanguageNames-value' => 'Nafn',
+	'configure-setting-wgSpecialPageGroups-key' => 'Hópur',
+	'configure-setting-wgDebugLogGroups-value' => 'Skrá',
+);
+
 /** Italian (italiano)
  * @author Beta16
  * @author Darth Kule
@@ -14367,6 +14388,12 @@ $messages['lt'] = array(
 	'configure-setting-wgSMTP' => 'SMTP serveris',
 	'configure-setting-wgDebugLogGroups-value' => 'Failas',
 	'configure-setting-wgSessionName' => 'Seanso pavadinimas',
+	'configure-setting-wgMinimalPasswordLength' => 'Minimalus slaptažodžio ilgis',
+	'configure-setting-wgSecretKey' => 'Slaptas raktas',
+	'configure-setting-wgXMLMimeTypes-key' => 'MIME tipas',
+	'configure-setting-wgUseAjax' => 'Įgalinti AJAX',
+	'configure-setting-wgFavicon' => 'Favicon svetainės URL',
+	'configure-setting-wgLogo' => 'Svetainės logotipo URL',
 );
 
 /** Latgalian (latgaļu)
@@ -15391,6 +15418,8 @@ $messages['ms'] = array(
 	'configure-setting-wgDebugTimestamps' => 'Berikan awalan cop masa nisbi untuk mesej nyahpepijat',
 	'configure-setting-wgDebugToolbar' => 'Paparkan palang alat penyahpepijatan',
 	'configure-setting-wgDevelopmentWarnings' => 'Buang pemberitahuan PHP untuk sesetengah syarat ralat yang berkemungkinan dan untuk fungsi yang dilupuskan',
+	'configure-setting-wgDeprecationReleaseLimit' => 'Had keluaran untuk amaran pelapukan',
+	'configure-setting-wgShowExceptionDetails' => 'Cetak surihan tindanan yang lengkap untuk pengecualian',
 	'configure-setting-wgStatsMethod' => 'Destinasi untuk data wfIncrStats()',
 	'configure-setting-wgAggregateStatsID' => 'ID untuk pengagregatan statistik',
 	'configure-setting-wgDBtestpassword' => 'Kata laluan untuk $wgDBtestuser',
@@ -15433,6 +15462,12 @@ $messages['ms'] = array(
 	'configure-setting-wgValidSkinNames-key' => 'Nama dalaman',
 	'configure-setting-wgValidSkinNames-value' => 'Nama paparan',
 	'configure-setting-wgVectorUseIconWatch' => 'Pantau dan nyahpantau sebagai ikon dan bukan pautan',
+	'configure-setting-wgExtraNamespaces-key' => 'ID ruang nama',
+	'configure-setting-wgMetaNamespace' => 'Nama ruang nama projek',
+	'configure-setting-wgMetaNamespaceTalk' => 'Nama ruang nama perbualan projek',
+	'configure-setting-wgNamespaceAliases' => 'Lencongan ruang nama',
+	'configure-setting-wgNamespaceAliases-key' => 'Nama alias',
+	'configure-setting-wgNamespaceAliases-value' => 'ID ruang nama sasaran',
 );
 
 /** Maltese (Malti)
@@ -15469,6 +15504,10 @@ $messages['mt'] = array(
 	'configure-setting-wgExtraLanguageNames-value' => 'Isem',
 	'configure-setting-wgMaxArticleSize' => 'Daqs massimu tal-paġna (kB)',
 	'configure-setting-wgNoFollowLinks' => 'Żid rel="nofollow" lill-ħoloq',
+	'configure-setting-wgSpecialPageGroups-key' => 'Grupp',
+	'configure-setting-wgAutopromote-value' => 'Kundizzjonijiet:',
+	'configure-setting-wgAccountCreationThrottle' => "Numru ta' kontijiet kull indirizz IP jista' joħloq",
+	'configure-setting-wgNewPasswordExpiry' => "Il-ħin, f'sekondi, għall-iskadenza ta' password temporanja mibgħuta permezz tal-ittre",
 	'configure-setting-wgDebugLogGroups-value' => 'Fajl',
 );
 
@@ -18177,7 +18216,9 @@ $messages['pl'] = array(
 	'configure-setting-wgNewUserLog' => 'Prowadź rejestr nowych użytkowników',
 	'configure-setting-wgPasswordResetRoutes' => 'Możliwe sposoby odzyskania zapomnianego hasła lub nazwy użytkownika',
 	'configure-setting-wgReservedUsernames' => 'Nazwy kont zarezerwowane dla oprogramowania',
+	'configure-setting-wgShowIPinHeader' => 'Pokaż adres IP w pasku użytkownika',
 	'configure-setting-wgBrowserBlackList' => 'Czarna lista przeglądarek nieobsługujących standardu Unicode',
+	'configure-setting-wgAntiLockFlags' => 'Flagi przeciwdziałania blokadom',
 	'configure-setting-wgSend404Code' => 'Wysyłaj kod stanu HTTP 404 "nie znaleziono" dla nieistniejących stron',
 	'configure-setting-wgDBmysql5' => 'Używaj kodowania UTF‐8',
 	'configure-setting-wgDBprefix' => 'Przedrostek nazwy tabel',
@@ -20909,6 +20950,7 @@ $messages['si'] = array(
 	'configure-setting-wgSQLMode' => 'SQL ආකාරය',
 	'configure-setting-wgValidSkinNames-key' => 'අභ්‍යන්තර නාමය',
 	'configure-setting-wgValidSkinNames-value' => 'ප්‍රදර්ශන නාමය',
+	'configure-setting-wgExtraNamespaces-value' => 'නාමඅවකාශයේ නම',
 	'configure-setting-wgRightsIcon' => 'කතුහිමිකම් අයිකනය',
 	'configure-setting-wgAllowRealName' => 'සැබෑ නම් වලට ඉඩදෙන්න',
 	'configure-setting-wgAllowPrefChange-key' => 'පරිශීලක අභිරුචිය',
@@ -22799,6 +22841,7 @@ $messages['sw'] = array(
 
 /** Tamil (தமிழ்)
  * @author Karthi.dr
+ * @author Shanmugamp7
  * @author TRYPPN
  * @author மதனாஹரன்
  */
@@ -22811,8 +22854,10 @@ $messages['ta'] = array(
 	'configure-setting-wgAllowImageMoving' => 'கோப்புப் பெயர்மாற்றத்தைச் செயல்படுத்து',
 	'configure-setting-wgIgnoreImageErrors' => 'படங்களுக்கான பிழைச் செய்திகளைக் காட்டாதே',
 	'configure-setting-wgIllegalFileChars' => 'கோப்புப் பெயர்களில் தவறான எழுத்துகள்',
+	'configure-setting-wgMediaHandlers-key' => 'MIME வகை',
 	'configure-setting-wgUseFileCache' => 'கோப்பு இடைமாற்றைப் பயன்படுத்து',
 	'configure-setting-wgInterwikiMagic' => 'விக்கியிடை இணைப்புகளைச் சிறப்புப் பட்டியல் ஒன்றில் காட்டு',
+	'configure-setting-wgLanguageCode' => 'தள மொழிக் குறியீடு',
 	'configure-setting-wgTranslateNumerals' => 'எண்களை எழுத்துப்பெயர்ப்பு செய்',
 	'configure-setting-wgArticleRobotPolicies-key' => 'பக்கத்தின் தலைப்பு',
 	'configure-setting-wgArticleRobotPolicies-value' => 'தானியங்கி கொள்கை',
@@ -23992,9 +24037,12 @@ $messages['uk'] = array(
 	'configure-setting-wgEnableUploads' => 'Дозволити завантаження файлів',
 	'configure-setting-wgUploadMaintenance' => 'Тимчасово відключити вилучення/відновлення файлів',
 	'configure-setting-wgFileBlacklist' => 'Заборонені розширення файлів',
+	'configure-setting-wgFileExtensions' => 'Бажані розширення файлів',
 	'configure-setting-wgFileStore' => 'Де зберігати видалені файли',
 	'configure-setting-wgHashedUploadDirectory' => 'Використовувати для завантажень хешовані папки',
 	'configure-setting-wgLocalFileRepo' => 'Локальне сховище файлів',
+	'configure-setting-wgStrictFileExtensions' => 'Заборонити будя які небажані розширення файлів',
+	'configure-setting-wgUploadSizeWarning' => 'Сповіщати про поріг розміру завантаження',
 	'configure-setting-wgMaxUploadSize' => 'Максимально допустимий розмір файлів, що завантажуються',
 	'configure-setting-wgUploadStashMaxAge' => 'Максимальний вік тимчасових (не завершених) завантажених файлів, у секундах',
 	'configure-setting-wgHTTPTimeout' => 'Тайм-аут для HTTP-запитів',
@@ -24017,9 +24065,35 @@ $messages['uk'] = array(
 	'configure-setting-wgAutopromote-value' => 'Умови',
 	'configure-setting-wgDisabledActions' => 'Заборонені дії з сторінками',
 	'configure-setting-wgEnableAPI' => 'Включити API',
+	'configure-setting-wgEnableWriteAPI' => 'Увімкнути API для запису',
+	'configure-setting-wgImplicitGroups' => 'Групи, які не показуються на [[Special:ListUsers]] і інших сторінках',
+	'configure-setting-wgPasswordAttemptThrottle' => 'Обмеження спроб підбору пароля',
+	'configure-setting-wgPasswordSalt' => 'Завади до викрадення паролів',
+	'configure-setting-wgReadOnly' => 'Заборонити редагування, відображати рядок, у якому вказано причину',
+	'configure-setting-wgReadOnlyFile' => 'Файл із причиною блокування бази даних',
+	'configure-setting-wgRestrictionTypes' => 'Дії, які може бути обмежено',
+	'configure-setting-wgSpamRegex' => 'Регулярні вирази спам-фільтру',
+	'configure-setting-wgSummarySpamRegex' => 'Регулярні вирази спам-фільтру для коротких описів правок',
+	'configure-setting-wgWhitelistRead' => 'Сторінки, які можуть бачити анонімні користувачі',
+	'configure-setting-wgEmailAuthentication' => 'Вимагати підтвердження адреси електронної пошти для функцій, що її використовують',
+	'configure-setting-wgEmergencyContact' => 'Адреса електронної пошти адміністратору сайту',
+	'configure-setting-wgEnableEmail' => 'Увімкнути функції, що використовують електронну пошту',
+	'configure-setting-wgEnableUserEmail' => 'Увімкнутиелектронну пошту користувач-до-користувача',
+	'configure-setting-wgNoReplyAddress' => 'Фіктивна адреса, яка повинна бути прийнята під час відправки електронної пошти',
+	'configure-setting-wgPasswordSender' => 'Адреса електронної пошти для нагадування пароля',
+	'configure-setting-wgPasswordSenderName' => "Ім'я нагадувача пароля",
+	'configure-setting-wgPasswordReminderResendTime' => 'Мінімальний час, у годинах, який повинен пройти між нагадуваннями пароля',
+	'configure-setting-wgAdditionalMailParams' => 'Додаткові параметри електронної пошти, яку буде передано в якості останнього аргументу виклику PHP-функції mail()',
 	'configure-setting-wgSMTP' => 'SMTP-сервер',
+	'configure-setting-wgUserEmailUseReplyTo' => 'Використовувати Reply-To замість From',
+	'configure-setting-wgUserEmailConfirmationTokenExpiry' => 'Час у секундах терміну дії коду підтвердження надісланого на електронну пошту',
+	'configure-setting-wgAPIRequestLog' => 'Файл журналу для API-запитів',
+	'configure-setting-wgDebugComments' => 'Включати частини виводу журналу у вигляді HTML-коментарів',
+	'configure-setting-wgDebugDumpSql' => 'Дамп SQL-запитів для відладки',
 	'configure-setting-wgDebugLogFile' => 'Файлу журналу відладки',
 	'configure-setting-wgDebugLogGroups-value' => 'Файл',
+	'configure-setting-wgCookieExpiration' => 'Термін дії HTTP cookie',
+	'configure-setting-wgCookieHttpOnly' => 'Встановити cookies аутентифікацію на httpOnly',
 	'configure-setting-wgRateLimitLog' => 'Журнал обмежень швидкості',
 	'configure-setting-wgRateLimits' => 'Обмеження швидкості',
 	'configure-setting-wgActiveUserDays' => 'Час, пысля якого користувач вважається неактивним',
