@@ -6715,6 +6715,7 @@ $messages['et'] = array(
 	'configure-setting-wgNamespaceAliases-value' => 'Sihtnimeruumi ID',
 	'configure-setting-wgNamespaceProtection' => 'Nimeruumi kaitse',
 	'configure-setting-wgRightsIcon' => 'Autoriõiguse ikoon',
+	'configure-setting-wgAllowRealName' => 'Luba pärisnimed',
 	'configure-setting-wgAllowPrefChange-key' => 'Kasutaja eelistused',
 	'configure-setting-wgDefaultUserOptions' => 'Kasutaja vaike-eelistused',
 	'configure-setting-wgMinimalPasswordLength' => 'Parooli vähim pikkus',
@@ -20233,7 +20234,7 @@ $messages['ro'] = array(
 	'configure-setting-wgActionPaths-value' => 'Format adresă',
 	'configure-setting-wgDBname' => 'Numele bazei de date de utilizat',
 	'configure-setting-wgDBport' => 'Port pentru serverul bazei de date',
-	'configure-setting-wgDBserver' => 'Nume gazdă sau adresa IP a serverului bazei de date',
+	'configure-setting-wgDBserver' => 'Numele gazdei sau adresa IP a serverului bazei de date',
 	'configure-setting-wgDBtype' => 'Tipul bazei de date de utilizat',
 	'configure-setting-wgDBuser' => 'Nume de utilizator pentru autentificare în baza de date',
 	'configure-setting-wgAllowImageMoving' => 'Activează redenumirea fișierelor',
@@ -21207,6 +21208,7 @@ $messages['si'] = array(
 	'configure-setting-wgLoadScript' => 'load.php හී URL',
 	'configure-setting-wgScript' => 'index.php හී URL',
 	'configure-setting-wgScriptPath' => 'පදනම් URL පථය',
+	'configure-setting-wgServer' => 'සර්වරයේ පාදක URL',
 	'configure-setting-wgUploadPath' => 'උඩුගතකෙරුම් නාමාවලියේ URL',
 );
 
@@ -23078,8 +23080,21 @@ $messages['sv'] = array(
 
 /** Swahili (Kiswahili)
  * @author Lloffiwr
+ * @author Stephenwanjau
  */
 $messages['sw'] = array(
+	'configure-setting-wgActionPaths-key' => 'Tendo',
+	'configure-setting-wgDBpassword' => 'Nywila ya $wgDBuser',
+	'configure-setting-wgDBadminpassword' => 'Nywial ya $wgDBadminuser',
+	'configure-setting-wgDBtype' => 'Aina ya hifadhidata itakayotumiwa',
+	'configure-setting-wgAllowImageMoving' => 'Wezesha kubadili jina ya faili',
+	'configure-setting-wgArticleRobotPolicies-key' => 'Mada ya ukurasa',
+	'configure-setting-wgExtraLanguageNames-value' => 'Jina',
+	'configure-setting-wgVersion' => 'Toleo la MediaWiki',
+	'configure-setting-wgSpecialPageGroups-key' => 'Kundi',
+	'configure-setting-wgAutopromote-value' => 'Masharti',
+	'configure-setting-wgDebugLogGroups-value' => 'Faili',
+	'configure-setting-wgUseSquid' => 'Wezesha Squid',
 	'configure-setting-wgXhtmlNamespaces-key' => 'Eneo la wiki',
 );
 
@@ -23172,6 +23187,9 @@ $messages['ta'] = array(
 	'configure-setting-wgShowIPinHeader' => 'பயனர் பட்டையில் இணைய நெறிமுறை முகவரியைக் காட்டவும்',
 	'configure-setting-wgDBprefix' => 'வரிசைப் பட்டியல் முன்னொட்டு',
 	'configure-setting-wgDBservers' => 'தரவுத் தள வழங்கிகள்',
+	'configure-setting-wgMimeType' => 'MIME வகை விக்கி பக்கங்கள்',
+	'configure-setting-wgXhtmlDefaultNamespace' => 'இயல்புநிலை XHTML பெயர்வெளி',
+	'configure-setting-wgXhtmlNamespaces' => 'மற்ற  XHTML பெயர்வெளிகள்',
 	'configure-setting-wgXhtmlNamespaces-key' => 'பெயர்வெளி',
 	'configure-setting-wgLocaltimezone' => 'உள்ளூர் நேரவலயம்',
 	'configure-setting-wgUseSiteJs' => 'தளத்தின் யாவாக்கிறிட்டுப் பக்கத்தைப் பயன்படுத்தவும்',
