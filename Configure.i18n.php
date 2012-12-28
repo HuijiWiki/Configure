@@ -1183,11 +1183,27 @@ $messages['az'] = array(
 	'configure-condition-name-5' => 'İstifadəçilərin IP ünvanları',
 );
 
-/** تورکجه (تورکجه)
+/** South Azerbaijani (تورکجه)
  * @author Erdemaslancan
+ * @author පසිඳු කාවින්ද
  */
 $messages['azb'] = array(
+	'configure-desc-group' => 'قروپ',
+	'configure-desc-ns' => 'آدفضاسی',
+	'configure-ext-settings' => 'تنظیملر',
+	'configure-ext-use' => 'ایستفاده',
+	'configure-form-reason' => 'ندن:',
 	'configure-section-namespaces' => 'آدلار فضاسی:',
+	'configure-section-images' => 'فایل‌لار',
+	'configure-section-users' => 'ایستفاده‌چیلر',
+	'configure-section-search' => 'آختار',
+	'configure-section-output' => 'چیختی',
+	'configure-view' => 'باخ',
+	'configure-throttle-action-edit' => 'دَییشدیر',
+	'configure-throttle-action-move' => 'آدینی دَییشدیر',
+	'configure-throttle-group' => 'تیپ',
+	'configure-throttle-limit' => 'سینیر',
+	'configure-condition-operator-or' => 'یوخسا',
 );
 
 /** Bashkir (башҡортса)
@@ -8157,7 +8173,7 @@ $messages['lv'] = array(
 	'right-viewconfig-all' => 'Skatīt visu viki konfigurāciju',
 	'right-viewconfig-interwiki' => 'Skatīt citu viki konfigurāciju',
 	'viewconfig' => 'Skatīt viki konfigurāciju',
-	'configure-throttle-action-edit' => 'Rediģēt',
+	'configure-throttle-action-edit' => 'Labot',
 	'configure-throttle-action-move' => 'Pārvietot',
 	'configure-throttle-action-rollback' => 'Atritināt',
 	'configure-throttle-action-mailpassword' => 'Sūtīt paroles atgādinājumu',
@@ -10574,6 +10590,7 @@ $messages['ps'] = array(
 	'configure-js-search-legend' => 'امستنې پلټل',
 	'configure-no-transwiki' => 'تاسو ته په نورو ويکي ګانو کې د سمبالښت د بدلولو اجازه نشته',
 	'configure-old-changes' => 'بدلونونه',
+	'configure-section-general' => 'ټولګړې امستنې',
 	'configure-section-pages' => 'مخونه',
 	'configure-section-db' => 'ډاټابېز',
 	'configure-section-email' => 'برېښليک',
@@ -10608,6 +10625,7 @@ $messages['ps'] = array(
 	'configure-throttle-action-edit' => 'سمول',
 	'configure-throttle-action-move' => 'لېږدول',
 	'configure-throttle-action-emailuser' => 'برېښليک لېږل',
+	'configure-throttle-group-anon' => 'ټول ورکنومي کارنان',
 	'configure-throttle-limit' => 'بريد',
 	'configure-condition-operator-or' => 'يا',
 	'configure-condition-operator-and' => 'او',
@@ -11179,12 +11197,24 @@ $messages['roa-tara'] = array(
 	'configure-section-job' => 'Fatje',
 	'configure-view' => 'Vide',
 	'configure-view-all-versions' => 'Lista comblete de le versiune',
+	'configure-view-default' => "'Mbostaziune de base",
 	'configure-view-not-allowed' => "Tu non ge puè vedè ste 'mbostaziune",
 	'configure-viewconfig-line' => '$1 $2 da $3 $5: $4',
+	'extensions' => 'Configure le estenziune',
+	'right-configure' => "Configure 'a Uicchipèdie",
+	'right-configure-all' => "Configure tutte le 'mbostaziune d'a Uicchipèdie",
+	'configure-throttle-action-edit' => 'Cange',
+	'configure-throttle-action-move' => 'Spuèste',
+	'configure-throttle-action-rollback' => 'Annulle',
+	'configure-throttle-limit' => 'Limite',
+	'configure-throttle-none' => 'Nisciune limite',
+	'configure-condition-operator' => 'Operatore:',
 	'configure-condition-operator-or' => 'Or',
 	'configure-condition-operator-and' => 'And',
 	'configure-condition-operator-xor' => 'Xor',
 	'configure-condition-operator-not' => 'Not',
+	'configure-condition-name' => 'Condizione',
+	'configure-condition-requirement' => 'Richieste',
 );
 
 /** Faeag Rotuma (Faeag Rotuma)

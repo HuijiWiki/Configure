@@ -2868,9 +2868,14 @@ $messages['az'] = array(
 
 /** South Azerbaijani (تورکجه)
  * @author Ebrahimi-amir
+ * @author පසිඳු කාවින්ද
  */
 $messages['azb'] = array(
+	'configure-setting-wgActionPaths-key' => 'فعالیت',
 	'configure-setting-wgExtraLanguageNames-key' => 'دیلین کودو',
+	'configure-setting-wgExtraLanguageNames-value' => 'آد',
+	'configure-setting-wgSpecialPageGroups-key' => 'قروپ',
+	'configure-setting-wgDebugLogGroups-value' => 'فایل',
 );
 
 /** Bavarian (Boarisch)
@@ -10493,6 +10498,7 @@ $messages['hu'] = array(
 	'configure-setting-wgJobRunRate' => 'Az oldalmegtekintések során lefuttatott munkák száma',
 	'configure-setting-wgJobClasses' => 'Feladatkezelő osztályok',
 	'configure-setting-wgUpdateRowsPerJob' => 'Frissítendő sorok száma feladatonként',
+	'configure-setting-wgDBtestpassword' => '$wgDBtestuser jelszó',
 	'configure-setting-wgAPIMaxDBRows' => 'Az API adatbázislekérései során megvizsgált sorok maximális száma',
 	'configure-setting-wgAPIMaxResultSize' => 'Egy API-lekérdezés eredményének maximális mérete, bájtokban',
 	'configure-setting-wgAPIMaxUncachedDiffs' => 'Az API kérések során maximálisan lekérhető nem gyorsítótárazott eltérések (diffek) száma',
@@ -19028,8 +19034,12 @@ $messages['ps'] = array(
 	'configure-setting-wgExtraLanguageNames-key' => 'د ژبې کوډ',
 	'configure-setting-wgExtraLanguageNames-value' => 'نوم',
 	'configure-setting-wgSpecialPageGroups-key' => 'ډله',
+	'configure-setting-wgEnableEmail' => 'برېښليک آسانتياوې چارنول',
 	'configure-setting-wgDebugLogGroups-value' => 'دوتنه',
 	'configure-setting-wgValidSkinNames-value' => 'ښکارېدونکی نوم',
+	'configure-setting-wgExtraNamespaces-key' => 'نومتشيال پېژند',
+	'configure-setting-wgExtraNamespaces-value' => 'نومتشيال نوم',
+	'configure-setting-wgAllowPrefChange-key' => 'کارن غوره توبونه',
 	'configure-setting-wgXhtmlNamespaces-key' => 'نوم-تشيال',
 	'configure-setting-wgUseAjax' => 'AJAX چارنول',
 );
@@ -24238,6 +24248,7 @@ $messages['tr'] = array(
  * @author Ahonc
  * @author Alex Khimich
  * @author Base
+ * @author Steve.rusyn
  * @author Ата
  * @author Тест
  */
@@ -24829,6 +24840,9 @@ $messages['uk'] = array(
 	'configure-setting-wgUploadPath' => 'URL директорії завантаження',
 	'configure-setting-wgVariantArticlePath' => 'Шлях до мовних варіантів сторінок',
 	'configure-setting-wgUploadStashScalerBaseUrl' => 'Шлях до мініатюр зображень при використанні віддаленого масштабування за запитом',
+	'configure-setting-wgBlockAllowsUTEdit' => 'Дозволити заблокованим користувачам редагувати свою сторінку обговорення.',
+	'configure-setting-wgBlockDisablesLogin' => 'Заборонити заблокованим користувачам входити в систему',
+	'configure-setting-wgSysopEmailBans' => 'Дозволити адміністраторам блокувати учасникам доступ до [[Special:EmailUser]]',
 );
 
 /** Urdu (اردو)
