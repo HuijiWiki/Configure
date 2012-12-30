@@ -1210,10 +1210,18 @@ $messages['azb'] = array(
  * @author Haqmar
  * @author Roustammr
  * @author Sagan
+ * @author Ләйсән
  */
 $messages['ba'] = array(
 	'configure-desc-group' => 'Төркөм',
 	'configure-desc-key' => 'Асҡыс',
+	'configure-ext-settings' => 'Көйләүҙәр',
+	'configure-ext-use' => 'Ҡулланырға',
+	'configure-form-reason' => 'Сәбәп:',
+	'configure-btn-save' => 'Көйләүҙәрҙе һаҡларға',
+	'configure-js-remove' => 'Юйырға',
+	'configure-js-remove-row' => 'Был яҙманы юйырға',
+	'configure-old-changes' => 'үҙгәрештәр',
 	'configure-section-robots' => 'Эҙләү роботтары',
 	'configure-section-features' => 'Мөмкинлектәр',
 	'configure-section-general' => 'Дөйөм көйләүҙәр',
@@ -1272,6 +1280,17 @@ $messages['ba'] = array(
 	'configure-section-output' => 'Һөҙөмтә',
 	'configure-select-wiki' => 'Вики һайлау',
 	'configure-select-wiki-desc' => 'Көйләргә теләгән вики һайлағыҙ.',
+	'configure-view' => 'Ҡарау',
+	'configure-throttle-action-emailuser' => 'Хаттарҙы ебәреү',
+	'configure-condition-operator-or' => 'Йәки',
+	'configure-condition-operator-and' => 'Һәм',
+	'configure-condition-name' => 'Шарт',
+	'configure-condition-requirement' => 'Талап',
+	'configure-condition-name-4' => 'Төркөмдәрҙә тора',
+	'configure-boolop-description-and' => 'Бөтә шарттар ысын булырға тейеш',
+	'configure-boolop-description-or' => 'Исмаһам бер шарт ысын булырға тейеш',
+	'configure-boolop-description-xor' => 'Тик бер шарт ысын булырға тейеш',
+	'configure-boolop-description-not' => 'Шарттар ысын булырға тейеш түгел',
 );
 
 /** Belarusian (беларуская)
@@ -2173,6 +2192,7 @@ Molimo napravite ga ili promijenite da biste mogli koristiti ovo proširenje.',
 );
 
 /** Catalan (català)
+ * @author Arnaugir
  * @author El libre
  * @author Paucabot
  * @author SMP
@@ -2233,6 +2253,7 @@ $messages['ca'] = array(
 	'configure-section-profiling' => 'Perfilant',
 	'configure-section-site' => 'Personalització del lloc web',
 	'configure-section-css-js' => 'CSS i JavaScript',
+	'configure-section-resourceloader' => 'ResourceLoader',
 	'configure-section-namespaces' => 'Noms dels Espais',
 	'configure-section-stats' => 'Estadístiques del lloc web',
 	'configure-section-skin' => 'Aparences',
@@ -2261,8 +2282,33 @@ $messages['ca'] = array(
 	'configure-section-externalauth' => 'Autenticació externa',
 	'configure-section-feed' => 'Canal',
 	'configure-section-job' => 'Llocs de treball',
+	'configure-section-search' => 'Cerca',
+	'configure-section-copyright' => "Drets d'autor",
+	'configure-section-htcp' => 'Multidifusió HTCP',
+	'configure-section-misc' => 'Miscel·lània',
+	'configure-section-filter' => 'Filtratge',
 	'configure-section-mw-extensions' => 'Extensions MediaWiki',
+	'configure-section-external-tools' => 'Eines externes',
+	'configure-section-filesystem' => 'Interacció del sistema de fitxers i ordres',
+	'configure-section-thumbnail' => "Miniatures d'imatge",
 	'configure-throttle-action-edit' => 'Modifica',
+	'configure-condition-name-5' => "Adreça d'IP de l'usuari",
+	'configure-condition-name-6' => "Adreça d'IP de l'usuari en la gamma CIDR",
+	'configure-condition-name-7' => 'Temps mínim des de la primera edició',
+	'configure-autopromote-noconds' => 'No hi ha prerequisits',
+	'configure-condition-description-1' => 'Recompte mínim edició de $1',
+	'configure-condition-description-2' => 'Edat mínima del compte de $1 {{PLURAL:$1|segon|segons}}',
+	'configure-condition-description-3' => 'Correu electrònic confirmat',
+	'configure-condition-description-4' => 'En tots els grups $1',
+	'configure-condition-description-5' => "L'adreça d'IP de l'usuari és $1",
+	'configure-condition-description-6' => "Adreça d'IP de l'usuari en la gamma CIDR", # Fuzzy
+	'configure-condition-description-7' => 'Mínima edat de compte de  $1 {{PLURAL:$1|segon|segons}} després de la primera edició',
+	'configure-boolop-description-and' => "S'han de complir totes les condicions",
+	'configure-boolop-description-or' => "Com a mínim s'ha de complir una condició",
+	'configure-boolop-description-xor' => "Exactament s'ha de complir una condició",
+	'configure-boolop-description-not' => "No s'ha de complir cap condició",
+	'configure-farmer-settings' => '[[Special:Configure|Configura aquest wiki]].',
+	'configure-farmer-extensions' => "[[Special:Extensions|Configura les extensions d'aquest wiki]].",
 );
 
 /** Chechen (нохчийн)
@@ -4561,7 +4607,7 @@ $messages['frp'] = array(
 	'configure-throttle-action-rollback' => 'Rèvocacions',
 	'configure-throttle-action-mailpassword' => 'Mandar un rapèl du contresegno',
 	'configure-throttle-action-emailuser' => 'Èxpèdicion de mèssâjos',
-	'configure-throttle-group-anon' => 'Tôs los usanciérs pas encartâs',
+	'configure-throttle-group-anon' => 'Tôs los utilisators anonimos',
 	'configure-throttle-group-user' => 'Per compto usanciér',
 	'configure-throttle-group-newbie' => 'Per compto usanciér novél',
 	'configure-throttle-group-ip' => 'Per adrèce IP',
@@ -9544,6 +9590,22 @@ Er wordt een voorvertoning weergegeven als u het veld verlaat.',
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Voor deze wiki beschikbare uitbreidingen weergegeven]].',
 );
 
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
+ * @author Siebrand
+ */
+$messages['nl-informal'] = array(
+	'configure-summary' => 'Via deze special pagina kan je instellingen maken voor deze wiki. Zie [http://www.mediawiki.org/wiki/Manual:Configuration_settings Instellingen] voor meer informatie.',
+	'configure-edit-old' => "'''Waarschuwing''': je bent een <strong>oude</strong> versie van de instellingen aan het bewerken (de versie per $1).",
+	'configure-no-setup' => 'Om deze extensie te gebruiken, moet je <code>efConfigureSetup()</code> expliciet aanroepen in het bestand LocalSettings.php.',
+	'configure-no-transwiki' => "Je mag geen instellingen in andere wiki's veranderen",
+	'configure-old-not-available' => 'De oude versie van de instellingen die je opvroeg ($1) is niet beschikbaar',
+	'configure-image-url-explanation' => 'Voer de URL voor een afbeelding in, of de naam van een afbeelding in deze wiki (zonder de naamruimte).
+Er wordt een voorvertoning weergegeven als je het veld verlaat.',
+	'configure-select-wiki-desc' => 'Selecteer de wiki die je wilt instellen.',
+	'configure-select-wiki-view-desc' => 'Selecteer de wiki waarvoor je de versies van de instellingen wilt bekijken.',
+	'configure-view-not-allowed' => 'Je hebt geen rechten om deze instellingen te wijzigen',
+);
+
 /** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Gunnernett
  * @author Harald Khan
@@ -11186,15 +11248,27 @@ $messages['roa-tara'] = array(
 	'configure-edit-core' => 'MediaUicchi',
 	'configure-ext-use' => 'Ause',
 	'configure-arrayinput-oneperline' => "''(une pe linea)''",
+	'configure-section-features' => 'Dettaglie',
+	'configure-section-general' => "'Mbostaziune generale",
+	'configure-section-pages' => 'Pàggene',
+	'configure-section-paths' => 'Percorse',
 	'configure-section-db' => 'Databeise',
+	'configure-section-load-balancing' => "Ualanzamende d'u careche",
 	'configure-section-mysql' => 'specifiche de MySQL',
 	'configure-section-postgres' => 'specifiche de PostgreSQL',
+	'configure-section-sqlite' => 'Specifiche pe SQLite',
 	'configure-section-email' => 'E-mail',
 	'configure-section-stats' => "Statisteche d'u site",
 	'configure-section-category' => 'Categorije',
+	'configure-section-upload' => 'Careche',
+	'configure-section-images' => 'File',
+	'configure-section-antivirus' => 'Antivirus',
+	'configure-section-parser' => 'Analizzatore',
 	'configure-section-users' => 'Utinde',
 	'configure-section-feed' => 'Feed',
 	'configure-section-job' => 'Fatje',
+	'configure-section-search' => 'Cirche',
+	'configure-section-copyright' => 'Copyright',
 	'configure-view' => 'Vide',
 	'configure-view-all-versions' => 'Lista comblete de le versiune',
 	'configure-view-default' => "'Mbostaziune de base",
@@ -11519,6 +11593,7 @@ $messages['si'] = array(
 	'configure-ext-use-extension' => 'මෙම විස්තිර්ණය භාවිතා කරන්න',
 	'configure-ext-use' => 'භාවිත කරන්න',
 	'configure-form-reason' => 'හේතුව:',
+	'configure-customised' => "''මෙම සැකසුම රුචිකරණය කරන ලදී''",
 	'configure-arrayinput-oneperline' => "''(රේඛාවකට එකයි)''",
 	'configure-btn-save' => 'සැකසුම් සුරකින්න',
 	'configure-error' => 'වින්‍යාසගත කෙරුම සුරැකිය නොහැක',
@@ -11537,6 +11612,7 @@ $messages['si'] = array(
 	'configure-js-search-prompt' => 'ප්‍රශ්නය:',
 	'configure-no-diff' => 'තෝරාගත් අනුවාද අතර වෙනස්කම් නොමැත.',
 	'configure-old' => 'පැරණි අනුවාද',
+	'configure-old-versions' => 'වින්‍යාසයේ පැරණි අනුවාද ලැයිස්තුව:',
 	'configure-old-changes' => 'වෙනස්කම්',
 	'configure-old-summary' => '$1 විසින් $2 $4 $3',
 	'configure-saved' => 'වින්‍යාසගතකිරීම සුරක්ෂිත කොට ඇත',
@@ -11547,7 +11623,9 @@ $messages['si'] = array(
 	'configure-section-pages' => 'පිටු',
 	'configure-section-paths' => 'පථ',
 	'configure-section-db' => 'දත්ත සංචිතය',
+	'configure-section-load-balancing' => 'තුලනය පටවන්න',
 	'configure-section-mysql' => 'MySQL විශේෂිත',
+	'configure-section-postgres' => 'PostgreSQL විශේෂී',
 	'configure-section-sqlite' => 'SQLite විශේෂිත',
 	'configure-section-email' => 'විද්‍යුත් තැපෑල',
 	'configure-section-enotif' => 'විද්‍යුත්-තැපැල් නිවේදනය',
@@ -11593,6 +11671,7 @@ $messages['si'] = array(
 	'configure-section-filter' => 'පෙරහන්කරණය',
 	'configure-section-mw-extensions' => 'මාධ්‍යවිකි විස්තීර්ණ',
 	'configure-section-external-tools' => 'බාහිර මෙවලම්',
+	'configure-section-filesystem' => 'ගොනුපද්ධති සහ කවච අන්තර්ක්‍රියාව',
 	'configure-section-thumbnail' => 'පින්තූර සංක්ෂිප්තකරණය',
 	'configure-section-output' => 'ප්‍රතිදානය',
 	'configure-select-wiki' => 'විකි තෝරාගැනීම',
@@ -11645,6 +11724,7 @@ $messages['si'] = array(
 	'configure-autopromote-noconds' => 'පූර්වඅවශ්‍යතාවයන් නැත',
 	'configure-condition-description-1' => '$1 ගේ අවම සංස්කරණ සංඛ්‍යාව',
 	'configure-condition-description-3' => 'විද්‍යුත් තැපෑල තහවුරු කරන ලදී',
+	'configure-condition-description-5' => 'පරිශීලකගේ IP ලිපිනය වනුයේ $1',
 	'configure-boolop-description-and' => 'කොන්දේසි සියල්ලම සත්‍ය විය යුතුය',
 	'configure-boolop-description-or' => 'අඩුම තරමින් එක් කොන්දේසියක්වත් සත්‍ය විය යුතුය',
 	'configure-boolop-description-xor' => 'හරියටම එක් කොන්දේසියක් සත්‍ය විය යුතුය',
