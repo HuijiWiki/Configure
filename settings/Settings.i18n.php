@@ -26358,12 +26358,12 @@ $messages['zh-hans'] = array(
 	'configure-setting-wgDebugFunctionEntry' => '在每次wfProfileIn/wfProfileOut时输出调试消息',
 	'configure-setting-wgDebugProfiling' => '检测不匹配的wfProfileIn/wfProfileOut调用',
 	'configure-setting-wgProfileCallTree' => '输出原始调用树而不是按函数分类的报告',
-	'configure-setting-wgProfileLimit' => '只记录耗时超过此时间的页面调试信息',
-	'configure-setting-wgProfileOnly' => '不在日志文件中放置非调试信息',
-	'configure-setting-wgProfilePerHost' => '将应用程序服务器主机写入调试表',
-	'configure-setting-wgProfileToDatabase' => '将调试数据放入数据库中的调试表',
-	'configure-setting-wgUDPProfilerHost' => 'UDP调试器主机',
-	'configure-setting-wgUDPProfilerPort' => 'UDP调试器端口',
+	'configure-setting-wgProfileLimit' => '只记录耗时超过此时间的页面分析信息',
+	'configure-setting-wgProfileOnly' => '不在日志文件中放置非分析信息',
+	'configure-setting-wgProfilePerHost' => '将应用程序服务器主机写入分析表',
+	'configure-setting-wgProfileToDatabase' => '将分析数据放入数据库中的分析表',
+	'configure-setting-wgUDPProfilerHost' => 'UDP分析器主机',
+	'configure-setting-wgUDPProfilerPort' => 'UDP分析器端口',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
