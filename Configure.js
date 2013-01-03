@@ -88,6 +88,7 @@ jQuery( document ).ready( function ( $ ) {
 				item.append( sub );
 				item.prepend( $( '<a></a>' )
 					.text( '[+]' )
+					.addClass( 'toggle' )
 					.attr( 'href', 'javascript:' )
 					.mousedown( function( e ) {
 						e.preventDefault();
@@ -96,7 +97,7 @@ jQuery( document ).ready( function ( $ ) {
 					.click( function( e ) {
 						if ( sub.css( 'display' ) === 'none' ) {
 							sub.show();
-							$(this).text( '[-]' );
+							$(this).text( '[−]' );
 						} else {
 							sub.hide();
 							$(this).text( '[+]' );
@@ -107,12 +108,12 @@ jQuery( document ).ready( function ( $ ) {
 			$( '#configtoc' ).append( item );
 		} );
 
-	$( '.config-col-toc' ).append(
+	$( '.config-col-toc' ).prepend(
 		$( '<a></a>' )
 			.css( 'align', 'right' )
 			.attr( 'href', 'javascript:;' )
 			.append( $( '<img />' )
-				.attr( 'src', stylepath + '/common/images/Arr_l.png' )
+				.attr( {'src': stylepath + '/common/images/Arr_l.png', 'title': 'hide TOC' } )
 			)
 			.mousedown( function( e ) {
 				e.preventDefault();
@@ -123,13 +124,13 @@ jQuery( document ).ready( function ( $ ) {
 					$( '#configtoc' ).show();
 					$( this ).children( 'img' ).remove();
 					$( this ).append( $( '<img />' )
-						.attr( 'src', stylepath + '/common/images/Arr_l.png' )
+						.attr( {'src': stylepath + '/common/images/Arr_l.png', 'title': 'hide TOC' } )
 					);
 				} else {
 					$( '#configtoc' ).hide();
 					$( this ).children( 'img' ).remove();
 					$( this ).append( $( '<img />' )
-						.attr( 'src', stylepath + '/common/images/Arr_r.png' )
+						.attr( {'src': stylepath + '/common/images/Arr_r.png', 'title': 'show TOC' } )
 					);
 				}
 				e.preventDefault();
