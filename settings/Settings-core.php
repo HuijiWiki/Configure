@@ -552,6 +552,7 @@ $settings = array(
 			'wgGenerateThumbnailOnParse' => 'bool',
 			'wgShowArchiveThumbnails' => 'bool',
 			'wgThumbLimits' => 'array',
+			'wgExcludeFromThumbnailPurge' => 'array',
 		),
 		'djvu' => array(
 			'wgDjvuDump' => 'text',
@@ -905,6 +906,7 @@ $arrayDefs = array(
 	'wgTrustedMediaFormats' => 'simple',
 	'wgTiffThumbnailType' => 'simple',
 	'wgThumbLimits' => 'simple',
+	'wgExcludeFromThumbnailPurge' => 'simple',
 	'wgSVGConverters' => 'assoc',
 	'wgAntivirusSetup' => 'array',
 # Parser
@@ -1192,6 +1194,7 @@ $settingsVersion = array(
 	'wgExtraRandompageSQL' => array( array( '1.19alpha', '<' ) ),
 	'wgRateLimitsExcludedGroups' => array( array( '1.19alpha', '<' ) ),
 	'wgEnableTooltipsAndAccesskeys' => array( array( '1.19alpha', '<' ) ),
+	'wgExcludeFromThumbnailPurge' => array( array( '1.19alpha', '<' ) ),
 	'wgLivePasswordStrengthChecks' => array( array( '1.19alpha', '<' ) ),
 	'wgUseTrackbacks' => array( array( '1.19alpha', '<' ) ),
 	'wgVectorShowVariantName' => array( array( '1.19alpha', '<' ) ),
