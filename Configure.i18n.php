@@ -2195,6 +2195,7 @@ Molimo napravite ga ili promijenite da biste mogli koristiti ovo proširenje.',
  * @author Arnaugir
  * @author El libre
  * @author Paucabot
+ * @author Pitort
  * @author SMP
  * @author Solde
  * @author Ssola
@@ -2291,6 +2292,16 @@ $messages['ca'] = array(
 	'configure-section-external-tools' => 'Eines externes',
 	'configure-section-filesystem' => 'Interacció del sistema de fitxers i ordres',
 	'configure-section-thumbnail' => "Miniatures d'imatge",
+	'configure-section-output' => 'Sortida',
+	'configure-select-wiki' => 'Selecció del wiki',
+	'configure-select-wiki-desc' => 'Seleccioneu el wiki que voleu configurar.',
+	'configure-select-wiki-view-desc' => 'Seleccioneu un wiki per al qual voleu veure les versions de configuració.',
+	'configure-select-wiki-view-all' => 'Tots els wikis',
+	'configure-select-wiki-view-specific' => 'Wiki específic:',
+	'configure-select-wiki-submit' => 'Seleccioneu',
+	'configure-setting-not-available' => 'Aquesta opció de configuració no està disponible en aquesta versió de MediaWiki',
+	'configure-transwiki-not-in-range' => 'El wiki sol·licitat, $1, no és dins {{PLURAL:$3|del valor autoritzat|dels valors autoritzats}}: $2.',
+	'configure-view' => 'Mostra',
 	'configure-throttle-action-edit' => 'Modifica',
 	'configure-condition-name-5' => "Adreça d'IP de l'usuari",
 	'configure-condition-name-6' => "Adreça d'IP de l'usuari en la gamma CIDR",
