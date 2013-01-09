@@ -238,7 +238,7 @@ $messages['qqq'] = array(
 	'configure-desc-key' => '{{Identical|Key}}',
 	'configure-desc-ns' => '{{Identical|Namespaces}}',
 	'configure-desc-val' => '{{Identical|Value}}',
-	'configure-edit-ext' => '{{Identical|Extensions}}',
+	'configure-edit-ext' => '{{Identical|Extension}}',
 	'configure-ext-ext-dependencies' => '* $1 is a list of extensions
 * $2 is the number of extensions in $1',
 	'configure-ext-settings' => '{{Identical|Settings}}',
