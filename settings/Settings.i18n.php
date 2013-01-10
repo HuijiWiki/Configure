@@ -818,7 +818,8 @@ It refers to message {{msg-mw|export-addnstext}} which is an input field label.'
 	'configure-setting-wgMaxRedirectLinksRetrieved' => '{{config-wg|MaxRedirectLinksRetrieved}}',
 	'configure-setting-wgQueryPageDefaultLimit' => '{{config-wg|QueryPageDefaultLimit}}',
 	'configure-setting-wgRedirectOnLogin' => '{{config-wg|RedirectOnLogin}}',
-	'configure-setting-wgSecureLogin' => '{{config-wg|SecureLogin}}',
+	'configure-setting-wgSecureLogin' => '{{config-wg|SecureLogin}}
+{{doc-singularthey}}',
 	'configure-setting-wgSortSpecialPages' => '{{config-wg|SortSpecialPages}}',
 	'configure-setting-wgSpecialPageGroups' => '{{config-wg|SpecialPageGroups}}',
 	'configure-setting-wgSpecialPageGroups-key' => '{{Identical|Group}}',
