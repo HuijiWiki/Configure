@@ -20922,6 +20922,8 @@ $messages['roa-tara'] = array(
 	'configure-setting-wgArticleRobotPolicies-key' => "Titole d'a pàgene",
 	'configure-setting-wgExtraLanguageNames-key' => "Codece d'a Lènghe",
 	'configure-setting-wgExtraLanguageNames-value' => 'Nome',
+	'configure-setting-wgMaxArticleSize' => "Dimenzione d'a pàgene massime (kB)",
+	'configure-setting-wgNoFollowLinks' => 'Aggiunge rel="nofollow" a le collegaminde',
 	'configure-setting-wgSiteNotice' => "Notizie d'u Site",
 	'configure-setting-wgEnableUploads' => 'Abbilite le carecaminde',
 	'configure-setting-wgSpecialPageGroups-key' => 'Gruppe',
