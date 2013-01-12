@@ -16886,7 +16886,7 @@ $messages['nl'] = array(
 	'configure-setting-wgLegalTitleChars' => 'Toegestane karakters in paginanamen (regex karakterklasse)',
 	'configure-setting-wgMaxArticleSize' => 'Maximale paginagrootte (in kilobytes)',
 	'configure-setting-wgMaxRedirects' => 'Maximale aantal te volgen doorverwijzingen bij het oplossen van doorverwijzingen',
-	'configure-setting-wgNoFollowLinks' => 'rel="nofollow" toevoegen aan koppelingen',
+	'configure-setting-wgNoFollowLinks' => '<code>rel="nofollow"</code> toevoegen aan koppelingen',
 	'configure-setting-wgNoFollowDomainExceptions' => 'Externe koppelingen naar deze domeinnamen (of subdomeinen daarvan) krijgen niet het attribuut \'rel="nofollow"\'',
 	'configure-setting-wgPageShowWatchingUsers' => 'Weergeven welke gebruikers een pagina volgen',
 	'configure-setting-wgRestrictionLevels' => 'In te stellen beperkingsniveaus',
