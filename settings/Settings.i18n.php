@@ -24996,7 +24996,6 @@ $messages['uk'] = array(
 	'configure-setting-wgThumbUpright' => 'Поправочний коефіціент ширини для upright-мініатюр',
 	'configure-setting-wgShowEXIF' => 'Показати EXIF-дані на сторінках опису файлів',
 	'configure-setting-wgThumbLimits' => 'Дозвонені розміри мініатюр зображень',
-	'configure-setting-wgExcludeFromThumbnailPurge' => 'Розширення файлів ескізів, які повинні бути виключені з звичайних операцій оновлення',
 	'configure-setting-wgUseImageResize' => 'Увімкнути динамічну зміну розміру зображень з боку сервера',
 	'configure-setting-wgEnableAutoRotation' => 'Повертати зображення відповідно до їх EXIF орієнтації',
 	'configure-setting-wgTrustedMediaFormats' => 'Медіа-типи і MIME-типи, що вважаються «безпечними»',
