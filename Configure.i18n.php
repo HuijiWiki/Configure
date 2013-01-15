@@ -14466,6 +14466,7 @@ $messages['zh-hans'] = array(
  * @author Frankou
  * @author Liangent
  * @author Mark85296341
+ * @author Simon Shek
  */
 $messages['zh-hant'] = array(
 	'configure' => '站務設定',
@@ -14609,7 +14610,7 @@ $messages['zh-hant'] = array(
 	'viewconfig' => '檢視wiki配置',
 	'configure-throttle-action-edit' => '編輯',
 	'configure-throttle-action-move' => '移動',
-	'configure-throttle-action-rollback' => '回退',
+	'configure-throttle-action-rollback' => '恢復',
 	'configure-throttle-action-mailpassword' => '發送密碼提醒',
 	'configure-throttle-action-emailuser' => '傳送電郵',
 	'configure-throttle-group-anon' => '所有匿名用戶',
