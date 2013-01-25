@@ -261,6 +261,7 @@ In addition, you may want to append "<code>&uselang=</code>" with your language 
 * $2 is the date of the version, alone
 * $3 is the time of the version, alone',
 	'configure-js-remove' => '{{Identical|Delete}}',
+	'configure-js-search-prompt' => '{{Identical|Query}}',
 	'configure-no-directory' => '* $1 is the directory in the file-system',
 	'configure-old-not-available' => '* $1 is the 14 char timestamp of the version',
 	'configure-old-changes' => '{{Identical|Change}}',
@@ -11296,6 +11297,7 @@ $messages['roa-tara'] = array(
 	'configure-edit-core' => 'MediaUicchi',
 	'configure-edit-ext' => 'Estenziune',
 	'configure-viewconfig-default-diff' => "Cangiaminde da le 'mbostaziune de base",
+	'configure-ext-doc' => "'Ndruche 'a documendazione online",
 	'configure-ext-settings' => "'Mbostaziune",
 	'configure-ext-settings-dep-error' => '$1: valore richieste: $2, valore de mò: $3',
 	'configure-ext-use-extension' => 'Ause sta estenzione',

@@ -1126,7 +1126,9 @@ Be consistent with {{msg-mw|Redirectedfrom}} message.',
 	'configure-setting-wgDjvuToXML' => '{{config-wg|DjvuToXML}}',
 	'configure-setting-wgDjvuTxt' => '{{config-wg|DjvuTxt}}',
 	'configure-setting-wgMemCachedPersistent' => '{{config-wg|MemCachedPersistent}}',
-	'configure-setting-wgMemCachedServers' => '{{config-wg|MemCachedServers}}',
+	'configure-setting-wgMemCachedServers' => '{{doc-important|Do not translate "memcached".}}
+{{config-wg|MemCachedServers}}
+{{Identical|Memcached server}}',
 	'configure-setting-wgMemCachedTimeout' => '{{config-wg|MemCachedTimeout}}',
 	'configure-setting-wgSessionsInMemcached' => '{{config-wg|SessionsInmemcached}}',
 	'configure-setting-wgCacheDirectory' => '{{config-wg|CacheDirectory}}',
@@ -20979,6 +20981,7 @@ $messages['roa-tara'] = array(
 
 /** Russian (русский)
  * @author Base
+ * @author DCamer
  * @author Ferrer
  * @author Grigol
  * @author Haffman
@@ -21032,8 +21035,8 @@ $messages['ru'] = array(
 	'configure-setting-wgThumbnailScriptPath' => 'Путь к thumb.php для создания миниатюр на лету, вместо создания при проходе парсера',
 	'configure-setting-wgThumbUpright' => 'Корректирующий множитель ширины для upright-миниатюр',
 	'configure-setting-wgShowEXIF' => 'Показать EXIF-данные на страницах описания файлов',
+	'configure-setting-wgUpdateCompatibleMetadata' => 'Автоматическое обновить поле img_metadata, если оно устарело, но совместимо с текущей версией',
 	'configure-setting-wgThumbLimits' => 'Допустимые размеры миниатюр',
-	'configure-setting-wgExcludeFromThumbnailPurge' => 'Расширения файлов эскизов, которые должны быть исключены из обычных операций обновления',
 	'configure-setting-wgUseImageResize' => 'Включить динамическое изменение размера изображений на стороне сервера',
 	'configure-setting-wgEnableAutoRotation' => 'Поворачивать изображения согласно данным EXIF',
 	'configure-setting-wgTrustedMediaFormats' => 'Медиа-типы и MIME-типы, считающиеся «безопасными»',
@@ -25023,6 +25026,7 @@ $messages['uk'] = array(
 	'configure-setting-wgThumbnailScriptPath' => 'Шлях до thumb.php для генерування мініатюр на льоту, замість при проході парсера',
 	'configure-setting-wgThumbUpright' => 'Поправочний коефіціент ширини для upright-мініатюр',
 	'configure-setting-wgShowEXIF' => 'Показати EXIF-дані на сторінках опису файлів',
+	'configure-setting-wgUpdateCompatibleMetadata' => 'Автоматично оновляти поле img_metadata, якщо воно застаріло, але сумісне з поточною версією',
 	'configure-setting-wgThumbLimits' => 'Дозвонені розміри мініатюр зображень',
 	'configure-setting-wgUseImageResize' => 'Увімкнути динамічну зміну розміру зображень з боку сервера',
 	'configure-setting-wgEnableAutoRotation' => 'Повертати зображення відповідно до їх EXIF орієнтації',
@@ -25574,9 +25578,28 @@ $messages['uk'] = array(
 	'configure-setting-wgUploadPath' => 'URL директорії завантаження',
 	'configure-setting-wgVariantArticlePath' => 'Шлях до мовних варіантів сторінок',
 	'configure-setting-wgUploadStashScalerBaseUrl' => 'Шлях до мініатюр зображень при використанні віддаленого масштабування за запитом',
+	'configure-setting-wgAllowCategorizedRecentChanges' => 'Дозволяти фільтрувати свіжі зміни за категорією або однією з під(підпідпід{{int:ellipsis}})категорій',
+	'configure-setting-wgPutIPinRC' => "Записувати IP-адресу у таблиці 'recentchanges'",
+	'configure-setting-wgRCChangedSizeThreshold' => 'Підсвічувати різницю в кількості символів меншу. ніж ця, у свіжих змінах',
+	'configure-setting-wgRCFilterByAge' => 'Фільтрувати $wgRCLinkDays для уникнення відображення посилань для значень більших, ніж $wgRCMaxAge',
+	'configure-setting-wgRCLinkLimits' => 'Обмеження кількості змін у нових редагуваннях',
+	'configure-setting-wgRCLinkDays' => 'Обмеження кількості днів у нових редагуваннях',
+	'configure-setting-wgRCMaxAge' => 'Мінімальний вік елементів нових редагувань для оновлення',
+	'configure-setting-wgRCShowChangedSize' => 'Показувати кількість змінених символів у нових редагуваннях',
+	'configure-setting-wgRCShowWatchingUsers' => 'Показувати користувачів, що спостерігають у нових редагуваннях, списку спостереження і історіях сторінок',
+	'configure-setting-wgShowUpdatedMarker' => 'Показувати маркер «Оновлено (після мого останнього перегляду)» в нових редагуваннях, списку спостереження і історіях сторінок',
+	'configure-setting-wgUseRCPatrol' => 'Використовувати патрулювання нових редагувань для перевірки на вандалізм',
+	'configure-setting-wgRC2UDPAddress' => 'Адреси для сповіщень UDP про нові редагування',
+	'configure-setting-wgRC2UDPInterwikiPrefix' => 'Додати префікс інтервікі для сповіщень UDP про нові редагування',
+	'configure-setting-wgRC2UDPOmitBots' => 'Не включати редагування роботів в сповіщення UDP про нові редагування',
+	'configure-setting-wgRC2UDPPort' => 'Порт для сповіщень UDP про нові редагування',
+	'configure-setting-wgRC2UDPPrefix' => 'Префікс для рядків, що надсилаються сповіщеннями UDP для нових редагувань',
 	'configure-setting-wgBlockAllowsUTEdit' => 'Дозволити заблокованим користувачам редагувати свою сторінку обговорення.',
 	'configure-setting-wgBlockDisablesLogin' => 'Заборонити заблокованим користувачам входити в систему',
 	'configure-setting-wgSysopEmailBans' => 'Дозволити адміністраторам блокувати учасникам доступ до [[Special:EmailUser]]',
+	'configure-setting-wgEnotifFromEditor' => 'Надсилати сповіщення електронною поштою від імені користувача, що редагував сторінку (а не від імені вікі-сервера)',
+	'configure-setting-wgEnotifImpersonal' => 'Надсилати групові електронні листи замість персональних електронних листів кожному користувачу',
+	'configure-setting-wgEnotifMaxRecips' => 'Максимальне число користувачів для відправки електронної пошти при використанні групової розсилки',
 );
 
 /** Urdu (اردو)
