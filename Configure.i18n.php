@@ -9394,7 +9394,7 @@ $messages['nds'] = array(
 	'configure-section-misc' => 'Verscheden',
 );
 
-/** Nedersaksisch (Nedersaksisch)
+/** Nedersaksies (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
