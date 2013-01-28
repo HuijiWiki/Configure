@@ -285,7 +285,7 @@ $specialPageAliases['nb'] = array(
 	'ViewConfig' => array( 'Vis_konfigurasjon' ),
 );
 
-/** Nedersaksies (Nedersaksies) */
+/** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'Configure' => array( 'Instellingen' ),
 	'Extensions' => array( 'Uutbreidingen' ),
