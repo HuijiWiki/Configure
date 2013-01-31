@@ -8093,6 +8093,7 @@ $messages['lmo'] = array(
 );
 
 /** Lithuanian (lietuvių)
+ * @author Audriusa
  * @author Eitvys200
  * @author Tomasdd
  */
@@ -8122,6 +8123,7 @@ $messages['lt'] = array(
 	'configure-js-biglist-hide' => '[slėpti detales]',
 	'configure-js-summary-none' => 'Jokių nustatymų',
 	'configure-js-search-legend' => 'Ieškoti nustatymų',
+	'configure-js-search-prompt' => 'Užklausa:',
 	'configure-old' => 'Senos versijos',
 	'configure-old-changes' => 'pakeitimai',
 	'configure-old-summary' => '$1 pagal $2 $4 $3',
