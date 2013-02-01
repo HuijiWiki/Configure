@@ -11352,8 +11352,10 @@ $messages['roa-tara'] = array(
 	'configure-throttle-action-edit' => 'Cange',
 	'configure-throttle-action-move' => 'Spuèste',
 	'configure-throttle-action-rollback' => 'Annulle',
+	'configure-throttle-action-emailuser' => "Manne 'n'e-mail",
 	'configure-throttle-group-user' => 'Pe cund utende',
 	'configure-throttle-group-ip' => 'Pe indirizze IP',
+	'configure-throttle-group' => 'Tipe',
 	'configure-throttle-limit' => 'Limite',
 	'configure-throttle-none' => 'Nisciune limite',
 	'configure-condition-operator' => 'Operatore:',
@@ -11363,6 +11365,13 @@ $messages['roa-tara'] = array(
 	'configure-condition-operator-not' => 'Not',
 	'configure-condition-name' => 'Condizione',
 	'configure-condition-requirement' => 'Richieste',
+	'configure-condition-name-4' => "Jndr'à le gruppe",
+	'configure-condition-name-5' => "Indirizze IP de l'utende",
+	'configure-condition-name-6' => "Indirizze IP de l'utende jndr'à l'indervalle CIDR",
+	'configure-autopromote-noconds' => 'Nisciune prerequisite',
+	'configure-condition-description-3' => 'E-mail confermate',
+	'configure-condition-description-4' => "Jndr'à tutte le gruppe $1",
+	'configure-condition-description-5' => "L'indirizze IP de l'utende jè $1",
 );
 
 /** Faeag Rotuma (Faeag Rotuma)
