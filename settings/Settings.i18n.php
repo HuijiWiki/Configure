@@ -26033,6 +26033,7 @@ $messages['zh-hans'] = array(
 	'configure-setting-wgLogRestrictions' => '记录访问限制',
 	'configure-setting-wgLogRestrictions-key' => '记录类型',
 	'configure-setting-wgLogRestrictions-value' => '需要的读取权限',
+	'configure-setting-wgMaxRedirectLinksRetrieved' => '最多到在 [[Special:Whatlinkshere/RedirectDestination]] 列表的重定向的链接',
 	'configure-setting-wgQueryPageDefaultLimit' => '在查询类特殊页面中（如[[Special:Whatlinkshere]]）默认显示的项目数',
 	'configure-setting-wgRedirectOnLogin' => '登录时重定向用户到此页面',
 	'configure-setting-wgSecureLogin' => '当用户从HTTP进行身份验证时，让他们使用HTTPS',
