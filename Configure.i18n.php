@@ -7525,9 +7525,16 @@ et Appachtemang. Do kresß en Vör-Aansich jezeich, wann De uß dämm Feld jeih�
  */
 $messages['ku-latn'] = array(
 	'configure-desc-group' => 'Kom',
+	'configure-edit-core' => 'MediaWiki',
+	'configure-ext-use' => 'Bi kar bîne',
+	'configure-form-reason' => 'Sedem:',
+	'configure-js-remove' => 'Jê bibe',
 	'configure-section-pages' => 'Rûpel',
+	'configure-section-email' => 'E-name',
+	'configure-section-category' => 'Kategorî',
 	'configure-section-groups' => 'Kom',
 	'configure-section-images' => 'Dosyeyan',
+	'configure-section-users' => 'Bikarhêner',
 	'configure-throttle-group' => 'Cure',
 	'configure-condition-operator-and' => 'Û',
 );
