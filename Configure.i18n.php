@@ -3994,6 +3994,7 @@ $messages['eu'] = array(
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Huji
+ * @author Mahdiz
  * @author Mjbmr
  * @author ZxxZxxZ
  * @author پاناروما
@@ -4021,6 +4022,7 @@ $messages['fa'] = array(
 	'configure-js-biglist-hide' => '[نهفتن جزئیات]',
 	'configure-js-summary-none' => 'بدون تنظیمات',
 	'configure-js-search-legend' => 'تنظیمات جستجو',
+	'configure-js-search-prompt' => 'پرس و جو:',
 	'configure-old' => 'نسخه‌های قدیمی',
 	'configure-old-changes' => 'تغییرات',
 	'configure-old-summary' => '$1 توسط $2 $4 $3',
@@ -4030,9 +4032,12 @@ $messages['fa'] = array(
 	'configure-section-pages' => 'صفحه‌ها',
 	'configure-section-paths' => 'مسیرها',
 	'configure-section-db' => 'پایگاه داده',
+	'configure-section-sqlite' => 'SQLite خاص',
 	'configure-section-email' => 'پست الکترونیکی',
 	'configure-section-enotif' => 'اعلان پست الکترونیکی',
+	'configure-section-localization' => 'محل',
 	'configure-section-timezone' => 'منطقهٔ زمانی',
+	'configure-section-debug' => 'اشکال یابی',
 	'configure-section-css-js' => 'سی‌اس‌اس و جاوااسکریپت',
 	'configure-section-namespaces' => 'فضاهای نامی',
 	'configure-section-stats' => 'آمار وبگاه',
@@ -4061,6 +4066,7 @@ $messages['fa'] = array(
 	'configure-section-mw-extensions' => 'افزونه‌های مدیاویکی',
 	'configure-section-external-tools' => 'ابزارهای خارجی',
 	'configure-section-output' => 'خروجی',
+	'configure-select-wiki' => 'انتخاب ویکی',
 	'configure-select-wiki-desc' => 'آن ویکی را که می‌خواهید پیکربندی کنید مشخص کنید.',
 	'configure-select-wiki-view-all' => 'تمام ویکی‌ها',
 	'configure-select-wiki-submit' => 'انتخاب',
@@ -4078,6 +4084,10 @@ $messages['fa'] = array(
 	'configure-throttle-action-move' => 'انتقال',
 	'configure-throttle-action-rollback' => 'واگردانی',
 	'configure-throttle-action-emailuser' => 'ارسال پست',
+	'configure-throttle-group-user' => 'در هر حساب کاربری',
+	'configure-throttle-group-newbie' => 'در هر حساب کاربری جدید',
+	'configure-throttle-group-ip' => 'هر آدرس IP',
+	'configure-throttle-count' => 'اقدامات مجاز:',
 	'configure-throttle-group' => 'نوع',
 	'configure-throttle-limit' => 'محدودیت',
 	'configure-throttle-none' => 'بدون محدودیت',

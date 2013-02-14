@@ -659,7 +659,8 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'configure-setting-desc' => '{{Optional}}',
-	'configure-setting-wgSitename' => '{{config-wg|Sitename}}',
+	'configure-setting-wgSitename' => '{{config-wg|Sitename}}
+{{Identical|Sitename}}',
 	'configure-setting-wgActionPaths' => '{{config-wg|ActionPaths}}',
 	'configure-setting-wgActionPaths-key' => '{{Identical|Action}}',
 	'configure-setting-wgAllDBsAreLocalhost' => '{{config-wg|AllDBsAreLocalhost}}',
