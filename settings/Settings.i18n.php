@@ -784,7 +784,7 @@ $messages['qqq'] = array(
 	'configure-setting-wgUseExternalEditor' => '{{config-wg|UseExternalEditor}}',
 	'configure-setting-wgAjaxLicensePreview' => '{{config-wg|AjaxLicensePreview}}',
 	'configure-setting-wgAllowCopyUploads' => '{{config-wg|AllowCopyUploads}}',
-	'configure-setting-wgAllowAsyncCopyUploads' => "{{config-wg|AllowAsyncCopyUploads}} ''See also: [http://www.mediawiki.org/wiki/Special:Code/MediaWiki/70137 r70137].''",
+	'configure-setting-wgAllowAsyncCopyUploads' => "{{config-wg|AllowAsyncCopyUploads}} ''See also: [[mw:Special:Code/MediaWiki/70137|r70137]].''",
 	'configure-setting-wgCheckFileExtensions' => '{{config-wg|CheckFileExtensions}}',
 	'configure-setting-wgCopyUploadsDomains' => '{{config-wg|CopyUploadsDomains}}',
 	'configure-setting-wgEnableUploads' => '{{config-wg|EnableUploads}}',
@@ -25050,6 +25050,13 @@ $messages['tr'] = array(
 	'configure-setting-wgProfilePerHost' => 'Uygulama sunucusu hostunu profil tablosuna yaz',
 	'configure-setting-wgUDPProfilerHost' => 'UDP profili için host',
 	'configure-setting-wgUDPProfilerPort' => 'UDP profili için port',
+);
+
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'configure-setting-wgDebugLogGroups-value' => 'ⴰⵙⴷⴰⵡ',
 );
 
 /** Ukrainian (українська)

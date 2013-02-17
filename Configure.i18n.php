@@ -8328,6 +8328,13 @@ $messages['mhr'] = array(
 	'configure-section-specialpages' => 'Лӱмын ыштыме лаштык-влак',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'configure-section-external-tools' => 'Pakakeh eksternal',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  * @author Brest
@@ -13638,6 +13645,16 @@ $messages['tt-cyrl'] = array(
 	'configure-backlink' => 'Формага кире кайту',
 	'configure-section-robots' => 'Эзләү роботлары',
 	'configure-section-features' => 'Мөмкинчелекләр',
+);
+
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'configure-condition-operator-or' => 'ⵏⵖ',
+	'configure-condition-operator-and' => 'ⴷ',
+	'configure-condition-operator-xor' => 'ⵢⴰⵏ ⴷⵉⵙⵏ',
+	'configure-condition-operator-not' => 'ⵎⴰⵛⵉ',
 );
 
 /** Udmurt (удмурт)
