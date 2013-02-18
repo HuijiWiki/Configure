@@ -4228,6 +4228,7 @@ $messages['br'] = array(
 	'configure-setting-wgDebugRedirects' => "Diskwel lec'hiadur an adkas e-lec'h adkas war-zu an URL tal",
 	'configure-setting-wgDebugPrintHttpHeaders' => 'Moullañ an talbennoù HTTP evit kement goulenn en titouroù dizreinañ',
 	'configure-setting-wgDebugTimestamps' => "Rakgeriaén ar c'hemennadennoù dizreinañ gant ur merk amzer relativel",
+	'configure-setting-wgDebugToolbar' => 'Diskouez ar varrenn dizreinañ',
 	'configure-setting-wgDevelopmentWarnings' => "Diskwel kemennoù diwall PHP evit fazioù posupl zo hag evit an arc'hwelioù dispredet",
 	'configure-setting-wgShowExceptionDetails' => 'Moullañ roudoù klok pilenn ar galvadennoù evit an nemedennoù',
 	'configure-setting-wgShowDBErrorBacktrace' => 'Moullañ roudoù klok pilenn ar galvadennoù evit fazioù an diaz roadennoù',
