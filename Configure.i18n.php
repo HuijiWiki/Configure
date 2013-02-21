@@ -7546,6 +7546,7 @@ $messages['ku-latn'] = array(
 	'configure-section-groups' => 'Kom',
 	'configure-section-images' => 'Dosyeyan',
 	'configure-section-users' => 'Bikarhêner',
+	'configure-throttle-action-edit' => 'Biguherîne',
 	'configure-throttle-group' => 'Cure',
 	'configure-condition-operator-and' => 'Û',
 );
@@ -11664,6 +11665,7 @@ $messages['rue'] = array(
 
 /** Sicilian (sicilianu)
  * @author Aushulz
+ * @author Markos90
  * @author Melos
  */
 $messages['scn'] = array(
@@ -11692,6 +11694,7 @@ $messages['scn'] = array(
 	'configure-section-antivirus' => 'Antivirus',
 	'configure-section-specialpages' => 'Pàggini spiciali',
 	'configure-section-users' => 'Utenti',
+	'configure-section-search' => 'Risciduta',
 	'configure-section-external-tools' => 'Strumenta esterna',
 	'configure-view' => 'Talìa',
 	'configure-throttle-action-edit' => 'Cancia',
