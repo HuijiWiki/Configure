@@ -14774,6 +14774,13 @@ $messages['mhr'] = array(
 	'configure-setting-wgXhtmlNamespaces-key' => 'Лӱм-влакын кумдыкышт',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'configure-setting-wgImageLimits' => 'Bateh ukuran gambar untuak laman katarangan',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  * @author Brest
