@@ -410,6 +410,7 @@ $specialPageAliases['vec'] = array(
 $specialPageAliases['vi'] = array(
 	'Configure' => array( 'Thiết_lập' ),
 	'Extensions' => array( 'Phần_mở_rộng' ),
+	'ViewConfig' => array( 'Xem_cấu_hình' ),
 );
 
 /** Simplified Chinese (中文（简体）‎) */

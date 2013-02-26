@@ -1170,9 +1170,8 @@ Be consistent with {{msg-mw|Redirectedfrom}} message.',
 	'configure-setting-wgMimeType' => '{{config-wg|MimeType}}',
 	'configure-setting-wgXhtmlDefaultNamespace' => '{{config-wg|XhtmlDefaultNamespace}}',
 	'configure-setting-wgXhtmlNamespaces' => '{{config-wg|XhtmlNamespaces}}',
-	'configure-setting-wgXhtmlNamespaces-key' => '{{Identical|Namespace}}
-
-This is about XHTML namespace, unrelated to MediaWikis namespace.',
+	'configure-setting-wgXhtmlNamespaces-key' => 'This is about XHTML namespace, unrelated to MediaWikis namespace.
+{{Identical|Namespace}}',
 	'configure-setting-wgAllowMicrodataAttributes' => '{{config-wg|AllowMicrodataAttributes}}',
 	'configure-setting-wgAllowRdfaAttributes' => '{{config-wg|AllowRdfaAttributes}}',
 	'configure-setting-wgLocaltimezone' => '{{config-wg|Localtimezone}}',
