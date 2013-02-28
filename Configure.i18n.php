@@ -277,6 +277,7 @@ In addition, you may want to append "<code>&uselang=</code>" with your language 
 	'configure-section-paths' => '{{Identical|Path}}',
 	'configure-section-db' => '{{Identical|Database}}',
 	'configure-section-email' => '{{Identical|E-mail}}',
+	'configure-section-enotif' => '{{Identical|Email notification}}',
 	'configure-section-timezone' => '{{Identical|Time zone}}',
 	'configure-section-html' => '{{optional}}',
 	'configure-section-ajax' => '{{optional}}',
