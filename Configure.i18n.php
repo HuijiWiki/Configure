@@ -290,6 +290,7 @@ In addition, you may want to append "<code>&uselang=</code>" with your language 
 	'configure-section-groups' => '{{Identical|Group}}',
 	'configure-section-block' => '{{Identical|Block}}',
 	'configure-section-squid' => '{{optional}}',
+	'configure-section-test' => '{{Identical|Test}}',
 	'configure-section-upload' => '{{Identical|Upload}}',
 	'configure-section-images' => '{{Identical|File}}',
 	'configure-section-djvu' => '{{optional}}',
@@ -1927,7 +1928,7 @@ Krouit anezhañ pe kemmit-eñ evit gallout implijout an astenn-mañ.",
 	'configure-section-search' => 'Klask',
 	'configure-section-copyright' => 'Copyright',
 	'configure-section-htcp' => 'HTCP lieskanol',
-	'configure-section-misc' => 'Diseurt',
+	'configure-section-misc' => 'A bep seurt',
 	'configure-section-filter' => 'O silañ',
 	'configure-section-mw-extensions' => 'Astennoù MediaWiki',
 	'configure-section-external-tools' => 'Binvioù diavaez',
@@ -9690,7 +9691,7 @@ Er wordt een voorvertoning weergegeven als je het veld verlaat.',
 	'configure-view-not-allowed' => 'Je hebt geen rechten om deze instellingen te wijzigen',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Gunnernett
  * @author Harald Khan
  * @author Nghtwlkr
@@ -9767,7 +9768,7 @@ Opprett ho eller endra ho for å nytta denne utvidinga.',
 	'configure-section-email' => 'E-post',
 	'configure-section-enotif' => 'E-postvarsling',
 	'configure-section-localization' => 'Omsetjing',
-	'configure-section-timezone' => 'Tidssona',
+	'configure-section-timezone' => 'Tidssone',
 	'configure-section-html' => 'HTML',
 	'configure-section-debug' => 'Feilsøkjing',
 	'configure-section-profiling' => 'Profilering',
