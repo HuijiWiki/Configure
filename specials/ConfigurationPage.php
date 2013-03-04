@@ -730,7 +730,7 @@ abstract class ConfigurationPage extends SpecialPage {
 	}
 
 	/**
-	 * Cleanup some settings to respect some behaviour of the core
+	 * Cleanup some settings to respect some behavior of the core
 	 *
 	 * @param $name String: setting name
 	 * @param $val Mixed: setting value
