@@ -40,7 +40,7 @@ Please create it and apply configure.sql or correct its name.',
 	'configure-db-table-error'            => 'The database you specified does not have the required tables. Please apply configure.sql in that database.',
 	'configure-directory-not-writable'    => 'The directory used to store the settings, <code>$1</code>, is not writable.
 Please make it writable by PHP to use this extension.',
-	'configure-edit-old'                  => "'''Warning''': you are editing an <strong>old</strong> version of the configuration (as at $1).",
+	'configure-edit-old'                  => "'''Warning:''' you are editing an <strong>old</strong> version of the configuration (as at $1).",
 	'configure-error'                     => 'The configuration could not be saved',
 	'configure-js-add'                    => 'Add a new entry',
 	'configure-js-group-exists'           => 'Error: the group already exists.',
