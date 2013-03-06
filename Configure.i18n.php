@@ -10,7 +10,7 @@ $messages = array();
 
 $messages['en'] = array(
 	'configure'                           => 'Configure the wiki',
-	'configure-desc'                      => 'Allow authorised users to [[Special:Configure|configure]] the wiki via a web-based interface',
+	'configure-desc'                      => 'Allow authorized users to [[Special:Configure|configure]] the wiki via a web-based interface',
 	'configure-desc-group'                => 'Group',
 	'configure-desc-key'                  => 'Key',
 	'configure-desc-ns'                   => 'Namespace',
@@ -30,7 +30,7 @@ $messages['en'] = array(
 	'configure-ext-use-extension'         => 'Use this extension',
 	'configure-ext-use'                   => 'Use',
 	'configure-form-reason'               => 'Reason:',
-	'configure-customised'                => "''This setting has been customised''",
+	'configure-customised'                => "''This setting has been customized''",
 
 	'configure-arrayinput-oneperline'     => "''(one per line)''",
 	'configure-summary'                   => 'This special page allows you to configure this wiki, see [http://www.mediawiki.org/wiki/Manual:Configuration_settings Configuration settings] for more information.',
@@ -88,7 +88,7 @@ Please create it or change it to use this extension.',
 	'configure-section-html'              => 'HTML',
 	'configure-section-debug'             => 'Debugging',
 	'configure-section-profiling'         => 'Profiling',
-	'configure-section-site'              => 'Site customisation',
+	'configure-section-site'              => 'Site customization',
 	'configure-section-ajax'              => 'Ajax',
 	'configure-section-css-js'            => 'CSS and JavaScript',
 	'configure-section-resourceloader'    => 'ResourceLoader',
