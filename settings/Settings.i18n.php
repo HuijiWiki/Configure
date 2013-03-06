@@ -6063,9 +6063,13 @@ $messages['el'] = array(
 /** British English (British English)
  * @author Lcawte
  * @author Reedy
+ * @author Shirayuki
  */
 $messages['en-gb'] = array(
+	'configure-setting-wgRestrictDisplayTitle' => 'Require use of <nowiki>{{DISPLAYTITLE}}</nowiki> to normalise to the same canonical page title',
 	'configure-setting-wgMaxSigChars' => 'Maximum length of customised signature',
+	'configure-setting-wgLocalMessageCacheSerialized' => 'Use PHP serialised format for the local message cache',
+	'configure-setting-wgEnotifImpersonal' => 'Send a generic email instead of a personalised email for each user',
 );
 
 /** Esperanto (Esperanto)
@@ -25781,7 +25785,7 @@ $messages['vi'] = array(
 	'configure-setting-wgParserConf' => 'Thiết lập bộ phân tích',
 	'configure-setting-wgLanguageCode' => 'Mã ngôn ngữ của website',
 	'configure-setting-wgTranslateNumerals' => 'Chuyển tự các số',
-	'configure-setting-wgUseDatabaseMessages' => 'Cho phép sửa đổi thông báo trong không gian tên MediaWiki',
+	'configure-setting-wgUseDatabaseMessages' => 'Cho phép sửa đổi thông điệp trong không gian tên MediaWiki',
 	'configure-setting-wgUseDynamicDates' => 'Định dạng lại các ngày tháng được liên kết',
 	'configure-setting-wgArticleRobotPolicies' => 'Quy định robot theo trang',
 	'configure-setting-wgArticleRobotPolicies-key' => 'Tên trang',

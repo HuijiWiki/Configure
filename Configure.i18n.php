@@ -257,9 +257,10 @@ In addition, you may want to append "<code>&uselang=</code>" with your language 
 * do not translate <code>configure.sql</code>',
 	'configure-db-table-error' => 'Do not translate <code>configure.sql</code>.',
 	'configure-directory-not-writable' => '* $1 is the directory in the file-system',
-	'configure-edit-old' => '* $1 is the date and time of the version
-* $2 is the date of the version, alone
-* $3 is the time of the version, alone',
+	'configure-edit-old' => 'Parameters:
+* $1 - the date and time of the version
+* $2 - the date of the version, alone
+* $3 - the time of the version, alone',
 	'configure-js-remove' => '{{Identical|Delete}}',
 	'configure-js-search-prompt' => '{{Identical|Query}}',
 	'configure-no-directory' => '* $1 is the directory in the file-system',
@@ -3427,6 +3428,15 @@ $messages['el'] = array(
 	'configure-boolop-description-or' => 'Τουλάχιστον μία συνθήκη πρέπει να είναι αληθής',
 	'configure-boolop-description-xor' => 'Ακριβώς μία προϋπόθεση πρέπει να είναι αληθής',
 	'configure-boolop-description-not' => 'Καμία συνθήκη δεν πρέπει να είναι αληθής',
+);
+
+/** British English (British English)
+ * @author Shirayuki
+ */
+$messages['en-gb'] = array(
+	'configure-desc' => 'Allow authorised users to [[Special:Configure|configure]] the wiki via a web-based interface',
+	'configure-customised' => "''This setting has been customised''",
+	'configure-section-site' => 'Site customisation',
 );
 
 /** Esperanto (Esperanto)
@@ -6639,7 +6649,7 @@ $messages['ja'] = array(
 	'configure-db-table-error' => 'あなたが指定したデータベースには必要なテーブルがありません。そのデータベースに configure.sql を適用してください。',
 	'configure-directory-not-writable' => '設定の格納に使用するディレクトリ <code>$1</code> に書き込めません。
 この拡張機能を使用するには、ディレクトリに PHP が書き込めるように設定してください。',
-	'configure-edit-old' => "'''警告''': あなたは構成設定の<strong>古い</strong>版 ($1時点) を編集しています。",
+	'configure-edit-old' => "'''警告:''' あなたは構成設定の<strong>古い</strong>版 ($1時点) を編集しています。",
 	'configure-error' => '設定を保存できませんでした',
 	'configure-js-add' => '新しいエントリーを追加',
 	'configure-js-group-exists' => 'エラー: そのグループは既に存在します。',
@@ -14117,7 +14127,7 @@ Xin hãy khởi tạo hoặc thay đổi nó để dùng được phần mở r�
 	'configure-section-category' => 'Thể loại',
 	'configure-section-cache' => 'Bộ đệm',
 	'configure-section-pcache' => 'Bộ đệm cú pháp',
-	'configure-section-messagecache' => 'Bộ đệm thông báo',
+	'configure-section-messagecache' => 'Bộ đệm thông điệp',
 	'configure-section-memcached' => 'Lưu bộ đệm',
 	'configure-section-access' => 'Truy cập',
 	'configure-section-groups' => 'Nhóm',
