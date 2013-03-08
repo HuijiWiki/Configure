@@ -253,6 +253,7 @@ The list will be displayed below this message.',
 Translated versions of the manual page may exist, they have a "<code>/</code>" and a language code appended to the base URL of the English original.
 
 In addition, you may want to append "<code>&uselang=</code>" with your language code to the URL.',
+	'configure-btn-save' => '{{Identical|Save settings}}',
 	'configure-db-error' => '* $1 is the table name in the database
 * do not translate <code>configure.sql</code>',
 	'configure-db-table-error' => 'Do not translate <code>configure.sql</code>.',
@@ -5959,9 +5960,12 @@ Készítsd el, vagy változtasd meg a kiterjesztés használatához.',
 );
 
 /** Armenian (Հայերեն)
+ * @author Vadgt
  */
 $messages['hy'] = array(
+	'configure-btn-save' => 'Պահպանել կարգավորումները',
 	'configure-section-search' => 'Որոնել',
+	'configure-throttle-action-move' => 'Տեղափոխել',
 );
 
 /** Interlingua (interlingua)

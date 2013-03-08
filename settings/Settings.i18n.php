@@ -10992,6 +10992,13 @@ $messages['hu'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'UDP profiler portja',
 );
 
+/** Armenian (Հայերեն)
+ * @author Vadgt
+ */
+$messages['hy'] = array(
+	'configure-setting-wgSitename' => 'Կայքի Անունը',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
