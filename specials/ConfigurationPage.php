@@ -1115,6 +1115,10 @@ abstract class ConfigurationPage extends SpecialPage {
 				if ( isset( $default[$action] ) )
 					$val = $default[$action];
 
+				// Give grep a chance to find the usages:
+				// configure-throttle-action-edit, configure-throttle-action-move,
+				// configure-throttle-action-rollback, configure-throttle-action-mailpassword,
+				// configure-throttle-action-emailuser
 				$key = Html::rawElement( 'td', array(), $this->msg( "configure-throttle-action-$action" )->parse() );
 
 				## Build YET ANOTHER ASSOC TABLE ARGH!
@@ -1129,6 +1133,10 @@ abstract class ConfigurationPage extends SpecialPage {
 					else
 						$count = $period = 0;
 
+					// Give grep a chance to find the usages:
+					// configure-throttle-group-anon, configure-throttle-group-user,
+					// configure-throttle-group-newbie, configure-throttle-group-ip,
+					// configure-throttle-group-subnet
 					$id = 'wp'.$conf.'-key-'.$action.'-'.$type;
 					$left_col = Html::rawElement( 'td', array(), $this->msg( "configure-throttle-group-$type" )->parse() );
 

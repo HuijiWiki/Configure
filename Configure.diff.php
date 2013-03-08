@@ -289,6 +289,11 @@ abstract class ConfigurationDiff extends ContextSource {
 
 				foreach( $setting as $group => $conds ) {
 					if ( !is_array( $conds ) ) {
+						// Give grep a chance to find the usages:
+						// configure-condition-description-1, configure-condition-description-2,
+						// configure-condition-description-3, configure-condition-description-4,
+						// configure-condition-description-5, configure-condition-description-6,
+						// configure-condition-description-7
 						$val[] = "$group: ".$this->msg( "configure-condition-description-$conds" )->text();
 						continue;
 					}
@@ -298,6 +303,9 @@ abstract class ConfigurationDiff extends ContextSource {
 					}
 
 					if ( count( $conds ) > 1 && in_array( $conds[0], $validOps ) ) {
+						// Give grep a chance to find the usages:
+						// configure-boolop-description-and, configure-boolop-description-or,
+						// configure-boolop-description-xor, configure-boolop-description-not
 						$boolop = array_shift( $conds );
 						$boolop = $opToName[$boolop];
 
@@ -322,6 +330,11 @@ abstract class ConfigurationDiff extends ContextSource {
 						$argSummary = implode( ', ', $cond );
 						$count = count( $cond );
 
+						// Give grep a chance to find the usages:
+						// configure-condition-description-1, configure-condition-description-2,
+						// configure-condition-description-3, configure-condition-description-4,
+						// configure-condition-description-5, configure-condition-description-6,
+						// configure-condition-description-7
 						$val[] = "$group: ".$this->msg( "configure-condition-description-$name", $argSummary, $count )->text();
 					}
 				}
