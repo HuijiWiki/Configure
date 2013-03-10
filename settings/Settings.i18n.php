@@ -4852,6 +4852,19 @@ $messages['ce'] = array(
 	'configure-setting-wgActionPaths-value' => 'URL куцкепа',
 );
 
+/** Sorani Kurdish (کوردی)
+ * @author Calak
+ */
+$messages['ckb'] = array(
+	'configure-setting-wgArticleRobotPolicies-key' => 'سەردێڕی پەڕە',
+	'configure-setting-wgExtraLanguageNames-key' => 'کۆدی زمان',
+	'configure-setting-wgExtraLanguageNames-value' => 'ناو',
+	'configure-setting-wgLogRestrictions-key' => 'جۆری لۆگ',
+	'configure-setting-wgSpecialPageGroups-key' => 'گرووپ',
+	'configure-setting-wgAutopromote-value' => 'مەرجەکان',
+	'configure-setting-wgNamespaceAliases-key' => 'نازناو',
+);
+
 /** Czech (česky)
  * @author Chmee2
  * @author Danny B.
@@ -9986,7 +9999,7 @@ $messages['he'] = array(
 	'configure-setting-wgHandheldForIPhone' => "להחיל את סוגי המדיה 'screen' ו־'handheld' על אייפון",
 	'configure-setting-wgIncludeLegacyJavaScript' => 'כלול ספריית JavaScript ישנה ואת התלויות שלה',
 	'configure-setting-wgLegacyJavaScriptGlobals' => 'הגדר משתני קונפיגורציה כמשתנים גלובליים ב-JavaScript',
-	'configure-setting-wgResourceLoaderDebug' => 'מצב ניפוי שגיאות לבקשות ResourceLoader', # Fuzzy
+	'configure-setting-wgResourceLoaderDebug' => 'הפעל מצב ניפוי שגיאות לבקשות ResourceLoader',
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'להטביע מודולים פרטיים בפלט HTML',
 	'configure-setting-wgResourceLoaderMaxage' => 'זמן מרבי בשניות להטמנת משאבים על ידי טוען המשאבים',
 	'configure-setting-wgResourceLoaderMinifierMaxLineLength' => 'אורך שורה המרבי ב-JavaScript ממוזער',
