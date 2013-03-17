@@ -241,6 +241,9 @@ $messages['qqq'] = array(
 	'configure-edit-ext' => '{{Identical|Extension}}',
 	'configure-ext-ext-dependencies' => '* $1 is a list of extensions
 * $2 is the number of extensions in $1',
+	'configure-ext-ext-dependency-err' => 'Used as error message. Parameters:
+* $1 - extension name
+* $2 - extension name which the extension $1 depends on',
 	'configure-ext-settings' => '{{Identical|Settings}}',
 	'configure-ext-settings-dep-errors' => '* $1 is the number of incorrect settings
 
@@ -265,6 +268,8 @@ In addition, you may want to append "<code>&uselang=</code>" with your language 
 	'configure-js-remove' => '{{Identical|Delete}}',
 	'configure-js-search-prompt' => '{{Identical|Query}}',
 	'configure-no-directory' => '* $1 is the directory in the file-system',
+	'configure-no-setup' => '{{doc-important|Do not translate <code>efConfigureSetup()</code> and <code>LocalSettings.php</code>.}}
+Used as error message.',
 	'configure-old-not-available' => '* $1 is the 14 char timestamp of the version',
 	'configure-old-changes' => '{{Identical|Change}}',
 	'configure-old-summary' => '* $1 is a link to the page, the time and date of the version is the link anchor
@@ -334,6 +339,9 @@ In addition, you may want to append "<code>&uselang=</code>" with your language 
 	'configure-throttle-action-move' => '{{Identical|Move}}',
 	'configure-throttle-action-rollback' => '{{Identical|Rollback}}',
 	'configure-throttle-group-anon' => '{{Identical|Anonymous user}}',
+	'configure-throttle-summary' => 'Used to indicate the rate limit. Parameters:
+* $1 - number of actions
+* $2 - number of seconds',
 	'configure-throttle-group' => '{{Identical|Type}}',
 	'configure-throttle-limit' => '{{Identical|Limit}}',
 	'configure-condition-operator' => '{{Identical|Operator}}',
@@ -347,6 +355,10 @@ In addition, you may want to append "<code>&uselang=</code>" with your language 
 	'configure-condition-description-3' => '{{Identical|E-mail confirmed}}',
 	'configure-condition-description-4' => '* $1 is a list of groups
 * $2 (optional, for use with PLURAL) contains the count of groups in $1, for <nowiki>{{PLURAL:}}</nowiki> if you need it',
+	'configure-condition-description-5' => 'Parameters:
+* $1 - IP address',
+	'configure-condition-description-7' => 'Parameters:
+* $1 - number of seconds',
 );
 
 /** Abkhazian (Аҧсшәа)
