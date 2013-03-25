@@ -231,7 +231,7 @@ Please create it or change it to use this extension.',
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'configure' => 'Name of special page displayed in [[Special:SpecialPages]].',
+	'configure' => '{{doc-special|Configure}}',
 	'configure-desc' => '{{desc|name=Configure|url=http://www.mediawiki.org/wiki/Extension:Configure}}
 {{Identical|Authorised user}}',
 	'configure-desc-group' => '{{Identical|Group}}',
@@ -257,9 +257,10 @@ Translated versions of the manual page may exist, they have a "<code>/</code>" a
 
 In addition, you may want to append "<code>&uselang=</code>" with your language code to the URL.',
 	'configure-btn-save' => '{{Identical|Save settings}}',
-	'configure-db-error' => '* $1 is the table name in the database
-* do not translate <code>configure.sql</code>',
-	'configure-db-table-error' => 'Do not translate <code>configure.sql</code>.',
+	'configure-db-error' => '{{doc-important|Do not translate <code>configure.sql</code>.}}
+Parameters:
+* $1 - the table name in the database',
+	'configure-db-table-error' => '{{doc-important|Do not translate <code>configure.sql</code>.}}',
 	'configure-directory-not-writable' => '* $1 is the directory in the file-system',
 	'configure-edit-old' => 'Parameters:
 * $1 - the date and time of the version
@@ -324,7 +325,7 @@ Used as error message.',
 * $5 is the comment, as provided by the user, which may be empty
 * $6 is the date of the version
 * $7 is the time of the version',
-	'extensions' => 'Name of special page displayed in [[Special:SpecialPages]].',
+	'extensions' => '{{doc-special|Extensions}}',
 	'right-configure' => '{{doc-right|configure}}',
 	'right-configure-all' => '{{doc-right|configure-all}}',
 	'right-configure-interwiki' => '{{doc-right|configure-interwiki}}',
@@ -334,7 +335,7 @@ Used as error message.',
 	'right-viewconfig' => '{{doc-right|viewconfig}}',
 	'right-viewconfig-all' => '{{doc-right|viewconfig-all}}',
 	'right-viewconfig-interwiki' => '{{doc-right|viewconfig-interwiki}}',
-	'viewconfig' => 'Name of special page displayed in [[Special:SpecialPages]].',
+	'viewconfig' => '{{doc-special|ViewConfig}}',
 	'configure-throttle-action-edit' => '{{Identical|Edit}}',
 	'configure-throttle-action-move' => '{{Identical|Move}}',
 	'configure-throttle-action-rollback' => '{{Identical|Rollback}}',
@@ -3057,7 +3058,7 @@ $messages['diq'] = array(
 	'configure-section-cookie' => 'Çerezi',
 	'configure-section-performance' => 'Performans',
 	'configure-section-test' => 'Testi',
-	'configure-section-upload' => 'Barke',
+	'configure-section-upload' => 'Bar ke',
 	'configure-section-mime' => 'Babetê NIME',
 	'configure-section-images' => 'Dosyey',
 	'configure-section-antivirus' => 'Antivirus',
