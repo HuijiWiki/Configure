@@ -16874,6 +16874,18 @@ $messages['nb'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Port for UDP-profiler',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Joachim Mos
+ */
+$messages['nds'] = array(
+	'configure-setting-wgActionPaths-key' => 'Akschoon',
+	'configure-setting-wgExtraLanguageNames-key' => 'Spraak-Code',
+	'configure-setting-wgExtraLanguageNames-value' => 'Naam',
+	'configure-setting-wgSpecialPageGroups-key' => 'Köppel',
+	'configure-setting-wgDebugLogGroups-value' => 'Datei',
+	'configure-setting-wgValidSkinNames-value' => 'Naam wiesen',
+);
+
 /** Dutch (Nederlands)
  * @author McDutchie
  * @author SPQRobin

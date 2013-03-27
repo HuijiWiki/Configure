@@ -3081,6 +3081,7 @@ $messages['diq'] = array(
 	'configure-throttle-action-edit' => 'Bıvurne',
 	'configure-throttle-action-move' => 'Berê',
 	'configure-throttle-action-rollback' => 'Peyser bia',
+	'configure-throttle-group-anon' => 'Heme karberê bênamey',
 	'configure-throttle-group' => 'Babet',
 	'configure-throttle-limit' => 'Limit',
 	'configure-condition-operator' => 'Operator',
@@ -9438,6 +9439,7 @@ Opprett den eller endre den for å bruke denne utvidelsen.',
 );
 
 /** Low German (Plattdüütsch)
+ * @author Joachim Mos
  * @author Slomox
  */
 $messages['nds'] = array(
@@ -9446,11 +9448,19 @@ $messages['nds'] = array(
 	'configure-desc-key' => 'Slötel',
 	'configure-desc-ns' => 'Naamruum',
 	'configure-desc-val' => 'Weert',
+	'configure-edit-core' => 'MediaWiki',
+	'configure-ext-use' => 'Bruken',
 	'configure-js-add' => 'Ne’en Indrag tofögen',
 	'configure-js-group-exists' => 'Fehler: De Grupp gifft dat al.',
 	'configure-js-prompt-group' => 'Naam vun de ne’e Grupp ingeven:',
 	'configure-js-remove' => 'Wegsmieten',
 	'configure-js-remove-row' => 'Indrag wegsmieten',
+	'configure-section-pages' => 'Sieden',
+	'configure-section-email' => 'E-Mail',
+	'configure-section-css-js' => 'CSS un JavaScript',
+	'configure-section-category' => 'Kategorien',
+	'configure-section-cache' => 'Cache',
+	'configure-section-groups' => 'Köppels',
 	'configure-section-cookie' => 'Cookies',
 	'configure-section-upload' => 'Hoochladen',
 	'configure-section-mime' => 'MIME-Typen',
@@ -9458,6 +9468,18 @@ $messages['nds'] = array(
 	'configure-section-users' => 'Brukers',
 	'configure-section-search' => 'Söken',
 	'configure-section-misc' => 'Verscheden',
+	'configure-section-output' => 'Utgaav',
+	'configure-select-wiki-view-all' => 'All Wikis',
+	'configure-select-wiki-submit' => 'Utwählen',
+	'configure-view' => 'Ankieken',
+	'configure-throttle-action-edit' => 'Ännern',
+	'configure-throttle-action-move' => 'Schuven',
+	'configure-throttle-action-rollback' => 'Trüchnehmen',
+	'configure-throttle-group' => 'Typ',
+	'configure-condition-operator-or' => 'Or',
+	'configure-condition-operator-and' => 'And',
+	'configure-condition-operator-xor' => 'Xor',
+	'configure-condition-operator-not' => 'Not',
 );
 
 /** Nedersaksies (Nedersaksies)
