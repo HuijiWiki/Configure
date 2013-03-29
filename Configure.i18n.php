@@ -33,7 +33,7 @@ $messages['en'] = array(
 	'configure-customised'                => "''This setting has been customized''",
 
 	'configure-arrayinput-oneperline'     => "''(one per line)''",
-	'configure-summary'                   => 'This special page allows you to configure this wiki, see [http://www.mediawiki.org/wiki/Manual:Configuration_settings Configuration settings] for more information.',
+	'configure-summary'                   => 'This special page allows you to configure this wiki. See [http://www.mediawiki.org/wiki/Manual:Configuration_settings Configuration settings] for more information.',
 	'configure-btn-save'                  => 'Save settings',
 	'configure-db-error'                  => 'The database you specified to hold the configuration ($1) does not exist.
 Please create it and apply configure.sql or correct its name.',

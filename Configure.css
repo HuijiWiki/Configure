@@ -16,7 +16,12 @@ td.config-col-toc, td.config-col-toc-hidden {
 
 td.config-col-toc {
 	border-right: 1px solid #999;
+	padding: 0;
 	margin-right: .5em;
+}
+
+td.config-col-toc ul {
+	margin-left: 0;
 }
 
 td.config-col-form {
@@ -35,7 +40,6 @@ td.config-col-form fieldset > legend {
 
 ul.configtoc {
 	vertical-align: top;
-	padding-right: 0.5em;
 }
 
 ul.configtoc, ul.configtoc > li > ul {
@@ -45,16 +49,27 @@ ul.configtoc, ul.configtoc > li > ul {
 
 ul.configtoc li {
 	white-space: nowrap;
-	background-color: #fefefe;
+	padding: 0.5em;
+	position: relative;
 }
 
-ul.configtoc li > a.selected {
+ul.configtoc > li {
+	padding-left: 2.5em;
+}
+
+ul.configtoc > li > ul > li {
+	padding-left: 1.5em;
+}
+
+ul.configtoc li.selected {
 	background-color: #ddddff;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 
 ul.configtoc li > a.toggle {
-	margin-left: -1.5em;
-	padding-right: 0.3em;
+	position: absolute;
+	left: 0.75em;
 }
 
 .config-toc-delimiter {
