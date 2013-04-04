@@ -638,7 +638,10 @@ $messages['en'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Port for UDP profiler',
 );
 
-/** Message documentation (Message documentation)
+/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always.
+
+It might be easier to translate it as "translation guidelines" or "translation help".
+{{Identical|Message documentation}})
  * @author EugeneZelenko
  * @author Fryed-peach
  * @author Grigol
@@ -14881,7 +14884,7 @@ $messages['mk'] = array(
 	'configure-setting-wgThumbLimits' => 'Дозволени големини за минијатури',
 	'configure-setting-wgUseImageResize' => 'Овозможи динамично менување на големината на сликите од страна на опслужувачот',
 	'configure-setting-wgEnableAutoRotation' => 'Вртење на слики според нивната ориентација по EXIF',
-	'configure-setting-wgTrustedMediaFormats' => 'Типови на податотеки и MIME-типови кои се сметаат за „безбедни“',
+	'configure-setting-wgTrustedMediaFormats' => 'Податотечни типови и MIME-типови кои се сметаат за „безбедни“',
 	'configure-setting-wgImgAuthDetails' => 'Прикажувај подробно образложение за причината за неуспешен пристап во failed in img_auth.php',
 	'configure-setting-wgImgAuthPublicTest' => 'Проверувај дали скитеи се јавно достапни и прикажи грешка на img_auth.php ако е така',
 	'configure-setting-wgTiffThumbnailType' => 'Податотечна наставка и MIME-тип во кој ќе се претвораат TIFF-слики',
@@ -15357,7 +15360,7 @@ $messages['mk'] = array(
 	'configure-setting-wgUseSiteCss' => 'Користи ги табелите во каскаден стил (CSS) на мрежното место',
 	'configure-setting-wgUseSiteJs' => 'Користи ја JavaScript-страницата на мрежното место',
 	'configure-setting-wgHandheldStyle' => 'Стил за media="handheld"',
-	'configure-setting-wgHandheldForIPhone' => 'Примени типови на податотеки „screen“ и „handheld“ за iPhone',
+	'configure-setting-wgHandheldForIPhone' => 'Применувај ги медиските типови „screen“ и „handheld“ за iPhone',
 	'configure-setting-wgIncludeLegacyJavaScript' => 'Вклучи ја старата библиотека на JavaScript и сите нејзини зависни елементи',
 	'configure-setting-wgLegacyJavaScriptGlobals' => 'Додели променливи за поставки во глобалниот простор во JavaScript',
 	'configure-setting-wgResourceBasePath' => 'Стандардна вредност „патека на далечинската база“ на модулите за вчитување на ресурси (ако го оставите празно, ќе се користи <code>$wgScriptPath</code>)',

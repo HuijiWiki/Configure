@@ -215,7 +215,10 @@ Please create it or change it to use this extension.',
 	'configure-farmer-extensions-list'    => '[[Special:Extensions|List extensions available for this wiki]].',
 );
 
-/** Message documentation (Message documentation)
+/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always.
+
+It might be easier to translate it as "translation guidelines" or "translation help".
+{{Identical|Message documentation}})
  * @author AnakngAraw
  * @author Aotake
  * @author Darth Kule
