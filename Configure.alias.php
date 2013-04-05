@@ -338,6 +338,11 @@ $specialPageAliases['ro'] = array(
 	'ViewConfig' => array( 'Vizualizare_configurare' ),
 );
 
+/** Russian (русский) */
+$specialPageAliases['ru'] = array(
+	'Extensions' => array( 'Расширения' ),
+);
+
 /** Sanskrit (संस्कृतम्) */
 $specialPageAliases['sa'] = array(
 	'Configure' => array( 'संरूपण' ),
