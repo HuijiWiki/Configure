@@ -638,10 +638,7 @@ $messages['en'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Port for UDP profiler',
 );
 
-/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always.
-
-It might be easier to translate it as "translation guidelines" or "translation help".
-{{Identical|Message documentation}})
+/** Message documentation (Message documentation)
  * @author EugeneZelenko
  * @author Fryed-peach
  * @author Grigol
@@ -7185,6 +7182,7 @@ $messages['fi'] = array(
 	'configure-setting-wgDebugLogGroups-value' => 'Tiedosto',
 	'configure-setting-wgShowSQLErrors' => 'Näytä tietokantavirheiden sivut',
 	'configure-setting-wgDBtestpassword' => 'Käyttäjän $wgDBtestuser salasana',
+	'configure-setting-wgAPIMaxResultSize' => 'API-tuloksen enimmäiskoko (tavuina)',
 	'configure-setting-wgDisableQueryPageUpdate' => 'Käytöstä poistetut toimintosivut',
 	'configure-setting-wgFixDoubleRedirects' => 'Korjaa kaksinkertaiset ohjaukset sivun siirron jälkeen',
 	'configure-setting-wgCookieExpiration' => 'HTTP-evästeen vanhenemisaika',
