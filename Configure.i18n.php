@@ -7419,7 +7419,7 @@ Donn ens pröfe, ov di Datei övverhoup do es.',
 	'configure-old' => 'Ahle Versione',
 	'configure-old-versions' => 'De Leß met de äldere Versione vun dä Enstellunge:',
 	'configure-old-not-available' => 'De ällder Version vun de Enstellunge, woh De noh am frore beß, $1, die jidd_et nit.',
-	'configure-old-changes' => 'Änderunge',
+	'configure-old-changes' => 'Änderonge',
 	'configure-old-summary' => '$1 vun $2 $4 $3',
 	'configure-saved' => 'De Kunfijjurazjuhn es jez afjespeichert',
 	'configure-backlink' => 'Retuur op et Fommulaa för et Enjävve',
@@ -9560,9 +9560,9 @@ $messages['nl'] = array(
 	'configure-arrayinput-oneperline' => "''(een per regel)''",
 	'configure-summary' => 'Via deze special pagina kunt u instellingen maken voor deze wiki. Zie [http://www.mediawiki.org/wiki/Manual:Configuration_settings Instellingen] voor meer informatie.',
 	'configure-btn-save' => 'Instellingen opslaan',
-	'configure-db-error' => 'De aangegeven database voor de instellingen ($1) bestaat niet.
+	'configure-db-error' => 'De opgegeven database voor de instellingen ($1) bestaat niet.
 Maak deze aan en voer configure.sql uit, of corrigeer de naam.',
-	'configure-db-table-error' => 'De aangegeven database heeft de vereiste tabellen niet.
+	'configure-db-table-error' => 'De opgegeven database heeft de vereiste tabellen niet.
 Voer configure.sql in de database.',
 	'configure-directory-not-writable' => 'In de map waarin de instellingen worden opgeslagen, <code>$1</code>, kan niet geschreven worden.
 Zorg er voor dat PHP in de map kan schrijven om deze uitbreiding te gebruiken.',
@@ -9583,7 +9583,7 @@ Controleer of het bestand bestaat.',
 	'configure-js-summary-none' => 'Geen instellingen',
 	'configure-js-search-legend' => 'Zoekinstellingen',
 	'configure-js-search-prompt' => 'Zoekopdracht:',
-	'configure-no-diff' => 'Er is geen verschil tussen de aangegeven versies.',
+	'configure-no-diff' => 'Er is geen verschil tussen de opgegeven versies.',
 	'configure-no-directory' => 'De map waarin de instellingen moeten worden opgeslagen (<code>$1</code>) bestaat niet.
 Maak die map aan, of verander de instelling voordat u deze uitbreiding kunt gebruiken.',
 	'configure-no-old' => 'Er zijn geen oude versies van de instellingen.',

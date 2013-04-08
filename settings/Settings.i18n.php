@@ -18607,6 +18607,7 @@ $messages['pfl'] = array(
 /** Polish (polski)
  * @author Anoon6
  * @author BeginaFelicysym
+ * @author Chrumps
  * @author Derbeth
  * @author Grzechooo
  * @author Leinad
@@ -19012,6 +19013,13 @@ $messages['pl'] = array(
 	'configure-setting-wgDBtransactions' => 'Użyj tabel InnoDB',
 	'configure-setting-wgDBClusterTimeout' => 'Limit czasu dla bazy danych',
 	'configure-setting-wgDBservers' => 'Serwery baz danych',
+	'configure-setting-wgSVGConverter' => 'Konwerter SVG',
+	'configure-setting-wgSVGConverters' => 'Konwertery SVG',
+	'configure-setting-wgSVGConverters-key' => 'Nazwa konwertera',
+	'configure-setting-wgSVGConverters-value' => 'Polecenie konwersja',
+	'configure-setting-wgImageMagickConvertCommand' => 'Polecenie ImageMagick',
+	'configure-setting-wgImageMagickTempDir' => 'Tymczasowy katalog ImageMagick',
+	'configure-setting-wgUseImageMagick' => 'Użyj ImageMagick',
 	'configure-setting-wgEnableParserCache' => 'Włącz pamięć podręczną analizatora składni',
 	'configure-setting-wgValidateAllHtml' => 'Odmówić  wyświetlania niepoprawnych stron',
 	'configure-setting-wgRawHtml' => 'Zezwalaj na surowy, niezweryfikowany HTML w sekcjach <code><nowiki><html></nowiki></code>{{int:ellipsis}}<code><nowiki></html></nowiki></code>',
@@ -21065,6 +21073,8 @@ $messages['roa-tara'] = array(
 	'configure-setting-wgDBpassword' => 'Passuord pe $wgDBuser',
 	'configure-setting-wgDBadminpassword' => 'Passuord pe $wgDBadminuser',
 	'configure-setting-wgDBport' => "Porte d'u server pe database",
+	'configure-setting-wgDBserver' => "Nome de l'host o indirizze IP d'u server d'u database",
+	'configure-setting-wgDBtype' => 'Tipe de database da ausà',
 	'configure-setting-wgSharedTables' => 'Tabbelle da condividere',
 	'configure-setting-wgMediaHandlers-key' => 'Tipe de MIME',
 	'configure-setting-wgArticleRobotPolicies-key' => "Titole d'a pàgene",
