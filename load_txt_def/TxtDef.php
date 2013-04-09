@@ -36,7 +36,7 @@ class TxtDef {
 				$out[$head] = array();
 				continue;
 			} elseif( $head === false ) {
-				trigger_error( "There must be an header before any data in {$file}", E_USER_WARNING );
+				trigger_error( "There must be a header before any data in {$file}", E_USER_WARNING );
 				return false;
 			}
 

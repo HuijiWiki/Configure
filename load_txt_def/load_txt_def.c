@@ -242,7 +242,7 @@ PHP_FUNCTION( load_txt_def ) {
 			if ( delim != NULL ) {
 				if ( !head ) {
 					/* eek, we need an initialized header */
-					php_error( E_WARNING, "There must be an header before any data in '%s' on line %i", filename, i + 1 );
+					php_error( E_WARNING, "There must be a header before any data in '%s' on line %i", filename, i + 1 );
 					retval = FAILURE;
 					break;
 				}

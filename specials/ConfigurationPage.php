@@ -207,7 +207,7 @@ abstract class ConfigurationPage extends SpecialPage {
 	}
 
 	/**
-	 * Get an 3D array of all settings
+	 * Get a 3D array of all settings
 	 *
 	 * @return array
 	 */

@@ -452,7 +452,7 @@ through translatewiki.net and are not listed here.
 
 0.11.10 - 17 January 2009
   Fixed "You are not allowed to read this setting" error for all settings on
-  Special:Extensions when $wgConfigureEditableSettings is an non-empty array.
+  Special:Extensions when $wgConfigureEditableSettings is a non-empty array.
 
 0.11.9 - 16 January 2009
   Added support for $wgNewPasswordExpiry.
