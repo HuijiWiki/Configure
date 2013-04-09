@@ -29,7 +29,7 @@ $specialPageAliases['arz'] = array(
 	'ViewConfig' => array( 'عرض_التظبيطات' ),
 );
 
-/** Assamese (অসমীয়া) */
+/** Assamese (অসমীয়া) */
 $specialPageAliases['as'] = array(
 	'Configure' => array( 'সংৰূপ' ),
 );
@@ -340,7 +340,9 @@ $specialPageAliases['ro'] = array(
 
 /** Russian (русский) */
 $specialPageAliases['ru'] = array(
+	'Configure' => array( 'Настройка' ),
 	'Extensions' => array( 'Расширения' ),
+	'ViewConfig' => array( 'Просмотр_настроек' ),
 );
 
 /** Sanskrit (संस्कृतम्) */
