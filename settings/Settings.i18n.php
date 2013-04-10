@@ -5248,6 +5248,7 @@ $messages['da'] = array(
 /** German (Deutsch)
  * @author Als-Holder
  * @author ChrisiPK
+ * @author Geitost
  * @author Imre
  * @author Kghbln
  * @author MF-Warburg
@@ -5431,7 +5432,7 @@ $messages['de'] = array(
 	'configure-setting-wgDeleteRevisionsLimit' => "Integer-Variable, die angibt, wie viele Versionen eine Seite haben muss, bevor das ''bigdelete''-Benutzerrecht benötigt wird, um die Seite zu löschen",
 	'configure-setting-wgDisabledActions' => 'Nicht zugelassene Seitenaktionen',
 	'configure-setting-wgNewPasswordExpiry' => 'Die Zeit, in Sekunden, nach der ein per E-Mail versendetes temporäres Passwort verfällt',
-	'configure-setting-wgEmailConfirmToEdit' => 'Benutzer müssen E-Mail-Adresse bestätigen, bevor sie bearbeiten können',
+	'configure-setting-wgEmailConfirmToEdit' => 'Benutzer eine E-Mail-Adresse bestätigen lassen, bevor sie Bearbeitungen tätigen können',
 	'configure-setting-wgEnableAPI' => 'API aktivieren',
 	'configure-setting-wgEnableWriteAPI' => 'Write API aktivieren',
 	'configure-setting-wgImplicitGroups' => 'Gruppen, die nicht auf [[Special:ListUsers]] u.ä. angezeigt werden',
@@ -5868,11 +5869,11 @@ $messages['de'] = array(
 	'configure-setting-wgEnotifImpersonal' => 'Eine allgemeine E-Mail anstelle einer personalisierten E-Mail für jeden Benutzer schicken',
 	'configure-setting-wgEnotifMaxRecips' => 'Maximale Anzahl an Benutzer, die auf einmal angeschrieben werden, wenn eine unpersönliche E-Mail versandt wird',
 	'configure-setting-wgEnotifMinorEdits' => 'E-Mail-Benachrichtigungen auch für „kleine Änderungen“ (Benutzereinstellung wird angezeigt und Benutzer muss die Option ausdrücklich aktivieren)',
-	'configure-setting-wgEnotifRevealEditorAddress' => 'Reply-To-Adresse von E-Mail-Benachrichtigungen kann mit der Adresse des Seitenbearbeiters gefüllt werden (Benutzereinstellung wird angezeigt und Benutzer muss die Option ausdrücklich aktivieren)',
+	'configure-setting-wgEnotifRevealEditorAddress' => 'Reply-to-Adresse von E-Mail-Benachrichtigungen kann mit der Adresse des Seitenbearbeiters gefüllt werden (Benutzereinstellung wird angezeigt und Benutzer muss die Option ausdrücklich aktivieren)',
 	'configure-setting-wgEnotifUseJobQ' => 'E-Mails über die Job Queue versenden',
-	'configure-setting-wgEnotifUseRealName' => 'Echten Namen anstelle von Benutzernamen im E-Mail „Von“-Feld verwenden',
-	'configure-setting-wgEnotifUserTalk' => 'E-Mail-Benachrichtigungen können für die erste Änderung einer Benutzerdiskussionsseite verschickt werden (Benutzereinstellung wird angezeigt und der Benutzer muss die Option ausdrücklich aktivieren)',
-	'configure-setting-wgEnotifWatchlist' => 'E-Mail-Benachrichtigungen können für die erste Änderung einer beobachteten Seite verschickt werden (Benutzereinstellung wird angezeigt und der Benutzer muss die Option ausdrücklich aktivieren)',
+	'configure-setting-wgEnotifUseRealName' => 'Realen Namen anstelle des Benutzernamens im E-Mail-Feld „von“ verwenden',
+	'configure-setting-wgEnotifUserTalk' => 'E-Mail-Benachrichtigungen können für die erste Änderung an einer Benutzerdiskussionsseite verschickt werden (Benutzereinstellung wird angezeigt und der Benutzer muss die Option ausdrücklich aktivieren)',
+	'configure-setting-wgEnotifWatchlist' => 'E-Mail-Benachrichtigungen können für die erste Änderung an einer beobachteten Seite verschickt werden (Benutzereinstellung wird angezeigt und der Benutzer muss die Option ausdrücklich aktivieren)',
 	'configure-setting-wgUsersNotifiedOnAllChanges' => 'Benutzernamen, die eine Benachrichtigungs-E-Mail für jede Änderung auf einem Wiki erhalten',
 	'configure-setting-wgDebugFunctionEntry' => 'Bei jedem wfProfileIn/wfProfileOut Debug-Nachricht ausgeben',
 	'configure-setting-wgDebugProfiling' => 'Unpassende wfProfileIn/wfProfileOut-Aufrufe erkennen',
@@ -5883,6 +5884,15 @@ $messages['de'] = array(
 	'configure-setting-wgProfileToDatabase' => 'Summen aus der Profilierung in Profiltabelle in der Datenbank speichern',
 	'configure-setting-wgUDPProfilerHost' => 'Host für den UDP-Profiler',
 	'configure-setting-wgUDPProfilerPort' => 'Port für den UDP-Profiler',
+);
+
+/** Swiss High German (Schweizer Hochdeutsch)
+ * @author Geitost
+ */
+$messages['de-ch'] = array(
+	'configure-setting-wgEnotifMinorEdits' => 'E-Mail-Benachrichtigungen auch für «kleine Änderungen» (Benutzereinstellung wird angezeigt und Benutzer muss die Option ausdrücklich aktivieren)',
+	'configure-setting-wgEnotifUseRealName' => 'Realen Namen anstelle des Benutzernamens im E-Mail-Feld «von» verwenden',
+	'configure-setting-wgUsersNotifiedOnAllChanges' => 'Benutzernamen, die ein Benachrichtigungs-E-Mail für jede Änderung auf einem Wiki erhalten',
 );
 
 /** Zazaki (Zazaki)
@@ -12928,7 +12938,7 @@ $messages['ja'] = array(
 	'configure-setting-wgAdditionalMailParams' => 'メールの追加引数 (PHPのmail関数の呼び出しの最後の引数)',
 	'configure-setting-wgSMTP' => 'SMTP サーバー',
 	'configure-setting-wgUserEmailUseReplyTo' => 'From の代わりに Reply-To を使用する',
-	'configure-setting-wgUserEmailConfirmationTokenExpiry' => 'メールで送信された確認コードが切れるまでの秒数',
+	'configure-setting-wgUserEmailConfirmationTokenExpiry' => 'メールで送信した確認コードの期限が切れるまでの秒数',
 	'configure-setting-wgAPIRequestLog' => 'API 要求のログファイル',
 	'configure-setting-wgDebugComments' => 'ログ出力の一部をページのHTMLコメントに含める',
 	'configure-setting-wgDebugDumpSql' => 'SQL クエリをデバッグ出力にダンプする',
