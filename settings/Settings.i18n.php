@@ -5866,8 +5866,8 @@ $messages['de'] = array(
 	'configure-setting-wgBlockDisablesLogin' => 'Gesperrten Benutzern das Anmelden nicht erlauben',
 	'configure-setting-wgSysopEmailBans' => 'Administratoren dürfen Benutzer verbieten, [[Special:EmailUser]] zu verwenden',
 	'configure-setting-wgEnotifFromEditor' => 'E-Mail-Benachrichtigungen scheinen vom Seitenbearbeiter zu kommen (nicht vom Wikiserver)',
-	'configure-setting-wgEnotifImpersonal' => 'Eine allgemeine E-Mail anstelle einer personalisierten E-Mail für jeden Benutzer schicken',
-	'configure-setting-wgEnotifMaxRecips' => 'Maximale Anzahl an Benutzer, die auf einmal angeschrieben werden, wenn eine unpersönliche E-Mail versandt wird',
+	'configure-setting-wgEnotifImpersonal' => 'Eine allgemeine E-Mail anstelle einer personalisierten E-Mail an jeden Benutzer schicken',
+	'configure-setting-wgEnotifMaxRecips' => 'Maximale Anzahl an Benutzern, die auf einmal angeschrieben werden, wenn eine unpersönliche E-Mail versandt wird',
 	'configure-setting-wgEnotifMinorEdits' => 'E-Mail-Benachrichtigungen auch für „kleine Änderungen“ (Benutzereinstellung wird angezeigt und Benutzer muss die Option ausdrücklich aktivieren)',
 	'configure-setting-wgEnotifRevealEditorAddress' => 'Reply-to-Adresse von E-Mail-Benachrichtigungen kann mit der Adresse des Seitenbearbeiters gefüllt werden (Benutzereinstellung wird angezeigt und Benutzer muss die Option ausdrücklich aktivieren)',
 	'configure-setting-wgEnotifUseJobQ' => 'E-Mails über die Job Queue versenden',
@@ -5890,6 +5890,9 @@ $messages['de'] = array(
  * @author Geitost
  */
 $messages['de-ch'] = array(
+	'configure-setting-wgNoReplyAddress' => 'Dummy-Adresse, die beim Abschicken des E-Mails akzeptiert werden sollte',
+	'configure-setting-wgEnotifImpersonal' => 'Ein allgemeines E-Mail anstelle eines personalisierten E-Mails an jeden Benutzer schicken',
+	'configure-setting-wgEnotifMaxRecips' => 'Maximale Anzahl an Benutzern, die auf einmal angeschrieben werden, wenn ein unpersönliches E-Mail versandt wird',
 	'configure-setting-wgEnotifMinorEdits' => 'E-Mail-Benachrichtigungen auch für «kleine Änderungen» (Benutzereinstellung wird angezeigt und Benutzer muss die Option ausdrücklich aktivieren)',
 	'configure-setting-wgEnotifUseRealName' => 'Realen Namen anstelle des Benutzernamens im E-Mail-Feld «von» verwenden',
 	'configure-setting-wgUsersNotifiedOnAllChanges' => 'Benutzernamen, die ein Benachrichtigungs-E-Mail für jede Änderung auf einem Wiki erhalten',
