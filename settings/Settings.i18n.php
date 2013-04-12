@@ -20955,6 +20955,7 @@ $messages['ro'] = array(
 	'configure-setting-wgDBtype' => 'Tipul bazei de date de utilizat',
 	'configure-setting-wgDBuser' => 'Nume de utilizator pentru autentificare în baza de date',
 	'configure-setting-wgAllowImageMoving' => 'Activează redenumirea fișierelor',
+	'configure-setting-wgCustomConvertCommand' => 'Program alternativ de scalare a imaginilor',
 	'configure-setting-wgMaxImageArea' => 'Aria maximă în pixeli pentru imagini',
 	'configure-setting-wgMediaHandlers-key' => 'Tip MIME',
 	'configure-setting-wgUseGzip' => 'Foloseşte codarea GZIP',
