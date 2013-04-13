@@ -1379,6 +1379,9 @@ abstract class ConfigurationPage extends SpecialPage {
 			if ( $curOpt == $opt ) {
 				$opts['checked'] = 'checked';
 			}
+			// Give grep a chance to find the usages:
+			// configure-condition-operator-or, configure-condition-operator-and,
+			// configure-condition-operator-xor, configure-condition-operator-not
 			$row .= Html::input( $encId.'-opt-'.$desc, $desc, 'radio', $opts ) .
 				'&#160;' . Html::element( 'label', array( 'for' => $encId.'-opt-'.$desc ), wfMessage( 'configure-condition-operator-'.$desc )->text() );
 		}
@@ -1408,6 +1411,10 @@ abstract class ConfigurationPage extends SpecialPage {
 		$row .= Html::rawElement( 'tr', array(), Html::element( 'th', array(), wfMessage( 'configure-condition-name' )->text() ) .
 			Html::element( 'th', array(), wfMessage( 'configure-condition-requirement' )->text() ) )."\n";
 		foreach ( $conds as $condName => $condType ) {
+			// Give grep a chance to find the usages:
+			// configure-condition-name-1, configure-condition-name-2, configure-condition-name-3,
+			// configure-condition-name-4, configure-condition-name-5, configure-condition-name-6,
+			// configure-condition-name-7
 			$desc = wfMessage( 'configure-condition-name-' . $condName )->text();
 			$row .= Html::openElement( 'tr' ) . Html::rawElement( 'td', array(),
 				Html::element( 'label', array( 'for' => "{$encId}-cond-{$condName}" ), $desc ) ) . Html::openElement( 'td' );
