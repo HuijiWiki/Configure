@@ -238,20 +238,44 @@ $messages['qqq'] = array(
 	'configure-desc-key' => '{{Identical|Key}}',
 	'configure-desc-ns' => '{{Identical|Namespaces}}',
 	'configure-desc-val' => '{{Identical|Value}}',
+	'configure-edit-core' => 'Used as link text or as normal text, in [[Special:ViewConfig]].
+
+The link points to [[Special:Configure]].',
 	'configure-edit-ext' => '{{Identical|Extension}}',
-	'configure-ext-ext-dependencies' => '* $1 is a list of extensions
-* $2 is the number of extensions in $1',
+	'configure-viewconfig-default-diff' => 'Used as link text in [[Special:ViewConfig]].
+
+The link points to the Diff page.',
+	'configure-ext-ext-dependencies' => 'Used as warning. Parameters:
+* $1 - a list of extensions
+* $2 - the number of extensions in $1
+Can be preceded by another warning:
+* {{msg-mw|Configure-ext-schemachange}}',
 	'configure-ext-ext-dependency-err' => 'Used as error message. Parameters:
 * $1 - extension name
 * $2 - extension name which the extension $1 depends on',
-	'configure-ext-settings' => '{{Identical|Settings}}',
-	'configure-ext-settings-dep-errors' => '* $1 is the number of incorrect settings
+	'configure-ext-doc' => 'Used as link text. The link points to the online documentation.',
+	'configure-ext-schemachange' => 'Used as warning.
 
-The list will be displayed below this message.',
-	'configure-ext-settings-dep-error' => "* $1 is the setting's name
-* $2 is the required value (string, integer, or boolean)
-* $3 is the actual value (string, integer, or boolean)",
+Can be followed by another warning:
+* {{msg-mw|Configure-ext-ext-dependencies}}',
+	'configure-ext-settings' => '{{Identical|Settings}}',
+	'configure-ext-settings-dep-errors' => 'Followed by a list of settings. Parameters:
+* $1 - the number of incorrect settings',
+	'configure-ext-settings-dep-error' => "Parameters:
+* $1 - the setting's name
+* $2 - the required value (string, integer, or boolean)
+* $3 - the actual value (string, integer, or boolean)",
+	'configure-ext-use-extension' => 'Used as label for the checkbox.
+
+Preceded by HTML <code><nowiki><h2></nowiki></code> heading {{msg-mw|Configure-ext-use}}.',
+	'configure-ext-use' => 'Used as HTML <code><nowiki><h2></nowiki></code> heading.
+
+Followed by the checkbox with the label {{msg-mw|Configure-ext-use-extension}}.',
 	'configure-form-reason' => '{{Identical|Reason}}',
+	'configure-customised' => 'Used to indicate the setting has been customized (different from the default value).',
+	'configure-arrayinput-oneperline' => 'Used as a note for the textarea in [[Special:Configure]] and [[Special:ViewConfigure]].
+
+Followed by the textarea.',
 	'configure-summary' => 'Do not translate the link target.
 Translated versions of the manual page may exist, they have a "<code>/</code>" and a language code appended to the base URL of the English original.
 
@@ -261,26 +285,107 @@ In addition, you may want to append "<code>&uselang=</code>" with your language 
 Parameters:
 * $1 - the table name in the database',
 	'configure-db-table-error' => '{{doc-important|Do not translate <code>configure.sql</code>.}}',
-	'configure-directory-not-writable' => '* $1 is the directory in the file-system',
+	'configure-directory-not-writable' => 'Parameters:
+* $1 - the directory in the file-system',
 	'configure-edit-old' => 'Parameters:
 * $1 - the date and time of the version
 * $2 - the date of the version, alone
 * $3 - the time of the version, alone',
+	'configure-error' => 'Used as error message in [[Special:Configure]], [[Special:Extensions]] and [[Special:ViewConfig]].
+
+See also:
+* {{msg-mw|Configure-saved}}',
+	'configure-js-add' => 'Used as label for the button.
+
+See also:
+* {{msg-mw|Configure-js-remove-row}}',
+	'configure-js-group-exists' => 'Used as error message by JavaScript <code>alert()</code> function.',
+	'configure-js-prompt-group' => 'Used as prompt message by JavaScript <code>prompt()</code> function, when clicking the button which is labeled {{msg-mw|Configure-js-add}}.',
 	'configure-js-remove' => '{{Identical|Delete}}',
-	'configure-js-search-prompt' => '{{Identical|Query}}',
-	'configure-no-directory' => '* $1 is the directory in the file-system',
+	'configure-js-remove-row' => 'Used as label for the button.
+
+See also:
+* {{msg-mw|Configure-js-add}}',
+	'configure-js-get-image-url' => 'Unused at this time.
+
+Previously used in JavaScript code.',
+	'configure-js-image-error' => 'Unused at this time.
+
+Previously used as error message in JavaScript code.',
+	'configure-js-biglist-shown' => 'Preceded by the action link which is labeled {{msg-mw|Configure-js-biglist-hide}}.
+
+See also:
+* {{msg-mw|Configure-js-biglist-hidden}}',
+	'configure-js-biglist-hidden' => 'Used to indicate "Setting details have been hidden".
+
+Preceded by the action link which is labeled {{msg-mw|Configure-js-biglist-show}}.
+
+See also:
+* {{msg-mw|Configure-js-biglist-shown}}',
+	'configure-js-biglist-show' => 'Used as the action link text.
+
+Followed by the message {{msg-mw|Configure-js-biglist-hidden}}.
+
+See also:
+* {{msg-mw|Configure-js-biglist-hide}}',
+	'configure-js-biglist-hide' => 'Used as the action link text.
+
+Followed by the message {{msg-mw|Configure-js-biglist-shown}}.
+
+See also:
+* {{msg-mw|Configure-js-biglist-show}}',
+	'configure-js-summary-none' => 'Used in the table if there is nothing to show.',
+	'configure-js-search-legend' => 'Used as fieldset label in the form.
+
+Followed by the input box which is labeled {{msg-mw|Configure-js-search-prompt}} and {{msg-mw|Word-separator}}.',
+	'configure-js-search-prompt' => 'Used as label for the input box.
+
+Preceded by the fieldset label {{msg-mw|Configure-js-search-legend}}.
+
+Followed by {{msg-mw|Word-separator}} and the input box.
+{{Identical|Query}}',
+	'configure-no-diff' => 'Used in the Diff view.
+
+"selected versions" can refer the old and new configurations.',
+	'configure-no-directory' => 'Parameters:
+* $1 - the directory in the file-system',
+	'configure-no-old' => '(1) Used in [[Special:Configure]]. Preceded by the fieldset label {{msg-mw|Configure-old}}.
+
+(2) Also used in [[Special:ViewConfig]]. Preceded by the label {{msg-mw|Configure-old-versions}}.',
 	'configure-no-setup' => '{{doc-important|Do not translate <code>efConfigureSetup()</code> and <code>LocalSettings.php</code>.}}
 Used as error message.',
-	'configure-old-not-available' => '* $1 is the 14 char timestamp of the version',
+	'configure-no-transwiki' => 'Used as error message in [[Special:Configure]], [[Special:Extensions]] and [[Special:ViewConfig]].',
+	'configure-old' => 'Used as fieldset label in [[Special:Configure]], [[Special:Extensions]] and [[Special:ViewConfig]].
+
+Followed by any one of the following messages:
+* {{msg-mw|Configure-no-old}}
+* {{msg-mw|Configure-old-versions}}',
+	'configure-old-versions' => 'Used as label for a list of the configurations in [[Special:ViewConfig]].
+
+If the list is empty, this message is followed by {{msg-mw|Configure-no-old}}.',
+	'configure-old-not-available' => 'Parameters:
+* $1 - the specified version. Valid version is "14 characters timestamp". e.g. 20130413085159',
 	'configure-old-changes' => '{{Identical|Change}}',
-	'configure-old-summary' => '* $1 is a link to the page, the time and date of the version is the link anchor
-* $2 is an internal or external link the user who made the version with the user name as the link anchor, or empty, or a text identifying the user without a link
-* $3 is a link to the diff page of this version and the version preceeding it, or empty
-* $4 is the comment, as provided by the user, which may be empty',
+	'configure-old-summary' => 'Parameters:
+* $1 - a link to the page, the time and date of the version is the link anchor
+* $2 - an internal or external link the user who made the version with the user name as the link anchor, or empty, or a text identifying the user without a link
+* $3 - a link to the diff page of this version and the version preceeding it, or empty
+* $4 - the comment, as provided by the user, which may be empty',
 	'configure-old-summary-datetime' => '{{optional}}
 * $1 date/time
 * $2 date
 * $3 time',
+	'configure-saved' => 'Used as success message in [[Special:Configure]], [[Special:Extensions]] and [[Special:ViewConfig]].
+
+See also:
+* {{msg-mw|Configure-error}}',
+	'configure-backlink' => 'Used as link text in [[Special:Configure]], [[Special:Extensions]] and [[Special:ViewConfig]].
+
+Preceded by any one of the following messages:
+* {{msg-mw|Configure-saved}}
+* {{msg-mw|Configure-error}}',
+	'configure-image-url-explanation' => 'Used as explanation for the input box in [[Special:Configure]], [[Special:Extensions]] and [[Special:ViewConfig]].',
+	'configure-section-robots' => '{{Related|Configure-section}}',
 	'configure-section-pages' => '{{Identical|Pages}}',
 	'configure-section-paths' => '{{Identical|Path}}',
 	'configure-section-db' => '{{Identical|Database}}',
@@ -313,19 +418,51 @@ Used as error message.',
 	'configure-section-copyright' => '{{Identical|Copyright}}',
 	'configure-section-htcp' => 'See Wikipedia articles on [[:wikipedia:HTCP|HTCP]] and [[:wikipedia:multicast|multicast]].',
 	'configure-section-output' => '{{Identical|Output}}',
+	'configure-select-wiki' => 'Used as fieldset label in the form in [[Special:Configure]], [[Special:Extensions]] and [[Special:ViewConfig]].
+
+Followed by intro text {{msg-mw|Configure-select-wiki-desc}}.',
+	'configure-select-wiki-desc' => 'Used as intro text in the form in [[Special:Configure]], [[Special:Extensions]] and [[Special:ViewConfig]].
+
+Preceded by the fieldset label {{msg-mw|Configure-select-wiki}}.
+
+Followed by the "Wiki" selector form.',
 	'configure-select-wiki-view-desc' => 'The extensions "Configure" makes it possible to administer wiki configuration settings for multiple wikis, and keep different versions of it. This versies can be viewed.',
-	'configure-select-wiki-submit' => '{{Identical|Select}}',
-	'configure-transwiki-not-in-range' => '* $1 is the wiki, as given by the user
-* $2 is the list of allowed wikis
-* $3 is the number of items in $2',
-	'configure-view' => '{{Identical|View}}',
-	'configure-viewconfig-line' => '* $1 may be two radio buttons, as in history pages, or empty
-* $2 is the time and date of the version
-* $3 is a link to the user who made the version, or a text, or empty
-* $4 will be replaced with zero to several links to that version
-* $5 is the comment, as provided by the user, which may be empty
-* $6 is the date of the version
-* $7 is the time of the version',
+	'configure-select-wiki-view-all' => 'Used as label for the radio button in [[Special:ViewConfig]].
+
+Followed by another radio button label {{msg-mw|Configure-select-wiki-view-specific}}.',
+	'configure-select-wiki-view-specific' => 'Used as label for the radio button in [[Special:ViewConfig]].
+
+Preceded by another radio button label {{msg-mw|Configure-select-wiki-view-all}}.
+
+Followed by the "Wiki" select box or by the "Wiki" input box.',
+	'configure-select-wiki-submit' => 'Used as label for the Submit button in [[Special:Configure]], [[Special:Extensions]] and [[Special:ViewConfig]].
+{{Identical|Select}}',
+	'configure-setting-not-available' => 'Unused at this time.',
+	'configure-transwiki-not-in-range' => 'Used as error message in [[Special:Configure]], [[Special:Extensions]] and [[Special:ViewConfig]].
+
+Parameters:
+* $1 - the wiki, as given by the user
+* $2 - the list of allowed wikis
+* $3 - the number of items in $2',
+	'configure-view' => 'Used as link text in [[Special:ViewConfig]].
+{{Identical|View}}',
+	'configure-view-all-versions' => 'Used as link text in [[Special:ViewConfig]].
+
+Followed by another link text {{msg-mw|Configure-view-default}}.',
+	'configure-view-default' => 'Used as link text in [[Special:ViewConfig]].
+
+Preceded by another link text {{msg-mw|Configure-view-all-versions}}.',
+	'configure-view-not-allowed' => 'Used in [[Special:Configure]] and [[Special:ViewConfig]] if not allowed to read the setting.',
+	'configure-viewconfig-line' => 'Used as an item in the list in [[Special:ViewConfig]].
+
+Parameters:
+* $1 - may be two radio buttons, as in history pages, or empty
+* $2 - the time and date of the version
+* $3 - a link to the user who made the version, or a text, or empty
+* $4 - replaced with zero to several links to that version
+* $5 - the comment, as provided by the user, which may be empty
+* $6 - the date of the version
+* $7 - the time of the version',
 	'extensions' => '{{doc-special|Extensions}}',
 	'right-configure' => '{{doc-right|configure}}',
 	'right-configure-all' => '{{doc-right|configure-all}}',
@@ -337,31 +474,176 @@ Used as error message.',
 	'right-viewconfig-all' => '{{doc-right|viewconfig-all}}',
 	'right-viewconfig-interwiki' => '{{doc-right|viewconfig-interwiki}}',
 	'viewconfig' => '{{doc-special|ViewConfig}}',
-	'configure-throttle-action-edit' => '{{Identical|Edit}}',
-	'configure-throttle-action-move' => '{{Identical|Move}}',
-	'configure-throttle-action-rollback' => '{{Identical|Rollback}}',
-	'configure-throttle-group-anon' => '{{Identical|Anonymous user}}',
-	'configure-throttle-summary' => 'Used to indicate the rate limit. Parameters:
+	'configure-throttle-action-edit' => 'Used in the table in [[Special:Configure]] and [[Special:ViewConfig]].
+{{Related|Configure-throttle-action}}
+{{Identical|Edit}}',
+	'configure-throttle-action-move' => 'Used in the table in [[Special:Configure]] and [[Special:ViewConfig]].
+{{Related|Configure-throttle-action}}
+{{Identical|Move}}',
+	'configure-throttle-action-rollback' => 'Used in the table in [[Special:Configure]] and [[Special:ViewConfig]].
+{{Related|Configure-throttle-action}}
+{{Identical|Rollback}}',
+	'configure-throttle-action-mailpassword' => 'Used in the table in [[Special:Configure]] and [[Special:ViewConfig]].
+{{Related|Configure-throttle-action}}',
+	'configure-throttle-action-emailuser' => 'Used in the table in [[Special:Configure]] and [[Special:ViewConfig]].
+{{Related|Configure-throttle-action}}',
+	'configure-throttle-group-anon' => 'Used in the table in [[Special:Configure]] and [[Special:ViewConfig]].
+
+Preceded by {{msg-mw|Configure-throttle-group}}.
+
+Followed by any one of the following messages:
+* {{msg-mw|Configure-throttle-count}} and {{msg-mw|Configure-throttle-period}}
+* {{msg-mw|Configure-throttle-summary}}
+* {{msg-mw|Configure-throttle-none}}
+{{Related|Configure-throttle-group}}
+{{Identical|Anonymous user}}',
+	'configure-throttle-group-user' => 'Used in the table in [[Special:Configure]] and [[Special:ViewConfig]].
+
+Preceded by {{msg-mw|Configure-throttle-group}}.
+
+Followed by any one of the following messages:
+* {{msg-mw|Configure-throttle-count}} and {{msg-mw|Configure-throttle-period}}
+* {{msg-mw|Configure-throttle-summary}}
+* {{msg-mw|Configure-throttle-none}}
+{{Related|Configure-throttle-group}}',
+	'configure-throttle-group-newbie' => 'Used in the table in [[Special:Configure]] and [[Special:ViewConfig]].
+
+Preceded by {{msg-mw|Configure-throttle-group}}.
+
+Followed by any one of the following messages:
+* {{msg-mw|Configure-throttle-count}} and {{msg-mw|Configure-throttle-period}}
+* {{msg-mw|Configure-throttle-summary}}
+* {{msg-mw|Configure-throttle-none}}
+{{Related|Configure-throttle-group}}',
+	'configure-throttle-group-ip' => 'Used in the table in [[Special:Configure]] and [[Special:ViewConfig]].
+
+Preceded by {{msg-mw|Configure-throttle-group}}.
+
+Followed by any one of the following messages:
+* {{msg-mw|Configure-throttle-count}} and {{msg-mw|Configure-throttle-period}}
+* {{msg-mw|Configure-throttle-summary}}
+* {{msg-mw|Configure-throttle-none}}
+{{Related|Configure-throttle-group}}',
+	'configure-throttle-group-subnet' => 'Used in the table in [[Special:Configure]] and [[Special:ViewConfig]].
+
+Preceded by {{msg-mw|Configure-throttle-group}}.
+
+Followed by any one of the following messages:
+* {{msg-mw|Configure-throttle-count}} and {{msg-mw|Configure-throttle-period}}
+* {{msg-mw|Configure-throttle-summary}}
+* {{msg-mw|Configure-throttle-none}}
+{{Related|Configure-throttle-group}}',
+	'configure-throttle-count' => 'Used as label for the input box in [[Special:Configure]] and [[Special:ViewConfig]].
+
+Preceded by any one of the following messages:
+* {{msg-mw|Configure-throttle-group-anon}}
+* {{msg-mw|Configure-throttle-group-user}}
+* {{msg-mw|Configure-throttle-group-newbie}}
+* {{msg-mw|Configure-throttle-group-ip}}
+* {{msg-mw|Configure-throttle-group-subnet}}
+Followed by the input box.
+{{Related|Configure-throttle}}',
+	'configure-throttle-period' => 'Used as label for the input box in [[Special:Configure]] and [[Special:ViewConfig]].
+
+Preceded by any one of the following messages:
+* {{msg-mw|Configure-throttle-group-anon}}
+* {{msg-mw|Configure-throttle-group-user}}
+* {{msg-mw|Configure-throttle-group-newbie}}
+* {{msg-mw|Configure-throttle-group-ip}}
+* {{msg-mw|Configure-throttle-group-subnet}}
+Followed by the input box.
+{{Related|Configure-throttle}}',
+	'configure-throttle-summary' => 'Used to indicate the rate limit in [[Special:Configure]] and [[Special:ViewConfig]].
+
+Parameters:
 * $1 - number of actions
-* $2 - number of seconds',
-	'configure-throttle-group' => '{{Identical|Type}}',
-	'configure-throttle-limit' => '{{Identical|Limit}}',
+* $2 - number of seconds
+
+This message is preceded by any one of the following messages:
+* {{msg-mw|Configure-throttle-group-anon}}
+* {{msg-mw|Configure-throttle-group-user}}
+* {{msg-mw|Configure-throttle-group-newbie}}
+* {{msg-mw|Configure-throttle-group-ip}}
+* {{msg-mw|Configure-throttle-group-subnet}}
+{{Related|Configure-throttle}}',
+	'configure-throttle-group' => 'Used as column header in the table in [[Special:Configure]] and [[Special:ViewConfig]].
+
+Followed by another column header {{msg-mw|Configure-throttle-limit}}.
+{{Identical|Type}}',
+	'configure-throttle-limit' => 'Used as column header in the table in [[Special:Configure]] and [[Special:ViewConfig]].
+
+Preceded by another column header {{msg-mw|Configure-throttle-group}}.
+{{Identical|Limit}}',
+	'configure-throttle-none' => 'Used to indicate the rate limit in [[Special:Configure]] and [[Special:ViewConfig]].
+
+This message is preceded by any one of the following messages:
+* {{msg-mw|Configure-throttle-group-anon}}
+* {{msg-mw|Configure-throttle-group-user}}
+* {{msg-mw|Configure-throttle-group-newbie}}
+* {{msg-mw|Configure-throttle-group-ip}}
+* {{msg-mw|Configure-throttle-group-subnet}}
+{{Related|Configure-throttle}}',
 	'configure-condition-operator' => '{{Identical|Operator}}',
 	'configure-condition-operator-or' => '{{Identical|Or}}',
 	'configure-condition-operator-and' => '{{Identical|And}}',
-	'configure-condition-operator-xor' => 'Means "one or the other, but not both"',
+	'configure-condition-operator-xor' => 'Means "one or the other, but not both" ("eXclusive OR").',
 	'configure-condition-name' => '{{Identical|Condition}}',
 	'configure-condition-requirement' => '{{Identical|Requirement}}',
-	'configure-condition-name-3' => '{{Identical|E-mail confirmed}}',
-	'configure-condition-description-1' => '* $1 is the number of edits, <nowiki>{{PLURAL:}}</nowiki> supported if you need it',
-	'configure-condition-description-2' => '* $1 is the number of seconds',
-	'configure-condition-description-3' => '{{Identical|E-mail confirmed}}',
-	'configure-condition-description-4' => '* $1 is a list of groups
-* $2 (optional, for use with PLURAL) contains the count of groups in $1, for <nowiki>{{PLURAL:}}</nowiki> if you need it',
+	'configure-condition-name-1' => 'Used as label for input box in [[Special:Configure]] and [[Special:ViewConfig]].
+{{Related|Configure-condition-name}}',
+	'configure-condition-name-2' => 'Used as label for input box in [[Special:Configure]] and [[Special:ViewConfig]].
+{{Related|Configure-condition-name}}',
+	'configure-condition-name-3' => 'Used as label for checkbox in [[Special:Configure]] and [[Special:ViewConfig]].
+{{Related|Configure-condition-name}}
+{{Identical|E-mail confirmed}}',
+	'configure-condition-name-4' => 'Used as label for the textarea in [[Special:Configure]] and [[Special:ViewConfig]].
+
+If not allowed to edit the text, this message is followed by for HTML <code><nowiki><pre></nowiki></code> block instead.
+{{Related|Configure-condition-name}}',
+	'configure-condition-name-5' => 'Used as label for input box in [[Special:Configure]] and [[Special:ViewConfig]].
+{{Related|Configure-condition-name}}',
+	'configure-condition-name-6' => 'Used as label for input box in [[Special:Configure]] and [[Special:ViewConfig]].
+{{Related|Configure-condition-name}}',
+	'configure-condition-name-7' => 'Used as label for input box in [[Special:Configure]] and [[Special:ViewConfig]].
+{{Related|Configure-condition-name}}',
+	'configure-condition-description-1' => 'Parameters:
+* $1 - the number of edits, <nowiki>{{PLURAL:}}</nowiki> supported if you need it
+{{Related|Configure-condition-description}}',
+	'configure-condition-description-2' => 'Parameters:
+* $1 - the number of seconds
+{{Related|Configure-condition-description}}',
+	'configure-condition-description-3' => '{{Related|Configure-condition-description}}
+{{Identical|E-mail confirmed}}',
+	'configure-condition-description-4' => 'Parameters:
+* $1 - a list of groups
+* $2 (optional, for use with PLURAL) contains the count of groups in $1, for <nowiki>{{PLURAL:}}</nowiki> if you need it
+{{Related|Configure-condition-description}}',
 	'configure-condition-description-5' => 'Parameters:
-* $1 - IP address',
+* $1 - IP address
+{{Related|Configure-condition-description}}',
+	'configure-condition-description-6' => 'Parameters:
+* $1 - range of IP addresses
+{{Related|Configure-condition-description}}',
 	'configure-condition-description-7' => 'Parameters:
-* $1 - number of seconds',
+* $1 - number of seconds
+{{Related|Configure-condition-description}}',
+	'configure-boolop-description-and' => 'Used as description for the operator AND.
+{{Related|Configure-boolop}}',
+	'configure-boolop-description-or' => 'Used as description for the operator OR.
+{{Related|Configure-boolop}}',
+	'configure-boolop-description-xor' => 'Used as description for the operator XOR (eXclusive OR).
+{{Related|Configure-boolop}}',
+	'configure-boolop-description-not' => 'Used as description for the operator NOT.
+{{Related|Configure-boolop}}',
+	'configure-farmer-settings' => 'Preceded by the heading {{msg-mw|Farmer-basic-permission}}.',
+	'configure-farmer-extensions' => 'Preceded by the heading {{msg-mw|Farmer-extensions}}.
+
+See also:
+* {{msg-mw|Configure-farmer-extensions-list}}',
+	'configure-farmer-extensions-list' => 'Preceded by the heading {{msg-mw|Farmer-extensions-available}}.
+
+See also:
+* {{msg-mw|Configure-farmer-extensions}}',
 );
 
 /** Abkhazian (Аҧсшәа)
@@ -1921,7 +2203,7 @@ Krouit anezhañ pe kemmit-eñ evit gallout implijout an astenn-mañ.",
 	'configure-section-category' => 'Rummadoù',
 	'configure-section-cache' => 'Krubuilh',
 	'configure-section-pcache' => 'Krubuilh ar parseroù',
-	'configure-section-messagecache' => 'Krubuilh ar gemennadennoù',
+	'configure-section-messagecache' => "Krubuilh ar c'hemennadennoù",
 	'configure-section-access' => 'Moned',
 	'configure-section-groups' => 'Strolladoù',
 	'configure-section-block' => 'Stankadennoù',
@@ -6663,23 +6945,23 @@ $messages['ja'] = array(
 	'configure-form-reason' => '理由:',
 	'configure-customised' => "''この設定はカスタマイズされています''",
 	'configure-arrayinput-oneperline' => "''(一行に一つ)''",
-	'configure-summary' => 'この特別ページを使ってこのウィキの構成が設定できます。詳しくは[http://www.mediawiki.org/wiki/Manual:Configuration_settings/ja 構成設定]を参照してください。',
+	'configure-summary' => 'この特別ページでは、このウィキの構成を設定できます。詳細は[http://www.mediawiki.org/wiki/Manual:Configuration_settings/ja 構成設定]を参照してください。',
 	'configure-btn-save' => '設定を保存',
 	'configure-db-error' => 'あなたが構成 ($1) を格納するよう指定したデータベースは存在しません。作成して configure.sql を適用するか、名前を正してください。',
 	'configure-db-table-error' => 'あなたが指定したデータベースには必要なテーブルがありません。そのデータベースに configure.sql を適用してください。',
 	'configure-directory-not-writable' => '設定の格納に使用するディレクトリ <code>$1</code> に書き込めません。
 この拡張機能を使用するには、ディレクトリに PHP が書き込めるように設定してください。',
 	'configure-edit-old' => "'''警告:''' あなたは構成設定の<strong>古い</strong>版 ($1時点) を編集しています。",
-	'configure-error' => '設定を保存できませんでした',
+	'configure-error' => '設定を保存できませんでした。',
 	'configure-js-add' => '新しいエントリーを追加',
-	'configure-js-group-exists' => 'エラー: そのグループは既に存在します。',
+	'configure-js-group-exists' => 'エラー: 既に存在するグループです。',
 	'configure-js-prompt-group' => '新しいグループの名前を入力:',
 	'configure-js-remove' => '削除',
 	'configure-js-remove-row' => 'このエントリーを削除',
 	'configure-js-get-image-url' => 'ファイル名をURLに変換',
 	'configure-js-image-error' => 'その URL の読み込み中にエラーが発生しました。そのファイルが存在するか確認してください。',
 	'configure-js-biglist-shown' => '設定の詳細は非表示にできます',
-	'configure-js-biglist-hidden' => '設定詳細非表示',
+	'configure-js-biglist-hidden' => '設定の詳細は非表示',
 	'configure-js-biglist-show' => '[詳細を表示]',
 	'configure-js-biglist-hide' => '[詳細を非表示]',
 	'configure-js-summary-none' => '設定されていません',
@@ -6688,15 +6970,15 @@ $messages['ja'] = array(
 	'configure-no-diff' => '選択した版の間には差異がありません。',
 	'configure-no-directory' => '設定の格納に使用するディレクトリ <code>$1</code> は存在しません。
 この拡張機能を使用するには、ディレクトリを作成または変更してください。',
-	'configure-no-old' => '構成設定の利用可能な古い版はありません。',
-	'configure-no-setup' => 'この拡張機能を使うには、あなたは LocalSettings.php ファイルで <code>efConfigureSetup()</code> を明示的に呼び出す必要があります。',
-	'configure-no-transwiki' => 'あなたは他ウィキの設定を変更することは許可されてません',
+	'configure-no-old' => '構成設定の古い版は利用できません。',
+	'configure-no-setup' => 'この拡張機能を使用するには、LocalSettings.php ファイル内で <code>efConfigureSetup()</code> を明示的に呼び出す必要があります。',
+	'configure-no-transwiki' => 'あなたは他ウィキの設定の変更を許可されていません。',
 	'configure-old' => '古い版',
-	'configure-old-versions' => '構成設定の古い版を一覧:',
-	'configure-old-not-available' => 'あなたが要求した設定の古い版 $1 は利用可能ではありません',
+	'configure-old-versions' => '構成設定の古い版の一覧:',
+	'configure-old-not-available' => '指定した版 $1 の古い設定は利用できません。',
 	'configure-old-changes' => '変更',
 	'configure-old-summary' => '$1、$2 $4 $3',
-	'configure-saved' => '構成設定は保存されました',
+	'configure-saved' => '設定を保存しました。',
 	'configure-backlink' => 'フォームに戻る',
 	'configure-image-url-explanation' => '画像への URL か、このウィキ上の画像の名前(名前空間なし)を入力してください。入力しなかった場合はプレビューが表示されます。',
 	'configure-section-robots' => 'ウェブ クローラー',
@@ -6758,8 +7040,8 @@ $messages['ja'] = array(
 	'configure-section-filesystem' => 'ファイルシステムとシェルのインタラクション',
 	'configure-section-thumbnail' => '画像のサムネイル生成',
 	'configure-section-output' => '出力',
-	'configure-select-wiki' => 'ウィキを選択',
-	'configure-select-wiki-desc' => '設定したいウィキを選んでください。',
+	'configure-select-wiki' => 'ウィキの選択',
+	'configure-select-wiki-desc' => '設定したいウィキを選択してください。',
 	'configure-select-wiki-view-desc' => '構成を見たいウィキを選んでください。',
 	'configure-select-wiki-view-all' => 'すべてのウィキ',
 	'configure-select-wiki-view-specific' => '特定のウィキ:',
@@ -6769,7 +7051,7 @@ $messages['ja'] = array(
 	'configure-view' => '閲覧',
 	'configure-view-all-versions' => 'バージョンの完全な一覧',
 	'configure-view-default' => '既定の設定',
-	'configure-view-not-allowed' => 'あなたはこの設定を閲覧することは許可されてません',
+	'configure-view-not-allowed' => 'あなたはこの設定の閲覧を許可されていません。',
 	'configure-viewconfig-line' => '$1 $2、$3による $5: $4',
 	'extensions' => '拡張機能の設定',
 	'right-configure' => 'ウィキの設定を構成',
@@ -7368,7 +7650,7 @@ $messages['krj'] = array(
  */
 $messages['ksh'] = array(
 	'configure' => 'Enstellunge för et Wiki',
-	'configure-desc' => 'Määt et müjjelesch, dat Metmaacher met dem Rääsch dozo [[Special:Configure|Enstellunge för dat Wiki]] inger-aktif övver et Web maache künne.',
+	'configure-desc' => 'Määd ed möjjelesch, dat Metmaacher met dem Rääsch dozo [[Special:Configure|Enstellunge för dat Wiki]] inger-aktif övver et Web maache künne.',
 	'configure-desc-group' => 'Jropp',
 	'configure-desc-key' => 'Schlößel',
 	'configure-desc-ns' => 'Appachtemang',
