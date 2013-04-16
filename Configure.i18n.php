@@ -583,12 +583,40 @@ This message is preceded by any one of the following messages:
 * {{msg-mw|Configure-throttle-group-ip}}
 * {{msg-mw|Configure-throttle-group-subnet}}
 {{Related|Configure-throttle}}',
-	'configure-condition-operator' => '{{Identical|Operator}}',
-	'configure-condition-operator-or' => '{{Identical|Or}}',
-	'configure-condition-operator-and' => '{{Identical|And}}',
-	'configure-condition-operator-xor' => 'Means "one or the other, but not both" ("eXclusive OR").',
-	'configure-condition-name' => '{{Identical|Condition}}',
-	'configure-condition-requirement' => '{{Identical|Requirement}}',
+	'configure-condition-operator' => 'Followed by the "Condition operator" radio boxes which have the following labels:
+* {{msg-mw|Configure-condition-operator-or}}
+* {{msg-mw|Configure-condition-operator-and}}
+* {{msg-mw|Configure-condition-operator-xor}}
+* {{msg-mw|Configure-condition-operator-not}}
+{{Identical|Operator}}',
+	'configure-condition-operator-or' => 'Used as label for the "Condition operator" radio button.
+{{Related|Configure-condition-operator}}
+{{Identical|Or}}',
+	'configure-condition-operator-and' => 'Used as label for the "Condition operator" radio button.
+{{Related|Configure-condition-operator}}
+{{Identical|And}}',
+	'configure-condition-operator-xor' => 'Used as label for the "Condition operator" radio button.
+
+Means "one or the other, but not both" ("eXclusive OR").
+{{Related|Configure-condition-operator}}',
+	'configure-condition-operator-not' => 'Used as label for the "Condition operator" radio button.
+{{Related|Configure-condition-operator}}',
+	'configure-condition-name' => 'Used as column header in the table. This is header for the following messages:
+* {{msg-mw|Configure-condition-name-1}}
+* {{msg-mw|Configure-condition-name-2}}
+* {{msg-mw|Configure-condition-name-3}}
+* {{msg-mw|Configure-condition-name-4}}
+* {{msg-mw|Configure-condition-name-5}}
+* {{msg-mw|Configure-condition-name-6}}
+* {{msg-mw|Configure-condition-name-7}}
+This header is followed by another column header {{msg-mw|Configure-condition-requirement}}.
+{{Identical|Condition}}',
+	'configure-condition-requirement' => 'Used as column header in the table. This is header for the following:
+* checkbox (for boolean)
+* input box (for text and integer)
+* textarea (for array)
+This header is preceded by another column header {{msg-mw|Configure-condition-name}}.
+{{Identical|Requirement}}',
 	'configure-condition-name-1' => 'Used as label for input box in [[Special:Configure]] and [[Special:ViewConfig]].
 {{Related|Configure-condition-name}}',
 	'configure-condition-name-2' => 'Used as label for input box in [[Special:Configure]] and [[Special:ViewConfig]].
@@ -606,6 +634,14 @@ If not allowed to edit the text, this message is followed by for HTML <code><now
 {{Related|Configure-condition-name}}',
 	'configure-condition-name-7' => 'Used as label for input box in [[Special:Configure]] and [[Special:ViewConfig]].
 {{Related|Configure-condition-name}}',
+	'configure-autopromote-noconds' => 'Used if there are no conditions (prerequisites). Valid conditions are the following:
+* {{msg-mw|Configure-condition-description-1}}
+* {{msg-mw|Configure-condition-description-2}}
+* {{msg-mw|Configure-condition-description-3}}
+* {{msg-mw|Configure-condition-description-4}}
+* {{msg-mw|Configure-condition-description-5}}
+* {{msg-mw|Configure-condition-description-6}}
+* {{msg-mw|Configure-condition-description-7}}',
 	'configure-condition-description-1' => 'Parameters:
 * $1 - the number of edits, <nowiki>{{PLURAL:}}</nowiki> supported if you need it
 {{Related|Configure-condition-description}}',
@@ -3898,6 +3934,7 @@ $messages['eo'] = array(
  * @author Pertile
  * @author Sanbec
  * @author Translationista
+ * @author Vivaelcelta
  */
 $messages['es'] = array(
 	'configure' => 'Configurar la wiki',
@@ -3979,7 +4016,7 @@ Por favor, créelo o cámbielo para usar esta extensión.',
 	'configure-section-resourceloader' => 'ResourceLoader',
 	'configure-section-namespaces' => 'Espacios de nombres',
 	'configure-section-stats' => 'Estadísticas del sitio',
-	'configure-section-skin' => 'Pieles',
+	'configure-section-skin' => 'Apariencias',
 	'configure-section-vector' => 'Skin Vector',
 	'configure-section-category' => 'Categorías',
 	'configure-section-cache' => 'Cache',
