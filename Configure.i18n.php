@@ -2643,6 +2643,7 @@ $messages['ca'] = array(
 	'configure-setting-not-available' => 'Aquesta opció de configuració no està disponible en aquesta versió de MediaWiki',
 	'configure-transwiki-not-in-range' => 'El wiki sol·licitat, $1, no és dins {{PLURAL:$3|del valor autoritzat|dels valors autoritzats}}: $2.',
 	'configure-view' => 'Mostra',
+	'configure-viewconfig-line' => '$1 $2 by $3 $5: $4',
 	'configure-throttle-action-edit' => 'Modifica',
 	'configure-condition-name-5' => "Adreça d'IP de l'usuari",
 	'configure-condition-name-6' => "Adreça d'IP de l'usuari en la gamma CIDR",
