@@ -4737,6 +4737,7 @@ $messages['bs'] = array(
  * @author Arnaugir
  * @author Loupeter
  * @author Paucabot
+ * @author Pitort
  * @author Solde
  */
 $messages['ca'] = array(
@@ -4848,6 +4849,7 @@ $messages['ca'] = array(
 	'configure-setting-wgAlwaysUseTidy' => 'Utilitza sempre Tidy',
 	'configure-setting-wgTidyBin' => 'Camí binari Tidy',
 	'configure-setting-wgTidyConf' => 'Fitxer de configuració Tidy',
+	'configure-setting-wgXMLMimeTypes-key' => 'Tipus MIME',
 	'configure-setting-wgLocaltimezone' => 'Fus horari local',
 	'configure-setting-wgLocalTZoffset' => 'Diferència horària',
 	'configure-setting-wgUseAjax' => 'Activa AJAX',
