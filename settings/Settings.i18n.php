@@ -5938,6 +5938,7 @@ $messages['diq'] = array(
 	'configure-setting-wgSVGConverters-key' => 'Namey çerxkerdoği',
 	'configure-setting-wgXMLMimeTypes-key' => 'Babetê NIME',
 	'configure-setting-wgXhtmlDefaultNamespace' => 'Hesıbyayê cayê name dê XHTML',
+	'configure-setting-wgXhtmlNamespaces-key' => 'Cayê namey',
 );
 
 /** Lower Sorbian (dolnoserbski)
