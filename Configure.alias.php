@@ -400,6 +400,13 @@ $specialPageAliases['tr'] = array(
 	'ViewConfig' => array( 'YapılandırmaGör', 'KonfigürasyonGör' ),
 );
 
+/** Ukrainian (українська) */
+$specialPageAliases['uk'] = array(
+	'Configure' => array( 'Конфігурація' ),
+	'Extensions' => array( 'Розширення' ),
+	'ViewConfig' => array( 'Перегляд_налаштувань' ),
+);
+
 /** Urdu (اردو) */
 $specialPageAliases['ur'] = array(
 	'Configure' => array( 'توضیع' ),
