@@ -19766,6 +19766,7 @@ $messages['ps'] = array(
  * @author Giro720
  * @author Hamilton Abreu
  * @author Lijealso
+ * @author Luckas
  * @author Malafaya
  * @author Waldir
  * @author 555
@@ -19982,7 +19983,7 @@ $messages['pt'] = array(
 	'configure-setting-wgStatsMethod' => 'Destino para dados de wfIncrStats()',
 	'configure-setting-wgJobRunRate' => 'Número de tarefas a executar por visionamento de página',
 	'configure-setting-wgJobClasses' => 'Classes do manipulador de tarefas',
-	'configure-setting-wgUpdateRowsPerJob' => 'Número de linhas a actualizar por tarefa',
+	'configure-setting-wgUpdateRowsPerJob' => 'Número de linhas a atualizar por tarefa',
 	'configure-setting-wgPoolCounterConf' => "Configuração de controlo da ''pool'' de processamento, para uso em wikis com tráfego elevado",
 	'configure-setting-wgEnableSelenium' => 'Permitir a execução de testes selenium',
 	'configure-setting-wgSeleniumConfigFile' => 'Ficheiro de configuração do selenium',
@@ -20006,7 +20007,7 @@ $messages['pt'] = array(
 	'configure-setting-wgMemoryLimit' => 'O tamanho mínimo de memória de que o MediaWiki "necessita"',
 	'configure-setting-wgMiserMode' => 'Desactivar algumas funcionalidades intensivas que prejudicam o desempenho',
 	'configure-setting-wgShowHostnames' => 'Expor hostnames através de comentários da API e do HTML',
-	'configure-setting-wgUseDumbLinkUpdate' => 'Usar <code>DELETE</code>/<code>INSERT</code> para actualizar links, em vez de incremental',
+	'configure-setting-wgUseDumbLinkUpdate' => 'Usar <code>DELETE</code>/<code>INSERT</code> para atualizar links, em vez de incremental',
 	'configure-setting-wgCacheVaryCookies' => "Uma lista de ''cookies'' que alteram a ''cache''",
 	'configure-setting-wgCookieDomain' => 'Domínio explícito para cookies de login',
 	'configure-setting-wgCookieExpiration' => 'Validade de cookies HTTP',
@@ -20154,7 +20155,7 @@ $messages['pt'] = array(
 	'configure-setting-wgMaxShellMemory' => 'Quantidade máxima de memória virtual disponível para processos da linha de comandos do Linux, em KB',
 	'configure-setting-wgMaxShellTime' => 'Tempo máximo de CPU em segundos para processos de linha de comandos no Linux',
 	'configure-setting-wgShellLocale' => 'Região para <code>LC_CTYPE</code>',
-	'configure-setting-wgUpdateRowsPerQuery' => 'Número de linhas a actualizar por cada pedido',
+	'configure-setting-wgUpdateRowsPerQuery' => 'Número de linhas a atualizar por cada pedido',
 	'configure-setting-wgUseAutomaticEditSummaries' => 'Usar resumos de edição automáticos',
 	'configure-setting-wgUseTrackbacks' => 'Usar "trackbacks"',
 	'configure-setting-wgUseTagFilter' => 'Permitir filtrar edições com etiquetas nas modificações recentes, histórico, etc.',
@@ -20366,6 +20367,7 @@ $messages['pt'] = array(
 /** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  * @author Hamilton Abreu
+ * @author Luckas
  * @author Luckas Blade
  * @author 555
  */
@@ -20498,7 +20500,7 @@ $messages['pt-br'] = array(
 	'configure-setting-wgFileStore' => 'Onde armazenar arquivos eliminados',
 	'configure-setting-wgHashedUploadDirectory' => "Usar diretórios com resumo criptográfico ''(hash directories)'' para uploads",
 	'configure-setting-wgLocalFileRepo' => 'Repositório local de arquivos',
-	'configure-setting-wgStrictFileExtensions' => 'Bloquear qualquer extensão de ficheiro não-preferida',
+	'configure-setting-wgStrictFileExtensions' => 'Proibir qualquer extensão de arquivo não preferida',
 	'configure-setting-wgUploadSizeWarning' => 'Limiar de aviso para o tamanho do upload',
 	'configure-setting-wgMaxUploadSize' => 'Tamanho máximo permitido para uploads',
 	'configure-setting-wgHTTPTimeout' => 'Limite de tempo para requisições HTTP',

@@ -11173,6 +11173,7 @@ $messages['ps'] = array(
  * @author Giro720
  * @author Hamilton Abreu
  * @author Lijealso
+ * @author Luckas
  * @author Malafaya
  * @author Waldir
  * @author 555
@@ -11298,7 +11299,7 @@ Para usar esta extensão crie-o ou altere-o, por favor.',
 	'configure-select-wiki-view-desc' => 'Seleccione uma wiki da qual deseja ver as versões de configuração.',
 	'configure-select-wiki-view-all' => 'Todas as wikis',
 	'configure-select-wiki-view-specific' => 'Wiki específica:',
-	'configure-select-wiki-submit' => 'Seleccionar',
+	'configure-select-wiki-submit' => 'Selecionar',
 	'configure-setting-not-available' => 'Este parâmetro não está disponível nesta versão do MediaWiki',
 	'configure-transwiki-not-in-range' => 'A wiki solicitada, $1, não faz parte {{PLURAL:$3|do valor permitido|dos valores permitidos}}: $2.',
 	'configure-view' => 'Ver',
