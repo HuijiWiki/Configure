@@ -1290,6 +1290,7 @@ $messages['as'] = array(
 );
 
 /** Asturian (asturianu)
+ * @author Tifinaghes
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -1450,7 +1451,7 @@ Por favor créalu o cámbialu pa usar esta estensión.',
 	'configure-throttle-none' => 'Ensin llímite',
 	'configure-condition-operator' => 'Operador:',
 	'configure-condition-operator-or' => 'O',
-	'configure-condition-operator-and' => 'Y',
+	'configure-condition-operator-and' => 'ⴷ',
 	'configure-condition-operator-xor' => 'Xor',
 	'configure-condition-operator-not' => 'Non',
 	'configure-condition-name' => 'Condición',
