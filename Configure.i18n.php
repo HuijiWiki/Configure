@@ -2684,9 +2684,11 @@ $messages['ca'] = array(
 
 /** Chechen (нохчийн)
  * @author Sasan700
+ * @author Умар
  */
 $messages['ce'] = array(
 	'configure-form-reason' => 'Бахьан:',
+	'configure-js-remove' => 'ДӀаяккха',
 	'configure-section-recentchanges' => 'Керла нисдарш',
 	'configure-section-search' => 'Лаха',
 	'configure-view' => 'Хьажа',
