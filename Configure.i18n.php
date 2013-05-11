@@ -6755,12 +6755,13 @@ $messages['io'] = array(
 
 /** Icelandic (íslenska)
  * @author S.Örvarr.S
+ * @author Snævar
  * @author Spacebirdy
  * @author පසිඳු කාවින්ද
  */
 $messages['is'] = array(
 	'configure-desc-group' => 'Hópur',
-	'configure-desc-ns' => 'Nafnrými', # Fuzzy
+	'configure-desc-ns' => 'Nafnrými',
 	'configure-desc-val' => 'Gildi',
 	'configure-ext-settings' => 'Stillingar',
 	'configure-form-reason' => 'Ástæða:',
