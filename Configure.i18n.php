@@ -11735,6 +11735,7 @@ $messages['roa-tara'] = array(
 	'configure-ext-use-extension' => 'Ause sta estenzione',
 	'configure-ext-use' => 'Ause',
 	'configure-form-reason' => 'Mutive:',
+	'configure-customised' => "''Sta 'mbostazine ha state personalizzate''",
 	'configure-arrayinput-oneperline' => "''(une pe linea)''",
 	'configure-btn-save' => "Reggistre le 'mbostaziune",
 	'configure-js-add' => "Aggiunge 'na vôscia nove",
