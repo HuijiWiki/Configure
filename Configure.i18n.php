@@ -2711,6 +2711,7 @@ $messages['ckb'] = array(
 );
 
 /** Czech (česky)
+ * @author BodminPill
  * @author Danny B.
  * @author Jkjk
  * @author Kuvaly
@@ -2803,7 +2804,7 @@ Abyste mohli používat toto rozšíření, vytvořte ho nebo změňte konfigura
 	'configure-section-cache' => 'Vyrovnávací paměť',
 	'configure-section-pcache' => 'Vyrovnávací paměť parseru',
 	'configure-section-messagecache' => 'Vyrovnávací paměť zpráv',
-	'configure-section-memcached' => 'Memchached',
+	'configure-section-memcached' => 'Memcached',
 	'configure-section-access' => 'Přístup',
 	'configure-section-groups' => 'Skupiny',
 	'configure-section-block' => 'Blokování',

@@ -19045,6 +19045,7 @@ $messages['pl'] = array(
 	'configure-setting-wgImageMagickTempDir' => 'Tymczasowy katalog ImageMagick',
 	'configure-setting-wgUseImageMagick' => 'Użyj ImageMagick',
 	'configure-setting-wgEnableParserCache' => 'Włącz pamięć podręczną analizatora składni',
+	'configure-setting-wgAlwaysUseTidy' => 'Zawsze używaj Tidy',
 	'configure-setting-wgValidateAllHtml' => 'Odmówić  wyświetlania niepoprawnych stron',
 	'configure-setting-wgRawHtml' => 'Zezwalaj na surowy, niezweryfikowany HTML w sekcjach <code><nowiki><html></nowiki></code>{{int:ellipsis}}<code><nowiki></html></nowiki></code>',
 	'configure-setting-wgDisableUploadScriptChecks' => 'Wyłącz sprawdzenia skryptów we przesyłanych plikach',
@@ -19097,6 +19098,7 @@ $messages['pl'] = array(
 	'configure-setting-wgRCMaxAge' => 'Minimalny wiek wpisów usuwanych z ostatnich zmian',
 	'configure-setting-wgUseRCPatrol' => 'Używaj patrolowania w ostatnich zmianach do ochrony przed wandalizmami',
 	'configure-setting-wgBlockAllowsUTEdit' => 'Pozwól zablokowanemu użytkownikowi na edytowanie jego własnej strony dyskusji',
+	'configure-setting-wgBlockDisablesLogin' => 'Nie zezwalaj zablokowanym użytkownikom na logowanie',
 	'configure-setting-wgSysopEmailBans' => 'Pozwalaj administratorom na blokowanie użytkownikom dostępu do [[Special:EmailUser]]',
 	'configure-setting-wgEnotifUseJobQ' => 'Wyślij e‐maile poprzez kolejkę zadań',
 	'configure-setting-wgEnotifUserTalk' => 'Powiadomienie o zmianie strony dyskusji użytkownika może zostać do niego wysłane E‐mailem (opcja będzie dostępna w preferencjach użytkownika i musi zostać przez niego zaznaczona)',
@@ -21167,6 +21169,7 @@ $messages['roa-tara'] = array(
 
 /** Russian (русский)
  * @author Base
+ * @author BodminPill
  * @author DCamer
  * @author Ferrer
  * @author Grigol
@@ -21729,7 +21732,7 @@ $messages['ru'] = array(
 	'configure-setting-wgMimeTypeFile' => 'MIME-тип файла определения',
 	'configure-setting-wgVerifyMimeType' => 'Проверять MIME-типы загружаемых файлов',
 	'configure-setting-wgMimeTypeBlacklist' => 'Отключить MIME-типы',
-	'configure-setting-wgCacheSharedUploads' => 'Кешировать общие метаданные в memchached',
+	'configure-setting-wgCacheSharedUploads' => 'Кешировать общие метаданные в memcached',
 	'configure-setting-wgForeignFileRepos' => 'Внешние хранилища файлов',
 	'configure-setting-wgUseInstantCommons' => 'Использовать Викисклад в качестве общего хранилища',
 	'configure-setting-wgFetchCommonsDescriptions' => 'Получать описания общих файлов',
