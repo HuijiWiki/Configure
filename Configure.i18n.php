@@ -7873,7 +7873,7 @@ et Appachtemang. Do kresß en Vör-Aansich jezeich, wann De uß dämm Feld jeih�
 	'configure-throttle-period' => 'De Zick (Sekunde) för et Rökshtelle:',
 	'configure-throttle-summary' => '{{PLURAL:$1|Ein Akßjuhn|$1 Akßjuhne|Kein Akßjuhn}} en {{PLURAL:$2|der Sekund|$2 Sekunde|onger ein Sekund}}.',
 	'configure-throttle-group' => 'Zoot',
-	'configure-throttle-limit' => 'Beschränkung',
+	'configure-throttle-limit' => 'Beschränkong',
 	'configure-throttle-none' => 'Kein Beschrängkung',
 	'configure-condition-operator' => 'Bedriiver:',
 	'configure-condition-operator-or' => 'of',
