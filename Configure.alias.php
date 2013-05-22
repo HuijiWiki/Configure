@@ -427,6 +427,11 @@ $specialPageAliases['vi'] = array(
 	'ViewConfig' => array( 'Xem_cấu_hình' ),
 );
 
+/** Yiddish (ייִדיש) */
+$specialPageAliases['yi'] = array(
+	'Extensions' => array( 'פארברייטערונגען' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'Configure' => array( '配置' ),
