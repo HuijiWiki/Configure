@@ -8322,7 +8322,7 @@ $messages['gl'] = array(
 	'configure-setting-wgMediaHandlers-value' => 'Clase de tirador',
 	'configure-setting-wgThumbnailScriptPath' => 'Ruta a thumb.php para a xeración de miniaturas no voo no canto de na análise',
 	'configure-setting-wgThumbUpright' => 'Factor de axustamento do largo para as miniaturas en posición vertical',
-	'configure-setting-wgShowEXIF' => 'Mostrar os datos EXIF nas páxinas de descrición dos ficheiros',
+	'configure-setting-wgShowEXIF' => 'Mostrar os datos Exif nas páxinas de descrición dos ficheiros',
 	'configure-setting-wgUpdateCompatibleMetadata' => 'Actualizar automaticamente o campo img_metadata se está obsoleto, pero que siga sendo compatible coa versión actual',
 	'configure-setting-wgThumbLimits' => 'Tamaños de miniaturas de imaxe permitidos',
 	'configure-setting-wgUseImageResize' => 'Activar o axustador lateral de dimensión de imaxes do servidor dinámico',
@@ -26014,6 +26014,7 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author A911504820
+ * @author Cwek
  * @author Dimension
  * @author Gzdavidwong
  * @author Hydra
@@ -26059,7 +26060,7 @@ $messages['zh-hans'] = array(
 	'configure-setting-wgMediaHandlers-value' => '处理程序类',
 	'configure-setting-wgThumbnailScriptPath' => 'thumb.php的路径，用于使用时而非解析时的缩略图生成',
 	'configure-setting-wgThumbUpright' => '直立的缩略图的宽度调整因子',
-	'configure-setting-wgShowEXIF' => '在文件描述页面显示EXIF资料',
+	'configure-setting-wgShowEXIF' => '在文件描述页面显示EXIF资料。',
 	'configure-setting-wgUpdateCompatibleMetadata' => '如果它已过时但与当前版本兼容，自动更新 img_metadata 字段',
 	'configure-setting-wgThumbLimits' => '允许图像缩略图的大小',
 	'configure-setting-wgUseImageResize' => '启用动态服务器端图像大小调整功能',
