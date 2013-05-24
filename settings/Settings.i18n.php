@@ -7377,6 +7377,7 @@ $messages['fi'] = array(
  * @author Crochet.david
  * @author Gomoko
  * @author Grondin
+ * @author Hello71
  * @author IAlex
  * @author Jean-Frédéric
  * @author McDutchie
@@ -7424,7 +7425,7 @@ $messages['fr'] = array(
 	'configure-setting-wgMediaHandlers-value' => 'Classe du gestionnaire',
 	'configure-setting-wgThumbnailScriptPath' => 'Chemin du script thumb.php pour redimensionner les images à la volée au lieu de le faire lorsque les pages sont analysées',
 	'configure-setting-wgThumbUpright' => "Facteur d'ajustement de largeur pour les images redimensionnées avec « upright »",
-	'configure-setting-wgShowEXIF' => 'Afficher les données EXIF sur les pages de description des fichiers',
+	'configure-setting-wgShowEXIF' => 'Afficher les données Exif sur les pages de description des fichiers',
 	'configure-setting-wgUpdateCompatibleMetadata' => 'Mettre à jour automatiquement le champ img_metadata si il est obsolète mais compatible avec la version actuelle',
 	'configure-setting-wgThumbLimits' => 'Tailles autorisées des miniatures des images',
 	'configure-setting-wgUseImageResize' => 'Activer le redimensionnement dynamique des images côté serveur',
@@ -14851,6 +14852,7 @@ $messages['mhr'] = array(
  */
 $messages['min'] = array(
 	'configure-setting-wgImageLimits' => 'Bateh ukuran gambar untuak laman katarangan',
+	'configure-setting-wgMaximumMovedPages' => 'Jumlah maksimum laman nan dialiahan basamo sangkek mamindahan sublaman jo laman',
 );
 
 /** Macedonian (македонски)
@@ -14893,7 +14895,7 @@ $messages['mk'] = array(
 	'configure-setting-wgMediaHandlers-value' => 'Класа на обработувач',
 	'configure-setting-wgThumbnailScriptPath' => 'Патека до thumb.php за попатно создавање минијатури наместо со парсирање',
 	'configure-setting-wgThumbUpright' => 'Фактор за прилагодување на ширината за исправени минијатури',
-	'configure-setting-wgShowEXIF' => 'Прикажувај EXIF податоци на страниците за опис на податотеки',
+	'configure-setting-wgShowEXIF' => 'Прикажувај EXIF податоци на описните страници на податотеките',
 	'configure-setting-wgUpdateCompatibleMetadata' => 'Автоматски подновувај го полето img_metadata ако е застарено, но складно со тековната верзија',
 	'configure-setting-wgThumbLimits' => 'Дозволени големини за минијатури',
 	'configure-setting-wgUseImageResize' => 'Овозможи динамично менување на големината на сликите од страна на опслужувачот',
@@ -15269,7 +15271,7 @@ $messages['mk'] = array(
 	'configure-setting-wgUseTagFilter' => 'Дозволи филтрирање на уредувања со ознаки во скорешните промени, историјата и тн.',
 	'configure-setting-wgDisableHardRedirects' => 'Оневозможи пренасочувања кон специјални страници и меѓувики-страници',
 	'configure-setting-wgEnableScaryTranscluding' => 'Овозможи превметнувања на меѓувики',
-	'configure-setting-wgImportSources' => 'Список на меѓувики-префикси за прекувики (transwiki)',
+	'configure-setting-wgImportSources' => 'Список на меѓувики-претставки за прекувики (transwiki)',
 	'configure-setting-wgInterwikiCache' => 'Овозможи меѓувики-кеш',
 	'configure-setting-wgInterwikiExpiry' => 'Истекување на меѓувики-кешот',
 	'configure-setting-wgInterwikiFallbackSite' => 'Резервно мрежно место за меѓувики',
@@ -16977,7 +16979,7 @@ $messages['nl'] = array(
 	'configure-setting-wgMediaHandlers-value' => 'Handlerklasse',
 	'configure-setting-wgThumbnailScriptPath' => 'Pad naar thumb.php voor het on-the-fly aanmaken van thunbnails in plaats van tijdens het parsen',
 	'configure-setting-wgThumbUpright' => 'Aanpassingsfactor voor de breedte van rechtopstaande thumbnails',
-	'configure-setting-wgShowEXIF' => "EXIF-gegevens weergeven op bestandsbeschrijvingspagina's",
+	'configure-setting-wgShowEXIF' => "Exifgegevens weergeven op bestandsbeschrijvingspagina's",
 	'configure-setting-wgUpdateCompatibleMetadata' => 'Het veld "img_metadata" automatisch bijwerken als het verouderd is maar compatibel met de huidige versie',
 	'configure-setting-wgThumbLimits' => 'Toegestane afmetingen voor thumbnails',
 	'configure-setting-wgUseImageResize' => 'Dynamisch aanpassen van afbeeldingsgrootte aan de serverzijde inschakelen',
@@ -22896,6 +22898,7 @@ $messages['sl'] = array(
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Charmed94
+ * @author Milicevic01
  * @author Rancher
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
@@ -22930,7 +22933,7 @@ $messages['sr-ec'] = array(
 	'configure-setting-wgMediaHandlers-value' => 'Класа управљања',
 	'configure-setting-wgThumbnailScriptPath' => 'Путања до thumb.php за прављење умањених прегледа током прегледа уместо током парсирања стране',
 	'configure-setting-wgThumbUpright' => 'Подешвање фактора ширине за прегледе који су више високи него широки',
-	'configure-setting-wgShowEXIF' => 'Покажи EXIF податке на странама за преглед фајлова',
+	'configure-setting-wgShowEXIF' => 'Покажи EXIF податке на страници за опис датотеке',
 	'configure-setting-wgThumbLimits' => 'Омогућене величине прегледа слика',
 	'configure-setting-wgUseImageResize' => 'Омогући динамичко мењање величине слике на серверу',
 	'configure-setting-wgTrustedMediaFormats' => "MIME и други типови фајлова који се сматрају 'безбедним'",
