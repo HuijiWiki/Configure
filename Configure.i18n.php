@@ -1282,7 +1282,7 @@ $messages['arz'] = array(
 	'configure-boolop-description-not' => 'مافيش شروط لازم تكون حقيقيه',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Chaipau
  */
 $messages['as'] = array(
@@ -9593,7 +9593,7 @@ $messages['nah'] = array(
 	'configure-condition-operator-or' => 'Nozo',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Audun
  * @author Laaknor
  * @author Nghtwlkr
@@ -9829,7 +9829,7 @@ $messages['nds'] = array(
 	'configure-condition-operator-not' => 'Not',
 );
 
-/** Nedersaksies (Nedersaksies)
+/** Low Saxon (Netherlands) (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
@@ -10468,7 +10468,7 @@ Rendètz-lo modificable per PHP per qu'aquesta extension foncione.",
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Lista de las extensions disponiblas per aqueste wiki]].',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Jnanaranjan Sahu
  * @author Jose77
@@ -11378,6 +11378,7 @@ Para usar esta extensão crie-o ou altere-o, por favor.',
  * @author Giro720
  * @author Hamilton Abreu
  * @author Jaideraf
+ * @author Luckas
  * @author Luckas Blade
  * @author 555
  */
