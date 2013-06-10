@@ -2345,6 +2345,7 @@ Krouit anezhañ pe kemmit-eñ evit gallout implijout an astenn-mañ.",
 /** Bosnian (bosanski)
  * @author CERminator
  * @author Demicx
+ * @author Sociologist
  */
 $messages['bs'] = array(
 	'configure' => 'Postavljanje wikija',
@@ -5185,7 +5186,7 @@ Por favor, créeo ou tróqueo para usar esta extensión.',
 	'configure-section-upload' => 'Cargar',
 	'configure-section-sharedupload' => 'Cargas compartidas',
 	'configure-section-mime' => 'Tipos de MIME',
-	'configure-section-images' => 'Imaxes',
+	'configure-section-images' => 'Ficheiros',
 	'configure-section-antivirus' => 'Antivirus',
 	'configure-section-parser' => 'Analizador',
 	'configure-section-specialpages' => 'Páxinas especiais',
@@ -7546,7 +7547,7 @@ $messages['ko'] = array(
 	'configure-js-biglist-show' => '[자세한 내용 보기]',
 	'configure-js-biglist-hide' => '[자세한 내용 숨기기]',
 	'configure-js-summary-none' => '설정 없음',
-	'configure-js-search-legend' => '검색 설정',
+	'configure-js-search-legend' => '찾기 설정',
 	'configure-js-search-prompt' => '쿼리:',
 	'configure-no-diff' => '선택한 버전 사이에 바뀜이 없습니다.',
 	'configure-no-directory' => '설정을 저장하는 데 사용할 디렉토리인 <code>$1</code>(이)가 존재하지 않습니다.
@@ -7935,7 +7936,7 @@ $messages['ku-latn'] = array(
  * @author Nrowe
  */
 $messages['kw'] = array(
-	'configure-section-pages' => 'Folednow',
+	'configure-section-pages' => 'Folennow',
 	'configure-section-upload' => 'Ughkarga',
 	'configure-section-search' => 'Hwilas',
 	'configure-throttle-action-edit' => 'Chanjya',
@@ -10735,6 +10736,7 @@ $messages['pfl'] = array(
  * @author Leinad
  * @author Maikking
  * @author McMonster
+ * @author Sociologist
  * @author Sp5uhe
  * @author Wpedzich
  */
