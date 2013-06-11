@@ -6395,6 +6395,7 @@ $messages['eo'] = array(
  * @author Od1n
  * @author Pertile
  * @author Tempestas
+ * @author VegaDark
  * @author Vivaelcelta
  */
 $messages['es'] = array(
@@ -6432,7 +6433,8 @@ $messages['es'] = array(
 	'configure-setting-wgMediaHandlers-value' => 'Clase de manipulador',
 	'configure-setting-wgThumbnailScriptPath' => 'Ruta hasta el archivo thump.php para la generación de miniaturas al vuelo en lugar de hacerlo durante el análisis sintáctico (parseo)',
 	'configure-setting-wgThumbUpright' => 'Factor de ajuste de anchura para miniaturas verticales',
-	'configure-setting-wgShowEXIF' => 'Mostrar datos EXIF en páginas de descripción de archivo', # Fuzzy
+	'configure-setting-wgShowEXIF' => 'Mostrar datos EXIF en páginas de descripción de archivo',
+	'configure-setting-wgUpdateCompatibleMetadata' => 'Automáticamente actualiza el campo img_metadata si está desactualizado, pero compatible con la versión actual',
 	'configure-setting-wgThumbLimits' => 'Tamaños miniaturas de imagenes permitidas',
 	'configure-setting-wgUseImageResize' => 'Permitir el redimensionamiento dinámico de las imágenes del lado del servidor',
 	'configure-setting-wgEnableAutoRotation' => 'Rotar las imágenes según su orientación EXIF',
@@ -26821,6 +26823,7 @@ $messages['zh-hans'] = array(
  * @author Gzdavidwong
  * @author Mark85296341
  * @author Oapbtommy
+ * @author Radish10cm
  * @author Simon Shek
  * @author Wrightbus
  */
@@ -26990,6 +26993,7 @@ $messages['zh-hant'] = array(
 	'configure-setting-wgDebugComments' => '在HTML注釋中包含日誌輸出的某些部分',
 	'configure-setting-wgDebugDumpSql' => '轉儲SQL查詢到調試輸出',
 	'configure-setting-wgDebugLogFile' => '除錯記錄檔',
+	'configure-setting-wgDebugLogGroups-key' => '登錄群組',
 	'configure-setting-wgDebugLogGroups-value' => '檔案',
 	'configure-setting-wgDebugLogPrefix' => '調試日誌行的前綴',
 	'configure-setting-wgDebugRedirects' => '顯示重定向的位置，而不是實際重定向到目標URL',

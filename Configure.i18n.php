@@ -12487,6 +12487,7 @@ Aby ste mohli používať toto rozšírenie, vytvorte ho alebo ho zmeňte.',
 /** Slovenian (slovenščina)
  * @author Dbc334
  * @author Eleassar
+ * @author Emperyan
  */
 $messages['sl'] = array(
 	'configure' => 'Konfiguriraj wiki',
