@@ -26821,6 +26821,7 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Gzdavidwong
+ * @author Liflon
  * @author Mark85296341
  * @author Oapbtommy
  * @author Radish10cm
@@ -26948,6 +26949,7 @@ $messages['zh-hant'] = array(
 	'configure-setting-wgMaxUploadSize' => '最大上傳大小',
 	'configure-setting-wgHTTPProxy' => '使用的HTTP代理',
 	'configure-setting-wgVersion' => 'MediaWiki版本',
+	'configure-setting-wgAllowSpecialInclusion' => '允許包含特殊頁面',
 	'configure-setting-wgExportMaxHistory' => '[[Special:Export|導出]]允許的最大修訂數量',
 	'configure-setting-wgLogRestrictions' => '記錄存取限制',
 	'configure-setting-wgLogRestrictions-key' => '記錄類型',
