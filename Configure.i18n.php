@@ -2690,6 +2690,7 @@ $messages['ca'] = array(
 $messages['ce'] = array(
 	'configure-form-reason' => 'Бахьан:',
 	'configure-js-remove' => 'ДӀаяккха',
+	'configure-section-upload' => 'Чуйолуш',
 	'configure-section-recentchanges' => 'Керла нисдарш',
 	'configure-section-search' => 'Лаха',
 	'configure-view' => 'Хьажа',
