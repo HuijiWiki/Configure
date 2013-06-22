@@ -3128,6 +3128,7 @@ Du bedes oprette den og og køre configure.sql eller rette navnet.',
  * @author Als-Holder
  * @author ChrisiPK
  * @author Church of emacs
+ * @author Geitost
  * @author Imre
  * @author Kghbln
  * @author Leithian
@@ -3162,7 +3163,7 @@ $messages['de'] = array(
 	'configure-form-reason' => 'Grund:',
 	'configure-customised' => "''Diese Einstellung wurde angepasst''",
 	'configure-arrayinput-oneperline' => "''(eins pro Zeile)''",
-	'configure-summary' => 'Diese Spezialseite ermöglicht dir die Konfiguration dieses Wikis, siehe [http://www.mediawiki.org/wiki/Manual:Configuration_settings Konfigurationsoptionen] für weitere Informationen.',
+	'configure-summary' => 'Diese Spezialseite ermöglicht dir die Konfiguration dieses Wikis, weitere Informationen sind in den [http://www.mediawiki.org/wiki/Manual:Configuration_settings Konfigurationsoptionen] zu finden.',
 	'configure-btn-save' => 'Einstellungen speichern',
 	'configure-db-error' => 'Die Datenbank, die nach deinen Angaben die Konfiguration ($1) enthalten soll, existiert nicht.
 Bitte erstelle sie und führe configure.sql darin aus oder korrigiere ihren Namen.',
@@ -3329,12 +3330,13 @@ Bitte erstelle oder ändere es, damit du diese Erweiterung nutzen kannst.',
 
 /** German (formal address) (Deutsch (Sie-Form)‎)
  * @author ChrisiPK
+ * @author Geitost
  * @author Imre
  * @author Kghbln
  * @author Umherirrender
  */
 $messages['de-formal'] = array(
-	'configure-summary' => 'Diese Spezialseite ermöglicht Ihnen die Konfiguration dieses Wikis, siehe [http://www.mediawiki.org/wiki/Manual:Configuration_settings Konfigurationsoptionen] für weitere Informationen.',
+	'configure-summary' => 'Diese Spezialseite ermöglicht Ihnen die Konfiguration dieses Wikis, weitere Informationen sind in den [http://www.mediawiki.org/wiki/Manual:Configuration_settings Konfigurationsoptionen] zu finden.',
 	'configure-db-error' => 'Die Datenbank, die nach Ihren Angaben die Konfiguration ($1) enthalten soll, existiert nicht.
 Bitte erstellen Sie sie und führen Sie configure.sql darin aus oder korrigieren sie ihren Namen.',
 	'configure-db-table-error' => 'Die Datenbank, die Sie angegeben haben, enthält nicht die benötigten Tabellen. Bitte führen Sie configure.sql in dieser Datenbank aus.',

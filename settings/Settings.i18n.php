@@ -3232,6 +3232,41 @@ $messages['ast'] = array(
 	'configure-setting-wgPutIPinRC' => "Rexistrar les direiciones IP na tabla 'recentchanges'",
 	'configure-setting-wgAutopromoteOnceLogInRC' => 'Rexistrar la promoción automática nos cambios recientes',
 	'configure-setting-wgRCChangedSizeThreshold' => "Resaltar la cuenta de diferencia de caráuteres menor qu'esta nos cambios recientes",
+	'configure-setting-wgRCFilterByAge' => 'Filtriar $wgRCLinkDays pa evitar amosar los enllaces con valores mayores que $wgRCMaxAge',
+	'configure-setting-wgRCLinkLimits' => 'Llende de cambios pa los cambios recientes',
+	'configure-setting-wgRCLinkDays' => 'Llende de díes nos cambios recientes',
+	'configure-setting-wgRCMaxAge' => 'Edá mínima pa purgar los elementos de los cambios recientes',
+	'configure-setting-wgRCShowChangedSize' => 'Amosar la cantida de caráuteres camudaos nos cambios recientes',
+	'configure-setting-wgRCShowWatchingUsers' => 'Ver los usuarios vixilando nos cambios recientes, na llista de vixilancia y nes vistes del historial de la páxina',
+	'configure-setting-wgShowUpdatedMarker' => 'Amosar el marcador "Anovao (dende la mio última visita)" nos cambios recientes, na llista de vixilancia y nes vistes del historial de la páxina',
+	'configure-setting-wgUseRCPatrol' => 'Usar la patrulla de cambios recientes pa comprobar el vandalismu',
+	'configure-setting-wgRC2UDPAddress' => 'Direición pal avisu UDP de cambios recientes',
+	'configure-setting-wgRC2UDPInterwikiPrefix' => 'Amestar un prefixu interwiki a los avisos UDP de cambios recientes',
+	'configure-setting-wgRC2UDPOmitBots' => 'Tapecer les ediciones de los bots nos avisos UDP de los cambios recientes',
+	'configure-setting-wgRC2UDPPort' => 'Puertu pa los avisos UDP de los cambios recientes',
+	'configure-setting-wgRC2UDPPrefix' => 'Prefixu de les llinies unviaes a UDP pa los cambios recientes',
+	'configure-setting-wgBlockAllowsUTEdit' => "Permitir qu'un usuariu bloquiáu edite la páxina d'alderique propia",
+	'configure-setting-wgBlockDisablesLogin' => "Torgar l'aniciu de sesión a los usuarios bloquiaos",
+	'configure-setting-wgSysopEmailBans' => "Permitir a los alministradores torgar l'accesu d'usuarios a [[Special:EmailUser]]",
+	'configure-setting-wgEnotifFromEditor' => 'Los avisos per corréu electrónicu paecen venir del editor de la páxina (non del sirvidor wiki)',
+	'configure-setting-wgEnotifImpersonal' => "Unviar un corréu electrónicu xenéricu en llugar d'un corréu electrónicu personalizáu pa cada usuariu",
+	'configure-setting-wgEnotifMaxRecips' => "Númberu máximu d'usuarios a avisar al mesmu tiempu cuando s'usa un corréu electrónicu impersonal",
+	'configure-setting-wgEnotifMinorEdits' => "Unviar tamién avisos per corréu electrónicu p'avisar de les \"ediciones menores\" (s'amuesa la preferencia y l'usuariu necesita aceutala)",
+	'configure-setting-wgEnotifRevealEditorAddress' => "La direición Responder-a de los avisos per corréu pue rellenase cola direición del editor de la páxina (s'amuesa la preferencia y l'usuariu necesita aceutala)",
+	'configure-setting-wgEnotifUseJobQ' => 'Unviar correos electrónicos per aciu de la cola de trabayos',
+	'configure-setting-wgEnotifUseRealName' => 'Usar el nome real en llugar del nome d\'usuariu nel campu "de" del formulariu de corréu electrónicu',
+	'configure-setting-wgEnotifUserTalk' => "Los avisos per corréu electrónicu puen unviase pal primer cambiu d'una páxina d'alderique d'usuariu (s'amuesa la preferencia y l'usuariu necesita aceutala)",
+	'configure-setting-wgEnotifWatchlist' => "Los avisos per corréu electrónicu puen unviase pal primer cambiu nes páxines vixilaes (s'amuesa la preferencia y l'usuariu necesita aceutala)",
+	'configure-setting-wgUsersNotifiedOnAllChanges' => "Nomes de los usuarios a los que s'unviará un corréu electrónicu d'avisu por cada cambiu qu'asoceda na wiki",
+	'configure-setting-wgDebugFunctionEntry' => 'Mensaxe de salida del depurador por cada wfProfileIn/wfProfileOut',
+	'configure-setting-wgDebugProfiling' => 'Detecta les llamaes wfProfileIn/wfProfileOut que nun coincidan',
+	'configure-setting-wgProfileCallTree' => "Imprimir un árbol de llamaes en bruto en llugar d'un informe por función",
+	'configure-setting-wgProfileLimit' => "Rexistrar sólo la información de perfiláu de les páxines que tardaron más qu'esto",
+	'configure-setting-wgProfileOnly' => 'Nun poner información que nun ye de perfiláu nel ficheru de rexistru',
+	'configure-setting-wgProfilePerHost' => "Escribir l'agospiamientu del sirvidor d'aplicaciones na tabla de perfiláu",
+	'configure-setting-wgProfileToDatabase' => 'Rexistrar les sumes del perfiláu na la tabla de perfiláu de la base de datos',
+	'configure-setting-wgUDPProfilerHost' => 'Host del perfilador UDP',
+	'configure-setting-wgUDPProfilerPort' => 'Puertu del perfilador UDP',
 );
 
 /** Azerbaijani (azərbaycanca)
@@ -27079,6 +27114,7 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Gzdavidwong
+ * @author Justincheng12345
  * @author Liflon
  * @author Mark85296341
  * @author Oapbtommy
@@ -27138,6 +27174,7 @@ $messages['zh-hant'] = array(
 	'configure-setting-wgQueryCacheLimit' => "要緩存 'querycache' 表中的行數",
 	'configure-setting-wgRevisionCacheExpiry' => '過期為緩存的修訂文本在高性能（或 0 則禁用）',
 	'configure-setting-wgThumbnailEpoch' => '縮略圖清除時代',
+	'configure-setting-wgTranscludeCacheExpiry' => '跨維基頁面引用的暫存資料過期時間',
 	'configure-setting-wgUseFileCache' => '使用檔案緩存',
 	'configure-setting-wgUseGzip' => '使用GZIP編碼',
 	'configure-setting-wgAllowDisplayTitle' => '允許使用 <nowiki>{{DISPLAYTITLE}}</nowiki>',
