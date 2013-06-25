@@ -20244,7 +20244,7 @@ $messages['pt'] = array(
 	'configure-setting-wgMediaHandlers-value' => 'Classe tratadora',
 	'configure-setting-wgThumbnailScriptPath' => 'Caminho para thumb.php para geração de miniaturas de imagens "on-the-fly" ao invés de "on-parse"',
 	'configure-setting-wgThumbUpright' => 'Fator de ajuste da largura para miniaturas com orientação vertical',
-	'configure-setting-wgShowEXIF' => 'Mostrar dados EXIF nas páginas de descrição de ficheiros', # Fuzzy
+	'configure-setting-wgShowEXIF' => 'Mostrar dados Exif nas páginas de descrição de ficheiros',
 	'configure-setting-wgThumbLimits' => 'Tamanhos permitidos para miniaturas de imagens',
 	'configure-setting-wgUseImageResize' => 'Activar redimensionamento dinâmico de imagens no servidor',
 	'configure-setting-wgTrustedMediaFormats' => "Tipos multimédia e tipos MIME considerados 'seguros'",
@@ -20700,7 +20700,7 @@ $messages['pt'] = array(
 	'configure-setting-wgUseSiteJs' => 'Usar a página JavaScript do site',
 	'configure-setting-wgHandheldStyle' => 'Estilo para media="handheld"',
 	'configure-setting-wgHandheldForIPhone' => "Aplicar os tipos multimédia 'screen' e 'handheld' ao iPhone",
-	'configure-setting-wgResourceLoaderDebug' => 'Debug para pedidos ResourceLoader', # Fuzzy
+	'configure-setting-wgResourceLoaderDebug' => 'Ativar modo "debug" para pedidos do ResourceLoader',
 	'configure-setting-wgResourceLoaderInlinePrivateModules' => 'Incorporar módulos privados em linha com saída HTML',
 	'configure-setting-wgResourceLoaderMaxage' => 'Período máximo, em segundos, para manter em cache os recursos servidos pelo resource loader',
 	'configure-setting-wgResourceLoaderUseESI' => 'Possibilitar a incorporação de certos recursos usando Edge Side Includes',
