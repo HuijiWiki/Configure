@@ -59,6 +59,13 @@ $specialPageAliases['bxr'] = array(
 	'Configure' => array( 'Тааруулха' ),
 );
 
+/** Chechen (нохчийн) */
+$specialPageAliases['ce'] = array(
+	'Configure' => array( 'ГIирс' ),
+	'Extensions' => array( 'Шордар' ),
+	'ViewConfig' => array( 'ГIирсе_хьажар' ),
+);
+
 /** Czech (česky) */
 $specialPageAliases['cs'] = array(
 	'Configure' => array( 'Konfigurace' ),
