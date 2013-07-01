@@ -961,7 +961,8 @@ Selenium is a suite of tools to automate web app testing across many platforms. 
 	'configure-setting-wgGroupsAddToSelf' => '{{config-wg|GroupsAddToSelf}}',
 	'configure-setting-wgGroupsRemoveFromSelf' => '{{config-wg|GroupsRemoveFromSelf}}',
 	'configure-setting-wgRateLimitLog' => '{{config-wg|RateLimitLog}}',
-	'configure-setting-wgRateLimits' => '{{config-wg|RateLimits}}',
+	'configure-setting-wgRateLimits' => '{{config-wg|RateLimits}}
+{{Identical|Rate limit}}',
 	'configure-setting-wgRateLimitsExcludedGroups' => '{{config-wg|RateLimitsExcludedGroups}}',
 	'configure-setting-wgRateLimitsExcludedIPs' => '{{config-wg|RateLimitsExcludedIPs}}',
 	'configure-setting-wgFeed' => '{{config-wg|Feed}}',
@@ -14999,6 +15000,7 @@ $messages['lb'] = array(
 	'configure-setting-wgAlwaysUseTidy' => 'Tidy ëmmer benotzen',
 	'configure-setting-wgTidyConf' => 'Konfiguratiounsfichier vun "Tidy"',
 	'configure-setting-wgValidateAllHtml' => 'Net valabel Säiten net weisen',
+	'configure-setting-wgXMLMimeTypes-key' => 'MIME-Typ',
 	'configure-setting-wgXhtmlNamespaces' => 'Aner XHTML-Nummraim',
 	'configure-setting-wgXhtmlNamespaces-key' => 'Nummraum',
 	'configure-setting-wgLocaltimezone' => 'Lokal Zäitzon',

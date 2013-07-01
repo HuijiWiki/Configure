@@ -405,6 +405,7 @@ Preceded by any one of the following messages:
 	'configure-section-access' => '{{Identical|Access}}',
 	'configure-section-groups' => '{{Identical|Group}}',
 	'configure-section-block' => '{{Identical|Block}}',
+	'configure-section-rates' => '{{Identical|Rate limit}}',
 	'configure-section-squid' => '{{optional}}',
 	'configure-section-cookie' => '{{Identical|Cookie}}',
 	'configure-section-performance' => '{{Identical|Performance}}',
