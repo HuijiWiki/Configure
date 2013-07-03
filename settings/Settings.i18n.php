@@ -18734,6 +18734,7 @@ $messages['oc'] = array(
 	'configure-setting-wgAllowSlowParserFunctions' => 'Autorizar las foncions del parser lentas',
 	'configure-setting-wgDisableInternalSearch' => 'Desactivar la recèrca intèrna',
 	'configure-setting-wgExternalStores' => "Configuracion de l'estocatge extèrne",
+	'configure-setting-wgSQLMode' => 'Mòde SQL',
 	'configure-setting-wgSpecialPageCacheUpdates' => "Foncions adicionalas d'apelar dins updateSpecialPages.php",
 	'configure-setting-wgSpecialPages' => 'Paginas especialas adicionalas',
 	'configure-setting-wgSkinExtensionFunctions' => "Foncions de las extensions d'abilhatge",
