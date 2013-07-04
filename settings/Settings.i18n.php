@@ -18692,7 +18692,7 @@ $messages['oc'] = array(
 	'configure-setting-wgDebugLogPrefix' => 'Prefix de las linhas del jornal de debogatge',
 	'configure-setting-wgDebugRedirects' => "Afichar l'emplaçament de la redireccion al luòc de tornqr dirigir cap a l'URL cibla",
 	'configure-setting-wgDevelopmentWarnings' => "Afichar de notícias PHP per d'errors possiblas e per las foncions obsolètas",
-	'configure-setting-wgShowExceptionDetails' => 'Estampar una pila dels apèls completa per las excepcions',
+	'configure-setting-wgShowExceptionDetails' => 'Imprimir una pila dels apèls completa per las excepcions',
 	'configure-setting-wgShowDebug' => 'Afichar las donadas de debogatge en bas de las paginas web',
 	'configure-setting-wgShowSQLErrors' => "Afichar las paginas d'error de las requèstas a la banca de donadas",
 	'configure-setting-wgStatsMethod' => 'Destinacion de las donadas transmesas a wfIncrStats()',
@@ -27135,6 +27135,7 @@ $messages['zh-hans'] = array(
  * @author Oapbtommy
  * @author Radish10cm
  * @author Simon Shek
+ * @author StephDC
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
@@ -27172,8 +27173,10 @@ $messages['zh-hant'] = array(
 	'configure-setting-wgMediaHandlers-value' => '處理程序類',
 	'configure-setting-wgThumbUpright' => '直立的縮略圖的寬度調整因子',
 	'configure-setting-wgShowEXIF' => '在檔案描述頁面顯示EXIF資料',
+	'configure-setting-wgUpdateCompatibleMetadata' => '如果 img_metadata 欄過時但與當前的版本相容，則自動更新',
 	'configure-setting-wgThumbLimits' => '允許圖像縮略圖的大小',
 	'configure-setting-wgUseImageResize' => '啟用動態服務器端圖像大小調整功能',
+	'configure-setting-wgEnableAutoRotation' => '根據圖像的EXIF數據自動旋轉圖像',
 	'configure-setting-wgTrustedMediaFormats' => '視為「安全」的媒體類型及MIME類型',
 	'configure-setting-wgImgAuthDetails' => '在 img_auth.php 中顯示訪問失敗的原因的詳細信息',
 	'configure-setting-wgImgAuthPublicTest' => '請檢查圖像是否被公開地訪問並在 img_auth.php 上顯示錯誤，如果出現這種情況',
@@ -27201,6 +27204,7 @@ $messages['zh-hant'] = array(
 	'configure-setting-wgExternalLinkTarget' => '默認的外部鏈接的目標屬性',
 	'configure-setting-wgCleanSignatures' => '替換模板中的簽名',
 	'configure-setting-wgGalleryOptions' => '默認參數<nowiki><gallery></nowiki>標記',
+	'configure-setting-wgMaxPPNodeCount' => '將由預處理器分析的最大節點數',
 	'configure-setting-wgMaxTemplateDepth' => '適用於預處理程序的模板深度限制',
 	'configure-setting-wgMaxTocLevel' => '目錄的最大縮進級別',
 	'configure-setting-wgParserConf' => '語法分析器設定',
