@@ -3333,6 +3333,7 @@ $messages['bar'] = array(
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
+ * @author Red Winged Duck
  * @author Wizardist
  * @author Zedlik
  */
@@ -3439,7 +3440,7 @@ $messages['be-tarask'] = array(
 	'configure-setting-wgDefaultLanguageVariant' => 'Варыянт мовы па змоўчваньні',
 	'configure-setting-wgDefaultRobotPolicy' => 'Правілы для робатаў па змоўчваньні',
 	'configure-setting-wgExemptFromUserRobotsControl' => 'Прасторы назваў, у якіх не дазваляецца выкарыстоўваць <nowiki>__INDEX__</nowiki> і <nowiki>__NOINDEX__</nowiki>',
-	'configure-setting-wgExtraLanguageNames' => 'Замены назваў моў',
+	'configure-setting-wgExtraLanguageNames' => 'Замены назваў моваў',
 	'configure-setting-wgExtraLanguageNames-key' => 'Код мовы',
 	'configure-setting-wgExtraLanguageNames-value' => 'Назва',
 	'configure-setting-wgDisabledVariants' => 'Адключаныя варыянты з варыянтаў мовы',
