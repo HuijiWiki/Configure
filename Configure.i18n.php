@@ -2702,6 +2702,7 @@ $messages['ce'] = array(
 	'configure-section-upload' => 'Чуйолуш',
 	'configure-section-recentchanges' => 'Керла нисдарш',
 	'configure-section-search' => 'Лаха',
+	'configure-section-copyright' => 'Авторан бакъонаш',
 	'configure-view' => 'Хьажа',
 );
 
