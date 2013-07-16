@@ -14802,6 +14802,7 @@ $messages['lb'] = array(
 	'configure-setting-wgLocalFileRepo' => 'Lokale Repertoire vun de Fichieren',
 	'configure-setting-wgUploadSizeWarning' => 'Gréisst vum Fichier vun där un eng Warnung wéinst der Gréisst beim Eropluede gewise gëtt',
 	'configure-setting-wgMaxUploadSize' => 'Maximal erlaabte Gréisst beim Eroplueden',
+	'configure-setting-wgUploadStashMaxAge' => 'Maximalen Alter vun temporären (net kompletten) eropgeluedene Fichieren, a Sekonnen',
 	'configure-setting-wgHTTPTimeout' => 'Timeout fir HTTP-Ufroen',
 	'configure-setting-wgHTTPProxy' => 'HTTP Proxy de benotzt gëtt',
 	'configure-setting-wgVersion' => 'MediaWiki Versioun',
