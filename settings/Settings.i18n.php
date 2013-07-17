@@ -5271,6 +5271,8 @@ $messages['ca'] = array(
 $messages['ce'] = array(
 	'configure-setting-wgActionPaths-value' => 'URL куцкепа',
 	'configure-setting-wgArticleRobotPolicies-key' => 'АгӀона цӀе',
+	'configure-setting-wgAddGroups' => 'ТӀетоха йиш йолу тобанаш',
+	'configure-setting-wgGroupsAddToSelf' => 'Хьайн тӀетоха йиш йолу тобанаш',
 );
 
 /** Sorani Kurdish (کوردی)
@@ -7437,6 +7439,7 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Mahdiz
  * @author Mjbmr
  */
 $messages['fa'] = array(
@@ -7445,6 +7448,8 @@ $messages['fa'] = array(
 	'configure-setting-wgActionPaths-value' => 'الگوی نشانی',
 	'configure-setting-wgDBpassword' => 'گذرواژه برای $wgDBuser',
 	'configure-setting-wgDBadminpassword' => 'گذرواژه برای $wgDBadminuser',
+	'configure-setting-wgSharedDB' => 'نام پایگاه داده مشترک',
+	'configure-setting-wgSharedPrefix' => 'پیشوند پایگاه داده مشترک',
 	'configure-setting-wgAllowImageMoving' => 'فعال‌سازی تغییر نام پرونده',
 	'configure-setting-wgMediaHandlers-key' => 'نوع MIME',
 	'configure-setting-wgUseGzip' => 'استفاده از کدگذاری GZIP',
