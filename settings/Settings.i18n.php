@@ -7439,8 +7439,10 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Alireza
  * @author Mahdiz
  * @author Mjbmr
+ * @author Taha
  */
 $messages['fa'] = array(
 	'configure-setting-wgSitename' => 'نام تارنما',
@@ -7448,20 +7450,28 @@ $messages['fa'] = array(
 	'configure-setting-wgActionPaths-value' => 'الگوی نشانی',
 	'configure-setting-wgDBpassword' => 'گذرواژه برای $wgDBuser',
 	'configure-setting-wgDBadminpassword' => 'گذرواژه برای $wgDBadminuser',
+	'configure-setting-wgDBserver' => 'نام میزبان یا IP آدرس سرور پایگاه داده',
 	'configure-setting-wgSharedDB' => 'نام پایگاه داده مشترک',
 	'configure-setting-wgSharedPrefix' => 'پیشوند پایگاه داده مشترک',
 	'configure-setting-wgAllowImageMoving' => 'فعال‌سازی تغییر نام پرونده',
 	'configure-setting-wgMediaHandlers-key' => 'نوع MIME',
+	'configure-setting-wgUseFileCache' => 'استفاده از کش پرونده',
 	'configure-setting-wgUseGzip' => 'استفاده از کدگذاری GZIP',
+	'configure-setting-wgAllowDisplayTitle' => 'اجازه استفاده برای <nowiki>{{DISPLAYTITLE}}</nowiki>',
+	'configure-setting-wgCleanSignatures' => 'الگوهای جایگزین در امضاها',
+	'configure-setting-wgGalleryOptions' => ' پارامترهای پیش‌فرض برای <nowiki><gallery></gallery></nowiki> برچسب',
 	'configure-setting-wgLanguageCode' => 'کد زبان تارنما',
 	'configure-setting-wgArticleRobotPolicies-key' => 'عنوان صفحه',
 	'configure-setting-wgArticleRobotPolicies-value' => 'سیاست رباتیک',
 	'configure-setting-wgExtraLanguageNames-key' => 'کد زبان',
 	'configure-setting-wgExtraLanguageNames-value' => 'نام',
+	'configure-setting-wgMaxArticleSize' => 'حداکثر حجم صفحه (کیلوبایت)',
 	'configure-setting-wgNoFollowLinks' => 'افزودن rel="nofollow" به پیوندها',
 	'configure-setting-wgSiteNotice' => 'پیام تارنما',
+	'configure-setting-wgSiteSupportPage' => 'صفحه با اطلاعات کمک مالی',
 	'configure-setting-wgStyleVersion' => 'نسخهٔ پرونده‌های سی‌اس‌اس/جاوااسکریپت مدیاویکی',
 	'configure-setting-wgUseExternalEditor' => 'اجازهٔ استفاده از ویرایشگر خارجی',
+	'configure-setting-wgHTTPProxy' => 'HTTP پروکسی برای استفاده',
 	'configure-setting-wgVersion' => 'نسخهٔ مدیاویکی',
 	'configure-setting-wgLogRestrictions-key' => 'نوع سیاهه',
 	'configure-setting-wgSpecialPageGroups' => 'گروه‌های صفحهٔ ویژه',
@@ -7469,16 +7479,30 @@ $messages['fa'] = array(
 	'configure-setting-wgAutopromote-value' => 'شرایط',
 	'configure-setting-wgEnableAPI' => 'فعال‌سازی ای‌پی‌آی',
 	'configure-setting-wgEnableWriteAPI' => 'فعال‌سازی نوشتن ای‌پی‌آی',
+	'configure-setting-wgEmergencyContact' => 'آدرس رایانامه مدیران سایت',
+	'configure-setting-wgEnableEmail' => 'فعال‌سازی ویژگی‌های ایمیل',
 	'configure-setting-wgEnableUserEmail' => 'فعال سازی پست الکترونیکی کاربر-به-کاربر',
 	'configure-setting-wgSMTP' => 'کارگزار اس‌ام‌تی‌پی',
 	'configure-setting-wgDebugLogGroups-value' => 'پرونده',
+	'configure-setting-wgDisableQueryPageUpdate' => 'صفحه‌های ویژه غیرفعال',
+	'configure-setting-wgCookieExpiration' => 'انقضای کوکی HTTP',
+	'configure-setting-wgCookieSecure' => 'کوکی‌های امن',
+	'configure-setting-wgDisableCookieCheck' => 'غیر فعال کردن کوکی‌ها',
 	'configure-setting-wgSessionName' => 'نام جلسه',
 	'configure-setting-wgSQLMode' => 'حالت SQL',
+	'configure-setting-wgGroupPermissions-value' => 'اختیارات اختصاص داده‌شده',
+	'configure-setting-wgEnableSearchContributorsByIP' => 'جستجو کردن IP آدرس‌ها به صفحه مشارکت‌ها تغییرمسیر داده می‌شود',
 	'configure-setting-wgValidSkinNames-key' => 'نام داخلی',
 	'configure-setting-wgValidSkinNames-value' => 'نام نمایشی',
+	'configure-setting-wgExtraNamespaces' => 'ابطال فضای نام',
 	'configure-setting-wgExtraNamespaces-key' => 'شناسه فضای نام',
 	'configure-setting-wgExtraNamespaces-value' => 'نام فضای نام',
+	'configure-setting-wgMetaNamespace' => 'نام فضای نام پروژه',
+	'configure-setting-wgMetaNamespaceTalk' => 'فضای نام بحث پروژه',
+	'configure-setting-wgNamespaceAliases' => 'تغییرمسیرهای فضای نام',
 	'configure-setting-wgNamespaceAliases-key' => 'نام مستعار',
+	'configure-setting-wgNamespaceProtection' => 'محافظت فضای نام',
+	'configure-setting-wgLicenseTerms' => 'شرایط فرا داده',
 	'configure-setting-wgRightsIcon' => 'نماد حق تکثیر',
 	'configure-setting-wgAllowPrefChange-key' => 'ترجیحات کاربر',
 	'configure-setting-wgDefaultUserOptions' => 'ترجیحات پیش‌فرض کاربر',
@@ -7490,15 +7514,20 @@ $messages['fa'] = array(
 	'configure-setting-wgDBservers' => 'کارگزارهای پایگاه‌داده',
 	'configure-setting-wgSVGConverters-key' => 'نام مبدل',
 	'configure-setting-wgEnableParserCache' => 'فعال‌سازی حافظهٔ نهان تجزیه‌گر',
+	'configure-setting-wgTidyBin' => 'مسیر دودویی مرتب',
 	'configure-setting-wgXMLMimeTypes-key' => 'نوع MIME',
 	'configure-setting-wgXhtmlNamespaces-key' => 'فضای نام',
 	'configure-setting-wgLocaltimezone' => 'منطقهٔ زمانی محلی',
 	'configure-setting-wgLocalTZoffset' => 'فاصلهٔ زمانی منطقهٔ زمانی',
+	'configure-setting-wgUseSiteJs' => 'استفاده از صفحه جاوااسکریپت سایت',
 	'configure-setting-wgUseAjax' => 'فعال‌سازی آژاکس',
 	'configure-setting-wgLivePreview' => 'فعال کردن پیش نمایش زنده',
 	'configure-setting-wgLogo' => 'نشانی ناموارهٔ وبگاه',
 	'configure-setting-wgLoadScript' => 'نشانی load.php',
 	'configure-setting-wgScript' => 'نشانی index.php',
+	'configure-setting-wgScriptPath' => 'مسیر URL پایه',
+	'configure-setting-wgServer' => 'آدرس پایه سرویس دهنده',
+	'configure-setting-wgBlockDisablesLogin' => 'اجازه ندادن به کاربران بسته‌شده برای ورود',
 );
 
 /** Finnish (suomi)
@@ -20490,7 +20519,7 @@ $messages['pt'] = array(
 	'configure-setting-wgSquidServersNoPurge' => 'Uma lista de servidores proxy (endereços IP, se possível) a não purgar em alterações',
 	'configure-setting-wgUseESI' => 'Configuração necessária ao utilizar o Squid3 com suporte ESI',
 	'configure-setting-wgUseSquid' => 'Activar Squid',
-	'configure-setting-wgUseXVO' => "Enviar cabeçalho X-Vary-Options para melhorar o ''caching'' (requer o Squid actualizado)",
+	'configure-setting-wgUseXVO' => "Enviar cabeçalho X-Vary-Options para melhorar o ''caching'' (requer o Squid atualizado)",
 	'configure-setting-wgAllowSlowParserFunctions' => 'Permitir funções do analisador lentas',
 	'configure-setting-wgDisableInternalSearch' => 'Desactivar a pesquisa interna',
 	'configure-setting-wgExtensionAssetsPath' => 'URL do directório das extensões',
@@ -25678,6 +25707,7 @@ $messages['tzm'] = array(
  * @author Alex Khimich
  * @author Base
  * @author Steve.rusyn
+ * @author SteveR
  * @author Ата
  * @author Тест
  */
@@ -25716,7 +25746,7 @@ $messages['uk'] = array(
 	'configure-setting-wgMediaHandlers-value' => 'Клас обробника',
 	'configure-setting-wgThumbnailScriptPath' => 'Шлях до thumb.php для генерування мініатюр на льоту, замість при проході парсера',
 	'configure-setting-wgThumbUpright' => 'Поправочний коефіціент ширини для upright-мініатюр',
-	'configure-setting-wgShowEXIF' => 'Показати EXIF-дані на сторінках опису файлів', # Fuzzy
+	'configure-setting-wgShowEXIF' => 'Показати Exif-дані на сторінках опису файлів',
 	'configure-setting-wgUpdateCompatibleMetadata' => 'Автоматично оновлювати поле img_metadata, якщо воно застаріло, але сумісне з поточною версією',
 	'configure-setting-wgThumbLimits' => 'Дозвонені розміри мініатюр зображень',
 	'configure-setting-wgUseImageResize' => 'Увімкнути динамічну зміну розміру зображень з боку сервера',

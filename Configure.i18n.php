@@ -4384,10 +4384,12 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Alireza
  * @author Ebraminio
  * @author Huji
  * @author Mahdiz
  * @author Mjbmr
+ * @author Taha
  * @author ZxxZxxZ
  * @author پاناروما
  */
@@ -4399,10 +4401,12 @@ $messages['fa'] = array(
 	'configure-desc-val' => 'مقدار',
 	'configure-edit-core' => 'مدیاویکی',
 	'configure-edit-ext' => 'افزونه‌ها',
+	'configure-viewconfig-default-diff' => 'تغییرات از تنظیمات پیش‌فرض',
 	'configure-ext-settings' => 'تنظیمات',
 	'configure-ext-use-extension' => 'استفاده از این فرمت',
 	'configure-ext-use' => 'استفاده',
 	'configure-form-reason' => 'دلیل:',
+	'configure-customised' => "''این تنظیمات شخصی‌سازی شده است''",
 	'configure-btn-save' => 'ذخیرهٔ تنظیمات',
 	'configure-edit-old' => "'''هشدار''': شما در حال ویرایش یک نسخهٔ <strong>قدیمی</strong> از پیکربندی هستید (به تاریخ $1).",
 	'configure-error' => 'پیکربندی نمی‌تواند ذخیره شود',
@@ -4448,6 +4452,7 @@ $messages['fa'] = array(
 	'configure-section-vector' => 'پوسته برداری',
 	'configure-section-category' => 'رده‌ها',
 	'configure-section-cache' => 'حافظهٔ نهان',
+	'configure-section-messagecache' => 'کش پیام‌ها',
 	'configure-section-access' => 'دسترسی',
 	'configure-section-groups' => 'گروه‌ها',
 	'configure-section-block' => 'بستن',
@@ -4468,6 +4473,8 @@ $messages['fa'] = array(
 	'configure-section-job' => 'مشاغل',
 	'configure-section-search' => 'جستجو',
 	'configure-section-copyright' => 'حق تکثیر',
+	'configure-section-misc' => 'متفرقه',
+	'configure-section-filter' => 'فیلتر',
 	'configure-section-mw-extensions' => 'افزونه‌های مدیاویکی',
 	'configure-section-external-tools' => 'ابزارهای خارجی',
 	'configure-section-output' => 'خروجی',
@@ -4475,6 +4482,7 @@ $messages['fa'] = array(
 	'configure-select-wiki-desc' => 'آن ویکی را که می‌خواهید پیکربندی کنید مشخص کنید.',
 	'configure-select-wiki-view-all' => 'تمام ویکی‌ها',
 	'configure-select-wiki-submit' => 'انتخاب',
+	'configure-setting-not-available' => 'این تنظیمات در این نسخه مدیاویکی در دسترس نمی‌باشد.',
 	'configure-view' => 'مشاهده',
 	'configure-view-all-versions' => 'فهرست کامل نسخه‌ها',
 	'configure-view-default' => 'تنظیمات پیش‌فرض',
@@ -11244,7 +11252,7 @@ $messages['pt'] = array(
 	'configure-ext-ext-dependencies' => "'''Aviso:''' esta extensão exige que {{PLURAL:$2|a seguinte extensão esteja activada|as seguintes extensões estejam activadas}}: $1.",
 	'configure-ext-ext-dependency-err' => "'''Erro:''' a extensão $1 requer a extensão $2 para ser activada.",
 	'configure-ext-doc' => 'Veja a documentação online',
-	'configure-ext-schemachange' => "'''Aviso:''' esta extensão requer uma [http://www.mediawiki.org/wiki/Manual:Update.php actualização da base de dados] para funcionar correctamente!",
+	'configure-ext-schemachange' => "'''Aviso:''' esta extensão requer uma [http://www.mediawiki.org/wiki/Manual:Update.php atualização da base de dados] para funcionar corretamente!",
 	'configure-ext-settings' => 'Configurações',
 	'configure-ext-settings-dep-errors' => 'Esta extensão não pode ser activada porque {{PLURAL:$1|a seguinte definição tem|as seguintes definições têm}} um valor inaceitável:',
 	'configure-ext-settings-dep-error' => '$1: valor requerido: $2, valor actual: $3',
