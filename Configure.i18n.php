@@ -2925,6 +2925,7 @@ Abyste mohli používat toto rozšíření, vytvořte ho nebo změňte konfigura
  */
 $messages['cu'] = array(
 	'configure-js-remove' => 'поничьжє́ниѥ',
+	'configure-section-images' => 'дѣла',
 );
 
 /** Welsh (Cymraeg)
@@ -8552,7 +8553,7 @@ $messages['lmo'] = array(
  */
 $messages['lt'] = array(
 	'configure' => 'Konfigūruoti wiki',
-	'configure-desc-group' => 'Grupės', # Fuzzy
+	'configure-desc-group' => 'Grupė',
 	'configure-desc-key' => 'Raktas',
 	'configure-desc-ns' => 'Vardų sritis',
 	'configure-desc-val' => 'Vertė',
@@ -8565,6 +8566,7 @@ $messages['lt'] = array(
 	'configure-arrayinput-oneperline' => '"(po vieną kiekvienoje eilutėje)"',
 	'configure-btn-save' => 'Išsaugoti nustatymus',
 	'configure-error' => 'Konfigūracijos išsaugojimas negalimas',
+	'configure-js-add' => 'Pridėti naują įrašą',
 	'configure-js-group-exists' => 'Klaida: tokia grupė jau yra.',
 	'configure-js-prompt-group' => 'Įrašyti naujos grupės pavadinimą:',
 	'configure-js-remove' => 'Ištrinti',
@@ -8582,6 +8584,7 @@ $messages['lt'] = array(
 	'configure-old-summary' => '$1 pagal $2 $4 $3',
 	'configure-saved' => 'Konfigūracija išsaugota',
 	'configure-backlink' => 'Grįžti į formą',
+	'configure-section-features' => 'Funkcijos',
 	'configure-section-general' => 'Bendrieji parametrai',
 	'configure-section-pages' => 'Puslapiai',
 	'configure-section-db' => 'Duomenų bazė',
@@ -8612,6 +8615,8 @@ $messages['lt'] = array(
 	'configure-select-wiki-submit' => 'Pasirinkti',
 	'configure-view' => 'Žiūrėti',
 	'configure-view-all-versions' => 'Visas sąrašas versijų',
+	'configure-view-default' => 'Numatytieji parametrai',
+	'configure-view-not-allowed' => 'Jums neleidžiama matyti šį parametrą.',
 	'configure-throttle-action-edit' => 'Redaguoti',
 	'configure-throttle-action-move' => 'Perkelti',
 	'configure-throttle-action-rollback' => 'Atmesti',
@@ -8627,6 +8632,7 @@ $messages['lt'] = array(
 	'configure-condition-operator' => 'Operatorius:',
 	'configure-condition-operator-or' => 'Arba',
 	'configure-condition-operator-and' => 'Ir',
+	'configure-condition-operator-xor' => 'Arba',
 	'configure-condition-operator-not' => 'Ne',
 	'configure-condition-name' => 'Sąlygos',
 	'configure-condition-requirement' => 'Reikalavimai',
@@ -11265,8 +11271,8 @@ $messages['pt'] = array(
 	'configure-btn-save' => 'Gravar configuração',
 	'configure-db-error' => 'A base de dados que especificou para armazenar a configuração ($1) não existe.
 Por favor, crie-a e aplique configure.sql, ou corrija o nome.',
-	'configure-db-table-error' => 'A base de dados seleccionada não possui as tabelas necessárias. Aplique o configure.sql na base de dados',
-	'configure-directory-not-writable' => 'O directório usado para armazenar a configuração, <code>$1</code>, não permite escrita.
+	'configure-db-table-error' => 'A base de dados selecionada não possui as tabelas necessárias. Aplique o configure.sql na base de dados',
+	'configure-directory-not-writable' => 'O diretório usado para armazenar a configuração, <code>$1</code>, não permite escrita.
 Para usar esta extensão torne possível a sua escrita pelo PHP, por favor.',
 	'configure-edit-old' => "'''Atenção''': está a editar uma versão <strong>antiga</strong> da configuração (tal como se encontrava em $1).",
 	'configure-error' => 'Não foi possível gravar a configuração',
@@ -11284,8 +11290,8 @@ Para usar esta extensão torne possível a sua escrita pelo PHP, por favor.',
 	'configure-js-summary-none' => 'Sem configurações',
 	'configure-js-search-legend' => 'Pesquisar configurações',
 	'configure-js-search-prompt' => 'Pesquisa:',
-	'configure-no-diff' => 'Não há alterações entre as versões seleccionadas.',
-	'configure-no-directory' => 'O directório usado para guardar a parametrização, <code>$1</code>, não existe.
+	'configure-no-diff' => 'Não há alterações entre as versões selecionadas.',
+	'configure-no-directory' => 'O diretório usado para guardar a parametrização, <code>$1</code>, não existe.
 Para usar esta extensão crie-o ou altere-o, por favor.',
 	'configure-no-old' => 'Não está disponível nenhuma versão anterior da configuração.',
 	'configure-no-setup' => 'Tem de chamar <code>efConfigureSetup()</code> explicitamente no seu ficheiro LocalSettings.php para usar esta extensão.',
