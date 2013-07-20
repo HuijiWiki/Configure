@@ -2926,6 +2926,7 @@ Abyste mohli používat toto rozšíření, vytvořte ho nebo změňte konfigura
 $messages['cu'] = array(
 	'configure-js-remove' => 'поничьжє́ниѥ',
 	'configure-section-images' => 'дѣла',
+	'configure-section-search' => 'исканиѥ',
 );
 
 /** Welsh (Cymraeg)
@@ -11361,7 +11362,7 @@ Para usar esta extensão crie-o ou altere-o, por favor.',
 	'configure-section-filesystem' => 'Interacção do sistema de ficheiros e da linha de comandos',
 	'configure-section-thumbnail' => 'Miniaturização de imagens',
 	'configure-section-output' => 'Saída',
-	'configure-select-wiki' => 'Selecção de wiki',
+	'configure-select-wiki' => 'Seleção de wiki',
 	'configure-select-wiki-desc' => 'Seleccione a wiki que deseja configurar',
 	'configure-select-wiki-view-desc' => 'Seleccione uma wiki da qual deseja ver as versões de configuração.',
 	'configure-select-wiki-view-all' => 'Todas as wikis',
