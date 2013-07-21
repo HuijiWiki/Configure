@@ -2926,6 +2926,7 @@ Abyste mohli používat toto rozšíření, vytvořte ho nebo změňte konfigura
 $messages['cu'] = array(
 	'configure-js-remove' => 'поничьжє́ниѥ',
 	'configure-section-images' => 'дѣла',
+	'configure-section-users' => 'польꙃєватєлє',
 	'configure-section-search' => 'исканиѥ',
 );
 
