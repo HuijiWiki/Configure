@@ -2703,9 +2703,11 @@ $messages['ce'] = array(
 	'configure-js-remove-row' => 'ДӀадаккха хӀара дӀаяздар',
 	'configure-section-upload' => 'Чуйолуш',
 	'configure-section-recentchanges' => 'Керла нисдарш',
+	'configure-section-users' => 'Декъашхой',
 	'configure-section-search' => 'Лаха',
 	'configure-section-copyright' => 'Авторан бакъонаш',
 	'configure-view' => 'Хьажа',
+	'configure-throttle-group' => 'Тайп',
 );
 
 /** Chamorro (Chamoru)
