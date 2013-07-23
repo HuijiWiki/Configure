@@ -20305,7 +20305,7 @@ $messages['ps'] = array(
 $messages['pt'] = array(
 	'configure-setting-desc' => 'Descrições para parâmetros da configuração do MediaWiki',
 	'configure-setting-wgSitename' => 'Nome do site',
-	'configure-setting-wgActionPaths' => 'URLs por acção',
+	'configure-setting-wgActionPaths' => 'URLs por ação',
 	'configure-setting-wgActionPaths-key' => 'Ação',
 	'configure-setting-wgActionPaths-value' => 'Modelo de URL',
 	'configure-setting-wgAllDBsAreLocalhost' => 'Reescrever silenciosamente todas as ligações da base de dados ao servidor local',
@@ -20413,7 +20413,7 @@ $messages['pt'] = array(
 	'configure-setting-wgHideInterlanguageLinks' => 'Esconder links interlínguas da barra lateral',
 	'configure-setting-wgLegalTitleChars' => 'Caracteres permitidos nos títulos de página (classe de caracteres regex)',
 	'configure-setting-wgMaxArticleSize' => 'Tamanho máximo de página (kB)',
-	'configure-setting-wgMaxRedirects' => 'Número máximo de redireccionamentos a seguir ao resolver redireccionamentos',
+	'configure-setting-wgMaxRedirects' => 'Número máximo de redirecionamentos a seguir ao resolver redirecionamentos',
 	'configure-setting-wgNoFollowLinks' => 'Adicionar rel="nofollow" aos links',
 	'configure-setting-wgNoFollowDomainExceptions' => 'Links externos para estes domínios (ou quaisquer subdomínios) não terão o atributo rel="nofollow"',
 	'configure-setting-wgPageShowWatchingUsers' => 'Mostrar que utilizadores estão a vigiar uma página',
@@ -20464,7 +20464,7 @@ $messages['pt'] = array(
 	'configure-setting-wgAutopromote' => 'Condições de promoção automática de utilizador a grupos específicos',
 	'configure-setting-wgAutopromote-value' => 'Condições',
 	'configure-setting-wgAccountCreationThrottle' => 'Número de contas que cada endereço IP pode criar',
-	'configure-setting-wgAllowPageInfo' => 'Permitir a acção de informação',
+	'configure-setting-wgAllowPageInfo' => 'Permitir a ação de informação',
 	'configure-setting-wgBlockCIDRLimit' => 'Gama CIDR máxima no bloqueio de gamas de IPs',
 	'configure-setting-wgAutoblockExpiry' => 'Número de segundos até os bloqueios automáticos expirarem',
 	'configure-setting-wgDeleteRevisionsLimit' => "Número (inteiro) de revisões que uma página deve ter para que permissões ''bigdelete'' sejam necessárias para a apagar",
@@ -20478,7 +20478,7 @@ $messages['pt'] = array(
 	'configure-setting-wgPasswordSalt' => '"Salt" da palavra-chave',
 	'configure-setting-wgReadOnly' => 'Bloqueia a edição, mostrando a frase dada como a razão',
 	'configure-setting-wgReadOnlyFile' => 'Ficheiro com motivo do bloqueio da base de dados',
-	'configure-setting-wgRestrictionTypes' => 'Acções que podem ser restringidas',
+	'configure-setting-wgRestrictionTypes' => 'Ações que podem ser restringidas',
 	'configure-setting-wgSpamRegex' => 'Expressões regulares do filtro de spam',
 	'configure-setting-wgSummarySpamRegex' => 'Expressões regulares do filtro de spam para resumos de edição',
 	'configure-setting-wgWhitelistRead' => 'Páginas que um utilizador anónimo pode ver',
@@ -20486,7 +20486,7 @@ $messages['pt'] = array(
 	'configure-setting-wgEmergencyContact' => 'Correio electrónico do administrador do site',
 	'configure-setting-wgEnableEmail' => 'Ativar funcionalidades de correio eletrónico',
 	'configure-setting-wgEnableUserEmail' => 'Ativar correio eletrónico entre utilizadores',
-	'configure-setting-wgNoReplyAddress' => 'Endereço genérico que deverá ser aceite durante a acção de enviar correio electrónico',
+	'configure-setting-wgNoReplyAddress' => 'Endereço genérico que deverá ser aceite durante a ação de enviar correio eletrónico',
 	'configure-setting-wgPasswordSender' => 'Correio electrónico para recuperação da palavra-chave',
 	'configure-setting-wgPasswordSenderName' => 'Nome do remetente da recuperação da palavra-chave',
 	'configure-setting-wgPasswordReminderResendTime' => 'Tempo mínimo, em horas, que deve decorrer entre recuperações da palavra-chave',
@@ -20532,8 +20532,8 @@ $messages['pt'] = array(
 	'configure-setting-wgAllUnicodeFixes' => 'Converter sempre certas sequências Unicode para as modernas, independentemente da língua do conteúdo',
 	'configure-setting-wgFixArabicUnicode' => 'Limpar sequências Unicode arcaicas de texto arábico',
 	'configure-setting-wgFixMalayalamUnicode' => 'Limpar sequências Unicode arcaicas de texto malayalam',
-	'configure-setting-wgFixDoubleRedirects' => 'Corrigir redireccionamentos duplos após mover uma página',
-	'configure-setting-wgInvalidRedirectTargets' => 'Lista de destinos inválidos nos redireccionamentos de páginas',
+	'configure-setting-wgFixDoubleRedirects' => 'Corrigir redirecionamentos duplos após mover uma página',
+	'configure-setting-wgInvalidRedirectTargets' => 'Lista de destinos inválidos nos redirecionamentos de páginas',
 	'configure-setting-wgMaximumMovedPages' => 'Número máximo de páginas a mover de uma só vez ao mover subpáginas com uma página',
 	'configure-setting-wgMemoryLimit' => 'O tamanho mínimo de memória de que o MediaWiki "necessita"',
 	'configure-setting-wgMiserMode' => 'Desativar algumas funcionalidades intensivas que prejudicam o desempenho',
@@ -20601,7 +20601,7 @@ $messages['pt'] = array(
 	'configure-setting-wgCountTotalSearchHits' => 'Permitir que o motor de pesquisa conte o total de resultados, para apresentar em Especial:Pesquisa',
 	'configure-setting-wgUseTwoButtonsSearchForm' => 'Comportamento do formulário de pesquisa da barra lateral',
 	'configure-setting-wgCountCategorizedImagesAsUsed' => 'Em [[Special:UnusedImages]], considerar ficheiros como usados se forem colocados numa categoria',
-	'configure-setting-wgActiveUserDays' => 'Tempo após o qual um utilizador é considerado inactivo',
+	'configure-setting-wgActiveUserDays' => 'Tempo após o qual um utilizador é considerado inativo',
 	'configure-setting-wgDisableCounters' => 'Desativar os contadores de visitas das páginas',
 	'configure-setting-wgHitcounterUpdateFreq' => 'Frequência de atualização dos contadores de página',
 	'configure-setting-wgUseCommaCount' => 'Usar vírgula (true) ou link (false) para contar uma página como válida durante a contagem de páginas',
@@ -20621,7 +20621,7 @@ $messages['pt'] = array(
 	'configure-setting-wgExtraNamespaces-value' => 'Nome do espaço nominal',
 	'configure-setting-wgMetaNamespace' => 'Nome do espaço nominal Projecto',
 	'configure-setting-wgMetaNamespaceTalk' => 'Nome do espaço nominal Projecto-discussão',
-	'configure-setting-wgNamespaceAliases' => 'Redireccionamentos de espaços nominais',
+	'configure-setting-wgNamespaceAliases' => 'Redirecionamentos de espaços nominais',
 	'configure-setting-wgNamespaceAliases-key' => 'Nome alternativo',
 	'configure-setting-wgNamespaceAliases-value' => 'ID do espaço nominal alvo',
 	'configure-setting-wgNamespaceProtection' => 'Proteção dos espaços nominais',
@@ -23987,6 +23987,7 @@ $messages['sr-el'] = array(
  * @author Boivie
  * @author Fluff
  * @author Fredrik
+ * @author Hangsna
  * @author Jopparn
  * @author Lokal Profil
  * @author Najami
@@ -24518,6 +24519,7 @@ $messages['sv'] = array(
 	'configure-setting-wgUseSharedUploads' => 'Använd delade uppladdningar',
 	'configure-setting-wgAppleTouchIcon' => 'Apple Touch-bokmärkesikon',
 	'configure-setting-wgArticlePath' => 'Bas-URL för interna länkar inom MediaWiki',
+	'configure-setting-wgDeletedDirectory' => 'Sökvägen till katalogen där borttagna uppladdningar placeras',
 	'configure-setting-wgDirectoryMode' => 'Nya katalog-lägen',
 	'configure-setting-wgDiff' => 'Sökväg till verktyget GNU diff',
 	'configure-setting-wgDiff3' => 'Sökväg till verktyget GNU diff3',
