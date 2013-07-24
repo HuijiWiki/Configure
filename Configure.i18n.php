@@ -393,7 +393,8 @@ Preceded by any one of the following messages:
 	'configure-section-email' => '{{Identical|E-mail}}',
 	'configure-section-enotif' => '{{Identical|Email notification}}',
 	'configure-section-timezone' => '{{Identical|Time zone}}',
-	'configure-section-html' => '{{optional}}',
+	'configure-section-html' => '{{optional}}
+{{Identical|HTML}}',
 	'configure-section-debug' => '{{Identical|Debug}}',
 	'configure-section-ajax' => '{{optional}}',
 	'configure-section-namespaces' => '{{Identical|Namespaces}}',
@@ -2697,17 +2698,23 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'configure-desc-val' => 'МаьӀна',
 	'configure-form-reason' => 'Бахьан:',
 	'configure-js-add' => 'ТӀетоха керла дӀаяздар',
 	'configure-js-remove' => 'ДӀаяккха',
 	'configure-js-remove-row' => 'ДӀадаккха хӀара дӀаяздар',
+	'configure-old-changes' => 'хийцам',
 	'configure-section-upload' => 'Чуйолуш',
 	'configure-section-recentchanges' => 'Керла нисдарш',
 	'configure-section-users' => 'Декъашхой',
 	'configure-section-search' => 'Лаха',
 	'configure-section-copyright' => 'Авторан бакъонаш',
+	'configure-section-external-tools' => 'Арахьара гӀирсаш',
 	'configure-view' => 'Хьажа',
 	'configure-throttle-group' => 'Тайп',
+	'configure-condition-name-2' => 'Декъашхочун дӀаяздаран уггар кӀезиг хан',
+	'configure-condition-description-2' => 'Декъашхочун дӀаяздаран уггар кӀезиг хан $1 {{PLURAL:$1|секунд|секундаш}}',
+	'configure-condition-description-7' => 'Декъашхочун дӀаяздаран уггар кӀезиг хан $1 {{PLURAL:$1|секунда|секундаш}} дуьххьар дина нисдарал тӀехьа',
 );
 
 /** Chamorro (Chamoru)

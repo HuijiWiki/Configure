@@ -5269,6 +5269,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'configure-setting-wgActionPaths-key' => 'Дийраш',
 	'configure-setting-wgActionPaths-value' => 'URL куцкепа',
 	'configure-setting-wgMediaHandlers-key' => 'Тайп MIME',
 	'configure-setting-wgArticleRobotPolicies-key' => 'АгӀона цӀе',
@@ -20770,7 +20771,7 @@ $messages['pt'] = array(
 	'configure-setting-wgTidyOpts' => "Opções passadas à ''tidy'' na linha de comandos",
 	'configure-setting-wgUseTidy' => "Usar ''tidy'' para certificar a sanidade do HTML produzido",
 	'configure-setting-wgValidateAllHtml' => 'Recusar apresentar páginas não válidas',
-	'configure-setting-wgRawHtml' => 'Permitir HTML cru, não verificado, em secções <code><nowiki><html></nowiki></code>{{int:ellipsis}}<code><nowiki></html></nowiki></code>',
+	'configure-setting-wgRawHtml' => 'Permitir HTML cru, não verificado, em seções <code><nowiki><html></nowiki></code>{{int:ellipsis}}<code><nowiki></html></nowiki></code>',
 	'configure-setting-wgAllowJavaUploads' => 'Possibilitar uploads de arquivos Java',
 	'configure-setting-wgXMLMimeTypes' => 'Tipos MIME de XML detetáveis',
 	'configure-setting-wgXMLMimeTypes-key' => 'Tipo MIME',
