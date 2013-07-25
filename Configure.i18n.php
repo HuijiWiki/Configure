@@ -2701,6 +2701,7 @@ $messages['ce'] = array(
 	'configure-desc-val' => 'МаьӀна',
 	'configure-form-reason' => 'Бахьан:',
 	'configure-js-add' => 'ТӀетоха керла дӀаяздар',
+	'configure-js-prompt-group' => 'ДӀаязъе керла тобан цӀе:',
 	'configure-js-remove' => 'ДӀаяккха',
 	'configure-js-remove-row' => 'ДӀадаккха хӀара дӀаяздар',
 	'configure-old-changes' => 'хийцам',
@@ -2935,8 +2936,10 @@ Abyste mohli používat toto rozšíření, vytvořte ho nebo změňte konfigura
 $messages['cu'] = array(
 	'configure-js-remove' => 'поничьжє́ниѥ',
 	'configure-section-images' => 'дѣла',
+	'configure-section-specialpages' => 'нарочьнꙑ страницѧ',
 	'configure-section-users' => 'польꙃєватєлє',
 	'configure-section-search' => 'исканиѥ',
+	'configure-throttle-action-edit' => 'исправлѥниѥ',
 );
 
 /** Welsh (Cymraeg)
@@ -11266,12 +11269,12 @@ $messages['pt'] = array(
 	'configure-edit-core' => 'MediaWiki',
 	'configure-edit-ext' => 'Extensões',
 	'configure-viewconfig-default-diff' => 'Alterações em relação às configurações padrão',
-	'configure-ext-ext-dependencies' => "'''Aviso:''' esta extensão exige que {{PLURAL:$2|a seguinte extensão esteja activada|as seguintes extensões estejam activadas}}: $1.",
-	'configure-ext-ext-dependency-err' => "'''Erro:''' a extensão $1 requer a extensão $2 para ser activada.",
+	'configure-ext-ext-dependencies' => "'''Aviso:''' esta extensão exige que {{PLURAL:$2|a seguinte extensão esteja ativada|as seguintes extensões estejam ativadas}}: $1.",
+	'configure-ext-ext-dependency-err' => "'''Erro:''' a extensão $1 requer a extensão $2 para ser ativada.",
 	'configure-ext-doc' => 'Veja a documentação online',
 	'configure-ext-schemachange' => "'''Aviso:''' esta extensão requer uma [http://www.mediawiki.org/wiki/Manual:Update.php atualização da base de dados] para funcionar corretamente!",
 	'configure-ext-settings' => 'Configurações',
-	'configure-ext-settings-dep-errors' => 'Esta extensão não pode ser activada porque {{PLURAL:$1|a seguinte definição tem|as seguintes definições têm}} um valor inaceitável:',
+	'configure-ext-settings-dep-errors' => 'Esta extensão não pode ser ativada porque {{PLURAL:$1|a seguinte definição tem|as seguintes definições têm}} um valor inaceitável:',
 	'configure-ext-settings-dep-error' => '$1: valor requerido: $2, valor actual: $3',
 	'configure-ext-use-extension' => 'Usar esta extensão',
 	'configure-ext-use' => 'Usar',
