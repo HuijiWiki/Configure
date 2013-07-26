@@ -4400,6 +4400,7 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Alireza
+ * @author Calak
  * @author Ebraminio
  * @author Huji
  * @author Mahdiz
@@ -4417,11 +4418,13 @@ $messages['fa'] = array(
 	'configure-edit-core' => 'مدیاویکی',
 	'configure-edit-ext' => 'افزونه‌ها',
 	'configure-viewconfig-default-diff' => 'تغییرات از تنظیمات پیش‌فرض',
+	'configure-ext-doc' => 'بە راهنمای آنلاین مراجعه کنید',
 	'configure-ext-settings' => 'تنظیمات',
 	'configure-ext-use-extension' => 'استفاده از این فرمت',
 	'configure-ext-use' => 'استفاده',
 	'configure-form-reason' => 'دلیل:',
 	'configure-customised' => "''این تنظیمات شخصی‌سازی شده است''",
+	'configure-arrayinput-oneperline' => '«(یکی در هر خط)»',
 	'configure-btn-save' => 'ذخیرهٔ تنظیمات',
 	'configure-edit-old' => "'''هشدار''': شما در حال ویرایش یک نسخهٔ <strong>قدیمی</strong> از پیکربندی هستید (به تاریخ $1).",
 	'configure-error' => 'پیکربندی نمی‌تواند ذخیره شود',
@@ -4458,6 +4461,7 @@ $messages['fa'] = array(
 	'configure-section-localization' => 'محل',
 	'configure-section-timezone' => 'منطقهٔ زمانی',
 	'configure-section-debug' => 'اشکال یابی',
+	'configure-section-profiling' => 'پروفایل',
 	'configure-section-site' => 'سایت سفارشی',
 	'configure-section-css-js' => 'سی‌اس‌اس و جاوااسکریپت',
 	'configure-section-resourceloader' => 'بارگزاری منابع',
@@ -11376,8 +11380,8 @@ Para usar esta extensão crie-o ou altere-o, por favor.',
 	'configure-section-thumbnail' => 'Miniaturização de imagens',
 	'configure-section-output' => 'Saída',
 	'configure-select-wiki' => 'Seleção de wiki',
-	'configure-select-wiki-desc' => 'Seleccione a wiki que deseja configurar',
-	'configure-select-wiki-view-desc' => 'Seleccione uma wiki da qual deseja ver as versões de configuração.',
+	'configure-select-wiki-desc' => 'Selecione a wiki que deseja configurar.',
+	'configure-select-wiki-view-desc' => 'Selecione uma wiki da qual deseja ver as versões de configuração.',
 	'configure-select-wiki-view-all' => 'Todas as wikis',
 	'configure-select-wiki-view-specific' => 'Wiki específica:',
 	'configure-select-wiki-submit' => 'Selecionar',
