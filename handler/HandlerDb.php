@@ -252,6 +252,9 @@ class ConfigureHandlerDb implements ConfigureHandler {
 				'cs_value' => serialize( $val ),
 			);
 		}
+
+		wfRunHooks( 'ConfigureDBHandlerSaveSettingsForWiki', array( $settings ) );
+
 		$dbw->insert( 'config_setting', $insert, __METHOD__ );
 		$dbw->commit();
 		return true;
