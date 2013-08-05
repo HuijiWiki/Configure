@@ -7575,7 +7575,7 @@ $messages['kn'] = array(
  */
 $messages['ko'] = array(
 	'configure' => '위키 설정하기',
-	'configure-desc' => '권한이 있는 사용자가 웹 기반 인터페이스를 통해 위키를 [[Special:Configure|설정]]할 수 있게 함',
+	'configure-desc' => '권한이 있는 사용자가 웹 기반 인터페이스를 통해 위키를 [[Special:Configure|설정]]할 수 있습니다',
 	'configure-desc-group' => '그룹',
 	'configure-desc-key' => '키',
 	'configure-desc-ns' => '이름공간',
