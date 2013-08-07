@@ -656,6 +656,7 @@ $messages['en'] = array(
  * @author Waldir
  * @author Yekrats
  * @author Александр Сигачёв
+ * @author 아라
  */
 $messages['qqq'] = array(
 	'configure-setting-desc' => '{{Optional}}',
@@ -838,7 +839,8 @@ It refers to message {{msg-mw|export-addnstext}} which is an input field label.'
 	'configure-setting-wgAllowPageInfo' => '{{config-wg|AllowPageInfo}}',
 	'configure-setting-wgBlockCIDRLimit' => '{{config-wg|BlockCIDRLimit}}',
 	'configure-setting-wgAutoblockExpiry' => '{{config-wg|AutoblockExpiry}}',
-	'configure-setting-wgDeleteRevisionsLimit' => '{{config-wg|DeleteRevisionsLimit}}',
+	'configure-setting-wgDeleteRevisionsLimit' => '{{config-wg|DeleteRevisionsLimit}}
+Do not translate bigdelete.',
 	'configure-setting-wgDisabledActions' => '{{config-wg|DisabledActions}}',
 	'configure-setting-wgNewPasswordExpiry' => '{{config-wg|NewPasswordExpiry}}',
 	'configure-setting-wgEmailConfirmToEdit' => '{{config-wg|EmailConfirmToEdit}}',
@@ -14157,13 +14159,16 @@ $messages['ko'] = array(
 	'configure-setting-wgAllowPageInfo' => '정보 작업을 허용',
 	'configure-setting-wgBlockCIDRLimit' => 'IP 범위를 차단할 때 최대 CIDR 범위',
 	'configure-setting-wgAutoblockExpiry' => '자동 차단 항목이 만료되지 전의 초 수',
+	'configure-setting-wgDeleteRevisionsLimit' => "문서를 삭제할 때 ''bigdelete'' 권한이 필요하기 전에 얼마나 몇 판이 있어야 하는지의 정수",
 	'configure-setting-wgDisabledActions' => '비활성화한 문서 행동',
 	'configure-setting-wgNewPasswordExpiry' => '이메일로 보낸 임시 비밀번호가 만료되는 시간 (초)',
 	'configure-setting-wgEmailConfirmToEdit' => '사용자가 편집할 수 있기 전에 이메일 주소의 확인 필요',
 	'configure-setting-wgEnableAPI' => 'API를 활성화',
 	'configure-setting-wgEnableWriteAPI' => '쓰기 API 활성화',
+	'configure-setting-wgImplicitGroups' => '[[Special:ListUsers]] 등을 보여주지 않는 그룹',
 	'configure-setting-wgPasswordAttemptThrottle' => '비밀번호 입력 시도 제한 횟수',
 	'configure-setting-wgPasswordSalt' => '비밀번호 소금',
+	'configure-setting-wgReadOnly' => '이유로 주어진 문자열을 보여주고 편집을 허용하지 않음',
 	'configure-setting-wgReadOnlyFile' => '데이터베이스 잠금의 이유가 있는 파일',
 	'configure-setting-wgRestrictionTypes' => '제한할 수 있는 행동',
 	'configure-setting-wgSpamRegex' => '스팸 필터 정규 표현식',
@@ -14213,6 +14218,7 @@ $messages['ko'] = array(
 	'configure-setting-wgDisableSearchUpdate' => '찾기를 업데이트 비활성화',
 	'configure-setting-wgDisableTextSearch' => '전체 텍스트 찾기 비활성화',
 	'configure-setting-wgFixDoubleRedirects' => '문서를 옮기고 나서 이중 넘겨주기 고치기',
+	'configure-setting-wgMemoryLimit' => '미디어위키가 "필요"한 메모리의 최소 양',
 	'configure-setting-wgUseDumbLinkUpdate' => '링크 업데이트를 할 때 증분 대신 <code>DELETE</code>/<code>INSERT</code> 실행',
 	'configure-setting-wgCacheVaryCookies' => '캐시를 변화시키는 쿠키의 목록',
 	'configure-setting-wgCookieDomain' => '로그인 쿠키에 대한 명시적 도메인',
@@ -15041,6 +15047,7 @@ $messages['la'] = array(
 /** Luxembourgish (Lëtzebuergesch)
  * @author Les Meloures
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'configure-setting-desc' => 'Beschreiwung fir MediaWiki Astellungs-Parameter',
@@ -15081,7 +15088,7 @@ $messages['lb'] = array(
 	'configure-setting-wgUseFileCache' => 'Den Tëschespäicher fir Fichiere benotzen',
 	'configure-setting-wgUseGzip' => 'De Format GZIP benotzen',
 	'configure-setting-wgAllowDisplayTitle' => 'Benotze vun <nowiki>{{DISPLAYTITLE}}</nowiki> erlaben',
-	'configure-setting-wgAllowExternalImagesFrom' => 'Ausnahme fir $wgAllowExternalImages = false',
+	'configure-setting-wgAllowExternalImagesFrom' => 'Ausname fir $wgAllowExternalImages = false',
 	'configure-setting-wgEnableImageWhitelist' => 'D\'Benotze vun "MediaWiki:External file whitelist" aschalten',
 	'configure-setting-wgAllowImageTag' => "D'<nowiki><img></nowiki>-Taggen am Wikitext zouloossen.",
 	'configure-setting-wgExternalLinkTarget' => 'Viragestallten "Target-Attribut" fir extern Linken',
@@ -15182,12 +15189,12 @@ $messages['lb'] = array(
 	'configure-setting-wgReadOnlyFile' => 'Fichier mat dem Grond vun der Spär vun der Datebank',
 	'configure-setting-wgRestrictionTypes' => 'Aktiounen déi limitéiert kënne ginn',
 	'configure-setting-wgWhitelistRead' => 'Säiten déi en anonyme Benotzer gesi kann',
-	'configure-setting-wgEmailAuthentication' => "D'\$authentificatioun vun der E-Mailadress verlaangen fir d'E-Mailfonctiounen",
+	'configure-setting-wgEmailAuthentication' => "D'\$authentificatioun vun der E-Mail-Adress verlaangen fir d'E-Mailfonctiounen",
 	'configure-setting-wgEmergencyContact' => 'E-Mailadress vum Administrateur vum Site',
 	'configure-setting-wgEnableEmail' => 'E-Mail-Funktiounen aschalten',
 	'configure-setting-wgEnableUserEmail' => 'Benotzer-op-Benotzer E-Mail aschalten',
 	'configure-setting-wgNoReplyAddress' => 'Dummy-Adress déi beim fortschécke vun enger E-Mail akzeptéiert gi soll',
-	'configure-setting-wgPasswordSender' => 'Passwuert-Erënnerung E-Mailadress',
+	'configure-setting-wgPasswordSender' => 'Passwuert-Erënnerung E-Mail-Adress',
 	'configure-setting-wgPasswordSenderName' => "Numm fir d'Erënnere vum Passwuert",
 	'configure-setting-wgPasswordReminderResendTime' => 'Minimal Zäit, a Stonnen, déi tësche Passwuerterënnerungen vergoe muss',
 	'configure-setting-wgSMTP' => 'SMTP-Server',
@@ -19892,6 +19899,7 @@ $messages['pl'] = array(
 	'configure-setting-wgMimeTypeFile' => 'Plik z definicjami typów MIME',
 	'configure-setting-wgVerifyMimeType' => 'Sprawdzaj typ MIME przesłanych plików',
 	'configure-setting-wgMimeTypeBlacklist' => 'Niedozwolone typy MIME',
+	'configure-setting-wgForeignFileRepos' => 'Zewnętrzne repozytoria plików',
 	'configure-setting-wgHashedSharedUploadDirectory' => 'Twórz katalogi we współdzielonym repozytorium',
 	'configure-setting-wgRepositoryBaseUrl' => 'Bazowy adres URL współdzielonego repozytorium',
 	'configure-setting-wgSharedThumbnailScriptPath' => 'Ścieżka do skryptu tworzącego miniaturki we współdzielonym repozytorium',
