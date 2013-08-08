@@ -427,6 +427,7 @@ Preceded by any one of the following messages:
 	'configure-section-copyright' => '{{Identical|Copyright}}',
 	'configure-section-htcp' => 'See Wikipedia articles on [[:wikipedia:HTCP|HTCP]] and [[:wikipedia:multicast|multicast]].',
 	'configure-section-misc' => '{{Identical|Miscellaneous}}',
+	'configure-section-mw-extensions' => '{{Identical|MediaWiki extension}}',
 	'configure-section-output' => '{{Identical|Output}}',
 	'configure-select-wiki' => 'Used as fieldset label in the form in [[Special:Configure]], [[Special:Extensions]] and [[Special:ViewConfig]].
 
@@ -6390,9 +6391,11 @@ Készítsd el, vagy változtasd meg a kiterjesztés használatához.',
 );
 
 /** Armenian (Հայերեն)
+ * @author Chaojoker
  * @author Vadgt
  */
 $messages['hy'] = array(
+	'configure-edit-core' => 'ՄեդիաՎիքի',
 	'configure-btn-save' => 'Պահպանել կարգավորումները',
 	'configure-section-search' => 'Որոնել',
 	'configure-throttle-action-move' => 'Տեղափոխել',

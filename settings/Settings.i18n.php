@@ -11516,10 +11516,12 @@ $messages['hu'] = array(
 );
 
 /** Armenian (Հայերեն)
+ * @author Chaojoker
  * @author Vadgt
  */
 $messages['hy'] = array(
 	'configure-setting-wgSitename' => 'Կայքի Անունը',
+	'configure-setting-wgVersion' => 'ՄեդիաՎիքի տարբերակ',
 );
 
 /** Interlingua (interlingua)
