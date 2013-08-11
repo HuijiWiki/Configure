@@ -2713,6 +2713,7 @@ $messages['ce'] = array(
 	'configure-section-copyright' => 'Авторан бакъонаш',
 	'configure-section-external-tools' => 'Арахьара гӀирсаш',
 	'configure-view' => 'Хьажа',
+	'configure-throttle-action-emailuser' => 'Кехаташ кхехӀитар',
 	'configure-throttle-group' => 'Тайп',
 	'configure-condition-name-2' => 'Декъашхочун дӀаяздаран уггар кӀезиг хан',
 	'configure-condition-description-2' => 'Декъашхочун дӀаяздаран уггар кӀезиг хан $1 {{PLURAL:$1|секунд|секундаш}}',

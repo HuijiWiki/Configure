@@ -59,6 +59,13 @@ $specialPageAliases['bxr'] = array(
 	'Configure' => array( 'Тааруулха' ),
 );
 
+/** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
+$specialPageAliases['cdo'] = array(
+	'Configure' => array( '設置' ),
+	'Extensions' => array( '擴展' ),
+	'ViewConfig' => array( '查蜀查配置' ),
+);
+
 /** Chechen (нохчийн) */
 $specialPageAliases['ce'] = array(
 	'Configure' => array( 'ГIирс' ),
