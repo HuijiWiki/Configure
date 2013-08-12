@@ -14222,6 +14222,7 @@ $messages['ko'] = array(
 	'configure-setting-wgDisableSearchUpdate' => '찾기를 업데이트 비활성화',
 	'configure-setting-wgDisableTextSearch' => '전체 텍스트 찾기 비활성화',
 	'configure-setting-wgFixDoubleRedirects' => '문서를 옮기고 나서 이중 넘겨주기 고치기',
+	'configure-setting-wgInvalidRedirectTargets' => '잘못된 문서 넘겨주기 대상의 배열',
 	'configure-setting-wgMemoryLimit' => '미디어위키가 "필요"한 메모리의 최소 양',
 	'configure-setting-wgUseDumbLinkUpdate' => '링크 업데이트를 할 때 증분 대신 <code>DELETE</code>/<code>INSERT</code> 실행',
 	'configure-setting-wgCacheVaryCookies' => '캐시를 변화시키는 쿠키의 목록',
