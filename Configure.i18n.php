@@ -8790,6 +8790,7 @@ $messages['mhr'] = array(
  * @author Iwan Novirion
  */
 $messages['min'] = array(
+	'configure-section-timezone' => 'Zona wakatu',
 	'configure-section-external-tools' => 'Pakakeh eksternal',
 );
 
