@@ -7835,6 +7835,17 @@ $messages['fi'] = array(
 	'configure-setting-wgUDPProfilerPort' => 'Portti UDP-profiloijalle',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'configure-setting-wgActionPaths-key' => 'Handling',
+	'configure-setting-wgActionPaths-value' => 'URL fyrimynd',
+	'configure-setting-wgDBname' => 'Navn á dátagrunninum ið skal nýtast',
+	'configure-setting-wgDBpassword' => 'Loyniorð til $wgDBuser',
+	'configure-setting-wgDBadminpassword' => 'Loyniorð til $wgDBadminuser',
+);
+
 /** French (français)
  * @author Crochet.david
  * @author Gomoko
@@ -14027,7 +14038,7 @@ $messages['ko'] = array(
 	'configure-setting-wgShowEXIF' => '파일 설명 문서에 EXIF 데이터 보이기',
 	'configure-setting-wgUpdateCompatibleMetadata' => 'img_metadata 필드가 오래되었지만 현재 판과 호환하면 그 필드를 자동으로 업데이트',
 	'configure-setting-wgThumbLimits' => '허용하는 그림 섬네일 크기',
-	'configure-setting-wgUseImageResize' => '동적 서버 쪽 그림 다시 조절 활성화',
+	'configure-setting-wgUseImageResize' => '동적 서버 측 그림 다시 조절 활성화',
 	'configure-setting-wgEnableAutoRotation' => 'EXIF 방향에 따라 그림 회전',
 	'configure-setting-wgTrustedMediaFormats' => "'안전'으로 고려되는 미디어 유형과 MIME 유형",
 	'configure-setting-wgImgAuthDetails' => 'img_auth.php에서 왜 접근에 실패했는지 자세히 보이기',
@@ -14036,7 +14047,7 @@ $messages['ko'] = array(
 	'configure-setting-wgMainCacheType' => '주요 캐싱 시스템의 유형',
 	'configure-setting-wgDBAhandler' => '사용하는 DBA 핸들러',
 	'configure-setting-wgCacheEpoch' => '캐시 무효화 일시',
-	'configure-setting-wgCachePages' => '문서의 클라이언트 쪽에 캐시를 허용',
+	'configure-setting-wgCachePages' => '문서의 클라이언트 측에 캐시를 허용',
 	'configure-setting-wgCachePrefix' => '캐시 접두어에 대한 사용자 지정 값',
 	'configure-setting-wgClockSkewFudge' => '클록 스큐를 조정하기 위해 캐시 타임 스탬프에 추가하는 시간을 속이기',
 	'configure-setting-wgInvalidateCacheOnLocalSettingsChange' => 'LocalSettings.php가 바뀔 때 다양한 캐시를 무효화',
@@ -14448,7 +14459,7 @@ $messages['ko'] = array(
 	'configure-setting-wgMimeTypeFile' => 'MIME 유형 정의 파일',
 	'configure-setting-wgVerifyMimeType' => '올린 파일의 MIME 유형 확인',
 	'configure-setting-wgMimeTypeBlacklist' => '허용하지 않는 MIME 유형',
-	'configure-setting-wgCacheSharedUploads' => 'memcached로 공유된 메타 데이터 캐시',
+	'configure-setting-wgCacheSharedUploads' => 'memcached로 공유된 메타데이터 캐시',
 	'configure-setting-wgForeignFileRepos' => '외부 파일 저장소',
 	'configure-setting-wgUseInstantCommons' => '외부 파일 저장소로 위키미디어 공용 사용',
 	'configure-setting-wgFetchCommonsDescriptions' => '공유된 파일 설명 가져오기',
