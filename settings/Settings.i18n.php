@@ -12806,6 +12806,7 @@ $messages['is'] = array(
  */
 $messages['it'] = array(
 	'configure-setting-wgSitename' => 'Nome sito',
+	'configure-setting-wgActionPaths' => 'URL per azione',
 	'configure-setting-wgActionPaths-key' => 'Azione',
 	'configure-setting-wgActionPaths-value' => 'URL del template',
 	'configure-setting-wgAllDBsAreLocalhost' => "Fai passare segretamente all'host locale tutte le connessioni al database",
@@ -12839,6 +12840,7 @@ $messages['it'] = array(
 	'configure-setting-wgThumbnailScriptPath' => 'Percorso verso thumb.php per la generazione di thumbnail al volo, invece che su chiamata',
 	'configure-setting-wgThumbUpright' => 'Fattore di correzione della larghezza per le miniature verticali',
 	'configure-setting-wgShowEXIF' => 'Mostra dati Exif nelle pagine di descrizione di file',
+	'configure-setting-wgUpdateCompatibleMetadata' => 'Aggiorna automaticamente il campo di img_metadata se è obsoleto, ma compatibile con la versione corrente',
 	'configure-setting-wgThumbLimits' => 'Dimensioni ammesse per i thumbnail immagine',
 	'configure-setting-wgUseImageResize' => 'Abilita ridimensionamento dinamico immagine lato server',
 	'configure-setting-wgEnableAutoRotation' => 'Ruota le immagini in base alla loro orientazione EXIF',
