@@ -19274,6 +19274,7 @@ $messages['oc'] = array(
 	'configure-setting-wgAutoConfirmCount' => "Sulhet de modificacions per l'estatut « autoconfirmat »",
 	'configure-setting-wgAllowRealName' => 'Autorizar lo nom vertadièr',
 	'configure-setting-wgAllowUserSkin' => 'Autorizar los utilizaires a causir lor abilhatge',
+	'configure-setting-wgAllowPrefChange-key' => 'Preferéncias de l’utilizaire',
 	'configure-setting-wgDefaultUserOptions' => 'Opcions dels utilizaires per defaut',
 	'configure-setting-wgDisableAnonTalk' => 'Desactivar las paginas de discussion pels utilizaires anonims',
 	'configure-setting-wgHiddenPrefs' => "Desactivar las preferéncias d'utilizaire",

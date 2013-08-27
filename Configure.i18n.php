@@ -14651,7 +14651,7 @@ Xin hãy khởi tạo hoặc thay đổi nó để dùng được phần mở r�
 	'configure-section-specialpages' => 'Trang đặc biệt',
 	'configure-section-recentchanges' => 'Thay đổi gần đây',
 	'configure-section-users' => 'Thành viên',
-	'configure-section-feed' => 'Nguồn tin (feed)',
+	'configure-section-feed' => 'Nguồn cấp dữ liệu',
 	'configure-section-job' => 'Công việc',
 	'configure-section-search' => 'Tìm kiếm',
 	'configure-section-copyright' => 'Bản quyền',
