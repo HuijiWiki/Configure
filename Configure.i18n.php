@@ -14877,6 +14877,7 @@ $messages['yi'] = array(
  * @author Hydra
  * @author Liangent
  * @author PhiLiP
+ * @author Shirayuki
  * @author Wmr89502270
  * @author Xiaomingyan
  * @author 阿pp
@@ -14891,12 +14892,12 @@ $messages['zh-hans'] = array(
 	'configure-edit-core' => 'MediaWiki',
 	'configure-edit-ext' => '扩展程序',
 	'configure-viewconfig-default-diff' => '相对于默认设置的改变',
-	'configure-ext-ext-dependencies' => "'''警告：'''此扩展需要以下{{PLURAL:$2|延伸|延伸}}要激活：$1。",
+	'configure-ext-ext-dependencies' => "'''警告：'''此扩展需要以下{{PLURAL:$2|延伸}}要激活：$1。",
 	'configure-ext-ext-dependency-err' => "'''错误：'''$1扩展需要$2扩展被激活。",
 	'configure-ext-doc' => '检视线上文件',
 	'configure-ext-schemachange' => "'''警告：'''这个扩展需要[http://www.mediawiki.org/wiki/Manual:Update.php 更新数据库]以正常工作！",
 	'configure-ext-settings' => '设置',
-	'configure-ext-settings-dep-errors' => '不能启用此扩展，因为以下{{PLURAL:$1|设置|设置}}有一个不能接受的值：',
+	'configure-ext-settings-dep-errors' => '不能启用此扩展，因为以下{{PLURAL:$1|设置}}有一个不能接受的值：',
 	'configure-ext-settings-dep-error' => '$1：需要值：$2，当前值：$3',
 	'configure-ext-use-extension' => '使用这个扩展',
 	'configure-ext-use' => '使用',
