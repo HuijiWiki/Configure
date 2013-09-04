@@ -287,10 +287,10 @@ Parameters:
 	'configure-db-table-error' => '{{doc-important|Do not translate <code>configure.sql</code>.}}',
 	'configure-directory-not-writable' => 'Parameters:
 * $1 - the directory in the file-system',
-	'configure-edit-old' => 'Parameters:
+	'configure-edit-old' => 'Used as warning when editing an old version. Parameters:
 * $1 - the date and time of the version
-* $2 - the date of the version, alone
-* $3 - the time of the version, alone',
+* $2 - (Optional) the date of the version
+* $3 - (Optional) the time of the version',
 	'configure-error' => 'Used as error message in [[Special:Configure]], [[Special:Extensions]] and [[Special:ViewConfig]].
 
 See also:
@@ -327,13 +327,15 @@ See also:
 Followed by the message {{msg-mw|Configure-js-biglist-hidden}}.
 
 See also:
-* {{msg-mw|Configure-js-biglist-hide}}',
+* {{msg-mw|Configure-js-biglist-hide}}
+{{Identical|Show details}}',
 	'configure-js-biglist-hide' => 'Used as the action link text.
 
 Followed by the message {{msg-mw|Configure-js-biglist-shown}}.
 
 See also:
-* {{msg-mw|Configure-js-biglist-show}}',
+* {{msg-mw|Configure-js-biglist-show}}
+{{Identical|Hide details}}',
 	'configure-js-summary-none' => 'Used in the table if there is nothing to show.',
 	'configure-js-search-legend' => 'Used as fieldset label in the form.
 
