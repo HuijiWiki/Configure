@@ -11458,6 +11458,7 @@ Para usar esta extensão crie-o ou altere-o, por favor.',
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Crazymadlover
  * @author Giro720
  * @author Hamilton Abreu
@@ -11559,6 +11560,7 @@ Para usar esta extensão crie-o ou altere-o, por favor.',
 	'configure-section-proxy' => 'Proxies',
 	'configure-section-cookie' => 'Cookies',
 	'configure-section-performance' => 'Desempenho',
+	'configure-section-test' => 'Testes',
 	'configure-section-upload' => 'Carregamento',
 	'configure-section-sharedupload' => 'Carregamento partilhado',
 	'configure-section-mime' => 'Tipos MIME',
