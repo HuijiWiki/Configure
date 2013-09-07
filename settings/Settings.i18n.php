@@ -21287,6 +21287,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Giro720
  * @author Hamilton Abreu
  * @author Luckas
@@ -21328,7 +21329,7 @@ $messages['pt-br'] = array(
 	'configure-setting-wgMediaHandlers-value' => 'Classe tratadora',
 	'configure-setting-wgThumbnailScriptPath' => 'Caminho para thumb.php para geração de miniaturas de imagens "on-the-fly" ao invés de "on-parse"',
 	'configure-setting-wgThumbUpright' => 'Fator de ajuste da largura para miniaturas com orientação vertical',
-	'configure-setting-wgShowEXIF' => 'Mostrar dados EXIF nas páginas de descrição de arquivos', # Fuzzy
+	'configure-setting-wgShowEXIF' => 'Mostrar dados Exif nas páginas de descrição de arquivos',
 	'configure-setting-wgThumbLimits' => 'Tamanhos permitidos para miniaturas de imagens',
 	'configure-setting-wgUseImageResize' => 'Ativar redimensionamento dinâmico de imagens no servidor',
 	'configure-setting-wgTrustedMediaFormats' => "Tipos de multimídia e MIME considerados 'seguros'",
