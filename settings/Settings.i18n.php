@@ -1019,7 +1019,8 @@ This setting is an array of new namespaces, but can also be used to change the n
 	'configure-setting-wgNamespaceRobotPolicies' => '{{config-wg|NamespaceRobotPolicies}}',
 	'configure-setting-wgNamespaceRobotPolicies-value' => '{{Identical|Robot policy}}',
 	'configure-setting-wgNamespacesToBeSearchedDefault' => '{{config-wg|NamespacesToBeSearchedDefault}}',
-	'configure-setting-wgNamespacesToBeSearchedHelp' => '{{config-wg|NamespacesToBeSearchedHelp}}',
+	'configure-setting-wgNamespacesToBeSearchedHelp' => '{{config-wg|NamespacesToBeSearchedHelp}}
+Refers to {{msg-mw|Searchprofile-project}}.',
 	'configure-setting-wgNamespacesWithSubpages' => '{{config-wg|NamespacesWithSubpages}}',
 	'configure-setting-wgNoFollowNsExceptions' => "{{config-wg|NoFollowNsExceptions}}
 {{doc-important|Don't translate nofollow.}}
@@ -1171,7 +1172,8 @@ Be consistent with {{msg-mw|Redirectedfrom}} message.',
 	'configure-setting-wgTidyOpts' => '{{config-wg|TidyOpts}}',
 	'configure-setting-wgUseTidy' => '{{config-wg|UseTidy}}',
 	'configure-setting-wgValidateAllHtml' => '{{config-wg|ValidateAllHtml}}',
-	'configure-setting-wgRawHtml' => '{{config-wg|RawHtml}}',
+	'configure-setting-wgRawHtml' => '{{config-wg|RawHtml}}
+Refers to {{msg-mw|Ellipsis}}',
 	'configure-setting-wgDisableUploadScriptChecks' => '{{config-wg|DisableUploadScriptChecks}}',
 	'configure-setting-wgAllowJavaUploads' => '{{config-wg|AllowJavaUploads}}',
 	'configure-setting-wgXMLMimeTypes' => '{{config-wg|XMLMimeTypes}}',
@@ -1277,7 +1279,8 @@ In this context live means ajax-preview without re-loading the page. It does not
 	'configure-setting-wgUploadPath' => '{{config-wg|UploadPath}}',
 	'configure-setting-wgVariantArticlePath' => '{{config-wg|VariantArticlePath}}',
 	'configure-setting-wgUploadStashScalerBaseUrl' => '{{config-wg|UploadStashScalerBaseUrl}}',
-	'configure-setting-wgAllowCategorizedRecentChanges' => '{{config-wg|AllowCategorizedRecentChanges}}',
+	'configure-setting-wgAllowCategorizedRecentChanges' => '{{config-wg|AllowCategorizedRecentChanges}}
+Refers to {{msg-mw|Ellipsis}}',
 	'configure-setting-wgPutIPinRC' => '{{config-wg|PutIPinRC}}',
 	'configure-setting-wgAutopromoteOnceLogInRC' => '{{config-wg|AutopromoteOnceLogInRC}}',
 	'configure-setting-wgRCChangedSizeThreshold' => '{{config-wg|RCChangedSizeThreshold}}',
