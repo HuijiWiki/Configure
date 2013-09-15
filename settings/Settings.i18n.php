@@ -774,10 +774,10 @@ $messages['qqq'] = array(
 "regex" stands for "regular expression".',
 	'configure-setting-wgMaxArticleSize' => '{{config-wg|MaxArticleSize}}',
 	'configure-setting-wgMaxRedirects' => '{{config-wg|wgMaxRedirects}}',
-	'configure-setting-wgNoFollowLinks' => "{{config-wg|NoFollowLinks}}
-{{doc-important|Do not translate ''<nowiki>rel=\"nofollow\"</nowiki>''.}}",
-	'configure-setting-wgNoFollowDomainExceptions' => "{{config-wg|NoFollowDomainExceptions}}
-{{doc-important|Do not translate ''<nowiki>rel=\"nofollow\"</nowiki>''.}}",
+	'configure-setting-wgNoFollowLinks' => '{{doc-important|Do not translate <code><nowiki>rel="nofollow"</nowiki></code>.}}
+{{config-wg|NoFollowLinks}}',
+	'configure-setting-wgNoFollowDomainExceptions' => '{{doc-important|Do not translate <code><nowiki>rel="nofollow"</nowiki></code>.}}
+{{config-wg|NoFollowDomainExceptions}}',
 	'configure-setting-wgPageShowWatchingUsers' => '{{config-wg|PageShowWatchingUsers}}',
 	'configure-setting-wgRestrictionLevels' => '{{config-wg|RestrictionLevels}}',
 	'configure-setting-wgSiteNotice' => '{{config-wg|SiteNotice}}',
@@ -1199,8 +1199,8 @@ Refers to {{msg-mw|Ellipsis}}',
 	'configure-setting-wgAllowUserJs' => '{{config-wg|AllowUserJs}}',
 	'configure-setting-wgUseSiteCss' => '{{config-wg|UseSiteCss}}',
 	'configure-setting-wgUseSiteJs' => '{{config-wg|UseSiteJs}}',
-	'configure-setting-wgHandheldStyle' => "{{config-wg|HandheldStyle}}
-{{doc-important|Do not translate ''<nowiki>media=\"handheld\"</nowiki>''.}}",
+	'configure-setting-wgHandheldStyle' => '{{doc-important|Do not translate <code><nowiki>media="handheld"</nowiki></code>.}}
+{{config-wg|HandheldStyle}}',
 	'configure-setting-wgHandheldForIPhone' => '{{config-wg|HandheldForIPhone}}
 {{doc-important|Do not translate "screen" nor "handheld".}}',
 	'configure-setting-wgIncludeLegacyJavaScript' => '{{config-wg|IncludeLegacyJavaScript}}',
