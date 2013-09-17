@@ -15213,7 +15213,7 @@ $messages['lb'] = array(
 	'configure-setting-wgNoFollowDomainExceptions' => 'Extern Linken op dës Domain-Nimm (oder hir Ënnerdomainen) kréien de rel="nofollow" Attribut net',
 	'configure-setting-wgPageShowWatchingUsers' => 'Weis watfir Benotzer eng Säit iwwerwaachen',
 	'configure-setting-wgSiteNotice' => 'Notiz vum Site',
-	'configure-setting-wgSiteSupportPage' => 'Säit mat Informatiounen iwwert Donatiounen',
+	'configure-setting-wgSiteSupportPage' => "Säit mat Informatiounen iwwer d'Donen",
 	'configure-setting-wgStyleVersion' => 'Versioun vun de MediaWiki CSS/JS Fichieren',
 	'configure-setting-wgUniversalEditButton' => 'Den universalen Ännerungs-Knäpchen aschalten',
 	'configure-setting-wgUrlProtocols' => 'Erlaabt Protokoller vun externe Linken',

@@ -8020,10 +8020,11 @@ $messages['kw'] = array(
 /** Luxembourgish (Lëtzebuergesch)
  * @author Les Meloures
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'configure' => "D'Wiki configuréieren",
-	'configure-desc' => "Erlaabt et den autoriséierte Benotzer fir d'Wiki iwwert de Web ze configuréieren",
+	'configure-desc' => "Erlaabt et den autoriséierte Benotzer fir d'Wiki iwwer de Web ze [[Special:Configure|configuréieren]]",
 	'configure-desc-group' => 'Grupp',
 	'configure-desc-key' => 'Schlëssel',
 	'configure-desc-ns' => 'Nummraum',
