@@ -6535,6 +6535,7 @@ $messages['el'] = array(
  */
 $messages['en-gb'] = array(
 	'configure-setting-wgRestrictDisplayTitle' => 'Require use of <nowiki>{{DISPLAYTITLE}}</nowiki> to normalise to the same canonical page title',
+	'configure-setting-wgUseTwoButtonsSearchForm' => "Sidebar's search form behaviour",
 	'configure-setting-wgMaxSigChars' => 'Maximum length of customised signature',
 	'configure-setting-wgLocalisationCacheConf' => 'Localisation cache configuration',
 	'configure-setting-wgLocalMessageCacheSerialized' => 'Use PHP serialised format for the local message cache',
