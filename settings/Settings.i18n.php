@@ -14004,6 +14004,7 @@ $messages['kn'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 관인생략
  * @author 아라
  */
 $messages['ko'] = array(
@@ -14376,7 +14377,7 @@ $messages['ko'] = array(
 	'configure-setting-wgInterwikiFallbackSite' => '인터위키 폴백 사이트',
 	'configure-setting-wgInterwikiScopes' => '인터위키 범위',
 	'configure-setting-wgLocalInterwiki' => '로컬 인터위키 접두어',
-	'configure-setting-wgBlockOpenProxies' => '편집에 자동 오픈 프록시 테스트',
+	'configure-setting-wgBlockOpenProxies' => '편집에 자동 개방형 프록시 테스트',
 	'configure-setting-wgEnableDnsBlacklist' => '오픈 프록시의 확인에 DNS 블랙리스트 사용',
 	'configure-setting-wgProxyList' => '금지한 IP 주소',
 	'configure-setting-wgProxyMemcExpiry' => '프록시 캐시의 만료',
@@ -15161,7 +15162,7 @@ $messages['lb'] = array(
 	'configure-setting-wgShowEXIF' => 'EXIF-Donnéeën op de Beschreiwungssäite vum Fichier weisen',
 	'configure-setting-wgThumbLimits' => 'Erlaabt Gréisste vun de Miniaturen',
 	'configure-setting-wgEnableAutoRotation' => 'Biller esou dréine wéi an hirem EXIF virginn ass',
-	'configure-setting-wgImgAuthDetails' => 'Detailer weie firwat den Accès op img_auth.php net fonctionnéiert huet',
+	'configure-setting-wgImgAuthDetails' => 'Detailer weie firwat den Accès op img_auth.php net funktionéiert huet',
 	'configure-setting-wgImgAuthPublicTest' => "Nokucken ob d'biller ëffentlech zougänglech sinn an e Feeler op img_auth.php weise wann dëst de Fall ass",
 	'configure-setting-wgMainCacheType' => 'Typ vum Haapttëschespäicher (main cache system)',
 	'configure-setting-wgCachePages' => 'Tëschespäichere vu Säiten op der Clientssäit erlaben',
@@ -15176,7 +15177,7 @@ $messages['lb'] = array(
 	'configure-setting-wgExternalLinkTarget' => 'Viragestallten "Target-Attribut" fir extern Linken',
 	'configure-setting-wgCleanSignatures' => 'Schablounen an den Ënnerschrëften ersetzen',
 	'configure-setting-wgGalleryOptions' => 'Stnadard Parameter fir den Tag <nowiki><gallery></nowiki>',
-	'configure-setting-wgGrammarForms' => "Grammatikalesch Forme fir d'Parser-Fonctioun GRAMMAR",
+	'configure-setting-wgGrammarForms' => "Grammatikalesch Forme fir d'Parser-Funktioun GRAMMAR",
 	'configure-setting-wgMaxTocLevel' => 'Maximalen Aréckelungsniveau vun den Inhaltsverzeechnesser',
 	'configure-setting-wgParserConf' => 'Parserastellungen',
 	'configure-setting-wgParserCacheExpireTime' => 'Oflafzäitpunkt vum Parser-Tëschespäicher',
@@ -15316,9 +15317,9 @@ $messages['lb'] = array(
 	'configure-setting-wgExtensionAssetsPath' => 'URL vum Repertoiree vun den Erweiderungen',
 	'configure-setting-wgExternalStores' => 'Astellung vun externe Späicher',
 	'configure-setting-wgSQLMode' => 'SQL-Modus',
-	'configure-setting-wgSpecialPageCacheUpdates' => 'Zousätzlech Fonctiounen déi mat updateSpecialPages.php ausgeféiert ginn',
+	'configure-setting-wgSpecialPageCacheUpdates' => 'Zousätzlech Funktiounen déi mat updateSpecialPages.php ausgeféiert ginn',
 	'configure-setting-wgSpecialPages' => 'Zousätzlech Spezialsäiten',
-	'configure-setting-wgSkinExtensionFunctions' => "Fonctioune fir d'Erweiderung vum Ausgesinn (skin)",
+	'configure-setting-wgSkinExtensionFunctions' => "Funktioune fir d'Erweiderung vum Ausgesinn (skin)",
 	'configure-setting-wgGroupPermissions' => 'Gestioun vu Grupperechter',
 	'configure-setting-wgGroupPermissions-value' => 'Zougewise Rechter',
 	'configure-setting-wgRevokePermissions' => 'Rechter, déi de Benotzer an all Grupp ofgeholl goufen',
@@ -15448,7 +15449,7 @@ $messages['lb'] = array(
 	'configure-setting-wgAllowUserJs' => 'Benotzer-JavaScript-Säiten erlaben',
 	'configure-setting-wgUseSiteJs' => 'Dem Site seng JavaScript Säit benotzen',
 	'configure-setting-wgUseAjax' => 'AJAX aschalten',
-	'configure-setting-wgAjaxExportList' => 'AJAX-Fonctiounen déi kënnen opgeruff ginn',
+	'configure-setting-wgAjaxExportList' => 'AJAX-Funktiounen déi kënnen opgeruff ginn',
 	'configure-setting-wgLivePreview' => 'Live-Preview aschalten',
 	'configure-setting-wgVerifyMimeType' => 'MIME-Typ vu Fichieren déi eropgeluede ginn iwwerpréifen',
 	'configure-setting-wgArticlePath' => 'Basis-URL fir intern Linke bannen a MediaWiki',
@@ -20678,7 +20679,7 @@ $messages['ps'] = array(
 	'configure-setting-wgActionPaths-key' => 'چاره',
 	'configure-setting-wgLanguageCode' => 'د وېبځي د ژبې کوډ',
 	'configure-setting-wgArticleRobotPolicies-key' => 'مخ سرليک',
-	'configure-setting-wgArticleRobotPolicies-value' => 'د روباټ تګلاره',
+	'configure-setting-wgArticleRobotPolicies-value' => 'د روباټ تگلاره',
 	'configure-setting-wgExtraLanguageNames-key' => 'د ژبې کوډ',
 	'configure-setting-wgExtraLanguageNames-value' => 'نوم',
 	'configure-setting-wgSpecialPageGroups-key' => 'ډله',
