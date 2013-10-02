@@ -27636,6 +27636,7 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Cwlin0416
  * @author Gzdavidwong
  * @author Justincheng12345
  * @author Liflon
@@ -27864,7 +27865,7 @@ $messages['zh-hant'] = array(
 	'configure-setting-wgAllowSchemaUpdates' => '允許使用 update.php 腳本來執行數據庫架構更新',
 	'configure-setting-wgSpecialPages' => '自定特殊頁面',
 	'configure-setting-wgSkinExtensionFunctions' => '皮膚擴展功能',
-	'configure-setting-wgGroupPermissions' => '用戶組權限分配',
+	'configure-setting-wgGroupPermissions' => '群組權限分配',
 	'configure-setting-wgGroupPermissions-value' => '指派的權限',
 	'configure-setting-wgRevokePermissions' => '從每個組中的用戶撤銷的權利',
 	'configure-setting-wgRevokePermissions-value' => '已撤銷的權利',

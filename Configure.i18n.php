@@ -11246,7 +11246,7 @@ $messages['ps'] = array(
 	'configure-section-external-tools' => 'باندني اوزارونه',
 	'configure-section-output' => 'ابره',
 	'configure-select-wiki' => 'ويکي ټاکنه',
-	'configure-select-wiki-view-all' => 'ټولې ويکي ګانې',
+	'configure-select-wiki-view-all' => 'ټولې ويکي گانې',
 	'configure-select-wiki-view-specific' => 'ځانگړی ويکي:',
 	'configure-select-wiki-submit' => 'ټاکل',
 	'configure-view' => 'کتل',
@@ -15078,6 +15078,7 @@ $messages['zh-hans'] = array(
 /** Traditional Chinese (中文（繁體）‎)
  * @author Alexsh
  * @author Anakmalaysia
+ * @author Cwlin0416
  * @author Frankou
  * @author Liangent
  * @author Mark85296341
@@ -15193,7 +15194,7 @@ $messages['zh-hant'] = array(
 	'configure-section-copyright' => '版權',
 	'configure-section-htcp' => 'HTCP多播',
 	'configure-section-misc' => '其他',
-	'configure-section-filter' => '過濾',
+	'configure-section-filter' => '搜尋',
 	'configure-section-mw-extensions' => 'MediaWiki擴充套件',
 	'configure-section-external-tools' => '外部工具',
 	'configure-section-filesystem' => '檔案系統和Shell交互',
