@@ -10557,6 +10557,7 @@ Rendètz-lo modificable per PHP per qu'aquesta extension foncione.",
  * @author Ansumang
  * @author Jnanaranjan Sahu
  * @author Jose77
+ * @author MKar
  * @author Odisha1
  * @author Psubhashish
  */
@@ -10662,7 +10663,7 @@ $messages['or'] = array(
 	'viewconfig' => 'ଉଇକି ସଜଡା ଦେଖିବ',
 	'configure-throttle-action-edit' => 'ସମ୍ପାଦନା',
 	'configure-throttle-action-move' => 'ଘୁଞ୍ଚାଇବେ',
-	'configure-throttle-action-rollback' => 'ପୁରାପୁରି ପଛକୁ ଫେରିଯିବେ',
+	'configure-throttle-action-rollback' => 'ପୂରାପୂରି ପଛକୁ ଫେରିଯିବେ',
 	'configure-throttle-action-emailuser' => 'ମେଲ ପଠାଇବେ',
 	'configure-throttle-group-anon' => 'ସମସ୍ତ ବିବିଧ ବ୍ୟବହାରକାରୀ',
 	'configure-throttle-group-newbie' => 'ନୂଆ ବ୍ୟବହାରକାରୀ ଆକାଉଣ୍ଟ ପିଛା',
