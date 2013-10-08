@@ -5586,7 +5586,7 @@ $messages['ha'] = array(
 	'configure-throttle-action-move' => 'Gusarwa',
 );
 
-/** Hakka (Hak-kâ-fa)
+/** Hakka (客家語/Hak-kâ-ngî)
  * @author Hakka
  */
 $messages['hak'] = array(
