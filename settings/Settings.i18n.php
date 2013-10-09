@@ -6539,6 +6539,7 @@ $messages['en-gb'] = array(
 	'configure-setting-wgMaxSigChars' => 'Maximum length of customised signature',
 	'configure-setting-wgLocalisationCacheConf' => 'Localisation cache configuration',
 	'configure-setting-wgLocalMessageCacheSerialized' => 'Use PHP serialised format for the local message cache',
+	'configure-setting-wgMimeDetectorCommand' => 'MIME detector programme',
 	'configure-setting-wgEnotifImpersonal' => 'Send a generic email instead of a personalised email for each user',
 );
 
@@ -7459,6 +7460,7 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Alireza
+ * @author Ebraminio
  * @author Mahdiz
  * @author Mjbmr
  * @author Taha
@@ -7498,7 +7500,7 @@ $messages['fa'] = array(
 	'configure-setting-wgAutopromote-value' => 'شرایط',
 	'configure-setting-wgEnableAPI' => 'فعال‌سازی ای‌پی‌آی',
 	'configure-setting-wgEnableWriteAPI' => 'فعال‌سازی نوشتن ای‌پی‌آی',
-	'configure-setting-wgEmergencyContact' => 'آدرس رایانامه مدیران سایت',
+	'configure-setting-wgEmergencyContact' => 'نشانی رایانامه مدیران وب‌گاه',
 	'configure-setting-wgEnableEmail' => 'فعال‌سازی ویژگی‌های ایمیل',
 	'configure-setting-wgEnableUserEmail' => 'فعال سازی پست الکترونیکی کاربر-به-کاربر',
 	'configure-setting-wgSMTP' => 'کارگزار اس‌ام‌تی‌پی',
