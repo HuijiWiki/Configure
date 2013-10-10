@@ -23620,6 +23620,7 @@ $messages['sk'] = array(
 
 /** Slovenian (slovenščina)
  * @author Dbc334
+ * @author Eleassar
  */
 $messages['sl'] = array(
 	'configure-setting-wgSitename' => 'Ime strani',
@@ -23790,7 +23791,7 @@ $messages['sl'] = array(
 	'configure-setting-wgDisableAnonTalk' => 'Onemogoči pogovorne strani brezimnih uporabnikov (ne prijavljenih)',
 	'configure-setting-wgHiddenPrefs' => 'Onemogočene uporabniške nastavitve',
 	'configure-setting-wgInvalidUsernameCharacters' => 'Znaki, ki se jih naj prepreči med ustvarjanjem novega računa',
-	'configure-setting-wgMaxNameChars' => 'Največje število bajtov v uporabniškem imenu',
+	'configure-setting-wgMaxNameChars' => 'Največje število zlogov v uporabniškem imenu',
 	'configure-setting-wgMinimalPasswordLength' => 'Najkrajša dolžina gesla',
 	'configure-setting-wgCompressRevisions' => 'Stisni stare redakcije, če je mogoče',
 	'configure-setting-wgDisableOutputCompression' => 'Onemogoči izhodno stiskanje',
