@@ -450,7 +450,7 @@ $specialPageAliases['yi'] = array(
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'Configure' => array( '配置' ),
-	'Extensions' => array( '扩展组件' ),
+	'Extensions' => array( '扩展程序', '扩展组件' ),
 	'ViewConfig' => array( '查看配置' ),
 );
 
