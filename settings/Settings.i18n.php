@@ -5281,6 +5281,7 @@ $messages['ce'] = array(
 	'configure-setting-wgGalleryOptions' => 'Теган <nowiki><gallery></nowiki> Iад йитарца параметраш',
 	'configure-setting-wgArticleRobotPolicies-key' => 'АгӀона цӀе',
 	'configure-setting-wgExtraLanguageNames-value' => 'ЦӀе',
+	'configure-setting-wgSiteNotice' => 'Сайтан хаамаш',
 	'configure-setting-wgGroupPermissions-value' => 'Бакъо ялар',
 	'configure-setting-wgAddGroups' => 'ТӀетоха йиш йолу тобанаш',
 	'configure-setting-wgGroupsAddToSelf' => 'Хьайн тӀетоха йиш йолу тобанаш',
@@ -27002,6 +27003,7 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author A911504820
+ * @author Byfserag
  * @author Cwek
  * @author Dimension
  * @author Gzdavidwong
@@ -27078,7 +27080,7 @@ $messages['zh-hans'] = array(
 	'configure-setting-wgAllowExternalImagesFrom' => '$wgAllowExternalImages = false 的例外',
 	'configure-setting-wgEnableImageWhitelist' => '能够使用 "MediaWiki:外部文件白名单"',
 	'configure-setting-wgAllowImageTag' => '允许<nowiki><img></nowiki>在维基文本中使用标记',
-	'configure-setting-wgExpensiveParserFunctionLimit' => '解析每对昂贵的解析函数的调用的最大数量',
+	'configure-setting-wgExpensiveParserFunctionLimit' => '解析每对高级解析函数的调用的最大数量',
 	'configure-setting-wgExternalLinkTarget' => '默认的外部链接的目标属性',
 	'configure-setting-wgCleanSignatures' => '替换模板中的签名',
 	'configure-setting-wgGalleryOptions' => '默认参数<nowiki><gallery></nowiki>标记',
