@@ -24598,6 +24598,7 @@ $messages['sv'] = array(
 	'configure-setting-wgEnableUserEmail' => 'Aktivera epost mellan användare',
 	'configure-setting-wgNoReplyAddress' => 'Dummy-adress som ska accepteras under epost-sändning',
 	'configure-setting-wgPasswordSender' => 'Epost-adress för lösenordspåminnelse',
+	'configure-setting-wgPasswordSenderName' => 'Påminnelsenamn för lösenordet',
 	'configure-setting-wgPasswordReminderResendTime' => 'Minimum-tid, i timmar, som måste gå mellan lösenordspåminnelser',
 	'configure-setting-wgSMTP' => 'SMTP-server',
 	'configure-setting-wgUserEmailUseReplyTo' => 'Använd Reply-To i stället för From',
