@@ -24403,11 +24403,13 @@ $messages['sr-el'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Ainali
  * @author Boivie
  * @author Fluff
  * @author Fredrik
  * @author Hangsna
  * @author Jopparn
+ * @author LittleGun
  * @author Lokal Profil
  * @author Najami
  * @author Per
@@ -24566,6 +24568,7 @@ $messages['sv'] = array(
 	'configure-setting-wgLogRestrictions-value' => 'Rättighet krävd för att läsa',
 	'configure-setting-wgMaxRedirectLinksRetrieved' => 'Max antal länkar till en redirect-sida som listas på [[Special:Whatlinkshere/RedirectDestination]].',
 	'configure-setting-wgRedirectOnLogin' => 'Dirigera alla användare till den här sidan vid inloggning',
+	'configure-setting-wgSecureLogin' => 'Låt användaren autentiseras med hjälp av HTTPS när de kommer från HTTP',
 	'configure-setting-wgSortSpecialPages' => 'Sortera specialsidor i [[Special:SpecialPages]]',
 	'configure-setting-wgSpecialPageGroups' => 'Specialside-grupper',
 	'configure-setting-wgSpecialPageGroups-key' => 'Grupp',
@@ -24573,6 +24576,7 @@ $messages['sv'] = array(
 	'configure-setting-wgUseNPPatrol' => 'Använd patrullering av nya sidor för att kolla efter vandalisering',
 	'configure-setting-wgAutopromote' => 'Vilkor för automatisk befordring av användare till specifika grupper',
 	'configure-setting-wgAutopromote-value' => 'Villkor',
+	'configure-setting-wgAutopromoteOnce' => 'Villkor för automatisk tilldelning av användaren till särskilda grupper som endast görs en gång',
 	'configure-setting-wgAccountCreationThrottle' => 'Antal konton varje IP-adress kan skapa',
 	'configure-setting-wgAllowPageInfo' => 'Tillåt action=info',
 	'configure-setting-wgBlockCIDRLimit' => 'Högsta CIDR-range vid blockering av ett IP-område',
@@ -24787,6 +24791,7 @@ $messages['sv'] = array(
 	'configure-setting-wgBrowserBlackList' => 'Webbläsar-svartlista för webbläsare som inte klarar unicode',
 	'configure-setting-wgAntiLockFlags' => 'Anti-lock-flaggor',
 	'configure-setting-wgCommandLineDarkBg' => 'Förvänta en mörk bakgrund för underhållsskript',
+	'configure-setting-wgUpgradeKey' => 'Knapp som aktiverar löpande uppgraderingar på config/index.php',
 	'configure-setting-wgCompressRevisions' => 'Komprimera gamla versioner om möjligt',
 	'configure-setting-wgDisableOutputCompression' => 'Avaktivera output-kompression',
 	'configure-setting-wgSend404Code' => 'Skicka statuskoden HTTP 404 "hittades inte" på icke-existerande sidor',
@@ -24845,6 +24850,7 @@ $messages['sv'] = array(
 	'configure-setting-wgSVGMaxSize' => 'Max storlek för SVG-skalning',
 	'configure-setting-wgSVGMetadataCutoff' => 'Maximal längd att läsa från SVG-metadata',
 	'configure-setting-wgImageMagickConvertCommand' => 'ImageMagick-kommando',
+	'configure-setting-wgImageMagickIdentifyCommand' => "ImageMagick's identify kommando",
 	'configure-setting-wgImageMagickTempDir' => 'Temporär katalog för ImageMagick',
 	'configure-setting-wgSharpenParameter' => 'Skarphetsparameter till ImageMagick',
 	'configure-setting-wgSharpenReductionThreshold' => 'Minskning i linjära dimensioner under vilka skärpning kommer vara aktiverat',
@@ -24908,8 +24914,10 @@ $messages['sv'] = array(
 	'configure-setting-wgHandheldForIPhone' => "Lägg till 'screen'- och 'handheld'-mediatyper för iPhone",
 	'configure-setting-wgIncludeLegacyJavaScript' => 'Inkludera det gamla JavaScript-biblioteket och dess beroenden',
 	'configure-setting-wgResourceLoaderDebug' => 'Aktivera debug-läge för ResourceLoader-förfrågningar',
+	'configure-setting-wgResourceLoaderMinifierMaxLineLength' => 'Längsta radlängd när JavaScript minimeras',
 	'configure-setting-wgResourceLoaderMinifierStatementsOnOwnLine' => 'Sätta varje uttalande på en egen rad när JavaScript förminskas',
 	'configure-setting-wgResourceLoaderUseESI' => 'Aktivera inbäddning av vissa resurser med hjälp av Edge Side Includes',
+	'configure-setting-wgResourceLoaderValidateJS' => 'Parsa JavaScript moduler som laddats från wikisidor föra att validera dem innan minifiering',
 	'configure-setting-wgUseAjax' => 'Aktivera AJAX',
 	'configure-setting-wgAjaxExportList' => 'AJAX-funktioner som kan anropas',
 	'configure-setting-wgAjaxSearch' => 'Aktivera användandet av AJAX-skriptet för automatiska förslag i sökformuläret',
