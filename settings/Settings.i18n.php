@@ -15323,6 +15323,7 @@ $messages['lb'] = array(
 	'configure-setting-wgHTTPProxy' => 'HTTP Proxy de benotzt gëtt',
 	'configure-setting-wgVersion' => 'MediaWiki Versioun',
 	'configure-setting-wgAllowSpecialInclusion' => 'Abanne vu Spezialsäiten zouloossen',
+	'configure-setting-wgExportAllowAll' => 'Den Export vun der ganzer Wiki an een eenzege Fichier iwwer [[Special:Export]] erlaben',
 	'configure-setting-wgExportAllowHistory' => 'Erlaabt den Export vum ganze Versiounshistorique',
 	'configure-setting-wgExportAllowListContributors' => 'Erlaben datt eng Lëscht vun den Auteuren exportéiert gëtt',
 	'configure-setting-wgExportFromNamespaces' => 'D\'Optioun "Export vun alle Säiten am Nummraum" op [[Special:Export]] erlaben',
