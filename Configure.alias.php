@@ -74,7 +74,7 @@ $specialPageAliases['ce'] = array(
 	'ViewConfig' => array( 'ГIирсе_хьажар' ),
 );
 
-/** Czech (česky) */
+/** Czech (čeština) */
 $specialPageAliases['cs'] = array(
 	'Configure' => array( 'Konfigurace' ),
 	'Extensions' => array( 'Rozšíření', 'Doplňky' ),
