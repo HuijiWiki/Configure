@@ -447,8 +447,7 @@ Followed by another radio button label {{msg-mw|Configure-select-wiki-view-speci
 
 Preceded by another radio button label {{msg-mw|Configure-select-wiki-view-all}}.
 
-Followed by the "Wiki" select box or by the "Wiki" input box.
-{{Identical|Specific wiki}}',
+Followed by the "Wiki" select box or by the "Wiki" input box.',
 	'configure-select-wiki-submit' => 'Used as label for the Submit button in [[Special:Configure]], [[Special:Extensions]] and [[Special:ViewConfig]].
 {{Identical|Select}}',
 	'configure-setting-not-available' => 'Unused at this time.',
