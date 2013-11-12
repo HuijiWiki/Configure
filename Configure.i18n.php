@@ -3393,6 +3393,7 @@ Bitte erstellen oder ändern Sie es, damit Sie diese Erweiterung nutzen können.
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Gorizon
  * @author Mirzali
  */
 $messages['diq'] = array(
@@ -3461,7 +3462,7 @@ $messages['diq'] = array(
 	'configure-view-default' => 'Sazê hesıbyayey',
 	'configure-viewconfig-line' => '$1 $2 ra $3 $5: $4',
 	'configure-throttle-action-edit' => 'Bıvurne',
-	'configure-throttle-action-move' => 'Berê',
+	'configure-throttle-action-move' => 'Beré',
 	'configure-throttle-action-rollback' => 'Peyser bia',
 	'configure-throttle-group-anon' => 'Heme karberê bênamey',
 	'configure-throttle-group' => 'Babet',
