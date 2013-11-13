@@ -1649,6 +1649,21 @@ $messages['ba'] = array(
 	'configure-boolop-description-not' => 'Шарттар ысын булырға тейеш түгел',
 );
 
+/** Bikol Central (Bikol Central)
+ * @author Geopoet
+ */
+$messages['bcl'] = array(
+	'configure' => 'Sunsayon an wiki',
+	'configure-desc' => 'Tugutan an awtorisadong mga paragamit na [[Special:Configure|sunsayon]]an wiki sa paagi nin sarong olay-panlaog na basado sa web',
+	'configure-desc-group' => 'Grupo',
+	'configure-desc-key' => 'Susi',
+	'configure-desc-ns' => 'Espasyong-pangaran',
+	'configure-desc-val' => 'Kantidad',
+	'configure-edit-core' => 'Midya-Wiki',
+	'configure-edit-ext' => 'Mga panumpay',
+	'configure-viewconfig-default-diff' => 'Mga kaliwatan gikan sa panugmad na mga panuytoy',
+);
+
 /** Belarusian (беларуская)
  * @author Тест
  */
@@ -9929,6 +9944,7 @@ $messages['nds-nl'] = array(
 
 /** Nepali (नेपाली)
  * @author RajeshPandey
+ * @author सरोज कुमार ढकाल
  */
 $messages['ne'] = array(
 	'configure' => 'विकि कन्फीगर गर्ने',
@@ -9936,6 +9952,7 @@ $messages['ne'] = array(
 	'configure-desc-group' => 'समूह',
 	'configure-desc-ns' => 'नामस्थान',
 	'configure-edit-core' => 'मेडियाविकि',
+	'configure-section-enotif' => 'इमेल जानकारी',
 	'configure-section-users' => 'प्रयोगकर्ताहरु',
 	'configure-section-feed' => 'फिड',
 	'configure-section-job' => 'कामहरु',
