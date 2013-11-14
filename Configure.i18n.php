@@ -1662,6 +1662,20 @@ $messages['bcl'] = array(
 	'configure-edit-core' => 'Midya-Wiki',
 	'configure-edit-ext' => 'Mga panumpay',
 	'configure-viewconfig-default-diff' => 'Mga kaliwatan gikan sa panugmad na mga panuytoy',
+	'configure-ext-ext-dependencies' => "''Patanid:''' ining ekstensyon minakaipo kan minasunod na {{PLURAL:$2|ekstensyon|mga ekstensyon}} na pagpapaganahon: $1.",
+	'configure-ext-ext-dependency-err' => "'''Kasalaan:''' an $1 na ekstensyon minakaipo nin $2 na ekstensyon na pagpapaganahon.",
+	'configure-ext-doc' => 'Hilngon an onlayn na dokumentasyon',
+	'configure-ext-schemachange' => "'''Patanid:''' ining ekstensyon minakaipo nin sarong [http://www.mediawiki.org/wiki/Manual:Update.php kasumpayan kan datos-sarayan] tanganing makapagtrabaho nin tama!",
+	'configure-ext-settings' => 'Mga Panuytoy',
+	'configure-ext-use' => 'Gamiton',
+	'configure-form-reason' => 'Rason:',
+	'configure-customised' => "''Ining panuytoy sadyado nang kustomisado''",
+	'configure-arrayinput-oneperline' => "''(saro sa kada linya)''",
+	'configure-summary' => 'Ining espesyal na pahina minatugot na sunsayon ining wiki. Hilngon [http://www.mediawiki.org/wiki/Manual:Configuration_settings Kasunsayan nin mga panuytoy] para sa kadugangan na impormasyon.',
+	'configure-btn-save' => 'Itagama an mga panuytoy',
+	'configure-db-error' => 'An datos-sarayan na saimong pinagsambit na makapot kan kasunsayan ($1) bakong eksistido. Tabi man muknaon it asin iaplikar an configure.sql o korehiran an pangaran kaini.',
+	'configure-db-table-error' => 'An datos-sarayan na saimong pinagsambit mayo nin pinagkakaipong mga lamesa. Tabi man iaplikar an configure.sql sa datos-sarayan na yan.',
+	'configure-directory-not-writable' => 'An direktoryong pinaggamit sa pagtago nin mga panuytoy, <code>$1</code>, dae masusuratan. Tabi man himoon ining masusuratan sa paagi na an PHP gumamit kaining ekstensyon.',
 );
 
 /** Belarusian (беларуская)
