@@ -442,7 +442,8 @@ Followed by the "Wiki" selector form.',
 	'configure-select-wiki-view-desc' => 'The extensions "Configure" makes it possible to administer wiki configuration settings for multiple wikis, and keep different versions of it. This versies can be viewed.',
 	'configure-select-wiki-view-all' => 'Used as label for the radio button in [[Special:ViewConfig]].
 
-Followed by another radio button label {{msg-mw|Configure-select-wiki-view-specific}}.',
+Followed by another radio button label {{msg-mw|Configure-select-wiki-view-specific}}.
+{{Identical|All wikis}}',
 	'configure-select-wiki-view-specific' => 'Used as label for the radio button in [[Special:ViewConfig]].
 
 Preceded by another radio button label {{msg-mw|Configure-select-wiki-view-all}}.
