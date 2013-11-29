@@ -4100,6 +4100,7 @@ $messages['eo'] = array(
  * @author Academo
  * @author Armando-Martin
  * @author Crazymadlover
+ * @author Fitoschido
  * @author Giro720
  * @author Imre
  * @author Locos epraix
@@ -4180,7 +4181,7 @@ Por favor, créelo o cámbielo para usar esta extensión.',
 	'configure-section-email' => 'Correo electrónico',
 	'configure-section-enotif' => 'Notificación por correo electrónico',
 	'configure-section-localization' => 'Localización',
-	'configure-section-timezone' => 'Zona horaria',
+	'configure-section-timezone' => 'Huso horario',
 	'configure-section-debug' => 'Depuración',
 	'configure-section-profiling' => 'Retratando',
 	'configure-section-site' => 'Personalización del sitio',
@@ -5270,6 +5271,7 @@ $messages['gan-hant'] = array(
 );
 
 /** Galician (galego)
+ * @author Fitoschido
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -5344,7 +5346,7 @@ Por favor, créeo ou tróqueo para usar esta extensión.',
 	'configure-section-email' => 'Correo electrónico',
 	'configure-section-enotif' => 'Notificación por correo electrónico',
 	'configure-section-localization' => 'Localización',
-	'configure-section-timezone' => 'Zona horaria',
+	'configure-section-timezone' => 'Fuso horario',
 	'configure-section-debug' => 'Depurando',
 	'configure-section-profiling' => 'Facendo o perfil',
 	'configure-section-site' => 'Personalización do sitio',
