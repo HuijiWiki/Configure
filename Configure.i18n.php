@@ -1750,6 +1750,16 @@ Tabi man muknaon ini o liwaton ini tanganing magamit ining ekstensyon.',
 	'configure-section-sharedupload' => 'Pinagheras na ikinarga',
 	'configure-section-mime' => 'Mga tipo nin MIME',
 	'configure-section-images' => 'Mga sagunson',
+	'configure-section-antivirus' => 'Kontra-bayrus',
+	'configure-section-parser' => 'Parabangay',
+	'configure-section-specialpages' => 'Espesyal na mga pahina',
+	'configure-section-recentchanges' => 'Pinakahurihang mga kaliwatan',
+	'configure-section-users' => 'Mga Paragamit',
+	'configure-section-externalauth' => 'Panluwas na kapatunayan',
+	'configure-section-feed' => 'Ihungit',
+	'configure-section-job' => 'Mga Trabaho',
+	'configure-section-search' => 'Hanapon',
+	'configure-section-copyright' => 'Katanosan sa panurat',
 );
 
 /** Belarusian (беларуская)
@@ -9247,12 +9257,13 @@ $messages['ml'] = array(
 
 /** Mongolian (монгол)
  * @author Chinneeb
+ * @author MongolWiki
  */
 $messages['mn'] = array(
 	'configure-desc-ns' => 'Нэрний зай',
 	'configure-section-timezone' => 'Цагийн бүс',
 	'configure-section-namespaces' => 'Нэрний зайнууд',
-	'configure-section-category' => 'Ангиллууд',
+	'configure-section-category' => 'Ангилал',
 	'configure-section-specialpages' => 'Тусгай хуудсууд',
 	'configure-section-search' => 'Хайх',
 	'configure-throttle-action-rollback' => 'Буцаах',
