@@ -3509,6 +3509,7 @@ Bitte erstellen oder ändern Sie es, damit Sie diese Erweiterung nutzen können.
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
  * @author Gorizon
+ * @author Marmase
  * @author Mirzali
  */
 $messages['diq'] = array(
@@ -3562,7 +3563,7 @@ $messages['diq'] = array(
 	'configure-section-antivirus' => 'Antivirus',
 	'configure-section-parser' => 'Agozner',
 	'configure-section-specialpages' => 'Peley xısusi',
-	'configure-section-recentchanges' => 'Vurnayışê peyêni',
+	'configure-section-recentchanges' => 'Vırnayışé bahdoyéni',
 	'configure-section-users' => 'Karberi',
 	'configure-section-feed' => 'Warikerdış',
 	'configure-section-job' => 'Gırwey',
