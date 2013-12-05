@@ -4556,7 +4556,7 @@ $messages['fa'] = array(
 	'configure-edit-old' => "'''هشدار''': شما در حال ویرایش یک نسخهٔ <strong>قدیمی</strong> از پیکربندی هستید (به تاریخ $1).",
 	'configure-error' => 'پیکربندی نمی‌تواند ذخیره شود',
 	'configure-js-add' => 'افزودن ورودی جدید',
-	'configure-js-group-exists' => 'خطا: این گروه درحال حاضر موجود می باشد.',
+	'configure-js-group-exists' => 'خطا: این گروه درحال حاضر موجود است.',
 	'configure-js-prompt-group' => 'نام گروه جدید را وارد کنید:',
 	'configure-js-remove' => 'حذف',
 	'configure-js-remove-row' => 'حذف این مطلب',
@@ -4676,7 +4676,7 @@ $messages['fa'] = array(
 	'configure-condition-description-6' => 'محدوده آیپی کاربر $1 است',
 	'configure-boolop-description-and' => 'تمامی شرایط باید درست باشند.',
 	'configure-boolop-description-or' => 'حداقل یک شرط باید درست باشند.',
-	'configure-boolop-description-not' => 'هیچ شرطی درست نمی باشد.',
+	'configure-boolop-description-not' => 'هیچ شرطی درست نیست.',
 );
 
 /** Finnish (suomi)
