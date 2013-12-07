@@ -2858,7 +2858,7 @@ $messages['ckb'] = array(
 	'configure-throttle-action-move' => 'گواستنەوە',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author BodminPill
  * @author Danny B.
  * @author Jkjk
@@ -3054,7 +3054,7 @@ Abyste mohli používat toto rozšíření, vytvořte ho nebo změňte konfigura
 	'configure-farmer-extensions-list' => '[[Special:Extensions|Vypsat rozšíření dostupná pro tuto wiki]].',
 );
 
-/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
