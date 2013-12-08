@@ -2825,6 +2825,7 @@ $messages['ce'] = array(
 	'configure-old-changes' => 'хийцам',
 	'configure-backlink' => 'Чуйокху форме гӀо',
 	'configure-section-category' => 'Категореш',
+	'configure-section-groups' => 'Тобанаш',
 	'configure-section-upload' => 'Чуйолуш',
 	'configure-section-recentchanges' => 'Керла нисдарш',
 	'configure-section-users' => 'Декъашхой',
