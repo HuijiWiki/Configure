@@ -8178,7 +8178,7 @@ Leet se w.e.g. un a féiert configure.sql doran aus oder verbessert hiren Numm."
 Ännert dat w.e.g. sou datt e mat PHP dra schreiwe kann fir dës Erweiderung ze benotzen.",
 	'configure-edit-old' => "'''Passt op''': Dir ännert eng <strong>al</strong> Versioun vun der Konfiguratioun (sou wéi den $1).",
 	'configure-error' => "D'Konfiguratioun konnt net gespäichert ginn",
-	'configure-js-add' => 'Eng nei Entrée dobäisetzen',
+	'configure-js-add' => 'Eng nei Entrée derbäisetzen',
 	'configure-js-group-exists' => 'Feeler: de Grupp gëtt et schonn.',
 	'configure-js-prompt-group' => 'Gitt den Numm vum Grupp an:',
 	'configure-js-remove' => 'Läschen',
