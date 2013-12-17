@@ -2828,6 +2828,7 @@ $messages['ce'] = array(
 	'configure-section-category' => 'Категореш',
 	'configure-section-groups' => 'Тобанаш',
 	'configure-section-upload' => 'Чуйолуш',
+	'configure-section-specialpages' => 'Белхан агӀонаш',
 	'configure-section-recentchanges' => 'Керла нисдарш',
 	'configure-section-users' => 'Декъашхой',
 	'configure-section-search' => 'Лаха',
