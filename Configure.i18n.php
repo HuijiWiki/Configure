@@ -12918,6 +12918,7 @@ $messages['so'] = array(
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
  * @author Nikola Smolenski
  * @author Rancher
  * @author Sasa Stefanovic
@@ -12944,6 +12945,7 @@ $messages['sr-ec'] = array(
 	'configure-ext-use-extension' => 'Користи ову екстензију',
 	'configure-ext-use' => 'Користи',
 	'configure-form-reason' => 'Разлог:',
+	'configure-arrayinput-oneperline' => "''(један по линији)''",
 	'configure-summary' => 'Ова посебна страница вам омогућава да конфигуришете овај вики. Погледајте [http://www.mediawiki.org/wiki/Manual:Configuration_settings Конфигурациона подешавања] за више података',
 	'configure-btn-save' => 'Сачувај поставке',
 	'configure-edit-old' => "'''Упозорење:''' мењате <strong>стару</strong> верзију подешавања (од $1)",
