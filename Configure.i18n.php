@@ -12358,6 +12358,13 @@ $messages['scn'] = array(
 	'configure-throttle-action-edit' => 'Cancia',
 );
 
+/** Samogitian (žemaitėška)
+ * @author Hugo.arg
+ */
+$messages['sgs'] = array(
+	'configure-section-search' => 'Ėiškuotė',
+);
+
 /** Sinhala (සිංහල)
  * @author Singhalawap
  * @author පසිඳු කාවින්ද
