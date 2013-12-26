@@ -2818,6 +2818,7 @@ $messages['ce'] = array(
 	'configure-desc-val' => 'МаьӀна',
 	'configure-ext-settings-dep-error' => '$1: оьшуш долу маьӀна: $2, карара маьӀна: $3',
 	'configure-form-reason' => 'Бахьан:',
+	'configure-customised' => "''ХӀара нисдар хийцина''",
 	'configure-js-add' => 'ТӀетоха керла дӀаяздар',
 	'configure-js-prompt-group' => 'ДӀаязъе керла тобан цӀе:',
 	'configure-js-remove' => 'ДӀаяккха',
