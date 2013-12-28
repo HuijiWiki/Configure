@@ -15022,6 +15022,13 @@ $messages['yi'] = array(
 	'configure-condition-description-3' => 'ע-פּאָסט באַשטעטיקט',
 );
 
+/** Yoruba (Yorùbá)
+ * @author Demmy
+ */
+$messages['yo'] = array(
+	'configure-edit-core' => 'MediaWiki',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Liangent
