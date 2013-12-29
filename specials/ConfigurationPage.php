@@ -61,7 +61,7 @@ abstract class ConfigurationPage extends SpecialPage {
 				}
 				if ( is_array( $wgConfigureWikis ) && !in_array( $wiki, $wgConfigureWikis ) ) {
 					$this->getOutput()->wrapWikiMsg( '<div class="errorbox"><strong>$1</strong></div>',
-						array( 'configure-transwiki-not-in-range', $wiki, $this->getLang()->commaList( $wgConfigureWikis ), count( $wgConfigureWikis ) ) );
+						array( 'configure-transwiki-not-in-range', $wiki, $this->getLanguage()->commaList( $wgConfigureWikis ), count( $wgConfigureWikis ) ) );
 					return;
 				}
 			}
@@ -306,7 +306,7 @@ abstract class ConfigurationPage extends SpecialPage {
 	 * Show "you are editing old version" message
 	 */
 	protected function showOldVersionMessage( $version ) {
-		$lang = $this->getLang();
+		$lang = $this->getLanguage();
 		$this->getOutput()->addWikiMsg( 'configure-edit-old',
 			$lang->timeanddate( $version ),
 			$lang->date( $version ),
@@ -371,7 +371,7 @@ abstract class ConfigurationPage extends SpecialPage {
 
 		$versions = $wgConf->getArchiveVersions( array( 'wiki' => $this->mWiki, 'limit' => 11 ) );
 		$title = $this->getPageTitle();
-		$lang = $this->getLang();
+		$lang = $this->getLanguage();
 		$prev = null;
 
 		ksort( $versions ); ## Put in ascending order for now.

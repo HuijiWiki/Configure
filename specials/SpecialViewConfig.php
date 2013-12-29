@@ -138,7 +138,7 @@ class SpecialViewConfig extends ConfigurationPage {
 
 		extract( $this->formatConf );
 
-		$lang = $this->getLang();
+		$lang = $this->getLanguage();
 		$datime = $lang->timeanddate( $ts );
 		$date = $lang->date( $ts );
 		$time = $lang->time( $ts );
