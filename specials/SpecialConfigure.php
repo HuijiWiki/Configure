@@ -38,7 +38,7 @@ class SpecialConfigure extends ConfigurationPage {
 		$ok = $wgConf->saveNewSettings( $settings, $this->getUser(), $this->mWiki, $reason );
 		$result = $ok ? 'success' : 'failure';
 
-		$url = $this->getTitle()->getLocalURL( "result=$result" );
+		$url = $this->getPageTitle()->getLocalURL( "result=$result" );
 		$this->getOutput()->redirect( $url );
 	}
 

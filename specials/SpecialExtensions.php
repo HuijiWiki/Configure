@@ -40,7 +40,7 @@ class SpecialExtensions extends ConfigurationPage {
 
 		$result = $ok ? 'success' : 'failure';
 
-		$this->getOutput()->redirect( $this->getTitle()->getFullURL( "result=$result" ) );
+		$this->getOutput()->redirect( $this->getPageTitle()->getFullURL( "result=$result" ) );
 	}
 
 	/**

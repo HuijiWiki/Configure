@@ -292,7 +292,7 @@ abstract class ConfigurationPage extends SpecialPage {
 		$out->wrapWikiMsg( Html::rawElement( 'div', array( 'class' => $class ), '$1' ), $msg );
 
 		$out->addHTML( Html::rawElement( 'p', array( 'style' => 'clear:both;' ),
-			Linker::link( $this->getTitle(), $this->msg( 'configure-backlink' )->parse() ) ) );
+			Linker::link( $this->getPageTitle(), $this->msg( 'configure-backlink' )->parse() ) ) );
 	}
 
 	/**
@@ -370,7 +370,7 @@ abstract class ConfigurationPage extends SpecialPage {
 		$links = array();
 
 		$versions = $wgConf->getArchiveVersions( array( 'wiki' => $this->mWiki, 'limit' => 11 ) );
-		$title = $this->getTitle();
+		$title = $this->getPageTitle();
 		$lang = $this->getLang();
 		$prev = null;
 
@@ -447,7 +447,7 @@ abstract class ConfigurationPage extends SpecialPage {
 		$form = Html::element( 'legend', array(), $this->msg( 'configure-select-wiki' )->text() );
 		$form .= $this->msg( 'configure-select-wiki-desc' )->parseAsBlock();
 		$form .= Html::openElement( 'form', array( 'method' => 'get', 'action' => $wgScript ) );
-		$form .= Html::hidden( 'title', $this->getTitle()->getPrefixedDBkey() );
+		$form .= Html::hidden( 'title', $this->getPageTitle()->getPrefixedDBkey() );
 		if ( is_array( $wgConfigureWikis ) ) {
 			$selector = new XmlSelect( 'wiki', 'wiki', $this->mWiki );
 			foreach( $wgConfigureWikis as $wiki ) {
@@ -842,7 +842,7 @@ abstract class ConfigurationPage extends SpecialPage {
 			( $this->mCanEdit ?
 				$this->getWikiSelectForm() .
 				Html::openElement( 'form', array( 'method' => 'post',
-					'action' => $this->getTitle()->getLocalURL(), 'id' => 'configure-form' ) ) . "\n" :
+					'action' => $this->getPageTitle()->getLocalURL(), 'id' => 'configure-form' ) ) . "\n" :
 				Html::openElement( 'div', array( 'id' => 'configure-form' ) )
 			) .
 			$this->buildOldVersionSelect() . "\n" .

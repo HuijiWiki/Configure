@@ -84,7 +84,7 @@ class SpecialViewConfig extends ConfigurationPage {
 	protected function buildOldVersionSelect() {
 		global $wgConf, $wgScript;
 
-		$self = $this->getTitle();
+		$self = $this->getPageTitle();
 		$pager = $wgConf->getPager();
 		$pager->setFormatCallback( array( $this, 'formatVersionRow' ) );
 
@@ -223,7 +223,7 @@ class SpecialViewConfig extends ConfigurationPage {
 					array( 'type' => 'radio', 'name' => 'version', 'value' => $ts ),
 					$versionCheck ) );
 
-			$actions[] = Linker::link( $this->getTitle(), $this->msg( 'configure-viewconfig-default-diff' )->escaped(),
+			$actions[] = Linker::link( $this->getPageTitle(), $this->msg( 'configure-viewconfig-default-diff' )->escaped(),
 				array(), array( 'version' => $ts, 'diff' => 'default' ) );
 		} else {
 			$buttons = '';
@@ -248,7 +248,7 @@ class SpecialViewConfig extends ConfigurationPage {
 		$form = '<fieldset><legend>' . $this->msg( 'configure-select-wiki' )->escaped() . '</legend>';
 		$form .= $this->msg( 'configure-select-wiki-view-desc' )->parseAsBlock();
 		$form .= Xml::openElement( 'form', array( 'method' => 'get', 'action' => $wgScript ) );
-		$form .= Html::Hidden( 'title', $this->getTitle()->getPrefixedDBkey() );
+		$form .= Html::Hidden( 'title', $this->getPageTitle()->getPrefixedDBkey() );
 		$all = ( $this->getRequest()->getVal( 'view', 'all' ) == 'all' );
 		$form .= Xml::radioLabel( $this->msg( 'configure-select-wiki-view-all' )->text(), 'view', 'all', 'wiki-all', $all );
 		$form .= "<br />\n";
