@@ -1789,12 +1789,12 @@ $messages['be-tarask'] = array(
 	'configure-edit-core' => 'MediaWiki',
 	'configure-edit-ext' => 'Пашырэньні',
 	'configure-viewconfig-default-diff' => 'Зьмены ў параўнаньні з наладамі па змоўчваньні',
-	'configure-ext-ext-dependencies' => "'''Папярэджаньне:''' гэтак пашырэньне патрабуе актывацыі {{PLURAL:$2|наступнага пашырэньня|наступных пашырэньняў}}: $1.",
+	'configure-ext-ext-dependencies' => "'''Папярэджаньне:''' гэтак пашырэньне патрабуе актывацыі {{PLURAL:$2|1=наступнага пашырэньня|наступных пашырэньняў}}: $1.", # Fuzzy
 	'configure-ext-ext-dependency-err' => "'''Памылка:''' пашырэньне $1 патрабуе актывацыі пашырэньня $2.",
 	'configure-ext-doc' => 'Глядзіце дакумэнтацыю',
 	'configure-ext-schemachange' => "'''Папярэджаньне:''' для карэктнай працы гэтага пашырэньня патрабуецца [http://www.mediawiki.org/wiki/Manual:Update.php абнаўленьне базы зьвестак]!",
 	'configure-ext-settings' => 'Налады',
-	'configure-ext-settings-dep-errors' => 'Гэта пашырэньне ня можа быць уключана з-за таго, што {{PLURAL:$1|наступная налада мае няслушнае значэньне|наступныя налады маюць няслушныя значэньні}}:',
+	'configure-ext-settings-dep-errors' => 'Гэта пашырэньне ня можа быць уключана з-за таго, што {{PLURAL:$1|1=наступная налада мае няслушнае значэньне|наступныя налады маюць няслушныя значэньні}}:', # Fuzzy
 	'configure-ext-settings-dep-error' => '$1: патрабуемае значэньне: $2, цяперашняе значэньне: $3',
 	'configure-ext-use-extension' => 'Выкарыстоўваць гэтае пашырэньне',
 	'configure-ext-use' => 'Выкарыстоўваць',
@@ -1902,7 +1902,7 @@ $messages['be-tarask'] = array(
 	'configure-select-wiki-view-specific' => 'Пэўная вікі:',
 	'configure-select-wiki-submit' => 'Выбраць',
 	'configure-setting-not-available' => 'Гэтая налада недаступная ў гэтай вэрсіі MediaWiki',
-	'configure-transwiki-not-in-range' => 'Выбраная вікі $1 не дазваляе {{PLURAL:$3|значэньне|значэньні}}: $2.',
+	'configure-transwiki-not-in-range' => 'Выбраная вікі $1 не дазваляе {{PLURAL:$3|1=значэньне|значэньні}}: $2.', # Fuzzy
 	'configure-view' => 'Паказаць',
 	'configure-view-all-versions' => 'Поўны сьпіс вэрсіяў',
 	'configure-view-default' => 'Налады па змоўчваньні',
@@ -2843,8 +2843,8 @@ $messages['ce'] = array(
 	'configure-throttle-group-anon' => 'Массо цӀе хьулйина декъашхой',
 	'configure-throttle-group' => 'Тайп',
 	'configure-condition-name-2' => 'Декъашхочун дӀаяздаран уггар кӀезиг хан',
-	'configure-condition-description-2' => 'Декъашхочун дӀаяздаран уггар кӀезиг хан $1 {{PLURAL:$1|секунд|секундаш}}',
-	'configure-condition-description-7' => 'Декъашхочун дӀаяздаран уггар кӀезиг хан $1 {{PLURAL:$1|секунда|секундаш}} дуьххьар дина нисдарал тӀехьа',
+	'configure-condition-description-2' => 'Декъашхочун дӀаяздаран уггар кӀезиг хан $1 {{PLURAL:$1|1=секунд|секундаш}}', # Fuzzy
+	'configure-condition-description-7' => 'Декъашхочун дӀаяздаран уггар кӀезиг хан $1 {{PLURAL:$1|1=секунда|секундаш}} дуьххьар дина нисдарал тӀехьа', # Fuzzy
 );
 
 /** Chamorro (Chamoru)
@@ -12148,12 +12148,12 @@ $messages['ru'] = array(
 	'configure-edit-core' => 'MediaWiki',
 	'configure-edit-ext' => 'Расширения',
 	'configure-viewconfig-default-diff' => 'Изменения по сравнению с настройками по умолчанию',
-	'configure-ext-ext-dependencies' => "'''Внимание.''' Для этого расширения необходимо активировать {{PLURAL:$2|следующее расширение|следующие расширения}}: $1.",
+	'configure-ext-ext-dependencies' => "'''Внимание.''' Для этого расширения необходимо активировать {{PLURAL:$2|1=следующее расширение|следующие расширения}}: $1.", # Fuzzy
 	'configure-ext-ext-dependency-err' => "'''Ошибка.''' Расширение $1 требует активации расширения $2.",
 	'configure-ext-doc' => 'Смотрите документацию в сети',
 	'configure-ext-schemachange' => "'''Внимание.''' Для корректной работы этого расширения необходимо [http://www.mediawiki.org/wiki/Manual:Update.php обновление базы данных]!",
 	'configure-ext-settings' => 'Настройки',
-	'configure-ext-settings-dep-errors' => 'Это расширение не может быть включено из-за {{PLURAL:$1|следующей настройки с неприемлемым значением|следующих настроек с неприемлемыми значениями}} :',
+	'configure-ext-settings-dep-errors' => 'Это расширение не может быть включено из-за {{PLURAL:$1|1=следующей настройки с неприемлемым значением|следующих настроек с неприемлемыми значениями}} :', # Fuzzy
 	'configure-ext-settings-dep-error' => '$1: требуемое значение: $2, текущее значение: $3',
 	'configure-ext-use-extension' => 'Использовать это расширение',
 	'configure-ext-use' => 'Использовать',
@@ -12262,7 +12262,7 @@ $messages['ru'] = array(
 	'configure-select-wiki-view-specific' => 'Конкретная вики:',
 	'configure-select-wiki-submit' => 'Выбрать',
 	'configure-setting-not-available' => 'Эта настройка недоступна в этой версии MediaWiki',
-	'configure-transwiki-not-in-range' => 'Запрашиваемая вики, $1, не допускает {{PLURAL:$3|значение|значения}}: $2.',
+	'configure-transwiki-not-in-range' => 'Запрашиваемая вики, $1, не допускает {{PLURAL:$3|1=значение|значения}}: $2.', # Fuzzy
 	'configure-view' => 'Просмотр',
 	'configure-view-all-versions' => 'Полный список версий',
 	'configure-view-default' => 'Настройки по умолчанию',
@@ -12311,12 +12311,12 @@ $messages['ru'] = array(
 	'configure-condition-name-7' => 'Минимальный возраст после первой правки',
 	'configure-autopromote-noconds' => 'Нет требований',
 	'configure-condition-description-1' => 'Минимальное число правок $1',
-	'configure-condition-description-2' => 'Минимальный возраст учётной записи $1 {{PLURAL:$1|секунда|секунды|секунд}}',
+	'configure-condition-description-2' => 'Минимальный возраст учётной записи $1 {{PLURAL:$1|секунда|секунд|секунды}}', # Fuzzy
 	'configure-condition-description-3' => 'Подтверждённый адрес электронной почты',
 	'configure-condition-description-4' => 'Во всех группах $1',
 	'configure-condition-description-5' => 'IP-адрес участника — $1',
 	'configure-condition-description-6' => 'IP-адреса участника в диапазоне $1',
-	'configure-condition-description-7' => 'Минимальный возраст учётной записи $1 {{PLURAL:$1|секунда|секунды|секунд}} после первой правки',
+	'configure-condition-description-7' => 'Минимальный возраст учётной записи $1 {{PLURAL:$1|секунда|секунд|секунды}} после первой правки', # Fuzzy
 	'configure-boolop-description-and' => 'Все условия должны быть истинны',
 	'configure-boolop-description-or' => 'По крайней мере, одно условие должно быть истиной',
 	'configure-boolop-description-xor' => 'Только одно условие должно быть истиной',
@@ -12987,12 +12987,12 @@ $messages['sr-ec'] = array(
 	'configure-desc-val' => 'Вредност',
 	'configure-edit-core' => 'МедијаВики',
 	'configure-edit-ext' => 'Екстензије',
-	'configure-ext-ext-dependencies' => "'''Упозорење:''' ово проширење захтева {{PLURAL:$2|следеће проширење|следећа проширења}} да би било омогућено: $1.",
+	'configure-ext-ext-dependencies' => "'''Упозорење:''' ово проширење захтева {{PLURAL:$2|1=следеће проширење|следећа проширења}} да би било омогућено: $1.", # Fuzzy
 	'configure-ext-ext-dependency-err' => "'''Грешка:''' $1 проширењу је потребно $2 проширење да би било омогућено.",
 	'configure-ext-doc' => 'Види онлајн документацију',
 	'configure-ext-schemachange' => "'''Упозорење:''' овом проширењу је потребно [http://www.mediawiki.org/wiki/Manual:Update.php ажурирање базе података] како би исправно радило!",
 	'configure-ext-settings' => 'Подешавања',
-	'configure-ext-settings-dep-errors' => 'Ово проширење не може бити омогућено јер {{PLURAL:$1|следећа поставка има|следеће поставке имају}} неприхватљиву вредност:',
+	'configure-ext-settings-dep-errors' => 'Ово проширење не може бити омогућено јер {{PLURAL:$1|1=следећа поставка има|следеће поставке имају}} неприхватљиву вредност:', # Fuzzy
 	'configure-ext-settings-dep-error' => '$1: захтевана вредност: $2, тренутна вредност: $3',
 	'configure-ext-use-extension' => 'Користи ову екстензију',
 	'configure-ext-use' => 'Користи',
@@ -13096,7 +13096,7 @@ $messages['sr-ec'] = array(
 	'configure-select-wiki-view-specific' => 'Одређена Вики:',
 	'configure-select-wiki-submit' => 'Изабери',
 	'configure-setting-not-available' => 'Поставка није доступна у овој верзији Медијавикија',
-	'configure-transwiki-not-in-range' => 'Захтевани Вики, $1, није {{PLURAL:$3|дозвољена вредност|међу дозвољеним вредностима}}: $2.',
+	'configure-transwiki-not-in-range' => 'Захтевани Вики, $1, није {{PLURAL:$3|1=дозвољена вредност|међу дозвољеним вредностима}}: $2.', # Fuzzy
 	'configure-view' => 'Преглед',
 	'configure-view-all-versions' => 'Потпун списак верзија',
 	'configure-view-default' => 'Подразумевана подешавања',
@@ -13164,12 +13164,12 @@ $messages['sr-el'] = array(
 	'configure-desc-val' => 'Vrednost',
 	'configure-edit-core' => 'MedijaViki',
 	'configure-edit-ext' => 'Ekstenzije',
-	'configure-ext-ext-dependencies' => "'''Upozorenje:''' ovo proširenje zahteva {{PLURAL:$2|sledeće proširenje|sledeća proširenja}} da bi bilo omogućeno: $1.",
+	'configure-ext-ext-dependencies' => "'''Upozorenje:''' ovo proširenje zahteva {{PLURAL:$2|1=sledeće proširenje|sledeća proširenja}} da bi bilo omogućeno: $1.", # Fuzzy
 	'configure-ext-ext-dependency-err' => "'''Greška:''' $1 proširenju je potrebno $2 proširenje da bi bilo omogućeno.",
 	'configure-ext-doc' => 'Vidi onlajn dokumentaciju',
 	'configure-ext-schemachange' => "'''Upozorenje:''' ovom proširenju je potrebno [http://www.mediawiki.org/wiki/Manual:Update.php ažuriranje baze podataka] kako bi ispravno radilo!",
 	'configure-ext-settings' => 'Podešavanja',
-	'configure-ext-settings-dep-errors' => 'Ovo proširenje ne može biti omogućeno jer {{PLURAL:$1|sledeća postavka ima|sledeće postavke imaju}} neprihvatljivu vrednost:',
+	'configure-ext-settings-dep-errors' => 'Ovo proširenje ne može biti omogućeno jer {{PLURAL:$1|1=sledeća postavka ima|sledeće postavke imaju}} neprihvatljivu vrednost:', # Fuzzy
 	'configure-ext-settings-dep-error' => '$1: zahtevana vrednost: $2, trenutna vrednost: $3',
 	'configure-ext-use-extension' => 'Koristi ovu ekstenziju',
 	'configure-ext-use' => 'Koristi',
@@ -13272,7 +13272,7 @@ Molimo Vas da ga napravite ili ga promenite kako biste koristili ovu ekstenziju.
 	'configure-select-wiki-view-specific' => 'Određena Viki:',
 	'configure-select-wiki-submit' => 'Izaberi',
 	'configure-setting-not-available' => 'Ov podešavanje nije moguće na ovoj verziki MedijaVikija',
-	'configure-transwiki-not-in-range' => 'Zahtevani Viki, $1, nije {{PLURAL:$3|dozvoljena vrednost|među dozvoljenim vrednostima}}: $2.',
+	'configure-transwiki-not-in-range' => 'Zahtevani Viki, $1, nije {{PLURAL:$3|1=dozvoljena vrednost|među dozvoljenim vrednostima}}: $2.', # Fuzzy
 	'configure-view' => 'Pregled',
 	'configure-view-all-versions' => 'Potpun spisak verzija',
 	'configure-view-default' => 'Podrazumevana podešavanja',
@@ -14462,6 +14462,7 @@ $messages['ug-latn'] = array(
 /** Ukrainian (українська)
  * @author AS
  * @author Ahonc
+ * @author Andriykopanytsia
  * @author Base
  * @author NickK
  * @author Olvin
@@ -14479,12 +14480,12 @@ $messages['uk'] = array(
 	'configure-edit-core' => 'MediaWiki',
 	'configure-edit-ext' => 'Розширення',
 	'configure-viewconfig-default-diff' => 'Зміни порівняно зі стандартними налаштуваннями',
-	'configure-ext-ext-dependencies' => "'''Увага:''' це розширення вимагає активації {{PLURAL:$2|такого розширення|таких розширень}}: $1.",
+	'configure-ext-ext-dependencies' => "'''Увага:''' це розширення вимагає активації {{PLURAL:$2|1=такого розширення|таких розширень}}: $1.",
 	'configure-ext-ext-dependency-err' => "'''Помилка:''' розширення $1 вимагає активації розширення $2.",
 	'configure-ext-doc' => 'Див. документацію в мережі',
 	'configure-ext-schemachange' => "'''Увага:''' це розширення вимагає [http://www.mediawiki.org/wiki/Manual:Update.php оновлення бази даних] для коректної роботи!",
 	'configure-ext-settings' => 'Налаштування',
-	'configure-ext-settings-dep-errors' => 'Це розширення не може бути активовано, тому що {{PLURAL:$1|наступний параметр має|наступні параметри мають}} неприйнятне значення:',
+	'configure-ext-settings-dep-errors' => 'Це розширення не може бути активовано, тому що {{PLURAL:$1|1=наступний параметр має|наступні параметри мають}} неприйнятне значення:',
 	'configure-ext-settings-dep-error' => '$1: необхідне значення: $2, поточне значення: $3',
 	'configure-ext-use-extension' => 'Використовувати це розширення',
 	'configure-ext-use' => 'Використовувати',
