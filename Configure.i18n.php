@@ -12148,12 +12148,12 @@ $messages['ru'] = array(
 	'configure-edit-core' => 'MediaWiki',
 	'configure-edit-ext' => 'Расширения',
 	'configure-viewconfig-default-diff' => 'Изменения по сравнению с настройками по умолчанию',
-	'configure-ext-ext-dependencies' => "'''Внимание.''' Для этого расширения необходимо активировать {{PLURAL:$2|1=следующее расширение|следующие расширения}}: $1.", # Fuzzy
+	'configure-ext-ext-dependencies' => "'''Внимание.''' Для этого расширения необходимо активировать {{PLURAL:$2|1=следующее расширение|следующие расширения}}: $1.",
 	'configure-ext-ext-dependency-err' => "'''Ошибка.''' Расширение $1 требует активации расширения $2.",
 	'configure-ext-doc' => 'Смотрите документацию в сети',
 	'configure-ext-schemachange' => "'''Внимание.''' Для корректной работы этого расширения необходимо [http://www.mediawiki.org/wiki/Manual:Update.php обновление базы данных]!",
 	'configure-ext-settings' => 'Настройки',
-	'configure-ext-settings-dep-errors' => 'Это расширение не может быть включено из-за {{PLURAL:$1|1=следующей настройки с неприемлемым значением|следующих настроек с неприемлемыми значениями}} :', # Fuzzy
+	'configure-ext-settings-dep-errors' => 'Это расширение не может быть включено из-за {{PLURAL:$1|1=следующей настройки с неприемлемым значением|следующих настроек с неприемлемыми значениями}}:',
 	'configure-ext-settings-dep-error' => '$1: требуемое значение: $2, текущее значение: $3',
 	'configure-ext-use-extension' => 'Использовать это расширение',
 	'configure-ext-use' => 'Использовать',
@@ -12262,7 +12262,7 @@ $messages['ru'] = array(
 	'configure-select-wiki-view-specific' => 'Конкретная вики:',
 	'configure-select-wiki-submit' => 'Выбрать',
 	'configure-setting-not-available' => 'Эта настройка недоступна в этой версии MediaWiki',
-	'configure-transwiki-not-in-range' => 'Запрашиваемая вики, $1, не допускает {{PLURAL:$3|1=значение|значения}}: $2.', # Fuzzy
+	'configure-transwiki-not-in-range' => 'Запрашиваемая вики, $1, не допускает {{PLURAL:$3|1=значение|значения}}: $2.',
 	'configure-view' => 'Просмотр',
 	'configure-view-all-versions' => 'Полный список версий',
 	'configure-view-default' => 'Настройки по умолчанию',
@@ -12311,12 +12311,12 @@ $messages['ru'] = array(
 	'configure-condition-name-7' => 'Минимальный возраст после первой правки',
 	'configure-autopromote-noconds' => 'Нет требований',
 	'configure-condition-description-1' => 'Минимальное число правок $1',
-	'configure-condition-description-2' => 'Минимальный возраст учётной записи $1 {{PLURAL:$1|секунда|секунд|секунды}}', # Fuzzy
+	'configure-condition-description-2' => 'Минимальный возраст учётной записи $1 {{PLURAL:$1|секунда|секунд|секунды}}',
 	'configure-condition-description-3' => 'Подтверждённый адрес электронной почты',
 	'configure-condition-description-4' => 'Во всех группах $1',
 	'configure-condition-description-5' => 'IP-адрес участника — $1',
 	'configure-condition-description-6' => 'IP-адреса участника в диапазоне $1',
-	'configure-condition-description-7' => 'Минимальный возраст учётной записи $1 {{PLURAL:$1|секунда|секунд|секунды}} после первой правки', # Fuzzy
+	'configure-condition-description-7' => 'Минимальный возраст учётной записи $1 {{PLURAL:$1|секунда|секунд|секунды}} после первой правки',
 	'configure-boolop-description-and' => 'Все условия должны быть истинны',
 	'configure-boolop-description-or' => 'По крайней мере, одно условие должно быть истиной',
 	'configure-boolop-description-xor' => 'Только одно условие должно быть истиной',
