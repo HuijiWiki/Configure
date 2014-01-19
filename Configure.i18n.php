@@ -12988,12 +12988,12 @@ $messages['sr-ec'] = array(
 	'configure-desc-val' => 'Вредност',
 	'configure-edit-core' => 'МедијаВики',
 	'configure-edit-ext' => 'Екстензије',
-	'configure-ext-ext-dependencies' => "'''Упозорење:''' ово проширење захтева {{PLURAL:$2|1=следеће проширење|следећа проширења}} да би било омогућено: $1.", # Fuzzy
+	'configure-ext-ext-dependencies' => "'''Упозорење:''' ово проширење захтева {{PLURAL:$2|следеће проширење|следећа проширења}} да би било омогућено: $1.",
 	'configure-ext-ext-dependency-err' => "'''Грешка:''' $1 проширењу је потребно $2 проширење да би било омогућено.",
 	'configure-ext-doc' => 'Види онлајн документацију',
 	'configure-ext-schemachange' => "'''Упозорење:''' овом проширењу је потребно [http://www.mediawiki.org/wiki/Manual:Update.php ажурирање базе података] како би исправно радило!",
 	'configure-ext-settings' => 'Подешавања',
-	'configure-ext-settings-dep-errors' => 'Ово проширење не може бити омогућено јер {{PLURAL:$1|1=следећа поставка има|следеће поставке имају}} неприхватљиву вредност:', # Fuzzy
+	'configure-ext-settings-dep-errors' => 'Ово проширење не може бити омогућено јер {{PLURAL:$1|следећа поставка има|следеће поставке имају}} неприхватљиву вредност:',
 	'configure-ext-settings-dep-error' => '$1: захтевана вредност: $2, тренутна вредност: $3',
 	'configure-ext-use-extension' => 'Користи ову екстензију',
 	'configure-ext-use' => 'Користи',
@@ -13097,7 +13097,7 @@ $messages['sr-ec'] = array(
 	'configure-select-wiki-view-specific' => 'Одређена Вики:',
 	'configure-select-wiki-submit' => 'Изабери',
 	'configure-setting-not-available' => 'Поставка није доступна у овој верзији Медијавикија',
-	'configure-transwiki-not-in-range' => 'Захтевани Вики, $1, није {{PLURAL:$3|1=дозвољена вредност|међу дозвољеним вредностима}}: $2.', # Fuzzy
+	'configure-transwiki-not-in-range' => 'Захтевани Вики, $1, није {{PLURAL:$3|дозвољена вредност|међу дозвољеним вредностима}}: $2.',
 	'configure-view' => 'Преглед',
 	'configure-view-all-versions' => 'Потпун списак верзија',
 	'configure-view-default' => 'Подразумевана подешавања',
@@ -13152,6 +13152,7 @@ $messages['sr-ec'] = array(
 
 /** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
+ * @author Milicevic01
  * @author Rancher
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
@@ -13165,12 +13166,12 @@ $messages['sr-el'] = array(
 	'configure-desc-val' => 'Vrednost',
 	'configure-edit-core' => 'MedijaViki',
 	'configure-edit-ext' => 'Ekstenzije',
-	'configure-ext-ext-dependencies' => "'''Upozorenje:''' ovo proširenje zahteva {{PLURAL:$2|1=sledeće proširenje|sledeća proširenja}} da bi bilo omogućeno: $1.", # Fuzzy
+	'configure-ext-ext-dependencies' => "'''Upozorenje:''' ovo proširenje zahteva {{PLURAL:$2|sledeće proširenje|sledeća proširenja}} da bi bilo omogućeno: $1.",
 	'configure-ext-ext-dependency-err' => "'''Greška:''' $1 proširenju je potrebno $2 proširenje da bi bilo omogućeno.",
 	'configure-ext-doc' => 'Vidi onlajn dokumentaciju',
 	'configure-ext-schemachange' => "'''Upozorenje:''' ovom proširenju je potrebno [http://www.mediawiki.org/wiki/Manual:Update.php ažuriranje baze podataka] kako bi ispravno radilo!",
 	'configure-ext-settings' => 'Podešavanja',
-	'configure-ext-settings-dep-errors' => 'Ovo proširenje ne može biti omogućeno jer {{PLURAL:$1|1=sledeća postavka ima|sledeće postavke imaju}} neprihvatljivu vrednost:', # Fuzzy
+	'configure-ext-settings-dep-errors' => 'Ovo proširenje ne može biti omogućeno jer {{PLURAL:$1|sledeća postavka ima|sledeće postavke imaju}} neprihvatljivu vrednost:',
 	'configure-ext-settings-dep-error' => '$1: zahtevana vrednost: $2, trenutna vrednost: $3',
 	'configure-ext-use-extension' => 'Koristi ovu ekstenziju',
 	'configure-ext-use' => 'Koristi',
@@ -13273,7 +13274,7 @@ Molimo Vas da ga napravite ili ga promenite kako biste koristili ovu ekstenziju.
 	'configure-select-wiki-view-specific' => 'Određena Viki:',
 	'configure-select-wiki-submit' => 'Izaberi',
 	'configure-setting-not-available' => 'Ov podešavanje nije moguće na ovoj verziki MedijaVikija',
-	'configure-transwiki-not-in-range' => 'Zahtevani Viki, $1, nije {{PLURAL:$3|1=dozvoljena vrednost|među dozvoljenim vrednostima}}: $2.', # Fuzzy
+	'configure-transwiki-not-in-range' => 'Zahtevani Viki, $1, nije {{PLURAL:$3|dozvoljena vrednost|među dozvoljenim vrednostima}}: $2.',
 	'configure-view' => 'Pregled',
 	'configure-view-all-versions' => 'Potpun spisak verzija',
 	'configure-view-default' => 'Podrazumevana podešavanja',
