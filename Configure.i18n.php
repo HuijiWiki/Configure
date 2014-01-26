@@ -389,6 +389,7 @@ Preceded by any one of the following messages:
 	'configure-image-url-explanation' => 'Used as explanation for the input box in [[Special:Configure]], [[Special:Extensions]] and [[Special:ViewConfig]].',
 	'configure-section-robots' => '{{Related|Configure-section}}',
 	'configure-section-features' => '{{Identical|Feature}}',
+	'configure-section-general' => '{{Identical|General settings}}',
 	'configure-section-pages' => '{{Identical|Page}}',
 	'configure-section-paths' => '{{Identical|Path}}',
 	'configure-section-db' => '{{Identical|Database}}',
