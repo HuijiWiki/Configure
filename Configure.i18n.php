@@ -2840,6 +2840,7 @@ $messages['ce'] = array(
 	'configure-section-external-tools' => 'Арахьара гӀирсаш',
 	'configure-section-thumbnail' => 'Суьртан миниатюраш',
 	'configure-select-wiki-view-all' => 'Массо Википедеш',
+	'configure-select-wiki-submit' => 'Харжа',
 	'configure-view' => 'Хьажа',
 	'configure-throttle-action-edit' => 'Нисдар',
 	'configure-throttle-action-emailuser' => 'Кехаташ кхехӀитар',
