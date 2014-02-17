@@ -13832,6 +13832,7 @@ $messages['tcy'] = array(
 /** Telugu (తెలుగు)
  * @author Chaduvari
  * @author Kiranmayee
+ * @author Ravichandra
  * @author Veeven
  * @author వైజాసత్య
  */
@@ -13843,6 +13844,7 @@ $messages['te'] = array(
 	'configure-edit-core' => 'మీడియావికీ',
 	'configure-edit-ext' => 'పొడగింతలు',
 	'configure-ext-settings' => 'అమరికలు',
+	'configure-ext-use' => 'వాడండి',
 	'configure-form-reason' => 'కారణం:',
 	'configure-arrayinput-oneperline' => "''(లైనుకి ఒకటి)''",
 	'configure-btn-save' => 'అమరికలను భద్రపరచు',
