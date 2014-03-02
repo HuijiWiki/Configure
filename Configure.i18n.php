@@ -7946,10 +7946,11 @@ $messages['ko'] = array(
 
 /** Krio (Krio)
  * @author Jose77
+ * @author Protostar
  */
 $messages['kri'] = array(
-	'configure-js-remove' => 'Dilit',
-	'configure-section-search' => 'Luk foh am',
+	'configure-js-remove' => 'Delet',
+	'configure-section-search' => 'Sarch',
 );
 
 /** Kinaray-a (Kinaray-a)
@@ -13843,8 +13844,13 @@ $messages['te'] = array(
 	'configure-desc-val' => 'విలువ',
 	'configure-edit-core' => 'మీడియావికీ',
 	'configure-edit-ext' => 'పొడగింతలు',
+	'configure-ext-ext-dependencies' => "'''హెచ్చరిక:''' ఈ పొడిగింత కోసం కింది {{PLURAL:$2|పొడిగింత|పొడిగింతలు}} చేతనంగా ఉండాలి: $1.",
+	'configure-ext-ext-dependency-err' => "'''లోపం:''' పొడిగింత $1 కోసం పొడిగింత $2 చేతనమై ఉండాలి.",
+	'configure-ext-schemachange' => "'''హెచ్చరిక:''' ఈ పొడిగింత సరిగ్గా పనిచెయ్యాలంటే ఓ [http://www.mediawiki.org/wiki/Manual:Update.php డేటాబేసు తాజాకరణ] ఆవశ్యకం!",
 	'configure-ext-settings' => 'అమరికలు',
-	'configure-ext-use' => 'వాడండి',
+	'configure-ext-settings-dep-error' => '$1: కావలసిన విలువ: $2, ప్రస్తుత విలువ: $3',
+	'configure-ext-use-extension' => 'ఈ పొడిగింతను వాడు',
+	'configure-ext-use' => 'వాడుక',
 	'configure-form-reason' => 'కారణం:',
 	'configure-arrayinput-oneperline' => "''(లైనుకి ఒకటి)''",
 	'configure-btn-save' => 'అమరికలను భద్రపరచు',
@@ -13855,12 +13861,20 @@ $messages['te'] = array(
 	'configure-js-biglist-hide' => '[వివరాలను దాచు]',
 	'configure-js-summary-none' => 'అమరికలు లేవు',
 	'configure-js-search-legend' => 'అన్వేషణ అమరికలు',
+	'configure-no-diff' => 'ఎంచుకున్న కూర్పుల మధ్య మార్పులేమీ లేవు.',
 	'configure-old' => 'పాత కూర్పులు',
 	'configure-old-changes' => 'మార్పులు',
+	'configure-old-summary' => '$1, $2 చే $4 $3',
+	'configure-backlink' => 'తిరిగి ఫారముకు',
+	'configure-section-robots' => 'వెబ్ క్రాలర్లు',
 	'configure-section-features' => 'సౌలభ్యాలు',
 	'configure-section-general' => 'సాధారణ అమరికలు',
 	'configure-section-pages' => 'పేజీలు',
 	'configure-section-db' => 'డాటాబేసు',
+	'configure-section-load-balancing' => 'లోడు సమతూకం',
+	'configure-section-mysql' => 'MySQL ప్రత్యేక',
+	'configure-section-postgres' => 'PostgreSQL ప్రత్యేక',
+	'configure-section-sqlite' => 'SQLite ప్రత్యేక',
 	'configure-section-email' => 'ఈ-మెయిల్',
 	'configure-section-enotif' => 'ఈ-మెయిల్ గమనింపు',
 	'configure-section-localization' => 'స్థానికీకరణ',
