@@ -2820,7 +2820,7 @@ $messages['ce'] = array(
 	'configure-ext-settings' => 'Параметраш',
 	'configure-ext-settings-dep-error' => '$1: оьшуш долу маьӀна: $2, карара маьӀна: $3',
 	'configure-ext-use-extension' => 'Леладе хӀара шордар',
-	'configure-form-reason' => 'Бахьан:',
+	'configure-form-reason' => 'Бахьна:',
 	'configure-customised' => "''ХӀара нисдар хийцина''",
 	'configure-js-add' => 'ТӀетоха керла дӀаяздар',
 	'configure-js-prompt-group' => 'ДӀаязъе керла тобан цӀе:',
@@ -5772,12 +5772,13 @@ $messages['hak'] = array(
 
 /** Hawaiian (Hawai`i)
  * @author Kalani
+ * @author Kolonahe
  * @author Singularity
  */
 $messages['haw'] = array(
-	'configure-section-specialpages' => 'Nā ‘ao‘ao kūikawā',
+	'configure-section-specialpages' => 'Nā ‘Ao‘ao kūikawā',
 	'configure-section-search' => 'Huli',
-	'configure-throttle-action-edit' => 'E hoʻololi',
+	'configure-throttle-action-edit' => 'Hoʻololi',
 );
 
 /** Hebrew (עברית)
@@ -6994,6 +6995,7 @@ $messages['ilo'] = array(
 /** Ingush (ГӀалгӀай)
  * @author Amire80
  * @author Sapral Mikail
+ * @author Умар
  */
 $messages['inh'] = array(
 	'configure-desc-group' => 'Тоаб',
