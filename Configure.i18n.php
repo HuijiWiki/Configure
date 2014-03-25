@@ -13997,6 +13997,7 @@ $messages['tk'] = array(
 
 /** Tagalog (Tagalog)
  * @author AnakngAraw
+ * @author Jojit fb
  */
 $messages['tl'] = array(
 	'configure' => 'Isaayos ang wiki',
@@ -14151,7 +14152,7 @@ Pakilikha ito o baguhin ito upang magamit ang ganitong karugtong.',
 	'configure-throttle-action-edit' => 'Baguhin',
 	'configure-throttle-action-move' => 'Ilipat',
 	'configure-throttle-action-rollback' => 'Igulong pabalik',
-	'configure-throttle-action-mailpassword' => 'Ipadala ang paalala ng hudyat',
+	'configure-throttle-action-mailpassword' => 'Ipadala ang paalala ng password',
 	'configure-throttle-action-emailuser' => 'Ipadala ang liham',
 	'configure-throttle-group-anon' => 'Lahat ng hindi nagpapakilalang mga tagagamit',
 	'configure-throttle-group-user' => 'Batay sa akawnt ng tagagamit',
