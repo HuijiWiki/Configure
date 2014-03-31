@@ -1,0 +1,41 @@
+{
+    "@metadata": {
+        "authors": [
+            "Sasan700",
+            "Умар"
+        ]
+    },
+    "configure-desc-val": "МаьӀна",
+    "configure-ext-settings": "Параметраш",
+    "configure-ext-settings-dep-error": "$1: оьшуш долу маьӀна: $2, карара маьӀна: $3",
+    "configure-ext-use-extension": "Леладе хӀара шордар",
+    "configure-form-reason": "Бахьна:",
+    "configure-customised": "''ХӀара нисдар хийцина''",
+    "configure-js-add": "ТӀетоха керла дӀаяздар",
+    "configure-js-prompt-group": "ДӀаязъе керла тобан цӀе:",
+    "configure-js-remove": "ДӀаяккха",
+    "configure-js-remove-row": "ДӀадаккха хӀара дӀаяздар",
+    "configure-old": "Шира версеш",
+    "configure-old-changes": "хийцам",
+    "configure-backlink": "Чуйокху форме гӀо",
+    "configure-section-category": "Категореш",
+    "configure-section-groups": "Тобанаш",
+    "configure-section-upload": "Чуйолуш",
+    "configure-section-specialpages": "Белхан агӀонаш",
+    "configure-section-recentchanges": "Керла нисдарш",
+    "configure-section-users": "Декъашхой",
+    "configure-section-search": "Лаха",
+    "configure-section-copyright": "Авторан бакъонаш",
+    "configure-section-external-tools": "Арахьара гӀирсаш",
+    "configure-section-thumbnail": "Суьртан миниатюраш",
+    "configure-select-wiki-view-all": "Массо Википедеш",
+    "configure-select-wiki-submit": "Харжа",
+    "configure-view": "Хьажа",
+    "configure-throttle-action-edit": "Нисдар",
+    "configure-throttle-action-emailuser": "Кехаташ кхехӀитар",
+    "configure-throttle-group-anon": "Массо цӀе хьулйина декъашхой",
+    "configure-throttle-group": "Тайп",
+    "configure-condition-name-2": "Декъашхочун дӀаяздаран уггар кӀезиг хан",
+    "configure-condition-description-2": "Декъашхочун дӀаяздаран уггар кӀезиг хан $1 {{PLURAL:$1|1=секунд|секундаш}}",
+    "configure-condition-description-7": "Декъашхочун дӀаяздаран уггар кӀезиг хан $1 {{PLURAL:$1|1=секунда|секундаш}} дуьххьар дина нисдарал тӀехьа"
+}
