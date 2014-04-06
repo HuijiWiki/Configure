@@ -221,7 +221,7 @@ class WebExtension {
 		}
 		if ( count( $this->mExtensionsDependencies ) ) {
 			$warnings[] = $context->msg( 'configure-ext-ext-dependencies',
-				$context->getLang()->listToText( $this->mExtensionsDependencies ), count( $this->mExtensionsDependencies ) )->parse();
+				$context->getLanguage()->listToText( $this->mExtensionsDependencies ), count( $this->mExtensionsDependencies ) )->parse();
 		}
 
 		if ( count( $warnings ) ) {
