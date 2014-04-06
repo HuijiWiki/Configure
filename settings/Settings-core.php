@@ -24,7 +24,6 @@ $settings = array(
 	),
 	'features' => array(
 		'features' => array(
-			'wgUseExternalEditor' => 'bool',
 			'wgUniversalEditButton' => 'bool',
 			'wgPageShowWatchingUsers' => 'bool',
 			'wgEdititis' => 'bool',
@@ -38,7 +37,6 @@ $settings = array(
 			'wgUseAutomaticEditSummaries' => 'bool',
 			'wgUseCombinedLoginLink' => 'bool',
 			'wgUseTagFilter' => 'bool',
-			'wgUseTrackbacks' => 'bool',
 			'wgCommandLineDarkBg' => 'bool',
 			'wgUpgradeKey' => 'text',
 		),
@@ -55,15 +53,12 @@ $settings = array(
 			'wgAllowUserJs' => 'bool',
 			'wgUseSiteCss' => 'bool',
 			'wgUseSiteJs' => 'bool',
-			'wgHandheldStyle' => 'text',
-			'wgHandheldForIPhone' => 'bool',
 			'wgIncludeLegacyJavaScript' => 'bool',
 			'wgLegacyJavaScriptGlobals' => 'bool',
 		),
 		'resourceloader' => array(
 			'wgResourceBasePath' => 'text',
 			'wgResourceLoaderDebug' => 'bool',
-			'wgResourceLoaderInlinePrivateModules' => 'bool',
 			'wgResourceLoaderMaxage' => 'array',
 			'wgResourceLoaderMaxQueryLength' => 'int',
 			'wgResourceLoaderMinifierMaxLineLength' => 'int',
@@ -89,10 +84,6 @@ $settings = array(
 			'wgPoolCounterConf' => 'array',
 		),
 		'test' => array(
-			'wgEnableSelenium' => 'bool',
-			'wgSeleniumConfigFile' => 'text',
-			'wgDBtestuser' => 'text',
-			'wgDBtestpassword' => 'text',
 			'wgEnableJavaScriptTest' => 'bool',
 			'wgJavaScriptTestConfig' => 'array',
 		),
@@ -157,7 +148,6 @@ $settings = array(
 			'wgFavicon' => 'text',
 			'wgFooterIcons' => 'array',
 			'wgLoadScript' => 'text',
-			'wgRedirectScript' => 'text',
 			'wgScript' => 'text',
 			'wgScriptExtension' => 'text',
 			'wgScriptPath' => 'text',
@@ -210,7 +200,6 @@ $settings = array(
 			'wgAntiLockFlags' => 'int',
 			'wgAllDBsAreLocalhost' => 'bool',
 			'wgDBAvgStatusPoll' => 'int',
-			'wgUseDumbLinkUpdate' => 'bool',
 			'wgExternalStores' => 'array',
 			'wgSQLMode' => 'text',
 			'wgAllowSchemaUpdates' => 'bool',
@@ -229,7 +218,6 @@ $settings = array(
 			'wgDBmysql5' => 'bool',
 			'wgDBprefix' => 'text',
 			'wgDBTableOptions' => 'text',
-			'wgDBtransactions' => 'bool',
 		),
 		'postgres' => array(
 			'wgDBmwschema' => 'text',
@@ -272,7 +260,6 @@ $settings = array(
 			'wgDefaultLanguageVariant' => 'text',
 			'wgExtraLanguageNames' => 'array',
 			'wgDisabledVariants' => 'array',
-			'wgBetterDirectionality' => 'bool',
 			'wgCanonicalLanguageLinks' => 'bool',
 			'wgDisableLangConversion' => 'bool',
 			'wgDisableTitleConversion' => 'bool',
@@ -281,7 +268,6 @@ $settings = array(
 			'wgLoginLanguageSelector' => 'bool',
 			'wgLegacyEncoding' => 'text',
 			'wgTranslateNumerals' => 'bool',
-			'wgUseDynamicDates' => 'bool',
 			'wgAmericanDates' => 'bool',
 		),
 		'timezone' => array(
@@ -291,12 +277,8 @@ $settings = array(
 	),
 	'output' => array(
 		'output' => array(
-			'wgCleanupPresentationalAttributes' => 'bool',
-			'wgEnableTooltipsAndAccesskeys' => 'bool',
 			'wgHtml5' => 'bool',
 			'wgWellFormedXml' => 'bool',
-			'wgDocType' => 'text',
-			'wgDTD' => 'text',
 			'wgMimeType' => 'text',
 			'wgXhtmlDefaultNamespace' => 'text',
 			'wgXhtmlNamespaces' => 'array',
@@ -331,7 +313,6 @@ $settings = array(
 		),
 		'profiling' => array(
 			'wgDebugFunctionEntry' => 'bool',
-			'wgDebugProfiling' => 'bool',
 			'wgProfileCallTree' => 'bool',
 			'wgProfileLimit' => 'int',
 			'wgProfileOnly' => 'bool',
@@ -361,7 +342,6 @@ $settings = array(
 		'vector' => array(
 			'wgVectorUseIconWatch' => 'bool',
 			'wgVectorUseSimpleSearch' => 'bool',
-			'wgVectorShowVariantName' => 'bool',
 		),
 	),
 	'category' => array(
@@ -377,7 +357,6 @@ $settings = array(
 			'wgMainCacheType' => array( -1 => 'Anything', 0 => 'None',
 	                            1 => 'DB', 2 => 'Memcached',
 	                            3 => 'Accel', 4 => 'DBA' ),
-			'wgDBAhandler' => array( 'db3' => 'db3', 'db4' => 'db4' ),
 			'wgCacheDirectory' => 'text',
 			'wgCacheEpoch' => 'text',
 			'wgCachePages' => 'bool',
@@ -409,7 +388,6 @@ $settings = array(
 			                               1 => 'DB', 2 => 'Memcached',
 			                               3 => 'Accel', 4 => 'DBA' ),
 			'wgUseLocalMessageCache' => 'bool',
-			'wgLocalMessageCacheSerialized' => 'bool',
 			'wgAdaptiveMessageCache' => 'bool',
 			'wgMsgCacheExpiry' => 'int',
 			'wgMaxMsgCacheEntrySize' => 'int',
@@ -440,8 +418,6 @@ $settings = array(
 	'access' => array(
 		'access' => array(
 			'wgAccountCreationThrottle' => 'int',
-			'wgAllowPageInfo' => 'bool',
-			'wgDisabledActions' => 'array',
 			'wgNewPasswordExpiry' => 'int',
 			'wgEmailConfirmToEdit' => 'bool',
 			'wgPasswordSalt' => 'bool',
@@ -473,7 +449,6 @@ $settings = array(
 		'rates' => array(
 			'wgRateLimitLog' => 'text',
 			'wgRateLimits' => 'array',
-			'wgRateLimitsExcludedGroups' => 'array',
 			'wgRateLimitsExcludedIPs' => 'array',
 		),
 	),
@@ -517,7 +492,6 @@ $settings = array(
 		),
 		'mime' => array(
 			'wgVerifyMimeType' => 'bool',
-			'wgLoadFileinfoExtension' => 'bool',
 			'wgMimeDetectorCommand' => 'text',
 			'wgMimeInfoFile' => 'text',
 			'wgMimeTypeFile' => 'text',
@@ -563,7 +537,6 @@ $settings = array(
 		),
 		'imagemagick' => array(
 			'wgImageMagickConvertCommand' => 'text',
-			'wgImageMagickIdentifyCommand' => 'text',
 			'wgImageMagickTempDir' => 'text',
 			'wgSharpenParameter' => 'int',
 			'wgSharpenReductionThreshold' => 'text',
@@ -632,7 +605,6 @@ $settings = array(
 			'wgExportFromNamespaces' => 'bool',
 			'wgExportMaxHistory' => 'int',
 			'wgExportMaxLinkDepth' => 'int',
-			'wgExtraRandompageSQL' => 'text',
 			'wgFilterLogTypes' => 'array',
 			'wgImportTargetNamespace' => 'text',
 			'wgLogRestrictions' => 'array',
@@ -669,7 +641,6 @@ $settings = array(
 		'users' => array(
 			'wgAutoConfirmAge' => 'int',
 			'wgAutoConfirmCount' => 'int',
-			'wgAllowRealName' => 'bool',
 			'wgAllowUserCssPrefs' => 'bool',
 			'wgDefaultUserOptions' => 'array',
 			'wgDisableAnonTalk' => 'bool',
@@ -679,22 +650,11 @@ $settings = array(
 			'wgMaxNameChars' => 'int',
 			'wgMaxSigChars' => 'int',
 			'wgMinimalPasswordLength' => 'int',
-			'wgLivePasswordStrengthChecks' => 'bool',
 			'wgPasswordResetRoutes' => 'array',
 			'wgNewUserLog' => 'bool',
 			'wgReservedUsernames' => 'array',
 			'wgShowIPinHeader' => 'bool',
 			'wgBrowserBlackList' => 'array',
-		),
-		'externalauth' => array(
-			'wgExternalAuthType' => 'text',
-			'wgExternalAuthConf' => 'array',
-			'wgAutocreatePolicy' => array(
-				'never' => 'Never',
-				'login' => 'Login',
-				'view' => 'View',
-			),
-			'wgAllowPrefChange' => 'array',
 		),
 	),
 	'cookie' => array(
@@ -707,7 +667,6 @@ $settings = array(
 			'wgCookiePrefix' => 'text',
 			'wgCookieSecure' => 'bool',
 			'wgDisableCookieCheck' => 'bool',
-			'wgHttpOnlyBlacklist' => 'array',
 			'wgSessionHandler' => 'text',
 			'wgSessionName' => 'text',
 		),
@@ -725,9 +684,6 @@ $settings = array(
 	'copyright' => array(
 		'copyright' => array(
 			'wgCopyrightIcon' => 'text',
-			'wgEnableCreativeCommonsRdf' => 'bool',
-			'wgEnableDublinCoreRdf' => 'bool',
-			'wgLicenseTerms' => 'array',
 			'wgMaxCredits' => 'int',
 			'wgRightsIcon' => 'text',
 			'wgRightsPage' => 'text',
@@ -741,11 +697,9 @@ $settings = array(
 		'search' => array(
 			'wgDisableInternalSearch' => 'bool',
 			'wgAdvancedSearchHighlighting' => 'bool',
-			'wgEnableMWSuggest' => 'bool',
 			'wgEnableOpenSearchSuggest' => 'bool',
 			'wgEnableSearchContributorsByIP' => 'bool',
 			'wgGoToEdit' => 'bool',
-			'wgMWSuggestTemplate' => 'text',
 			'wgOpenSearchTemplate' => 'text',
 			'wgSearchForwardUrl' => 'text',
 			'wgSearchEverythingOnlyLoggedIn' => 'bool',
@@ -757,12 +711,8 @@ $settings = array(
 	),
 	'proxy' => array(
 		'proxy' => array(
-			'wgBlockOpenProxies' => 'bool',
 #			'wgProxyKey' => 'text', # Deprecated
 			'wgProxyList' => 'array',
-			'wgProxyMemcExpiry' => 'int',
-			'wgProxyPorts' => 'array',
-			'wgProxyScriptPath' => 'text',
 			'wgProxyWhitelist' => 'array',
 			'wgSecretKey' => 'text',
 			'wgEnableDnsBlacklist' => 'bool',
@@ -814,7 +764,6 @@ $settings = array(
  */
 $arrayDefs = array(
 # Features
-	'wgResourceLoaderInlinePrivateModules' => 'array',
 	'wgCrossSiteAJAXdomains' => 'simple',
 	'wgCrossSiteAJAXdomainExceptions' => 'simple',
 	'wgDisableQueryPageUpdate' => 'simple',
@@ -880,14 +829,12 @@ $arrayDefs = array(
 # Interwiki
 	'wgImportSources' => 'simple',
 # Access
-	'wgDisabledActions' => 'simple',
 	'wgRestrictionLevels' => 'simple',
 	'wgRestrictionTypes' => 'simple',
 	'wgWhitelistRead' => 'simple',
 	'wgSpamRegex' => 'simple',
 	'wgSummarySpamRegex' => 'simple',
 	'wgRateLimits' => 'rate-limits',
-	'wgRateLimitsExcludedGroups' => 'simple',
 	'wgRateLimitsExcludedIPs' => 'simple',
 	'wgPasswordAttemptThrottle' => 'assoc',
 # Uploads
@@ -924,13 +871,10 @@ $arrayDefs = array(
 	'wgPasswordResetRoutes' => 'array',
 	'wgReservedUsernames' => 'simple',
 	'wgBrowserBlackList' => 'simple',
-	'wgExternalAuthConf' => 'array',
 	'wgAllowPrefChange' => 'assoc',
 	'wgHiddenPrefs' => 'simple',
 # Feed
 	'wgOverrideSiteFeed' => 'assoc',
-# Copyright
-	'wgLicenseTerms' => 'simple',
 # Proxies
 	'wgProxyList' => 'simple',
 	'wgProxyPorts' => 'simple',
@@ -941,7 +885,6 @@ $arrayDefs = array(
 	'wgSquidServersNoPurge' => 'simple',
 # Cookie
 	'wgCacheVaryCookies' => 'simple',
-	'wgHttpOnlyBlacklist' => 'simple',
 # Feed
 	'wgAdvertisedFeedTypes' => 'simple',
 # Extensions
@@ -962,8 +905,6 @@ $emptyValues = array(
 	'wgSharedDB' => null,
 	'wgLegacyEncoding' => null,
 	'wgDefaultLanguageVariant' => false,
-	'wgExtraRandompageSQL' => false,
-	'wgHandheldStyle' => false,
 	'wgMetaNamespaceTalk' => false,
 	'wgCacheDirectory' => false,
 	'wgCachePrefix' => false,
@@ -986,7 +927,6 @@ $emptyValues = array(
 	'wgRC2UDPPort' => false,
 	'wgSessionHandler' => null,
 	'wgRightsUrl' => null,
-	'wgMWSuggestTemplate' => false,
 	'wgOpenSearchTemplate' => false,
 	'wgHTCPMulticastAddress' => false,
 	'wgExternalDiffEngine' => false,
@@ -1002,7 +942,6 @@ $emptyValues = array(
 	'wgExemptFromUserRobotsControl' => null,
 	'wgArticlePath' => false,
 	'wgAPIRequestLog' => false,
-	'wgExternalAuthType' => null,
 	'wgHtml5Version' => null,
 	'wgAggregateStatsID' => false,
 	'wgResourceBasePath' => null,
@@ -1013,7 +952,6 @@ $emptyValues = array(
  */
 $editRestricted = array(
 	'wgUpgradeKey',
-	'wgSeleniumConfigFile',
 # General
 	'wgActionPaths',
 	'wgAppleTouchIcon',
@@ -1026,7 +964,6 @@ $editRestricted = array(
 	'wgExiv2Command',
 	'wgFavicon',
 	'wgLoadScript',
-	'wgRedirectScript',
 	'wgScript',
 	'wgScriptExtension',
 	'wgScriptPath',
@@ -1057,7 +994,6 @@ $editRestricted = array(
 	'wgDBserver',
 	'wgDBservers',
 	'wgDBTableOptions',
-	'wgDBtransactions',
 	'wgDBts2schema',
 	'wgDBtype',
 	'wgDBuser',
@@ -1099,7 +1035,6 @@ $editRestricted = array(
 # Rate limits
 	'wgRateLimitLog',
 # Proxies
-	'wgProxyScriptPath',
 	'wgSecretKey',
 # Squid
 	'wgInternalServer',
@@ -1118,7 +1053,6 @@ $editRestricted = array(
 	'wgRC2UDPPort',
 # Search
 	'wgDisableInternalSearch',
-	'wgMWSuggestTemplate',
 	'wgOpenSearchTemplate',
 # htcp
 	'wgHTCPMulticastAddress',
@@ -1132,7 +1066,6 @@ $editRestricted = array(
 $viewRestricted = array(
 #
 	'wgUpgradeKey',
-	'wgDBtestpassword',
 # Db
 	'wgDBpassword',
 	'wgDBadminpassword',
@@ -1156,43 +1089,4 @@ $notEditableSettings = array(
 /**
  * Array of settings depending of the Core version
  */
-$settingsVersion = array(
-	# Added in 1.19
-	'wgAllowSchemaUpdates' => array( array( '1.19alpha', '>=' ) ),
-	'wgCachePrefix' => array( array( '1.19alpha', '>=' ) ),
-	'wgCleanupPresentationalAttributes' => array( array( '1.19alpha', '>=' ) ),
-	'wgCopyUploadsDomains' => array( array( '1.19alpha', '>=' ) ),
-	'wgDebugToolbar' => array( array( '1.19alpha', '>=' ) ),
-	'wgDeprecationReleaseLimit' => array( array( '1.19alpha', '>=' ) ),
-	'wgDisableUploadScriptChecks' => array( array( '1.19alpha', '>=' ) ),
-	'wgEnableAutoRotation' => array( array( '1.19alpha', '>=' ) ),
-	'wgEnableJavaScriptTest' => array( array( '1.19alpha', '>=' ) ),
-	'wgEnableSearchContributorsByIP' => array( array( '1.19alpha', '>=' ) ),
-	'wgExportAllowAll' => array( array( '1.19alpha', '>=' ) ),
-	'wgImageMagickIdentifyCommand' => array( array( '1.19alpha', '>=' ) ),
-	'wgJavaScriptTestConfig' => array( array( '1.19alpha', '>=' ) ),
-	'wgPasswordResetRoutes' => array( array( '1.19alpha', '>=' ) ),
-	'wgQueryPageDefaultLimit' => array( array( '1.19alpha', '>=' ) ),
-	'wgResourceBasePath' => array( array( '1.19alpha', '>=' ) ),
-	'wgResourceLoaderMaxQueryLength' => array( array( '1.19alpha', '>=' ) ),
-	'wgResourceLoaderMinifierMaxLineLength' => array( array( '1.19alpha', '>=' ) ),
-	'wgResourceLoaderMinifierStatementsOnOwnLine' => array( array( '1.19alpha', '>=' ) ),
-	'wgResourceLoaderValidateJS' => array( array( '1.19alpha', '>=' ) ),
-	'wgResourceLoaderValidateStaticJS' => array( array( '1.19alpha', '>=' ) ),
-	'wgSend404Code' => array( array( '1.19alpha', '>=' ) ),
-	'wgSitemapNamespacesPriorities' => array( array( '1.19alpha', '>=' ) ),
-	'wgSVGMetadataCutoff' => array( array( '1.19alpha', '>=' ) ),
-	'wgUpdateCompatibleMetadata' => array( array( '1.19alpha', '>=' ) ),
-	'wgUploadStashMaxAge' => array( array( '1.19alpha', '>=' ) ),
-	'wgVaryOnXFP' => array( array( '1.19alpha', '>=' ) ),
-
-	# Removed in 1.19
-	'wgEnableCreativeCommonsRdf' => array( array( '1.19alpha', '<' ) ),
-	'wgEnableDublinCoreRdf' => array( array( '1.19alpha', '<' ) ),
-	'wgExtraRandompageSQL' => array( array( '1.19alpha', '<' ) ),
-	'wgRateLimitsExcludedGroups' => array( array( '1.19alpha', '<' ) ),
-	'wgEnableTooltipsAndAccesskeys' => array( array( '1.19alpha', '<' ) ),
-	'wgLivePasswordStrengthChecks' => array( array( '1.19alpha', '<' ) ),
-	'wgUseTrackbacks' => array( array( '1.19alpha', '<' ) ),
-	'wgVectorShowVariantName' => array( array( '1.19alpha', '<' ) ),
-);
+$settingsVersion = array();
