@@ -164,6 +164,11 @@ $specialPageAliases['gsw'] = array(
 	'ViewConfig' => array( 'Konfiguration_bschaue' ),
 );
 
+/** Hawaiian (Hawai`i) */
+$specialPageAliases['haw'] = array(
+	'Extensions' => array( 'Lālā', 'Lala' ),
+);
+
 /** Hebrew (עברית) */
 $specialPageAliases['he'] = array(
 	'Configure' => array( 'הגדרות' ),

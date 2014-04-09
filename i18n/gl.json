@@ -2,7 +2,8 @@
     "@metadata": {
         "authors": [
             "Fitoschido",
-            "Toliño"
+            "Toliño",
+            "Vivaelcelta"
         ]
     },
     "configure": "Configurar o wiki",
@@ -96,7 +97,7 @@
     "configure-section-cookie": "Cookies",
     "configure-section-performance": "Realización",
     "configure-section-test": "Probas",
-    "configure-section-upload": "Cargar",
+    "configure-section-upload": "Subir",
     "configure-section-sharedupload": "Cargas compartidas",
     "configure-section-mime": "Tipos de MIME",
     "configure-section-images": "Ficheiros",
@@ -105,7 +106,6 @@
     "configure-section-specialpages": "Páxinas especiais",
     "configure-section-recentchanges": "Cambios recentes",
     "configure-section-users": "Usuarios",
-    "configure-section-externalauth": "Autenticación externa",
     "configure-section-feed": "Subministrar",
     "configure-section-job": "Traballos",
     "configure-section-search": "Procurar",
