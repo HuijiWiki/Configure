@@ -116,7 +116,7 @@
     "configure-section-mw-extensions": "미디어위키 확장 기능",
     "configure-section-external-tools": "바깥 도구",
     "configure-section-filesystem": "파일 시스템과 셸 상호 작용",
-    "configure-section-thumbnail": "그림 섬네일",
+    "configure-section-thumbnail": "그림 섬네일 기능",
     "configure-section-output": "출력",
     "configure-select-wiki": "위키 선택",
     "configure-select-wiki-desc": "설정할 위키를 선택하세요.",
