@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Amikeco"
-        ]
-    },
-    "configure-section-db": "Бæрæггæнæнты базæ",
-    "configure-section-email": "Эл. посты адрис",
-    "configure-section-category": "Категоритæ"
+	"@metadata": {
+		"authors": [
+			"Amikeco"
+		]
+	},
+	"configure-section-db": "Бæрæггæнæнты базæ",
+	"configure-section-email": "Эл. посты адрис",
+	"configure-section-category": "Категоритæ"
 }

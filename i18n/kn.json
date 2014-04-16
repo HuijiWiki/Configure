@@ -1,17 +1,17 @@
 {
-    "@metadata": {
-        "authors": [
-            "Nayvik"
-        ]
-    },
-    "configure-desc-ns": "ನಾಮವರ್ಗ",
-    "configure-form-reason": "ಕಾರಣ:",
-    "configure-js-remove": "ಅಳಿಸು",
-    "configure-section-pages": "ಪುಟಗಳು",
-    "configure-section-email": "ಇ-ಅಂಚೆ",
-    "configure-section-timezone": "ಸಮಯ ವಲಯ",
-    "configure-section-category": "ವರ್ಗಗಳು",
-    "configure-section-search": "ಹುಡುಕು",
-    "configure-throttle-action-edit": "ಸಂಪಾದಿಸಿ",
-    "configure-condition-operator-and": "ಮತ್ತು"
+	"@metadata": {
+		"authors": [
+			"Nayvik"
+		]
+	},
+	"configure-desc-ns": "ನಾಮವರ್ಗ",
+	"configure-form-reason": "ಕಾರಣ:",
+	"configure-js-remove": "ಅಳಿಸು",
+	"configure-section-pages": "ಪುಟಗಳು",
+	"configure-section-email": "ಇ-ಅಂಚೆ",
+	"configure-section-timezone": "ಸಮಯ ವಲಯ",
+	"configure-section-category": "ವರ್ಗಗಳು",
+	"configure-section-search": "ಹುಡುಕು",
+	"configure-throttle-action-edit": "ಸಂಪಾದಿಸಿ",
+	"configure-condition-operator-and": "ಮತ್ತು"
 }

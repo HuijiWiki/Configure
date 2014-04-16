@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "MF-Warburg"
-        ]
-    },
-    "configure-js-remove": "Halakon",
-    "configure-old-changes": "mudansa",
-    "configure-section-pages": "Pájina sira",
-    "configure-section-email": "Korreiu eletróniku",
-    "configure-section-category": "Kategoria sira",
-    "configure-section-search": "Buka",
-    "configure-throttle-action-edit": "Edita"
+	"@metadata": {
+		"authors": [
+			"MF-Warburg"
+		]
+	},
+	"configure-js-remove": "Halakon",
+	"configure-old-changes": "mudansa",
+	"configure-section-pages": "Pájina sira",
+	"configure-section-email": "Korreiu eletróniku",
+	"configure-section-category": "Kategoria sira",
+	"configure-section-search": "Buka",
+	"configure-throttle-action-edit": "Edita"
 }

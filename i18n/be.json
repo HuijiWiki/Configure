@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Тест"
-        ]
-    },
-    "configure-form-reason": "Прычына:",
-    "configure-section-category": "Катэгорыі",
-    "configure-section-specialpages": "Адмысловыя старонкі",
-    "configure-throttle-group": "Тып"
+	"@metadata": {
+		"authors": [
+			"Тест"
+		]
+	},
+	"configure-form-reason": "Прычына:",
+	"configure-section-category": "Катэгорыі",
+	"configure-section-specialpages": "Адмысловыя старонкі",
+	"configure-throttle-group": "Тып"
 }

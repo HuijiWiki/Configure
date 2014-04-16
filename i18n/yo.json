@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Demmy"
-        ]
-    },
-    "configure-edit-core": "MediaWiki"
+	"@metadata": {
+		"authors": [
+			"Demmy"
+		]
+	},
+	"configure-edit-core": "MediaWiki"
 }

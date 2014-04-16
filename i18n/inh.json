@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Amire80",
-            "Sapral Mikail",
-            "Умар"
-        ]
-    },
-    "configure-desc-group": "Тоаб",
-    "configure-desc-key": "ДоагӀ",
-    "configure-desc-ns": "ЦӀерий аренаш",
-    "configure-ext-use": "Болха бе",
-    "configure-form-reason": "Бахьан:"
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Sapral Mikail",
+			"Умар"
+		]
+	},
+	"configure-desc-group": "Тоаб",
+	"configure-desc-key": "ДоагӀ",
+	"configure-desc-ns": "ЦӀерий аренаш",
+	"configure-ext-use": "Болха бе",
+	"configure-form-reason": "Бахьан:"
 }

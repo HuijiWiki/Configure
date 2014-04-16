@@ -1,6 +1,4 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "configure-form-reason": "理由："
+	"@metadata": [],
+	"configure-form-reason": "理由："
 }

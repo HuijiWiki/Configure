@@ -1,9 +1,7 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "configure-form-reason": "هۆکار:",
-    "configure-js-remove": "سڕینەوە",
-    "configure-section-search": "گەڕان",
-    "configure-throttle-action-move": "گواستنەوە"
+	"@metadata": [],
+	"configure-form-reason": "هۆکار:",
+	"configure-js-remove": "سڕینەوە",
+	"configure-section-search": "گەڕان",
+	"configure-throttle-action-move": "گواستنەوە"
 }

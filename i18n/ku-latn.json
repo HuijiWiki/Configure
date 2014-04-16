@@ -1,21 +1,21 @@
 {
-    "@metadata": {
-        "authors": [
-            "George Animal"
-        ]
-    },
-    "configure-desc-group": "Kom",
-    "configure-edit-core": "MediaWiki",
-    "configure-ext-use": "Bi kar bîne",
-    "configure-form-reason": "Sedem:",
-    "configure-js-remove": "Jê bibe",
-    "configure-section-pages": "Rûpel",
-    "configure-section-email": "E-name",
-    "configure-section-category": "Kategorî",
-    "configure-section-groups": "Kom",
-    "configure-section-images": "Dosyeyan",
-    "configure-section-users": "Bikarhêner",
-    "configure-throttle-action-edit": "Biguherîne",
-    "configure-throttle-group": "Cure",
-    "configure-condition-operator-and": "Û"
+	"@metadata": {
+		"authors": [
+			"George Animal"
+		]
+	},
+	"configure-desc-group": "Kom",
+	"configure-edit-core": "MediaWiki",
+	"configure-ext-use": "Bi kar bîne",
+	"configure-form-reason": "Sedem:",
+	"configure-js-remove": "Jê bibe",
+	"configure-section-pages": "Rûpel",
+	"configure-section-email": "E-name",
+	"configure-section-category": "Kategorî",
+	"configure-section-groups": "Kom",
+	"configure-section-images": "Dosyeyan",
+	"configure-section-users": "Bikarhêner",
+	"configure-throttle-action-edit": "Biguherîne",
+	"configure-throttle-group": "Cure",
+	"configure-condition-operator-and": "Û"
 }
