@@ -94,7 +94,7 @@
 	"configure-section-messagecache": "訊息快取",
 	"configure-section-access": "訪問",
 	"configure-section-groups": "群組",
-	"configure-section-block": "封禁",
+	"configure-section-block": "封鎖",
 	"configure-section-rates": "頻率限制",
 	"configure-section-proxy": "代理",
 	"configure-section-cookie": "Cookies",
