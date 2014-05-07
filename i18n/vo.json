@@ -21,7 +21,7 @@
 	"configure-form-reason": "Kod:",
 	"configure-customised": "''Paramet at pelönedükon''",
 	"configure-arrayinput-oneperline": "'''(bal a lien)'''",
-	"configure-summary": "Pad patik at dälon ole ad votükön parametemi vüka at. Logolös [[http://www.mediawiki.org/wiki/Manual:Configuration_settings Parametem]] ad reidön nünis pluik.",
+	"configure-summary": "Pad patik at dälon ole ad votükön parametemi vüka at. Logolös [[https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings Parametem]] ad reidön nünis pluik.",
 	"configure-btn-save": "Dakipön parametemi",
 	"configure-db-error": "Nünodem fa ol pevälöl ad dagetön parametemi ($1) no dabinon.\nJafolös oni e gebolös eli configure.sql u gudükumolös nemi onik.",
 	"configure-directory-not-writable": "Ragiviär pro dakip parametema, <code>$1</code>, no binon votükovik.\nVotükovükolös oni me el PHP ad gebön veitükumami at.",

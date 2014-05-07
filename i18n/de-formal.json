@@ -8,7 +8,7 @@
 			"Umherirrender"
 		]
 	},
-	"configure-summary": "Diese Spezialseite ermöglicht Ihnen die Konfiguration dieses Wikis, weitere Informationen sind in den [http://www.mediawiki.org/wiki/Manual:Configuration_settings Konfigurationsoptionen] zu finden.",
+	"configure-summary": "Diese Spezialseite ermöglicht Ihnen die Konfiguration dieses Wikis, weitere Informationen sind in den [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings Konfigurationsoptionen] zu finden.",
 	"configure-db-error": "Die Datenbank, die nach Ihren Angaben die Konfiguration ($1) enthalten soll, existiert nicht.\nBitte erstellen Sie sie und führen Sie configure.sql darin aus oder korrigieren sie ihren Namen.",
 	"configure-db-table-error": "Die Datenbank, die Sie angegeben haben, enthält nicht die benötigten Tabellen. Bitte führen Sie configure.sql in dieser Datenbank aus.",
 	"configure-directory-not-writable": "Das Verzeichnis, in dem die Konfigurationen gespeichert werden, <code>$1</code>, ist nicht beschreibbar.\nBitte machen Sie es für PHP beschreibbar, damit Sie diese Erweiterung nutzen können.",

@@ -18,7 +18,7 @@
 	"configure-ext-use": "ഉപയോഗിക്കുക",
 	"configure-form-reason": "കാരണം:",
 	"configure-arrayinput-oneperline": "''(ഒരു വരിയിൽ ഒന്ന് വീതം)''",
-	"configure-summary": "ഈ പ്രത്യേക താൾ വിക്കി ക്രമീകരിക്കുവാൻ താങ്കളെ സഹായിക്കുന്നു. ദയവായി കൂടുതൽ വിവരത്തിനു [http://www.mediawiki.org/wiki/Manual:Configuration_settings വിക്കി ക്രമീകരണങ്ങൾ] കാണുക.",
+	"configure-summary": "ഈ പ്രത്യേക താൾ വിക്കി ക്രമീകരിക്കുവാൻ താങ്കളെ സഹായിക്കുന്നു. ദയവായി കൂടുതൽ വിവരത്തിനു [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings വിക്കി ക്രമീകരണങ്ങൾ] കാണുക.",
 	"configure-btn-save": "സജ്ജീകരണങ്ങൾ സേവ് ചെയ്യുക",
 	"configure-edit-old": "'''മുന്നറിയിപ്പ്''': താങ്കൾ ക്രമീകരണത്തിന്റെ <strong>പഴയൊരു</strong> പതിപ്പാണ്‌ തിരുത്തുന്നത് ($1-നു ഉണ്ടായിരുന്നത് പ്രകാരം).",
 	"configure-error": "ക്രമീകരണങ്ങൾ സേവ് ചെയ്യുന്നതിനു കഴിഞ്ഞില്ല",

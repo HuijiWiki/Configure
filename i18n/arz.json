@@ -24,7 +24,7 @@
 	"configure-form-reason": "سبب:",
 	"configure-customised": "\"الاعداد دا اتعدل\"",
 	"configure-arrayinput-oneperline": "''(واحد فى السطر)''",
-	"configure-summary": "هذه الصفحة الخاصة تسمح لك بضبط هذا الويكى، انظر [http://www.mediawiki.org/wiki/Manual:Configuration_settings إعدادات الضبط] لمزيد من المعلومات.",
+	"configure-summary": "هذه الصفحة الخاصة تسمح لك بضبط هذا الويكى، انظر [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings إعدادات الضبط] لمزيد من المعلومات.",
 	"configure-btn-save": "حفظ الاعدادات",
 	"configure-db-error": "قاعدة البيانت اللى انت حددتها عشان تاخد الاعداد ($1) مش موجوده.\nلو سمحت تنشأها و طبق configure.sql او تصحح اسمها.",
 	"configure-db-table-error": "قاعدة البيانات اللى انت حددتها مافيهاش الجداول المطلويه. لو سمحت طبق configure.sql  على قاعدة البيانت دى.",

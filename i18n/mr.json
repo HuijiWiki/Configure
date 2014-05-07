@@ -15,7 +15,7 @@
 	"configure-desc-val": "किंमत",
 	"configure-edit-core": "मीडियाविकी",
 	"configure-edit-ext": "विस्तारके",
-	"configure-summary": "हे विशेष पृष्ठ तुम्हाला हा विकि कॉन्फिगर करायची संधी देते, अधिक माहितीसाठी [http://www.mediawiki.org/wiki/Manual:Configuration_settings कॉन्फिगरेशन सेटिंग] पहा.",
+	"configure-summary": "हे विशेष पृष्ठ तुम्हाला हा विकि कॉन्फिगर करायची संधी देते, अधिक माहितीसाठी [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings कॉन्फिगरेशन सेटिंग] पहा.",
 	"configure-btn-save": "सेटिंग्स जतन करा",
 	"configure-directory-not-writable": "सेटिंग साठविण्यात येणार्‍या <code>$1</code> धारिके मध्ये लिहू शकत नाही.\nहे एक्स्टेंशन वापरण्यासाठी कृपया तिला लिखाण-योग्य करा.",
 	"configure-edit-old": "इशारा: तुम्ही कॉन्फिगरेशनची एक <strong>जुनी</strong> आवृत्ती संपादित आहात($1 वर आहे तशी).",

@@ -19,7 +19,7 @@
 	"configure-ext-ext-dependencies": "'''Åtvaring:''' denne utvidinga krev at {{PLURAL:$2|denne utvidinga vert aktivert|desse utvidingane vert aktiverte}}: $1.",
 	"configure-ext-ext-dependency-err": "'''Feil:''' utvidinga $1 krev at $2-utvidinga vert aktivert.",
 	"configure-ext-doc": "Sjå dokumentasjon på nett",
-	"configure-ext-schemachange": "'''Åtvaring:''' denne utvidinga krev ei [http://www.mediawiki.org/wiki/Manual:Update.php oppdatering av databasen] for å fungera som ho skal.",
+	"configure-ext-schemachange": "'''Åtvaring:''' denne utvidinga krev ei [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Update.php oppdatering av databasen] for å fungera som ho skal.",
 	"configure-ext-settings": "Innstillingar",
 	"configure-ext-settings-dep-errors": "Denne utvidinga kan ikkje verta aktivert med di {{PLURAL:$1|det fylgjande oppsettet|dei fylgjande oppsetta}} har ein uakseptabel verdi:",
 	"configure-ext-settings-dep-error": "$1: krev verdien: $2, har no verdien: $3",

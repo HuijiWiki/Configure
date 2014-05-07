@@ -4,7 +4,7 @@
 			"Siebrand"
 		]
 	},
-	"configure-summary": "Via deze special pagina kan je instellingen maken voor deze wiki. Zie [http://www.mediawiki.org/wiki/Manual:Configuration_settings Instellingen] voor meer informatie.",
+	"configure-summary": "Via deze special pagina kan je instellingen maken voor deze wiki. Zie [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings Instellingen] voor meer informatie.",
 	"configure-edit-old": "'''Waarschuwing''': je bent een <strong>oude</strong> versie van de instellingen aan het bewerken (de versie per $1).",
 	"configure-no-setup": "Om deze extensie te gebruiken, moet je <code>efConfigureSetup()</code> expliciet aanroepen in het bestand LocalSettings.php.",
 	"configure-no-transwiki": "Je mag geen instellingen in andere wiki's veranderen",

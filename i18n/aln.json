@@ -4,7 +4,7 @@
 			"Mdupont"
 		]
 	},
-	"configure-summary": "Kjo faqe ju lejon të veçantë të konfigurosh këtë wiki, shihni http://www.mediawiki.org/wiki/Manual:Configuration_settings [konfigurimit] për më shumë informacion.",
+	"configure-summary": "Kjo faqe ju lejon të veçantë të konfigurosh këtë wiki, shihni https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings [konfigurimit] për më shumë informacion.",
 	"configure-btn-save": "Cilësimet Ruaj",
 	"configure-db-error": "Baza e të dhënave të caktuar për të mbajtur të konfigurimit ($1) nuk ekziston. Ju lutemi të krijuar atë dhe të aplikojnë configure.sql apo korrigjuar emrin e saj.",
 	"configure-db-table-error": "Baza e të dhënave që i specifikuar nuk kanë të tabelave të kërkuara. Ju lutemi të aplikoni configure.sql në këtë bazë të dhënash.",

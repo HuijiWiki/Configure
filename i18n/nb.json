@@ -18,7 +18,7 @@
 	"configure-ext-ext-dependencies": "'''Advarsel:''' denne utvidelsen krever at {{PLURAL:$2|den følgende utvidelsen|de følgende utvidelsene}} blir aktivert: $1.",
 	"configure-ext-ext-dependency-err": "'''Feil:''' utvidelsen $1 krever at utvidelsen $2 blir aktivert.",
 	"configure-ext-doc": "Se dokumentasjon på internett",
-	"configure-ext-schemachange": "'''Advarsel:''' denne utvidelsen krever en [http://www.mediawiki.org/wiki/Manual:Update.php oppdatering av databasen] for å fungere korrekt.",
+	"configure-ext-schemachange": "'''Advarsel:''' denne utvidelsen krever en [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Update.php oppdatering av databasen] for å fungere korrekt.",
 	"configure-ext-settings": "Innstillinger",
 	"configure-ext-settings-dep-errors": "Denne utvidelsen kan ikke aktiveres fordi {{PLURAL:$1|den følgende innstillingen har en uakseptabel verdi|de følgende innstillingene har uakseptable verdier}}:",
 	"configure-ext-settings-dep-error": "$1: nødvendig verdi: $2, nåværende verdi: $3",

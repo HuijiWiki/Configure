@@ -30,7 +30,7 @@
 	"configure-form-reason": "Gerekçe:",
 	"configure-customised": "''Bu ayar özelleştirilmiş''",
 	"configure-arrayinput-oneperline": "''(satır başına bir)''",
-	"configure-summary": "Bu özel sayfa, bu vikiyi konfigüre etmenize izin vermektedir; daha fazla bilgi için [http://www.mediawiki.org/wiki/Manual:Configuration_settings konfigürasyon seçeneklerini] görün.",
+	"configure-summary": "Bu özel sayfa, bu vikiyi konfigüre etmenize izin vermektedir; daha fazla bilgi için [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings konfigürasyon seçeneklerini] görün.",
 	"configure-btn-save": "Seçenekleri kaydet",
 	"configure-db-error": "Konfigürasyonu ($1) saklamak için belirttiğiniz veritabanı mevcut değil.\nLütfen oluşturun ve configure.sql'yi uygulayın ya da adını düzeltin.",
 	"configure-db-table-error": "Belirttiğiniz veritabanı istenen tablolara sahip değil. Lütfen veritabanına configure.sql'yi uygulayın.",

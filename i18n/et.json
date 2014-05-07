@@ -16,7 +16,7 @@
 	"configure-form-reason": "Põhjus:",
 	"configure-customised": "''See säte on kohandatud''",
 	"configure-arrayinput-oneperline": "''(üks rea kohta)''",
-	"configure-summary": "See erilehekülg võimaldab seda vikit häälestada, lisateavet leiad [http://www.mediawiki.org/wiki/Manual:Configuration_settings häälestussätete] leheküljelt.",
+	"configure-summary": "See erilehekülg võimaldab seda vikit häälestada, lisateavet leiad [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings häälestussätete] leheküljelt.",
 	"configure-btn-save": "Salvesta sätted",
 	"configure-edit-old": "'''Hoiatus''': muudad häälestuse <strong>vana</strong> versiooni (seisuga $1).",
 	"configure-error": "Häälestust ei saanud salvestada",

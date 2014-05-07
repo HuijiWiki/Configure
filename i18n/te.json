@@ -16,7 +16,7 @@
 	"configure-edit-ext": "పొడగింతలు",
 	"configure-ext-ext-dependencies": "'''హెచ్చరిక:''' ఈ పొడిగింత కోసం కింది {{PLURAL:$2|పొడిగింత|పొడిగింతలు}} చేతనంగా ఉండాలి: $1.",
 	"configure-ext-ext-dependency-err": "'''లోపం:''' పొడిగింత $1 కోసం పొడిగింత $2 చేతనమై ఉండాలి.",
-	"configure-ext-schemachange": "'''హెచ్చరిక:''' ఈ పొడిగింత సరిగ్గా పనిచెయ్యాలంటే ఓ [http://www.mediawiki.org/wiki/Manual:Update.php డేటాబేసు తాజాకరణ] ఆవశ్యకం!",
+	"configure-ext-schemachange": "'''హెచ్చరిక:''' ఈ పొడిగింత సరిగ్గా పనిచెయ్యాలంటే ఓ [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Update.php డేటాబేసు తాజాకరణ] ఆవశ్యకం!",
 	"configure-ext-settings": "అమరికలు",
 	"configure-ext-settings-dep-error": "$1: కావలసిన విలువ: $2, ప్రస్తుత విలువ: $3",
 	"configure-ext-use-extension": "ఈ పొడిగింతను వాడు",

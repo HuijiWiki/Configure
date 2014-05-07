@@ -17,7 +17,7 @@
 	"configure-ext-settings": "Ienstaalengen",
 	"configure-ext-use-extension": "Disse Ärwiederenge ferweende",
 	"configure-ext-use": "Benutsje",
-	"configure-summary": "Disse Spezialsiede moaket die ju Konfiguration fon disse Wiki muugelk, kiekje ap\n[http://www.mediawiki.org/wiki/Manual:Configuration_settings Konfigurationsoptione] foar moor Information.",
+	"configure-summary": "Disse Spezialsiede moaket die ju Konfiguration fon disse Wiki muugelk, kiekje ap\n[https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings Konfigurationsoptione] foar moor Information.",
 	"configure-btn-save": "Ienstaalengen spiekerje",
 	"configure-directory-not-writable": "Dät Ferteeknis, wieroun do Konfiguratione spiekerd wäide, <code>$1</code>, is nit beskrieuwboar. Moak dät foar PHP beskrieuwboar, deermäd disse Ärwiederenge bruukt wäide kon.",
 	"configure-edit-old": "Woarskauenge: Du beoarbaidest ne <strong>oolde</strong> Version fon ju Konfiguration.",

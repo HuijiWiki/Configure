@@ -18,7 +18,7 @@
 	"configure-ext-use-extension": "Използване на разширението",
 	"configure-form-reason": "Причина:",
 	"configure-arrayinput-oneperline": "''(по едно на ред)''",
-	"configure-summary": "Тази специална страница позволява на потребителите да конфигурират уикито; за повече информация, вижте [http://www.mediawiki.org/wiki/Manual:Configuration_settings настройките за конфигуриране].",
+	"configure-summary": "Тази специална страница позволява на потребителите да конфигурират уикито; за повече информация, вижте [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings настройките за конфигуриране].",
 	"configure-btn-save": "Съхраняване на настройките",
 	"configure-db-table-error": "Посочената база от данни не съдържа необходимите таблици. Необходимо е на тази база от данни да се приложи configure.sql.",
 	"configure-directory-not-writable": "Директорията <code>$1</code>, използвана за съхранение на настройките, няма права за запис.\nЗа използване на това разширение е необходимо да промените правата й.",
