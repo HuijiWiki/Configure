@@ -8,7 +8,8 @@
 			"Silvonen",
 			"Str4nd",
 			"Vililikku",
-			"ZeiP"
+			"ZeiP",
+			"Pxos"
 		]
 	},
 	"configure": "Wikin asetukset",
@@ -132,7 +133,7 @@
 	"configure-view": "Näytä",
 	"configure-view-all-versions": "Täydellinen lista versioista",
 	"configure-view-default": "Oletusasetukset",
-	"configure-view-not-allowed": "Sinulla ei ole oikeuksia nähdä tätä asetusta.",
+	"configure-view-not-allowed": "Sinulla ei ole lupaa nähdä tätä asetusta.",
 	"configure-viewconfig-line": "$1 $2 tekijältä $3 $5: $4",
 	"extensions": "Laajennusten asetukset",
 	"right-configure": "Muuttaa wikin asetuksia",
