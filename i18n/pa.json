@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aalam"
+			"Aalam",
+			"TariButtar"
 		]
 	},
 	"configure": "ਵਿਕਿ ਸੰਰਚਨਾ",
@@ -61,7 +62,7 @@
 	"configure-section-images": "ਫਾਇਲਾਂ",
 	"configure-section-antivirus": "ਐਂਟੀਵਾਈਰਸ",
 	"configure-section-parser": "ਪਾਰਸਰ",
-	"configure-section-specialpages": "ਖਾਸ ਸਫ਼ੇ",
+	"configure-section-specialpages": "ਖ਼ਾਸ ਸਫ਼ੇ",
 	"configure-section-recentchanges": "ਤਾਜ਼ਾ ਬਦਲਾਅ",
 	"configure-section-users": "ਯੂਜ਼ਰ",
 	"configure-section-feed": "ਫੀਡ"
