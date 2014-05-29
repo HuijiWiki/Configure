@@ -127,7 +127,7 @@ $specialPageAliases['es'] = array(
 $specialPageAliases['fa'] = array(
 	'Configure' => array( 'تنظیم' ),
 	'Extensions' => array( 'افزونه‌ها' ),
-	'ViewConfig' => array( 'مشاهده_تنظیمات' ),
+	'ViewConfig' => array( 'مشاهدهٔ_تنظیمات' ),
 );
 
 /** Finnish (suomi) */
