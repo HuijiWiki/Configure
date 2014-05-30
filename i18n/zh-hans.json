@@ -8,7 +8,8 @@
 			"Wmr89502270",
 			"Xiaomingyan",
 			"阿pp",
-			"Hudafu"
+			"Hudafu",
+			"Mywood"
 		]
 	},
 	"configure": "配置本wiki",
@@ -64,7 +65,7 @@
 	"configure-old-changes": "更改",
 	"configure-old-summary": "$1 由$2$4$3",
 	"configure-saved": "配置已被保存",
-	"configure-backlink": "返回到表单",
+	"configure-backlink": "返回表格",
 	"configure-image-url-explanation": "输入图片的URL，或者这个wiki上的一个图片的名字（不含名字空间）。当你离开这个字段时，预览将会显示。",
 	"configure-section-robots": "Web爬虫",
 	"configure-section-features": "功能",
