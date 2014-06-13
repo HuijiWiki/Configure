@@ -9,7 +9,8 @@
 			"Xiaomingyan",
 			"阿pp",
 			"Hudafu",
-			"Mywood"
+			"Mywood",
+			"Liuxinyu970226"
 		]
 	},
 	"configure": "配置本wiki",
@@ -23,7 +24,7 @@
 	"configure-viewconfig-default-diff": "相对于默认设置的改变",
 	"configure-ext-ext-dependencies": "'''警告：'''该扩展程序需要以下{{PLURAL:$2|扩展程序}}激活：$1。",
 	"configure-ext-ext-dependency-err": "'''出错：'''$1扩展程序需要$2扩展程序激活。",
-	"configure-ext-doc": "检视线上文件",
+	"configure-ext-doc": "查看在线文档",
 	"configure-ext-schemachange": "'''警告：'''这个扩展需要[https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Update.php 更新数据库]以正常工作！",
 	"configure-ext-settings": "设置",
 	"configure-ext-settings-dep-errors": "不能启用此扩展，因为以下{{PLURAL:$1|设置}}有一个不能接受的值：",
