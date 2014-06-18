@@ -6,7 +6,8 @@
 			"Karduelis",
 			"Mach",
 			"Srhat",
-			"Vito Genovese"
+			"Vito Genovese",
+			"Sayginer"
 		]
 	},
 	"configure": "Vikiyi yapılandır",
@@ -106,6 +107,7 @@
 	"configure-section-copyright": "Telif hakları",
 	"configure-section-misc": "Diğer",
 	"configure-section-filter": "Filtreleme",
+	"configure-section-mw-extensions": "MediaWiki uzantıları",
 	"configure-section-external-tools": "Harici araçlar",
 	"configure-section-filesystem": "Dosya sistemi ve Kabuk etkileşimi",
 	"configure-section-thumbnail": "Resmin küçük sürümü",

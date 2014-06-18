@@ -5,7 +5,8 @@
 			"EugeneZelenko",
 			"Jim-by",
 			"Wizardist",
-			"Zedlik"
+			"Zedlik",
+			"Red Winged Duck"
 		]
 	},
 	"configure": "Канфігурацыя вікі",
@@ -17,7 +18,7 @@
 	"configure-edit-core": "MediaWiki",
 	"configure-edit-ext": "Пашырэньні",
 	"configure-viewconfig-default-diff": "Зьмены ў параўнаньні з наладамі па змоўчваньні",
-	"configure-ext-ext-dependencies": "'''Папярэджаньне:''' гэтак пашырэньне патрабуе актывацыі {{PLURAL:$2|1=наступнага пашырэньня|наступных пашырэньняў}}: $1.",
+	"configure-ext-ext-dependencies": "'''Папярэджаньне:''' гэтае пашырэньне патрабуе актывацыі {{PLURAL:$2|1=наступнага пашырэньня|наступных пашырэньняў}}: $1.",
 	"configure-ext-ext-dependency-err": "'''Памылка:''' пашырэньне $1 патрабуе актывацыі пашырэньня $2.",
 	"configure-ext-doc": "Глядзіце дакумэнтацыю",
 	"configure-ext-schemachange": "'''Папярэджаньне:''' для карэктнай працы гэтага пашырэньня патрабуецца [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Update.php абнаўленьне базы зьвестак]!",
