@@ -129,7 +129,7 @@
 	"configure-select-wiki": "Val av wiki",
 	"configure-select-wiki-desc": "Välj den wiki du vill konfigurera.",
 	"configure-select-wiki-view-desc": "Välj en wiki som du vill se konfigurations versionerna från.",
-	"configure-select-wiki-view-all": "Alla wikier",
+	"configure-select-wiki-view-all": "Alla wikis",
 	"configure-select-wiki-view-specific": "Specifik wiki:",
 	"configure-select-wiki-submit": "Välj",
 	"configure-setting-not-available": "Inställningen är inte tillgänglig i den här versionen av MediaWiki",
