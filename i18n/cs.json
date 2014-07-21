@@ -6,7 +6,8 @@
 			"Jkjk",
 			"Kuvaly",
 			"Matěj Grabovský",
-			"Mormegil"
+			"Mormegil",
+			"Matěj Suchánek"
 		]
 	},
 	"configure": "Konfigurace wiki",
@@ -34,7 +35,7 @@
 	"configure-btn-save": "Uložit nastavení",
 	"configure-db-error": "Databáze, již jste zadali pro uložení konfigurace ($1), neexistuje.\nProsím, vytvořte ji a použijte configure.sql na opravení jejího názvu.",
 	"configure-db-table-error": "Databáze, jíž jste specifikovali, nemá požadované tabulky. Prosím, použijte na tuto databázi configure.sql.",
-	"configure-directory-not-writable": "Do adresáře <code>$1</code>, který se používá pro ukládání nastavení, není možné zapisovat.\nProsím, umožněte do něho zápis, aby jste mohli používat toto rozšíření.",
+	"configure-directory-not-writable": "Do adresáře <code>$1</code>, který se používá pro ukládání nastavení, není možné zapisovat.\nProsím, umožněte do něho zápis, abyste toto rozšíření mohli používat.",
 	"configure-edit-old": "'''Upozornění''': upravujete <strong>starou</strong> verzi konfigurace (z $1).",
 	"configure-error": "Nebylo možné uložit nastavení.",
 	"configure-js-add": "Přidat novou položku",
