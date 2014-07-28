@@ -93,7 +93,7 @@
 	"configure-section-cache": "快取",
 	"configure-section-pcache": "快取解析器",
 	"configure-section-messagecache": "訊息快取",
-	"configure-section-access": "訪問",
+	"configure-section-access": "存取",
 	"configure-section-groups": "群組",
 	"configure-section-block": "封鎖",
 	"configure-section-rates": "頻率限制",
