@@ -463,5 +463,5 @@ $specialPageAliases['zh-hans'] = array(
 $specialPageAliases['zh-hant'] = array(
 	'Configure' => array( '設定' ),
 	'Extensions' => array( '擴展' ),
-	'ViewConfig' => array( '查看設定' ),
+	'ViewConfig' => array( '檢視設定' ),
 );
