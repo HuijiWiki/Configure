@@ -15,7 +15,7 @@
 		]
 	},
 	"configure": "配置本wiki",
-	"configure-desc": "让使用者可以透过Web介面来[[Special:Configure|调整]]本站的内部设定资讯",
+	"configure-desc": "允许用户通过基于web的界面[[Special:Configure|配置]]wiki",
 	"configure-desc-group": "用户组",
 	"configure-desc-key": "键",
 	"configure-desc-ns": "名字空间",

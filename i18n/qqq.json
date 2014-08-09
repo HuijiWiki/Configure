@@ -13,7 +13,8 @@
 			"Raymond",
 			"Shirayuki",
 			"Siebrand",
-			"Umherirrender"
+			"Umherirrender",
+			"Liuxinyu970226"
 		]
 	},
 	"configure": "{{doc-special|Configure}}",
@@ -33,7 +34,7 @@
 	"configure-ext-settings-dep-errors": "Followed by a list of settings. Parameters:\n* $1 - the number of incorrect settings",
 	"configure-ext-settings-dep-error": "Parameters:\n* $1 - the setting's name\n* $2 - the required value (string, integer, or boolean)\n* $3 - the actual value (string, integer, or boolean)",
 	"configure-ext-use-extension": "Used as label for the checkbox.\n\nPreceded by HTML <code><nowiki><h2></nowiki></code> heading {{msg-mw|Configure-ext-use}}.",
-	"configure-ext-use": "Used as HTML <code><nowiki><h2></nowiki></code> heading.\n\nFollowed by the checkbox with the label {{msg-mw|Configure-ext-use-extension}}.",
+	"configure-ext-use": "Used as HTML <code><nowiki><h2></nowiki></code> heading.\n\nFollowed by the checkbox with the label {{msg-mw|Configure-ext-use-extension}}.\n{{Identical|Use}}",
 	"configure-form-reason": "{{Identical|Reason}}",
 	"configure-customised": "Used to indicate the setting has been customized (different from the default value).",
 	"configure-arrayinput-oneperline": "Used as a note for the textarea in [[Special:Configure]] and [[Special:ViewConfigure]].\n\nFollowed by the textarea.",
@@ -94,6 +95,7 @@
 	"configure-section-groups": "{{Identical|Group}}",
 	"configure-section-block": "{{Identical|Block}}",
 	"configure-section-rates": "{{Identical|Rate limit}}",
+	"configure-section-proxy": "{{Identical|Proxy}}",
 	"configure-section-squid": "{{optional}}",
 	"configure-section-cookie": "{{Identical|Cookie}}",
 	"configure-section-performance": "{{Identical|Performance}}",
@@ -104,6 +106,7 @@
 	"configure-section-djvu": "{{optional}}",
 	"configure-section-imagemagick": "{{optional}}",
 	"configure-section-svg": "{{optional}}",
+	"configure-section-parser": "{{Identical|Parser}}",
 	"configure-section-tidy": "{{optional}}",
 	"configure-section-specialpages": "{{Identical|Special page}}",
 	"configure-section-recentchanges": "{{Identical|Recent changes}}",
