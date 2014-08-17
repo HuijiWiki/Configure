@@ -118,7 +118,7 @@
 	"configure-throttle-group-ip": "Pe adresă IP",
 	"configure-throttle-count": "Acțiuni permise:",
 	"configure-throttle-period": "Perioada de resetare (secunde):",
-	"configure-throttle-summary": "$1 acţiuni în $2 secunde.",
+	"configure-throttle-summary": "$1 acțiuni în $2 secunde.",
 	"configure-throttle-group": "Tip",
 	"configure-throttle-limit": "Limită",
 	"configure-throttle-none": "Fără limită",

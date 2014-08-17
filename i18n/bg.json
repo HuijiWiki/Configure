@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"DCLXVI",
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"Gazimagomedov"
 		]
 	},
 	"configure": "Конфигуриране на уикито",
@@ -14,7 +15,7 @@
 	"configure-edit-core": "МедияУики",
 	"configure-edit-ext": "Разширения",
 	"configure-ext-doc": "Вижте онлайн документацията",
-	"configure-ext-settings": "Настройки",
+	"configure-ext-settings": "Рекъезаби",
 	"configure-ext-use-extension": "Използване на разширението",
 	"configure-form-reason": "Причина:",
 	"configure-arrayinput-oneperline": "''(по едно на ред)''",
