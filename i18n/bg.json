@@ -3,7 +3,8 @@
 		"authors": [
 			"DCLXVI",
 			"පසිඳු කාවින්ද",
-			"Gazimagomedov"
+			"Gazimagomedov",
+			"StanProg"
 		]
 	},
 	"configure": "Конфигуриране на уикито",
@@ -15,7 +16,7 @@
 	"configure-edit-core": "МедияУики",
 	"configure-edit-ext": "Разширения",
 	"configure-ext-doc": "Вижте онлайн документацията",
-	"configure-ext-settings": "Рекъезаби",
+	"configure-ext-settings": "Настройки",
 	"configure-ext-use-extension": "Използване на разширението",
 	"configure-form-reason": "Причина:",
 	"configure-arrayinput-oneperline": "''(по едно на ред)''",
