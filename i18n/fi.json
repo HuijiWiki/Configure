@@ -30,7 +30,7 @@
 	"configure-ext-settings-dep-error": "$1: vaadittu arvo: $2, nykyinen arvo: $3",
 	"configure-ext-use-extension": "Käytä tätä laajennosta",
 	"configure-ext-use": "Käytä",
-	"configure-form-reason": "Syy",
+	"configure-form-reason": "Syy:",
 	"configure-customised": "''Tätä asetusta on muutettu''",
 	"configure-arrayinput-oneperline": "''(yksi riviä kohti)''",
 	"configure-summary": "Tämä toimintosivu mahdollistaa tämän wikin asetusten muuttamisen. Lisätietoja löytyy sivulta [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings Asetukset].",
