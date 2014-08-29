@@ -430,14 +430,6 @@ class ApiConfigure extends ApiBase {
 		}
 	}
 
-	public function getPossibleErrors() {
-		return array_merge( parent::getPossibleErrors(), array(
-			array( 'code' => 'noconf', 'info' => 'You need to call efConfigureSetup() to use this module'  ),
-			array( 'code' => 'noversion', 'info' => 'version not found' ),
-			array( 'code' => 'nowiki', 'info' => 'wiki not found in version' ),
-		) );
-	}
-
 	protected function getDescription() {
 		return 'Configure extension\'s API module';
 	}
