@@ -11,7 +11,8 @@
 			"Reza1615",
 			"Taha",
 			"ZxxZxxZ",
-			"پاناروما"
+			"پاناروما",
+			"Alirezaaa"
 		]
 	},
 	"configure": "پیکربندی ویکی",
@@ -42,7 +43,7 @@
 	"configure-directory-not-writable": "فهرست استفاده شده برای ذخیرهٔ تنظیمات، <code>$1</code> ، قابل نوشتن نیست.لطفاً به وسیلهٔ پی‌اچ‌پی برای استفاده از این گستره، آن را قابل نوشتن کنید.",
 	"configure-edit-old": "'''هشدار''': شما در حال ویرایش یک نسخهٔ <strong>قدیمی</strong> از پیکربندی هستید (به تاریخ $1).",
 	"configure-error": "پیکربندی نمی‌تواند ذخیره شود",
-	"configure-js-add": "افزودن ورودی جدید",
+	"configure-js-add": "افزودن ورودی تازه",
 	"configure-js-group-exists": "خطا: این گروه درحال حاضر موجود است.",
 	"configure-js-prompt-group": "نام گروه جدید را وارد کنید:",
 	"configure-js-remove": "حذف",

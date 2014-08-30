@@ -462,6 +462,6 @@ $specialPageAliases['zh-hans'] = array(
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
 	'Configure' => array( '設定' ),
-	'Extensions' => array( '擴展' ),
+	'Extensions' => array( '擴充套件' ),
 	'ViewConfig' => array( '檢視設定' ),
 );
