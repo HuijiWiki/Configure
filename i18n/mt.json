@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Chrisportelli",
-			"Roderick Mallia"
+			"Roderick Mallia",
+			"Leli Forte"
 		]
 	},
 	"configure": "Ikkonfigura l-wiki",
 	"configure-desc": "Tippermetti utenti awtorizzati li [[Special:Configure|jikkonfiguraw]] il-wiki permezz ta' interfaċċa fuq il-web.",
 	"configure-desc-group": "Grupp",
 	"configure-desc-key": "Ċavetta",
-	"configure-desc-ns": "Spazju tal-isem",
+	"configure-desc-ns": "Spazju tal-ismijiet",
 	"configure-desc-val": "Valur",
 	"configure-edit-core": "MediaWiki",
 	"configure-edit-ext": "Estensjonijiet",
