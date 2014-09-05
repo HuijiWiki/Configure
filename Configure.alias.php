@@ -272,6 +272,11 @@ $specialPageAliases['lb'] = array(
 	'ViewConfig' => array( 'Astellunge_weisen' ),
 );
 
+/** Malagasy (Malagasy) */
+$specialPageAliases['mg'] = array(
+	'Extensions' => array( 'FitaovanaItatra' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'Configure' => array( 'Постави' ),
