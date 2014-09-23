@@ -438,7 +438,7 @@ $specialPageAliases['ur'] = array(
 	'Extensions' => array( 'توسیعات' ),
 );
 
-/** vèneto (vèneto) */
+/** Venetian (vèneto) */
 $specialPageAliases['vec'] = array(
 	'Configure' => array( 'Configura' ),
 	'Extensions' => array( 'Estensioni' ),
