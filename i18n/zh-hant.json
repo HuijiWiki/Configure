@@ -78,7 +78,7 @@
 	"configure-section-sqlite": "SQLite專有",
 	"configure-section-email": "電子郵件",
 	"configure-section-enotif": "電子郵件通知",
-	"configure-section-localization": "本地化",
+	"configure-section-localization": "在地化",
 	"configure-section-timezone": "時區",
 	"configure-section-debug": "調試",
 	"configure-section-profiling": "剖析",
