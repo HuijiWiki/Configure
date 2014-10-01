@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Aalam",
-			"TariButtar"
+			"TariButtar",
+			"Babanwalia"
 		]
 	},
 	"configure": "ਵਿਕਿ ਸੰਰਚਨਾ",
@@ -64,6 +65,6 @@
 	"configure-section-parser": "ਪਾਰਸਰ",
 	"configure-section-specialpages": "ਖ਼ਾਸ ਸਫ਼ੇ",
 	"configure-section-recentchanges": "ਤਾਜ਼ਾ ਬਦਲਾਅ",
-	"configure-section-users": "ਯੂਜ਼ਰ",
+	"configure-section-users": "ਵਰਤੋਂਕਾਰ",
 	"configure-section-feed": "ਫੀਡ"
 }
