@@ -8,7 +8,8 @@
 			"Liangent",
 			"Mark85296341",
 			"Simon Shek",
-			"LNDDYL"
+			"LNDDYL",
+			"EagerLin"
 		]
 	},
 	"configure": "站務設定",
@@ -108,7 +109,7 @@
 	"configure-section-antivirus": "防毒",
 	"configure-section-parser": "解析器",
 	"configure-section-specialpages": "特殊頁面",
-	"configure-section-recentchanges": "最近更改",
+	"configure-section-recentchanges": "近期變更",
 	"configure-section-users": "使用者",
 	"configure-section-feed": "供稿",
 	"configure-section-job": "工作",
