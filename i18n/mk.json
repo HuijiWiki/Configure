@@ -72,7 +72,7 @@
 	"configure-section-sqlite": "Односни на SQLite",
 	"configure-section-email": "Е-пошта",
 	"configure-section-enotif": "Известување по е-пошта",
-	"configure-section-localization": "Локализација",
+	"configure-section-localization": "Јазик и место",
 	"configure-section-timezone": "Часовен појас",
 	"configure-section-debug": "Отстранување бубачки",
 	"configure-section-profiling": "Профилирање",
