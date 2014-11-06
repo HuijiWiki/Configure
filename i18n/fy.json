@@ -1,11 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Snakesteuben"
+			"Snakesteuben",
+			"Robin0van0der0vliet"
 		]
 	},
 	"configure-desc-ns": "Nammeromten",
+	"configure-ext-settings": "Ynstellings",
 	"configure-js-remove": "Wiskje",
+	"configure-section-email": "E-mail",
+	"configure-section-html": "HTML",
 	"configure-section-namespaces": "Nammeromten",
-	"configure-section-search": "Sykje"
+	"configure-section-category": "Kategoryen",
+	"configure-section-images": "Triemmen",
+	"configure-section-search": "Sykje",
+	"configure-throttle-action-edit": "Bewurkje"
 }
