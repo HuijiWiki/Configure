@@ -6,12 +6,14 @@
 		]
 	},
 	"configure-desc-ns": "Nammeromten",
+	"configure-desc-val": "Wearde",
 	"configure-ext-settings": "Ynstellings",
 	"configure-js-remove": "Wiskje",
 	"configure-section-email": "E-mail",
 	"configure-section-html": "HTML",
 	"configure-section-namespaces": "Nammeromten",
 	"configure-section-category": "Kategoryen",
+	"configure-section-cookie": "Cookies",
 	"configure-section-images": "Triemmen",
 	"configure-section-search": "Sykje",
 	"configure-throttle-action-edit": "Bewurkje"
