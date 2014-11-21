@@ -6,7 +6,8 @@
 			"Geraki",
 			"Glavkos",
 			"Omnipaedista",
-			"ZaDiak"
+			"ZaDiak",
+			"Protnet"
 		]
 	},
 	"configure": "Διαμόρφωση του wiki",
@@ -60,7 +61,7 @@
 	"configure-section-css-js": "CSS και JavaScript",
 	"configure-section-namespaces": "Περιοχές ονομάτων",
 	"configure-section-stats": "Στατιστικά ιστοτόπου",
-	"configure-section-skin": "Προσόψεις",
+	"configure-section-skin": "Θέματα εμφάνισης",
 	"configure-section-vector": "εμφάνιση Vector",
 	"configure-section-category": "Κατηγορίες",
 	"configure-section-cache": "Προσωρινή μνήμη",
