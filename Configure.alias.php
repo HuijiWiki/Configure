@@ -69,9 +69,9 @@ $specialPageAliases['cdo'] = array(
 
 /** Chechen (нохчийн) */
 $specialPageAliases['ce'] = array(
-	'Configure' => array( 'ГIирс' ),
+	'Configure' => array( 'ГӀирс' ),
 	'Extensions' => array( 'Шордар' ),
-	'ViewConfig' => array( 'ГIирсе_хьажар' ),
+	'ViewConfig' => array( 'ГӀирсе_хьажар' ),
 );
 
 /** Czech (čeština) */
