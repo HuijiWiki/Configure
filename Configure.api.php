@@ -439,8 +439,4 @@ class ApiConfigure extends ApiBase {
 			'api.php?action=configure',
 		);
 	}
-
-	public function getVersion() {
-		return __CLASS__ . ': $Id$';
-	}
 }
