@@ -35,7 +35,7 @@
     "configure-js-prompt-group": "Enter the name of the new group:",
     "configure-js-remove": "Delete",
     "configure-js-remove-row": "Delete this entry",
-    "configure-js-get-image-url": "Convert file name to URL",
+    "configure-js-get-image-url": "Convert filename to URL",
     "configure-js-image-error": "An error occurred while fetching the URL. Please check that the file exists.",
     "configure-js-biglist-shown": "Setting details can be hidden",
     "configure-js-biglist-hidden": "Setting details hidden",

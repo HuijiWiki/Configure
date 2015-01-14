@@ -28,7 +28,7 @@
     "configure-setting-wgGenerateThumbnailOnParse": "Generate thumbnails when pages containing them are parsed",
     "configure-setting-wgShowArchiveThumbnails": "Show thumbnails for old images on the image description page",
     "configure-setting-wgIgnoreImageErrors": "Do not display error messages for images",
-    "configure-setting-wgIllegalFileChars": "Illegal characters in file names",
+    "configure-setting-wgIllegalFileChars": "Illegal characters in filenames",
     "configure-setting-wgImageLimits": "Image size limits for description pages",
     "configure-setting-wgMaxAnimatedGifArea": "Maximum area in pixels for animated GIFs",
     "configure-setting-wgMaxImageArea": "Maximum area in pixels for images",
