@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"عثمان خان شاہ"
 		]
 	},
 	"configure-desc-group": "گروپ",
@@ -15,6 +16,7 @@
 	"configure-btn-save": "ترتیبات کو محفوظ کریں",
 	"configure-js-remove": "حذف کریں",
 	"configure-js-remove-row": "اس اندراج کو خارج",
+	"configure-js-get-image-url": "ملف نام کو یو آر ایل میں تبدیل کریں",
 	"configure-js-summary-none": "کوئی ترتیبات",
 	"configure-js-search-legend": "تلاش کی ترتیبات",
 	"configure-old": "پرانے ورژن",
