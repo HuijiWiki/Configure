@@ -9,7 +9,8 @@
 			"Mark85296341",
 			"Simon Shek",
 			"LNDDYL",
-			"EagerLin"
+			"EagerLin",
+			"Liuxinyu970226"
 		]
 	},
 	"configure": "站務設定",
@@ -92,7 +93,7 @@
 	"configure-section-vector": "Vector 外觀",
 	"configure-section-category": "分類",
 	"configure-section-cache": "快取",
-	"configure-section-pcache": "快取解析器",
+	"configure-section-pcache": "解析器快取",
 	"configure-section-messagecache": "訊息快取",
 	"configure-section-access": "存取",
 	"configure-section-groups": "群組",
