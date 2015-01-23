@@ -35,6 +35,13 @@ $specialPageAliases['as'] = array(
 	'Configure' => array( 'সংৰূপ' ),
 );
 
+/** Avaric (авар) */
+$specialPageAliases['av'] = array(
+	'Configure' => array( 'Настройка' ),
+	'Extensions' => array( 'Расширения' ),
+	'ViewConfig' => array( 'Просмотр_настроек' ),
+);
+
 /** Southern Balochi (بلوچی مکرانی) */
 $specialPageAliases['bcc'] = array(
 	'Configure' => array( 'تنظیم' ),
