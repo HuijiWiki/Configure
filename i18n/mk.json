@@ -118,7 +118,7 @@
 	"configure-section-filter": "Филтрирање",
 	"configure-section-mw-extensions": "Додатоци за МедијаВики",
 	"configure-section-external-tools": "Надворешни алатки",
-	"configure-section-filesystem": "Интеракција помеѓу Податочниот систем и Школката",
+	"configure-section-filesystem": "Заемојдејство со Податочниот систем и работниот систем Лушпа (Shell)",
 	"configure-section-thumbnail": "Поставување на минијатури",
 	"configure-section-output": "Излезни резултати",
 	"configure-select-wiki": "Избор на вики",
