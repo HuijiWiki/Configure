@@ -4,7 +4,8 @@
 			"An13sa",
 			"Kobazulo",
 			"Theklan",
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"Subi"
 		]
 	},
 	"configure": "Wikia konfiguratu",
@@ -73,6 +74,7 @@
 	"configure-throttle-action-edit": "Aldatu",
 	"configure-throttle-action-move": "Mugitu",
 	"configure-throttle-action-emailuser": "Posta elektroniko bat bidali",
+	"configure-throttle-group-anon": "Erabiltzaile anonimo guztiak",
 	"configure-throttle-group-ip": "IP helbideka",
 	"configure-throttle-count": "Baimendutako ekintzak:",
 	"configure-throttle-summary": "{{PLURAL:$1|Ekintza $1|$1 ekintza}} {{PLURAL:$2|segundu batean|$2 segundutan.}}",
