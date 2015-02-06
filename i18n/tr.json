@@ -7,7 +7,8 @@
 			"Mach",
 			"Srhat",
 			"Vito Genovese",
-			"Sayginer"
+			"Sayginer",
+			"Mavrikant"
 		]
 	},
 	"configure": "Vikiyi yapılandır",
@@ -16,7 +17,7 @@
 	"configure-desc-key": "Anahtar",
 	"configure-desc-ns": "Ad alanı",
 	"configure-desc-val": "Değer",
-	"configure-edit-core": "MedyaViki",
+	"configure-edit-core": "MediaWiki",
 	"configure-edit-ext": "Eklentiler",
 	"configure-viewconfig-default-diff": "Varsayılan ayarlardan değişiklikler",
 	"configure-ext-ext-dependencies": "'''Uyarı:''' bu eklentiyi etkinleştirmek için şu {{PLURAL:$2|eklenti|eklentiler}} gereklidir: $1.",
