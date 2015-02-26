@@ -9,7 +9,8 @@
 			"PieRRoMaN",
 			"Sherbrooke",
 			"Urhixidur",
-			"Verdy p"
+			"Verdy p",
+			"Hercule"
 		]
 	},
 	"configure": "Configurer le wiki",
@@ -58,7 +59,7 @@
 	"configure-no-directory": "Le répertoire utilisé pour sauvegarder la configuration, <code>$1</code>, n’existe pas.\nVeuillez le créer ou en changer pour que cette extension fonctionne.",
 	"configure-no-old": "Aucune ancienne version de la configuration n’est disponible.",
 	"configure-no-setup": "Vous devez explicitement appeler la fonction <code>efConfigureSetup()</code> dans votre fichier LocalSettings.php pour utiliser cette extension.",
-	"configure-no-transwiki": "Vous n'êtes pas autorisé{{GENDER:||e|(e)}} à changer les réglages d’autres wikis",
+	"configure-no-transwiki": "Vous ne pouvez pas changer les réglages d’autres wikis.",
 	"configure-old": "Anciennes versions",
 	"configure-old-versions": "Liste des anciennes versions de la configuration :",
 	"configure-old-not-available": "L’ancienne version de la configuration que vous avez demandée, $1, n’est pas disponible",
@@ -136,7 +137,7 @@
 	"configure-view": "Voir",
 	"configure-view-all-versions": "Liste complète des versions",
 	"configure-view-default": "Paramètres par défaut",
-	"configure-view-not-allowed": "Vous n'êtes pas autorisé{{GENDER:||e|(e)}} à voir ce paramètre",
+	"configure-view-not-allowed": "Vous ne pouvez pas voir ce paramètre",
 	"configure-viewconfig-line": "$1 $2 par $3 $5 : $4",
 	"extensions": "Configurer les extensions",
 	"right-configure": "Configurer le wiki",
