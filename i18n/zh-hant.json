@@ -153,7 +153,7 @@
 	"configure-throttle-action-rollback": "恢復",
 	"configure-throttle-action-mailpassword": "傳送密碼提醒",
 	"configure-throttle-action-emailuser": "傳送電郵",
-	"configure-throttle-group-anon": "所有匿名用戶",
+	"configure-throttle-group-anon": "所有匿名使用者",
 	"configure-throttle-group-user": "每個使用者帳號",
 	"configure-throttle-group-newbie": "每新用戶帳戶",
 	"configure-throttle-group-ip": "每個 IP 位址",
