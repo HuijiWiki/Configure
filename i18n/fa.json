@@ -193,7 +193,7 @@
 	"configure-boolop-description-or": "حداقل یک شرط باید درست باشند.",
 	"configure-boolop-description-xor": "یک شرط باید دقیقاً درست باشد",
 	"configure-boolop-description-not": "هیچ شرطی درست نیست.",
-	"configure-farmer-settings": "[[Special:Configure|Configure this wiki]]",
-	"configure-farmer-extensions": "[[Special:Extensions|Configure extensions for this wiki]].",
-	"configure-farmer-extensions-list": "[[Special:Extensions|List extensions available for this wiki]]."
+	"configure-farmer-settings": "[[Special:Configure|این ویکی را پیکربندی کنید]]",
+	"configure-farmer-extensions": "[[Special:Extensions|افزونه‌های این ویکی را پیکربندی کنید]].",
+	"configure-farmer-extensions-list": "[[Special:Extensions|فهرست افزونه‌های موجود این ویکی]]."
 }
