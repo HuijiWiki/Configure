@@ -18,7 +18,7 @@
 		]
 	},
 	"configure": "{{doc-special|Configure}}",
-	"configure-desc": "{{desc|name=Configure|url=http://www.mediawiki.org/wiki/Extension:Configure}}\n{{Identical|Authorised user}}",
+	"configure-desc": "{{desc|name=Configure|url=https://www.mediawiki.org/wiki/Extension:Configure}}\n{{Identical|Authorised user}}",
 	"configure-desc-group": "{{Identical|Group}}",
 	"configure-desc-key": "{{Identical|Key}}",
 	"configure-desc-ns": "{{Identical|Namespace}}",
