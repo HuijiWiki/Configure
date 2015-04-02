@@ -22,7 +22,7 @@
 	"configure-edit-core": "MediaWiki",
 	"configure-edit-ext": "擴充套件",
 	"configure-viewconfig-default-diff": "相對於預設設定的改變",
-	"configure-ext-ext-dependencies": "'''警告：'''這個擴充套件需要{{PLURAL:$2|extension|extensions}}被啟動：$1。",
+	"configure-ext-ext-dependencies": "'''警告：'''此擴充套件需要以下{{PLURAL:$2|擴充套件}}被啟動：$1。",
 	"configure-ext-ext-dependency-err": "'''錯誤：'''$1擴充套件需要$2擴充套件被啟動。",
 	"configure-ext-doc": "檢視線上文件",
 	"configure-ext-schemachange": "'''警告：'''這個擴充套件需要[https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Update.php 更新資料庫]以正常工作！",
