@@ -279,6 +279,13 @@ $specialPageAliases['lb'] = array(
 	'ViewConfig' => array( 'Astellunge_weisen' ),
 );
 
+/** لوری (لوری) */
+$specialPageAliases['lrc'] = array(
+	'Configure' => array( 'میزونکاری' ),
+	'Extensions' => array( 'دمادیسیا' ),
+	'ViewConfig' => array( 'دئین_میزونکاری' ),
+);
+
 /** Malagasy (Malagasy) */
 $specialPageAliases['mg'] = array(
 	'Extensions' => array( 'FitaovanaItatra' ),
