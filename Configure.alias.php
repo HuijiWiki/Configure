@@ -48,6 +48,13 @@ $specialPageAliases['bcc'] = array(
 	'ViewConfig' => array( 'چارگ تنظیم' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'Configure' => array( 'تنریم' ),
+	'Extensions' => array( 'ایزاپه_کورتین' ),
+	'ViewConfig' => array( 'تنزیماتانی_دیستین' ),
+);
+
 /** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'Configure' => array( 'Kefluniañ' ),
