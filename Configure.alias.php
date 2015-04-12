@@ -92,7 +92,7 @@ $specialPageAliases['ce'] = array(
 $specialPageAliases['cs'] = array(
 	'Configure' => array( 'Konfigurace' ),
 	'Extensions' => array( 'Rozšíření', 'Doplňky' ),
-	'ViewConfig' => array( 'Zobrazit_konfiguraci', 'Zobrazit_nastavení' ),
+	'ViewConfig' => array( 'Zobrazit_konfiguraci' ),
 );
 
 /** German (Deutsch) */

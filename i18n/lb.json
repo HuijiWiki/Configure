@@ -55,7 +55,7 @@
 	"configure-no-transwiki": "Dir däerft d'Konfiguratioun an anere Wikien net änneren",
 	"configure-old": "Al Versiounen",
 	"configure-old-versions": "Lëscht vun den ale Versioune vun der Konfiguratioun:",
-	"configure-old-not-available": "Déi al Versioun vun der Konfiguratioun, déi dir gefrot hutt, $1, ass net disponbel.",
+	"configure-old-not-available": "Déi al Versioun vun der Konfiguratioun, déi Dir gefrot hutt, $1, ass net disponibel.",
 	"configure-old-changes": "Ännerungen",
 	"configure-old-summary": "$1 vum Benotzer:$2 $4 Bemierkung:$3",
 	"configure-saved": "D'Konfiguratioun gouf gespäichert",
