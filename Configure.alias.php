@@ -23,7 +23,7 @@ $specialPageAliases['ar'] = array(
 	'ViewConfig' => array( 'عرض_الإعدادات' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'Configure' => array( 'تظبيط' ),
 	'Extensions' => array( 'امتدادات' ),
@@ -157,7 +157,7 @@ $specialPageAliases['fr'] = array(
 	'ViewConfig' => array( 'Voir_la_configuration', 'VoirConfiguration' ),
 );
 
-/** Franco-Provençal (arpetan) */
+/** Arpitan (arpetan) */
 $specialPageAliases['frp'] = array(
 	'Configure' => array( 'Configurar' ),
 	'Extensions' => array( 'Èxtensions' ),
@@ -286,7 +286,7 @@ $specialPageAliases['lb'] = array(
 	'ViewConfig' => array( 'Astellunge_weisen' ),
 );
 
-/** لوری (لوری) */
+/** لوری مینجایی (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'Configure' => array( 'میزونکاری' ),
 	'Extensions' => array( 'دمادیسیا' ),

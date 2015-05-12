@@ -11,7 +11,8 @@
 			"Pertile",
 			"Sanbec",
 			"Translationista",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"Macofe"
 		]
 	},
 	"configure": "Configurar la wiki",
@@ -22,7 +23,7 @@
 	"configure-desc-val": "Valor",
 	"configure-edit-core": "MediaWiki",
 	"configure-edit-ext": "Extensiones",
-	"configure-viewconfig-default-diff": "Cambios de configuraciones por defecto",
+	"configure-viewconfig-default-diff": "Diferencias con las configuraciones predeterminadas",
 	"configure-ext-ext-dependencies": "'''Advertencia:''' esta extensión requiere las siguientes {{PLURAL:$2|extensión|extensiones}} a ser activadas: $1.",
 	"configure-ext-ext-dependency-err": "'''Error:''' la extensión $1 requiere la extensión $2 para ser activada.",
 	"configure-ext-doc": "Ver documentación online",
@@ -135,7 +136,7 @@
 	"configure-transwiki-not-in-range": "El wiki solicitado, $1, no está en {{PLURAL:$3|valor|valores}} permitidos: ($2).",
 	"configure-view": "Ver",
 	"configure-view-all-versions": "Lista completa de versiones",
-	"configure-view-default": "Configuraciones por defecto",
+	"configure-view-default": "Configuraciones predeterminadas",
 	"configure-view-not-allowed": "No está permitido de ver esta versión",
 	"configure-viewconfig-line": "$1 $2 por $3 $5: $4",
 	"extensions": "Configurar las extensiones",
