@@ -286,7 +286,7 @@ $specialPageAliases['lb'] = array(
 	'ViewConfig' => array( 'Astellunge_weisen' ),
 );
 
-/** لوری مینجایی (لوری مینجایی) */
+/** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'Configure' => array( 'میزونکاری' ),
 	'Extensions' => array( 'دمادیسیا' ),
