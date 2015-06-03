@@ -100,7 +100,7 @@
 	"configure-section-test": "Pröfunge",
 	"configure-section-upload": "Huhlaade",
 	"configure-section-sharedupload": "Gemeinsam Repositorijum",
-	"configure-section-mime": "MIME-Zoote",
+	"configure-section-mime": "<i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Multi-Purpose Internet Mail Extensions\">MIME</i>-Zoote",
 	"configure-section-images": "Datteije",
 	"configure-section-djvu": "<i lang=\"en\">DjVu</i>",
 	"configure-section-imagemagick": "<i lang=\"en\">ImageMagick</i>",
