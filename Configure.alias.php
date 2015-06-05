@@ -288,9 +288,9 @@ $specialPageAliases['lb'] = array(
 
 /** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
-	'Configure' => array( 'میزونکاری' ),
-	'Extensions' => array( 'دمادیسیا' ),
-	'ViewConfig' => array( 'دئین_میزونکاری' ),
+	'Configure' => array( 'میزوٙنکاری' ),
+	'Extensions' => array( 'دئمادیسیا' ),
+	'ViewConfig' => array( 'دیئن_میزوٙنکاری' ),
 );
 
 /** Malagasy (Malagasy) */
