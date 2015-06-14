@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"RajeshPandey",
-			"सरोज कुमार ढकाल"
+			"सरोज कुमार ढकाल",
+			"राम प्रसाद जोशी"
 		]
 	},
 	"configure": "विकि कन्फीगर गर्ने",
@@ -11,7 +12,7 @@
 	"configure-desc-ns": "नामस्थान",
 	"configure-edit-core": "मेडियाविकि",
 	"configure-section-enotif": "इमेल जानकारी",
-	"configure-section-users": "प्रयोगकर्ताहरु",
+	"configure-section-users": "प्रयोगकर्ताहरू",
 	"configure-section-feed": "फिड",
 	"configure-section-job": "कामहरु",
 	"configure-section-search": "खोज",
