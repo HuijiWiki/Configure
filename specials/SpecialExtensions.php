@@ -155,4 +155,8 @@ class SpecialExtensions extends ConfigurationPage {
 
 		return $ret;
 	}
+
+	protected function getGroupName() {
+		return 'wiki';
+	}
 }

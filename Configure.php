@@ -261,11 +261,6 @@ define( 'CONF_SETTINGS_BOTH', 3 );
 $wgAutoloadClasses['ConfigurationSettings'] = $dir . 'settings/ConfigurationSettings.php';
 $wgAutoloadClasses['TxtDef'] = $dir . 'load_txt_def/TxtDef.php';
 
-# Groups
-$wgSpecialPageGroups['Configure'] = 'wiki';
-$wgSpecialPageGroups['Extensions'] = 'wiki';
-$wgSpecialPageGroups['ViewConfig'] = 'wiki';
-
 # Diff stuff
 $wgAutoloadClasses['ConfigurationDiff'] = $dir . 'Configure.diff.php';
 $wgAutoloadClasses['CorePreviewConfigurationDiff'] = $dir . 'Configure.diff.php';

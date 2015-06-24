@@ -294,4 +294,8 @@ class SpecialViewConfig extends ConfigurationPage {
 		);
 		return $this->buildSettings( $this->getSettings(), $opt );
 	}
+
+	protected function getGroupName() {
+		return 'wiki';
+	}
 }

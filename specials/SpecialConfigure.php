@@ -80,4 +80,8 @@ class SpecialConfigure extends ConfigurationPage {
 	protected function buildAllSettings() {
 		return $this->buildSettings( $this->getSettings() );
 	}
+
+	protected function getGroupName() {
+		return 'wiki';
+	}
 }
