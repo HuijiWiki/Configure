@@ -49,7 +49,7 @@
 	"configure-js-remove": "حذف",
 	"configure-js-remove-row": "حذف این مطلب",
 	"configure-js-get-image-url": "تبدیل نام پرونده به نشانی اینترنتی",
-	"configure-js-image-error": "یک خطا در هنگام بارگذاری نشانی اینترنتی رخ داده‌است. لطفاً بررسی کنید که پرونده موجود باشد.",
+	"configure-js-image-error": "یک خطا در هنگام بارگذاری نشانی اینترنتی رخ داده است. لطفاً بررسی کنید که پرونده موجود باشد.",
 	"configure-js-biglist-shown": "جزئیات تنظیم می‌تواند پنهان باشد",
 	"configure-js-biglist-hidden": "جزئیات تنظیم پنهان",
 	"configure-js-biglist-show": "[نمایش جزئیات]",
