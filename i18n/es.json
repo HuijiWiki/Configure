@@ -19,7 +19,7 @@
 	"configure-desc": "Permite que usuarios autorizados [[Special:Configure|configuren]] la wiki desde una interfaz web",
 	"configure-desc-group": "Grupo",
 	"configure-desc-key": "Clave",
-	"configure-desc-ns": "Espacio de nombre",
+	"configure-desc-ns": "Espacio de nombres",
 	"configure-desc-val": "Valor",
 	"configure-edit-core": "MediaWiki",
 	"configure-edit-ext": "Extensiones",
