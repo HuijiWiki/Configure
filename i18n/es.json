@@ -69,7 +69,7 @@
 	"configure-old-summary": "$1 por $2 $4 $3",
 	"configure-saved": "La configuración ha sido guardada",
 	"configure-backlink": "Retornar al formulario",
-	"configure-image-url-explanation": "Introduzca la URL de una imagen, o el nombre de una imagen en esta wiki (sin el espacio de nombres). Se mostrará una previsualización cuando salga de este campo.",
+	"configure-image-url-explanation": "Escribe el URL de una imagen, o el nombre de una imagen en esta wiki (sin el espacio de nombres). Se mostrará una previsualización cuando salgas de este campo.",
 	"configure-section-robots": "Arañas web",
 	"configure-section-features": "Características",
 	"configure-section-general": "Configuraciones generales",
