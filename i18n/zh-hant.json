@@ -131,7 +131,7 @@
 	"configure-select-wiki-view-specific": "指定wiki：",
 	"configure-select-wiki-submit": "選擇",
 	"configure-setting-not-available": "這個設定在這個版本的MediaWiki中不可用",
-	"configure-transwiki-not-in-range": "請求的wiki，$1，不在允許的{{PLURAL:$3|value|值}}中：$2。",
+	"configure-transwiki-not-in-range": "請求的 wiki：$1，不在允許的 {{PLURAL:$3|value|值}} 中：$2。",
 	"configure-view": "檢視",
 	"configure-view-all-versions": "完整版本列表",
 	"configure-view-default": "預設設定",
