@@ -3,7 +3,8 @@
 		"authors": [
 			"CERminator",
 			"Demicx",
-			"Sociologist"
+			"Sociologist",
+			"Srdjan m"
 		]
 	},
 	"configure": "Postavljanje wikija",
@@ -82,7 +83,7 @@
 	"configure-section-resourceloader": "UčitavačResursa",
 	"configure-section-namespaces": "Imenski prostori",
 	"configure-section-stats": "Statistike stranice",
-	"configure-section-skin": "Kože",
+	"configure-section-skin": "Teme",
 	"configure-section-vector": "Koža Vektora",
 	"configure-section-category": "Kategorije",
 	"configure-section-cache": "Keš",

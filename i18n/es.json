@@ -36,7 +36,7 @@
 	"configure-form-reason": "Razón:",
 	"configure-customised": "''Esta configuración ha sido personalizada''",
 	"configure-arrayinput-oneperline": "''(uno por línea)''",
-	"configure-summary": "Esta página especial te permite configurar esta wiki. Véase [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings Opciones de configuración] para mas información.",
+	"configure-summary": "Esta página especial te permite configurar esta wiki. Véase [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings Opciones de configuración] para más información.",
 	"configure-btn-save": "Guardar configuraciones",
 	"configure-db-error": "La base de datos que ha especificado para mantener la configuración ($1) no existe.\nPor favor, cree y aplique configure.sql o corrija su nombre.",
 	"configure-db-table-error": "La base de datos que has especificado no tiene las tablas requeridas. Por favor aplica configure.sql en esa base de datos.",
