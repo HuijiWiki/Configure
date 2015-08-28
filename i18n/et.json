@@ -6,7 +6,7 @@
 		]
 	},
 	"configure": "Viki häälestus",
-	"configure-desc": "Võimaldab volitatud kasutajatel võrguliidese kaudu vikit [[Special:Configure|häälestada]].",
+	"configure-desc": "Võimaldab volitatud kasutajatel veebiliidese kaudu vikit [[Special:Configure|häälestada]].",
 	"configure-desc-group": "Rühm",
 	"configure-desc-key": "Võti",
 	"configure-desc-ns": "Nimeruum",
