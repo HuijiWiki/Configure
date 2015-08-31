@@ -144,7 +144,7 @@
     "right-extensions-all": "Advanced configuration of the extensions",
     "right-extensions-interwiki": "Configure foreign wiki extensions",
     "right-viewconfig": "View wiki configuration",
-    "right-viewconfig-all": "View all wiki configuration",
+    "right-viewconfig-all": "View restricted wiki configuration settings",
     "right-viewconfig-interwiki": "View foreign wiki configuration",
     "viewconfig": "View wiki configuration",
     "configure-throttle-action-edit": "Edit",
