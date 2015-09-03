@@ -10,7 +10,8 @@
 			"Simon Shek",
 			"LNDDYL",
 			"EagerLin",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"MoonYaksha"
 		]
 	},
 	"configure": "站務設定",
@@ -145,7 +146,7 @@
 	"right-extensions-all": "進階配置擴充套件",
 	"right-extensions-interwiki": "配置外部wiki擴充套件",
 	"right-viewconfig": "檢視wiki配置",
-	"right-viewconfig-all": "檢視所有wiki配置",
+	"right-viewconfig-all": "檢視限制的wiki配置",
 	"right-viewconfig-interwiki": "檢視外部wiki配置",
 	"viewconfig": "檢視wiki配置",
 	"configure-throttle-action-edit": "編輯",

@@ -146,7 +146,7 @@
 	"right-extensions-all": "扩展程序高级配置",
 	"right-extensions-interwiki": "配置外部wiki扩展程序",
 	"right-viewconfig": "查看wiki配置",
-	"right-viewconfig-all": "查看所有wiki配置",
+	"right-viewconfig-all": "查看受限制wiki的配置设置",
 	"right-viewconfig-interwiki": "查看外部wiki配置",
 	"viewconfig": "查看wiki配置",
 	"configure-throttle-action-edit": "编辑",
