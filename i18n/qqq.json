@@ -140,7 +140,7 @@
 	"right-extensions-all": "{{doc-right|extensions-all}}",
 	"right-extensions-interwiki": "{{doc-right|extensions-interwiki}}",
 	"right-viewconfig": "{{doc-right|viewconfig}}",
-	"right-viewconfig-all": "{{doc-right|viewconfig-all}}",
+	"right-viewconfig-all": "{{doc-right|viewconfig-all}}\n\nIt is about the restricted settings of the configuration of the wiki.",
 	"right-viewconfig-interwiki": "{{doc-right|viewconfig-interwiki}}",
 	"viewconfig": "{{doc-special|ViewConfig}}",
 	"configure-throttle-action-edit": "Used in the table in [[Special:Configure]] and [[Special:ViewConfig]].\n{{Related|Configure-throttle-action}}\n{{Identical|Edit}}",
