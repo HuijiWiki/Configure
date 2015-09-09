@@ -3,7 +3,8 @@
 		"authors": [
 			"Fitoschido",
 			"Toliño",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"Elisardojm"
 		]
 	},
 	"configure": "Configurar o wiki",
@@ -139,7 +140,7 @@
 	"right-extensions-all": "Configuración avanzada das extensións",
 	"right-extensions-interwiki": "Configurar as extensións do wiki estranxeiro",
 	"right-viewconfig": "Ver a configuración do wiki",
-	"right-viewconfig-all": "Ver toda a configuración do wiki",
+	"right-viewconfig-all": "Ver os parámetros de configuración restrinxidos da wiki",
 	"right-viewconfig-interwiki": "Ver a configuración do wiki estranxeiro",
 	"viewconfig": "Ver a configuración do wiki",
 	"configure-throttle-action-edit": "Editar",
