@@ -3,7 +3,8 @@
 		"authors": [
 			"Aushulz",
 			"Markos90",
-			"Melos"
+			"Melos",
+			"Sarvaturi"
 		]
 	},
 	"configure-desc-group": "Gruppu",
@@ -31,7 +32,7 @@
 	"configure-section-antivirus": "Antivirus",
 	"configure-section-specialpages": "Pàggini spiciali",
 	"configure-section-users": "Utenti",
-	"configure-section-search": "Risciduta",
+	"configure-section-search": "Arricerca",
 	"configure-section-external-tools": "Strumenta esterna",
 	"configure-view": "Talìa",
 	"configure-throttle-action-edit": "Cancia"
