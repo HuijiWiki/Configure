@@ -19,8 +19,9 @@ class ConfigurationSettings {
 
 	public static function singleton( $types ) {
 		static $instances = array();
-		if ( !isset( $instances[$types] ) )
+		if ( !isset( $instances[$types] ) ) {
 			$instances[$types] = new self( $types );
+		}
 		return $instances[$types];
 	}
 
@@ -36,7 +37,9 @@ class ConfigurationSettings {
 	 * Load messages and initialise static variables
 	 */
 	protected function loadSettingsDefs() {
-		if ( $this->initialized ) return;
+		if ( $this->initialized ) {
+			return;
+		}
 		$this->initialized = true;
 
 		wfProfileIn( __METHOD__ );
@@ -54,8 +57,9 @@ class ConfigurationSettings {
 	}
 
 	protected function loadExtensions() {
-		if ( is_array( $this->extensionsObjects ) )
+		if ( is_array( $this->extensionsObjects ) ) {
 			return;
+		}
 
 		wfProfileIn( __METHOD__ );
 
@@ -64,15 +68,15 @@ class ConfigurationSettings {
 		$extensions = array_merge( $coreExtensions, $wgConfigureAdditionalExtensions );
 		usort( $extensions, array( __CLASS__, 'compExt' ) );
 		$list = array();
-		foreach( $extensions as $ext ) {
+		foreach ( $extensions as $ext ) {
 			$ext = new WebExtension( $ext );
 			#if( $ext->isInstalled() ) {
 				$list[] = $ext;
 			#}
 		}
-		
+
 		$this->extensionsObjects = $list;
-		
+
 		wfProfileOut( __METHOD__ );
 	}
 
@@ -83,7 +87,7 @@ class ConfigurationSettings {
 	 */
 	public function getAllExtensionsObjects() {
 		$this->loadExtensions();
-		
+
 		return $this->extensionsObjects;
 	}
 
@@ -92,10 +96,12 @@ class ConfigurationSettings {
 	 */
 	public function getExtension( $name ) {
 		$this->loadExtensions();
-		
-		foreach( $this->extensionsObjects as $ext )
-			if ( $ext->getName() == $name )
+
+		foreach ( $this->extensionsObjects as $ext ) {
+			if ( $ext->getName() == $name ) {
 				return $ext;
+			}
+		}
 
 		return null;
 	}
@@ -116,21 +122,24 @@ class ConfigurationSettings {
 		wfProfileIn( __METHOD__ );
 		$this->loadSettingsDefs();
 		$ret = array();
-		if( ( $this->types & CONF_SETTINGS_CORE ) == CONF_SETTINGS_CORE ) {
+		if ( ( $this->types & CONF_SETTINGS_CORE ) == CONF_SETTINGS_CORE ) {
 			$ret = $this->settings;
 		}
-		if( ( $this->types & CONF_SETTINGS_EXT ) == CONF_SETTINGS_EXT ) {
+		if ( ( $this->types & CONF_SETTINGS_EXT ) == CONF_SETTINGS_EXT ) {
 			static $extArr = null;
 			if( is_null( $extArr ) ) {
 				$extArr = array();
-				foreach( $this->getAllExtensionsObjects() as $ext ) {
-					if( !$ext->isUsable() )
+				foreach ( $this->getAllExtensionsObjects() as $ext ) {
+					if ( !$ext->isUsable() ) {
 						continue;
+					}
  					$extSettings = $ext->getSettings();
- 					if( $ext->useVariable() )
+ 					if ( $ext->useVariable() ) {
  						$extSettings[$ext->getVariable()] = 'bool';
- 					if( count( $extSettings ) )
+					}
+ 					if ( count( $extSettings ) ) {
  						$extArr['mw-extensions'][$ext->getName()] = $extSettings;
+					}
 				}
 			}
 			$ret += $extArr;
@@ -145,15 +154,15 @@ class ConfigurationSettings {
 	 * @return array
 	 */
 	public function getAllSettings() {
-		if( isset( $this->cache['all'] ) ) {
+		if ( isset( $this->cache['all'] ) ) {
 			return $this->cache['all'];
 		}
 		wfProfileIn( __METHOD__ );
 		$this->loadSettingsDefs();
 		$arr = array();
-		foreach( $this->getSettings() as $section ) {
-			foreach( $section as $group ) {
-				foreach( $group as $var => $type ) {
+		foreach ( $this->getSettings() as $section ) {
+			foreach ( $section as $group ) {
+				foreach ( $group as $var => $type ) {
 					$arr[$var] = $type;
 				}
 			}
@@ -211,8 +220,9 @@ class ConfigurationSettings {
 	 * @return array
 	 */
 	public function getUneditableSettings() {
-		if ( isset( $this->cache['uneditable'] ) )
+		if ( isset( $this->cache['uneditable'] ) ) {
 			return $this->cache['uneditable'];
+		}
 
 		$this->loadSettingsDefs();
 
@@ -229,17 +239,20 @@ class ConfigurationSettings {
 		global $wgConf, $wgConfigureNotEditableSettings, $wgConfigureEditableSettings;
 		$notEditable = array_merge( $notEditable, $wgConf->getUneditableSettings() );
 
-		if ( !count( $wgConfigureNotEditableSettings ) && count( $wgConfigureEditableSettings ) &&
-			( $this->types & CONF_SETTINGS_CORE ) == CONF_SETTINGS_CORE ) {
+		if (
+			!count( $wgConfigureNotEditableSettings ) && count( $wgConfigureEditableSettings ) &&
+			( $this->types & CONF_SETTINGS_CORE ) == CONF_SETTINGS_CORE
+		)
+		{
 			// Only disallow core settings, not extensions settings!
 			$coreSettings = array();
-			foreach( $this->settings as $section ) {
-			foreach( $section as $group ) {
-				foreach( $group as $var => $type ) {
-					$coreSettings[] = $var;
+			foreach ( $this->settings as $section ) {
+				foreach ( $section as $group ) {
+					foreach ( $group as $var => $type ) {
+						$coreSettings[] = $var;
+					}
 				}
 			}
-		}
 			$wgConfigureNotEditableSettings = array_diff( $coreSettings, $wgConfigureEditableSettings );
 		}
 
@@ -257,8 +270,9 @@ class ConfigurationSettings {
 	 * @return array
 	 */
 	public function getEditableSettings() {
-		if ( isset( $this->cache['editable'] ) )
+		if ( isset( $this->cache['editable'] ) ) {
 			return $this->cache['editable'];
+		}
 
 		$this->cache['editable'] = array();
 		$this->loadSettingsDefs();
@@ -266,8 +280,8 @@ class ConfigurationSettings {
 		wfProfileIn( __METHOD__ );
 
 		global $wgConfigureEditableSettings;
-		if( count( $wgConfigureEditableSettings ) ) {
-			foreach( $wgConfigureEditableSettings as $setting ) {
+		if ( count( $wgConfigureEditableSettings ) ) {
+			foreach ( $wgConfigureEditableSettings as $setting ) {
 				$this->cache['editable'][$setting] = $this->getSettingType( $setting );
 			}
 			// We'll need to add extensions settings
@@ -281,8 +295,9 @@ class ConfigurationSettings {
 
 		$notEdit = $this->getUneditableSettings();
 		$settings = $this->getAllSettings();
-		foreach ( $notEdit as $setting )
+		foreach ( $notEdit as $setting ) {
 			unset( $settings[$setting] );
+		}
 
 		wfProfileOut( __METHOD__ );
 
@@ -298,7 +313,7 @@ class ConfigurationSettings {
 		static $alwaysSnapshot = array( 'wgGroupPermissions', 'wgImplicitGroups', 'wgAutopromote' );
 		global $wgConfigureEditableSettings;
 
-		if( count( $wgConfigureEditableSettings ) ) {
+		if ( count( $wgConfigureEditableSettings ) ) {
 			$settings = $wgConfigureEditableSettings;
 		} else {
 			$settings = array_keys( $this->getEditableSettings() );
@@ -313,8 +328,9 @@ class ConfigurationSettings {
 	 * @return array
 	 */
 	public function getArrayDefs() {
-		if ( isset( $this->cache['array'] ) )
+		if ( isset( $this->cache['array'] ) ) {
 			return $this->cache['array'];
+		}
 
 		$list = array();
 		$this->loadSettingsDefs();
@@ -342,8 +358,9 @@ class ConfigurationSettings {
 	 * @return array
 	 */
 	public function getEmptyValues() {
-		if ( isset( $this->cache['empty'] ) )
+		if ( isset( $this->cache['empty'] ) ) {
 			return $this->cache['empty'];
+		}
 
 		wfProfileIn( __METHOD__ );
 
@@ -370,15 +387,18 @@ class ConfigurationSettings {
 	 */
 	public function isSettingAvailable( $setting ) {
 		$this->loadSettingsDefs();
-		if ( !array_key_exists( $setting, $this->getAllSettings() ) )
+		if ( !array_key_exists( $setting, $this->getAllSettings() ) ) {
 			return false;
-		if ( !array_key_exists( $setting, $this->settingsVersion ) )
+		}
+		if ( !array_key_exists( $setting, $this->settingsVersion ) ) {
 			return true;
+		}
 		global $wgVersion;
 		foreach ( $this->settingsVersion[$setting] as $test ) {
 			list( $ver, $comp ) = $test;
-			if ( !version_compare( $wgVersion, $ver, $comp ) )
+			if ( !version_compare( $wgVersion, $ver, $comp ) ) {
 				return false;
+			}
 		}
 		return true;
 	}
@@ -391,10 +411,11 @@ class ConfigurationSettings {
 	 */
 	public function getSettingType( $setting ) {
 		$settings = $this->getAllSettings();
-		if ( isset( $settings[$setting] ) )
+		if ( isset( $settings[$setting] ) ) {
 			return $settings[$setting];
-		else
+		} else {
 			return false;
+		}
 	}
 
 	/**
@@ -405,7 +426,6 @@ class ConfigurationSettings {
 	 */
 	public function getArrayType( $setting ) {
 		$arr = $this->getArrayDefs();
-		return isset( $arr[$setting] ) ?
-			$arr[$setting] : null;
+		return isset( $arr[$setting] ) ? $arr[$setting] : null;
 	}
 }

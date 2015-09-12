@@ -105,26 +105,29 @@ class SpecialViewConfig extends ConfigurationPage {
 			'editMsg' => $this->msg( 'edit' )->text() . $this->msg( 'colon-separator' )->text(),
 		);
 
-		if ( $formatConf['allowedConfig'] )
+		if ( $formatConf['allowedConfig'] ) {
 			$formatConf['configTitle'] = SpecialPage::getTitleFor( 'Configure' );
+		}
 
-		if ( $formatConf['allowedExtensions'] )
+		if ( $formatConf['allowedExtensions'] ) {
 			$formatConf['extTitle'] = SpecialPage::getTitleFor( 'Extensions' );
+		}
 
 		$this->formatConf = $formatConf;
 
 		$text = $this->msg( 'configure-old-versions' )->parseAsBlock();
-		if( $this->isUserAllowedInterwiki() )
+		if ( $this->isUserAllowedInterwiki() ) {
 			$text .= $this->getWikiSelectForm();
+		}
 		$text .= $pager->getNavigationBar();
 		if ( $showDiff ) {
 			$text .= Xml::openElement( 'form', array( 'action' => $wgScript ) ) . "\n" .
-			Html::Hidden( 'title', $self->getPrefixedDBKey() ) . "\n" .
+			Html::hidden( 'title', $self->getPrefixedDBKey() ) . "\n" .
 			$this->getButton() . "<br />\n";
 		}
 		$text .= $pager->getBody();
 		if ( $showDiff ) {
-			$text .= $this->getButton() . "</form>";
+			$text .= $this->getButton() . '</form>';
 		}
 		$text .= $pager->getNavigationBar();
 		return $text;
@@ -144,27 +147,28 @@ class SpecialViewConfig extends ConfigurationPage {
 		$time = $lang->time( $ts );
 
 		## Make user link...
-		if (!$arr['user_wiki'] && !$arr['user_name'] ) {
+		if ( !$arr['user_wiki'] && !$arr['user_name'] ) {
 			$userLink = ''; # Nothing...
 			$username = '';
 		} elseif ( $arr['user_wiki'] == wfWikiId() ) {
 			$userLink = Linker::link( Title::makeTitle( NS_USER, $arr['user_name'] ), htmlspecialchars( $arr['user_name'] ) );
 			$username = $arr['user_name'];
 		} elseif ( $wiki = WikiMap::getWiki( $arr['user_wiki'] ) ) {
-			$userLink = Linker::makeExternalLink( $wiki->getUrl( 'User:'.$arr['user_name'] ), htmlspecialchars( $arr['user_name'].'@'.$arr['user_wiki'] ) );
+			$userLink = Linker::makeExternalLink( $wiki->getUrl( 'User:' . $arr['user_name'] ), htmlspecialchars( $arr['user_name'] . '@' . $arr['user_wiki'] ) );
 			$username = '';
 		} else {
 			## Last-ditch
-			$userLink = htmlspecialchars( $arr['user_name'].'@'.$arr['user_wiki'] );
+			$userLink = htmlspecialchars( $arr['user_name'] . '@' . $arr['user_wiki'] );
 			$username = '';
 		}
 
 		$actions = array();
 		$view = '';
-		if ( $hasSelf )
+		if ( $hasSelf ) {
 			$view .= Linker::linkKnown( $self, $this->msg( 'configure-view' )->escaped(), array(), array( 'version' => $ts ) );
-		elseif( $allowedAll )
+		} elseif ( $allowedAll ) {
 			$view .= $this->msg( 'configure-view' )->escaped();
+		}
 
 		if ( $allowedAll ) {
 			$viewWikis = array();
@@ -178,12 +182,13 @@ class SpecialViewConfig extends ConfigurationPage {
 			$actions[] = $view;
 
 		if ( $allowedConfig ) {
-			if ( $hasSelf )
+			if ( $hasSelf ) {
 				$editCore = $editMsg . Linker::linkKnown( $configTitle, $this->msg( 'configure-edit-core' )->escaped(), array(), array( 'version' => $ts ) );
-			elseif( $allowedConfigAll )
+			} elseif ( $allowedConfigAll ) {
 				$editCore = $editMsg . $this->msg( 'configure-edit-core' )->escaped();
-			else
+			} else {
 				$editCore = $editMsg;
+			}
 
 			if ( $allowedConfigAll ) {
 				$viewWikis = array();
@@ -196,12 +201,14 @@ class SpecialViewConfig extends ConfigurationPage {
 		}
 		if ( $allowedExtensions ) {
 			$editExt = '';
-			if ( !$allowedConfig )
+			if ( !$allowedConfig ) {
 				$editExt .= $editMsg;
-			if ( $hasSelf )
+			}
+			if ( $hasSelf ) {
 				$editExt .= Linker::linkKnown( $extTitle, $this->msg( 'configure-edit-ext' )->escaped(), array(), array( 'version' => $ts ) );
-			elseif( $allowedExtensionsAll )
+			} elseif ( $allowedExtensionsAll ) {
 				$editExt .= $this->msg( 'configure-edit-ext' )->escaped();
+			}
 
 			if ( $allowedExtensionsAll ) {
 				$viewWikis = array();
@@ -243,12 +250,13 @@ class SpecialViewConfig extends ConfigurationPage {
 	 */
 	protected function getWikiSelectForm() {
 		global $wgConfigureWikis, $wgScript;
-		if ( $wgConfigureWikis === false || !$this->isUserAllowedInterwiki() )
+		if ( $wgConfigureWikis === false || !$this->isUserAllowedInterwiki() ) {
 			return '';
+		}
 		$form = '<fieldset><legend>' . $this->msg( 'configure-select-wiki' )->escaped() . '</legend>';
 		$form .= $this->msg( 'configure-select-wiki-view-desc' )->parseAsBlock();
 		$form .= Xml::openElement( 'form', array( 'method' => 'get', 'action' => $wgScript ) );
-		$form .= Html::Hidden( 'title', $this->getPageTitle()->getPrefixedDBkey() );
+		$form .= Html::hidden( 'title', $this->getPageTitle()->getPrefixedDBkey() );
 		$all = ( $this->getRequest()->getVal( 'view', 'all' ) == 'all' );
 		$form .= Xml::radioLabel( $this->msg( 'configure-select-wiki-view-all' )->text(), 'view', 'all', 'wiki-all', $all );
 		$form .= "<br />\n";
@@ -256,12 +264,12 @@ class SpecialViewConfig extends ConfigurationPage {
 
 		if ( is_array( $wgConfigureWikis ) ) {
 			$selector = new XmlSelect( 'wiki', 'wiki', $this->mWiki );
-			foreach( $wgConfigureWikis as $wiki ) {
+			foreach ( $wgConfigureWikis as $wiki ) {
 				$selector->addOption( $wiki );
 			}
-			$form .= $selector->getHTML() . "<br />";
+			$form .= $selector->getHTML() . '<br />';
 		} else {
-			$form .= Xml::input( 'wiki', false, $this->mWiki )."<br />";
+			$form .= Xml::input( 'wiki', false, $this->mWiki ) . '<br />';
 		}
 
 		$form .= Xml::submitButton( $this->msg( 'configure-select-wiki-submit' )->text() );

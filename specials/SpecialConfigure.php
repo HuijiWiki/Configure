@@ -25,16 +25,18 @@ class SpecialConfigure extends ConfigurationPage {
 		## Add extensions settings, so we don't lose them..
 		$extSettings = ConfigurationSettings::singleton( CONF_SETTINGS_EXT )->getAllSettings();
 		$current = $wgConf->getCurrent( $this->mWiki );
-		foreach( $extSettings as $name => $type ) {
-			if( isset( $current[$name] ) )
+		foreach ( $extSettings as $name => $type ) {
+			if ( isset( $current[$name] ) ) {
 				$settings[$name] = $current[$name];
+			}
 		}
 		## Also save activated extensions :)
 		$settings['__includes'] = $wgConf->getIncludedFiles( $this->mWiki );
 
 		$settings = $this->removeDefaults( $settings );
-		if ( $wgConfigureUpdateCacheEpoch )
+		if ( $wgConfigureUpdateCacheEpoch ) {
 			$settings['wgCacheEpoch'] = max( $settings['wgCacheEpoch'], wfTimestampNow() );
+		}
 		$ok = $wgConf->saveNewSettings( $settings, $this->getUser(), $this->mWiki, $reason );
 		$result = $ok ? 'success' : 'failure';
 

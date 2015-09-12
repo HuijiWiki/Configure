@@ -45,7 +45,7 @@ function efConfigureSetup( $wiki = 'default' ) {
 		efConfigureInitialise();
 	}
 	# Cleanup $wgConfigureExtDir as needed
-	if( substr( $wgConfigureExtDir, -1 ) != '/' && substr( $wgConfigureExtDir, -1 ) != '\\' ) {
+	if ( substr( $wgConfigureExtDir, -1 ) != '/' && substr( $wgConfigureExtDir, -1 ) != '\\' ) {
 		$wgConfigureExtDir .= '/';
 	}
 	wfProfileOut( __FUNCTION__ );

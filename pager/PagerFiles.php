@@ -19,8 +19,9 @@ class ConfigurationPagerFiles implements ConfigurationPager {
 
 	function getVersionOptions() {
 		$ret = array();
-		if( $this->mWiki )
+		if ( $this->mWiki ) {
 			$ret['wiki'] = $this->mWiki;
+		}
 		return $ret;
 	}
 
@@ -62,8 +63,9 @@ class ConfigurationPagerFiles implements ConfigurationPager {
 	}
 
 	function formatRow( $info ) {
-		if ( !is_callable( $this->mCallback ) )
+		if ( !is_callable( $this->mCallback ) ) {
 			throw new MWException( 'ConfigurationPagerFiles::$mCallback not callable' );
+		}
 		return call_user_func( $this->mCallback, $info );
 	}
 }

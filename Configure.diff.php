@@ -62,8 +62,9 @@ abstract class ConfigurationDiff extends ContextSource {
 	 */
 	public function setViewCallback( $callback ) {
 		$temp = $this->callback;
-		if ( is_callable( $callback ) )
+		if ( is_callable( $callback ) ) {
 			$this->callback = $callback;
+		}
 		return $temp;
 	}
 
@@ -74,8 +75,9 @@ abstract class ConfigurationDiff extends ContextSource {
 	 * @return bool
 	 */
 	protected function isSettingViewable( $setting ) {
-		if ( !is_callable( $this->callback ) )
+		if ( !is_callable( $this->callback ) ) {
 			return true;
+		}
 
 		return (bool)call_user_func_array( $this->callback, array( $setting ) );
 	}
@@ -90,15 +92,18 @@ abstract class ConfigurationDiff extends ContextSource {
 	 */
 	function cleanWikis( &$old, &$new ) {
 		$wikis = array();
-		if ( $this->wikis === true )
+		if ( $this->wikis === true ) {
 			$this->wikis = array_unique( array_merge( array_keys( $old ), array_keys( $new ) ) );
+		}
 		foreach ( $this->wikis as $wiki ) {
-			if ( isset( $old[$wiki] ) && isset( $new[$wiki] ) )
+			if ( isset( $old[$wiki] ) && isset( $new[$wiki] ) ) {
 				$wikis[] = $wiki;
+			}
 		}
 
-		if ( !count( $wikis ) )
+		if ( !count( $wikis ) ) {
 			return false;
+		}
 
 		$old_ = array();
 		$new_ = array();
@@ -148,9 +153,9 @@ abstract class ConfigurationDiff extends ContextSource {
 					$newSetting = isset( $new[$setting] ) ? $new[$setting] : null;
 					if ( $oldSetting === $newSetting || !$this->isSettingViewable( $setting ) ) {
 						continue;
-					}
-					else
+					} else {
 						$groupDiff .= $this->processDiffSetting( $setting, $oldSetting, $newSetting, $type ) . "\n";
+					}
 				}
 				if ( $groupDiff != '' ) {
 					$msg = $this->msg( 'configure-section-' . $groupName );
@@ -170,8 +175,9 @@ abstract class ConfigurationDiff extends ContextSource {
 			}
 		}
 
-		if ( empty( $text ) )
+		if ( empty( $text ) ) {
 			return $this->msg( 'configure-no-diff' )->parseAsBlock();
+		}
 
 		$ret = "<table class='diff'>\n";
 		$ret .= "<col class='diff-marker' />";
@@ -222,8 +228,9 @@ abstract class ConfigurationDiff extends ContextSource {
 		if ( $setting === null ) {
 			$val = array();
 		} elseif ( $type == 'array' ) {
-			if( !is_array( $setting ) )
+			if ( !is_array( $setting ) ) {
 				return array();
+			}
 			$arrType = $this->getArrayType( $name );
 			if ( $arrType == 'simple' || $arrType == 'ns-simple' ) {
 				$val = array_values( $setting );
@@ -242,10 +249,12 @@ abstract class ConfigurationDiff extends ContextSource {
 			} elseif ( $arrType == 'ns-bool' || $arrType == 'ns-text' || $arrType == 'ns-array' ) {
 				$arrVal = array();
 				foreach ( $setting as $key => $value ) {
-					if ( $arrType == 'ns-bool' )
+					if ( $arrType == 'ns-bool' ) {
 						$value = $value ? 'true' : 'false';
-					if ( $arrType == 'ns-array' )
+					}
+					if ( $arrType == 'ns-array' ) {
 						$value = is_array( $value ) ? implode( ',', $value ) : '';
+					}
 					$arrVal[] = "$key: $value";
 				}
 				$val = $arrVal;
@@ -257,24 +266,26 @@ abstract class ConfigurationDiff extends ContextSource {
 				$val = $arrVal;
 			} elseif ( $arrType == 'group-bool' ) {
 				$arrVal = array();
-				ksort($setting);
+				ksort( $setting );
 				foreach ( $setting as $key1 => $value1 ) {
-					ksort($value1);
+					ksort( $value1 );
 					foreach ( $value1 as $key2 => $value2 ) {
-						if ($value2) // Only show 'true's
+						if ( $value2 ) { // Only show 'true's
 							$arrVal[] = "$key1, $key2: " . 'true';
+						}
 					}
 				}
 				$val = $arrVal;
 			} elseif ( $arrType == 'rate-limits' ) {
 				$val = array();
 				## Just walk the tree and print out the data.
-				foreach( $setting as $action => $limits ) {
-					foreach( $limits as $group => $limit ) {
-						if (is_array($limit) && count($limit) == 2) { // Only show set limits
+				foreach ( $setting as $action => $limits ) {
+					foreach ( $limits as $group => $limit ) {
+						if ( is_array( $limit ) && count( $limit ) == 2 ) { // Only show set limits
 							list( $count, $period ) = $limit;
-							if ($count == 0 || $period == 0)
+							if ( $count == 0 || $period == 0 ) {
 								continue;
+							}
 
 							$val[] = "$action, $group: " . $this->msg( 'configure-throttle-summary', $count, $period )->text();
 						}
@@ -294,11 +305,11 @@ abstract class ConfigurationDiff extends ContextSource {
 						// configure-condition-description-3, configure-condition-description-4,
 						// configure-condition-description-5, configure-condition-description-6,
 						// configure-condition-description-7
-						$val[] = "$group: ".$this->msg( "configure-condition-description-$conds" )->text();
+						$val[] = "$group: " . $this->msg( "configure-condition-description-$conds" )->text();
 						continue;
 					}
 					if ( count( $conds ) == 0 ) {
-						$val[] = "$group: ".$this->msg( 'configure-autopromote-noconds' )->text();
+						$val[] = "$group: " . $this->msg( 'configure-autopromote-noconds' )->text();
 						continue;
 					}
 
@@ -315,17 +326,16 @@ abstract class ConfigurationDiff extends ContextSource {
 					}
 
 					// Analyse each individual one...
-					foreach( $conds as $cond ) {
-						if ($cond == array( APCOND_AGE, -1 ) ) {
+					foreach ( $conds as $cond ) {
+						if ( $cond == array( APCOND_AGE, -1 ) ) {
 							$val[] = "$group: " . $this->msg( 'configure-autopromote-noconds' )->text();
 							continue;
 						}
 
-						if( !is_array( $cond ) ) {
+						if ( !is_array( $cond ) ) {
 							$cond = array( $cond );
 						}
 						$name = array_shift( $cond );
-
 
 						$argSummary = implode( ', ', $cond );
 						$count = count( $cond );
@@ -335,7 +345,7 @@ abstract class ConfigurationDiff extends ContextSource {
 						// configure-condition-description-3, configure-condition-description-4,
 						// configure-condition-description-5, configure-condition-description-6,
 						// configure-condition-description-7
-						$val[] = "$group: ".$this->msg( "configure-condition-description-$name", $argSummary, $count )->text();
+						$val[] = "$group: " . $this->msg( "configure-condition-description-$name", $argSummary, $count )->text();
 					}
 				}
 			} else {
@@ -410,21 +420,23 @@ class HistoryConfigurationDiff extends ConfigurationDiff {
 
 		$settings = $wgConf->getOldSettings( $this->diff );
 
-		if ($this->diff == 'default') { ## Special case: Replicate settings across all wikis for a fair comparison.
+		if ( $this->diff == 'default' ) { ## Special case: Replicate settings across all wikis for a fair comparison.
 			$new = $this->getNewVersion();
 
 			$defaultSettings = array();
 
 			## This is kinda annoying. We can't copy ALL settings over, because not all settings are stored.
-			foreach( $new as $wiki => $newSettings ) {
-				if ($wiki == '__metadata') ## Ignore metadata.
+			foreach ( $new as $wiki => $newSettings ) {
+				if ( $wiki == '__metadata' ) { ## Ignore metadata.
 					continue;
+				}
 
 				$defaultSettings[$wiki] = array();
 
-				foreach( $newSettings as $key => $value ) {
-					if (isset($settings['default'][$key]))
+				foreach ( $newSettings as $key => $value ) {
+					if ( isset( $settings['default'][$key] ) ) {
 						$defaultSettings[$wiki][$key] = $settings['default'][$key];
+					}
 				}
 			}
 

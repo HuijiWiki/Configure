@@ -31,8 +31,9 @@ class WebConfiguration extends SiteConfiguration {
 	public function initialise( $useCache = true ) {
 		// Special case for manage.php maintenance script so that it can work
 		// even if the current configuration is broken
-		if ( defined( 'EXT_CONFIGURE_NO_EXTRACT' ) )
+		if ( defined( 'EXT_CONFIGURE_NO_EXTRACT' ) ) {
 			return;
+		}
 
 		wfProfileIn( __METHOD__ );
 
@@ -40,35 +41,32 @@ class WebConfiguration extends SiteConfiguration {
 
 		# Restore first version of $this->settings if called a second time so
 		# that it doesn't duplicate arrays
-		if( is_null( $this->mOldSettings ) )
+		if ( is_null( $this->mOldSettings ) ) {
 			$this->mOldSettings = $this->settings;
-		else
+		} else {
 			$this->settings = $this->mOldSettings;
+		}
 
 		# We'll need to invert the order of keys as SiteConfiguration uses
 		# $settings[$setting][$wiki] and the extension uses $settings[$wiki][$setting]
 		foreach ( $this->mConf as $site => $settings ) {
-			if ( !is_array( $settings ) )
+			if ( !is_array( $settings ) ) {
 				continue;
+			}
 			foreach ( $settings as $name => $val ) {
 				if ( $name != '__includes' ) {
 					# Merge if possible
 					if ( isset( $this->settings[$name][$site] ) && is_array( $this->settings[$name][$site] ) && is_array( $val ) ) {
 						$this->settings[$name][$site] = self::mergeArrays( $val, $this->settings[$name][$site] );
-					}
-					elseif ( isset( $this->settings[$name]["+$site"] ) && is_array( $this->settings[$name]["+$site"] ) && is_array( $val ) ) {
+					} elseif ( isset( $this->settings[$name]["+$site"] ) && is_array( $this->settings[$name]["+$site"] ) && is_array( $val ) ) {
 						$this->settings[$name]["+$site"] = self::mergeArrays( $val, $this->settings[$name]["+$site"] );
-					}
-					elseif ( isset( $this->settings["+$name"][$site] ) && is_array( $this->settings["+$name"][$site] ) && is_array( $val ) ) {
+					} elseif ( isset( $this->settings["+$name"][$site] ) && is_array( $this->settings["+$name"][$site] ) && is_array( $val ) ) {
 						$this->settings["+$name"][$site] = self::mergeArrays( $val, $this->settings["+$name"][$site] );
-					}
-					elseif ( isset( $this->settings["+$name"]["+$site"] ) && is_array( $this->settings["+$name"]["+$site"] ) && is_array( $val ) ) {
+					} elseif ( isset( $this->settings["+$name"]["+$site"] ) && is_array( $this->settings["+$name"]["+$site"] ) && is_array( $val ) ) {
 						$this->settings["+$name"]["+$site"] = self::mergeArrays( $val, $this->settings["+$name"]["+$site"] );
-					}
-					elseif ( isset( $this->settings["+$name"] ) && is_array( $val ) ) {
+					} elseif ( isset( $this->settings["+$name"] ) && is_array( $val ) ) {
 						$this->settings["+$name"][$site] = $val;
-					}
-					else {
+					} else {
 						$this->settings[$name][$site] = $val;
 					}
 				}
@@ -83,14 +81,16 @@ class WebConfiguration extends SiteConfiguration {
 
 		$options = func_get_args();
 		$noOverride = in_array( 'no_override', $options );
-		if( !is_array( $this->mDefaults ) || in_array( 'allow_empty', $options ) ) {
-			if( !is_array( $this->mDefaults ) ) {
+		if ( !is_array( $this->mDefaults ) || in_array( 'allow_empty', $options ) ) {
+			if ( !is_array( $this->mDefaults ) ) {
 				$this->mDefaults = array();
 			}
 			$settings = ConfigurationSettings::singleton( CONF_SETTINGS_CORE )->getSnapshotSettings();
-			foreach( $settings as $setting ) {
-				if( array_key_exists( $setting, $GLOBALS ) &&
-					!( $noOverride && array_key_exists( $setting, $this->mDefaults ) ) )
+			foreach ( $settings as $setting ) {
+				if (
+					array_key_exists( $setting, $GLOBALS ) &&
+					!( $noOverride && array_key_exists( $setting, $this->mDefaults ) )
+				)
 				{
 					$this->mDefaults[$setting] = $GLOBALS[$setting];
 				}
@@ -120,12 +120,14 @@ class WebConfiguration extends SiteConfiguration {
 	}
 
 	public function getIncludedFiles( $wiki = null ) {
-		if ( is_null( $wiki ) )
+		if ( is_null( $wiki ) ) {
 			$wiki = $this->mWiki;
-		if ( isset( $this->mConf[$wiki]['__includes'] ) )
+		}
+		if ( isset( $this->mConf[$wiki]['__includes'] ) ) {
 			return $this->mConf[$wiki]['__includes'];
-		else
+		} else {
 			return array();
+		}
 	}
 
 	/**
@@ -133,8 +135,9 @@ class WebConfiguration extends SiteConfiguration {
 	 */
 	public function includeFiles() {
 		$includes = $this->getIncludedFiles();
-		if ( !count( $includes ) )
+		if ( !count( $includes ) ) {
 			return;
+		}
 
 		wfProfileIn( __METHOD__ );
 
@@ -144,7 +147,7 @@ class WebConfiguration extends SiteConfiguration {
 
 		foreach ( $includes as $file ) {
 			if ( file_exists( $file ) ) {
-				require_once( $file );
+				require_once $file;
 			} else {
 				trigger_error( __METHOD__ . ": required file $file doesn't exist", E_USER_WARNING );
 			}
@@ -167,7 +170,7 @@ class WebConfiguration extends SiteConfiguration {
 
 	/**
 	 * Get the configuration handler
-	 * Used for lasy-loading
+	 * Used for lazy-loading
 	 *
 	 * @return ConfigureHandler object
 	 */
@@ -182,14 +185,15 @@ class WebConfiguration extends SiteConfiguration {
 
 	/**
 	 * Return the old configuration from $ts timestamp
-	 * Does *not* return site specific settings but *all* settings
+	 * Does *not* return site-specific settings but *all* settings
 	 *
 	 * @param $ts timestamp
 	 * @return array
 	 */
 	public function getOldSettings( $ts ) {
-		if ( $ts == 'default' )
+		if ( $ts == 'default' ) {
 			return array( 'default' => $this->getDefaults() );
+		}
 		return $this->getHandler()->getOldSettings( $ts );
 	}
 
@@ -246,7 +250,7 @@ class WebConfiguration extends SiteConfiguration {
 		wfProfileIn( __METHOD__ );
 
 		global $wgConf;
-		if (!$wgConf->fullLoadDone) {
+		if ( !$wgConf->fullLoadDone ) {
 			$wgConf->loadFullData();
 			$this->initialise( false );
 		}
@@ -278,10 +282,11 @@ class WebConfiguration extends SiteConfiguration {
 		$ret = array();
 		$keys = array_unique( array_merge( array_keys( $wikiDefaults ), array_keys( $globalDefaults ) ) );
 		foreach ( $keys as $setting ) {
-			if ( isset( $wikiDefaults[$setting] ) && !is_null( $wikiDefaults[$setting] ) )
+			if ( isset( $wikiDefaults[$setting] ) && !is_null( $wikiDefaults[$setting] ) ) {
 				$ret[$setting] = $wikiDefaults[$setting];
-			elseif ( array_key_exists( $setting, $globalDefaults ) )
+			} elseif ( array_key_exists( $setting, $globalDefaults ) ) {
 				$ret[$setting] = $globalDefaults[$setting];
+			}
 		}
 
 		wfProfileOut( __METHOD__ );
@@ -298,16 +303,18 @@ class WebConfiguration extends SiteConfiguration {
 	 * @return bool true on success
 	 */
 	public function saveNewSettings( $settings, User $user, $wiki = false, $reason = '' ) {
-		if ( !is_array( $settings ) )
+		if ( !is_array( $settings ) ) {
 			# hmmm
 			return false;
+		}
 
 		if ( $wiki === null ) {
 			$this->mConf = $settings;
 			$wiki = true;
 		} else {
-			if ( $wiki === false )
+			if ( $wiki === false ) {
 				$wiki = $this->getWiki();
+			}
 			$this->mConf[$wiki] = $settings;
 		}
 
@@ -396,8 +403,9 @@ class WebConfiguration extends SiteConfiguration {
 				}
 			}
 		}
-		if ( $canAdd )
+		if ( $canAdd ) {
 			$out = array_unique( $out );
+		}
 		return $out;
 	}
 }

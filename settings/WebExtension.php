@@ -271,19 +271,22 @@ class WebExtension {
 	 * @return bool Success
 	 */
 	public function checkSettingsDependencies() {
-		if ( !$this->mObj instanceof ConfigurationPage )
+		if ( !$this->mObj instanceof ConfigurationPage ) {
 			throw new MWException( 'WebExtension::checkSettingsDependencies() called without prior call to WebExtension::setPageObj()' );
+		}
 
-		if ( !count( $this->mSettingsDependencies ) )
+		if ( !count( $this->mSettingsDependencies ) ) {
 			return array();
+		}
 
 		$ret = array();
 		$conf = $this->mObj->getConf();
 		foreach ( $this->mSettingsDependencies as $setting => $value ) {
-			if ( array_key_exists( $setting, $conf ) )
+			if ( array_key_exists( $setting, $conf ) ) {
 				$actual = $conf[$setting];
-			else
+			} else {
 				$actual = $GLOBALS[$setting];
+			}
 
 			if ( $actual !== $value ) {
 				$ret[] = array( $setting, $value, $actual );
@@ -298,8 +301,9 @@ class WebExtension {
 	 * @return Boolean
 	 */
 	public function canIncludeFile() {
-		if( !file_exists( $this->getFile() ) )
+		if ( !file_exists( $this->getFile() ) ) {
 			return false;
+		}
 		return !count( $this->checkSettingsDependencies() );
 	}
 
@@ -308,10 +312,11 @@ class WebExtension {
 	 * should be activated
 	 */
 	public function getCheckName() {
-		if( $this->useVariable() )
-			return 'wp'.$this->mExtVar;
-		else
-			return 'wpUse'.str_replace( ' ', '_', $this->mName );
+		if ( $this->useVariable() ) {
+			return 'wp' . $this->mExtVar;
+		} else {
+			return 'wpUse' . str_replace( ' ', '_', $this->mName );
+		}
 	}
 
 	/**
@@ -338,9 +343,9 @@ class WebExtension {
 	 * @return Boolean
 	 */
 	public function isActivated() {
-		if( $this->mTempActivated !== null ) {
+		if ( $this->mTempActivated !== null ) {
 			return $this->mTempActivated;
-		} elseif( $this->useVariable() ) {
+		} elseif ( $this->useVariable() ) {
 			return isset( $GLOBALS[$this->getVariable()] ) && $GLOBALS[$this->getVariable()];
 		} else {
 			global $wgConf;
@@ -354,11 +359,11 @@ class WebExtension {
 	 * @return Boolean
 	 */
 	public function isInstalled() {
-		if( $this->useVariable() ) {
+		if ( $this->useVariable() ) {
 			return true;
 		}
 		global $wgConfigureOnlyUseVarForExt;
-		if( $wgConfigureOnlyUseVarForExt ) {
+		if ( $wgConfigureOnlyUseVarForExt ) {
 			return false;
 		}
 		return file_exists( $this->getFile() );

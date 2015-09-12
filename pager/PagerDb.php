@@ -43,8 +43,9 @@ class ConfigurationPagerDb extends ReverseChronologicalPager implements Configur
 	}
 
 	function formatRow( $row ) {
-		if ( !is_callable( $this->mCallback ) )
+		if ( !is_callable( $this->mCallback ) ) {
 			throw new MWException( 'ConfigurationPagerDb::$mCallback not callable' );
+		}
 		$this->mCounter++;
 		$info = array(
 			'timestamp' => $row->cv_timestamp,

@@ -65,13 +65,15 @@ class SpecialExtensions extends ConfigurationPage {
 	protected function checkExtensionsDependencies() {
 		$request = $this->getRequest();
 		foreach ( $this->mConfSettings->getAllExtensionsObjects() as $ext ) {
-			if ( !count( $ext->getExtensionsDependencies() ) || !$request->getCheck( $ext->getCheckName() ) )
+			if ( !count( $ext->getExtensionsDependencies() ) || !$request->getCheck( $ext->getCheckName() ) ) {
 				continue;
+			}
 
 			foreach ( $ext->getExtensionsDependencies() as $depName ) {
 				$dep = $this->mConfSettings->getExtension( $depName );
-				if ( !is_object( $dep ) )
+				if ( !is_object( $dep ) ) {
 					throw new MWException( "Unable to find \"{$depName}\" dependency for \"{$ext->getName()}\" extension" );
+				}
 				if ( !$request->getCheck( $dep->getCheckName() ) ) {
 					$this->getOutput()->wrapWikiMsg( '<span class="errorbox">$1</span>',
 						array( 'configure-ext-ext-dependency-err', $ext->getName(), $depName ) );
@@ -88,16 +90,20 @@ class SpecialExtensions extends ConfigurationPage {
 	 */
 	protected function getRequiredFiles() {
  		global $wgConfigureOnlyUseVarForExt;
- 		if ( $wgConfigureOnlyUseVarForExt )
+ 		if ( $wgConfigureOnlyUseVarForExt ) {
  			return array();
+		}
 		$arr = array();
 		foreach ( $this->mConfSettings->getAllExtensionsObjects() as $ext ) {
-			if( !$ext->isUsable() )
+			if ( !$ext->isUsable() ) {
 				continue; // must exist
-			if ( $ext->useVariable() )
+			}
+			if ( $ext->useVariable() ) {
  				continue;
-			if ( $this->getRequest()->getCheck( $ext->getCheckName() ) )
+			}
+			if ( $this->getRequest()->getCheck( $ext->getCheckName() ) ) {
 				$arr[] = $ext->getFile();
+			}
 		}
 		return $arr;
 	}
@@ -125,13 +131,15 @@ class SpecialExtensions extends ConfigurationPage {
 		$ret = '';
 		$globalDone = false;
 		foreach ( $this->mConfSettings->getAllExtensionsObjects() as $wikiExt ) {
-			if( !$wikiExt->isUsable() )
+			if ( !$wikiExt->isUsable() ) {
 				continue; // must exist and be enabled
+			}
 
 			$wikiExt->setPageObj( $this );
 
-			if ( $this->mIsPreview )
+			if ( $this->mIsPreview ) {
 				$wikiExt->setTempActivated( $this->getRequest()->getCheck( $ext->getCheckName() ) );
+			}
 
 			$settings = $wikiExt->getSettings();
 			foreach ( $settings as $setting => $type ) {
@@ -142,13 +150,15 @@ class SpecialExtensions extends ConfigurationPage {
 						$oldHooks = $wgHooks;
 						$globalDone = true;
 					}
-					require_once( $wikiExt->getFile() );
-					if ( isset( $$setting ) )
+					require_once $wikiExt->getFile();
+					if ( isset( $$setting ) ) {
 						$this->conf[$setting] = $$setting;
+					}
 				}
 			}
-			if ( $globalDone )
+			if ( $globalDone ) {
 				$GLOBALS['wgHooks'] = $oldHooks;
+			}
 
 			$ret .= $wikiExt->getHtml( $this->getContext() );
 		}

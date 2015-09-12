@@ -9,6 +9,7 @@ class ApiConfigure extends ApiBase {
 
 	public function execute() {
 		global $wgConf, $wgUser, $wgConfigureWikis, $wgConfigureAPI;
+
 		$params = $this->extractRequestParams();
 		$result = $this->getResult();
 
@@ -53,10 +54,12 @@ class ApiConfigure extends ApiBase {
 		// Wiki list
 		if ( isset( $prop['wikilist'] ) ) {
 			if ( $wgUser->isAllowed( 'viewconfig-interwiki' ) ) {
-				if ( $wgConfigureWikis === false )
+				if ( $wgConfigureWikis === false ) {
 					$result->addValue( 'configure', 'wikis', array( 'denied' => '' ) );
-				if ( $wgConfigureWikis === true )
+				}
+				if ( $wgConfigureWikis === true ) {
 					$result->addValue( 'configure', 'wikis', array( 'any' => '' ) );
+				}
 				if ( is_array( $wgConfigureWikis ) ) {
 					$wikis = $wgConfigureWikis;
 					$result->setIndexedTagName( $wikis, 'wiki' );
@@ -73,10 +76,12 @@ class ApiConfigure extends ApiBase {
 				$version = $params['version'];
 				$wiki = $params['wiki'] ? $params['wiki'] : $wgConf->getWiki();
 				$settingsValues = $wgConf->getOldSettings( $version );
-				if ( !is_array( $settingsValues ) )
+				if ( !is_array( $settingsValues ) ) {
 					$this->dieUsage( 'version not found', 'noversion' );
-				if ( !isset( $settingsValues[$wiki] ) || !is_array( $settingsValues[$wiki] ) )
+				}
+				if ( !isset( $settingsValues[$wiki] ) || !is_array( $settingsValues[$wiki] ) ) {
 					$this->dieUsage( 'wiki not found in version', 'nowiki' );
+				}
 				$settingsValues = $settingsValues[$wiki];
 				$conf = ConfigurationSettings::singleton( CONF_SETTINGS_BOTH );
 				$notEditable = $conf->getUneditableSettings();
@@ -88,8 +93,9 @@ class ApiConfigure extends ApiBase {
 						foreach ( $section as $groupName => $group ) {
 							$settingsRet = array( 'name' => $groupName );
 							foreach ( $group as $setting => $type ) {
-								if ( !$conf->isSettingAvailable( $setting ) || in_array( $setting, $notEditable ) )
+								if ( !$conf->isSettingAvailable( $setting ) || in_array( $setting, $notEditable ) ) {
 									continue;
+								}
 								$settingsRet[] = $this->getSettingResult( $setting, $type, $settingsValues, $conf, $result );
 							}
 							$result->setIndexedTagName( $settingsRet, 'setting' );
@@ -102,8 +108,9 @@ class ApiConfigure extends ApiBase {
 				} else {
 					$settings = $conf->getAllSettings();
 					foreach ( $settings as $setting => $type ) {
-						if ( !$conf->isSettingAvailable( $setting ) || in_array( $setting, $notEditable ) )
+						if ( !$conf->isSettingAvailable( $setting ) || in_array( $setting, $notEditable ) ) {
 							continue;
+						}
 						$ret[] = $this->getSettingResult( $setting, $type, $settingsValues, $conf, $result );
 					}
 					$result->setIndexedTagName( $ret, 'setting' );
@@ -120,15 +127,20 @@ class ApiConfigure extends ApiBase {
 				$conf = ConfigurationSettings::singleton( CONF_SETTINGS_EXT );
 				$ret = array();
 				foreach ( $conf->getAllExtensionsObjects() as $ext ) {
-					if( !$ext->isUsable() ) continue; // must exist
+					if ( !$ext->isUsable() ) {
+						continue; // must exist
+					}
 					$extArr = array();
 					$extArr['name'] = $ext->getName();
-					if ( $ext->isActivated() )
+					if ( $ext->isActivated() ) {
 						$extArr['activated'] = '';
-					if ( $ext->hasSchemaChange() )
+					}
+					if ( $ext->hasSchemaChange() ) {
 						$extArr['schema'] = '';
-					if ( ( $url = $ext->getUrl() ) !== null )
+					}
+					if ( ( $url = $ext->getUrl() ) !== null ) {
 						$extArr['url'] = $url;
+					}
 					$ret[] = $extArr;
 				}
 				$result->setIndexedTagName( $ret, 'extension' );
@@ -148,8 +160,9 @@ class ApiConfigure extends ApiBase {
 		if ( !isset( $wgConfigureViewRestrictions[$setting] ) )
 			return true;
 		foreach ( $wgConfigureViewRestrictions[$setting] as $right ) {
-			if ( !$wgUser->isAllowed( $right ) )
+			if ( !$wgUser->isAllowed( $right ) ) {
 				return false;
+			}
 		}
 		return true;
 	}
@@ -162,7 +175,7 @@ class ApiConfigure extends ApiBase {
 		}
 		if ( isset( $settingsValues[$setting] ) ) {
 			$settingVal = $settingsValues[$setting];
-			switch( $type ) {
+			switch ( $type ) {
 			case 'bool':
 				$settingRet['type'] = $type;
 				$settingRet['value'] = $settingVal ? 'true' : 'false';
@@ -251,8 +264,9 @@ class ApiConfigure extends ApiBase {
 					$result->setIndexedTagName( $settingRet['values'], 'group' );
 					$all = array_keys( $settingsValues['wgGroupPermissions'] );
 					$iter = array();
-					foreach ( $all as $group )
+					foreach ( $all as $group ) {
 						$iter[$group] = isset( $settingVal[$group] ) && is_array( $settingVal[$group] ) ? $settingVal[$group] : array();
+					}
 					$all = array_diff( $all, $settingsValues['wgImplicitGroups'] );
 					foreach ( $iter as $group => $value ) {
 						$arr = array( 'name' => $group, 'values' => $value );
@@ -265,7 +279,7 @@ class ApiConfigure extends ApiBase {
 					$result->setIndexedTagName( $settingRet['values'], 'action' );
 					foreach ( $settingVal as $action => $limits ) {
 						$arr = array( 'name' => $action );
-						foreach( $limits as $group => $values ){
+						foreach ( $limits as $group => $values ){
 							$count = isset( $values[0] ) ? $values[0] : 0;
 							$period = isset( $values[1] ) ? $values[1] : 0;
 							$arr[] = array( 'name' => $group, 'count' => $count, 'period' => $period );
@@ -302,18 +316,18 @@ class ApiConfigure extends ApiBase {
 								$conds = array( $conds );
 							}
 							// Analyse each individual one...
-							foreach( $conds as $cond ) {
+							foreach ( $conds as $cond ) {
 								if ( $cond == array( APCOND_AGE, -1 ) ) {
 									continue;
 								}
-								if( !is_array( $cond ) ) {
+								if ( !is_array( $cond ) ) {
 									$cond = array( $cond );
 								}
 								$name = array_shift( $cond );
 								$argSummary = implode( ', ', $cond );
 								$retConds[] = array( 'name' => $condsName[$name], 'value' => $argSummary );
 							}
-						} while( false );
+						} while ( false );
 						$settingRet['values'][] = $retConds;
 					}
 					break;
@@ -346,16 +360,18 @@ class ApiConfigure extends ApiBase {
 		$type = $settings->getArrayType( $setting );
 		switch( $type ) {
 		case 'group-bool':
-			if ( isset( $GLOBALS[$setting] ) && isset( $GLOBALS[$setting][$group] ) )
+			if ( isset( $GLOBALS[$setting] ) && isset( $GLOBALS[$setting][$group] ) ) {
 				return array( 'error', 'exists' );
+			}
 
 			$row = ConfigurationPage::buildGroupSettingRow( $setting, $type, User::getAllRights(), true, $group, array() );
 
 			// Firefox seems to not like that :(
 			return array( 'ajax', str_replace( '&#160;', ' ', $row ) );
 		case 'promotion-conds':
-			if ( isset( $GLOBALS[$setting] ) && isset( $GLOBALS[$setting][$group] ) )
+			if ( isset( $GLOBALS[$setting] ) && isset( $GLOBALS[$setting][$group] ) ) {
 				return array( 'error', 'exists' );
+			}
 
 			return array( 'ajax', ConfigurationPage::buildPromotionCondsSettingRow( $setting, true, $group, array() ) );
 		default:
@@ -435,7 +451,7 @@ class ApiConfigure extends ApiBase {
 	}
 
 	protected function getExamples() {
-		return array (
+		return array(
 			'api.php?action=configure',
 		);
 	}
