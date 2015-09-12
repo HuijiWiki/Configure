@@ -22,7 +22,7 @@ if ( !defined( 'MEDIAWIKI' ) ) die();
  */
 function efConfigureSetup( $wiki = 'default' ) {
 	global $wgConf, $wgConfigureFilesPath, $wgConfigureExtDir, $wgConfigureHandler, $wgConfigureAllowDeferSetup;
-	wfProfileIn( __FUNCTION__ );
+
 	# Create the new configuration object...
 	$oldConf = $wgConf;
 	require_once( dirname( __FILE__ ) . '/Configure.obj.php' );
@@ -48,7 +48,6 @@ function efConfigureSetup( $wiki = 'default' ) {
 	if ( substr( $wgConfigureExtDir, -1 ) != '/' && substr( $wgConfigureExtDir, -1 ) != '\\' ) {
 		$wgConfigureExtDir .= '/';
 	}
-	wfProfileOut( __FUNCTION__ );
 }
 
 function efConfigureInitialise() {

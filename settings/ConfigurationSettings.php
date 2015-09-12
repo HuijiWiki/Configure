@@ -42,8 +42,6 @@ class ConfigurationSettings {
 		}
 		$this->initialized = true;
 
-		wfProfileIn( __METHOD__ );
-
 		require( dirname( __FILE__ ) . '/Settings-core.php' );
 		$this->settings = $settings;
 		$this->arrayDefs = $arrayDefs;
@@ -52,16 +50,12 @@ class ConfigurationSettings {
 		$this->viewRestricted = $viewRestricted;
 		$this->notEditableSettings = $notEditableSettings;
 		$this->settingsVersion = $settingsVersion;
-
-		wfProfileOut( __METHOD__ );
 	}
 
 	protected function loadExtensions() {
 		if ( is_array( $this->extensionsObjects ) ) {
 			return;
 		}
-
-		wfProfileIn( __METHOD__ );
 
 		global $wgConfigureAdditionalExtensions;
 		$coreExtensions = TxtDef::loadFromFile( dirname( __FILE__ ) . '/Settings-ext.txt', array( 'key' => 'name' ) );
@@ -76,8 +70,6 @@ class ConfigurationSettings {
 		}
 
 		$this->extensionsObjects = $list;
-
-		wfProfileOut( __METHOD__ );
 	}
 
 	/**
@@ -119,7 +111,6 @@ class ConfigurationSettings {
 	 * @return array
 	 */
 	public function getSettings() {
-		wfProfileIn( __METHOD__ );
 		$this->loadSettingsDefs();
 		$ret = array();
 		if ( ( $this->types & CONF_SETTINGS_CORE ) == CONF_SETTINGS_CORE ) {
@@ -144,7 +135,6 @@ class ConfigurationSettings {
 			}
 			$ret += $extArr;
 		}
-		wfProfileOut( __METHOD__ );
 		return $ret;
 	}
 
@@ -157,7 +147,7 @@ class ConfigurationSettings {
 		if ( isset( $this->cache['all'] ) ) {
 			return $this->cache['all'];
 		}
-		wfProfileIn( __METHOD__ );
+
 		$this->loadSettingsDefs();
 		$arr = array();
 		foreach ( $this->getSettings() as $section ) {
@@ -168,7 +158,7 @@ class ConfigurationSettings {
 			}
 		}
 		$this->cache['all'] = $arr;
-		wfProfileOut( __METHOD__ );
+
 		return $this->cache['all'];
 	}
 
@@ -179,7 +169,7 @@ class ConfigurationSettings {
 	 */
 	public function getViewRestricted() {
 		$this->loadSettingsDefs();
-		wfProfileIn( __METHOD__ );
+
 		$ret = array();
 		if ( ( $this->types & CONF_SETTINGS_CORE ) == CONF_SETTINGS_CORE ) {
 			$ret += $this->viewRestricted;
@@ -189,7 +179,7 @@ class ConfigurationSettings {
 				$ret = array_merge( $ret, $ext->getViewRestricted() );
 			}
 		}
-		wfProfileOut( __METHOD__ );
+
 		return $ret;
 	}
 
@@ -200,7 +190,7 @@ class ConfigurationSettings {
 	 */
 	public function getEditRestricted() {
 		$this->loadSettingsDefs();
-		wfProfileIn( __METHOD__ );
+
 		$ret = array();
 		if ( ( $this->types & CONF_SETTINGS_CORE ) == CONF_SETTINGS_CORE ) {
 			$ret += $this->editRestricted;
@@ -210,7 +200,7 @@ class ConfigurationSettings {
 				$ret = array_merge( $ret, $ext->getEditRestricted() );
 			}
 		}
-		wfProfileOut( __METHOD__ );
+
 		return $ret;
 	}
 
@@ -225,8 +215,6 @@ class ConfigurationSettings {
 		}
 
 		$this->loadSettingsDefs();
-
-		wfProfileIn( __METHOD__ );
 
 		$notEditable = array();
 		if ( ( $this->types & CONF_SETTINGS_CORE ) == CONF_SETTINGS_CORE ) {
@@ -259,8 +247,6 @@ class ConfigurationSettings {
 		$notEditable = array_merge( $notEditable,
 			$wgConfigureNotEditableSettings );
 
-		wfProfileOut( __METHOD__ );
-
 		return $this->cache['uneditable'] = $notEditable;
 	}
 
@@ -276,8 +262,6 @@ class ConfigurationSettings {
 
 		$this->cache['editable'] = array();
 		$this->loadSettingsDefs();
-
-		wfProfileIn( __METHOD__ );
 
 		global $wgConfigureEditableSettings;
 		if ( count( $wgConfigureEditableSettings ) ) {
@@ -298,8 +282,6 @@ class ConfigurationSettings {
 		foreach ( $notEdit as $setting ) {
 			unset( $settings[$setting] );
 		}
-
-		wfProfileOut( __METHOD__ );
 
 		return $this->cache['editable'] = $settings;
 	}
@@ -335,8 +317,6 @@ class ConfigurationSettings {
 		$list = array();
 		$this->loadSettingsDefs();
 
-		wfProfileIn( __METHOD__ );
-
 		if ( ( $this->types & CONF_SETTINGS_CORE ) == CONF_SETTINGS_CORE ) {
 			$list += $this->arrayDefs;
 		}
@@ -345,8 +325,6 @@ class ConfigurationSettings {
 				$list += $ext->getArrayDefs();
 			}
 		}
-
-		wfProfileOut( __METHOD__ );
 
 		return $this->cache['array'] = $list;
 	}
@@ -362,8 +340,6 @@ class ConfigurationSettings {
 			return $this->cache['empty'];
 		}
 
-		wfProfileIn( __METHOD__ );
-
 		$list = array();
 		if ( ( $this->types & CONF_SETTINGS_CORE ) == CONF_SETTINGS_CORE ) {
 			$list += $this->emptyValues;
@@ -373,8 +349,6 @@ class ConfigurationSettings {
 				$list += $ext->getEmptyValues();
 			}
 		}
-
-		wfProfileOut( __METHOD__ );
 
 		return $this->cache['empty'] = $list;
 	}

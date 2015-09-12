@@ -35,8 +35,6 @@ class WebConfiguration extends SiteConfiguration {
 			return;
 		}
 
-		wfProfileIn( __METHOD__ );
-
 		$this->mConf = $this->getHandler()->getCurrent( $useCache );
 
 		# Restore first version of $this->settings if called a second time so
@@ -72,13 +70,9 @@ class WebConfiguration extends SiteConfiguration {
 				}
 			}
 		}
-
-		wfProfileOut( __METHOD__ );
 	}
 
 	public function snapshotDefaults( /* options */ ) {
-		wfProfileIn( __METHOD__ );
-
 		$options = func_get_args();
 		$noOverride = in_array( 'no_override', $options );
 		if ( !is_array( $this->mDefaults ) || in_array( 'allow_empty', $options ) ) {
@@ -96,16 +90,12 @@ class WebConfiguration extends SiteConfiguration {
 				}
 			}
 		}
-
-		wfProfileOut( __METHOD__ );
 	}
 
 	/**
 	 * extract settings for this wiki in $GLOBALS
 	 */
 	public function extract() {
-		wfProfileIn( __METHOD__ );
-
 		// Include files before so that customized settings won't be overridden
 		// by the default ones
 		$this->includeFiles();
@@ -115,8 +105,6 @@ class WebConfiguration extends SiteConfiguration {
 		list( $site, $lang ) = $this->siteFromDB( $this->mWiki );
 		$rewrites = array( 'wiki' => $this->mWiki, 'site' => $site, 'lang' => $lang );
 		$this->extractAllGlobals( $this->mWiki, $site, $rewrites );
-
-		wfProfileOut( __METHOD__ );
 	}
 
 	public function getIncludedFiles( $wiki = null ) {
@@ -139,8 +127,6 @@ class WebConfiguration extends SiteConfiguration {
 			return;
 		}
 
-		wfProfileIn( __METHOD__ );
-
 		// Since the files should be included from the global scope, we'll need
 		// to import that variabled in this function
 		extract( $GLOBALS, EXTR_REFS );
@@ -152,8 +138,6 @@ class WebConfiguration extends SiteConfiguration {
 				trigger_error( __METHOD__ . ": required file $file doesn't exist", E_USER_WARNING );
 			}
 		}
-
-		wfProfileOut( __METHOD__ );
 	}
 
 	/**
@@ -247,8 +231,6 @@ class WebConfiguration extends SiteConfiguration {
 	 * @return array
 	 */
 	public function getDefaultsForWiki( $wiki ) {
-		wfProfileIn( __METHOD__ );
-
 		global $wgConf;
 		if ( !$wgConf->fullLoadDone ) {
 			$wgConf->loadFullData();
@@ -288,8 +270,6 @@ class WebConfiguration extends SiteConfiguration {
 				$ret[$setting] = $globalDefaults[$setting];
 			}
 		}
-
-		wfProfileOut( __METHOD__ );
 
 		return $ret;
 	}
