@@ -235,7 +235,7 @@ jQuery( document ).ready( function ( $ ) {
 		};
 		var input = $( this );
 		$.getJSON(
-			mw.config.get( 'wgScriptPath' ) + '/api' + mw.config.get( 'wgScriptExtension' ),
+			mw.config.get( 'wgScriptPath' ) + '/api.php',
 			data,
 			function( obj ) {
 				var found = false;
@@ -297,7 +297,7 @@ jQuery( document ).ready( function ( $ ) {
 					};
 
 					$.getJSON(
-						mw.config.get( 'wgScriptPath' ) + '/api' + mw.config.get( 'wgScriptExtension' ),
+						mw.config.get( 'wgScriptPath' ) + '/api.php',
 						data,
 						function( obj ) {
 							if ( obj.configure.ajax ) {
