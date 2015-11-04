@@ -7,7 +7,8 @@
 			"Sasa Stefanovic",
 			"Жељко Тодоровић",
 			"Михајло Анђелковић",
-			"Обрадовић Горан"
+			"Обрадовић Горан",
+			"Сербијана"
 		]
 	},
 	"configure": "Конфигуришите вики",
@@ -163,13 +164,13 @@
 	"configure-condition-requirement": "Захтев",
 	"configure-condition-name-1": "Најмањи број измена",
 	"configure-condition-name-2": "Најмања старост",
-	"configure-condition-name-3": "Потврђена е-адреса",
+	"configure-condition-name-3": "Потврђен имејл",
 	"configure-condition-name-4": "У групама",
 	"configure-condition-name-5": "Корисничка ИП адреса",
 	"configure-condition-name-6": "Корисничке ИП адресе у CIDR опсегу",
 	"configure-autopromote-noconds": "Без пререквизита",
 	"configure-condition-description-1": "Минимални број измена од $1",
-	"configure-condition-description-3": "Потврђена е-адреса",
+	"configure-condition-description-3": "Потврђен имејл",
 	"configure-condition-description-4": "У свим групама $1",
 	"configure-condition-description-5": "Корисничка ИП адреса је $1",
 	"configure-condition-description-6": "Корисничке ИП адресе у опсегу $1",
