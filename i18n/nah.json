@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Fluence",
-			"Teòtlalili"
+			"Teòtlalili",
+			"Taresi"
 		]
 	},
 	"configure-desc-group": "Olōlli",
@@ -16,6 +17,6 @@
 	"configure-section-category": "Tlaìxmatkàtlàlilòtl",
 	"configure-section-groups": "Olòltìn",
 	"configure-section-specialpages": "Nònkuâkiskàtlaìxtlapaltin",
-	"configure-throttle-action-edit": "Moyèktlàlìs",
+	"configure-throttle-action-edit": "Xicpatla",
 	"configure-condition-operator-or": "Nozo"
 }
