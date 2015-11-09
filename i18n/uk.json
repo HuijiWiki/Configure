@@ -9,7 +9,8 @@
 			"Olvin",
 			"Prima klasy4na",
 			"Sodmy",
-			"Тест"
+			"Тест",
+			"Ата"
 		]
 	},
 	"configure": "Конфігурувати вікі",
@@ -145,7 +146,7 @@
 	"right-extensions-all": "Розширене налаштування розширень",
 	"right-extensions-interwiki": "Налаштування розширень зовнішньої вікі",
 	"right-viewconfig": "Перегляд конфігурації вікі",
-	"right-viewconfig-all": "Перегляд усіх налаштувань вікі",
+	"right-viewconfig-all": "Перегляд обмежених налаштувань вікі",
 	"right-viewconfig-interwiki": "Перегляд налаштувань зовнішньої вікі",
 	"viewconfig": "Перегляд конфігурації вікі",
 	"configure-throttle-action-edit": "Змінити",
