@@ -17,7 +17,7 @@
 	"configure-edit-ext": "विस्तारके",
 	"configure-viewconfig-default-diff": "डिफॉल्ट मांडण्यांवरुन बदल करते",
 	"configure-ext-ext-dependencies": "'''ईशारा:'''या विस्तारकास खालील {{PLURAL:$2|विस्तारक|विस्तारके}} कार्यान्वित असावयास हवीत:$1",
-	"configure-ext-ext-dependency-err": "'''त्रूटी:'''$1 विस्तारकास $2 विस्तारक कार्यान्वित असावयास हवे.",
+	"configure-ext-ext-dependency-err": "'''त्रुटी:'''$1 विस्तारकास $2 विस्तारक कार्यान्वित असावयास हवे.",
 	"configure-ext-doc": "ऑनलाईन दस्ताऐवजीकरण बघा",
 	"configure-ext-schemachange": "'''ईशारा:'''या विस्तारकासाठी [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Update.php डाटाबेस अपडेट] योग्य रितीने काम करावयास हवे.",
 	"configure-ext-settings": "मांडण्या",
