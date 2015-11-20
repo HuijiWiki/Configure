@@ -101,7 +101,7 @@
 	"configure-select-wiki-view-specific": "Συγκεκριμένο βίκι:",
 	"configure-select-wiki-submit": "Επιλογή",
 	"configure-view": "Προβολή",
-	"configure-view-all-versions": "Πλήρης λίστα εκδοχών",
+	"configure-view-all-versions": "Πλήρης κατάλογος των εκδόσεων",
 	"configure-view-default": "Προεπιλεγμένες ρυθμίσεις",
 	"configure-view-not-allowed": "Δεν επιτρέπεται να δείτε αυτήν τη ρύθμιση",
 	"configure-viewconfig-line": "$1 $2 από $3 $5 : $4",
