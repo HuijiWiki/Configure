@@ -29,7 +29,7 @@
 	"configure-btn-save": "Αποθήκευση ρυθμίσεων",
 	"configure-js-add": "Προσθήκη μιας νέας καταχώρησης",
 	"configure-js-group-exists": "Σφάλμα: αυτή η ομάδα υπάρχει ήδη.",
-	"configure-js-prompt-group": "Εισάγετε το όνομα της νέας ομάδας:",
+	"configure-js-prompt-group": "Εισαγάγετε το όνομα της νέας ομάδας:",
 	"configure-js-remove": "Διαγραφή",
 	"configure-js-remove-row": "Διαγραφή αυτής της καταχώρησης",
 	"configure-js-get-image-url": "Μετατρέψτε το όνομα του αρχείου σε URL",
