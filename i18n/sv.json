@@ -147,7 +147,7 @@
 	"right-extensions-all": "Avancerad inställning av programtilläggen",
 	"right-extensions-interwiki": "Konfigurera främmande wiki-programtillägg",
 	"right-viewconfig": "Visa wikiinställningar",
-	"right-viewconfig-all": "Visa alla wikiinställningar",
+	"right-viewconfig-all": "Visa begränsade konfigurationsinställningar för wikin",
 	"right-viewconfig-interwiki": "Visa främmande wiki-konfiguration",
 	"viewconfig": "Visa wikikonfigurering",
 	"configure-throttle-action-edit": "Redigera",
