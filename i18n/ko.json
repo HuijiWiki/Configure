@@ -144,7 +144,7 @@
 	"right-viewconfig-interwiki": "다른 위키 설정 보기",
 	"viewconfig": "위키 설정 보기",
 	"configure-throttle-action-edit": "편집",
-	"configure-throttle-action-move": "옮기기",
+	"configure-throttle-action-move": "이동",
 	"configure-throttle-action-rollback": "되돌리기",
 	"configure-throttle-action-mailpassword": "비밀번호 알림 보내기",
 	"configure-throttle-action-emailuser": "메일 보내기",
