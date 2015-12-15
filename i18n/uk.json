@@ -10,7 +10,8 @@
 			"Prima klasy4na",
 			"Sodmy",
 			"Тест",
-			"Ата"
+			"Ата",
+			"Piramidion"
 		]
 	},
 	"configure": "Конфігурувати вікі",
@@ -135,7 +136,7 @@
 	"configure-transwiki-not-in-range": "Запитувана вікі, $1, не дозволяє {{PLURAL:$3|значення}}: $2.",
 	"configure-view": "Перегляд",
 	"configure-view-all-versions": "Повний список версій",
-	"configure-view-default": "Установки за умовчанням",
+	"configure-view-default": "Налаштування за замовчуванням",
 	"configure-view-not-allowed": "Ви не можете побачити цю настройку",
 	"configure-viewconfig-line": "$1 $2 від $3 $5: $4",
 	"extensions": "Налаштування розширень",
