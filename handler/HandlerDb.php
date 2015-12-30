@@ -225,7 +225,7 @@ class ConfigureHandlerDb implements ConfigureHandler {
 		if ($this->versionExists( $ts ))
 			$this->saveSettingsForWiki( $settings, $wiki, $ts+1, $reason );
 
-		$dbw->begin();
+		$dbw->begin( __METHOD__ );
 		$newId = $dbw->nextSequenceValue( 'config_version_cv_id_seq' );
 		$dbw->insert( 'config_version',
 			array(
@@ -256,7 +256,7 @@ class ConfigureHandlerDb implements ConfigureHandler {
 		wfRunHooks( 'ConfigureDBHandlerSaveSettingsForWiki', array( $settings ) );
 
 		$dbw->insert( 'config_setting', $insert, __METHOD__ );
-		$dbw->commit();
+		$dbw->commit( __METHOD__ );
 		return true;
 	}
 
