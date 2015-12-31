@@ -74,10 +74,10 @@ class ConfigurationManager extends Maintenance {
 		}
 
 		$id = $rev->cv_id;
-		$dbw->begin();
+		$this->beginTransaction( $dbw, __METHOD__ );
 		$dbw->delete( 'config_version', array( 'cv_id' => $id ), __METHOD__ );
 		$dbw->delete( 'config_setting', array( 'cs_id' => $id ), __METHOD__ );
-		$dbw->commit();
+		$this->commitTransaction( $dbw, __METHOD__ );
 	}
 
 	protected function DoList(){
