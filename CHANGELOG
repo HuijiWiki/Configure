@@ -1,6 +1,9 @@
 This file lists changes on this extension. Localisation updates are done
 through translatewiki.net and are not listed here.
 
+0.17.4 - 02 Jan 2016
+  Removed deprecated core setting $wgCopyrightIcon
+
 0.17.3 - 27 July 2012
   Fixed description of $wgResourceLoaderDebug setting.
 

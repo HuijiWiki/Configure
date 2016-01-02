@@ -683,7 +683,6 @@ $settings = array(
 	),
 	'copyright' => array(
 		'copyright' => array(
-			'wgCopyrightIcon' => 'text',
 			'wgMaxCredits' => 'int',
 			'wgRightsIcon' => 'text',
 			'wgRightsPage' => 'text',
@@ -937,7 +936,6 @@ $emptyValues = array(
 	'wgDjvuDump' => null,
 	'wgAntivirus' => null,
 	'wgImportTargetNamespace' => null,
-	'wgCopyrightIcon' => null,
 	'wgSearchForwardUrl' => null,
 	'wgExemptFromUserRobotsControl' => null,
 	'wgArticlePath' => false,
