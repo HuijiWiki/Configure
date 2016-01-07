@@ -3,7 +3,10 @@
  * create JavaScript buttons to allow to modify the form to have more
  * flexibility
  */
-jQuery( document ).ready( function ( $ ) {
+
+/*jshint -W083 */
+
+jQuery( document ).ready( function ( $, mw ) {
 	"use strict";
 	// Tabs and TOC
 	// ------------
@@ -89,12 +92,12 @@ jQuery( document ).ready( function ( $ ) {
 				item.prepend( $( '<a></a>' )
 					.text( '[+]' )
 					.addClass( 'toggle' )
-					.attr( 'href', 'javascript:' )
+					.attr( 'href', '#' )
 					.mousedown( function( e ) {
 						e.preventDefault();
 						return false;
 					} )
-					.click( function( e ) {
+					.click( function() {
 						if ( sub.css( 'display' ) === 'none' ) {
 							sub.show();
 							$(this).text( '[−]' );
@@ -108,10 +111,11 @@ jQuery( document ).ready( function ( $ ) {
 			$( '#configtoc' ).append( item );
 		} );
 
+	var stylepath;
 	$( '.config-col-toc' ).prepend(
 		$( '<a></a>' )
 			.css( 'align', 'right' )
-			.attr( 'href', 'javascript:;' )
+			.attr( 'href', '#' )
 			.append( $( '<img />' )
 				.attr( {'src': stylepath + '/common/images/Arr_l.png', 'title': 'hide TOC' } )
 			)
@@ -159,6 +163,7 @@ jQuery( document ).ready( function ( $ ) {
 
 	$( '#configure table.assoc' ).each( function() {
 		var table = $( this );
+		var fixAssocTable;
 
 		if ( table.hasClass( 'disabled' ) ) {
 			return;
@@ -283,6 +288,7 @@ jQuery( document ).ready( function ( $ ) {
 				.attr( 'type', 'button' )
 				.attr( 'value', mediaWiki.msg( 'configure-js-add' ) )
 				.click( function() {
+					var prompt;
 					var groupname = prompt( mediaWiki.msg( 'configure-js-prompt-group' ) );
 					if( groupname === null ) {
 						return;
@@ -302,6 +308,7 @@ jQuery( document ).ready( function ( $ ) {
 						function( obj ) {
 							if ( obj.configure.ajax ) {
 								var resp = obj.configure.ajax;
+								var error;
 								error = false;
 								table.append(
 									$( '<tr></tr>' )
@@ -314,7 +321,7 @@ jQuery( document ).ready( function ( $ ) {
 												.append(
 													$( '<input></input>' )
 														.attr( 'type', 'button' )
-														.attr( 'value', mediaWiki.msg( 'configure-js-remove-row' ) )
+														.attr( 'value', mw.msg( 'configure-js-remove-row' ) )
 														.click( function() {
 															$( this ).parent().parent().remove();
 														} )
@@ -322,7 +329,7 @@ jQuery( document ).ready( function ( $ ) {
 										)
 								);
 							} else {
-								alert( mediaWiki.msg( 'configure-js-group-exists' ) );
+								window.alert( mw.msg( 'configure-js-group-exists' ) );
 							}
 						}
 					);
@@ -430,25 +437,26 @@ jQuery( document ).ready( function ( $ ) {
 		}
 	};
 
-	$( '.configure-biglist' ).each( function( l ) {
+	$( '.configure-biglist' ).each( function() {
 		var list = $( this );
+		var summariseSetting;
 		var summary = $( '<div></div>' )
 			.addClass( 'configure-biglist-summary' )
 			.html( summariseSetting( list ) );
-		var header = $( '<span></span>' ).text( mediaWiki.msg( 'configure-js-biglist-hidden' ) );
+		var header = $( '<span></span>' ).text( mw.msg( 'configure-js-biglist-hidden' ) );
 		var toogle = $( '<a></a>' )
 			.addClass( 'configure-biglist-toggle-link' )
-			.attr( 'href', 'javascript:' )
-			.text( mediaWiki.msg( 'configure-js-biglist-show' ) )
+			.attr( 'href', '#' )
+			.text( mw.msg( 'configure-js-biglist-show' ) )
 			.click( function() {
 				if ( list.css( 'display' ) === 'none' ) {
-					toogle.text( mediaWiki.msg( 'configure-js-biglist-hide' ) );
-					header.text( mediaWiki.msg( 'configure-js-biglist-shown' ) );
+					toogle.text( mw.msg( 'configure-js-biglist-hide' ) );
+					header.text( mw.msg( 'configure-js-biglist-shown' ) );
 					list.show();
 					summary.hide();
 				} else {
-					toogle.text( mediaWiki.msg( 'configure-js-biglist-show' ) );
-					header.text( mediaWiki.msg( 'configure-js-biglist-hidden' ) );
+					toogle.text( mw.msg( 'configure-js-biglist-show' ) );
+					header.text( mw.msg( 'configure-js-biglist-hidden' ) );
 					list.hide();
 					summary.html( summariseSetting( list ) ).show();
 				}
@@ -472,6 +480,7 @@ jQuery( document ).ready( function ( $ ) {
 	window.allSettings = undefined;
 
 	( function() {
+		var allSettings;
 		allSettings = [];
 
 		// For each section...
@@ -480,7 +489,8 @@ jQuery( document ).ready( function ( $ ) {
 		for( var fid=0; fid<fieldsets.length; ++fid ) {
 			// For each subsection...
 			var fieldset = fieldsets[fid];
-			var fieldset_title = window.getInnerText( fieldset.getElementsByTagName( 'legend' )[0] );
+			// var fieldset_title = window.getInnerText( fieldset.getElementsByTagName( 'legend' )[0] );
+			var getElementsByClassName;
 			var subsections = getElementsByClassName( fieldset, 'table', 'configure-table' );
 			for( var sid=0; sid<subsections.length; ++sid ) {
 				var subsection;
@@ -489,15 +499,16 @@ jQuery( document ).ready( function ( $ ) {
 				} else {
 					subsection = subsections[sid];
 				}
-				var heading = document.getElementById( subsection.parentNode.id.replace( 'config-table', 'config-head' ) );
+				// var heading = document.getElementById( subsection.parentNode.id.replace( 'config-table', 'config-head' ) );
 
 				// For each setting...
 				for( var i=0; i<subsection.childNodes.length;++i ) {
 					var row = subsection.childNodes[i];
-					if( typeof row.ELEMENT_NODE === "undefined" ){
-						var wantedType = 1; // ELEMENT_NODE
+					var wantedType;
+					if ( typeof row.ELEMENT_NODE === "undefined" ) {
+						wantedType = 1; // ELEMENT_NODE
 					} else {
-						var wantedType = row.ELEMENT_NODE;
+						wantedType = row.ELEMENT_NODE;
 					}
 					if ( row.nodeType !== wantedType || ( row.tagName !== 'tr' && row.tagName !== 'TR' ) ) {
 						continue;
@@ -533,6 +544,7 @@ jQuery( document ).ready( function ( $ ) {
 		}
 
 		var isMatch = function( element ) { return element.description.indexOf( query ) !== -1; };
+		var allSettings;
 		for( var i=0; i<allSettings.length; ++i ) {
 			var data = allSettings[i];
 			if ( isMatch( data ) ) {
@@ -552,4 +564,4 @@ jQuery( document ).ready( function ( $ ) {
 			}
 		}
 	} );
-} );
+}( jQuery, mediaWiki ) );
