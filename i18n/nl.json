@@ -3,7 +3,8 @@
 		"authors": [
 			"GerardM",
 			"Siebrand",
-			"Tvdm"
+			"Tvdm",
+			"Sjoerddebruin"
 		]
 	},
 	"configure": "Wiki-instellingen",
@@ -169,7 +170,7 @@
 	"configure-condition-name-3": "E-mailadres bevestigd",
 	"configure-condition-name-4": "In groepen",
 	"configure-condition-name-5": "IP-adres van gebruiker",
-	"configure-condition-name-6": "IP-adres van gebruiker in CIDR-reeks",
+	"configure-condition-name-6": "IP-adres van gebruiker in CIDR-range",
 	"configure-condition-name-7": "Minimaal verstreken tijd sinds de eerste bewerking",
 	"configure-autopromote-noconds": "Geen voorwaarden",
 	"configure-condition-description-1": "Minimaal $1 bewerkingen gemaakt",
@@ -177,7 +178,7 @@
 	"configure-condition-description-3": "E-mailadres bevestigd",
 	"configure-condition-description-4": "In alle groepen $1",
 	"configure-condition-description-5": "Het IP-adres van de gebruiker is $1",
-	"configure-condition-description-6": "Het IP-adres van de gebruiker in de reeks $1",
+	"configure-condition-description-6": "Het IP-adres van de gebruiker in de range $1",
 	"configure-condition-description-7": "Minimaal verstreken tijd van $1 {{PLURAL:$1|seconde|secondes}} na de eerste bewerking van een gebruiker",
 	"configure-boolop-description-and": "Aan alle voorwaarden moet voldaan worden",
 	"configure-boolop-description-or": "Aan tenminste een voorwaarde moet voldaan zijn",
