@@ -181,7 +181,7 @@
 	"configure-condition-description-6": "Het IP-adres van de gebruiker in de range $1",
 	"configure-condition-description-7": "Minimaal verstreken tijd van $1 {{PLURAL:$1|seconde|secondes}} na de eerste bewerking van een gebruiker",
 	"configure-boolop-description-and": "Aan alle voorwaarden moet voldaan worden",
-	"configure-boolop-description-or": "Aan tenminste een voorwaarde moet voldaan zijn",
+	"configure-boolop-description-or": "Aan ten minste één voorwaarde moet voldaan zijn",
 	"configure-boolop-description-xor": "Precies een voorwaarde moet waar zijn",
 	"configure-boolop-description-not": "Aan geen enkele voorwaarde moet voldaan zijn",
 	"configure-farmer-settings": "[[Special:Configure|Instellingen maken voor deze wiki]].",
