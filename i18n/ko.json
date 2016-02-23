@@ -4,7 +4,8 @@
 			"Kwj2772",
 			"Wtspout",
 			"아라",
-			"Revi"
+			"Revi",
+			"Mooozi"
 		]
 	},
 	"configure": "위키 설정하기",
@@ -140,7 +141,7 @@
 	"right-extensions-all": "확장 기능 고급 설정",
 	"right-extensions-interwiki": "다른 위키 확장 기능 설정하기",
 	"right-viewconfig": "위키 설정 보기",
-	"right-viewconfig-all": "모든 위키 설정 보기",
+	"right-viewconfig-all": "제한된 위키 설정 보기",
 	"right-viewconfig-interwiki": "다른 위키 설정 보기",
 	"viewconfig": "위키 설정 보기",
 	"configure-throttle-action-edit": "편집",
