@@ -25,7 +25,7 @@
 	"configure-form-reason": "Jrond:",
 	"configure-customised": "''Di Ennschtällong heh sin aanjepaß''",
 	"configure-arrayinput-oneperline": "''(eine en jede Reih)''",
-	"configure-summary": "Hee di {{int:specialpage}} määt et müjjelesch, dat mer em Wikki sing Enschtällonge beärrbeide kann. Loor Der em [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings&uselang=ksh Handbooch för de Wiki-Enschtällonge] aan, wat mer jenou maache kann, wann De mih Enfommazjuhne bruchs.",
+	"configure-summary": "Heh di {{int:specialpage}} määd et müjjelesch, dat mer em Wikki sing Enschtällonge beärrbeide kann. Loor Der em [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings&uselang=ksh Handbohch för dem Wikki sinng Enschtällonge] aan, wat mer jenou maache kann, wann De mih Enfommazjuhne bruchs.",
 	"configure-btn-save": "De Enschtällonge faßhallde",
 	"configure-db-error": "De Datebangk <code>$1</code>, för de Enstellunge dren afzelääje, es nit doh. Don se aanlääje un <code>configure.sql</code> enspelle, udder wääßel obb_en ander, öm met däm Zosatzprojramm hee jet maache ze künne.",
 	"configure-db-table-error": "En dä Datebangk för de Enstellunge dren afzelääje, doh fähle Tabelle. Don se aanlääje endämm dat De <code>configure.sql</code> enspells, öm met däm Zosatzprojramm hee jet maache ze künne.",

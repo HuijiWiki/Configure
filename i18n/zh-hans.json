@@ -35,7 +35,7 @@
 	"configure-form-reason": "原因：",
 	"configure-customised": "''这个设置已经被定制''",
 	"configure-arrayinput-oneperline": "''（每个一行）''",
-	"configure-summary": "这个特殊页面允许你配置这个wiki，参见[https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings 配置设置]来获得更多信息。",
+	"configure-summary": "这个特殊页面允许您配置这个wiki。参见[https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings 配置设置]以获取更多信息。",
 	"configure-btn-save": "保存设置",
 	"configure-db-error": "你指定的用于保存配置的数据库（$1）不存在。\n请创建它并应用configure.sql或者更正它的名字。",
 	"configure-db-table-error": "你指定的数据库没有需要的表。请在其中应用configure.sql。",
