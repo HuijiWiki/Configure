@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Sasan700",
-			"Умар"
+			"Умар",
+			"Исмаил Садуев"
 		]
 	},
 	"configure-desc-val": "МаьӀна",
@@ -27,7 +28,7 @@
 	"configure-section-site": "Сайт нисяр",
 	"configure-section-css-js": "CSS а, JavaScript а",
 	"configure-section-resourceloader": "Ресурсаш чуйохург",
-	"configure-section-namespaces": "ЦӀерийн ана",
+	"configure-section-namespaces": "ЦӀерийн меттигаш",
 	"configure-section-stats": "Сайтан статистика",
 	"configure-section-skin": "Кечяр",
 	"configure-section-vector": "Кечяран тема «Векторан»",
