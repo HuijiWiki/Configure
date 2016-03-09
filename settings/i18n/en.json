@@ -413,7 +413,7 @@
 	"configure-setting-wgSlaveLagCritical": "Threshold for 'critical' slave lag",
 	"configure-setting-wgSlaveLagWarning": "Threshold for slave lag warning",
 	"configure-setting-wgAntivirus": "Internal name of virus scanner",
-	"configure-setting-wgAntivirusRequired": "Require a successful virus scan",
+	"configure-setting-wgAntivirusRequired": "Require a clean virus scan",
 	"configure-setting-wgAntivirusSetup": "Virus scanner configuration",
 	"configure-setting-wgAllowTitlesInSVG": "Allow titles in SVG files",
 	"configure-setting-wgSVGConverter": "SVG converter",
