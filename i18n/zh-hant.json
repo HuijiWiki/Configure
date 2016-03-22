@@ -129,7 +129,7 @@
 	"configure-select-wiki-desc": "選擇你想要配置的 wiki。",
 	"configure-select-wiki-view-desc": "選擇你想檢視配置版本的 wiki。",
 	"configure-select-wiki-view-all": "所有 wiki",
-	"configure-select-wiki-view-specific": "指定wiki：",
+	"configure-select-wiki-view-specific": "指定的 wiki:",
 	"configure-select-wiki-submit": "選擇",
 	"configure-setting-not-available": "這個設定在這個版本的MediaWiki中不可用",
 	"configure-transwiki-not-in-range": "請求的 wiki：$1，不在允許的 {{PLURAL:$3|value|值}} 中：$2。",
