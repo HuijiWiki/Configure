@@ -166,7 +166,7 @@
 	"configure-setting-wgAutopromote-value": "Conditions",
 	"configure-setting-wgAutopromoteOnce": "Conditions of automatic promotion of user to specific groups that are done only once",
 	"configure-setting-wgAccountCreationThrottle": "Number of accounts each IP address may create",
-	"configure-setting-wgBlockCIDRLimit": "Maximum CIDR range when blocking an IP range",
+	"configure-setting-wgBlockCIDRLimit": "Maximum CIDR range when blocking an IP address range",
 	"configure-setting-wgAutoblockExpiry": "Number of seconds before autoblock entries expire",
 	"configure-setting-wgDeleteRevisionsLimit": "Integer of how many revisions a page must have before the ''bigdelete'' right is required to delete it",
 	"configure-setting-wgNewPasswordExpiry": "The time, in seconds, when an emailed temporary password expires",
