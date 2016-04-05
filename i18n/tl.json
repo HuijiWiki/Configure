@@ -104,7 +104,7 @@
 	"configure-section-upload": "Pagkarga",
 	"configure-section-sharedupload": "Magkasalong pagkarga",
 	"configure-section-mime": "Mga uri ng MIME",
-	"configure-section-images": "Mga talaksan",
+	"configure-section-images": "Mga file",
 	"configure-section-djvu": "DjVu",
 	"configure-section-imagemagick": "ImageMagick",
 	"configure-section-svg": "SVG",
