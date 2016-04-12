@@ -1,7 +1,14 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Sarchia"
+		]
+	},
 	"configure-form-reason": "هۆکار:",
 	"configure-js-remove": "سڕینەوە",
+	"configure-section-upload": "بارکردن",
 	"configure-section-search": "گەڕان",
-	"configure-throttle-action-move": "گواستنەوە"
+	"configure-view-default": "ڕێکخستنە بنچینەیییەکان",
+	"configure-throttle-action-move": "گواستنەوە",
+	"configure-throttle-group-anon": "ھەموو بەکارھێنەرە نەناسراوەکان"
 }
