@@ -59,7 +59,7 @@
 	"configure-no-diff": "在选定的版本间没有改变。",
 	"configure-no-directory": "被用于存储设置的目录，<code>$1</code>，不存在。\n请创建或改变它以使用这个扩展。",
 	"configure-no-old": "没有更旧版本的配置可用。",
-	"configure-no-setup": "你需要在你的LocalSettings.php文件中显式调用<code>efConfigureSetup()</code>以使用这个扩展。",
+	"configure-no-setup": "您需要在您的LocalSettings.php文件中显式调用<code>efConfigureSetup()</code>以使用这个扩展。",
 	"configure-no-transwiki": "你不允许改变其他wiki上的设置",
 	"configure-old": "旧版本",
 	"configure-old-versions": "旧版本配置的列表：",
