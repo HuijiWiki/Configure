@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Erdemaslancan",
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"Alp Er Tunqa"
 		]
 	},
 	"configure-desc-group": "قروپ",
@@ -18,7 +19,7 @@
 	"configure-view": "باخ",
 	"configure-throttle-action-edit": "دَییشدیر",
 	"configure-throttle-action-move": "آدینی دَییشدیر",
-	"configure-throttle-group": "تیپ",
+	"configure-throttle-group": "نوع",
 	"configure-throttle-limit": "سینیر",
 	"configure-condition-operator-or": "یوخسا"
 }
