@@ -24,7 +24,7 @@ class ConfigurationManager extends Maintenance {
 		$this->addOption( 'list', 'list all configurations files' );
 		$this->addOption( 'delete', 'delete the file corresponding to the given version', false, true );
 		$this->addOption( 'revert', 'revert the working config to the given version', false, true );
-		
+
 	}
 
 	public function execute(){
@@ -98,4 +98,4 @@ class ConfigurationManager extends Maintenance {
 }
 
 $maintClass = 'ConfigurationManager';
-require_once( DO_MAINTENANCE );
+require_once RUN_MAINTENANCE_IF_MAIN;

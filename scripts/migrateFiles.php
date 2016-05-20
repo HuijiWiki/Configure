@@ -33,7 +33,7 @@ class MigrateFiles extends Maintenance {
 			if ( preg_match( '/^conf-(\d{14})\.ser$/', $file, $m ) || $file == 'conf-now.ser' ) {
 				$old = "$dir/$file";
 				$new = substr( $old, 0, -3 ) . 'php';
-		
+
 				$settings = unserialize( file_get_contents( $old ) );
 				$cont = '<?php $settings = '.var_export( $settings, true ).";";
 
@@ -47,4 +47,4 @@ class MigrateFiles extends Maintenance {
 }
 
 $maintClass = 'MigrateFiles';
-require_once( DO_MAINTENANCE );
+require_once RUN_MAINTENANCE_IF_MAIN;
