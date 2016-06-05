@@ -5,7 +5,8 @@
 			"Wtspout",
 			"아라",
 			"Revi",
-			"Mooozi"
+			"Mooozi",
+			"Ykhwong"
 		]
 	},
 	"configure": "위키 설정하기",
@@ -122,7 +123,7 @@
 	"configure-section-output": "출력",
 	"configure-select-wiki": "위키 선택",
 	"configure-select-wiki-desc": "설정할 위키를 선택하세요.",
-	"configure-select-wiki-view-desc": "설정 버전을 보려는 위키을 선택하세요.",
+	"configure-select-wiki-view-desc": "설정 버전을 보려는 위키를 선택하세요.",
 	"configure-select-wiki-view-all": "모든 위키",
 	"configure-select-wiki-view-specific": "특정 위키:",
 	"configure-select-wiki-submit": "선택",
