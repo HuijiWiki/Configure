@@ -3,7 +3,8 @@
 		"authors": [
 			"Amire80",
 			"Rotemliss",
-			"YaronSh"
+			"YaronSh",
+			"Guycn2"
 		]
 	},
 	"configure": "הגדרת הוויקי",
@@ -140,9 +141,9 @@
 	"configure-view-not-allowed": "אינכם מורשים לעיין בהגדרה זו",
 	"configure-viewconfig-line": "$1 $2 על ידי $3 $5: $4",
 	"extensions": "הגדרת ההרחבות",
-	"right-configure": "הגדרת הוויקי",
-	"right-configure-all": "שינוי כל ההגדרות בוויקי",
-	"right-configure-interwiki": "שינוי ההגדרות של אתר ויקי אחר",
+	"right-configure": "קביעת התצורה של אתר הוויקי",
+	"right-configure-all": "שינוי כל ההגדרות של אתר הוויקי",
+	"right-configure-interwiki": "שינוי הגדרות של אתרי ויקי אחרים",
 	"right-extensions": "הגדרת ההרחבות",
 	"right-extensions-all": "הגדרת הרחבות מתקדמת",
 	"right-extensions-interwiki": "הגדרת הרחבות של אתר ויקי אחר",
