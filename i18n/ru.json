@@ -12,7 +12,8 @@
 			"MaxSem",
 			"Putnik",
 			"Volkov",
-			"Александр Сигачёв"
+			"Александр Сигачёв",
+			"Mailman"
 		]
 	},
 	"configure": "Настройка вики",
@@ -148,7 +149,7 @@
 	"right-extensions-all": "расширенная настройка расширений",
 	"right-extensions-interwiki": "Настройка расширений внешней вики",
 	"right-viewconfig": "Просмотреть настройки вики",
-	"right-viewconfig-all": "Просмотреть все настройки вики",
+	"right-viewconfig-all": "Просматривать все настройки вики",
 	"right-viewconfig-interwiki": "Просмотр настроек внешней вики",
 	"viewconfig": "Просмотр настроек вики",
 	"configure-throttle-action-edit": "Правка",
