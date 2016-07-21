@@ -58,7 +58,7 @@
 	"configure-no-transwiki": "다른 위키에서 설정을 바꿀 수 없습니다",
 	"configure-old": "오래된 버전",
 	"configure-old-versions": "설정의 오래된 버전의 목록:",
-	"configure-old-not-available": "요청한 설정의 오래된 버전인 $1(은)는 사용할 수 없습니다",
+	"configure-old-not-available": "요청한 설정의 오래된 버전인 $1은(는) 사용할 수 없습니다.",
 	"configure-old-changes": "차이",
 	"configure-old-summary": "$1 $2이(가) 설정을 바꿈 $4 $3",
 	"configure-saved": "설정이 저장되었습니다",
