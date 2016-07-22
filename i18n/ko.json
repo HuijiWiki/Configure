@@ -52,7 +52,7 @@
 	"configure-js-search-legend": "검색 설정",
 	"configure-js-search-prompt": "쿼리:",
 	"configure-no-diff": "선택한 버전 사이에 바뀜이 없습니다.",
-	"configure-no-directory": "설정을 저장하는 데 사용할 디렉토리인 <code>$1</code>(이)가 존재하지 않습니다.\n이 확장 기능을 사용하려면 디렉토리를 만들거나 디렉토리를 바꾸세요.",
+	"configure-no-directory": "설정을 저장하는 데 사용할 <code>$1</code> 디렉토리가 존재하지 않습니다.\n이 확장 기능을 사용하려면 디렉토리를 만들거나 디렉토리를 바꾸세요.",
 	"configure-no-old": "사용할 수 있는 설정의 오래된 버전이 없습니다.",
 	"configure-no-setup": "이 확장을 사용하려면 LocalSettings.php 파일에 명시적으로 <code>efConfigureSetup()</code>을 호출해야 합니다.",
 	"configure-no-transwiki": "다른 위키에서 설정을 바꿀 수 없습니다",
