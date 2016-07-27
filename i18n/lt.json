@@ -3,14 +3,15 @@
 		"authors": [
 			"Audriusa",
 			"Eitvys200",
-			"Tomasdd"
+			"Tomasdd",
+			"Zygimantus"
 		]
 	},
 	"configure": "Konfigūruoti wiki",
 	"configure-desc-group": "Grupė",
 	"configure-desc-key": "Raktas",
 	"configure-desc-ns": "Vardų sritis",
-	"configure-desc-val": "Vertė",
+	"configure-desc-val": "Reikšmė",
 	"configure-edit-core": "MediaViki",
 	"configure-edit-ext": "Plėtiniai",
 	"configure-ext-settings": "Nustatymai",
