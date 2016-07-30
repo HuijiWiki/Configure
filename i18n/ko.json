@@ -155,7 +155,7 @@
 	"configure-throttle-group-newbie": "새 사용자 계정 당",
 	"configure-throttle-group-ip": "IP 주소 당",
 	"configure-throttle-group-subnet": "클래스 C 서브넷 당",
-	"configure-throttle-count": "허용한 행동:",
+	"configure-throttle-count": "허용한 동작:",
 	"configure-throttle-period": "기간 재설정 (초):",
 	"configure-throttle-summary": "$2초 동안 작업 $1회.",
 	"configure-throttle-group": "종류",
