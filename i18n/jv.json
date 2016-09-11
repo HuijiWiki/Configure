@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Meursault2004",
-			"Pras"
+			"Pras",
+			"NoiX180"
 		]
 	},
 	"configure": "Konfigurasi wiki iki",
@@ -27,7 +28,7 @@
 	"configure-section-proxy": "Proxy-proxy",
 	"configure-section-cookie": "Cookies",
 	"configure-section-upload": "Unggah",
-	"configure-section-sharedupload": "Pangunggahan binagi",
+	"configure-section-sharedupload": "Unggahan barengan",
 	"configure-section-mime": "jenis-jenis MIME",
 	"configure-section-images": "Gambar-gambar",
 	"configure-section-antivirus": "Antivirus",
