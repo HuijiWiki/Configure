@@ -3,7 +3,8 @@
 		"authors": [
 			"Dbc334",
 			"Eleassar",
-			"Emperyan"
+			"Emperyan",
+			"Janezdrilc"
 		]
 	},
 	"configure": "Konfiguriraj wiki",
@@ -142,7 +143,7 @@
 	"right-viewconfig-interwiki": "Ogled tujih konfiguracij wiki",
 	"viewconfig": "Ogled konfiguracije wiki",
 	"configure-throttle-action-edit": "Uredi",
-	"configure-throttle-action-move": "Prestavi",
+	"configure-throttle-action-move": "Preimenuj",
 	"configure-throttle-action-rollback": "Vrni",
 	"configure-throttle-action-mailpassword": "Pošlji geselski opomnik",
 	"configure-throttle-action-emailuser": "Pošlji pošto",
