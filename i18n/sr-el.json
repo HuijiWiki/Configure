@@ -5,7 +5,8 @@
 			"Milicevic01",
 			"Rancher",
 			"Жељко Тодоровић",
-			"Михајло Анђелковић"
+			"Михајло Анђелковић",
+			"Сербијана"
 		]
 	},
 	"configure": "Konfigurišite viki",
@@ -92,7 +93,7 @@
 	"configure-section-squid": "Lignje",
 	"configure-section-cookie": "Kolačići",
 	"configure-section-performance": "Performanse",
-	"configure-section-upload": "Pošalji",
+	"configure-section-upload": "Otpremi",
 	"configure-section-sharedupload": "Zajedničko slanje",
 	"configure-section-mime": "MIME tipovi",
 	"configure-section-images": "Datoteke",
@@ -140,7 +141,7 @@
 	"configure-throttle-action-edit": "Uredi",
 	"configure-throttle-action-move": "Premesti",
 	"configure-throttle-action-rollback": "Vrati",
-	"configure-throttle-action-emailuser": "Pošalji e-poruku",
+	"configure-throttle-action-emailuser": "Pošalji imejl",
 	"configure-throttle-group-anon": "Svi anonimni korisnici",
 	"configure-throttle-group-user": "Po korisničkom nalogu",
 	"configure-throttle-group-newbie": "Po novom korisničkom nalogu",
