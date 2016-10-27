@@ -143,7 +143,7 @@
 	"right-extensions-all": "Configuração avançada de extensões",
 	"right-extensions-interwiki": "Configurar extensões para wikis externas",
 	"right-viewconfig": "Ver configuração da wiki",
-	"right-viewconfig-all": "Ver todas as configurações da wiki",
+	"right-viewconfig-all": "Ver as configurações de acesso restrito da wiki",
 	"right-viewconfig-interwiki": "Ver configuração de wikis externas",
 	"viewconfig": "Ver configuração da wiki",
 	"configure-throttle-action-edit": "Editar",
