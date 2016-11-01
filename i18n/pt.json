@@ -149,7 +149,7 @@
 	"configure-throttle-action-edit": "Editar",
 	"configure-throttle-action-move": "Mover",
 	"configure-throttle-action-rollback": "Desfazer",
-	"configure-throttle-action-mailpassword": "Enviar recuperação da palavra-chave",
+	"configure-throttle-action-mailpassword": "Enviar recuperação da palavra-passe",
 	"configure-throttle-action-emailuser": "Enviar correio electrónico",
 	"configure-throttle-group-anon": "Todos os utilizadores anónimos",
 	"configure-throttle-group-user": "Por conta de utilizador",
