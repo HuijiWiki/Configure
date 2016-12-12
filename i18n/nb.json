@@ -3,7 +3,8 @@
 		"authors": [
 			"Audun",
 			"Laaknor",
-			"Nghtwlkr"
+			"Nghtwlkr",
+			"Jon Harald Søby"
 		]
 	},
 	"configure": "Konfigurer wikien",
@@ -139,7 +140,7 @@
 	"right-extensions-all": "Avansert konfigurasjon av utvidelser",
 	"right-extensions-interwiki": "Konfigurere utvidelser til fremmede wikier",
 	"right-viewconfig": "Se wikikonfigurasjon",
-	"right-viewconfig-all": "Se alle wikikonfigurasjoner",
+	"right-viewconfig-all": "Se begrensede innstillinger i wikiens konfigurasjon",
 	"right-viewconfig-interwiki": "Vise konfigurasjonen til fremmede wikier",
 	"viewconfig": "Vis wikikonfigurasjon",
 	"configure-throttle-action-edit": "Rediger",
