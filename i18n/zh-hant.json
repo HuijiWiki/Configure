@@ -11,7 +11,8 @@
 			"LNDDYL",
 			"EagerLin",
 			"Liuxinyu970226",
-			"MoonYaksha"
+			"MoonYaksha",
+			"飞舞回堂前"
 		]
 	},
 	"configure": "站務設定",
@@ -41,7 +42,7 @@
 	"configure-db-table-error": "你指定的資料庫沒有需要的表。請在其中應用 configure.sql。",
 	"configure-directory-not-writable": "用於儲存設定的目錄，<code>$1</code>，不可寫。\n請讓它可以由 PHP 寫入以使用這個擴充套件。",
 	"configure-edit-old": "'''警告'''：你正在編輯配置的一個<strong>舊的</strong>版本（於$1的）。",
-	"configure-error": "配置不能被儲存",
+	"configure-error": "配置不能儲存。",
 	"configure-js-add": "加入一個新項目",
 	"configure-js-group-exists": "錯誤：該群組已經存在。",
 	"configure-js-prompt-group": "輸入新組的名字：",

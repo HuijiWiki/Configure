@@ -11,7 +11,8 @@
 			"Hudafu",
 			"Mywood",
 			"Liuxinyu970226",
-			"Impersonator 1"
+			"Impersonator 1",
+			"飞舞回堂前"
 		]
 	},
 	"configure": "配置本wiki",
@@ -41,7 +42,7 @@
 	"configure-db-table-error": "你指定的数据库没有需要的表。请在其中应用configure.sql。",
 	"configure-directory-not-writable": "用于存储设置的目录，<code>$1</code>，不可写。\n请让它可以由PHP写入以使用这个扩展。",
 	"configure-edit-old": "'''警告'''：你正在编辑配置的一个<strong>旧的</strong>版本（于$1的）。",
-	"configure-error": "配置不能被保存",
+	"configure-error": "配置不能保存。",
 	"configure-js-add": "加入一个新项目",
 	"configure-js-group-exists": "错误：组已经存在。",
 	"configure-js-prompt-group": "输入新组的名字：",
