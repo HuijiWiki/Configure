@@ -209,7 +209,7 @@ require_once( $dir . 'Configure.func.php' );
 # Adding internationalisation...
 $wgMessagesDirs['Configure'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['Configure'] = $dir . 'Configure.i18n.php';
-$wgMessagesDirs['ConfigureSettings'] = __DIR__ . 'settings/i18n';
+$wgMessagesDirs['ConfigureSettings'] = $dir . 'settings/i18n';
 $wgExtensionMessagesFiles['ConfigureSettings'] = $dir . 'settings/Settings.i18n.php';
 
 # And special pages aliases...
