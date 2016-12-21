@@ -414,45 +414,4 @@ class ApiConfigure extends ApiBase {
 			);
 		}
 	}
-
-	protected function getParamDescription() {
-		global $wgConfigureAPI;
-
-		if ( $wgConfigureAPI ) {
-			return array(
-				'prop' => array(
-					'Which information to get:',
-					'- versionlist: Get the list of old configurations',
-					'- wikilist:    Get the list the wikis to configuration',
-					'- settings:    Get settings of a specific version',
-					'- extensions:  List of installed extensions',
-					'- ajax:        Get part of the html form on Special:Configure (for internal use)',
-				),
-				'version' => 'Version to get settings from',
-				'wiki' => 'Wiki to get settings from (default: current wiki)',
-				'group' => 'Whether to group settings',
-				'ajaxgroup' => 'for prop=ajax, new group name',
-				'ajaxsetting' =>'for prop=ajax, setting name',
-			);
-		} else {
-			return array(
-				'prop' => array(
-					'Which information to get:',
-					'- ajax:        Get part of the html form on Special:Configure (for internal use)',
-				),
-				'ajaxgroup' => 'for prop=ajax, new group name',
-				'ajaxsetting' =>'for prop=ajax, setting name',
-			);
-		}
-	}
-
-	protected function getDescription() {
-		return 'Configure extension\'s API module';
-	}
-
-	protected function getExamples() {
-		return array(
-			'api.php?action=configure',
-		);
-	}
 }

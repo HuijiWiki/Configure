@@ -14,7 +14,8 @@
 			"Shirayuki",
 			"Siebrand",
 			"Umherirrender",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Divadsn"
 		]
 	},
 	"configure": "{{doc-special|Configure}}",
@@ -206,5 +207,17 @@
 	"configure-boolop-description-not": "Used as description for the operator NOT.\n{{Related|Configure-boolop}}",
 	"configure-farmer-settings": "Preceded by the heading {{msg-mw|Farmer-basic-permission}}.",
 	"configure-farmer-extensions": "Preceded by the heading {{msg-mw|Farmer-extensions}}.\n\nSee also:\n* {{msg-mw|Configure-farmer-extensions-list}}",
-	"configure-farmer-extensions-list": "Preceded by the heading {{msg-mw|Farmer-extensions-available}}.\n\nSee also:\n* {{msg-mw|Configure-farmer-extensions}}"
+	"configure-farmer-extensions-list": "Preceded by the heading {{msg-mw|Farmer-extensions-available}}.\n\nSee also:\n* {{msg-mw|Configure-farmer-extensions}}",
+	"apihelp-configure-description": "{{doc-apihelp-description|configure}}",
+	"apihelp-configure-param-prop": "{{doc-apihelp-param|configure|prop}}",
+	"apihelp-configure-param-prop-versionlist": "{{doc-apihelp-param|configure|prop|versionlist}}",
+	"apihelp-configure-param-prop-wikilist": "{{doc-apihelp-param|configure|prop|wikilist}}",
+	"apihelp-configure-param-prop-settings": "{{doc-apihelp-param|configure|prop|settings}}",
+	"apihelp-configure-param-prop-extensions": "{{doc-apihelp-param|configure|prop|extensions}}",
+	"apihelp-configure-param-prop-ajax": "{{doc-apihelp-param|configure|prop|ajax}}",
+	"apihelp-configure-param-version": "{{doc-apihelp-param|configure|version}}",
+	"apihelp-configure-param-wiki": "{{doc-apihelp-param|configure|wiki}}",
+	"apihelp-configure-param-group": "{{doc-apihelp-param|configure|group}}",
+	"apihelp-configure-param-ajaxgroup": "{{doc-apihelp-param|configure|ajaxgroup}}",
+	"apihelp-configure-param-ajaxsetting": "{{doc-apihelp-param|configure|ajaxsetting}}"
 }
