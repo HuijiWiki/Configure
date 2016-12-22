@@ -189,5 +189,7 @@
 	"configure-boolop-description-not": "Nessuna condizione deve essere verificata",
 	"configure-farmer-settings": "[[Special:Configure|Configura questo sito]].",
 	"configure-farmer-extensions": "[[Special:Extensions|Configura le estensioni per questo sito]].",
-	"configure-farmer-extensions-list": "[[Special:Extensions|Elenca le estensioni disponibili per questo sito]]."
+	"configure-farmer-extensions-list": "[[Special:Extensions|Elenca le estensioni disponibili per questo sito]].",
+	"apihelp-configure-param-prop": "Quali informazioni ottenere",
+	"apihelp-configure-param-prop-extensions": "Elenco delle estensioni installate"
 }

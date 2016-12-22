@@ -11,7 +11,8 @@
 			"Urhixidur",
 			"Verdy p",
 			"Hercule",
-			"Wladek92"
+			"Wladek92",
+			"Gomoko"
 		]
 	},
 	"configure": "Configurer le wiki",
@@ -195,5 +196,17 @@
 	"configure-boolop-description-not": "Aucune condition ne doit être vérifiée",
 	"configure-farmer-settings": "[[Special:Configure|Configurer ce wiki]].",
 	"configure-farmer-extensions": "[[Special:Extensions|Configurer les extensions pour ce wiki]].",
-	"configure-farmer-extensions-list": "[[Special:Extensions|Liste des extensions disponibles pour ce wiki]]."
+	"configure-farmer-extensions-list": "[[Special:Extensions|Liste des extensions disponibles pour ce wiki]].",
+	"apihelp-configure-description": "Module API de l’extension Configure",
+	"apihelp-configure-param-prop": "Quelle information obtenir",
+	"apihelp-configure-param-prop-versionlist": "Obtenir la liste des anciennes configurations",
+	"apihelp-configure-param-prop-wikilist": "Obtenir la liste des wikis en configuration",
+	"apihelp-configure-param-prop-settings": "Obtenir les paramètres d’une version spécifique",
+	"apihelp-configure-param-prop-extensions": "Liste des extensions installées",
+	"apihelp-configure-param-prop-ajax": "Obtenir une partie du formulaire HTML de Special:Configure (pour utilisation interne)",
+	"apihelp-configure-param-version": "Version de laquelle obtenir les paramètres",
+	"apihelp-configure-param-wiki": "Wiki duquel obtenir les paramètres (par défaut : wiki actuel)",
+	"apihelp-configure-param-group": "S’il faut regrouper les paramètres",
+	"apihelp-configure-param-ajaxgroup": "pour prop=ajax, nouveau nom de groupe",
+	"apihelp-configure-param-ajaxsetting": "pour prop=ajax, nom du paramètre"
 }

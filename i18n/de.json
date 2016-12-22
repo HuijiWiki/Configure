@@ -197,5 +197,7 @@
 	"configure-boolop-description-not": "Keine Bedingung darf wahr sein",
 	"configure-farmer-settings": "[[Special:Configure|Konfiguriere dieses Wiki]].",
 	"configure-farmer-extensions": "[[Special:Extensions|Konfiguriere Erweiterungen für dieses Wiki]].",
-	"configure-farmer-extensions-list": "[[Special:Extensions|Liste der für dieses Wiki verfügbaren Erweiterungen]]."
+	"configure-farmer-extensions-list": "[[Special:Extensions|Liste der für dieses Wiki verfügbaren Erweiterungen]].",
+	"apihelp-configure-param-prop-settings": "Ruft Einstellungen einer speziellen Version ab",
+	"apihelp-configure-param-wiki": "Wiki, von dem die Einstellungen abgerufen werden sollen (Standard: aktuelles Wiki)"
 }

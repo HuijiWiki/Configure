@@ -194,5 +194,17 @@
 	"configure-boolop-description-not": "Жодна з умов не повинна бути виконана",
 	"configure-farmer-settings": "[[Special:Configure|Конфігурувати цю вікі]].",
 	"configure-farmer-extensions": "[[Special:Extensions|Налаштування розширень цієї вікі]].",
-	"configure-farmer-extensions-list": "[[Special:Extensions|Список доступних розширень для цієї вікі]]."
+	"configure-farmer-extensions-list": "[[Special:Extensions|Список доступних розширень для цієї вікі]].",
+	"apihelp-configure-description": "Налаштувати API-модуль розширення",
+	"apihelp-configure-param-prop": "Яку інформацію отримати",
+	"apihelp-configure-param-prop-versionlist": "Отримати список старих налаштувань",
+	"apihelp-configure-param-prop-wikilist": "Отримати список вікі для налаштування",
+	"apihelp-configure-param-prop-settings": "Отримати налаштування конкретної версії",
+	"apihelp-configure-param-prop-extensions": "Список встановлених розширень",
+	"apihelp-configure-param-prop-ajax": "Отримати частину форми HTML на Special:Configure (для внутрішнього використання)",
+	"apihelp-configure-param-version": "Версія, з якої отримати налаштування",
+	"apihelp-configure-param-wiki": "Вікі, з якої отримати налаштування (за замовчуванням: поточна вікі)",
+	"apihelp-configure-param-group": "Чи групувати налаштування",
+	"apihelp-configure-param-ajaxgroup": "для prop=ajax, нова назва групи",
+	"apihelp-configure-param-ajaxsetting": "для prop=ajax, назва налаштування"
 }
