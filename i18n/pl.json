@@ -7,7 +7,8 @@
 			"McMonster",
 			"Sociologist",
 			"Sp5uhe",
-			"Wpedzich"
+			"Wpedzich",
+			"Chrumps"
 		]
 	},
 	"configure": "Konfiguracja wiki",
@@ -189,5 +190,6 @@
 	"configure-boolop-description-not": "Brak wymogów do spełnienia",
 	"configure-farmer-settings": "[[Special:Configure|Konfiguracja tej wiki]].",
 	"configure-farmer-extensions": "[[Special:Extensions|Konfiguracja rozszerzeń tej wiki]].",
-	"configure-farmer-extensions-list": "[[Special:Extensions|Spis rozszerzeń dostępnych na tej wiki]]."
+	"configure-farmer-extensions-list": "[[Special:Extensions|Spis rozszerzeń dostępnych na tej wiki]].",
+	"apihelp-configure-param-prop-extensions": "Lista zainstalowanych rozszerzeń"
 }

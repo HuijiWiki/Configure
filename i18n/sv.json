@@ -194,5 +194,8 @@
 	"configure-boolop-description-not": "Inga villkor får vara sanna",
 	"configure-farmer-settings": "[[Special:Configure|Konfigurera den här wikin]].",
 	"configure-farmer-extensions": "[[Special:Extensions|Konfigurera tillägg för den här wikin]].",
-	"configure-farmer-extensions-list": "[[Special:Extensions|Lista tillgängliga tillägg för den här wikin]]."
+	"configure-farmer-extensions-list": "[[Special:Extensions|Lista tillgängliga tillägg för den här wikin]].",
+	"apihelp-configure-param-prop-extensions": "Lista över installerade tillägg",
+	"apihelp-configure-param-version": "Version att hämta inställningar från",
+	"apihelp-configure-param-group": "Om inställningar ska grupperas"
 }
