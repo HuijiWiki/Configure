@@ -12,7 +12,8 @@
 			"Sanbec",
 			"Translationista",
 			"Vivaelcelta",
-			"Macofe"
+			"Macofe",
+			"Dgstranz"
 		]
 	},
 	"configure": "Configurar la wiki",
@@ -194,5 +195,8 @@
 	"configure-boolop-description-not": "Ninguna condición debe ser cierta",
 	"configure-farmer-settings": "[[Special:Configure|Configurar este wiki]].",
 	"configure-farmer-extensions": "[[Special:Extensions|Configurar extensiones para este wiki]].",
-	"configure-farmer-extensions-list": "[[Special:Extensions|Listar extensiones disponibles para este wiki]]."
+	"configure-farmer-extensions-list": "[[Special:Extensions|Listar extensiones disponibles para este wiki]].",
+	"apihelp-configure-param-prop": "Información que obtener",
+	"apihelp-configure-param-prop-versionlist": "Obtener la lista de configuraciones antiguas",
+	"apihelp-configure-param-prop-extensions": "Lista de extensiones instaladas"
 }
