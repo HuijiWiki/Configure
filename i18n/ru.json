@@ -13,7 +13,8 @@
 			"Putnik",
 			"Volkov",
 			"Александр Сигачёв",
-			"Mailman"
+			"Mailman",
+			"Kareyac"
 		]
 	},
 	"configure": "Настройка вики",
@@ -196,5 +197,8 @@
 	"configure-boolop-description-not": "Условия не должны быть истиной",
 	"configure-farmer-settings": "[[Special:Configure|Настройка этой вики]].",
 	"configure-farmer-extensions": "[[Special:Extensions|Настройка расширений для этой вики]].",
-	"configure-farmer-extensions-list": "[[Special:Extensions|Список расширений, доступных для этой вики]]."
+	"configure-farmer-extensions-list": "[[Special:Extensions|Список расширений, доступных для этой вики]].",
+	"apihelp-configure-param-prop": "Какую информацию получить",
+	"apihelp-configure-param-prop-versionlist": "Получить список старых конфигураций",
+	"apihelp-configure-param-prop-extensions": "Список установленных расширений"
 }
