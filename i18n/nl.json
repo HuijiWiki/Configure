@@ -4,7 +4,8 @@
 			"GerardM",
 			"Siebrand",
 			"Tvdm",
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"Mainframe98"
 		]
 	},
 	"configure": "Wiki-instellingen",
@@ -186,5 +187,6 @@
 	"configure-boolop-description-not": "Aan geen enkele voorwaarde moet voldaan zijn",
 	"configure-farmer-settings": "[[Special:Configure|Instellingen maken voor deze wiki]].",
 	"configure-farmer-extensions": "[[Special:Extensions|Uitbreidingen voor deze wiki instellen]].",
-	"configure-farmer-extensions-list": "[[Special:Extensions|Voor deze wiki beschikbare uitbreidingen weergegeven]]."
+	"configure-farmer-extensions-list": "[[Special:Extensions|Voor deze wiki beschikbare uitbreidingen weergegeven]].",
+	"apihelp-configure-param-prop-extensions": "Lijst van geïnstalleerde uitbreidingen"
 }
