@@ -394,6 +394,7 @@ class ApiConfigure extends ApiBase {
 						'ajax',
 					),
 					ApiBase::PARAM_DFLT => 'versionlist|wikilist',
+					ApiBase::PARAM_HELP_MSG_PER_VALUE => [],
 				),
 				'version' => null,
 				'wiki' => null,
@@ -408,6 +409,7 @@ class ApiConfigure extends ApiBase {
 					ApiBase::PARAM_TYPE => array(
 						'ajax',
 					),
+					ApiBase::PARAM_HELP_MSG_PER_VALUE => [],
 				),
 				'ajaxgroup' => null,
 				'ajaxsetting' => null,
