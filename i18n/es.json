@@ -196,7 +196,12 @@
 	"configure-farmer-settings": "[[Special:Configure|Configurar este wiki]].",
 	"configure-farmer-extensions": "[[Special:Extensions|Configurar extensiones para este wiki]].",
 	"configure-farmer-extensions-list": "[[Special:Extensions|Listar extensiones disponibles para este wiki]].",
+	"apihelp-configure-description": "Módulo API de la extensión Configure",
 	"apihelp-configure-param-prop": "Información que obtener",
 	"apihelp-configure-param-prop-versionlist": "Obtener la lista de configuraciones antiguas",
-	"apihelp-configure-param-prop-extensions": "Lista de extensiones instaladas"
+	"apihelp-configure-param-prop-settings": "Obtener la configuración de una versión específica",
+	"apihelp-configure-param-prop-extensions": "Lista de extensiones instaladas",
+	"apihelp-configure-param-version": "Versión de la que obtener la configuración",
+	"apihelp-configure-param-wiki": "Wiki del que obtener la configuración (por defecto, el wiki actual)",
+	"apihelp-configure-param-ajaxsetting": "para prop=ajax, nombre del parámetro"
 }
