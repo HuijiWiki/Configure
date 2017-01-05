@@ -203,5 +203,6 @@
 	"apihelp-configure-param-prop-extensions": "Lista de extensiones instaladas",
 	"apihelp-configure-param-version": "Versión de la que obtener la configuración",
 	"apihelp-configure-param-wiki": "Wiki del que obtener la configuración (por defecto, el wiki actual)",
+	"apihelp-configure-param-group": "¿Agrupar opciones de configuración?",
 	"apihelp-configure-param-ajaxsetting": "para prop=ajax, nombre del parámetro"
 }
