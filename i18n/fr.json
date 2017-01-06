@@ -12,7 +12,8 @@
 			"Verdy p",
 			"Hercule",
 			"Wladek92",
-			"Gomoko"
+			"Gomoko",
+			"McDutchie"
 		]
 	},
 	"configure": "Configurer le wiki",
@@ -149,7 +150,7 @@
 	"right-extensions-all": "Configuration avancée des extensions",
 	"right-extensions-interwiki": "Configurer les extensions d'autres wikis",
 	"right-viewconfig": "Voir la configuration du wiki",
-	"right-viewconfig-all": "Afficher les paramètres de configuration du wiki restreint",
+	"right-viewconfig-all": "Afficher les paramètres de configuration restreints du wiki",
 	"right-viewconfig-interwiki": "Voir la configuration d'autres wikis",
 	"viewconfig": "Voir la configuration du wiki",
 	"configure-throttle-action-edit": "Modifier",
