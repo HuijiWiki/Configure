@@ -192,5 +192,5 @@
 	"configure-farmer-extensions-list": "[[Special:Extensions|이 위키에 사용할 확장 기능을 나타냅니다]].",
 	"apihelp-configure-description": "확장 기능의 API 모듈 구성",
 	"apihelp-configure-param-prop": "가져올 정보",
-	"apihelp-configure-param-prop-versionlist": "오래된 구성 목록 가져오기"
+	"apihelp-configure-paramvalue-prop-versionlist": "오래된 구성 목록 가져오기"
 }
