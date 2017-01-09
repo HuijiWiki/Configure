@@ -185,5 +185,8 @@
 	"configure-boolop-description-not": "Keng Bedingung däerf wouer sinn",
 	"configure-farmer-settings": "[[Special:Configure|Konfiguréiert dës Wiki]].",
 	"configure-farmer-extensions": "[[Special:Extensions|Konfiguréiert d'Erweiderunge fir dës Wiki]].",
-	"configure-farmer-extensions-list": "[[Special:Extensions|Lëscht vun den Erweiderungen déi fir dës Wiki disponibel sinn]]."
+	"configure-farmer-extensions-list": "[[Special:Extensions|Lëscht vun den Erweiderungen déi fir dës Wiki disponibel sinn]].",
+	"apihelp-configure-paramvalue-prop-versionlist": "d'Lëscht vun deen alen Astellunge kréien",
+	"apihelp-configure-paramvalue-prop-settings": "Astellunge vun enger spezifescher Versioun kréien",
+	"apihelp-configure-paramvalue-prop-extensions": "Lëscht vun den installéierten Erweiderungen"
 }

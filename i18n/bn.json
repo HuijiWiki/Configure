@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Bellayet",
-			"Wikitanvir"
+			"Wikitanvir",
+			"Aftabuzzaman"
 		]
 	},
 	"configure": "এই উইকিটি কনফিগার করো",
@@ -165,5 +166,6 @@
 	"configure-boolop-description-not": "কোনো শর্তই সত্যি হওয়া চলবে না",
 	"configure-farmer-settings": "[[Special:Configure|এই উইকি কনফিগার করো]]।",
 	"configure-farmer-extensions": "[[Special:Extensions|এই উইকির জন্য এক্সটেনশনসমূহ কনফিগার করো]]।",
-	"configure-farmer-extensions-list": "[[Special:Extensions|এই উইকির জন্য প্রযোজ্য এক্সটেনশনসমূহের তালিকা]]।"
+	"configure-farmer-extensions-list": "[[Special:Extensions|এই উইকির জন্য প্রযোজ্য এক্সটেনশনসমূহের তালিকা]]।",
+	"apihelp-configure-paramvalue-prop-extensions": "ইনস্টলকৃত এক্সটেনশনের তালিকা"
 }
