@@ -13,7 +13,8 @@
 			"Translationista",
 			"Vivaelcelta",
 			"Macofe",
-			"Dgstranz"
+			"Dgstranz",
+			"Tusca"
 		]
 	},
 	"configure": "Configurar la wiki",
@@ -199,8 +200,10 @@
 	"apihelp-configure-description": "Módulo API de la extensión Configure",
 	"apihelp-configure-param-prop": "Información que obtener",
 	"apihelp-configure-paramvalue-prop-versionlist": "Obtener la lista de configuraciones antiguas",
+	"apihelp-configure-paramvalue-prop-wikilist": "Conseguir lista de los wikis para configuración.",
 	"apihelp-configure-paramvalue-prop-settings": "Obtener la configuración de una versión específica",
 	"apihelp-configure-paramvalue-prop-extensions": "Lista de extensiones instaladas",
+	"apihelp-configure-paramvalue-prop-ajax": "Consulta formulario en HTML en Especial:Configuración (para uso interno)",
 	"apihelp-configure-param-version": "Versión de la que obtener la configuración",
 	"apihelp-configure-param-wiki": "Wiki del que obtener la configuración (por defecto, el wiki actual)",
 	"apihelp-configure-param-group": "¿Agrupar opciones de configuración?",
