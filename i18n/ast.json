@@ -184,5 +184,17 @@
 	"configure-boolop-description-not": "Denguna condición debe ser cierta",
 	"configure-farmer-settings": "[[Special:Configure|Configurar esta wiki]].",
 	"configure-farmer-extensions": "[[Special:Extensions|Configurar les estensiones d'esta wiki]].",
-	"configure-farmer-extensions-list": "[[Special:Extensions|Llista d'estensiones disponibles pa esta wiki]]."
+	"configure-farmer-extensions-list": "[[Special:Extensions|Llista d'estensiones disponibles pa esta wiki]].",
+	"apihelp-configure-description": "Módulu API de la estensión Configure",
+	"apihelp-configure-param-prop": "Información a recuperar",
+	"apihelp-configure-paramvalue-prop-versionlist": "Recuperar la llista de configuraciones antigües",
+	"apihelp-configure-paramvalue-prop-wikilist": "Recuperar la llista de les wikis pa configuración",
+	"apihelp-configure-paramvalue-prop-settings": "Recuperar la configuración d'una versión específica",
+	"apihelp-configure-paramvalue-prop-extensions": "Llista d'estensiones instalaes",
+	"apihelp-configure-paramvalue-prop-ajax": "Recuperar parte del formulariu html en Special:Configure (pa usu internu)",
+	"apihelp-configure-param-version": "Versión de la que recuperar la configuración",
+	"apihelp-configure-param-wiki": "Wiki de la que recuperar la configuración (predeterminao: la wiki actual)",
+	"apihelp-configure-param-group": "¿Agrupar les opciones de configuración?",
+	"apihelp-configure-param-ajaxgroup": "pa prop=ajax, nuevu nome de grupu",
+	"apihelp-configure-param-ajaxsetting": "pa prop=ajax, nome de la opción"
 }
