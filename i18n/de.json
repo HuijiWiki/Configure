@@ -198,6 +198,9 @@
 	"configure-farmer-settings": "[[Special:Configure|Konfiguriere dieses Wiki]].",
 	"configure-farmer-extensions": "[[Special:Extensions|Konfiguriere Erweiterungen für dieses Wiki]].",
 	"configure-farmer-extensions-list": "[[Special:Extensions|Liste der für dieses Wiki verfügbaren Erweiterungen]].",
-	"apihelp-configure-param-prop-settings": "Ruft Einstellungen einer speziellen Version ab",
-	"apihelp-configure-param-wiki": "Wiki, von dem die Einstellungen abgerufen werden sollen (Standard: aktuelles Wiki)"
+	"apihelp-configure-paramvalue-prop-settings": "Ruft Einstellungen einer speziellen Version ab",
+	"apihelp-configure-paramvalue-prop-extensions": "Liste installierter Erweiterungen",
+	"apihelp-configure-param-wiki": "Wiki, von dem die Einstellungen abgerufen werden sollen (Standard: aktuelles Wiki)",
+	"apihelp-configure-param-ajaxgroup": "für prop=ajax, neuer Gruppenname",
+	"apihelp-configure-param-ajaxsetting": "für prop=ajax, Einstellungsname"
 }
