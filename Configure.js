@@ -116,8 +116,8 @@ jQuery( document ).ready( function ( $, mw ) {
 		$( '<a></a>' )
 			.css( 'align', 'right' )
 			.attr( 'href', '#' )
-			.append( $( '<img />' )
-				.attr( {'src': stylepath + '/common/images/Arr_l.png', 'title': 'hide TOC' } )
+			.append( $( '<i></i>' )
+				.attr( {'class': 'fa fa-caret-square-o-left', 'title': 'hide TOC' } )
 			)
 			.mousedown( function( e ) {
 				e.preventDefault();
@@ -126,15 +126,15 @@ jQuery( document ).ready( function ( $, mw ) {
 			.click( function( e ) {
 				if ( $( '#configtoc' ).css( 'display' ) === 'none' ) {
 					$( '#configtoc' ).show();
-					$( this ).children( 'img' ).remove();
-					$( this ).append( $( '<img />' )
-						.attr( {'src': stylepath + '/common/images/Arr_l.png', 'title': 'hide TOC' } )
+					$( this ).children( 'i' ).remove();
+					$( this ).append( $( '<i></i>' )
+						.attr( {'class': 'fa fa-caret-square-o-left', 'title': 'hide TOC' } )
 					);
 				} else {
 					$( '#configtoc' ).hide();
-					$( this ).children( 'img' ).remove();
-					$( this ).append( $( '<img />' )
-						.attr( {'src': stylepath + '/common/images/Arr_r.png', 'title': 'show TOC' } )
+					$( this ).children( 'i' ).remove();
+					$( this ).append( $( '<i></i>' )
+						.attr( {'class': 'fa fa-caret-square-o-right', 'title': 'show TOC' } )
 					);
 				}
 				e.preventDefault();

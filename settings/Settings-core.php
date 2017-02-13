@@ -86,6 +86,7 @@ $settings = array(
 		'test' => array(
 			'wgEnableJavaScriptTest' => 'bool',
 			'wgJavaScriptTestConfig' => 'array',
+			'wgHuijiDebug' => 'bool',
 		),
 	),
 	'pages' => array(

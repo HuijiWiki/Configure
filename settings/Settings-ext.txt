@@ -441,9 +441,9 @@ settings[] = edgDBName: array, edgDBUser: array
 settings[] = edgDBPass: array, edgDBServer: array
 settings[] = edgDBServerType: array
 array[] = edgStringReplacements: assoc
-settings[] = edgDBName: assoc, edgDBUser: assoc
-settings[] = edgDBPass: assoc, edgDBServer: assoc
-settings[] = edgDBServerType: assoc
+array[] = edgDBName: assoc, edgDBUser: assoc
+array[] = edgDBPass: assoc, edgDBServer: assoc
+array[] = edgDBServerType: assoc
 empty[] = edgCacheTable: null
 url = http://www.mediawiki.org/wiki/Extension:External_Data
 
